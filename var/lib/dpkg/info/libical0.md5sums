@@ -1,0 +1,9 @@
+c9f4a23070d7d1e7c3c16322ee87816e  usr/share/doc/libical0/changelog.Debian.gz
+1e6bd86c3a9a64d3d1286800d4d047cb  usr/share/doc/libical0/changelog.gz
+1ae1c09dc48b2373b1d1ef201808c28b  usr/share/doc/libical0/README
+a349d26a64b54a31eee5071933c4b844  usr/share/doc/libical0/copyright
+c0e7f1b3d59c01dad3b945f8bafcb32d  usr/share/doc/libical0/TODO
+61057871add99f34140801af6b178100  usr/share/doc/libical0/NEWS.gz
+c0f67f9bec0b3efbdecbeb2d378e328c  usr/lib/libicalvcal.so.0.44.0
+9adad14e520299d48a73c3cb157a6d48  usr/lib/libical.so.0.44.0
+52bace45c8f4fe8ee76aef2ea867455e  usr/lib/libicalss.so.0.44.0

@@ -1,0 +1,12 @@
+8a6b27a5bf303f7740c6c5613bd09ce4  usr/lib/libavcodec.so.52.20.1
+7bda6b78e35a61d984d92e1e6e2f48dd  usr/lib/neon/vfp/libavcodec.so.52.20.1
+a7e2276d0971098bdcf68da1ae4bd3de  usr/lib/vfp/libavcodec.so.52.20.1
+4263310f0087032d17bbf57d24cc982f  usr/share/doc/libavcodec52/CREDITS
+cfb14a1b75f6825cece0d019fdde55f2  usr/share/doc/libavcodec52/MAINTAINERS.gz
+5d4f3da091ed2960228e255391b6553c  usr/share/doc/libavcodec52/README.Debian.gz
+5445eeb1b70893e88726cf7d9a0da1d7  usr/share/doc/libavcodec52/TODO
+dce496c66d57f840c9f4ffdbbccb5ecd  usr/share/doc/libavcodec52/changelog.Debian.gz
+f46207c2c8d152b571a05e44522aa6ab  usr/share/doc/libavcodec52/changelog.gz
+a1dcc5382322f9332809f502cf7509c9  usr/share/doc/libavcodec52/copyright
+3ce9974c7dbcebea9a5458ab3ddb13a8  usr/share/doc/libavcodec52/formats.txt.gz
+5ad0feb623ce849d64a0f309914ffe7f  usr/share/lintian/overrides/libavcodec52

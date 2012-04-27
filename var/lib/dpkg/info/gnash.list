@@ -1,0 +1,17 @@
+/.
+/etc
+/etc/gnashrc
+/usr
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/doc
+/usr/share/doc/gnash
+/usr/share/doc/gnash/changelog.Debian.gz
+/usr/share/doc/gnash/copyright
+/usr/share/doc/gnash/changelog.gz
+/usr/share/applications
+/usr/share/applications/gnash.desktop
+/usr/bin
+/usr/bin/gtk-gnash
+/usr/share/man/man1/gtk-gnash.1.gz

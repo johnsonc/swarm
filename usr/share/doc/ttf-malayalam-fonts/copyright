@@ -1,0 +1,134 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: ttf-malayalam-fonts
+Maintainer: Debian-IN Team <debian-in-workers@lists.alioth.debian.org>
+Source:
+ <http://savannah.nongnu.org/projects/smc>
+ <http://kevinsiji.goldeye.info/wp-content/downloads/AnjaliOldLipi.730.zip>
+ <http://hiran.v.googlepages.com/AnjaliOldLipi.ttf>
+ <http://hiran.v.googlepages.com/Kalyani.ttf>
+ <http://varamozhi.wikia.com/wiki/Varamozhi>
+ <https://fedorahosted.org/lohit/>
+ <http://suruma.sarovar.org/fonts/meera/>
+
+Authors:
+ Baiju M <baijum81@lycos.com>
+ Kevin & Siji <http://kevinsiji.goldeye.info>
+ Rachana Akshara Vedi <http://www.rachanamalayalam.org>
+ Suresh P <suresh@ippimail.com>
+ Hiran Venugopalan <hiran.v@gmail.com>
+ Hussain K H <hussain.rachana@gmail.com>
+ Pravin Satpute <pravin.d.s@gmail.com>
+
+Files: Kalyani121.ttf
+Copyright: (C) Jeroen Hellingman <jehe@kabelfoon.nl>,
+               N.V Shaji <nvshaji@yahoo.com>,
+               Hiran Venugopalan <hiran.v@gmail.com>
+License: GPL-2+
+
+Files: AnjaliOldLipi.ttf
+Copyright: (C) 2004, Kevin & Siji
+License: GPL-2+
+
+Files: Dyuthi3.ttf
+Copyright: (C) 2007, Hiran Venugopalan,
+                     Hussain K H,
+                     Suresh P,
+                     Swathanthra Malayalam Computing
+License: GPL-2+
+
+Files: Meera_04.ttf
+Copyright: (C) 2007, Hussain K H,
+                     Suresh P,
+                     Swathanthra Malayalam Computing
+License: GPL-2+
+
+Files: RaghuMalyalamSans2.ttf
+Copyright: (C) CDAC, Mumbai
+ Font Design: Prof.R.K.Joshi and Rajith Kumar K.M., assisted by Nirmal Biswas,
+ Jui Mhatre and Supriya Kharkar. This is Version 2 after modification of
+ opentype tables and addtion of glyphs by suresh p.<suresh@ippimail.com>.
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; either version 2 of the License, or (at your option) any later
+ version.
+ .
+ This package is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this package; if not, write to the Free Software Foundation, Inc., 51 Franklin
+ St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General Public License can be
+ found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: Rachana_04.ttf
+Copyright: (C) 2005, Rachana Akshara Vedi
+                     <Chitrajakumar R, Hussain KH, Rajeev Sebastian,
+                     Gangadharan N, Vijayakumaran Nair, Subash Kuraiakose>
+License: GPL-2+ with special note
+ Rachana is a language campaign forum for the Original script of Malayalam in
+ the digital computing. It started in 1999 under the leadership of
+ R. Chitrajakumar (Malayalam Lexicon, Kerala University, Palayalm,
+ Thiruvananthapuram). Hussain KH (KFRI, Kerala Forest Research Institute,
+ Peechi, Thrissur) is the project coordinator who designed the font. Other
+ Members are:  Gangadharan N (Malayalam Lexicon) who assisted Chitrajakumar in
+ compiling the exhaustive character set of Malayalam; Dr. P Vijayakumaran Nair
+ (KFRI) who assisted in programming the Rachana text editor which was used by
+ many from 1999 to 2005 to typeset Books and journal articles in the old Lipi;
+ Subash Kuriakose (KFRI) who gave advice to Hussain in the many aspects of
+ Malayalam calligraphy. Later in 2004 Rajeev J Sebastian joined the Rachana
+ team, whose mastery in Linux and untiring work is elevating the campaign to
+ materialize its highest dream that to embed the original script in the OS
+ enabling it in the whole field of digital applications. Dr. Mammen Chundamannil
+ (KFRI) is an ardent supporter and well wisher of Rachana whose article 'For our
+ language, our script' has spread the vision and objectives of Rachana to the
+ whole world.
+ .
+ There seems to be some confusion regarding the license of Rachana. Praveen has
+ confirmed that Rachana is indeed under GPL. Any queries regarding the exact
+ status of Rachana license issue should be directed to Praveen
+ <pravi.a@gmail.com>
+
+Files: suruma2.ttf
+Copyright: (C) Suresh P <suresh@ippimail.com>
+License: GPL-2 with font exception
+
+Files: lohit_ml.ttf
+Copyright: (C) 2003, Modular Infotech, Pune, INDIA.
+           (C) 2006, Modular Infotech Pvt Ltd.
+           (C) 2009, Red Hat, Inc.
+License: GPL-2 with font exception
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License.
+ .
+ This package is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this package; if not, write to the Free Software Foundation, Inc., 51 Franklin
+ St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ Font Exception:
+ As a special exception, if you create a document which uses this font, and
+ embed this font or unaltered portions of this font into the document, this
+ font does not by itself cause the resulting document to be covered by the GNU
+ General Public License. This exception does not however invalidate any other
+ reasons why the document might be covered by the GNU General Public License.
+ If you modify this font, you may extend this exception to your version of the
+ font, but you are not obligated to do so. If you do not wish to do so, delete
+ this exception statement from your version.
+ .
+ On Debian systems, the complete text of the GNU General Public License can be
+ found in `/usr/share/common-licenses/GPL-2'.
+
+Files: debian/*
+Copyright: This collection itself is hereby assigned to the public domain by
+ the compilers, Jaldhar H. Vyas <jaldhar@braincells.com> and Soumyadip Modak
+ <soumyadip@softhome.net>
+License: Public Domain

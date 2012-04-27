@@ -1,0 +1,3059 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-ttf/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-ttf/command</applyto>
+      <type>string</type>
+      <default>gnome-thumbnail-font %u %o</default>
+      <locale name="C">
+        <short>Thumbnail command for TrueType fonts</short>
+        <long>
+          Set this key to the command used to create thumbnails for
+          TrueType fonts.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Duimnaelsketsopdrag vir TrueType-lettertipes</short>
+        <long>Stel hierdie sleutel in op die opdrag wat gebruik word om &apos;n duimnaelskets te skep vir TrueType-lettertipes.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>أمر إنشاء مصغرات خطوط TrueType</short>
+        <long>اضبط هذا المفتاح للأمر المجعول لإنشاء مصغرات خطوط TrueType.</long>
+      </locale>
+
+      <locale name="as">
+        <short>TrueType ফন্টৰ থাম্বনেইল আদেশ</short>
+        <long>TrueType ফন্টৰ থাম্বনেইল নিৰ্মাণৰ আদেশ চলোৱাৰ বাবে এই চাবিক নিৰ্ধাৰণ কৰক  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Comandu pa miniaturizar les tipografíes TrueType</short>
+        <long>Ponga nesta clave la orde qu&apos;hai d&apos;usar pa crear miniatures de les tipografíes TrueType.</long>
+      </locale>
+
+      <locale name="az">
+        <short>TrueType yazı növlərinin ön nümayiş əmri</short>
+        <long>Bu düyməni TrueType yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Загад стварэньня мініятураў для шрыфтоў TrueType</short>
+        <long>Усталюйце ў гэты ключ загад для стварэньня мініятураў для шрыфтоў TrueType.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Zahad, kab stvarać minijatury dla šryftoŭ TrueType</short>
+        <long>Akreśl dla hetaha kluča zahad, kab stvarać minijatury dla šryftoŭ TrueType.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Команда за миниизображения за шрифтове TrueType.</short>
+        <long>Команда за създаването на миниизображения за шрифтове във формат TrueType.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>TrueType ফন্টের জন্য থাম্বনেইল কমান্ড</short>
+        <long>TrueType ফন্টের থাম্বনেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>TrueType ফন্টের জন্য থাম্ব-নেইল কমান্ড</short>
+        <long>TrueType ফন্টের থাম্ব-নেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Naredba za umanjeni prikaz TrueType fontova</short>
+        <long>Dodijeli ovu tipku naredbi koja se koristi za umanjeni prikaz TrueType fontova.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Ordre per a crear miniatures pels tipus de lletra TrueType</short>
+        <long>Establiu aquesta clau a l&apos;ordre utilitzada per crear miniatures per al tipus de lletra TrueType.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Orde per a crear miniatures pels tipus de lletra TrueType</short>
+        <long>Establiu esta clau a l&apos;orde utilitzada per crear miniatures per al tipus de lletra TrueType.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>TrueType yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı TrueType yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Příkaz náhledu písem TrueType</short>
+        <long>Nastavte tento klíč na příkaz používaný k vytváření náhledů písem TrueType.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Gorchymyn lluniau cryno ar gyfer ffontiau TrueType</short>
+        <long>Gosodwch yr allwedd hon i&apos;r gorchymyn a ddefnyddir er mwyn creu lluniau cryno o ffontiau TrueType.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Miniaturekommando for TrueType-skrifttyper</short>
+        <long>Sæt denne nøgle til kommandoen til at oprette miniature til TrueType-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für TrueType-Schriften</short>
+        <long>Setzen Sie diesen Schlüssel auf den zum Erstellen von Miniatur-Vorschaubildern auf TrueType-Schriften verwendeten Befehl.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཊུ་ཊ་ཡིབ་ ཡིག་གཟུགས་ཀྱི་དོན་ལུ་ མཐེབ་གཟེར་གྱི་བརྡ་བཀོད།</short>
+        <long>ལྡེ་མིག་འདི་ ཊུ་ཊ་ཡིབ་ ཡིག་གཟུགས་ཀྱི་དོན་ལས་ མཐེབ་གཟེར་གསར་བསྐྲུན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ བརྡ་བཀོད་ལུ་ གཞི་སྒྲིག་འབད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εντολή μικρογραφιών γραμματοσειρών TrueType</short>
+        <long>Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη δημιουργία μικρογραφιών για τις γραμματοσειρές TrueType.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Thumbnail command for TrueType fonts</short>
+        <long>Set this key to the command used to create thumbnails for TrueType fonts.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for TrueType fonts</short>
+        <long>Set this key to the command used to create thumbnails for TrueType fonts.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para miniaturizar las tipografías TrueType</short>
+        <long>Establezca en esta clave el comando que se debe usar para crear miniaturas de las tipografías TrueType.</long>
+      </locale>
+
+      <locale name="et">
+        <short>TrueType kirjatüüpidest pisipiltide tegemise käsk</short>
+        <long>Käsk, millega tehakse TrueType kirjatüüpidest pisipilte.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Komandoa TrueType letra-tipoa koadro txikietan jartzeko</short>
+        <long>Ezarri gako hau TrueType letra-tipoak koadro txikietan jartzeko erabiliko den komandoari.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>فرمان مسطوره‌سازی برای قلم‌های TrueType</short>
+        <long>این کلید به فرمانی که برای ایجاد مسطوره برای قلم‌های TrueType استفاده می‌شود تنظیم شود.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Pienoiskuvakomento TrueType-kirjasimille</short>
+        <long>Aseta tähän avaimeen komento, joka luo pienoiskuvia TrueType-kirjasimista.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de vignettes pour les polices TrueType</short>
+        <long>Placez dans cette clé la commande servant à créer les vignettes pour les polices TrueType.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Orde para miniaturizar os tipos de letra TrueType</short>
+        <long>Definir esta chave na orde usada para crear miniaturas para os tipos de letra TrueType.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>TrueType ફોન્ટો માટે થમ્બનેઇલ આદેશ</short>
+        <long>TrueType ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Thumbnail command for TrueType fonts</short>
+        <long>Set this key to the command used to create thumbnails for TrueType fonts.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>ट्रू टाइप फ़ॉन्ट्स हेतु लघु छवि बनाने के कमांड</short>
+        <long>इस कुंजी को ट्रू टाइप फ़ॉन्ट्स के लघु छवि बनाने के कमांड हेतु नियत करें.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>TrueType betűkészletek bélyegkép-parancsa</short>
+        <long>Állítsa ezt a kulcsot a TrueType betűkészletekből bélyegkép készítésére használt parancsra.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Smámyndaskipun fyrir TrueType-letur</short>
+        <long>Stilltu þennan lykil við skipunina sem notuð er til að smámynda TrueType letur.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Comando per le anteprime dei caratteri TrueType</short>
+        <long>Impostare il valore di questa chiave al comando da usare per creare le anteprime dei caratteri TrueType.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>TrueType のサムネイルを生成するコマンド</short>
+        <long>TrueType のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ</short>
+        <long>ಈ ಕೀಲಿಯನ್ನು ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ ಹೊಂದಿಸು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>트루타입 글꼴의 미리보기 명령</short>
+        <long>트루타입 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Ji bo curetîpên TrueType fermana mînandinê</short>
+        <long>Vê mifteyê ji bo fermana curenivîsên TrueType were mînakkirin mîheng bike</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Peržiūros komanda TrueType šriftams</short>
+        <long>Šiame rakte nurodykite komandą, kuri bus naudojama kurti TrueType šriftų miniatiūroms.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Sīkattēlu komanda TrueType fontiem</short>
+        <long>Iestatiet šo atslēgu uz komandu, ko lietot, lai izveidotu sīkattēlus TrueType fontiem.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>ट्रू टाइप फोन्ट लेल लघु बिंब बनाबै क&apos; कमांड</short>
+        <long>एहि कुँजीकेँ ट्रू टाइप फोन्ट क&apos; लघु बिंब बनाबै क&apos; कमांड लेल नियत करू.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Baiko famoronana sary madinika ho an&apos;ny endri-tsoratra TrueType</short>
+        <long>Ampifanaraho amin&apos;ny baiko amoronana sary madinika ho an&apos;ny endri-tsoratra TrueType ity famaha ity.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>TrueType അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര കമാന്‍ഡ്</short>
+        <long>TrueType അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര ഉണ്ടാക്കുന്നതിനുള്ള കമാന്‍ഡിനു് ഈ കീ സജ്ജമാക്കുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>TrueType-бичгүүдийг урьдчилан харах тушаал</short>
+        <long>TrueType бичгүүдийн хувьд бяцхан зураг үүсгэх тушаалдаа та энэ түлхүүрийг тогтоо.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>TrueType फॉन्ट करीता thumbnail आदेश</short>
+        <long>TrueType फॉन्ट करीता थंबनेल बनविण्यासाठी वापरण्याजोगी आदेशकरीता ही कि निश्चित करा.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>सहि प्रकारका फन्टहरूका लागि थम्बनेल आदेश</short>
+        <long>सही प्रकारका फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई सेट गर्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Opdracht voor miniatuur voor TrueType-lettertypes</short>
+        <long>Stel deze sleutel in op de opdracht waarnee miniaturen worden gemaakt van TrueType-lettertypes.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Miniatyr-TrueType-kommando</short>
+        <long>Sett denne nøkkelen til kommandoen som lagar miniatyrar av TrueType-skrifter.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Taelo ya khutsofatšo bakeng sa difonto tša Mohuta wa Therešo</short>
+        <long>Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo tša difonto tša Mohuta wa Therešo.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଥମ୍ବନେଇଲ ଆଦେଶ ଟ୍ରୁ ଟାଇପ ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ</short>
+        <long>ଟ୍ରୁଟାଇପ ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ ଥମ୍ବନେଇଲ ସୃଷ୍ଟିକରିବା ନିମନ୍ତେ ଉପୟୋଗ ହେଉଥିବା ଏହି କିକୁ ଆଦେଶକୁ ସେଟ କର ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਫੋਂਟ ਟਰੂ-ਟਾਈਪ (TrueType) ਲਈ ਥੰਬਨੇਲ ਕਮਾਂਡ</short>
+        <long>ਕਮਾਂਡ, ਜੋ ਫੋਂਟ ਟਰੂ-ਟਾਈਪ (TrueType) ਲਈ ਥੰਬਨੇਲ ਬਣਾਉਦੀ ਹੈ, ਨੂੰ ਇਹ ਸਵਿੱਚ ਦਿਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Polecenie generujące miniaturki dla czcionek TrueType</short>
+        <long>Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek TrueType.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando de amostras para fontes TrueType</short>
+        <long>Defina esta chave com o comando utilizado para criar amostras de fontes TrueType.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para fontes TrueType</short>
+        <long>Defina esta chave para o comando usado para criar miniaturas das fontes TrueType.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Comanda de creare miniaturi pentru fonturile TrueType.</short>
+        <long>Definiți această cheie cu comanda utilizată pentru a crea miniaturi pentru fonturile TrueType.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Команда создания миниатюр для шрифтов TrueType</short>
+        <long>Ключ задаёт команду для создания миниатюр шрифтов TrueType.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Príkaz pre náhľady písiem TrueType</short>
+        <long>Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem TrueType.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ukaz za ustvaritev sličic pisav TrueType.</short>
+        <long>Ukaz za ustvaritev sličic pisav TrueType.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Наредба за умањени приказ код ТруТајп словног лика</short>
+        <long>Додели овај тастер наредби која се користи за прављење умањеног приказа код ТруТајп словних ликова.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Naredba za umanjeni prikaz kod TruTajp slovnog lika</short>
+        <long>Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza kod TruTajp slovnih likova.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Miniatyrbildskommando för TrueType-typsnitt</short>
+        <long>Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för TrueType-typsnitt.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>TrueType எழுத்துருக்களுக்கான சிறுபட கட்டளை</short>
+        <long>TrueType எழுத்துருக்களுக்கு சிறுபடம் உருவாக்க இந்த விசையை கட்டளையாக அமை.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ట్రూటైప్ ఫాంట్ల కొరకు థంబ్‌నైల్ ఆదేశం</short>
+        <long>ట్రూటైప్ ఫాంట్ల కొరకు థంబ్‌నెయిల్సును సృష్టించుటకు ఉపయోగించు ఆదేశంకు ఈ కీని అమర్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>คำสั่งสร้างรูปย่อสำหรับแบบอักษร TrueType</short>
+        <long>กำหนดคำสั่งที่ใช้สร้างรูปย่อสำหรับแบบอักษร TrueType</long>
+      </locale>
+
+      <locale name="tr">
+        <short>TrueType yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı TrueType yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Команда створення мініатюр для шрифтів у форматі TrueType</short>
+        <long>Вкажіть у цьому ключі команду, що використовуватиметься для створення мініатюр для шрифтів у форматі TrueType</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lệnh tạo ảnh mẫu cho phông chữ TrueType</short>
+        <long>Đặt khóa này cho lệnh được dùng để tạo ảnh mẫu cho phông chữ TrueType.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Umyalelo wokutyhila okukhawulezayo kweefonti i-TrueType</short>
+        <long>Misela eli qhosha kumyalelo osetyenzisiweyo ukudala ukutyhila okukhawulezayo kweefonti i-TrueType.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>TrueType 字体的缩略图命令</short>
+        <long>设置该值到用于创建 TrueType 字体缩略图的命令。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>製作 TrueType 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 TrueType 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>製作 TrueType 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 TrueType 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Gcizelela umyalo wesiqwema se-TrueType</short>
+        <long>Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-TrueType.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-ttf/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-ttf/enable</applyto>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Whether to thumbnail TrueType fonts</short>
+        <long>
+          If set to true, then TrueType fonts will be thumbnailed.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Om TrueType-lettertipes te duimnaelskets of nie</short>
+        <long>Indien waar, sal TrueType-lettertipe geduimnaelskets wees.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>فيما إذا ستنشأ مصغرات لخطوط TrueType</short>
+        <long>إذا ضبط لصحيح، فستنشأ مصغرات لخطوط TrueType.</long>
+      </locale>
+
+      <locale name="as">
+        <short>TrueType ফন্টৰ থাম্বনেইল কৰা হ&apos;ব নে নহয়</short>
+        <long>সত্য হ&apos;লে TrueType ফন্টকে থাম্বনেইল কৰা হ&apos;ব  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Conseña si hai de miniaturizar les tipografíes TrueType</short>
+        <long>Si ta afitao a «true», entós les tipografíes TrueType miniaturizaránse.</long>
+      </locale>
+
+      <locale name="az">
+        <short>TrueType yazı növlərinin ön nümayişlərinin göstərilməsi</short>
+        <long>Seçilirsə, TrueType yazı növlərinin ön nümayişləri göstəriləcək.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Ці ствараць мініятуры для шрыфтоў TrueType</short>
+        <long>Калі ісьціна, будуць стварацца мініятуры для шрыфтоў TrueType.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Ci treba stvarać minijatury dla šryftoŭ TrueType</short>
+        <long>Kali ŭklučana, buduć hieneravacca minijatury dla šryftoŭ TrueType.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Да има ли миниизображения за шрифтове TrueType</short>
+        <long>Ако е истина, шрифтовете във формат TrueType ще се показват с миниизображение.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>TrueType ফন্টের থাম্বনেইল তৈরি করা হবে কি না</short>
+        <long>মান সত্য হলে, TrueType ফন্টগুলি থাম্বনেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>TrueType ফন্টের থাম্ব-নেইল তৈরি করা হবে কি না</short>
+        <long>মান true (সত্য) হলে, TrueType ফন্টগুলি থাম্ব-নেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Mar fell dit diskouez an nodrezhoù TrueType evel skeudennig</short>
+        <long>Mar bez gwir e vo diskouezet an nodrezhoù TrueType evel skeudennig.</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Da li prikazati umanjeno TrueType fontove</short>
+        <long>Ako je postavljeno, TrueType fontovi će biti prikazani umanjeni.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra TrueType</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores dels tipus de lletra TrueType se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra TrueType</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores dels tipus de lletra TrueType se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>TrueType yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğru&apos;ya ayarlı ise, TrueType yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Jestli tvořit náhledy písem TrueType</short>
+        <long>Je-li nastaveno na &quot;true&quot;, budou tvořeny náhledy písem TrueType.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>A ddylid creu lluniau cryno o ffontiau TrueType</short>
+        <long>Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau TrueType.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opret miniaturer for TrueType-skrifttyper</short>
+        <long>Hvis dette er sat til sand, oprettes miniaturebilleder for TrueType-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubilder auf TrueType-Schriften anzeigen?</short>
+        <long>Sollen Miniatur-Vorschaubilder auf TrueType-Schriften angezeigt werden?</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཊུ་ཊ་ཡིབ་ ཡིག་གཟུགས་ཚུ་ལུ་ མཐེབ་གཟེར་བརྡབ་ནི་ཨིན་ན་མེན།</short>
+        <long>བདེན་པ་ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ དེ་ལས་ ཊུ་ཊ་ཡིབ་ ཡིག་གཟུགས་ཚུ་ མཐེབ་གཟེར་བརྡབས་ཏེ་སྡོད་འོང་།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών TrueType</short>
+        <long>Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών TrueType.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Whether to thumbnail TrueType fonts</short>
+        <long>If set to true, then TrueType fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Whether to thumbnail TrueType fonts</short>
+        <long>If set to true, then TrueType fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Indica si debe miniaturizar las tipografías TrueType</short>
+        <long>Si está establecido a «true», entonces las tipografías TrueType se miniaturizarán.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kas TrueType kirjatüüpidest tuleb pisilte teha</short>
+        <long>Kui märgitud, siis tehakse TrueType kirjatüüpidest pisipildid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>TrueType letra-tipoak koadro txikietan jarri ala ez</short>
+        <long>TRUE (egia) ezartzen bada, TrueType letra-tipoak koadro txikietan jarriko dira.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>این که قلم‌های TrueType مسطوره بشوند یا نه</short>
+        <long>اگر درست باشد، قلم‌های TrueType، مسطوره می‌شوند.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Luodaanko TrueType-kirjasimista pienoiskuvat</short>
+        <long>Jos tosi, TrueType-kirjasimista luodaan pienoiskuvia.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Indique s&apos;il faut créer des vignettes pour les polices TrueType</short>
+        <long>Si vrai, les polices TrueType s&apos;afficheront en vignettes.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Indica se se miniaturizan os tipos de letra TrueType</short>
+        <long>Se está estabelecido como verdadeiro, entón os tipos de letra TrueType serán miniaturizados.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ક્યાંતો TrueType ફોન્ટો એ થમ્બનેઇલ છે</short>
+        <long>જો true તરીકે સુયોજિત કરેલ હોય તો, TrueType ફોન્ટો એ થમ્બનેઇલ કરેલ હશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Whether to thumbnail TrueType fonts</short>
+        <long>If set to true, then TrueType fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>क्या ट्रू टाइप फ़ॉन्ट्स की लघु छवि बनाएँ</short>
+        <long>यदि सही पर नियत किया जाता है, ट्रू-टाइप फ़ॉन्ट्स की लघु छवियाँ बनाई जाएंगी.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Bélyegkép készítése TrueType betűkészletekből</short>
+        <long>Ha igazra van állítva, a TrueType betűkészletekből bélyegkép készül.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Á að smámynda TrueType letur</short>
+        <long>Ef satt verða TrueType letur smámynduð.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Indica se creare le anteprime per caratteri TrueType</short>
+        <long>Impostare a VERO per creare le anteprime dei caratteri TrueType.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>TrueType のフォントをサムネイル表示するかどうか</short>
+        <long>TRUE にすると、TrueType のフォントをサムネイル表示します。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ</short>
+        <long>ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>트루타입 글꼴을 미리보기</short>
+        <long>참이면 트루타입 글꼴을 미리 볼 수 있습니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Der barê mînakdayin û mînaknedayina curetîpên TrueType de</short>
+        <long>Heke li rastiye hatibe mîhengkirin, wê curenivîsên TrueType were mînakkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Ar rodyti TrueType šriftų miniatiūras</short>
+        <long>Jeigu reikšmė teigiama, bus bus kuriamos TrueType šriftų miniatūros.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Vai sīkattēlot TrueType fontus</short>
+        <long>Ja iestatīts uz true, tad TrueType fonti tiks sīkattēloti.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>की ट्रू टाइप फोन्ट क&apos; लघु बिंब बनाबू </short>
+        <long>जँ सही पर नियत कएल जाएत अछि, ट्रू-टाइप फोन्ट क&apos; लघु बिंब बनाओल जाएत.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>(Tsy) maneho ny endri-tsoratra TrueType anaty sary madinika</short>
+        <long>Raha voalaza fa marina, dia haseho anaty sary madinika ireo endri-tsoratra TrueType.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>TrueType അക്ഷരസഞ്ചയങ്ങള്‍ നഖചിത്രമാക്കണമോ എന്നു്</short>
+        <long>ഇതു് true ആണെങ്കില്‍, TrueType അക്ഷരസഞ്ചയങ്ങള്‍ക്കു് നഖചിത്ര ലഭ്യമാകുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>TrueType-бичгүүдийг бяцхан зураг загварээр харуулах эсэх?</short>
+        <long>TrueType бичгүүдээр бяцхан зураг загварт харуулах уу?</long>
+      </locale>
+
+      <locale name="mr">
+        <short>TrueType फॉन्ट thumbnail नुरूप करायचे</short>
+        <long>true निश्चित केल्यास, TrueType फॉन्ट थंबनेल केले जातिल.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>सहि प्रकारका फन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन</short>
+        <long>यदि सेट सहि भएमा, सहि प्रकारका फन्टहरूलाई थम्बनेल गरिनेछ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Of TrueType-lettertypes een miniatuur moeten krijgen</short>
+        <long>Indien waar, wordt een TrueType-lettertype getoond in een miniatuur.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Om det skal lagast miniatyrar av TrueType-skrifter</short>
+        <long>Dersom sann, vert det laga miniatyrar av TrueType-skrifter.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Ge eba go swanetše go khutsofatšwe difonto tša Mohuta wa Therešo</short>
+        <long>Ge eba e beakantšwe gore e be therešo, gona difonto tša Mohuta wa Therešo di tla khutsofatšwa.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଟ୍ରୁ ଟାଇପ ଫଣ୍ଟକୁ ଥମ୍ବନେଇଲ କରାୟିବ କି ନାହିଁ</short>
+        <long>ୟଦି ସତ୍ଯକୁ ସେଟ ହୁଏ, ତେବେ ଟ୍ରୁଟାଇପ ଫଣ୍ଟଗୁଡିକ ଥମ୍ବନେଇଲଡ ହୋଇୟିବ ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੀ ਫੋਂਟ ਟਰੂ-ਟਾਈਪ(TrueType) ਨੂੰ ਥੰਬਨੇਲ ਕਰਨਾ ਹੈ</short>
+        <long>ਜੇਕਰ ਇਹ ਸੱਚ ਹੈ ਤਾਂ, ਟਰੂ-ਟਾਇਪ (TrueType) ਫੋਂਟ ਥੰਬਨੇਲ ਬਣ ਜਾਣਗੇ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Określa, czy należy tworzyć miniaturki dla czcionek TrueType</short>
+        <long>Włączenie opcji powoduje generowanie miniaturek dla czcionek TrueType.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Gerar ou não amostras de fontes TrueType</short>
+        <long>Se verdadeiro, fontes TrueType serão apresentadas como amostra.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Gerar miniaturas para fontes TrueType</short>
+        <long>Se verdadeiro, as fontes TrueType terão miniaturas.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Specifică dacă fonturile TrueType vor avea miniaturi.</short>
+        <long>La activare, pentru fonturile TrueType se vor crea miniaturi.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Создавать ли миниатюры для шрифтов TrueType</short>
+        <long>Если включено, будут создаваться миниатюры для шрифтов TrueType</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Či vytvárať náhľady písiem TrueType</short>
+        <long>Ak je toto true, pre písma TrueType budú vytvorené náhľady.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ali naj se naredijo sličice pisav TrueType</short>
+        <long>Izbrana možnost določa, da bodo pisave TrueType prikazane v sličicah</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Да ли да укључим умањени приказ ТруТајп словних ликова</short>
+        <long>Ако је постављено, онда ће се за ТруТајп словне ликове користити умањени приказ</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Da li da uključim umanjeni prikaz TruTajp slovnih likova</short>
+        <long>Ako je postavljeno, onda će se za TruTajp slovne likove koristiti umanjeni prikaz</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Huruvida miniatyrbilder ska skapas för TrueType-typsnitt</short>
+        <long>Om detta är sant kommer miniatyrbilder för TrueType-typsnitt att skapas.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>TrueType எழுத்துருக்களை சிறுபடமாக்க வேண்டுமா</short>
+        <long>உண்மையெனில், TrueType எழுத்துருக்கள் சிறுபடமாக்கப்படும்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ట్రూటైప్ ఫాంట్లను థంబ్‌నైల్ చేయాలా</short>
+        <long>నిజంకు అమర్చితే, అప్పుడు ట్రూటైప్ ఫాంట్లు థంబ్‌నెయిల్ అవుతాయి.</long>
+      </locale>
+
+      <locale name="th">
+        <short>กำหนดว่าจะสร้างรูปย่อสำหรับแบบอักษร TrueType หรือไม่</short>
+        <long>ถ้ากำหนดเป็นจริง จะแสดงรูปย่อสำหรับแบบอักษร TrueType</long>
+      </locale>
+
+      <locale name="tr">
+        <short>TrueType yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğru&apos;ya ayarlı ise, TrueType yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Чи створювати мініатюри шрифтам у форматі TrueType</short>
+        <long>Якщо встановлено, тоді до шрифтів у форматі TrueType створюватимуться мініатюри</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Có nên tạo ảnh mẫu cho phông chữ TrueType hay không</short>
+        <long>Nếu đặt true (đúng), phông chữ TrueType sẽ được tạo ảnh mẫu.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Noba kwenziwe ukutyhila okukhawulezileyo kweefonti i-TrueType</short>
+        <long>Ukuba imiselwe ku-inyani, ngako oko iifonti i-TrueType ziza kwenziwa zityhileke ngokukhawuleza.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>是否为 TrueType 字体制作缩略图</short>
+        <long>如果设定为 true，将制作 TrueType 字体缩略图。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>是否為 TrueType 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 TrueType 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>是否為 TrueType 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 TrueType 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Mhlambe ukugcizelela iziqwema ze-TrueType</short>
+        <long>Uma ihlelwe ukuba yiqiniso, ngakho ke TrueType amaqwema azogcizelelwa.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-type1/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-type1/command</applyto>
+      <type>string</type>
+      <default>gnome-thumbnail-font %u %o</default>
+      <locale name="C">
+        <short>Thumbnail command for Type1 fonts</short>
+        <long>
+          Set this key to the command used to create thumbnails for
+          Type1 fonts.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Duimnaelsketsopdrag vir Type1-lettertipes</short>
+        <long>Stel hierdie sleutel in op die opdrag wat gebruik word om &apos;n duimnaelskets te skep vir Type1-lettertipes.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>أمر إنشاء مصغرات خطوط Type1</short>
+        <long>اضبط هذا المفتاح للأمر المجعول لإنشاء مصغرات خطوط Type1.</long>
+      </locale>
+
+      <locale name="as">
+        <short>Type1 ফন্টৰ থাম্বনেইল আদেশ</short>
+        <long>Type1 ফন্টৰ থাম্বনেইল নিৰ্মাণৰ আদেশ চলোৱাৰ বাবে এই চাবিক নিৰ্ধাৰণ কৰক  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Comandu pa miniaturizar les tipografíes Type1</short>
+        <long>Pon nesta clave la orde qu&apos;hai d&apos;usar pa crear miniatures de les tipografíes Type1.</long>
+      </locale>
+
+      <locale name="az">
+        <short>Type1 yazı növlərinin ön nümayiş əmri</short>
+        <long>Bu düyməni Type1 yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Загад стварэньня мініятураў для шрыфтоў Type1</short>
+        <long>Усталюйце ў гэты ключ загад для стварэньня мініятураў для шрыфтоў Type1.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Zahad, kab stvarać minijatury dla šryftoŭ Type1</short>
+        <long>Akreśl dla hetaha kluča zahad, kab stvarać minijatury dla šryftoŭ Type1.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Команда за миниизображения за шрифтове Type1.</short>
+        <long>Команда за създаването на миниизображения за шрифтове във формат Type1.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>Type1 ফন্টের জন্য থাম্বনেইল কমান্ড</short>
+        <long>Type1 ফন্টের থাম্বনেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>Type1 ফন্টের জন্য থাম্ব-নেইল কমান্ড</short>
+        <long>Type1 ফন্টের থাম্ব-নেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Naredba za umanjeni prikaz Type1 fontova</short>
+        <long>Dodijeli ovu tipku naredbi koja se koristi za umanjeni prikaz Type1 fontova.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Ordre per a crear miniatures pels tipus de lletra Type1</short>
+        <long>Establiu aquesta clau a l&apos;ordre utilitzada per crear miniatures per al tipus de lletra Type1.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Orde per a crear miniatures pels tipus de lletra Type1</short>
+        <long>Establiu esta clau a l&apos;orde utilitzada per crear miniatures per al tipus de lletra Type1.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Type1 yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı Type1 yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Příkaz náhledu písem Type1</short>
+        <long>Nastavte tento klíč na příkaz používaný k vytváření náhledů písem Type1.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Gorchymyn lluniau cryno ar gyfer ffontiau Type1</short>
+        <long>Gosodwch yr allwedd hon i&apos;r gorchymyn a ddefnyddir er mwyn creu lluniau cryno o ffontiau Type1.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Miniaturekommando for Type1-skrifttyper</short>
+        <long>Sæt denne nøgle til kommandoen til at oprette miniature til Type1-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für Type1-Schriften</short>
+        <long>Setzen Sie diesen Schlüssel auf den zum Erstellen von Miniatur-Vorschaubildern auf Type1-Schriften verwendeten Befehl.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཊ་ཡིབ་༡གི་ ཡིག་གཟུགས་ཀྱི་དོན་ལུ་ མཐེབ་གཟེར་གྱི་བརྡ་བཀོད།</short>
+        <long>ལྡེ་མིག་འདི་ ཊ་ཡིབ་༡གི་ ཡིག་གཟུགས་ཀྱི་དོན་ལས་ མཐེབ་གཟེར་གསར་བསྐྲུན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ བརྡ་བཀོད་ལུ་ གཞི་སྒྲིག་འབད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εντολή μικρογραφιών γραμματοσειρών Type1</short>
+        <long>Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη δημιουργία μικρογραφιών για τις γραμματοσειρές Type1.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑔𐑳𐑥𐑯𐑱𐑤 𐑒𐑩𐑥𐑭𐑯𐑛 𐑓𐑹 Type1 𐑓𐑪𐑯𐑑𐑕</short>
+        
+      </locale>
+
+      <locale name="en_CA">
+        <short>Thumbnail command for Type1 fonts</short>
+        <long>Set this key to the command used to create thumbnails for Type1 fonts.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for Type1 fonts</short>
+        <long>Set this key to the command used to create thumbnails for Type1 fonts.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para miniaturizar las tipografías Type1</short>
+        <long>Establezca en esta clave el comando que se debe usar para crear miniaturas de las tipografías Type1.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Type1 kirjatüüpidest pisipiltide tegemise käsk</short>
+        <long>Käsk, millega tehakse Type1 kirjatüüpidest pisipilte.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Komandoa Type1 letra-tipoa koadro txikietan jartzeko</short>
+        <long>Ezarri gako hau Type1 letra-tipoak koadro txikietan jartzeko erabiliko den komandoari.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>فرمان مسطوره‌سازی برای قلم‌های Type1</short>
+        <long>این کلید به فرمانی که برای ایجاد مسطوره برای قلم‌های Type1 استفاده می‌شود تنظیم شود.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Pienoiskuvakomento Type1-kirjasimille</short>
+        <long>Aseta tähän avaimeen komento, joka luo pienoiskuvia Type1-kirjasimista.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de vignettes pour les polices Type1</short>
+        <long>Placez dans cette clé la commande servant à créer les vignettes pour les polices Type1.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Orde para miniaturizar os tipos de letra Type1</short>
+        <long>Definir esta chave na orde usada para crear miniaturas para os tipos de letra Type1.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>Type1 ફોન્ટો માટે થમ્બનેઇલ આદેશ</short>
+        <long>Type1 ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Thumbnail command for Type1 fonts</short>
+        <long>Set this key to the command used to create thumbnails for Type1 fonts.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>टाइप1 फ़ॉन्ट्स हेतु लघु छवि कमांड्स</short>
+        <long>इस कुंजी को टाइप1 फ़ॉन्ट्स के लघु छवि बनाने के कमांड हेतु नियत करें.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Type1 betűkészletek bélyegkép-parancsa</short>
+        <long>Állítsa ezt a kulcsot a Type1 betűkészletekből bélyegkép készítésére használt parancsra.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Smámyndaskipun fyrir Type1-letur</short>
+        <long>Stilltu þennan lykil við skipunina sem notuð er til að smámynda Type1 letur.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Comando per le anteprime dei caratteri Type1</short>
+        <long>Impostare il valore di questa chiave al comando da usare per creare le anteprime dei caratteri Type1.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>Type1 のサムネイルを生成するコマンド</short>
+        <long>Type1 のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ</short>
+        <long>ಈ ಕೀಲಿಯನ್ನು ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ ಹೊಂದಿಸು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>Type1 글꼴의 미리보기 명령</short>
+        <long>Type1 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Ji bo curetîpên Type1 fermana mînandinê</short>
+        <long>Vê mifteyê ji bo fermana curenivîsên Type1 were mînakkirin mîheng bike</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Peržiūros komanda Type1 šriftams</short>
+        <long>Šiame rakte nurodykite komandą, kuri bus naudojama kurti Type1 šriftų miniatiūroms.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Sīkattēlu komanda Type1 fontiem</short>
+        <long>Iestatiet šo atslēgu uz komandu, ko lietot, lai izveidotu sīkattēlus Type1 fontiem.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>टाइप1 फोन्ट लेल लघु बिंब कमांड</short>
+        <long>एहि कुँजीकेँ टाइप1 फोन्ट क&apos; लघु बिंब बनाबै क&apos; कमांड लेल नियत करू.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Baiko famoronana sary madinika ho an&apos;ny endri-tsoratra Type1</short>
+        <long>Ampifanaraho amin&apos;ny baiko amoronana sary madinika ho an&apos;ny endri-tsoratra Type1 ity famaha ity.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>Type1 അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര കമാന്‍ഡ്</short>
+        <long>Type1 അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര ഉണ്ടാക്കുന്നതിനുള്ള കമാന്‍ഡിനു് ഈ കീ സജ്ജമാക്കുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Type1-бичгүүдийг урьдчилан харах тушаал</short>
+        <long>Type1 бичгүүдийн хувьд бяцхан зураг үүсгэх тушаалдаа та энэ түлхүүрийг тогтоо.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>Type1 फॉन्ट करीता thumbnail आदेश</short>
+        <long>Type1 फॉन्ट करीता थंबनेल बनविण्यासाठी वापरण्याजोगी आदेशकरीता ही कि निश्चित करा.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>प्रकारका १ फन्टहरूका लागि थम्बनेल आदेश</short>
+        <long>प्रकार १ फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई सेट गर्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Opdracht voor miniatuur voor Type1-lettertypes</short>
+        <long>Stel deze sleutel in op de opdracht waarmee miniaturen worden gemaakt van Type1-lettertypes.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Miniatyr-Type1-kommando</short>
+        <long>Sett denne nøkkelen til kommandoen som lagar miniatyrar av Type1-skrifter.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Taelo ya khutsofatšo bakeng sa difonto tša Mohuta wa 1</short>
+        <long>Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo tša difonto tša Mohuta wa 1.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଥମ୍ବନେଇଲ ଆଦେଶ ଟାଇପ1 ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ</short>
+        <long>ଟାଇପ1 ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ ଥମ୍ବନେଇଲ ସୃଷ୍ଟିକରିବା ନିମନ୍ତେ ଉପୟୋଗ ହେଉଥିବା ଏହି କିକୁ ଆଦେଶକୁ ସେଟ କର ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਫੋਂਟ ਟਾਈਪ1 (Type1) ਲਈ ਥੰਬਨੇਲ ਕਮਾਂਡ</short>
+        <long>ਕਮਾਂਡ, ਜੋ ਫੋਂਟ ਟਾਈਪ ੧ (Type1) ਲਈ ਥੰਬਨੇਲ ਬਣਾਉਦੀ ਹੈ, ਨੂੰ ਇਹ ਸਵਿੱਚ ਦਿਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Polecenie generujące miniaturki dla czcionek Type1</short>
+        <long>Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek Type1.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando de amostras para fontes Type1</short>
+        <long>Defina esta chave com o comando utilizado para criar amostras de fontes Type1.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para fontes Type1</short>
+        <long>Defina esta chave para o comando usado para criar miniaturas das fontes Type1.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Comanda de creare miniaturi pentru fonturile Type1.</short>
+        <long>Definiți această cheie cu comanda utilizată pentru a crea miniaturi pentru fonturile Type1.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Команда создания миниатюр для шрифтов Type1</short>
+        <long>Ключ задаёт команду для создания миниатюр шрифтов Type1.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Príkaz pre náhľady písiem Type1</short>
+        <long>Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem Type1.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ukaz za ustvaritev sličic pisav Type1.</short>
+        <long>Ukaz za ustvaritev sličic pisav Type1.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Наредба за умањени приказ код Тајп1 словног лика</short>
+        <long>Додели овај тастер наредби која се користи за прављење умањеног приказа код Тајп1 словних ликова.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Naredba za umanjeni prikaz kod Tajp1 slovnog lika</short>
+        <long>Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza kod Tajp1 slovnih likova.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Miniatyrbildskommando för Type1-typsnitt</short>
+        <long>Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för Type1-typsnitt.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>Type1 எழுத்துருக்களுக்கான சிறுபட கட்டளை</short>
+        <long>Type1 எழுத்துருக்களுக்கு சிறுபடம் உருவாக்க இந்த விசையை கட்டளையாக அமை.</long>
+      </locale>
+
+      <locale name="te">
+        <short>టైప్1 ఫాంట్ల కొరకు థంబ్‌నైల్ ఆదేశం</short>
+        <long>టైప్ 1 ఫాంట్ల కొరకు థంబ్‌నెయిల్సును సృష్టించుటకు ఉపయోగించు ఆదేశంకు ఈ కీని అమర్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>คำสั่งสร้างรูปย่อสำหรับแบบอักษร Type1</short>
+        <long>กำหนดคำสั่งที่ใช้สร้างรูปย่อสำหรับแบบอักษร Type1</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Type1 yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı Type1 yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Команда створення мініатюр для шрифтів у форматі Type1</short>
+        <long>Вкажіть у цьому ключі команду, що використовуватиметься для створення мініатюр для шрифтів у форматі Type1</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lệnh tạo ảnh mẫu cho phông chữ Type1</short>
+        <long>Đặt khóa này cho lệnh được dùng để tạo ảnh mẫu cho phông chữ Type1.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Umyalelo wokutyhila okukhawulezayo kweefonti i-Type1</short>
+        <long>Misela eli qhosha kumyalelo osetyenzisiweyo ukudala ukutyhila okukhawulezayo kweefonti i-Type1.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>Type1 字体的缩略图命令</short>
+        <long>设置该值到用于创建 Type1 字体缩略图的命令。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>製作 Type1 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 Type1 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>製作 Type1 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 Type1 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Gcizelela umyalo wesiqwema se-Type1</short>
+        <long>Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-Type1.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-type1/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-type1/enable</applyto>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Whether to thumbnail Type1 fonts</short>
+        <long>
+          If set to true, then Type1 fonts will be thumbnailed.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Om Type1-lettertipes te duimnaelskets of nie</short>
+        <long>Indien waar, sal Type1-lettertipe geduimnaelskets wees.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>فيما إذا ستنشأ مصغرات لخطوط Type1</short>
+        <long>إذا ضبط لصحيح، فستنشأ مصغرات لخطوط Type1.</long>
+      </locale>
+
+      <locale name="as">
+        <short>Type1 ফন্টৰ থাম্বনেইল কৰা হ&apos;ব নে নহয়</short>
+        <long>সত্য হ&apos;লে Type1 ফন্টকে থাম্বনেইল কৰা হ&apos;ব  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Conseña si hai de miniaturizar les tipografíes Type1</short>
+        <long>Si ta afitao a «true», entós les tipografíes Type1 miniaturizaránse.</long>
+      </locale>
+
+      <locale name="az">
+        <short>Type1 yazı növlərinin ön nümayişlərinin göstərilməsi</short>
+        <long>Seçilirsə, Type1 yazı növlərinin ön nümayişləri göstəriləcək.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Ці ствараць мініятуры для шрыфтоў Type1</short>
+        <long>Калі ісьціна, будуць стварацца мініятуры для шрыфтоў Type1.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Ci treba stvarać minijatury dla šryftoŭ Type1</short>
+        <long>Kali ŭklučana, buduć hieneravacca minijatury dla šryftoŭ Type1.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Да има ли миниизображения за шрифтове Type1</short>
+        <long>Ако е истина, шрифтовете във формат Type1 ще се показват с миниизображение.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>Type1 ফন্টের থাম্বনেইল তৈরি করা হবে কি না</short>
+        <long>মান সত্য হলে, Type1 ফন্টগুলি থাম্বনেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>Type1 ফন্টের থাম্ব-নেইল তৈরি করা হবে কি না</short>
+        <long>মান true (সত্য) হলে, Type1 ফন্টগুলি থাম্ব-নেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Mar fell dit diskouez an nodrezhoù Type1 evel skeudennig</short>
+        <long>Mar bez gwir e vo diskouezet an nodrezhoù Type1 evel skeudennig.</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Da li prikazati umanjeno Type1 fontove</short>
+        <long>Ako je postavljeno, Type1 fontovi će biti prikazani umanjeni.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra Type1</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores els tipus de lletra Type1 se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra Type1</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores els tipus de lletra Type1 se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Type1 yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğru&apos;ya ayarlı ise, Type1 yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Jestli tvořit náhledy písem Type1</short>
+        <long>Je-li nastaveno na &quot;true&quot;, budou tvořeny náhledy písem Type1.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>A ddylid creu lluniau cryno o ffontiau Type1</short>
+        <long>Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau Type1</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opret miniaturer for Type1-skrifttyper</short>
+        <long>Hvis dette er sat til sand, oprettes miniaturebilleder for Type1-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubilder auf Type1-Schriften anzeigen?</short>
+        <long>Sollen Miniatur-Vorschaubilder auf Type1-Schriften angezeigt werden?</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཊ་ཡིབ་༡གི་ ཡིག་གཟུགས་ཚུ་ལུ་ མཐེབ་གཟེར་བརྡབ་ནི་ཨིན་ན་མེན།</short>
+        <long>བདེན་པ་ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ དེ་ལས་ ཊ་ཡིབ་༡གི་ ཡིག་གཟུགས་ཚུ་ མཐེབ་གཟེར་བརྡབས་ཏེ་སྡོད་འོང་།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών Type1</short>
+        <long>Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών Type1.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑢𐑧𐑞𐑼 𐑑 𐑔𐑳𐑥𐑯𐑱𐑤 Type1 𐑓𐑪𐑯𐑑𐑕</short>
+        
+      </locale>
+
+      <locale name="en_CA">
+        <short>Whether to thumbnail Type1 fonts</short>
+        <long>If set to true, then Type1 fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Whether to thumbnail Type1 fonts</short>
+        <long>If set to true, then Type1 fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Indica si debe miniaturizar las tipografías Type1</short>
+        <long>Si está establecido a «true», entonces las tipografías Type1 se miniaturizarán.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kas Type1 kirjatüüpidest tuleb pisilte teha</short>
+        <long>Kui märgitud, siis tehakse Type1 kirjatüüpidest pisipildid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Type1 letra-tipoak koadro txikietan jarri ala ez</short>
+        <long>TRUE (egia) ezartzen bada, Type1 letra-tipoak koadro txikietan jarriko dira.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>این که قلم‌های Type1 مسطوره بشوند یا نه</short>
+        <long>اگر درست باشد، قلم‌های Type1، مسطوره می‌شوند.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Luodaanko Type1-kirjasimista pienoiskuvat</short>
+        <long>Jos tosi, Type1-kirjasimista luodaan pienoiskuvia.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Indique s&apos;il faut créer des vignettes pour les polices Type1</short>
+        <long>Si vrai, les polices Type1 s&apos;afficheront en vignettes.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Indica se se miniaturizan os tipos de letra Type1</short>
+        <long>Se está estabelecido como verdadeiro, entón os tipos de letra Type1 serán miniaturizados.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ક્યાંતો Type1 ફોન્ટો થમ્બનેઇલ છે</short>
+        <long>જો true તરીકે સુયોજિત કરેલ હોય તો, પછી Type1 ફોન્ટો એ થમ્બનેઇલ થયેલ હશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Whether to thumbnail Type1 fonts</short>
+        <long>If set to true, then Type1 fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>क्या टाइप 1 फ़ॉन्ट्स की लघु छवि बनाएँ</short>
+        <long>यदि सही पर नियत किया जाता है, टाइप1 फ़ॉन्ट्स की लघु छवियाँ बनाई जाएंगी.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Bélyegkép készítése Type1 betűkészletekből</short>
+        <long>Ha igazra van állítva, a Type1 betűkészletekből bélyegkép készül.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Á að smámynda Type1 letur</short>
+        <long>Ef satt verða Type1 letur smámynduð.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Indica se creare le anteprime per caratteri Type1</short>
+        <long>Impostare a VERO per creare le anteprime dei caratteri Type1.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>Type1 のフォントをサムネイル表示するかどうか</short>
+        <long>TRUE にすると、Type1 のフォントをサムネイル表示します。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ</short>
+        <long>ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>Type1 글꼴을 미리보기</short>
+        <long>참이면 Type1 글꼴을 미리 볼 수 있습니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Der barê mînakdayin û mînaknedayina curetîpên Type1 de</short>
+        <long>Heke mîheng rast be, dê Type 1 wekî mînakdayînê were nîşandan.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Ar rodyti Type1 šriftų miniatiūras</short>
+        <long>Jeigu reikšmė teigiama, bus bus kuriamos Type1 šriftų miniatūros.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Vai sīkattēlot Type1 fontus</short>
+        <long>Ja iestatīts uz true, tad Type1 fonti tiks sīkattēloti.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>की टाइप 1 फोन्ट क&apos; लघु बिंब बनाबू </short>
+        <long>जँ सही पर नियत कएल जाएत अछि, टाइप1 फोन्ट क&apos; लघु बिंब बनाओल जाएत.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>(Tsy) maneho ny endri-tsoratra Type1 anaty sary madinika</short>
+        <long>Raha voalaza fa marina, dia haseho anaty sary madinika ireo endri-tsoratra Type1.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>Type1 അക്ഷരസഞ്ചയങ്ങള്‍ നഖചിത്രമാക്കണമോ എന്നു്</short>
+        <long>ഇതു് true ആണെങ്കില്‍, Type1 അക്ഷരസഞ്ചയങ്ങള്‍ക്കു് നഖചിത്ര ലഭ്യമാകുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Type1-бичгүүдийг бяцхан зураг загварээр харуулах эсэх?</short>
+        <long>Type1-бичгүүдээр бяцхан зураг загварт харуулах уу?</long>
+      </locale>
+
+      <locale name="mr">
+        <short>Type1 फॉन्ट thumbnail नुरूप करायचे</short>
+        <long>true निश्चित केल्यास, Type1 फॉन्ट थंबनेल केले जातिल.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>प्रकार १ फन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन</short>
+        <long>यदि सेट सहि भएमा, प्रकार १ का फन्टहरूलाई थम्बनेल गरिनेछ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Of Type1-lettertypes een miniatuur moeten krijgen</short>
+        <long>Indien waar, wordt een Type1-lettertype getoond in een miniatuur.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Om det skal lagast miniatyrar av Type1-skrifter</short>
+        <long>Dersom sann, vert det laga miniatyrar av Type1-skrifter.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Ge eba go swanetše go khutsofatšwe difonto tša Mohuta wa 1</short>
+        <long>Ge eba e beakantšwe gore e be therešo, gona difonto tša Mohuta wa 1 di tla khutsofatšwa.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଟାଇପ 1 ଫଣ୍ଟଗୁଡିକୁ ଥମ୍ବନେଇଲ କରାୟିବ କି ନାହିଁ </short>
+        <long>ୟଦି ସତ୍ଯ ସେଟ ହୁଏ, ତେବେ ଟାଇପ1 ଫଣ୍ଟଗୁଡିକ ଥମ୍ବନେଇଲଡ ହୋଇୟିବ ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੀ ਫੋਂਟ ਟਾਈਪ1 (Type1) ਨੂੰ ਥੰਬਨੇਲ ਕਰਨਾ ਹੈ</short>
+        <long>ਜੇਕਰ ਇਹ ਸੱਚ ਹੈ ਤਾਂ, Type1 ਫੋਂਟ ਥੰਬਨੇਲ ਬਣ ਜਾਣਗੇ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Określa, czy należy tworzyć miniaturki dla czcionek Type1</short>
+        <long>Włączenie opcji powoduje generowanie miniaturek dla czcionek Type1.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Gerar ou não amostras de fontes Type1</short>
+        <long>Se verdadeiro, fontes Type1 serão apresentadas como amostra.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Gerar miniaturas para fontes Type1</short>
+        <long>Se verdadeiro, as fontes Type1 terão miniaturas.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Specifică dacă fonturile Type1 vor fi previzualizate.</short>
+        <long>La activare, pentru fonturile Type1 se vor crea miniaturi.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Создавать ли миниатюры для шрифтов Type1</short>
+        <long>Если включено, будут создаваться миниатюры для шрифтов Type1</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Či vytvárať náhľady písiem Type1</short>
+        <long>Ak je toto true, pre písma Type1 budú vytvorené náhľady.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ali naj se naredijo sličice pisav Type1</short>
+        <long>Izbrana možnost določa, da bodo pisave Type1 prikazane v sličicah</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Да ли да укључим умањени приказ Тајп1 словних ликова</short>
+        <long>Ако је постављено, онда ће се за Тајп1 словне ликове користити умањени приказ</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Da li da uključim umanjeni prikaz Tajp1 slovnih likova</short>
+        <long>Ako je postavljeno, onda će se za Tajp1 slovne likove koristiti umanjeni prikaz</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Huruvida miniatyrbilder ska skapas för Type1-typsnitt</short>
+        <long>Om detta är sant kommer miniatyrbilder för Type1-typsnitt att skapas.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>Type1 எழுத்துருக்களை சிறுபடமாக்க வேண்டுமா</short>
+        <long>உண்மையெனில், Type1 எழுத்துருக்கள் சிறுபடமாக்கப்படும்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>టైప్1 ఫాంట్లను థంబ్‌నైల్ చేయాలా</short>
+        <long>నిజంకు అమర్చితే, అప్పుడు టైపు1 ఫాంట్లు థంబ్‌నెయిల్ అవుతాయి.</long>
+      </locale>
+
+      <locale name="th">
+        <short>กำหนดว่าจะสร้างรูปย่อสำหรับแบบอักษร Type1 หรือไม่</short>
+        <long>ถ้ากำหนดเป็นจริง จะแสดงรูปย่อสำหรับแบบอักษร Type1</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Type1 yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğru&apos;ya ayarlı ise, Type1 yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Чи створювати мініатюри шрифтам у форматі Type1</short>
+        <long>Якщо встановлено, тоді до шрифтів у форматі Type1 створюватимуться мініатюри</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Có nên tạo ảnh mẫu cho phông chữ Type1 hay không</short>
+        <long>Nếu đặt true (đúng), phông chữ Type1 sẽ được tạo ảnh mẫu.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Noba kwenziwe ukutyhila okukhawulezayo kweefonti i-Type1</short>
+        <long>Ukuba imiselwe ku-inyani, ngako oko iifonti i-Type1 ziza kwenziwa zityhileke ngokukhawuleza.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>是否为 Type1 字体制作缩略图</short>
+        <long>如果设定为 true，将制作 Type1 字体缩略图。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>是否為 Type1 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 Type1 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>是否為 Type1 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 Type1 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Mhlambe ukugcizelela iziqwema ze-Type1</short>
+        <long>Uma ihlelwe ukuba yiqiniso, ngakho ke Type1 amaqwema azogcizelelwa.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-pcf/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-pcf/command</applyto>
+      <type>string</type>
+      <default>gnome-thumbnail-font %u %o</default>
+      <locale name="C">
+        <short>Thumbnail command for PCF fonts</short>
+        <long>
+          Set this key to the command used to create thumbnails for
+          PCF fonts.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Duimnaelsketsopdrag vir PCF-lettertipes</short>
+        <long>Stel hierdie sleutel in op die opdrag wat gebruik word om &apos;n duimnaelskets te skep vir PCF-lettertipes.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>أمر إنشاء مصغرات خطوط PCF</short>
+        <long>اضبط هذا المفتاح للأمر المجعول لإنشاء مصغرات خطوط PCF.</long>
+      </locale>
+
+      <locale name="as">
+        <short>PCF ফন্টৰ থাম্বনেইল আদেশ</short>
+        <long>PCF ফন্টৰ থাম্বনেইল নিৰ্মাণৰ আদেশ চলোৱাৰ বাবে এই চাবিক নিৰ্ধাৰণ কৰক  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Comandu pa miniaturizar les tipografíes PCF</short>
+        <long>Ponga nesta clave la orde qu&apos;hai d&apos;usar pa crear miniatures de les tipografíes PCF.</long>
+      </locale>
+
+      <locale name="az">
+        <short>PCF yazı növlərinin ön nümayiş əmri</short>
+        <long>Bu düyməni PCF yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Загад стварэньня мініятураў для шрыфтоў PCF</short>
+        <long>Усталюйце ў гэты ключ загад для стварэньня мініятураў для шрыфтоў PCF.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Zahad, kab stvarać minijatury dla šryftoŭ PCF</short>
+        <long>Akreśl dla hetaha kluča zahad, kab stvarać minijatury dla šryftoŭ PCF.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Команда за миниизображения за шрифтове PCF.</short>
+        <long>Команда за създаването на миниизображения за шрифтове във формат PCF.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>PCF ফন্টের জন্য থাম্বনেইল কমান্ড</short>
+        <long>PCF ফন্টের থাম্ব-নেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>PCF ফন্টের জন্য থাম্ব-নেইল কমান্ড</short>
+        <long>PCF ফন্টের থাম্ব-নেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Naredba za umanjeni prikaz PCF fontova</short>
+        <long>Dodijeli ovu tipku naredbi koja se koristi za umanjeni prikaz PCF fontova.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Ordre per a crear miniatures pels tipus de lletra PCF</short>
+        <long>Establiu aquesta clau a l&apos;ordre utilitzada per crear miniatures per al tipus de lletra PCF.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Orde per a crear miniatures pels tipus de lletra PCF</short>
+        <long>Establiu esta clau a l&apos;orde utilitzada per crear miniatures per al tipus de lletra PCF.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>PCF yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı PCF yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Příkaz náhledu písem PCF</short>
+        <long>Nastavte tento klíč na příkaz používaný k vytváření náhledů písem PCF.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Gorchymyn lluniau cryno ar gyfer ffontiau PCF</short>
+        <long>Gosodwch yr allwedd hon i&apos;r gorchymyn a ddefnyddir er mwyn creu lluniau cryno o ffontiau PCF.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Miniaturekommando for PCF-skrifttyper</short>
+        <long>Sæt denne nøgle til kommandoen til at oprette miniature til PCF-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für PCF-Schriften</short>
+        <long>Setzen Sie diesen Schlüssel auf den zum Erstellen von Miniatur-Vorschaubildern auf PCF-Schriften verwendeten Befehl.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>པི་སི་ཨེཕ་ ཡིག་གཟུགས་ཀྱི་དོན་ལུ་ མཐེབ་གཟེར་གྱི་བརྡ་བཀོད།</short>
+        <long>ལྡེ་མིག་འདི་ ཨོ་པཱན་ཊ་ཡིབ་ ཡིག་གཟུགས་ཀྱི་དོན་ལས་ མཐེབ་གཟེར་གསར་བསྐྲུན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ བརྡ་བཀོད་ལུ་ གཞི་སྒྲིག་འབད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εντολή μικρογραφιών γραμματοσειρών PCF</short>
+        <long>Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη δημιουργία μικρογραφιών για τις γραμματοσειρές PCF.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Thumbnail command for PCF fonts</short>
+        <long>Set this key to the command used to create thumbnails for PCF fonts.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for PCF fonts</short>
+        <long>Set this key to the command used to create thumbnails for PCF fonts.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para miniaturizar las tipografías PCF</short>
+        <long>Establezca en esta clave el comando que se debe usar para crear miniaturas de las tipografías PCF.</long>
+      </locale>
+
+      <locale name="et">
+        <short>PCF kirjatüüpidest pisipiltide tegemise käsk</short>
+        <long>Käsk, millega tehakse PCF kirjatüüpidest pisipilte.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Komandoa PCF letra-tipoa koadro txikietan jartzeko</short>
+        <long>Ezarri gako hau PCF letra-tipoak koadro txikietan jartzeko erabiliko den komandoari.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>فرمان مسطوره‌سازی برای قلم‌های PCF</short>
+        <long>این کلید به فرمانی که برای ایجاد مسطوره برای قلم‌های PCF استفاده می‌شود تنظیم شود.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Pienoiskuvakomento PCF-kirjasimille</short>
+        <long>Aseta tähän avaimeen komento, joka luo pienoiskuvia PCF-kirjasimista.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de vignettes pour les polices PCF</short>
+        <long>Placez dans cette clé la commande servant à créer les vignettes pour les polices PCF.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Orde para miniaturizar os tipos de letra PCF</short>
+        <long>Definir esta chave na orde usada para crear miniaturas para os tipos de letra PCF.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>PCF ફોન્ટો માટે થમ્બનેઇલ આદેશ</short>
+        <long>PCF ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Thumbnail command for PCF fonts</short>
+        <long>Set this key to the command used to create thumbnails for PCF fonts.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>पीसीएफ़ फ़ॉन्ट्स हेतु लघु छवि बनाने के कमांड</short>
+        <long>इस कुंजी को पीसीएफ़ फ़ॉन्ट्स के लघु छवि बनाने के कमांड हेतु नियत करें.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>PCF betűkészletek bélyegkép-parancsa</short>
+        <long>Állítsa ezt a kulcsot a PCF betűkészletekből bélyegkép készítésére használt parancsra.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Smámyndaskipun fyrir PCF-letur</short>
+        <long>Stilltu þennan lykil við skipunina sem notuð er til að smámynda PCF letur.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Comando per le anteprime dei caratteri PCF</short>
+        <long>Impostare il valore di questa chiave al comando da usare per creare le anteprime dei caratteri PCF.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>PCF のサムネイルを生成するコマンド</short>
+        <long>PCF のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>PCF ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ</short>
+        <long>ಈ ಕೀಲಿಯನ್ನು PCF ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ ಹೊಂದಿಸು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>PCF 글꼴의 미리보기 명령</short>
+        <long>PCF 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Ji bo curetîpên PCF fermana mînandinê</short>
+        <long>Vê mifteyê ji bo fermana curenivîsên PCF were mînakkirin mîheng bike</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Peržiūros komanda PCF šriftams</short>
+        <long>Šiame rakte nurodykite komandą, kuri bus naudojama kurti PCF šriftų miniatiūroms.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Sīkattēlu komanda PCF fontiem</short>
+        <long>Iestatiet šo atslēgu uz komandu, ko lietot, lai izveidotu sīkattēlus PCF fontiem.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>पीसीएफ़ फोन्ट लेल लघु बिंब बनाबै क&apos; कमांड</short>
+        <long>एहि कुँजीकेँ पीसीएफ़ फोन्ट क&apos; लघु बिंब बनाबै क&apos; कमांड लेल नियत करू.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Baiko famoronana sary madinika ho an&apos;ny endri-tsoratra PCF</short>
+        <long>Ampifanaraho amin&apos;ny baiko amoronana sary madinika ho an&apos;ny endri-tsoratra PCF ity famaha ity.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>PCF അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര കമാന്‍ഡ്</short>
+        <long>PCF അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര ഉണ്ടാക്കുന്നതിനുള്ള കമാന്‍ഡിനു് ഈ കീ സജ്ജമാക്കുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>PCF-бичгүүдийг урьдчилан харах тушаал</short>
+        <long>PCF бичгүүдийн хувьд бяцхан зураг үүсгэх тушаалдаа та энэ түлхүүрийг тогтоо.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>PCF फॉन्ट करीता thumbnail आदेश</short>
+        <long>PCF फॉन्ट करीता थंबनेल बनविण्यासाठी वापरण्याजोगी आदेशकरीता ही कि निश्चित करा.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>PCF फन्टहरूका लागि थम्बनेल आदेश</short>
+        <long>PCF फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई सेट गर्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Opdracht voor miniatuur voor PCF-lettertypes</short>
+        <long>Stel deze sleutel in op de opdracht waarmee miniaturen worden gemaakt van PCF-lettertypes.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Miniatyr-PCF-kommando</short>
+        <long>Sett denne nøkkelen til kommandoen som lagar miniatyrar av PCF-skrifter.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Taelo ya khutsofatšo bakeng sa difonto tša PCF</short>
+        <long>Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo tša difonto tša PCF.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଥମ୍ବନେଇଲ ଆଦେଶ PCF ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ</short>
+        <long> PCF ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ ଥମ୍ବନେଇଲ ସୃଷ୍ଟିକରିବା ନିମନ୍ତେ ଉପୟୋଗ ହେଉଥିବା ଏହି କିକୁ ଆଦେଶକୁ ସେଟ କର ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਫੋਂਟ ਪੀਸੀਐਫ (PCF) ਲਈ ਥੰਬਨੇਲ ਕਮਾਂਡ</short>
+        <long>ਕਮਾਂਡ, ਜੋ ਫੋਂਟ ਪੀਸੀਐਫ (PCF) ਲਈ ਥੰਬਨੇਲ ਬਣਾਉਦੀ ਹੈ, ਨੂੰ ਇਹ ਸਵਿੱਚ ਦਿਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Polecenie generujące miniaturki dla czcionek PCF</short>
+        <long>Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek PCF.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando de amostras para fontes PCF</short>
+        <long>Defina esta chave com o comando utilizado para criar amostras de fontes PCF.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para fontes PCF</short>
+        <long>Defina esta chave para o comando usado para criar miniaturas das fontes PCF.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Comanda de creare miniaturi pentru fonturile PCF.</short>
+        <long>Definiți această cheie cu comanda utilizată pentru a crea miniaturi pentru fonturile PCF.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Команда создания миниатюр для шрифтов PCF</short>
+        <long>Ключ задаёт команду для создания миниатюр шрифтов PCF.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Príkaz pre náhľady písiem PCF</short>
+        <long>Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem PCF.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ukaz za ustvaritev sličic pisav PCF.</short>
+        <long>Ukaz za ustvaritev sličic pisav PCF.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Наредба за умањени приказ код ПЦФ словних ликова</short>
+        <long>Додели овај тастер наредби која се користи за прављење умањеног приказа код ПЦФ словних ликова.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Naredba za umanjeni prikaz kod PCF slovnih likova</short>
+        <long>Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza kod PCF slovnih likova.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Miniatyrbildskommando för PCF-typsnitt</short>
+        <long>Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för PCF-typsnitt.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>PCF எழுத்துருக்களுக்கான சிறுபட கட்டளை</short>
+        <long>PCF எழுத்துருக்களுக்கு சிறுபடம் உருவாக்க இந்த விசையை கட்டளையாக அமை.</long>
+      </locale>
+
+      <locale name="te">
+        <short>PCF ఫాంట్ల కొరకు థంబ్‌నైల్ ఆదేశం</short>
+        <long>PCF ఫాంట్ల కొరకు థంబ్‌నెయిల్సును సృష్టించుటకు ఉపయోగించు ఆదేశంకు ఈ కీని అమర్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>คำสั่งสร้างรูปย่อสำหรับแบบอักษร PCF</short>
+        <long>กำหนดคำสั่งที่ใช้สร้างรูปย่อสำหรับแบบอักษร PCF</long>
+      </locale>
+
+      <locale name="tr">
+        <short>PCF yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı PCF yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Команда створення мініатюр для шрифтів у форматі PCF</short>
+        <long>Вкажіть у цьому ключі команду, що використовуватиметься для створення мініатюр для шрифтів у форматі PCF</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lệnh tạo ảnh mẫu cho phông chữ PCF</short>
+        <long>Đặt khóa này cho lệnh được dùng để tạo ảnh mẫu cho phông chữ PCF.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Umyalelo wokutyhila okukhawulezayo kweefonti i-PCF</short>
+        <long>Misela eli qhosha kumyalelo osetyenzisiweyo ukudala ukutyhila okukhawulezayo kweefonti i-PCF.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>PCF 字体的缩略图命令</short>
+        <long>设置该值到用于创建 PCF 字体缩略图的命令。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>製作 PCF 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 PCF 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>製作 PCF 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 PCF 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Gcizelela umyalo wesiqwema se-PCF</short>
+        <long>Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-PCF.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-pcf/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-pcf/enable</applyto>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Whether to thumbnail PCF fonts</short>
+        <long>
+          If set to true, then PCF fonts will be thumbnailed.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Om PCF-lettertipes te duimnaelskets of nie</short>
+        <long>Indien waar, sal PCF-lettertipe geduimnaelskets wees.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>فيما إذا ستنشأ مصغرات لخطوط PCF</short>
+        <long>إذا ضبط لصحيح، فستنشأ مصغرات لخطوط PCF.</long>
+      </locale>
+
+      <locale name="as">
+        <short>PCF ফন্টৰ থাম্বনেইল কৰা হ&apos;ব নে নহয়</short>
+        <long>সত্য হ&apos;লে PCF ফন্টকে থাম্বনেইল কৰা হ&apos;ব  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Conseña si hai de miniaturizar les tipografíes PCF</short>
+        <long>Si ta afitao a «true», entós les tipografíes PFC miniaturizaránse.</long>
+      </locale>
+
+      <locale name="az">
+        <short>PCF yazı növlərinin ön nümayişlərinin göstərilməsi</short>
+        <long>Seçilirsə, PCF yazı növlərinin ön nümayişləri göstəriləcək.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Ці ствараць мініятуры для шрыфтоў PCF</short>
+        <long>Калі ісьціна, будуць стварацца мініятуры для шрыфтоў PCF.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Ci treba stvarać minijatury dla šryftoŭ PCF</short>
+        <long>Kali ŭklučana, buduć hieneravacca minijatury dla šryftoŭ PCF.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Да има ли миниизображения за шрифтове PCF</short>
+        <long>Ако е истина, шрифтовете във формат PCF ще се показват с миниизображение.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>PCF ফন্টের থাম্বনেইল তৈরি করা হবে কি না</short>
+        <long>মান সত্য হলে, PCF ফন্টগুলো থাম্বনেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>PCF ফন্টের থাম্ব-নেইল তৈরি করা হবে কি না</short>
+        <long>মান true (সত্য) হলে, PCF ফন্টগুলি থাম্ব-নেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Mar fell dit diskouez an nodrezhoù PCF evel skeudennig</short>
+        <long>Mar bez gwir e vo diskouezet an nodrezhoù PCF evel skeudennig</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Da li prikazati umanjeno PCF fontove</short>
+        <long>Ako je postavljeno, PCF fontovi će biti prikazani umanjeni.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra PCF</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores dels tipus de lletra PCF se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra PCF</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores dels tipus de lletra PCF se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>PCF yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğru&apos;ya ayarlı ise, PCF yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Jestli tvořit náhledy písem PCF</short>
+        <long>Je-li nastaveno na &quot;true&quot;, budou tvořeny náhledy písem PCF.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>A ddylid creu lluniau cryno o ffontiau PCF</short>
+        <long>Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau PCF.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opret miniaturer for PCF-skrifttyper</short>
+        <long>Hvis dette er sat til sand, oprettes miniaturebilleder for PCF-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubilder auf PCF-Schriften anzeigen?</short>
+        <long>Sollen Miniatur-Vorschaubilder auf PCF-Schriften angezeigt werden?</long>
+      </locale>
+
+      <locale name="dz">
+        <short>པི་སི་ཨེཕ་ ཡིག་གཟུགས་ཚུ་ལུ་ མཐེབ་གཟེར་བརྡབ་ནི་ཨིན་ན་མེན།</short>
+        <long>བདེན་པ་ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ དེ་ལས་པི་སི་ཨེཕ་ ཡིག་གཟུགས་ཚུ་ མཐེབ་གཟེར་བརྡབས་ཏེ་སྡོད་འོང་།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών PCF</short>
+        <long>Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών PCF.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Whether to thumbnail PCF fonts</short>
+        <long>If set to true, then PCF fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Whether to thumbnail PCF fonts</short>
+        <long>If set to true, then PCF fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Indica si debe miniaturizar las tipografías PCF</short>
+        <long>Si está establecido a «true», entonces las tipografías PFC se miniaturizarán.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kas PCF kirjatüüpidest tuleb pisilte teha</short>
+        <long>Kui märgitud, siis tehakse PCF kirjatüüpidest pisipildid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>PCF letra-tipoak koadro txikietan jarri ala ez</short>
+        <long>TRUE (egia) ezartzen bada, PCF letra-tipoak koadro txikietan jarriko dira.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>این که قلم‌های PCF مسطوره بشوند یا نه</short>
+        <long>اگر درست باشد، قلم‌های PCF، مسطوره می‌شوند.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Luodaanko PCF-kirjasimista pienoiskuvat</short>
+        <long>Jos tosi, PCF-kirjasimista luodaan pienoiskuvia.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Indique s&apos;il faut créer des vignettes pour les polices PCF</short>
+        <long>Si vrai, les polices PCF s&apos;afficheront en vignettes.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Indica se se miniaturizan os tipos de letra PCF</short>
+        <long>Se está estabelecido como verdadeiro, entón os tipos de letra PCF serán miniaturizados.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ક્યાંતો PCF ફોન્ટો એ થમ્બનેઇલ છે</short>
+        <long>જો true તરીકે સુયોજિત હોય તો, PCF ફોન્ટો એ થમ્બનેઇલ થયેલ હશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Whether to thumbnail PCF fonts</short>
+        <long>If set to true, then PCF fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>क्या पीसीएफ़ फ़ॉन्ट्स की लघु छवि बनाएँ</short>
+        <long>यदि सही पर नियत किया जाता है, पीसीएफ़ फ़ॉन्ट्स की लघु छवियाँ बनाई जाएंगी.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Bélyegkép készítése PCF betűkészletekből</short>
+        <long>Ha igazra van állítva, a PCF betűkészletekből bélyegkép készül.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Á að smámynda PCF letur</short>
+        <long>Ef satt verða PCF letur smámynduð.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Indica se creare le anteprime per caratteri PCF</short>
+        <long>Impostare a VERO per creare le anteprime dei caratteri PCF.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>PCF のフォントをサムネイル表示するかどうか</short>
+        <long>TRUE にすると、PCF のフォントをサムネイル表示します。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>PCF ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ</short>
+        <long>ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, PCF ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>PCF 글꼴을 미리보기</short>
+        <long>참이면 PCF 글꼴을 미리 볼 수 있습니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Der barê mînakdayin û mînaknedayina curetîpên PCF de</short>
+        <long>Heke li rastiye hatibe mîhengkirin, wê curenivîsên PCF were mînakkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Ar rodyti PCF šriftų miniatiūras</short>
+        <long>Jeigu reikšmė teigiama, bus bus kuriamos PCF šriftų miniatūros.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Vai sīkattēlot PCF fontus</short>
+        <long>Ja iestatīts uz true, tad PCF fonti tiks sīkattēloti.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>की पीसीएफ़ फोन्ट क&apos; लघु बिंब बनाबू </short>
+        <long>जँ सही पर नियत कएल जाएत अछि, पीसीएफ़ फोन्ट क&apos; लघु बिंब बनाओल जाएत.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>(Tsy) maneho ny endri-tsoratra PCF anaty sary madinika</short>
+        <long>Raha voalaza fa marina, dia haseho anaty sary madinika ireo endri-tsoratra PCF.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>PCF അക്ഷരസഞ്ചയങ്ങള്‍ നഖചിത്രമാക്കണമോ എന്നു്</short>
+        <long>ഇതു് true ആണെങ്കില്‍, PCF അക്ഷരസഞ്ചയങ്ങള്‍ക്കു് നഖചിത്ര ലഭ്യമാകുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>PCF-бичгүүдийг бяцхан зураг загварээр харуулах эсэх?</short>
+        <long>PCF бичгүүдээр бяцхан зураг загварт харуулах уу?</long>
+      </locale>
+
+      <locale name="mr">
+        <short>PCF फॉन्ट thumbnail नुरूप करायचे</short>
+        <long>true निश्चित केल्यास, PCF फॉन्ट थंबनेल केले जातिल.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>PCFफन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन</short>
+        <long>यदि सेट सहि भएमा, PCF फन्टहरूलाई थम्बनेल गरिनेछ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Of PCF-lettertypes een miniatuur moeten krijgen</short>
+        <long>Indien waar, wordt een PCF-lettertype getoond in een miniatuur.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Om det skal lagast miniatyrar av PCF-skrifter</short>
+        <long>Dersom sann, vert det laga miniatyrar av PCF-skrifter.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Ge eba go swanetše go khutsofatšwe difonto tša PCF</short>
+        <long>Ge eba e beakantšwe e le therešo, gona difonto tša PCF di tla khutsofatšwa.</long>
+      </locale>
+
+      <locale name="or">
+        <short>PCFଫଣ୍ଟଗୁଡିକୁ ଥମ୍ବନେଇଲ କରାୟିବ କି ନାହିଁ</short>
+        <long>ୟଦି ସତ୍ଯକୁ ସେଟ ହୁଏ, ତେବେ PCF ଫଣ୍ଟଗୁଡିକ ଥମ୍ବନେଇଲଡ ହୋଇୟିବ ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੀ ਫੋਂਟ ਪੀਸੀਐਫ(PCF) ਨੂੰ ਥੰਬਨੇਲ ਕਰਨਾ ਹੈ</short>
+        <long>ਜੇਕਰ ਇਹ ਸੱਚ ਹੈ ਤਾਂ, ਪੀਸੀਐਫ (PCF) ਫੋਂਟ ਥੰਬਨੇਲ ਬਣ ਜਾਣਗੇ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Określa, czy należy tworzyć miniaturki dla czcionek PCF</short>
+        <long>Włączenie opcji powoduje generowanie miniaturek dla czcionek PCF.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Gerar ou não amostras de fontes PCF</short>
+        <long>Se verdadeiro, fontes PCF serão apresentadas como amostra.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Gerar miniaturas para fontes PCF</short>
+        <long>Se verdadeiro, as fontes PCF terão miniaturas.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Specifică dacă fonturile PCF vor avea miniaturi.</short>
+        <long>La activare, pentru fonturile PCF se vor crea miniaturi.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Создавать ли миниатюры для шрифтов PCF</short>
+        <long>Если включено, будут создаваться миниатюры для шрифтов PCF</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Či vytvárať náhľady písiem PCF</short>
+        <long>Ak je toto true, pre písma PCF budú vytvorené náhľady.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ali naj se naredijo sličice pisav PCF</short>
+        <long>Izbrana možnost določa, da bodo pisave PCF prikazane v sličicah</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Да ли да укључим умањени приказ ПЦФ словних ликова</short>
+        <long>Ако је постављено, онда ће се за ПЦФ словне ликове користити умањени приказ.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Da li da uključim umanjeni prikaz PCF slovnih likova</short>
+        <long>Ako je postavljeno, onda će se za PCF slovne likove koristiti umanjeni prikaz.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Huruvida miniatyrbilder ska skapas för PCF-typsnitt</short>
+        <long>Om detta är sant kommer miniatyrbilder för PCF-typsnitt att skapas.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>PCF எழுத்துருக்களை சிறுபடமாக்க வேண்டுமா</short>
+        <long>உண்மையெனில், PCF எழுத்துருக்கள் சிறுபடமாக்கப்படும்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>PCF ఫాంట్లను థంబ్‌నైల్ చేయాలా</short>
+        <long>నిజంకు అమర్చితే, అప్పుడు PCF ఫాంట్లు థంబ్‌నెయిల్ అవుతాయి.</long>
+      </locale>
+
+      <locale name="th">
+        <short>กำหนดว่าจะสร้างรูปย่อสำหรับแบบอักษร PCF หรือไม่</short>
+        <long>ถ้ากำหนดเป็นจริง จะแสดงรูปย่อสำหรับแบบอักษร PCF</long>
+      </locale>
+
+      <locale name="tr">
+        <short>PCF yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğru&apos;ya ayarlı ise, PCF yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Чи створювати мініатюри шрифтам у форматі PCF</short>
+        <long>Якщо встановлено, тоді до шрифтів у форматі PCF створюватимуться мініатюри</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Có nên tạo ảnh mẫu cho phông chữ PCF hay không</short>
+        <long>Nếu đặt true (đúng), phông chữ PCF sẽ được tạo ảnh mẫu.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Noba kwenziwe ukutyhila okukhawulezayo kweefonti i-PCF</short>
+        <long>Ukuba imiselwe ku-inyani, ngako oko iifonti ze-PCF ziza kwenziwa zityhileke ngokukhawulezayo.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>是否为 PCF 字体制作缩略图</short>
+        <long>如果设定为 true，将制作 PCF 字体缩略图。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>是否為 PCF 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 PCF 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>是否為 PCF 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 PCF 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Mhlambe ukugcizelela iziqwema ze-PCF</short>
+        <long>Uma ihlelwe ukuba yiqiniso, ngakho ke PCF amaqwema azogcizelelwa.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-otf/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-otf/command</applyto>
+      <type>string</type>
+      <default>gnome-thumbnail-font %u %o</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenType fonts</short>
+        <long>
+          Set this key to the command used to create thumbnails for
+          OpenType fonts.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Duimnaelsketsopdrag vir OpenType-lettertipes</short>
+        <long>Stel hierdie sleutel in op die opdrag wat gebruik word om &apos;n duimnaelskets te skep vir OpenType-lettertipes.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>أمر إنشاء مصغرات خطوط OpenType</short>
+        <long>اضبط هذا المفتاح للأمر المجعول لإنشاء مصغرات خطوط OpenType.</long>
+      </locale>
+
+      <locale name="as">
+        <short>OpenType ফন্টৰ থাম্বনেইল আদেশ</short>
+        <long>OpenType ফন্টৰ থাম্বনেইল নিৰ্মাণৰ আদেশ চলোৱাৰ বাবে এই চাবিক নিৰ্ধাৰণ কৰক  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Comandu pa miniaturizar les tipografíes OpenType</short>
+        <long>Ponga nesta clave la orde qu&apos;hai d&apos;usar pa criar miniatures de les tipografíes OpenType.</long>
+      </locale>
+
+      <locale name="az">
+        <short>OpenType yazı növlərinin ön nümayiş əmri</short>
+        <long>Bu düyməni OpenType yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Загад стварэньня мініятураў для шрыфтоў OpenType</short>
+        <long>Усталюйце ў гэты ключ загад для стварэньня мініятураў для шрыфтоў OpenType.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Zahad, kab stvarać minijatury dla šryftoŭ OpenType</short>
+        <long>Akreśl dla hetaha kluča zahad, kab stvarać minijatury dla šryftoŭ OpenType.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Команда за миниизображения за шрифтове OpenType.</short>
+        <long>Команда за създаването на миниизображения за шрифтове във формат OpenType.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>OpenType ফন্টের জন্য থাম্বনেইল কমান্ড</short>
+        <long>OpenType ফন্টের থাম্বনেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>OpenType ফন্টের জন্য থাম্ব-নেইল কমান্ড</short>
+        <long>OpenType ফন্টের থাম্ব-নেইল নির্মাণের জন্য ব্যবহৃত কমান্ড রূপে এই কি নির্ধারণ করুন।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Naredba za umanjeni prikaz OpenType fontova</short>
+        <long>Dodijeli ovu tipku naredbi koja se koristi za umanjeni prikaz OpenType fontova.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Ordre per a crear miniatures pels tipus de lletra OpenType</short>
+        <long>Establiu aquesta clau a l&apos;ordre utilitzada per crear miniatures per al tipus de lletra OpenType.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Orde per a crear miniatures pels tipus de lletra OpenType</short>
+        <long>Establiu esta clau a l&apos;orde utilitzada per crear miniatures per al tipus de lletra OpenType.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>OpenType yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı OpenType yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Příkaz náhledu písem OpenType</short>
+        <long>Nastavte tento klíč na příkaz používaný k vytváření náhledů písem OpenType.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Gorchymyn lluniau cryno ar gyfer ffontiau OpenType</short>
+        <long>Gosodwch yr allwedd hon i&apos;r gorchymyn a ddefnyddir er mwyn creu lluniau cryno o ffontiau OpenType.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Miniaturekommando for OpenType-skrifttyper</short>
+        <long>Sæt denne nøgle til kommandoen til at oprette miniature til OpenType-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenType-Schriften</short>
+        <long>Setzen Sie diesen Schlüssel auf den zum Erstellen von Miniatur-Vorschaubildern auf OpenType-Schriften verwendeten Befehl.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཨོ་པཱན་ཊ་ཡིབ་ ཡིག་གཟུགས་ཀྱི་དོན་ལུ་ མཐེབ་གཟེར་གྱི་བརྡ་བཀོད།</short>
+        <long>ལྡེ་མིག་འདི་ ཨོ་པཱན་ཊ་ཡིབ་ ཡིག་གཟུགས་ཀྱི་དོན་ལས་ མཐེབ་གཟེར་གསར་བསྐྲུན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ བརྡ་བཀོད་ལུ་ གཞི་སྒྲིག་འབད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εντολή μικρογραφιών γραμματοσειρών OpenType</short>
+        <long>Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη δημιουργία μικρογραφιών για τις γραμματοσειρές OpenType.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Thumbnail command for OpenType fonts</short>
+        <long>Set this key to the command used to create thumbnails for OpenType fonts.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenType fonts</short>
+        <long>Set this key to the command used to create thumbnails for OpenType fonts.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para miniaturizar las tipografías OpenType</short>
+        <long>Establezca en esta clave el comando que se debe usar para crear miniaturas de las tipografías OpenType.</long>
+      </locale>
+
+      <locale name="et">
+        <short>OpenType kirjatüüpidest pisipiltide tegemise käsk</short>
+        <long>Käsk, millega tehakse OpenType kirjatüüpidest pisipilte.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Komandoa OpenType letra-tipoa koadro txikietan jartzeko</short>
+        <long>Ezarri gako hau OpenType letra-tipoak koadro txikietan jartzeko erabiliko den komandoari.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>فرمان مسطوره‌سازی برای قلم‌های OpenType</short>
+        <long>این کلید به فرمانی که برای ایجاد مسطوره برای قلم‌های OpenType استفاده می‌شود تنظیم شود.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Pienoiskuvakomento OpenType-kirjasimille</short>
+        <long>Aseta tähän avaimeen komento, joka luo pienoiskuvia OpenType-kirjasimista.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de vignettes pour les polices OpenType</short>
+        <long>Placez dans cette clé la commande servant à créer les vignettes pour les polices OpenType.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Orde para miniaturizar os tipos de letra OpenType</short>
+        <long>Definir esta chave na orde usada para crear miniaturas para os tipos de letra OpenType.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>OpenType ફોન્ટો માટે થમ્બનેઇલ આદેશ</short>
+        <long>OpenType ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Thumbnail command for OpenType fonts</short>
+        <long>Set this key to the command used to create thumbnails for OpenType fonts.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>ओपन टाइप फ़ॉन्ट्स हेतु लघु छवि बनाने के कमांड</short>
+        <long>इस कुंजी को ओपन टाइप फ़ॉन्ट्स के लघु छवि बनाने के कमांड हेतु नियत करें.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>OpenType betűkészletek bélyegkép-parancsa</short>
+        <long>Állítsa ezt a kulcsot az OpenType betűkészletekből bélyegkép készítésére használt parancsra.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Smámyndaskipun fyrir OpenType-letur</short>
+        <long>Stilltu þennan lykil við skipunina sem notuð er til að smámynda OpenType letur.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Comando per le anteprime dei caratteri OpenType</short>
+        <long>Impostare il valore di questa chiave al comando da usare per creare le anteprime dei caratteri OpenType.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>OpenType のサムネイルを生成するコマンド</short>
+        <long>OpenType のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ</short>
+        <long>ಈ ಕೀಲಿಯನ್ನು ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ ಹೊಂದಿಸು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>오픈타입 글꼴의 미리보기 명령</short>
+        <long>오픈타입 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Ji bo curetîpên OpenType fermana mînandinê</short>
+        <long>Vê mifteyê ji bo fermana curenivîsên OpenType were mînakkirin mîheng bike</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Peržiūros komanda OpenType šriftams</short>
+        <long>Šiame rakte nurodykite komandą, kuri bus naudojama kurti OpenType šriftų miniatiūroms.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Sīkattēlu komanda OpenType fontiem</short>
+        <long>Iestatiet šo atslēgu uz komandu, ko lietot, lai izveidotu sīkattēlus OpenType fontiem.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>ओपन टाइप फोन्ट लेल लघु बिंब बनाबै क&apos; कमांड</short>
+        <long>एहि कुँजीकेँ ओपन टाइप फोन्ट क&apos; लघु बिंब बनाबै क&apos; कमांड लेल नियत करू.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Baiko famoronana sary madinika ho an&apos;ny endri-tsoratra openType</short>
+        <long>Ampifanarao amin&apos;ny baiko amoronana sary madinika ho an&apos;ny endri-tsoratra OpenType ity famaha ity.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>OpenType അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര കമാന്‍ഡ്</short>
+        <long>OpenType അക്ഷരസഞ്ചയങ്ങള്‍ക്കുള്ള നഖചിത്ര ഉണ്ടാക്കുന്നതിനുള്ള കമാന്‍ഡിനു് ഈ കീ സജ്ജമാക്കുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>OpenType-бичгүүдийг урьдчилан харах тушаал</short>
+        <long>OpenType бичгүүдийн хувьд бяцхан зураг үүсгэх тушаалдаа та энэ түлхүүрийг тогтоо.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>OpenType फॉन्ट करीता thumbnail आदेश</short>
+        <long>OpenType फॉन्ट करीता थंबनेल बनविण्यासाठी वापरण्याजोगी आदेशकरीता ही कि निश्चित करा.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>खुला प्रकारका फन्टहरूका लागि थम्बनेल आदेश</short>
+        <long>खुला प्रकारका फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई सेट गर्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Opdracht voor miniatuur voor OpenType-lettertypes</short>
+        <long>Stel deze sleutel in op de opdracht waarmee miniaturen worden gemaakt van OpenType-lettertypes.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Miniatyr-OpenType-kommando</short>
+        <long>Sett denne nøkkelen til kommandoen som lagar miniatyrar av OpenType-skrifter.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Taelo ya khutsofatšo bakeng sa difonto tša Mohuta o Bulegilego</short>
+        <long>Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo tša difonto tša Mohuta o Bulegilego.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଥମ୍ବନେଇଲ ଆଦେଶ ଓପନଟାଇପ ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ</short>
+        <long>ଓପନଟାଇପ ଫଣ୍ଟ ଗୁଡିକ ପାଇଁ ଥମ୍ବନେଇଲ ସୃଷ୍ଟିକରିବା ନିମନ୍ତେ ଉପୟୋଗ ହେଉଥିବା ଏହି କିକୁ ଆଦେଶକୁ ସେଟ କର ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਫੋਂਟ ਓਪਨਟਾਈਪ (OpenType) ਲਈ ਥੰਬਨੇਲ ਕਮਾਂਡ</short>
+        <long>ਕਮਾਂਡ, ਜੋ ਫੋਂਟ ਓਪਨ-ਟਾਈਪ (OpenType) ਲਈ ਥੰਬਨੇਲ ਬਣਾਉਦੀ ਹੈ, ਨੂੰ ਇਹ ਸਵਿੱਚ ਦਿਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Polecenie generujące miniaturki dla czcionek OpenType</short>
+        <long>Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek OpenType.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando de amostras para fontes OpenType</short>
+        <long>Defina esta chave com o comando utilizado para criar amostras de fontes OpenType.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para fontes OpenType</short>
+        <long>Defina esta chave para o comando usado para criar miniaturas das fontes OpenType.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Comanda de creare miniaturi pentru fonturile OpenType.</short>
+        <long>Definiți această cheie cu comanda utilizată pentru a crea miniaturi pentru fonturile OpenType.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Команда создания миниатюр для шрифтов OpenType</short>
+        <long>Ключ задаёт команду для создания миниатюр шрифтов OpenType.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Príkaz pre náhľady písiem OpenType</short>
+        <long>Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem OpenType.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ukaz za ustvaritev sličic pisav OpenType.</short>
+        <long>Ukaz za ustvaritev sličic pisav OpenType.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Наредба за умањени приказ код ОпенТајп словних ликова</short>
+        <long>Додели овај тастер наредби која се користи за прављење умањеног приказа код ОпенТајп словних ликова.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Naredba za umanjeni prikaz kod OpenTajp slovnih likova</short>
+        <long>Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza kod OpenTajp slovnih likova.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Minatyrbildskommando för OpenType-typsnitt</short>
+        <long>Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för OpenType-typsnitt.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>OpenType எழுத்துருக்களுக்கான சிறுபட கட்டளை</short>
+        <long>OpenType எழுத்துருக்களுக்கு சிறுபடம் உருவாக்க இந்த விசையை கட்டளையாக அமை</long>
+      </locale>
+
+      <locale name="te">
+        <short>ఓపెన్‌టైప్ ఫాంట్ల కొరకు థంబ్‌నైల్ ఆదేశం</short>
+        <long>ఓపెన్‌టైప్ ఫాంట్ల కొరకు థంబ్‌నెయిల్సును సృష్టించుటకు ఉపయోగించు ఆదేశంకు ఈ కీని అమర్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>คำสั่งสร้างรูปย่อสำหรับแบบอักษร OpenType</short>
+        <long>กำหนดคำสั่งที่ใช้สร้างรูปย่อสำหรับแบบอักษร OpenType</long>
+      </locale>
+
+      <locale name="tr">
+        <short>OpenType yazıtipleri için örnekleme komutu</short>
+        <long>Bu anahtarı OpenType yazıtipleri için örnek oluşturacak komuta ayarlayın.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Команда створення мініатюр для шрифтів у форматі OpenType</short>
+        <long>Вкажіть у цьому ключі команду, що використовуватиметься для створення мініатюр для шрифтів у форматі OpenType</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lệnh tạo ảnh mẫu cho phông chữ OpenType</short>
+        <long>Đặt khóa này cho lệnh được dùng để tạo ảnh mẫu cho phông chữ OpenType.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Umyalelo wokutyhila okukhawulezayo kweefonti i-OpenType</short>
+        <long>Misela eli qhosha kumyalelo osetyenzisiweyo ukudala ukutyhila okukhawulezayo kweefonti i-OpenType.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>OpenType 字体的缩略图命令</short>
+        <long>设置该值到用于创建 OpenType 字体缩略图的命令。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>製作 OpenType 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 OpenType 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>製作 OpenType 字型縮圖的指令</short>
+        <long>本設定鍵指定了用來製作 OpenType 字型縮圖的指令。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Gcizelela umyalo wesiqwema se-OpenType</short>
+        <long>Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-OpenType.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@x-font-otf/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@x-font-otf/enable</applyto>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Whether to thumbnail OpenType fonts</short>
+        <long>
+          If set to true, then OpenType fonts will be thumbnailed.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Om OpenType-lettertipes te duimnaelskets of nie</short>
+        <long>Indien waar, sal OpenType-lettertipe geduimnaelskets wees.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>فيما إذا ستنشأ مصغرات لخطوط OpenType</short>
+        <long>إذا ضبط لصحيح، فستنشأ مصغرات لخطوط OpenType.</long>
+      </locale>
+
+      <locale name="as">
+        <short>OpenType ফন্টৰ থাম্বনেইল কৰা হ&apos;ব নে নহয়</short>
+        <long>সত্য হ&apos;লে OpenType ফন্টক থাম্বনেইল কৰা হ&apos;ব  ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Conseña si hai de miniaturizar les tipografíes OpenType</short>
+        <long>Si ta afitao a «true», entós les tipografíes OpenType miniaturizaránse.</long>
+      </locale>
+
+      <locale name="az">
+        <short>OpenType yazı növlərinin ön nümayişlərinin göstərilməsi</short>
+        <long>Seçilirsə, OpenType yazı növlərinin ön nümayişləri göstəriləcək.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Ці ствараць мініятуры для шрыфтоў OpenType</short>
+        <long>Калі ісьціна, будуць стварацца мініятуры для шрыфтоў OpenType.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Ci treba stvarać minijatury dla šryftoŭ OpenType</short>
+        <long>Kali ŭklučana, buduć hieneravacca minijatury dla šryftoŭ OpenType.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Да има ли миниизображения за шрифтове OpenType</short>
+        <long>Ако е истина, шрифтовете във формат OpenType ще се показват с миниизображение.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>OpenType ফন্টের থাম্বনেইল তৈরি করা হবে কি না</short>
+        <long>মান সত্য হলে, OpenType ফন্টগুলো থাম্বনেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>OpenType ফন্টের থাম্ব-নেইল তৈরি করা হবে কি না</short>
+        <long>মান true (সত্য) হলে, OpenType ফন্টগুলি থাম্ব-নেইল রূপে প্রদর্শন করা হবে।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Mar fell dit diskouez an nodrezhoù OpenType evel skeudennig</short>
+        <long>Mar bez gwir e vo diskouezet an nodrezhoù OpenType evel skeudennig</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Da li prikazati umanjeno OpenType fontove</short>
+        <long>Ako je postavljeno, OpenType fontovi će biti prikazani umanjeni.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra OpenType</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores dels tipus de lletra OpenType se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Si s&apos;han de crear miniatures pels tipus de lletra OpenType</short>
+        <long>Si s&apos;estableix a «True» (cert), aleshores dels tipus de lletra OpenType se&apos;n faran miniatures.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>OpenType yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğruya ayarlı ise, OpenType yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Jestli tvořit náhledy písem OpenType</short>
+        <long>Je-li nastaveno na &quot;true&quot;, budou tvořeny náhledy písem OpenType.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>A ddylid creu lluniau cryno o ffontiau OpenType</short>
+        <long>Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau OpenType.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opret miniaturer for OpenType-skrifttyper</short>
+        <long>Hvis dette er sat til sand, oprettes miniaturebilleder for OpenType-skrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubilder auf OpenType-Schriften anzeigen?</short>
+        <long>Sollen Miniatur-Vorschaubilder auf OpenType-Schriften angezeigt werden?</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཨོ་པཱན་ཊ་ཡིབ་ ཡིག་གཟུགས་ཚུ་ལུ་ མཐེབ་གཟེར་བརྡབ་ནི་ཨིན་ན་མེན།</short>
+        <long>བདེན་པ་ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ དེ་ལས་ ཨོ་པཱན་ཊ་ཡིཔ་ ཡིག་གཟུགས་ཚུ་ མཐེབ་གཟེར་བརྡབས་ཏེ་སྡོད་འོང་།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών OpenType</short>
+        <long>Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών OpenType.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Whether to thumbnail OpenType fonts</short>
+        <long>If set to true, then OpenType fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Whether to thumbnail OpenType fonts</short>
+        <long>If set to true, then OpenType fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Indica si debe miniaturizar las tipografías OpenType</short>
+        <long>Si está establecido a «true», entonces las tipografías OpenType se miniaturizarán.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kas OpenType kirjatüüpidest tuleb pisilte teha</short>
+        <long>Kui märgitud, siis tehakse OpenType kirjatüüpidest pisipildid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>OpenType letra-tipoak koadro txikietan jarri ala ez</short>
+        <long>TRUE (egia) ezartzen bada, OpenType letra-tipoak koadro txikietan jarriko dira.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>این که قلم‌های OpenType مسطوره بشوند یا نه</short>
+        <long>اگر درست باشد، قلم‌های OpenType، مسطوره می‌شوند.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Luodaanko OpenType-kirjasimista pienoiskuvat</short>
+        <long>Jos tosi, OpenType-kirjasimista luodaan pienoiskuvia.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Indique s&apos;il faut créer des vignettes pour les polices OpenType</short>
+        <long>Si vrai, les polices OpenType s&apos;afficheront en vignettes.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Indica se se miniaturizan os tipos de letra OpenType</short>
+        <long>Se está estabelecido como verdadeiro, entón os tipos de letra OpenType serán miniaturizados.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ક્યાંતો OpenType ફોન્ટો થમ્બનેઇલ છે</short>
+        <long>જો true તરીકે સુયોજિત હોય તો, OpenType ફોન્ટો એ થમ્બનેઇલ થયેલ હશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Whether to thumbnail OpenType fonts</short>
+        <long>If set to true, then OpenType fonts will be thumbnailed.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>क्या ओपन टाइप फ़ॉन्ट्स की लघु छवि बनाएँ</short>
+        <long>यदि सही पर नियत किया जाता है, ओपन-टाइप फ़ॉन्ट्स की लघु छवियाँ बनाई जाएंगी.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Bélyegkép készítése OpenType betűkészletekből</short>
+        <long>Ha igazra van állítva, az OpenType betűkészletekből bélyegkép készül.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Á að smámynda OpenType letur</short>
+        <long>Ef satt verða OpenType letur smámynduð.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Indica se creare le anteprime per caratteri OpenType</short>
+        <long>Impostare a VERO per creare le anteprime dei caratteri OpenType.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>OpenType のフォントをサムネイル表示するかどうか</short>
+        <long>TRUE にすると、OpenType のフォントをサムネイル表示します。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ</short>
+        <long>ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>오픈타입 글꼴을 미리보기</short>
+        <long>참이면 오픈타입 글꼴을 미리 볼 수 있습니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Der barê mînakdayin û mînaknedayina curetîpên OpenType de</short>
+        <long>Heke li rastiye hatibe mîhengkirin, wê curenivîsên OpenType were mînakkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Ar rodyti OpenType šriftų miniatiūras</short>
+        <long>Jeigu reikšmė teigiama, bus bus kuriamos OpenType šriftų miniatūros.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Vai sīkattēlot OpenType fontus</short>
+        <long>Ja iestatīts uz true, tad OpenType fonti tiks sīkattēloti.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>की ओपन टाइप फोन्ट क&apos; लघु बिंब बनाबू </short>
+        <long>जँ सही पर नियत कएल जाएत अछि, ओपन-टाइप फोन्ट क&apos; लघु बिंब बनाओल जाएत.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>(Tsy) maneho ny endri-tsoratra OpenType anaty sary madinika</short>
+        <long>Raha voalaza ho marina, dia haseho anaty sary madinika ireo endri-tsoratra OpenType.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>OpenType അക്ഷരസഞ്ചയങ്ങള്‍ നഖചിത്രമാക്കണമോ എന്നു്</short>
+        <long>ഇതു് true ആണെങ്കില്‍, OpenType അക്ഷരസഞ്ചയങ്ങള്‍ക്കു് നഖചിത്ര ലഭ്യമാകുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>OpenType-бичгүүдийг бяцхан зураг загварээр харуулах эсэх?</short>
+        <long>OpenType бичгүүдээр бяцхан зураг загварт харуулах уу?</long>
+      </locale>
+
+      <locale name="mr">
+        <short>OpenType फॉन्ट thumbnail नुरूप करायचे</short>
+        <long>true निश्चित केल्यास, OpenType फॉन्ट थंबनेल केले जातिल.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>खुला प्रकारका फन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन</short>
+        <long>यदि सेट सहि भएमा, खुला प्रकारका फन्टहरूलाई थम्बनेल गरिनेछ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Of OpenType-lettertypes een miniatuur moeten krijgen</short>
+        <long>Indien waar, wordt een OpenType-lettertype getoond in een miniatuur.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Om det skal lagast miniatyrar av OpenType-skrifter</short>
+        <long>Dersom sann, vert det laga miniatyrar av OpenType-skrifttypar.</long>
+      </locale>
+
+      <locale name="nso">
+        <short>Ge eba go swanetše go khutsofatšwe difonto tša Mohuta o Bulegilego</short>
+        <long>Ge eba e beakantšwe gore e be therešo, gona difonto tša Mohuta o Bulegilego di tla khutsofatšwa.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଓପନଟାଇପ ଫଣ୍ଟକୁ ଥମ୍ବନେଇଲ କରାୟିବ କି ନାହିଁ</short>
+        <long>ୟଦି ସତ୍ଯକୁ ସେଟ ହୁଏ, ତେବେ ଓପନଟାଇପ ଫଣ୍ଟ ଥମ୍ବନେଇଲଡ ହୋଇୟିବ ୤</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੀ ਫੋਂਟ ਓਪਨ-ਟਾਈਪ(OpenType) ਨੂੰ ਥੰਬਨੇਲ ਕਰਨਾ ਹੈ</short>
+        <long>ਜੇਕਰ ਇਹ ਸੱਚ ਹੈ ਤਾਂ, ਓਪਨ-ਟਾਈਪ (OpenType) ਫੋਂਟ ਥੰਬਨੇਲ ਬਣ ਜਾਣਗੇ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Określa, czy należy tworzyć miniaturki dla czcionek OpenType</short>
+        <long>Włączenie opcji powoduje generowanie miniaturek dla czcionek OpenType.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Gerar ou não amostras de fontes OpenType</short>
+        <long>Se verdadeiro, fontes OpenType serão apresentadas como amostra.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Gerar miniaturas para fontes OpenType</short>
+        <long>Se verdadeiro, as fontes OpenType terão miniaturas.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Specifică dacă fonturile OpenType vor avea miniaturi.</short>
+        <long>La activare, pentru fonturile OpenType se vor crea miniaturi.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Создавать ли миниатюры для шрифтов OpenType</short>
+        <long>Если включено, будут создаваться миниатюры для шрифтов OpenType</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Či vytvárať náhľady písiem OpenType</short>
+        <long>Ak je toto true, pre písma OpenType budú vytvorené náhľady.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ali naj se naredijo sličice pisav OpenType</short>
+        <long>Izbrana možnost določa, da bodo pisave OpenType prikazane v sličicah</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Да ли да укључим умањени приказ ОпенТајп словних ликова</short>
+        <long>Ако је постављено, онда ће се за ОпенТајп словне ликове  користити умањени приказ.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Da li da uključim umanjeni prikaz OpenTajp slovnih likova</short>
+        <long>Ako je postavljeno, onda će se za OpenTajp slovne likove  koristiti umanjeni prikaz.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Huruvida miniatyrbilder ska skapas för OpenType-typsnitt</short>
+        <long>Om detta är sant kommer miniatyrbilder för OpenType-typsnitt att skapas.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>OpenType எழுத்துருக்களை சிறுபடமாக்க வேண்டுமா</short>
+        <long>உண்மையெனில், OpenType எழுத்துருக்கள் சிறுபடமாக்கப்படும்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ఓపెన్‌టైప్ ఫాంట్లను థంబ్‌నైల్ చేయాలా</short>
+        <long>నిజంకు అమర్చితే, అప్పుడు ఓపెన్‌టైప్ ఫాంట్లు థంబ్‌నెయిల్ అవుతాయి.</long>
+      </locale>
+
+      <locale name="th">
+        <short>กำหนดว่าจะสร้างรูปย่อสำหรับแบบอักษร OpenType หรือไม่</short>
+        <long>ถ้ากำหนดเป็นจริง จะแสดงรูปย่อสำหรับแบบอักษร OpenType</long>
+      </locale>
+
+      <locale name="tr">
+        <short>OpenType yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği</short>
+        <long>Eğer doğruya ayarlı ise, OpenType yazıtipleri örneklendirilecek.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Чи створювати мініатюри шрифтам у форматі OpenType</short>
+        <long>Якщо встановлено, тоді до шрифтів у форматі OpenType створюватимуться мініатюри</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Có nên tạo ảnh mẫu cho phông chữ OpenType hay không</short>
+        <long>Nếu đặt true (đúng), phông chữ OpenType sẽ được tạo ảnh mẫu.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Noba kwenziwe ukutyhila okukhawulezayo kweefonti i-OpenType</short>
+        <long>Ukuba imiselwe ku-inyani, ngako oko iifonti i-OpenType ziza kwenziwa zityhile ngokukhawulezayo.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>是否为 OpenType 字体制作缩略图</short>
+        <long>如果设定为 true，将制作 OpenType 字体缩略图。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>是否為 OpenType 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 OpenType 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>是否為 OpenType 字型製作縮圖</short>
+        <long>如設定為‘true’，則會顯示 OpenType 字型的縮圖。</long>
+      </locale>
+
+      <locale name="zu">
+        <short>Mhlambe ukugcizelela iziqwema ze-OpenType</short>
+        <long>Uma ihlelwe ukuba yiqiniso, ngakho ke OpenType amaqwema azogcizelelwa.</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

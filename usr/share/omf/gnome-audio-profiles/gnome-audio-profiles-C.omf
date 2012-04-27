@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Marc-Andre Lureau)</creator>
+    <maintainer>(GNOME Documentation Project)</maintainer>
+    <title>GNOME Audio Profiles Manual</title>
+    <date>December 2008</date>
+    <version identifier="Audio Profiles Manual V0.1" date="December 2008"/>
+    <subject category="GNOME|Applications|Sound and Video"/>
+    <description>
+      GNOME Audio Profiles is a set of audio encoding configurations for
+        GStreamer based applications.
+    </description>
+    <type>user's guide</type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/gnome-audio-profiles/C/gnome-audio-profiles.xml"/>
+    <language code="C"/>
+    <relation seriesid="0b4175ce-79cd-4155-8e4e-172ed4328c4f"/>
+    <rights type="GNU FDL" license.version="1.1" holder="GNOME Documentation Project"/>
+  </resource>
+</omf>

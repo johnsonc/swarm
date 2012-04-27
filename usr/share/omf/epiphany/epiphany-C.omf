@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Patanjali Somayaji)</creator>
+    <creator>(David Bordoley)</creator>
+    <creator>(Piers Cornwell)</creator>
+    <creator>(Reinout van Schouwen)</creator>
+    <creator>(Victor Osadci)</creator>
+    <maintainer>(Victor Osadci)</maintainer>
+    <title>Epiphany Manual</title>
+    <date>2006-01</date>
+    <version identifier="1.7" date="2006-01"/>
+    <subject category="GNOME|Internet"/>
+    <description>
+	  
+		Epiphany is a simple web browser for GNOME with most standard 
+		features such as pop-up blocking, tabbed browsing. 
+		It also has optional extensions and rather than using folder-based 
+		bookmarks, it has topic-based bookmarks.
+	  
+	</description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/epiphany/C/epiphany.xml"/>
+    <language code="C"/>
+    <relation seriesid="48206048-5ef3-11d7-85db-fe5f992e5b79"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Patanjali Somayaji"/>
+  </resource>
+</omf>

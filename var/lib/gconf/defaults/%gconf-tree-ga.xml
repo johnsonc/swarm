@@ -1,0 +1,2019 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="font_rendering">
+					<entry name="rgba_order">
+						<local_schema short_desc="Ord RGBA">
+						</local_schema>
+					</entry>
+					<entry name="hinting">
+						<local_schema short_desc="Leidiú">
+						</local_schema>
+					</entry>
+					<entry name="antialiasing">
+						<local_schema short_desc="Frithailiasáil">
+						</local_schema>
+					</entry>
+					<entry name="dpi">
+						<local_schema short_desc="PSO">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<entry name="default_session">
+						<local_schema short_desc="Seisiún réamhshocraithe">
+						</local_schema>
+					</entry>
+					<dir name="required_components">
+						<entry name="filemanager">
+							<local_schema short_desc="Bainisteoir Comhad">
+							</local_schema>
+						</entry>
+						<entry name="panel">
+							<local_schema short_desc="Painéal">
+							</local_schema>
+						</entry>
+						<entry name="windowmanager">
+							<local_schema short_desc="Bainisteoir Fuinneoga">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="keybindings">
+					<entry name="allowed_keys">
+						<local_schema short_desc="Eochracha ceadaithe">
+						</local_schema>
+					</entry>
+					<dir name="onscreenkeyboard">
+						<entry name="action">
+							<local_schema short_desc="Scoránaigh an méarchlár scáileán">
+							</local_schema>
+						</entry>
+						<entry name="binding">
+							<local_schema short_desc="Scoránaigh an méarchlár scáileán">
+								<longdesc>Ceangal chun an méarchlár scáileáin a scoránú.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="action">
+							<local_schema short_desc="Scoránaigh an léitheoir scáileáin">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="binding">
+							<local_schema short_desc="Scoránaigh an léitheoir scáileáin">
+								<longdesc>Ceangal chun an léitheoir scáileáin a scoránú.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="action">
+							<local_schema short_desc="Scoránaigh an formhéadaitheoir">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="binding">
+							<local_schema short_desc="Scoránaigh an formhéadaitheoir">
+								<longdesc>Ceangal chun an formhéadaitheoir a scoránú.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Díchumasaigh glasáil scáileáin">
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Díchumasaigh socrú priontála">
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Díchumasaigh priontáil">
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Díchumasaigh líne na n-orduithe">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="enable_esd">
+						<local_schema short_desc="Cumasaigh ESD">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Méid chúrsóra">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Téama cúrsóra">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Cló cúrsóra">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Am Déchliceála">
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Aonchliceáil">
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Aonchliceáil">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<dir name="indicator">
+							<entry name="enabledPlugins">
+								<local_schema short_desc="Liosta na mbreiseán Táscaire Mhéarchláir cumasaithe">
+									<longdesc>Liosta na mbreiseán Táscaire Mhéarchláir cumasaithe</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="showFlags">
+								<local_schema short_desc="Taispeáin brataí san fheidhmchláirín">
+									<longdesc>Taispeáin brataí san fheidhmchláirín chun an leagan amach reatha a chur in iúl</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="secondary">
+								<local_schema short_desc="Grúpaí tánaisteacha">
+									<longdesc>Grúpaí tánaisteacha</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="preview">
+							<entry name="height">
+								<local_schema short_desc="Réamhamharc an Mhéarchláir, airde">
+									<longdesc>Réamhamharc an Mhéarchláir, airde</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="width">
+								<local_schema short_desc="Réamhamharc an Mhéarchláir, leithead">
+									<longdesc>Réamhamharc an Mhéarchláir, leithead</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Réamhamharc an Mhéarchláir, fritháireamh Y">
+									<longdesc>Réamhamharc an Mhéarchláir, fritháireamh Y</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Réamhamharc an Mhéarchláir, fritháireamh X">
+									<longdesc>Réamhamharc an Mhéarchláir, fritháireamh X</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="general">
+							<entry name="disable_sysconfig_changed_warning">
+								<local_schema short_desc="Ceil an teachtaireachta rabhaidh &quot;Athraíodh sysconfig X&quot;">
+									<longdesc>Ceil an teachtaireachta rabhaidh &quot;Athraíodh sysconfig X&quot;</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="loadExtraItems">
+								<local_schema short_desc="Luchtaigh míreanna cumraíochta breise">
+									<longdesc>Luchtaigh leaganacha amach agus roghanna coimhthíoch úsáidte go hannamh</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="layoutNamesAsGroupNames">
+								<local_schema short_desc="Taispeáin ainmneacha leagain amach in ionad ainmneacha grúpa">
+									<longdesc>Taispeáin ainmneacha leagain amach in ionad ainmneacha grúpa (do leaganacha XFree a thacaíonn le leaganacha amach iomadúla amháin)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="handleIndicators">
+								<local_schema short_desc="Sábháil/athchóirigh táscairí in éineacht le grúpaí leaganacha amach">
+									<longdesc>Sábháil/athchóirigh táscairí in éineacht le grúpaí leaganacha amach</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="groupPerWindow">
+								<local_schema short_desc="Coinnigh agus bainistigh grúpa ar leith do gach fuinneog">
+									<longdesc>Coinnigh agus bainistigh grúpa ar leith do gach fuinneog</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="defaultGroup">
+								<local_schema short_desc="Grúpa réamhshocraithe, sanntar ag cruthú fuinneoige">
+									<longdesc>Grúpa réamhshocraithe, sanntar ag cruthú fuinneoige</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="known_file_list">
+								<local_schema short_desc="liosta comhaid modmap">
+									<longdesc>Liosta comhaid modmap le fáil sa chomhadlann $HOME.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="update_handlers">
+								<local_schema short_desc="Láimhseálaithe Nuashonrú Méarchláir">
+									<longdesc>Bailiúchán scripteanna le rith aon uair a athluchtaíodh staid an mhéarchláir. Úsáideach le haghaidh athchur i bfheidhm coigeartuithe xmodmap-bhunaithe</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="kbd">
+							<entry name="options">
+								<local_schema short_desc="Roghanna méarchláir">
+									<longdesc>Roghanna méarchláir</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="layouts">
+								<local_schema short_desc="Leagan amach méarchláir">
+									<longdesc>leagan amach méarchláir</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="model">
+								<local_schema short_desc="Samhail mhéarchláir">
+									<longdesc>samhail mhéarchláir</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="background">
+					<entry name="secondary_color">
+						<local_schema short_desc="An Dáth Tánaisteach">
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="An Dáth Príomha">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Ainm-Comhad an Pictiúr">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Roghanna ag an Pictiúr">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Tarraingt an Cúlra">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Téama Deilbhíní Comhaid">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="stickykeys_enable">
+							<local_schema short_desc="Eochracha greamaitheacha">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_enable">
+							<local_schema short_desc="Eochracha na luiche">
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_enable">
+							<local_schema short_desc="Eochracha preabtha">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="break_time">
+						<local_schema short_desc="Ám Sos">
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Clóscríobh an t&apos;Ám">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="at">
+						<entry name="screen_reader_enabled">
+							<local_schema short_desc="Léitheoir scáileáin">
+							</local_schema>
+						</entry>
+						<entry name="screen_magnifier_enabled">
+							<local_schema short_desc="Formhéadaitheoir scáileáin">
+							</local_schema>
+						</entry>
+						<entry name="screen_keyboard_enabled">
+							<local_schema short_desc="Méarchlár scáileáin">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="exec">
+							<local_schema short_desc="an Líonléitheoir atá loiceadh">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Ainmneacha na spásanna oibre (lochtach)">
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Líon spásanna oibre (lochtach)">
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Bainisteoir fuinneog úsáideora (lochtach)">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Argóintí Reatha">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Feidhmchláir Terminéal">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Taispeáin an roghchlár &apos;Carachtar Rialú Unicode&apos;">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Taispeáin an roghchlár &apos;Modhanna Ionchuir&apos;">
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modúl le GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Barra Stádais ar Dheis">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Bain Úsáid as Cló Saincheaptha">
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Cló aonleithid">
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Cló cáipéise">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="Modúl IM GTK">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Stíl Stádas IM GTK">
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Cló réamhshocrú">
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Téama Gtk+">
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Téama Gtk+">
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Téama Deilbhíní">
+							<longdesc>Téama na Dealbh chun úsaid leis an painéal, nautilus etc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Am Chaochadh an Chúrsóra">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Caochadh an Chúrsóra">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Méid Deilbhín Bharra Uirlisí">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Tá Deilbhíní ag na Roghchláir">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stíl Bharra Uirlisí">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Cumasaigh Íomhánna Beo">
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Cumasaigh Inrochtaineacht">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema short_desc="Ionchódú fotheideal">
+					</local_schema>
+				</entry>
+				<entry name="subtitle_font">
+					<local_schema short_desc="Cló fotheideal">
+					</local_schema>
+				</entry>
+				<entry name="shuffle">
+					<local_schema short_desc="Mód suaithe">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-screensaver">
+				<entry name="user_switch_enabled">
+					<local_schema short_desc="Ceadaigh athrú úsáideoirí">
+					</local_schema>
+				</entry>
+				<entry name="logout_command">
+					<local_schema short_desc="Ordú logála amach">
+					</local_schema>
+				</entry>
+				<entry name="logout_enabled">
+					<local_schema short_desc="Ceadaigh logáil amach">
+					</local_schema>
+				</entry>
+				<entry name="themes">
+					<local_schema short_desc="Téamaí spárálaí scáileáin">
+					</local_schema>
+				</entry>
+				<entry name="lock_enabled">
+					<local_schema short_desc="Cuir faoi ghlas ag gníomhachtú">
+					</local_schema>
+				</entry>
+				<entry name="idle_activation_enabled">
+					<local_schema short_desc="Gníomhachtaigh agus díomhaoin">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="diskload_color2">
+						<local_schema short_desc="Dath cúlra don ghraf luchtú an diosca">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="yelp">
+				<entry name="variable_font">
+					<local_schema short_desc="Cló téacs">
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="Úsáid clónna córais">
+					</local_schema>
+				</entry>
+				<entry name="use_caret">
+					<local_schema short_desc="Úsáid carait">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_battery">
+						<local_schema short_desc="Taispeáin an cadhnra cothrománach">
+							<longdesc>Taispeáin an cadhnra traidisiúnta, cothrománach ar an bpainéal.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="cpu">
+						<local_schema short_desc="LAP le hAghaidh Monatóireachta">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="network_icon_name">
+						<local_schema short_desc="Ainm deilbhín freastalaithe líonra">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Leibhéal súmála liosta réamhshocraithe">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="compact_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Leibhéal _súmála dlúthamhairc réamhshocraithe">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Leibhéal súmála deilbhín réamhshocraithe">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Amharc an &quot;Pána ar an Thaobh&quot;">
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Taispéan barra stadás san fhuinneogaí nua">
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Taispeán barra uirlís san fhuinneogaí nua">
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Leithead atá ag an pána ar an thaobh">
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Formáid Dáta">
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Amharcóir loicead sa fhillteain">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Dath Cúlra de gnáth">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema short_desc="Cúlra Saincheaptha">
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Cló deisce">
+						</local_schema>
+					</entry>
+					<entry name="mouse_use_extra_buttons">
+						<local_schema short_desc="Úsáid teagmhais cnaipe luiche breise i bhfuinneog brabhsálaí Nautilus">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="speed_unit">
+						<local_schema short_desc="Aonad luais">
+							<longdesc>Aonad a úsáid agus luas na gaoithe á thaispeáint.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="Aonad teochta">
+							<longdesc>An aonad a úsáid agus teochtaí á thaispeáint.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cities">
+						<local_schema short_desc="Liosta suíomhanna">
+							<longdesc>Liosta suíomhanna le taispeáint san fhuinneog fhéilire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="internet_time">
+						<local_schema short_desc="Úsáid am Idirlín">
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Úsáid am UNIX">
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Formáid uaire">
+						</local_schema>
+					</entry>
+					<entry name="expand_locations">
+						<local_schema short_desc="Leathnaigh liosta suíomhanna">
+							<longdesc>Má tá fíor, leathnaigh an liosta suíomhanna san fhuinneog fhéilire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_weather">
+						<local_schema short_desc="Leathnaigh liosta eolas aimsire">
+							<longdesc>Má tá fíor, leathnaigh an liosta eolas aimsire san fhuinneog fhéilire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_tasks">
+						<local_schema short_desc="Leathnaigh liosta tascanna">
+							<longdesc>Má tá fíor, leathnaigh an liosta tascanna san fhuinneog fhéilire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_birthdays">
+						<local_schema short_desc="Leathnaigh liosta breithlaethanta">
+							<longdesc>Má tá fíor, leathnaigh an liosta breithlaethanta san fhuinneog fhéilire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_appointments">
+						<local_schema short_desc="Leathnaigh liosta coinní">
+							<longdesc>Má tá fíor, leathnaigh an liosta coinní san fhuinneog fhéilire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Taispeáin uimhreacha na seachtainí san fhéilire">
+							<longdesc>Má tá fíor, taispeáin uimhreacha na seachtainí san fhéilire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Uirlis chumraíocht ama">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Úsáid UTC">
+						</local_schema>
+					</entry>
+					<entry name="show_temperature">
+						<local_schema short_desc="Taispeáin teocht sa chlog">
+							<longdesc>Má tá fíor, taispeáin teocht in aice an deilbhín aimsire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_weather">
+						<local_schema short_desc="Taispeáin aimsir sa chlog">
+							<longdesc>Má tá fíor, taispeáin deilbhín aimsire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Taispeáin dáta sa leid uirlise">
+							<longdesc>Má tá fíor, taispeáin dáta i leid uirlise nuair a bhíonn an tsnáthaid thar an gclog.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Taispeáin dáta sa chlog">
+							<longdesc>Má tá fíor, taispeáin dáta sa chlog, mar aon leis an am.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Taispeáin am le soicindí">
+							<longdesc>Má tá fíor, taispeáin soicindí san am.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Formáid saincheaptha an chloig">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Formáid uaire">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="plugins">
+					<entry name="active-plugins">
+						<local_schema short_desc="Breiseáin Gníomhacha">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="current_line">
+							<entry name="highlight_current_line">
+								<local_schema short_desc="Aibhsigh Líne Reatha">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="Cló an Eagarthóra">
+								</local_schema>
+							</entry>
+							<entry name="use_default_font">
+								<local_schema short_desc="Bain Úsáid as Cló Réamhshocrú">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="move_to_center">
+						<local_schema short_desc="Bog fuinneog go lár an scáileáin">
+						</local_schema>
+					</entry>
+					<entry name="move_to_side_w">
+						<local_schema short_desc="Bog fuinneog go taobh iarthar (taobh clé) an scáileáin">
+						</local_schema>
+					</entry>
+					<entry name="move_to_side_e">
+						<local_schema short_desc="Bog fuinneog go taobh oirthear (taobh deas) an scáileáin">
+						</local_schema>
+					</entry>
+					<entry name="move_to_side_s">
+						<local_schema short_desc="Bog fuinneog go taobh dheisceart (bun) an scáileáin">
+						</local_schema>
+					</entry>
+					<entry name="move_to_side_n">
+						<local_schema short_desc="Bog fuinneog go taobh thuaisceart (barr) an scáileáin">
+						</local_schema>
+					</entry>
+					<entry name="move_to_corner_se">
+						<local_schema short_desc="Bog fuinneog go cúinne oirdheiscirt (bun ar dheis)">
+						</local_schema>
+					</entry>
+					<entry name="move_to_corner_sw">
+						<local_schema short_desc="Bog fuinneog go cúinne iardheiscirt (bun ar chlé)">
+						</local_schema>
+					</entry>
+					<entry name="move_to_corner_ne">
+						<local_schema short_desc="Bog fuinneog go cúinne oirthuaiscirt (barr ar dheis)">
+						</local_schema>
+					</entry>
+					<entry name="move_to_corner_nw">
+						<local_schema short_desc="Bog fuinneog go cúinne iarthuaiscirt (barr ar chlé)">
+						</local_schema>
+					</entry>
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="Uasmhéadaigh fuinneog go cothrománach">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="Uasmhéadaigh fuinneog go hingearach">
+						</local_schema>
+					</entry>
+					<entry name="lower">
+						<local_schema short_desc="Ísligh fuinneog faoi fhuinneoga eile">
+						</local_schema>
+					</entry>
+					<entry name="raise">
+						<local_schema short_desc="Ardaigh fuinneog os cionn fuinneog eile">
+						</local_schema>
+					</entry>
+					<entry name="raise_or_lower">
+						<local_schema short_desc="Ardaigh fuinneog má tá sí chlúdaíonn fuinneog eile í, nó ísligh í">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_down">
+						<local_schema short_desc="Bog fuinneog spás oibre síos">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_up">
+						<local_schema short_desc="Bog fuinneog spás oibre suas">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_right">
+						<local_schema short_desc="Bog fuinneog spás oibre ar dheis">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_left">
+						<local_schema short_desc="Bog fuinneog spás oibre ar chlé">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Bog fuinneog go spás oibre 12">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Bog fuinneog go spás oibre 11">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Bog fuinneog go spás oibre 10">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Bog fuinneog go spás oibre 9">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Bog fuinneog go spás oibre 8">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Bog fuinneog go spás oibre 7">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Bog fuinneog go spás oibre 6">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Bog fuinneog go spás oibre 5">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Bog fuinneog go spás oibre 4">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Bog fuinneog go spás oibre 3">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Bog fuinneog go spás oibre 2">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Bog fuinneog go spás oibre 1">
+						</local_schema>
+					</entry>
+					<entry name="toggle_on_all_workspaces">
+						<local_schema short_desc="Scoránaigh an bhfuil fuinneog ar gach spás oibre nó ar cheann amháin">
+						</local_schema>
+					</entry>
+					<entry name="begin_resize">
+						<local_schema short_desc="Athmhéadaigh fuinneog">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="Bog fuinneog">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Dún fuinneog">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="Íoslaghdaigh fuinneog">
+						</local_schema>
+					</entry>
+					<entry name="toggle_shaded">
+						<local_schema short_desc="Scoránaigh staid scáthaithe">
+						</local_schema>
+					</entry>
+					<entry name="unmaximize">
+						<local_schema short_desc="Athchóirigh fuinneog">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="Uasmhéadaigh fuinneog">
+						</local_schema>
+					</entry>
+					<entry name="toggle_above">
+						<local_schema short_desc="Scoránaigh an mbeidh fuinneog infheicthe os cionn fuinneog eile i gcónaí">
+						</local_schema>
+					</entry>
+					<entry name="toggle_maximized">
+						<local_schema short_desc="Scoránaigh staid uasmhéadaithe">
+						</local_schema>
+					</entry>
+					<entry name="toggle_fullscreen">
+						<local_schema short_desc="Scoránaigh mód lánscáileáin">
+						</local_schema>
+					</entry>
+					<entry name="activate_window_menu">
+						<local_schema short_desc="Gníomhachtaigh an roghchlár fuinneoige">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybinding_commands">
+					<entry name="command_screenshot">
+						<local_schema short_desc="An ordú scáilghraif">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_terminal">
+						<local_schema short_desc="Rith teirminéal">
+						</local_schema>
+					</entry>
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="Tóg scáilghraf fuinneoige">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="Tóg scáilghraf">
+						</local_schema>
+					</entry>
+					<entry name="panel_run_dialog">
+						<local_schema short_desc="Taispeáin bosca dialóige &quot;Rith Feidhmchlár&quot; an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="panel_main_menu">
+						<local_schema short_desc="Taispeáin príomhroghchlár an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Folaigh gach gnáthfhuinneog agus tabhair fócas don deasc">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels_backward">
+						<local_schema short_desc="Athraigh ar gcúl idir phainéil agus an deasc láithreach">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels">
+						<local_schema short_desc="Athraigh idir phainéil agus an deasc láithreach">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows_backward">
+						<local_schema short_desc="Athraigh ar gcúl idir fhuinneoga láithreach">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows">
+						<local_schema short_desc="Athraigh idir fhuinneoga láithreach">
+						</local_schema>
+					</entry>
+					<entry name="cycle_group_backward">
+						<local_schema short_desc="Athraigh ar gcúl idir fhuinneoga feidhmchláir láithreach">
+						</local_schema>
+					</entry>
+					<entry name="cycle_group">
+						<local_schema short_desc="Athraigh idir fhuinneoga feidhmchláir láithreach">
+						</local_schema>
+					</entry>
+					<entry name="switch_panels_backward">
+						<local_schema short_desc="Athraigh ar gcúl idir phainéil agus an deasc le preabfhuinneog">
+						</local_schema>
+					</entry>
+					<entry name="switch_panels">
+						<local_schema short_desc="Athraigh idir phainéil agus an deasc le preabfhuinneog">
+						</local_schema>
+					</entry>
+					<entry name="switch_windows_backward">
+						<local_schema short_desc="Athraigh ar gcúl idir fhuinneoga le preabfhuinneog">
+						</local_schema>
+					</entry>
+					<entry name="switch_windows">
+						<local_schema short_desc="Athraigh idir fhuinneoga le preabfhuinneog">
+						</local_schema>
+					</entry>
+					<entry name="switch_group_backward">
+						<local_schema short_desc="Athraigh ar gcúl idir fhuinneoga feidhmchláir le preabfhuinneog">
+						</local_schema>
+					</entry>
+					<entry name="switch_group">
+						<local_schema short_desc="Athraigh idir fhuinneoga feidhmchláir le preabfhuinneog">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_down">
+						<local_schema short_desc="Athraigh go spás oibre faoin spás oibre reatha">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_up">
+						<local_schema short_desc="Athraigh go spás oibre os cionn an spáis oibre reatha">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_right">
+						<local_schema short_desc="Athraigh go spás oibre ar dheis an spáis oibre reatha">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_left">
+						<local_schema short_desc="Athraigh go spás oibre ar chlé an spáis oibre reatha">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="Athraigh go spás oibre 12">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="Athraigh go spás oibre 11">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="Athraigh go spás oibre 10">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="Athraigh go spás oibre 9">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="Athraigh go spás oibre 8">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="Athraigh go spás oibre 7">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="Athraigh go spás oibre 6">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="Athraigh go spás oibre 5">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="Athraigh go spás oibre 4">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="Athraigh go spás oibre 3">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="Athraigh go spás oibre 2">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="Athraigh go spás oibre 1">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="Ainm spás oibre">
+							<longdesc>An t-ainm spás oibre.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="compositing_manager">
+						<local_schema short_desc="Bainisteoir Comhshuite">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Cumasaigh Cloigín Infeicthe">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="Líon na spásanna oibre">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Téama reatha">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="keybindings">
+					<entry name="switch_to_tab_12">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 12">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_11">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 11">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_10">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 10">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_9">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 9">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_8">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 8">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_7">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 7">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_6">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 6">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_5">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 5">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_4">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 4">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_3">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 3">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_2">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 2">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_1">
+						<local_schema short_desc="Aicearra méarchláir chun athrú go cluaisín 1">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="background_image">
+							<local_schema short_desc="Íomhá chúlra">
+								<longdesc>Ainm chomhad íomhá chúlra.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_type">
+							<local_schema short_desc="Cineál cúlra">
+							</local_schema>
+						</entry>
+						<entry name="font">
+							<local_schema short_desc="Cló">
+							</local_schema>
+						</entry>
+						<entry name="icon">
+							<local_schema short_desc="Deilbhín d&apos;fhuinneog an teirminéil">
+							</local_schema>
+						</entry>
+						<entry name="cursor_shape">
+							<local_schema short_desc="Cuma an chúrsóra">
+							</local_schema>
+						</entry>
+						<entry name="scrollbar_position">
+							<local_schema short_desc="Ionad an scrollbharra">
+							</local_schema>
+						</entry>
+						<entry name="title">
+							<local_schema short_desc="Teideal don teirminéal">
+							</local_schema>
+						</entry>
+						<entry name="background_color">
+							<local_schema short_desc="Dath réamhshocraithe chúlra an teirminéil">
+							</local_schema>
+						</entry>
+						<entry name="foreground_color">
+							<local_schema short_desc="Dath réamhshocraithe téacs sa teirminéal">
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema short_desc="Liosta ionchóduithe le fáil">
+						</local_schema>
+					</entry>
+					<entry name="profile_list">
+						<local_schema short_desc="Liosta próifílí">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Rónna sa mhalartóir spásanna oibre">
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Taispeáin gach spás oibre">
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Taispeáin ainmneacha spásanna oibre">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Uasmhéid liosta na fuinneoga">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Íosmhéid liosta na fuinneoga">
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Bog fuinneoga ar spás oibre reatha agus iad dí-íoslaghdaithe">
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="An t-am fuinneoga a ghrúpáil">
+							<longdesc>Socraíonn sé seo an t-am fuinneoga don feidhmchlár chéanna a ghrúpáil ar liosta fuinneog. Tá luachanna incheaptha &quot;never&quot;, &quot;auto&quot; nó &quot;always&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Taispeáin fuinneoga ó gach spás oibre">
+							<longdesc>Má tá fíor, taispeánfaidh liosta na fuinneoga fuinneoga ó gach spás oibre. Seachas sin, ní thaispeánfaidh sé ach fuinneoga ó spás oibre reatha.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Díchumasaigh Scor Éigeantach">
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Díchumasaigh Logáil Amach">
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Críochnaigh cur faoi ghlas an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Dearbhaigh baint an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Uathdún tarraiceán">
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Cumasaigh íomhánna beo">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Lochtach">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="Cumasaigh leideanna uirlisí">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Cineál cnaipe gnímh">
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Suíomh tosaitheora">
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Conair ábhair roghchláir">
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Úsáid conair shaincheaptha le ábhair an roghchláir">
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Deilbhín úsáidte le cnaipe an réada">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Úsáid deilbhín saincheaptha le cnaipe an réada">
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Leid uirlise taispeánta le tarraiceán nó roghchlár">
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Painéal ceangailte le tarraiceán">
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="IID Bonobo Feidhmchláirín">
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Ceangail an réad ar an bpainéal">
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Ionad an réada ar an bpainéal">
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Cineál réada painéil">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Seanchumraíocht próifílí aistrithe">
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Liosta CA réada painéil">
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Liosta CA feidhmchláirín painéil">
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Liosta CA painéil">
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="Cumasaigh comhlánú uathoibríoch sa dialóg &quot;Rith Feidhmchlár&quot;">
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Leathnaigh liosta ríomhchlár sa dialóg &quot;Rith Feidhmchlár&quot;">
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="Cumasaigh liosta ríomhchlár sa dialóg &quot;Rith Feidhmchlár&quot;">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Luas beochana">
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Picteilíní infheicthe nuair atá folaithe">
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Moill uath-dífholú an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Moill uathfholú an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Cumasaigh saigheada ar chnaipí folú">
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Cumasaigh cnaipí folaithe">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Cumasaigh íomhánna beo">
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Folaigh painéal sa chúinne go huathoibríoch">
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Láraigh painéal ar y-ais">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Láraigh painéal ar x-ais">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Y-comhordanáid an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="X-comhordanáid an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Méid an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Treoshuíomh an phainéil">
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Leathnaigh chun leithead scáileáin ar fad a líonadh">
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Monatóir Xinerama ina bhfuil an painéal taispeánta">
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="Scáileán X ina bhfuil an painéal taispeánta">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Ainm chun painéal a shainaithint">
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Rothlaigh íomhá ar phainéil ingearacha">
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Sín íomhá leis an bpainéal">
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Oiriúnaigh íomhá do phainéal">
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Íomhá chúlra">
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Teimhneacht datha cúlra">
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Dath cúlra">
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Cineál cúlra">
+								<longdesc>An cineál cúlra ba cheart a úsáid leis an bpainéal seo. Tá na luachanna incheaptha  &quot;gtk&quot;- beidh cúlra giuirléide GTK+ réamhshocraithe úsáidte, &quot;color&quot; - beidh eochair datha úsáidte mar dath cúlra nó &quot;image&quot; - beidh an íomhá sonraithe leis an eochair íomhá úsáidte mar cúlra.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Rothlaigh ar phainéil ingearacha">
+							<longdesc>Má tá fíor, casfar timpeall íomhá bheo an éisc ar phainéail ingearaigh.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Sos de gach fráma">
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Frámaí in íomhá bheo an éisc">
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Ordú a rith le cliceáil">
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Mapa picteilíní íomhá bheo an éisc">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Ainm an éisc">
+							<longdesc>Is iasc cuibheasach dúr é iasc gan ainm. Ainmnigh d&apos;iasc.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="logout_prompt">
+						<local_schema short_desc="Leid logála amach">
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Sábháil seisiúin">
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Taispeáin an splancscáileán">
+							<longdesc>Taispeáin an splancscáileán nuair a thosaíonn an seisiún</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-search-tool">
+				<entry name="look_in_folder">
+					<local_schema short_desc="Féach i bhFillteán">
+					</local_schema>
+				</entry>
+				<entry name="default_window_height">
+					<local_schema short_desc="Airde Fuinneoige Réamhshocraithe">
+					</local_schema>
+				</entry>
+				<entry name="default_window_width">
+					<local_schema short_desc="Leithead Fuinneoige Réamhshocraithe">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-screenshot">
+				<entry name="delay">
+					<local_schema short_desc="Moill scáilghraif">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_history">
+						<local_schema short_desc="Díchumasaigh stair">
+						</local_schema>
+					</entry>
+					<entry name="disable_arbitrary_url">
+						<local_schema short_desc="Díchumasaigh URLanna treallacha">
+						</local_schema>
+					</entry>
+					<entry name="hide_menubar">
+						<local_schema short_desc="Folaigh barra roghchláir mar réamhshocrú">
+							<longdesc>Folaigh an barra roghchláir mar réamhshocrú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_javascript_chrome">
+						<local_schema short_desc="Díchumasaigh rialú chrome JavaScript">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="inspector_enabled">
+						<local_schema short_desc="Cumasaigh Cigire Gréasáin">
+						</local_schema>
+					</entry>
+					<entry name="browse_with_caret">
+						<local_schema short_desc="Brabhsáil le carat">
+						</local_schema>
+					</entry>
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Cumasaigh JavaScript">
+						</local_schema>
+					</entry>
+					<entry name="allow_popups">
+						<local_schema short_desc="Ceadaigh preabfhuinneoga">
+						</local_schema>
+					</entry>
+					<entry name="cookie_accept">
+						<local_schema short_desc="Glacadh fianán">
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Teangacha">
+							<longdesc>Teangacha de rogha, cóid dhá litir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cache_size">
+						<local_schema short_desc="Méid taisce an diosca">
+							<longdesc>Meid taisce an diosca, i MB.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_font_type">
+						<local_schema short_desc="Cló réamhshocraithe">
+							<longdesc>Cló réamhshocraithe. Is iad &quot;serif&quot; agus &quot;sans-serif&quot; na luachanna a d&apos;fhéadfadh a bheith ann.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema short_desc="Ionchódú réamhshocraithe">
+							<longdesc>Ionchódú réamhshocraithe. Is iad seo na luachanna glactha: &quot;armscii-8&quot;, &quot;Big5&quot;, &quot;Big5-HKSCS&quot;, &quot;EUC-JP&quot;, &quot;EUC-KR&quot;, &quot;gb18030&quot;, &quot;GB2312&quot;, &quot;geostd8&quot;, &quot;HZ-GB-2312&quot;, &quot;IBM850&quot;, &quot;IBM852&quot;, &quot;IBM855&quot;, &quot;IBM857&quot;, &quot;IBM862&quot;, &quot;IBM864&quot;, &quot;IBM866&quot;, &quot;ISO-2022-CN&quot;, &quot;ISO-2022-JP&quot;, &quot;ISO-2022-KR&quot;, &quot;ISO-8859-1&quot;, &quot;ISO-8859-2&quot;, &quot;ISO-8859-3&quot;, &quot;ISO-8859-4&quot;, &quot;ISO-8859-5&quot;, &quot;ISO-8859-6&quot;, &quot;ISO-8859-7&quot;, &quot;ISO-8859-8&quot;, &quot;ISO-8859-8-I&quot;, &quot;ISO-8859-9&quot;, &quot;ISO-8859-10&quot;, &quot;ISO-8859-11&quot;, &quot;ISO-8859-13&quot;, &quot;ISO-8859-14&quot;, &quot;ISO-8859-15&quot;, &quot;ISO-8859-16&quot;, &quot;ISO-IR-111&quot;, &quot;KOI8-R&quot;, &quot;KOI8-U&quot;, &quot;Shift_JIS&quot;, &quot;TIS-620&quot;, &quot;UTF-7&quot;, &quot;UTF-8&quot;, &quot;VISCII&quot;, &quot;windows-874&quot;, &quot;windows-1250&quot;, &quot;windows-1251&quot;, &quot;windows-1252&quot;, &quot;windows-1253&quot;, &quot;windows-1254&quot;, &quot;windows-1255&quot;, &quot;windows-1256&quot;, &quot;windows-1257&quot;, &quot;windows-1258&quot;, &quot;x-euc-tw&quot;, &quot;x-gbk&quot;, &quot;x-johab&quot;, &quot;x-mac-arabic&quot;, &quot;x-mac-ce&quot;, &quot;x-mac-croatian&quot;, &quot;x-mac-cyrillic&quot;, &quot;x-mac-devanagari&quot;, &quot;x-mac-farsi&quot;, &quot;x-mac-greek&quot;, &quot;x-mac-gujarati&quot;, &quot;x-mac-gurmukhi&quot;, &quot;x-mac-hebrew&quot;, &quot;x-mac-icelandic&quot;, &quot;x-mac-roman&quot;, &quot;x-mac-romanian&quot;, &quot;x-mac-turkish&quot;, &quot;x-mac-ukrainian&quot;, &quot;x-user-defined&quot;, &quot;x-viet-tcvn5712&quot;, &quot;x-viet-vps&quot; agus &quot;x-windows-949&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="Bain úsáid as do clófhoirne féin">
+							<longdesc>Bain úsáid as do chlófhoirne féin seachas na cinn atá sa leathanach.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="Bain úsáid as do dhathanna féin">
+							<longdesc>Bain úsáid as do dhathanna féin seachas na cinn atá sa leathanach.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimum_font_size">
+						<local_schema short_desc="Íosmhéid clónna">
+						</local_schema>
+					</entry>
+					<entry name="smooth_scroll">
+						<local_schema short_desc="Cumasaigh mínscrollú">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="preferences_font_language">
+						<local_schema short_desc="Teanga na gclófhoirne roghnaithe">
+						</local_schema>
+					</entry>
+					<entry name="history_date_filter">
+						<local_schema>
+							<longdesc>Taispeáin leathanaigh staire ar a chuir tú cuairt orthu &quot;ever&quot;, &quot;last_two_days&quot;, &quot;last_three_days&quot;, &quot;today&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="remember_passwords">
+						<local_schema short_desc="Meabhraigh focail faire">
+						</local_schema>
+					</entry>
+					<entry name="show_statusbar">
+						<local_schema short_desc="Taispeáin barra stádais mar réamhshocrú">
+						</local_schema>
+					</entry>
+					<entry name="show_bookmarks_bar">
+						<local_schema short_desc="Taispeáin barra leabharmharcanna mar réamhshocrú">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbars">
+						<local_schema short_desc="Taispeáin barra na n-uirlisí mar chaighdeán">
+						</local_schema>
+					</entry>
+					<entry name="automatic_downloads">
+						<local_schema short_desc="Íosluchtuithe uathoibríocha">
+						</local_schema>
+					</entry>
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="Taispeáin barra cluaisíní i gcónaí">
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Leathanach baile">
+							<longdesc>Seoladh leathanaigh baile an úsáideora.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="plugins">
+					<entry name="active_plugins">
+						<local_schema short_desc="Breiseáin gníomhacha">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome_settings_daemon">
+				<entry name="volume_step">
+					<local_schema short_desc="Céim airde">
+						<longdesc>Céim airde mar chéatadán airde.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="xrandr">
+					<entry name="show_notification_icon">
+						<local_schema short_desc="Taispeáin Taispeáintí sa Limistéar Fógra.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybindings">
+					<entry name="next">
+						<local_schema short_desc="An chéad rian eile">
+						</local_schema>
+					</entry>
+					<entry name="previous">
+						<local_schema short_desc="An rian roimhe seo">
+						</local_schema>
+					</entry>
+					<entry name="stop">
+						<local_schema short_desc="Stad athsheinm">
+						</local_schema>
+					</entry>
+					<entry name="pause">
+						<local_schema short_desc="Cuir athsheinm ar sos">
+						</local_schema>
+					</entry>
+					<entry name="play">
+						<local_schema short_desc="Seinn (nó seinn/sos)">
+						</local_schema>
+					</entry>
+					<entry name="media">
+						<local_schema short_desc="Tosaigh seinnteoir meán">
+							<longdesc>Ceangal chun an seinnteoir meán a thosú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="www">
+						<local_schema short_desc="Tosaigh brabhsálaí gréasáin">
+							<longdesc>Ceangal chun an brabhsálaí gréasáin a thosú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="calculator">
+						<local_schema short_desc="Tosaigh áireamhán">
+							<longdesc>Ceangal chun an t-áireamhán a thosú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="Tosaigh brabhsálaí cabhrach">
+							<longdesc>Ceangal chun an brabhsálaí cabhrach a thosú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screensaver">
+						<local_schema short_desc="Cuir scáileán faoi ghlas">
+							<longdesc>Ceangal chun an scáileán a chur faoi ghlas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="email">
+						<local_schema short_desc="Tosaigh cliant ríomhphoist">
+							<longdesc>Ceangal chun an cliant ríomhphoist a thosú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search">
+						<local_schema short_desc="Cuardaigh">
+							<longdesc>Ceangal chun an uirlis chuardaigh a thosú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home">
+						<local_schema short_desc="Fillteán baile">
+						</local_schema>
+					</entry>
+					<entry name="eject">
+						<local_schema short_desc="Díchuir">
+							<longdesc>Ceangal chun diosca optúil a dhíchur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="power">
+						<local_schema short_desc="Logáil amach">
+							<longdesc>Ceangal chun logála amach.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volume_up">
+						<local_schema short_desc="Méadaigh airde">
+						</local_schema>
+					</entry>
+					<entry name="volume_down">
+						<local_schema short_desc="Laghdaigh airde">
+						</local_schema>
+					</entry>
+					<entry name="volume_mute">
+						<local_schema short_desc="Balbhaigh airde">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<dir name="housekeeping">
+						<entry name="active">
+							<local_schema short_desc="Cumasaigh an breiseán fodóireachta">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="font">
+						<entry name="active">
+							<local_schema short_desc="Cumasaigh an breiseán cló">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="background">
+						<entry name="active">
+							<local_schema short_desc="Cumasaigh an breiseán cúlra">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="gtk-modules">
+					<entry name="gail:atk-bridge">
+						<local_schema short_desc="Modúil GTK+ le haghaidh tacaíochta inrochtaineachta">
+							<longdesc>Socraíonn an eochair seo na modúil GTK+ le luchtú le haghaidh tacaíochta inrochtaineachta</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema short_desc="Aimsir le cathair">
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema short_desc="Suíomh radair">
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema short_desc="Suíomh creasa">
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="pressure_unit">
+						<local_schema short_desc="Aonad brú">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="evolution">
+				<entry name="version">
+					<local_schema short_desc="Leagan cumraíochta">
+					</local_schema>
+				</entry>
+				<dir name="shell">
+					<entry name="start_offline">
+						<local_schema short_desc="Tosaigh i mód as líne">
+						</local_schema>
+					</entry>
+					<dir name="view_defaults">
+						<entry name="statusbar_visible">
+							<local_schema short_desc="Tá an barra stádais infheicthe">
+							</local_schema>
+						</entry>
+						<entry name="window_maximized">
+							<local_schema short_desc="Staid fhuinneog réamhshocraithe">
+							</local_schema>
+						</entry>
+						<entry name="window_height">
+							<local_schema short_desc="Airde fhuinneog réamhshocraithe">
+							</local_schema>
+						</entry>
+						<entry name="window_width">
+							<local_schema short_desc="Leithead fuinneog réamhshocraithe">
+							</local_schema>
+						</entry>
+						<dir name="folder_bar">
+							<entry name="width">
+								<local_schema short_desc="Leithead barra taoibh réamhshocraithe">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="eplugin">
+					<dir name="external-editor">
+						<entry name="editor-command">
+							<local_schema short_desc="Eagarthóir Seachtrach Réamhshocraithe">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="email_custom_header">
+						<entry name="customHeader">
+							<local_schema short_desc="Liosta Cheanntásc Saincheaptha">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="calendar">
+					<dir name="notify">
+						<entry name="programs">
+							<local_schema short_desc="Feidhmchláir aláraim">
+							</local_schema>
+						</entry>
+						<entry name="last_notification_time">
+							<local_schema short_desc="Am aláraim is déanaí">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tasks">
+						<entry name="primary_tasks">
+							<local_schema short_desc="Príomhliosta tascanna">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="memos">
+						<entry name="primary_memos">
+							<local_schema short_desc="Príomhliosta meamram">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="working_days">
+							<local_schema short_desc="Laethanta oibre">
+							</local_schema>
+						</entry>
+						<entry name="day_end_minute">
+							<local_schema short_desc="Nóiméad deiridh an lae oibre">
+							</local_schema>
+						</entry>
+						<entry name="day_end_hour">
+							<local_schema short_desc="Uair deiridh an lae oibre">
+							</local_schema>
+						</entry>
+						<entry name="day_start_minute">
+							<local_schema short_desc="Nóiméad tosaigh an lae oibre">
+							</local_schema>
+						</entry>
+						<entry name="day_start_hour">
+							<local_schema short_desc="Uair tosaigh an lae oibre">
+							</local_schema>
+						</entry>
+						<entry name="week_start_day">
+							<local_schema short_desc="Tosach seachtaine">
+							</local_schema>
+						</entry>
+						<entry name="timezone">
+							<local_schema short_desc="Crios Ama">
+							</local_schema>
+						</entry>
+						<entry name="primary_calendar">
+							<local_schema short_desc="Príomhfhéilire">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="mail">
+					<entry name="save_dir">
+						<local_schema short_desc="Sábháil comhadlann">
+						</local_schema>
+					</entry>
+					<entry name="licenses">
+						<local_schema short_desc="Liosta ceadúnais glactha leo">
+						</local_schema>
+					</entry>
+					<entry name="accounts">
+						<local_schema short_desc="Liosta cuntas">
+						</local_schema>
+					</entry>
+					<dir name="filters">
+						<entry name="log">
+							<local_schema short_desc="Logáil gníomhartha scagaire">
+								<longdesc>Logáil gníomhartha scagaire go dtí an comhad loga sonraithe.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="paned_size">
+							<local_schema short_desc="Airde pána an liosta teachtaireachtaí">
+								<longdesc>Airde pána an liosta teachtaireachtaí.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable_vfolders">
+							<local_schema short_desc="Cumasaigh fillteáin cuardaigh">
+							</local_schema>
+						</entry>
+						<entry name="animate_images">
+							<local_schema short_desc="Taispeán Beocháin">
+							</local_schema>
+						</entry>
+						<entry name="load_http_images">
+							<local_schema short_desc="Luchtaigh íomhánna do theachtaireachtaí HTML trí HTTP">
+								<longdesc>Luchtaigh íomhánna do theachtaireachtaí HTML trí HTTP(S). Is iad na luachanna a d&apos;fhéadfadh a bheith ann: &quot;0&quot; - Ná luchtaigh íomhánna ón idirlíon riamh. &quot;1&quot; - Luchtaigh íomhánna i dteachtaireachtaí ó theagmhálacha. &quot;2&quot; - Luchtaigh íomhánna ón idirlíon i gcónaí.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="caret_mode">
+							<local_schema short_desc="Cumasaigh/díchumasaigh mód carait">
+							</local_schema>
+						</entry>
+						<dir name="fonts">
+							<entry name="use_custom">
+								<local_schema short_desc="Úsáid clónna saincheaptha">
+								</local_schema>
+							</entry>
+							<entry name="monospace">
+								<local_schema short_desc="Cló teirminéil">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="junk">
+						<dir name="bogofilter">
+							<entry name="unicode">
+								<local_schema short_desc="Tiontaigh teachtaireachtaí poist go Unicode">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

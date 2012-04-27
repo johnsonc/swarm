@@ -1,0 +1,23 @@
+#!/bin/sh 
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+insmod /lib/modules/2.6.32.9-default/wmt_battery_md.ko
+insmod /lib/modules/2.6.32.9-default/kpad.ko
+insmod /lib/modules/2.6.32.9-default/sr9700.ko
+#insmod /lib/modules/2.6.32.9-default/rt3070sta.ko
+modprobe rt3070sta
+#start wifi
+/etc/init.d/wifi.sh
+modprobe rt3070sta
+/etc/init.d/wifi.sh
+
+exit 0

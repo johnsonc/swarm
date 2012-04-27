@@ -1,0 +1,6 @@
+08a4ff3dff8fc34ee9e1ded5edeb27b7  usr/bin/matchbox-panel-manager
+947333c3c4319a4b5211cfc071f1ca45  usr/share/applications/mb-panel-manager.desktop
+f0817d8fe6d4b74f9046f2fbc59fc143  usr/share/pixmaps/mbpanelmgr.png
+d3b7fbf424dc7c03fa0bd1eaaf2b4fa6  usr/share/doc/matchbox-panel-manager/copyright
+855433c9b10c2663efe560924cfa2bab  usr/share/doc/matchbox-panel-manager/changelog.Debian.gz
+f90828b2d00a33b03ccd393ba83263f4  usr/share/man/man1/matchbox-panel-manager.1.gz

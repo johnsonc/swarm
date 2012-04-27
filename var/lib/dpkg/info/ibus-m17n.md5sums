@@ -1,0 +1,7 @@
+b15cd7eb8e962dbde2213222a211dfba  usr/lib/ibus-m17n/ibus-engine-m17n
+fea7d67f15589d9a3534bf8bf92d8df9  usr/share/doc/ibus-m17n/changelog.Debian.gz
+f69466fe3b15a2228091c07cadb0e8e7  usr/share/doc/ibus-m17n/copyright
+476e6be5615e3b0f2e04ef8065b9ecbe  usr/share/ibus-m17n/icons/ibus-m17n.svg
+764b40c94dfef69d88da1668025ccaca  usr/share/ibus/component/m17n.xml
+d84f5299c0c71cf5a48134e1b9b09fef  usr/share/locale/zh_CN/LC_MESSAGES/ibus-m17n.mo
+6eb55ec025e5a2107d8b4e93a8c5d837  usr/share/man/man1/ibus-engine-m17n.1.gz

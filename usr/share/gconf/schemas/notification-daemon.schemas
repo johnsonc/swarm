@@ -1,0 +1,464 @@
+<gconfschemafile>
+ <schemalist>
+
+  <schema>
+   <key>/schemas/apps/notification-daemon/popup_location</key>
+   <applyto>/apps/notification-daemon/popup_location</applyto>
+   <owner>notification-daemon</owner>
+   <type>string</type>
+   <default>top_right</default>
+   <locale name="C">
+    <short>Popup location</short>
+    <long>Default popup location on the workspace for stack notifications. Allowed values: &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; and &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="ar">
+    <short>موقع التنبيه</short>
+    <long>الموضع الافتراضي للتنبيهات على مساحة العمل لصف التنبيهات. القيم الممكنة هي: &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; و &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="cs">
+    <short>Umístění automaticky otevíraného okna</short>
+    <long>Výchozí umístění automaticky otevíraného okna u vícenásobných oznámení. Povolené hodnoty: &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; a &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="da">
+    <short>Placering af Pop op</short>
+    <long>Standardplacering af pop op på arbejdsområdet for stakpåmindelser. Tilladte værdier: &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; og &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="de">
+    <short>Popup Position</short>
+    <long>Vorgegebene Position auf der Arbeitsfläche für gestapelte Benachrichtigungen. Mögliche Werte: »top_left«, »top_right«, »bottom_left« und »bottom_right«</long>
+   </locale>
+
+   <locale name="el">
+    <short>Τοποθεσία αναδυομένου</short>
+    <long>Προεπιλεγμένη τοποθεσία αναδυόμενης ειδοποίησης στο χώρο εργασίας. Οι επιτρεπόμενες τιμές είναι &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; και &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="es">
+    <short>Ubicación de la ventana emergente</short>
+    <long>Ubicación predeterminada de la ventana emergente en el área de trabajo para la pila de notificaciones. Los valores permitidos son: «top_left», «top_right», «bottom_left» y «bottom_right»</long>
+   </locale>
+
+   <locale name="et">
+    <short>Hüpiku asukoht</short>
+    <long>Teavituste virna vaikimisi asukoht tööalal. Lubatud väärtused: &quot;top_left&quot; (üleval vasakul),&quot;top_right&quot; (üleval paremal),&quot;bottom_left&quot; (all vasakul) ja &quot;bottom_right&quot; (all paremal)</long>
+   </locale>
+
+   <locale name="fr">
+    <short>Emplacement des bulles de notification</short>
+    <long>Emplacement par défaut des bulles de notification sur l&apos;espace de travail pour l&apos;empilement des notifications. Les valeurs possibles sont : « top_left » (en haut à gauche), « top_right » (en haut à droite), « bottom_left » (en bas à gauche) et  « bottom_right » (en bas à droite).</long>
+   </locale>
+
+   <locale name="gl">
+    <short>Localización da xanela emerxente</short>
+    <long>Localización da xanela emerxente predefinida no espazo de traballo para as notificacións en pila. Os valores permitidos son: &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; e &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="hu">
+    <short>Felbukkanás helye</short>
+    <long>A munkaterületen felbukkanó veremértesítések felbukkanásának alapértelmezett helye. A lehetséges értékek: „top_left” (bal felső), top_right” (jobb felső), „bottom_left (bal alsó) és „bottom_right” (jobb alsó).</long>
+   </locale>
+
+   <locale name="it">
+    <short>Posizione popup</short>
+    <long>Posizione predefinita di comparsa sull&apos;area di lavoro per impilare le notifiche. Valori ammessi: &quot;top_left&quot;, &quot;top_right&quot;, &quot;bottom_left&quot; e &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="ja">
+    <short>ポップアップ表示する場所</short>
+    <long>通知情報を積み重ねてポップアップ表示するデフォルトの場所です。指定可能な値: &quot;top_left&quot;、&quot;top_right&quot;、&quot;bottom_left&quot;、&quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="lt">
+    <short>Pranešimų vieta</short>
+    <long>Numatytoji iššokančių pranešimų vieta darbastalyje. Galimos reikšmės:
+„top_left“,„top_right“,„bottom_left“ ir „bottom_right“</long>
+   </locale>
+
+   <locale name="pa">
+    <short>ਪੋਪਅੱਪ ਟਿਕਾਣਾ</short>
+    <long>ਸਟਾਕ ਨੋਟੀਫਿਕੇਸ਼ਨ ਲਈ ਵਰਕਸਪੇਸ ਉੱਤੇ ਡਿਫਾਲਟ ਪੋਪਅੱਪ ਟਿਕਾਣਾ। ਸੰਭਵ ਮੁੱਲ ਹਨ: &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; ਅਤੇ &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="pl">
+    <short>Położenie wyskakujących powiadomień</short>
+    <long>Domyślne położenie wyskakującego okna na obszarze roboczym dla stosu powiadomień. Dozwolone wartości: &quot;top_left&quot; (górny lewy), &quot;top_right&quot; (górny prawy), &quot;bottom_left&quot; (dolny lewy) i &quot;bottom_right&quot; (dolny prawy)</long>
+   </locale>
+
+   <locale name="pt_BR">
+    <short>Localização da pop-up</short>
+    <long>Localização padrão para notificações pop-up empilhadas. Valores permitidos: &quot;top_left&quot;, &quot;top_right&quot;, &quot;bottom_left&quot; e &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="ru">
+    <short>Положение всплывающего окна</short>
+    <long>Положение по умолчанию для всплывающего окна при отображении уведомлений. Допустимые значения: &quot;top_left&quot;, &quot;top_right&quot;, &quot;bottom_left&quot; и &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="sl">
+    <short>Položaj pojavnega obvestila</short>
+    <long>Privzeti položaj pojavnega obvestila na delovni površini za sklad obvestil. Dovoljene vrednosti:  &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; in &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="sv">
+    <short>Popup-position</short>
+    <long>Standardposition för popup-rutor på arbetsutan för notifieringar. Tillåtna värden: &quot;top_left&quot;,&quot;top_right&quot;,&quot;bottom_left&quot; och &quot;bottom_right&quot;</long>
+   </locale>
+
+   <locale name="zh_CN">
+    <short>弹出区域</short>
+    <long>工作区上放置通知的默认弹出区域。允许的值为：“top_left”(左上)，“top_right”(右上)，“bottom_left”(左下) 和“bottom_right”(右下)</long>
+   </locale>
+  </schema>
+
+  <schema>
+   <key>/schemas/apps/notification-daemon/theme</key>
+   <applyto>/apps/notification-daemon/theme</applyto>
+   <owner>notification-daemon</owner>
+   <type>string</type>
+   <default>slider</default>
+   <locale name="C">
+    <short>Current theme</short>
+    <long>The theme used when displaying notifications.</long>
+   </locale>
+
+   <locale name="ar">
+    <short>النسق الحالي</short>
+    <long>النسق المستخدم عند عرض التنبيهات</long>
+   </locale>
+
+   <locale name="cs">
+    <short>Aktuální motiv</short>
+    <long>Motiv používaný k zobrazování oznámení.</long>
+   </locale>
+
+   <locale name="da">
+    <short>Aktuelt tema</short>
+    <long>Temaet brugt under visning af påmindelser.</long>
+   </locale>
+
+   <locale name="de">
+    <short>Aktuelles Thema</short>
+    <long>Das Thema um Benachrichtigungen anzuzeigen.</long>
+   </locale>
+
+   <locale name="el">
+    <short>Τρέχον θέμα</short>
+    <long>Το θέμα που χρησιμοποιείται κατά την εμφάνιση ειδοποιήσεων.</long>
+   </locale>
+
+   <locale name="es">
+    <short>Tema actual</short>
+    <long>El tema usado al mostrar las notificaciones.</long>
+   </locale>
+
+   <locale name="et">
+    <short>Praegune teema</short>
+    <long>Teavituste kuvamiseks kasutatav teema.</long>
+   </locale>
+
+   <locale name="fr">
+    <short>Thème actuel</short>
+    <long>Le thème utilisé pour l&apos;affichage des notifications.</long>
+   </locale>
+
+   <locale name="gl">
+    <short>Tema actual</short>
+    <long>O tema usado ao mostrar as notificacións.</long>
+   </locale>
+
+   <locale name="hu">
+    <short>Jelenlegi téma</short>
+    <long>Az értesítések megjelenítéséhez használt téma.</long>
+   </locale>
+
+   <locale name="it">
+    <short>Tema attuale</short>
+    <long>Il tema usato nel mostrare le notifiche.</long>
+   </locale>
+
+   <locale name="ja">
+    <short>現在使用しているテーマ</short>
+    <long>通知ダイアログを表示する際に使用するテーマです。</long>
+   </locale>
+
+   <locale name="lt">
+    <short>Dabartinė tema</short>
+    <long>Tema, naudojama rodant pranešimus.</long>
+   </locale>
+
+   <locale name="nb">
+    <short>Aktivt tema</short>
+    <long>Tema som brukes ved visning av varslinger.</long>
+   </locale>
+
+   <locale name="nl">
+    <short>Huidige thema</short>
+    <long>Het thema dat voor de berichtweergave wordt gebruikt.</long>
+   </locale>
+
+   <locale name="pa">
+    <short>ਮੌਜੂਦਾ ਥੀਮ</short>
+    <long>ਥੀਮ, ਜੋ ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖਾਉਣ ਲਈ ਵਰਤਿਆ ਜਾਵੇਗਾ।</long>
+   </locale>
+
+   <locale name="pl">
+    <short>Bieżący motyw</short>
+    <long>Motyw używany podczas wyświetlania powiadomień.</long>
+   </locale>
+
+   <locale name="pt_BR">
+    <short>Tema atual</short>
+    <long>O tema usado ao exibir notificações.</long>
+   </locale>
+
+   <locale name="ru">
+    <short>Текущая тема</short>
+    <long>Тема, используемая при отображении уведомлений.</long>
+   </locale>
+
+   <locale name="sl">
+    <short>Trenutna tema</short>
+    <long>Tema za prikaz obvestil.</long>
+   </locale>
+
+   <locale name="sv">
+    <short>Aktuellt tema</short>
+    <long>Temat som används för visning av notifieringar.</long>
+   </locale>
+
+   <locale name="zh_CN">
+    <short>当前主题</short>
+    <long>显示通知时使用的主题。</long>
+   </locale>
+  </schema>
+
+  <schema>
+   <key>/schemas/apps/notification-daemon/sound_enabled</key>
+   <applyto>/apps/notification-daemon/sound_enabled</applyto>
+   <owner>notification-daemon</owner>
+   <type>bool</type>
+   <default>1</default>
+   <locale name="C">
+    <short>Sound Enabled</short>
+    <long>Turns on and off sound support for notifications.</long>
+   </locale>
+
+   <locale name="cs">
+    <short>Zvuk povolen</short>
+    <long>Zapne a vypne zvukovou podporu u oznámení.</long>
+   </locale>
+
+   <locale name="da">
+    <short>Lyd slået til</short>
+    <long>Slår lydunderstøttelse af påmindelser til/fra.</long>
+   </locale>
+
+   <locale name="de">
+    <short>Klang aktiviert</short>
+    <long>Schaltet Klänge für Benachrichtigungen ein oder aus.</long>
+   </locale>
+
+   <locale name="el">
+    <short>Ήχος ενεργός</short>
+    <long>Ενεργοποιεί ή απενεργοποιεί την υποστήριξη ήχου για τις ειδοποιήσεις.</long>
+   </locale>
+
+   <locale name="es">
+    <short>Sonido activado</short>
+    <long>Activar y desactivar el soporte de sonido para las notificaciones.</long>
+   </locale>
+
+   <locale name="et">
+    <short>Heli lubatud</short>
+    <long>Teavituste helitoe sisse ja välja lülitamine.</long>
+   </locale>
+
+   <locale name="fr">
+    <short>Son activé</short>
+    <long>Active ou désactive la prise en charge du son pour les notifications.</long>
+   </locale>
+
+   <locale name="gl">
+    <short>Son activado</short>
+    <long>Activar ou desactivar a compatibilidade de son para as notificacións.</long>
+   </locale>
+
+   <locale name="hu">
+    <short>Hang engedélyezve</short>
+    <long>Be- illetve kikapcsolja az értesítések hangját.</long>
+   </locale>
+
+   <locale name="it">
+    <short>Suono abilitato</short>
+    <long>Attiva e disattiva il supporto audio alle notifiche.</long>
+   </locale>
+
+   <locale name="ja">
+    <short>サウンドを有効にするかどうか</short>
+    <long>通知時にサウンドを鳴らすかどうかを指定します。</long>
+   </locale>
+
+   <locale name="lt">
+    <short>Garsas įjungtas</short>
+    <long>Įjungia ir išjungia garso palaikymą pranešimams.</long>
+   </locale>
+
+   <locale name="nb">
+    <short>Lyd aktivert</short>
+    
+   </locale>
+
+   <locale name="pa">
+    <short>ਸਾਊਂਡ ਚਾਲੂ ਹੈ</short>
+    <long>ਨੋਟੀਫਿਕੇਸ਼ਨ ਲਈ ਸਾਊਂਡ ਸਹਿਯੋਗ ਬੰਦ ਅਤੇ ਚਾਲੂ ਕਰੋ।</long>
+   </locale>
+
+   <locale name="pl">
+    <short>Włączenie dźwięków</short>
+    <long>Włącza lub wyłącza obsługę dźwięków dla powiadomień.</long>
+   </locale>
+
+   <locale name="pt_BR">
+    <short>Som habilitado</short>
+    <long>Liga ou desliga o suporte a som para notificações.</long>
+   </locale>
+
+   <locale name="ru">
+    <short>Включить звук</short>
+    <long>Включение и выключение поддержки звука в уведомлениях.</long>
+   </locale>
+
+   <locale name="sl">
+    <short>Zvok je omogočen</short>
+    <long>Vklopi in izklopi zvočno podporo obvestil.</long>
+   </locale>
+
+   <locale name="sv">
+    <short>Ljud aktiverat</short>
+    <long>Slår på och av ljudstöd för notifieringar.</long>
+   </locale>
+
+   <locale name="zh_CN">
+    <short>声音已启用</short>
+    <long>为通知打开和关闭声音支持</long>
+   </locale>
+  </schema>
+
+  <schema>
+   <key>/schemas/apps/notification-daemon/default_sound</key>
+   <applyto>/apps/notification-daemon/default_sound</applyto>
+   <owner>notification-daemon</owner>
+   <type>string</type>
+   <default></default>
+   <locale name="C">
+    <short>Default Sound</short>
+	 <long>The default sound file used unless a notification supplies the 'sound-file' or 'suppress-sound' hint.  Leave empty for no default sound.</long>
+   </locale>
+
+   <locale name="cs">
+    <short>Výchozí zvuk</short>
+	 <long>Výchozí zvukový soubor použitý v případě, kdy oznámením není poskytnuto &quot;sound-file&quot; nebo &quot;suppress-sound&quot;. Ponechejte prázdné, nechcete-li žádný výchozí zvuk.</long>
+   </locale>
+
+   <locale name="da">
+    <short>Standardlyd</short>
+	 <long>Standardlydfilen som bruges med mindre en påmindelse leverer tippet &apos;sound-file&apos; eller &apos;suppress-sound&apos;. Blank for ingen standardlyd.</long>
+   </locale>
+
+   <locale name="de">
+    <short>Vorgegebener Klang</short>
+	 <long>Die vorgegebene Klangdatei. Diese Einstellung wird überschrieben, wenn eine Anwendung die Hints »sound-file« oder »suppress-sound« verwendet. Leer lassen, wenn keine vorgegebene Klangdatei verwendet werden soll.</long>
+   </locale>
+
+   <locale name="el">
+    <short>Προεπιλεγμένος ήχος</short>
+	 <long>Το προεπιλεγμένο αρχείο ήχου που θα χρησιμοποιείται εκτός και αν η ειδοποίηση παρέχει την δική της ρύθμιση &apos;αρχείου ήχουe&apos; ή &apos;απόκρυψης ήχου&apos;. Αφήστε το κενό για κανένα προεπιλεγμένο ήχο.</long>
+   </locale>
+
+   <locale name="es">
+    <short>Sonido predeterminado</short>
+	 <long>El archivo de sonido predeterminado que usar a no ser que la notificación proporcione las opciones «sound-file» o «suppress-sound». Déjelo vacío para no tener sonido predeterminado.</long>
+   </locale>
+
+   <locale name="et">
+    <short>Vaikimisi heli</short>
+	 <long>Vaikimisi kasutatav helifail, kui teavitus </long>
+   </locale>
+
+   <locale name="fr">
+    <short>Son par défaut</short>
+	 <long>Le fichier son utilisé par défaut, pour autant que la notification ne fournisse pas l&apos;indication « sound-file » ou « suppress-sound ». Laisser vide pour aucun son par défaut.</long>
+   </locale>
+
+   <locale name="gl">
+    <short>Son predefinido</short>
+	 <long>O ficheiro de son predefinido usado a menos que a notificación forneza unha suxestión de &apos;sound-file&apos; ou &apos;suppress-sound&apos;. Deixe baleiro se non quere un son predefinido.</long>
+   </locale>
+
+   <locale name="hu">
+    <short>Alapértelmezett hang</short>
+	 <long>Az alapértelmezett hangfájl kerül felhasználásra, hacsak az értesítés nem adja meg a „sound-file” vagy „suppress-sound” tippet. Hagyja üresen, ha alapértelmezetten nem kíván hangot hallani.</long>
+   </locale>
+
+   <locale name="it">
+    <short>Suono predefinito</short>
+	 <long>Il file audio predefinito usato, a meno che una notifica non fornisca l&apos;hint &apos;sound-file&apos; o &apos;suppress-sound&apos;. Lasciare in bianco per non usare alcun suono predefinito.</long>
+   </locale>
+
+   <locale name="ja">
+    <short>デフォルトのサウンド</short>
+	 <long>&apos;sound-file&apos; または &apos;suppress-sound&apos; で通知する場合を除いて、デフォルトで使用するサウンド・ファイルです。デフォルトのサウンドを指定しない場合は何も入力せずに空のままにしておいて下さい。</long>
+   </locale>
+
+   <locale name="lt">
+    <short>Numatytasis garsas</short>
+	 <long>Naudojamas numatytasis garso failas, nebent pranešimas pateikia patarimą „sound-file“ arba „suppress-sound“. Palikti tuščią, jei nenaudoti numatytojo garso.</long>
+   </locale>
+
+   <locale name="nb">
+    <short>Forvalgt lyd</short>
+	 
+   </locale>
+
+   <locale name="pa">
+    <short>ਡਿਫਾਲਟ ਸਾਊਂਡ</short>
+	 <long>ਡਿਫਾਲਟ ਸਾਊਂਡ ਫਾਇਲ, ਜੋ ਵਰਤੀ ਜਾਵੇਗੀ, ਜਦੋਂ ਤੱਕ ਕਿ ਨੋਟੀਫਿਕੇਸ਼ਨ &apos;ਸਾਊਂਡ-ਫਾਇਲ&apos; ਜਾਂ &apos;ਸਪੱਰੈਸ-ਸਾਊਂਡ&apos; ਹਿੰਟ ਨਹੀਂ ਨਹੀਂ ਦਿੰਦਾ। ਕੋਈ ਡਿਫਾਲਟ ਸਾਊਂਡ ਨਾ ਦੇਣ ਲਈ ਖਾਲੀ ਛੱਡੋ।</long>
+   </locale>
+
+   <locale name="pl">
+    <short>Domyślny dźwięk</short>
+	 <long>Domyślnie używany plik dźwięku, chyba że powiadomienie dostarcza wskazówkę &quot;sound-file&quot; lub &quot;suppress-sound&quot;. Pozostawienie pustej wartości wyłącza dźwięki.</long>
+   </locale>
+
+   <locale name="pt_BR">
+    <short>Som padrão</short>
+	 <long>O arquivo de som padrão a ser usado a não ser que uma notificação forneça a a dica &quot;sound-file&quot; ou &quot;suppress-sound&quot;. Deixe em branco para nenhum som padrão.</long>
+   </locale>
+
+   <locale name="ru">
+    <short>Звук по умолчанию</short>
+	 <long>Звук, проигрываемый по умолчанию, если в уведомлении не указаны параметры «sound-file» или «suppress-sound». Чтобы отключить звук по умолчанию, оставьте поле пустым.</long>
+   </locale>
+
+   <locale name="sl">
+    <short>Privzeti zvok</short>
+	 <long>Uporabljena je privzeta zvočna datoteka, razen če obvestilo zagotovi namig &apos;zvočna-datoteka&apos; ali &apos;prepreči-zvok&apos;. Pustite prazno za onemogočenje privzetega zvoka.</long>
+   </locale>
+
+   <locale name="sv">
+    <short>Standardljud</short>
+	 <long>Standardljudfilen som används såvida inte en notifiering anger &quot;sound-file&quot; eller &quot;suppress-sound&quot;. Lämna tom för inget standardljud.</long>
+   </locale>
+
+   <locale name="zh_CN">
+    <short>默认声音</short>
+	 <long>除非一个通知提供“sound-file”和“suppress-sound”提示时，使用的默认声音文件。留空表示没有默认声音。</long>
+   </locale>
+  </schema>
+
+ </schemalist>
+</gconfschemafile>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="options" mtime="1431542137" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>grp	grp:alts_toggle</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>grp	grp:alt_shift_toggle</stringvalue>
+		</li>
+	</entry>
+	<entry name="layouts" mtime="1262314816" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>us</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>in	bolnagri</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>in	hin-wx</stringvalue>
+		</li>
+	</entry>
+</gconf>

@@ -1,0 +1,1195 @@
+<gconfschemafile>
+<schemalist>
+<schema>
+     <key>/schemas/desktop/gnome/url-handlers/webcal/enabled</key>
+     <applyto>/desktop/gnome/url-handlers/webcal/enabled</applyto>
+     <owner>evolution-webcal</owner>
+     <type>bool</type>
+     <default>true</default>
+     <locale name="C">
+       <short>How to handle webcal URLs</short>
+       <long>Set to true to have a program specified in command handle webcal URLs</long>
+     </locale>
+
+     <locale name="af">
+       <short>Hoe om webcal-URL&apos;e te hanteer</short>
+       
+     </locale>
+
+     <locale name="ar">
+       <short>كيفيّة معالجة عناوين تقويمات ويب</short>
+       <long>اضبط لصحيح ليكون هناك برنامج محدد في أمر معالجة عناوين تقويمات ويب</long>
+     </locale>
+
+     <locale name="as">
+       <short>webcal URL সমূহ কেনেকে নিয়ন্ত্ৰণ কৰিব পাৰি ।</short>
+       <long>কাৰ্য়্যক্ৰ্মটো অাদেশমতে নিয়ন্ত্ৰ্ণ কৰা webcal URLসমূহত নিৰ্দিষ্ট কৰিবৰ বাবে trueলৈ উপবিষ্ট কৰক ।</long>
+     </locale>
+
+     <locale name="ast">
+       <short>Cómo remana URLs webcal</short>
+       <long>Poner a braero pa facer que un programa conseñáu na orde remane les URLs webcal</long>
+     </locale>
+
+     <locale name="az">
+       <short>webcal URL-lərinin necə açılacağı</short>
+       <long>webcal URL-lərini açan əmri təyin etmək üçün buranı true seçin</long>
+     </locale>
+
+     <locale name="be@latin">
+       <short>Jak absłuhoŭvać adrasy URL kalendaroŭ</short>
+       <long>Kali paznačana, prahrama, padadzienaja ŭ &quot;command&quot;, absłuhoŭvaje adrasy URL kalendaroŭ</long>
+     </locale>
+
+     <locale name="bg">
+       <short>Как да се управляват адресите на календарите</short>
+       <long>Ако е ИСТИНА, програмата указана за команда ще обработва адреси webcal:</long>
+     </locale>
+
+     <locale name="bn">
+       <short>webcal URL পরিচালনা পদ্ধতি</short>
+       <long>কমান্ডে চিহ্নিত প্রোগ্রাম দ্বারা webcal URL পরিচালনার জন্য মান সত্য তে নির্ধারণ করুন</long>
+     </locale>
+
+     <locale name="bn_IN">
+       <short>ওয়েব-ক্যাল URL পরিচালন পদ্ধতি</short>
+       <long>কমান্ডে চিহ্নিত প্রোগ্রাম দ্বারা ওয়েব-ক্যাল URL পরিচালনার জন্য মান true (সত্য) নির্ধারণ করুন</long>
+     </locale>
+
+     <locale name="bs">
+       <short>Kako da upravlja webcal adresama (URLovima)</short>
+       <long>Uključi ako hoćeš da napisani program upravlja webcal adresama (URLovima)</long>
+     </locale>
+
+     <locale name="ca">
+       <short>Com s&apos;han de gestionar les URL de webcal</short>
+       <long>Establiu a cert per tenir un programa, especificat en una ordre, que gestioni URL de webcal</long>
+     </locale>
+
+     <locale name="ca@valencia">
+       <short>Com s&apos;han de gestionar les URL de webcal</short>
+       <long>Establiu a cert per tindre un programa, especificat en una orde, que gestione URL de webcal</long>
+     </locale>
+
+     <locale name="cs">
+       <short>Jak obsluhovat URL webcal</short>
+       <long>Nastavte na true, aby program určený v command obsluhoval URL webcal</long>
+     </locale>
+
+     <locale name="cy">
+       <short>Sut i drin LAU webcal</short>
+       <long>Gosod yn wir er mwyn i&apos;r rhaglen a benodir yn &quot;command&quot; ymdrin a LAU webcal</long>
+     </locale>
+
+     <locale name="da">
+       <short>Hvordan skal webcal-adresser håndteres</short>
+       <long>Sæt til &quot;true&quot; for at lade et program angivet i kommandoen håndtere webcal-adresser</long>
+     </locale>
+
+     <locale name="de">
+       <short>webcal-URLs handhaben</short>
+       <long>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm webcal-URLs.</long>
+     </locale>
+
+     <locale name="dz">
+       <short>ཝེབ་ཀཱལ་ ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་འཐབ་ཐངས།</short>
+       <long>ཝེབ་ཀཱལ་ ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་གི་བརྡ་བཀོད་ནང་ གསལ་བཀོད་འབད་མི་ ལས་རིམ་ཅིག་འཐོབ་ནིའི་དོན་ལུ་ བདེན་པ་ལུ་གཞི་སྒྲིག་འབད།</long>
+     </locale>
+
+     <locale name="el">
+       <short>Τρόπος χειρισμού webcal URLs</short>
+       <long>Ορισμός σε true , για να καθορίσετε ένα πρόγραμμα στην εντολή χειρισμού webcal URLs</long>
+     </locale>
+
+     <locale name="en_CA">
+       <short>How to handle webcal URLs</short>
+       <long>Set to true to have a program specified in command handle webcal URLs</long>
+     </locale>
+
+     <locale name="en_GB">
+       <short>How to handle webcal URLs</short>
+       <long>Set to true to have a program specified in command handle webcal URLs</long>
+     </locale>
+
+     <locale name="es">
+       <short>Cómo manipular las URL webcal</short>
+       <long>Establecer a «true» para tener un programa especificado en el comando para manipular las URL webcal</long>
+     </locale>
+
+     <locale name="et">
+       <short>Kuidas käsitleda veebikalendri URL&apos;e</short>
+       <long>Määra tõeseks kui soovid, et käsus määratud programm käsitleks veebikalendri URL-e</long>
+     </locale>
+
+     <locale name="eu">
+       <short>Webcal URLak nola kudeatu</short>
+       <long>Ezarri EGIA gisa komandoan programa bat zehaztuta edukitzeko webcal URLak kudeatzeko</long>
+     </locale>
+
+     <locale name="fa">
+       <short>چگونگی کار کردن با نشانی‌های اینترنتی تقویم وبی</short>
+       <long>روی درست تنظیم کنید تا برنامه‌ی مشخص شده در خط فرمان نشانی‌های اینترنتی تقویم وبی را کنترل کند</long>
+     </locale>
+
+     <locale name="fi">
+       <short>Kuinka webcal-URL:eja käsittellään</short>
+       <long>Valitse tosi, jos haluat käskyssä määritellyn ohjelman käsittelevän webcal URL:eja</long>
+     </locale>
+
+     <locale name="fr">
+       <short>Comment gérer les URLs webcal</short>
+       <long>Définir à VRAI pour qu&apos;un programme passé en commande gère les URLs webcal</long>
+     </locale>
+
+     <locale name="gl">
+       <short>Como manipular os URL webcal</short>
+       <long>Definir como verdadeiro para ter un programa especificado na orde para manipular os URL webcal</long>
+     </locale>
+
+     <locale name="gu">
+       <short>વેબકોલ URL ને કેવી રીતે નિયંત્રિત કરવી</short>
+       <long>આદેશમાં સ્પષ્ટ કરેલ કાર્યક્રમ પાસે સાચું સુયોજિત કરો કે જે વેબકોલ URL નિયંત્રિત કરે છે</long>
+     </locale>
+
+     <locale name="he">
+       <short>How to handle webcal URLs</short>
+       <long>Set to true to have a program specified in command handle webcal URLs</long>
+     </locale>
+
+     <locale name="hi">
+       <short>वेबकैल URL कैसे नियंत्रण करें</short>
+       <long>समादेश नियंत्रण वेबकैल URLs में निर्दिष्ट प्रोग्राम को रखने के लिए सही के लिए सेट करें.</long>
+     </locale>
+
+     <locale name="hu">
+       <short>Hogyan kezelje a webcal URL címeket</short>
+       <long>Állítsa igazra, ha azt szeretné, hogy a „command” kulcsban megadott program kezelje a webcal URL címeket</long>
+     </locale>
+
+     <locale name="id">
+       <short>Bagaimana menangani URL webcal</short>
+       <long>Tetapkan menjadi benar agar suatu program ditetapkan dalam penanganan perintah URL webcal</long>
+     </locale>
+
+     <locale name="it">
+       <short>Gestione degli URL webcal</short>
+       <long>Impostare a vero affiché il programma specificato nella chiave &quot;command&quot; gestica gli URL &quot;webcal&quot;</long>
+     </locale>
+
+     <locale name="ja">
+       <short>webcal URL を取り扱う方法</short>
+       <long>webcal の URL を取り扱うコマンドを指定する場合は &quot;TRUE&quot; にします。</long>
+     </locale>
+
+     <locale name="ka">
+       <short>როგორ მოვექცე &quot;webcal&quot;-ის სახის (URL) ბმულებს</short>
+       <long>თუ მონიშნულია, &quot;webcal&quot;-ის სახის (URL) ბმულები &quot;command&quot; გასაღებში მითითებული პროგრამით გაიხსნებიან.</long>
+     </locale>
+
+     <locale name="kn">
+       <short>ವೆಬ್‌ಕ್ಯಾಲ್ URLಗಳನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸಬೇಕು</short>
+       <long>ಆಜ್ಞೆಯಲ್ಲಿ ಸೂಚಿತಗೊಂಡ ಪ್ರೊಗ್ರಾಂ ವೆಬ್‌ಕ್ಯಾಲ್‌ URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದರೆ ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿ</long>
+     </locale>
+
+     <locale name="ko">
+       <short>webcal URL 처리</short>
+       <long>참이면 webcal URL을 처리하는 프로그램의 명령어를 지정합니다</long>
+     </locale>
+
+     <locale name="ku">
+       <short>Çawahiya libata navnîşanên webcal</short>
+       <long>Rast bike da ku bername di fermana navnîşanên webcal were taybetkirin.</long>
+     </locale>
+
+     <locale name="ky">
+       <short>&apos;webcal&apos; тибиндеги шилтемелер (URL) кандай иштетүү</short>
+       <long>Эгерде орнотулган болсо, анда &apos;webcal&apos; тибиндеги шилтемелерди (URL) иштетүү үчүн &quot;command&quot; ачкыч сөзүндө көрсөтүлгөн иштеме колдонулат</long>
+     </locale>
+
+     <locale name="lt">
+       <short>Kaip apdoroti webcal adresus (URL)</short>
+       <long>Norėdami turėti programą nurodytą komandų eilutėje, apdoroti webcal adresams, nustatykit teigiamą reikšmę</long>
+     </locale>
+
+     <locale name="lv">
+       <short>Kā apstrādāt webcal adreses</short>
+       <long>Uzstādiet kā patiesu, lai norādītā komanda apstrādātu webcal asreses</long>
+     </locale>
+
+     <locale name="mk">
+       <short>Како да се справува со адреси за webcal</short>
+       <long>Вклучете го да одредите програма во справувачот со команди за адресите од webcal</long>
+     </locale>
+
+     <locale name="ml">
+       <short>webcal URL(വെബ്കാല്‍ യു.ആര്‍.എല്‍) എങ്ങനെ കൈകാര്യം ചെയ്യേണം</short>
+       <long>webcal URL (വെബ്കാല്‍ യു.ആര്‍.എല്‍) കൈകാര്യം ചെയ്യുന്നതിനായുളള പ്രോഗ്രാം നിര്‍ദ്ദേശമായി പറയണമെങ്കില്‍ ശരി എന്ന് സെറ്റ് ചെയ്യുക</long>
+     </locale>
+
+     <locale name="mr">
+       <short>वेबकॅल URL कसे हाताळायचे</short>
+       <long>आदेश हॅंडल् वेबकॅल URL मध्ये कार्यक्रम निर्धारीत करण्याकरीत खरे निश्चित करा</long>
+     </locale>
+
+     <locale name="ms">
+       <short>Bagaimana mengendali URL webcal</short>
+       <long>Tetapkan kepada Benar supaya program dinyatakan pada arahan mengendali URL webcal</long>
+     </locale>
+
+     <locale name="nb">
+       <short>Hvordan håndteres webcal-URLer</short>
+       <long>Sett til «true» for å la et program oppgitt i kommando håndtere webcal URLer</long>
+     </locale>
+
+     <locale name="nds">
+       <short>Umgang mit webcal URLs</short>
+       <long>Op wahr setten, um een Programm to hebben, spezifizert in Order umgeihn mit webcal URLs</long>
+     </locale>
+
+     <locale name="ne">
+       <short>वेबकल यूआरएलहरू कसरी ह्यान्डल गर्ने</short>
+       <long>आदेश ह्यान्डल वेबकल यूआरएलहरूमा एउटा कार्यक्रम निर्दिष्ट गर्न सत्यमा सेट गर्नुहोस्</long>
+     </locale>
+
+     <locale name="nl">
+       <short>Wat te doen met webcal URLs</short>
+       <long>Instellen op ‘waar’ om met het programma dat opgegeven is in ‘opdracht’ webcal URLs te openen</long>
+     </locale>
+
+     <locale name="nn">
+       <short>Korleis handterast webcal-URLer</short>
+       <long>Set til «true» for å la eit program oppgjeven i kommando handtere webcal URLer</long>
+     </locale>
+
+     <locale name="or">
+       <short>ୱେବକାଲ ୟୁ.ଆର.ଏଲ.ଗୁଡ଼ିକୁ କିପରି ବ୍ଯବହାର କରାଯିବ</short>
+       <long>ୱେବକାଲ ୟୁ.ଆର.ଏଲ.ଗୁଡ଼ିକୁ ନିର୍ଦ୍ଦେଶରେ ଉଲ୍ଲେଖିତ ହୋଇଥିବା କାରିକା ଦ୍ବାରା ବ୍ଯବହାର କରିବା ପାଇଁ ଏହାକୁ ସତ ବିନ୍ଯାସ କରନ୍ତୁ</long>
+     </locale>
+
+     <locale name="pa">
+       <short>ਵੈਬਕੇਲ URLs ਨੂੰ ਕਿਵੇਂ ਇਸਤੇਮਾਲ ਕੀਤਾ ਜਾਵੇ</short>
+       <long>ਸਹੀਂ ਸੈੱਟ ਕਰੋ, ਜੇਕਰ ਦਿੱਤਾ ਪਰੋਗਰਾਮ ਕਮਾਂਡ ਲਾਈਨ webcal URL ਨੂੰ ਵੇਖ ਸਕੇ</long>
+     </locale>
+
+     <locale name="pl">
+       <short>Sposób obsługi adresów URL protokołu webcal</short>
+       <long>Ustawione na wartość &quot;true&quot; powoduje obsługę adresów URL protokołu webcal przez program podany w poleceniu</long>
+     </locale>
+
+     <locale name="ps">
+       <short>څنګه سمبال کړی شي URLs وېبکال</short>
+       
+     </locale>
+
+     <locale name="pt">
+       <short>Como manipular URLs webcal</short>
+       <long>Definir como verdadeiro para que a aplicação especificada no comando manipule os URLs webcal</long>
+     </locale>
+
+     <locale name="pt_BR">
+       <short>Como lidar com URLs webcal</short>
+       <long>Atribuir &quot;true&quot; para que um programa especificado em comando trate as URLs webcal</long>
+     </locale>
+
+     <locale name="ro">
+       <short>Cum să fie gestionate URL-urile webcal</short>
+       <long>Activați pentru a avea un program specificat ce procesează URL-urile webcal</long>
+     </locale>
+
+     <locale name="ru">
+       <short>Как обрабатывать ссылки (URL) типа &apos;webcal&apos;</short>
+       <long>Если установлен, для обработки ссылок (URL) типа &apos;webcal&apos; будет использована программа, указанная в ключе &quot;command&quot;</long>
+     </locale>
+
+     <locale name="si">
+       <short>webcal URLs හසුරුවන්නේ කෙසේද</short>
+       <long>webcal URLs හසුරුවන විධානයේ දක්වා ඇති ක්‍රමලේඛය ලබා ගැනීමට සත්‍ය අගයට සකසන්න</long>
+     </locale>
+
+     <locale name="sk">
+       <short>Ako obsluhovať webcal URL</short>
+       <long>Nastaviť na true, aby program, zadaný v príkaze, obsluhoval webcal URL</long>
+     </locale>
+
+     <locale name="sl">
+       <short>Upravljanje z Webcal URI-ji</short>
+       <long>Izberite, da program določen z ukazom upravlja z URI-ji </long>
+     </locale>
+
+     <locale name="sq">
+       <short>Si të trajtohen URLtë e webcal</short>
+       <long>Vendose si të vërtetë që programi i specifikuar në komandë të trajtojë URLtë webcal</long>
+     </locale>
+
+     <locale name="sr">
+       <short>Како управљати webcal адресама</short>
+       <long>Означите да би програм наведен у команди управљао webcal адресама</long>
+     </locale>
+
+     <locale name="sr@latin">
+       <short>Kako upravljati webcal adresama</short>
+       <long>Označite da bi program naveden u komandi upravljao webcal adresama</long>
+     </locale>
+
+     <locale name="sv">
+       <short>Hur webcal-URL:er ska hanteras</short>
+       <long>Ställ in detta till sant för att ett program som är angivet i kommando ska hantera URL:er</long>
+     </locale>
+
+     <locale name="ta">
+       <short>வெப்கால்க் யூஆர்எல்(URL) களை கையாள்வது எப்படி</short>
+       <long>வெப்கால்க் யூஆர்எல்(URL) கட்டளையை கையாள நிரலில் குறிப்பிட்டது போல் உண்மை என அமைக்கவும்</long>
+     </locale>
+
+     <locale name="te">
+       <short>వెబ్‌కాల్ URLను ఎలా సంభాలించాలి</short>
+       <long>వెబ్‌కాల్ URLలను సంభాలించుటకు ఆదేశమునందు తెలుపబడిన ప్రోగ్రామ్‌ను కలిగివుండుటకు సత్యమునకు అమర్చుము</long>
+     </locale>
+
+     <locale name="th">
+       <short>รูปแบบการจัดการ URL ของ webcal</short>
+       <long>เลือกเมื่อต้องการให้ระบุโปรแกรมที่จะจัดการกับ webcal URL</long>
+     </locale>
+
+     <locale name="tr">
+       <short>Webcal URL&apos;lerinin nasıl işleneceği</short>
+       <long>Webcal URL&apos;lerinin işlenmesi için komut eklemek için seçin</long>
+     </locale>
+
+     <locale name="ug">
+       <short>webcal دىكى URL لارنى بىر تەرەپ قىلىش ئۇسۇلى</short>
+       
+     </locale>
+
+     <locale name="uk">
+       <short>Як обробляти посилання (URL) типу &apos;webcal&apos;</short>
+       <long>Якщо встановлено, для обробки посилань (URL) типу &apos;webcal&apos; буде використана програма, вказана у ключі &quot;command&quot;</long>
+     </locale>
+
+     <locale name="vi">
+       <short>Cách xử lý URL webcal</short>
+       <long>Đặt là true (đúng) để xác định chương trình trong địa chỉ URL lệnh xử lý webcal</long>
+     </locale>
+
+     <locale name="xh">
+       <short>Indlela yokuphatha ii-webcal ye-URL</short>
+       <long>Yimisele kwinyaniso yokuba nenkqubo echaziweyo yokuphatha umyalelo wee-webcal ze-URL</long>
+     </locale>
+
+     <locale name="zh_CN">
+       <short>如何处理 webcal 网址</short>
+       <long>设为真可指定一个程序来处理 webcal 网址</long>
+     </locale>
+
+     <locale name="zh_HK">
+       <short>如何處理 webcal URL</short>
+       <long>如果本設定的值為 true，則會使用某個程式來處理 webcal URL</long>
+     </locale>
+
+     <locale name="zh_TW">
+       <short>如何處理 webcal URL</short>
+       <long>如果本設定的值為 true，則會使用某個程式來處理 webcal URL</long>
+     </locale>
+</schema>
+
+   <schema>
+     <key>/schemas/desktop/gnome/url-handlers/webcal/command</key>
+     <applyto>/desktop/gnome/url-handlers/webcal/command</applyto>
+     <owner>evolution-webcal</owner>
+     <type>string</type>
+     <default>/usr/lib/evolution-webcal/evolution-webcal %s</default>
+     <locale name="C">
+       <short>URL handler for webcal uris</short>
+       <long>URL handler for webcal uris</long>
+     </locale>
+
+     <locale name="af">
+       <short>URL-hanteerder vir webcal-URI&apos;s</short>
+       <long>URL-hanteerder vir webcal-URI&apos;s</long>
+     </locale>
+
+     <locale name="ar">
+       <short>معالج العناوين لعناوين تقويمات ويب</short>
+       <long>معالج العناوين لعناوين تقويمات ويب</long>
+     </locale>
+
+     <locale name="as">
+       <short>webcal urisৰ বাবে URL নিয়ন্ত্ৰণ কৰ্তা ।</short>
+       <long>webcal urisৰ বাবে URL নিয়ন্ত্ৰণ কৰ্তা ।</long>
+     </locale>
+
+     <locale name="ast">
+       <short>Remanador d&apos;URLs pa URIs webcal</short>
+       <long>Remanador d&apos;URLs pa URIs webcal</long>
+     </locale>
+
+     <locale name="az">
+       <short>webcal uri-ləri üçün URL tutucusu</short>
+       <long>webcal uri-ləri üçün URL tutucusu</long>
+     </locale>
+
+     <locale name="be@latin">
+       <short>Prahrama dziela absłuhoŭvańnia adrasoŭ URL kalendaroŭ</short>
+       <long>Prahrama dziela absłuhoŭvańnia adrasoŭ URL kalendaroŭ</long>
+     </locale>
+
+     <locale name="bg">
+       <short>Програма за обработка на адреси webcal:</short>
+       <long>Програма за обработка на адреси webcal:</long>
+     </locale>
+
+     <locale name="bn">
+       <short>webcal uri ব্যবস্থাপনার জন্য URL হ্যন্ডলার</short>
+       <long>webcal uri ব্যবস্থাপনার জন্য URL হ্যন্ডলার</long>
+     </locale>
+
+     <locale name="bn_IN">
+       <short>webcal uri ব্যবস্থাপনার জন্য URL হ্যন্ডলার</short>
+       <long>webcal uri ব্যবস্থাপনার জন্য URL হ্যন্ডলার</long>
+     </locale>
+
+     <locale name="bs">
+       <short>URL upravljač za webcal URIe </short>
+       <long>URL upravljač za webcal URIe </long>
+     </locale>
+
+     <locale name="ca">
+       <short>Gestor d&apos;URL per a les uri de webcal</short>
+       <long>Gestor d&apos;URL per a les uri de webcal</long>
+     </locale>
+
+     <locale name="ca@valencia">
+       <short>Gestor d&apos;URL per a les uri de webcal</short>
+       <long>Gestor d&apos;URL per a les uri de webcal</long>
+     </locale>
+
+     <locale name="cs">
+       <short>Obsluha URL pro uri webcal</short>
+       <long>Obsluha URL pro uri webcal</long>
+     </locale>
+
+     <locale name="cy">
+       <short>Trinydd LAU ar gyfer LAU webcal</short>
+       <long>Trinydd LAU ar gyfer LAU webcal</long>
+     </locale>
+
+     <locale name="da">
+       <short>Adresse-håndtering for webcal-adresseer</short>
+       <long>Adresse-håndtering for webcal-adresseer</long>
+     </locale>
+
+     <locale name="de">
+       <short>URL-Handler für Webcal-URIs</short>
+       <long>URL-Handler für Webcal-URIs</long>
+     </locale>
+
+     <locale name="dz">
+       <short>ཝེབ་ཀཱལ་ ཡུ་ཨར་ཨའི་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་ ཡུ་ཨར་ཨེལ།</short>
+       <long>ཝེབ་ཀཱལ་ ཡུ་ཨར་ཨའི་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་ ཡུ་ཨར་ཨེལ།</long>
+     </locale>
+
+     <locale name="el">
+       <short>Χειριστής URL για webcal uris</short>
+       <long>Χειριστής URL για webcal uris</long>
+     </locale>
+
+     <locale name="en_CA">
+       <short>URL handler for webcal URIs</short>
+       <long>URL handler for webcal URIs</long>
+     </locale>
+
+     <locale name="en_GB">
+       <short>URL handler for webcal uris</short>
+       <long>URL handler for webcal uris</long>
+     </locale>
+
+     <locale name="es">
+       <short>Manipulador URL para URI webcal</short>
+       <long>Manipulador URL para URI webcal</long>
+     </locale>
+
+     <locale name="et">
+       <short>URL&apos;ikäsitleja veebikalendri uri&apos;dele</short>
+       <long>URL&apos;ikäsitleja veebikalendri uri&apos;dele</long>
+     </locale>
+
+     <locale name="eu">
+       <short>Webcal URIen URL kudeatzailea</short>
+       <long>Webcal URIen URL kudeatzailea</long>
+     </locale>
+
+     <locale name="fa">
+       <short>متصدی نشانی‌های اینترنتی برای نشانی‌های اینترنتی تقویم وبی</short>
+       <long>متصدی نشانی‌های اینترنتی برای نشانی‌های اینترنتی تقویم وبی</long>
+     </locale>
+
+     <locale name="fi">
+       <short>URL-käsittelijä webcal URI:lle</short>
+       <long>URL-käsittelijä webcal URI:lle</long>
+     </locale>
+
+     <locale name="fr">
+       <short>Gestionnaire d&apos;URL pour les URIs webcal</short>
+       <long>Gestionnaire d&apos;URL pour les URIs webcal</long>
+     </locale>
+
+     <locale name="gl">
+       <short>Manipulador URL para os URI webcal</short>
+       <long>Manipulador URL para os URI webcal</long>
+     </locale>
+
+     <locale name="gu">
+       <short>વેબકોલ યુરીસ માટે URL નિયંત્રક</short>
+       <long>વેબકોલ યુરીસ માટે URL નિયંત્રક</long>
+     </locale>
+
+     <locale name="he">
+       <short>URL handler for webcal uris</short>
+       <long>URL handler for webcal uris</long>
+     </locale>
+
+     <locale name="hi">
+       <short>वेबकैल uris के लिए URL नियंत्रक</short>
+       <long>वेबकैल uris के लिए URL नियंत्रक</long>
+     </locale>
+
+     <locale name="hu">
+       <short>A webcal URI címek kezelője</short>
+       <long>A webcal URI címek kezelője</long>
+     </locale>
+
+     <locale name="id">
+       <short>Pengatur URL untuk uri webcal</short>
+       <long>Pengatur URL untuk uri webcal</long>
+     </locale>
+
+     <locale name="it">
+       <short>Gestore di URL &quot;webcal&quot;</short>
+       <long>Gestore di URL &quot;webcal&quot;</long>
+     </locale>
+
+     <locale name="ja">
+       <short>webcal URIs の URL ハンドラ</short>
+       <long>webcal URIs の URL ハンドラ</long>
+     </locale>
+
+     <locale name="ka">
+       <short>&quot;webcal&quot; ტიპის ბმულების &quot;გამხსნელი&quot;</short>
+       <long>&quot;webcal&quot; ტიპის ბმულების &quot;გამხსნელი&quot;</long>
+     </locale>
+
+     <locale name="kn">
+       <short>ವೆಬ್‌ಕ್ಯಾಲ್ uriಗಳಿಗಾಗಿನ URL ನಿಭಾಯಿಸುವವ</short>
+       <long>ವೆಬ್‌ಕ್ಯಾಲ್ uriಗಳಿಗಾಗಿನ URL ನಿಭಾಯಿಸುವವ</long>
+     </locale>
+
+     <locale name="ko">
+       <short>webcal URL의 핸들러</short>
+       <long>webcal URL의 핸들러</long>
+     </locale>
+
+     <locale name="ku">
+       <short>Sepana navnîşanan ya webcal</short>
+       <long>Sepana navnîşanan ya webcal</long>
+     </locale>
+
+     <locale name="ky">
+       <short>&apos;webcal&apos; тибиндеги шилтемелердин (URL) иштемеси</short>
+       <long>&apos;webcal&apos; тибиндеги шилтемелердин (URL) иштемеси</long>
+     </locale>
+
+     <locale name="lt">
+       <short>webcal adresų apdorojimo programa</short>
+       <long>webcal adresų apdorojimo programa</long>
+     </locale>
+
+     <locale name="lv">
+       <short>WEbcal adrešu apstrādātājs</short>
+       <long>WEbcal adrešu apstrādātājs</long>
+     </locale>
+
+     <locale name="mk">
+       <short>Справувач за адреси за адреси од webcal</short>
+       <long>Справувач за адреси за адреси од webcal</long>
+     </locale>
+
+     <locale name="ml">
+       <short>webcal  uris-ന് (വെബ്കാല്‍ യുറിസ്) URL (യു.ആര്‍.എല്‍) ഹാന്‍ഡലര്‍</short>
+       <long>webcal  uris-ന് (വെബ്കാല്‍ യുറിസ്) URL (യു.ആര്‍.എല്‍) ഹാന്‍ഡലര്‍</long>
+     </locale>
+
+     <locale name="mr">
+       <short>वेबकॅल uris साठी URL हाताळक</short>
+       <long>वेबकॅल uris साठी URL हाताळक</long>
+     </locale>
+
+     <locale name="ms">
+       <short>Pengendali URL bagi uri webcal</short>
+       <long>Pengendali URL bagi uri webcal</long>
+     </locale>
+
+     <locale name="nb">
+       <short>URL-håndterer for webcal-URIer</short>
+       <long>URL-håndterer for webcal-URIer</long>
+     </locale>
+
+     <locale name="nds">
+       <short>URL handler för webcal URIs</short>
+       <long>URL handler för webcal URIs</long>
+     </locale>
+
+     <locale name="ne">
+       <short>वेबकल युरिसका लागि यूआरएल ह्यान्डलर</short>
+       <long>वेबकल युरिसका लागि यूआरएल ह्यान्डलर</long>
+     </locale>
+
+     <locale name="nl">
+       <short>URL programma voor webcal uris</short>
+       <long>URL programma voor webcal uris</long>
+     </locale>
+
+     <locale name="nn">
+       <short>URL-handsamar for webcal-URIer</short>
+       <long>URL-handsamar for webcal-URIer</long>
+     </locale>
+
+     <locale name="or">
+       <short>ୱେବକାଲ ୟୁ.ଆର.ଆଇ.ଗୁଡ଼ିକ ପାଇଁ ୟୁ.ଆର.ଏଲ. ଚାଳକ</short>
+       <long>ୱେବକାଲ ୟୁ.ଆର.ଆଇ.ଗୁଡ଼ିକ ପାଇଁ ୟୁ.ଆର.ଏଲ. ଚାଳକ</long>
+     </locale>
+
+     <locale name="pa">
+       <short>ਵੈਬਕੇਲ uris ਲਈ URL ਹੈਂਡਲਰ</short>
+       <long>ਵੈਬਕੇਲ uris ਲਈ URL ਹੈਂਡਲਰ</long>
+     </locale>
+
+     <locale name="pl">
+       <short>Program obsługujący adresy URL protokołu webcal</short>
+       <long>Program obsługujący adresy URL protokołu webcal</long>
+     </locale>
+
+     <locale name="ps">
+       <short>سمبالوونکی URL لپاره uris د وېبکال </short>
+       <long>سمبالوونکی URL لپاره uris د وېبکال </long>
+     </locale>
+
+     <locale name="pt">
+       <short>Manipulador de URL para uris webcal</short>
+       <long>Manipulador de URL para uris webcal</long>
+     </locale>
+
+     <locale name="pt_BR">
+       <short>Manipulador de URLs para URIs webcal</short>
+       <long>Manipulador de URLs para URIs webcal</long>
+     </locale>
+
+     <locale name="ro">
+       <short>Gestionar URI-uri pentru adrese webcal</short>
+       <long>Gestionar URI-uri pentru adrese webcal</long>
+     </locale>
+
+     <locale name="ru">
+       <short>Обработчик ссылок (URL) типа &apos;webcal&apos;</short>
+       <long>Обработчик ссылок (URL) типа &apos;webcal&apos;</long>
+     </locale>
+
+     <locale name="si">
+       <short>webcal ඒකීය සම්පත් දර්ශක සඳහා URL හසුරුවන්නා</short>
+       <long>webcal ඒකීය සම්පත් දර්ශක සඳහා URL හසුරුවන්නා</long>
+     </locale>
+
+     <locale name="sk">
+       <short>Obslužný program URL pre webcal URI</short>
+       <long>Obslužný program URL pre webcal URI</long>
+     </locale>
+
+     <locale name="sl">
+       <short>URL upravljavec za Webcal URI-je</short>
+       <long>URL upravljavec za Webcal URI-je</long>
+     </locale>
+
+     <locale name="sq">
+       <short>Trajtuesi URL për uri e webcal</short>
+       <long>Trajtuesi URL për uri e webcal</long>
+     </locale>
+
+     <locale name="sr">
+       <short>Управљач webcal адресама</short>
+       <long>Управљач webcal адресама</long>
+     </locale>
+
+     <locale name="sr@latin">
+       <short>Upravljač webcal adresama</short>
+       <long>Upravljač webcal adresama</long>
+     </locale>
+
+     <locale name="sv">
+       <short>URL-hanterare för webcal-URI:er</short>
+       <long>URL-hanterare för webcal-URI:er</long>
+     </locale>
+
+     <locale name="ta">
+       <short>வெப்கால்க் uris க்கான யூஆர்எல்(URL) கையாள்பவன்</short>
+       <long>வெப்கால்க் uris க்கான யூஆர்எல்(URL) கையாள்பவன்</long>
+     </locale>
+
+     <locale name="te">
+       <short>వెబ్ కాల్ యుఆర్ఐల నిర్వహణ కొరకు  యుఆర్ఎల్</short>
+       <long>వెబ్ కాల్ యుఆర్ఐల నిర్వహణ కొరకు  యుఆర్ఎల్</long>
+     </locale>
+
+     <locale name="th">
+       <short>ส่วนจัดการ URL สำหรับ webcal uri</short>
+       <long>ส่วนจัดการ URL สำหรับ webcal uri</long>
+     </locale>
+
+     <locale name="tr">
+       <short>Webcal URI&apos;lerini işleyecek URL işleyicisi</short>
+       <long>Webcal URI&apos;lerini işleyecek URL işleyicisi</long>
+     </locale>
+
+     <locale name="ug">
+       <short>webcal uris نىڭ  URL باشقۇرغۇچىسى</short>
+       <long>webcal uris نىڭ  URL باشقۇرغۇچىسى</long>
+     </locale>
+
+     <locale name="uk">
+       <short>Обробник посилань (URL) типу &apos;webcal&apos;</short>
+       <long>Обробник посилань (URL) типу &apos;webcal&apos;</long>
+     </locale>
+
+     <locale name="vi">
+       <short>Bộ xử lý URL cho URI webcal</short>
+       <long>Bộ xử lý URL cho URI webcal</long>
+     </locale>
+
+     <locale name="xh">
+       <short>Indlela yokuphatha i-URL ye-webcal uris</short>
+       <long>Indlela yokuphatha i-URL ye-webcal uris</long>
+     </locale>
+
+     <locale name="zh_CN">
+       <short>Webcal 网址的网址处理程序</short>
+       <long>Webcal 网址的网址处理程序</long>
+     </locale>
+
+     <locale name="zh_HK">
+       <short>處理 webcal URL 的程式</short>
+       <long>處理 webcal URL 的程式</long>
+     </locale>
+
+     <locale name="zh_TW">
+       <short>處理 webcal URL 的程式</short>
+       <long>處理 webcal URL 的程式</long>
+     </locale>
+    </schema>
+
+   <schema>
+     <key>/schemas/desktop/gnome/url-handlers/webcal/need-terminal</key>
+     <applyto>/desktop/gnome/url-handlers/webcal/need-terminal</applyto>
+     <owner>evolution-webcal</owner>
+     <type>bool</type>
+     <default>false</default>
+     <locale name="C">
+       <short>Run program in terminal</short>
+       <long>True if the program to handle this URL should be run in a terminal</long>
+     </locale>
+
+     <locale name="af">
+       <short>Laat loop program in die terminaal</short>
+       <long>Waar indien die opdrag wat hierdie tipe URL hanteer in &apos;n terminaal moet loop</long>
+     </locale>
+
+     <locale name="ar">
+       <short>شغّل البرنامج في الطرفيّة</short>
+       <long>اضبط لـ True أذا وجب تشغيل البرنامج الذي سيعالج هذه العناوين في الطرفيّة</long>
+     </locale>
+
+     <locale name="as">
+       <short>কাৰ্যক্ৰ্ম টাম্ৰিনেলত চলাওক ।</short>
+       <long>True যদি এই কাৰ্য্য়ক্ৰমে নিয়ন্ত্ৰণ কৰা URL টাম্ৰিনেলত চলাব লাগে ।</long>
+     </locale>
+
+     <locale name="ast">
+       <short>Executar el programa nún terminal</short>
+       <long>Braero si el programa pa remanar esta URL tien d&apos;executase nun terminal</long>
+     </locale>
+
+     <locale name="az">
+       <short>Proqramı terminalda icra et</short>
+       <long>Bu URL-ni açan proqram terminalda icra edilməlidirsə, true</long>
+     </locale>
+
+     <locale name="be@latin">
+       <short>Uruchom prahramu ŭ terminale</short>
+       <long>Paznačana, kali prahrama dziela absłuhoŭvańnia hetaha adrasu URL, pavinna być uruchomlenaja ŭ terminale</long>
+     </locale>
+
+     <locale name="bg">
+       <short>Стартиране на програмата в терминал</short>
+       <long>Ако е ИСТИНА, програмата ще стартира този адрес в терминал</long>
+     </locale>
+
+     <locale name="bn">
+       <short>টার্মিনালে প্রোগ্রাম চালানো হবে</short>
+       <long>মান True (সত্য) হলে এই URL-টি পরিচালনা করার জন্য চিহ্নিত প্রোগ্রাম টার্মিনালে চালানো হবে</long>
+     </locale>
+
+     <locale name="bn_IN">
+       <short>টার্মিনালে প্রোগ্রাম চালানো হবে</short>
+       <long>মান সত্য হলে এই URL-টি পরিচালনা করার জন্য চিহ্নিত প্রোগ্রাম টার্মিনালে চালানো হবে</long>
+     </locale>
+
+     <locale name="bs">
+       <short>Pokreni program u terminalu (tekstualnom modu)</short>
+       <long>Tačno ako program koji služi za obradu adresa treba biti pokrenut u terminalu (tekstualnom modu)</long>
+     </locale>
+
+     <locale name="ca">
+       <short>Executeu el programa en una terminal</short>
+       <long>Cert si el programa que ha de gestionar aquesta URL s&apos;ha d&apos;executar en una terminal</long>
+     </locale>
+
+     <locale name="ca@valencia">
+       <short>Executeu el programa en una terminal</short>
+       <long>Cert si el programa que ha de gestionar esta URL s&apos;ha d&apos;executar en una terminal</long>
+     </locale>
+
+     <locale name="cs">
+       <short>Spustit program v terminálu</short>
+       <long>True, pokud má být program pro obsluhu těchto URL spuštěn v terminálu</long>
+     </locale>
+
+     <locale name="cy">
+       <short>Rhedeg y rhaglen mewn terfynell</short>
+       <long>Gwir os ddylai&apos;r rhaglen i drin a&apos;r math URL hwn rhedeg mewn terfynell</long>
+     </locale>
+
+     <locale name="da">
+       <short>Kør program i terminal</short>
+       <long>Sandt hvis programmet som håndterer denne adresse skal køres i en terminal</long>
+     </locale>
+
+     <locale name="de">
+       <short>Programm im Terminal ausführen</short>
+       <long>Falls dieser Schlüssel wahr ist, wird das Programm, das diese URL handhaben soll, in einem Terminal ausgeführt.</long>
+     </locale>
+
+     <locale name="dz">
+       <short>ལས་རིམ་ཊར་མི་ནཱལ་ནང་ གཡོག་བཀོལ།</short>
+       <long>བདེན་པ་ཨིན་པ་ཅིན་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་གི་ལས་རིམ་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ ལག་ལེན་འཐབ་དགོ</long>
+     </locale>
+
+     <locale name="el">
+       <short>Εκτέλεση προγράμματος σε τερματικό</short>
+       <long>True αν το πρόγραμμα που χειρίζεται αυτό το URL θα πρέπει να εκτελείται σε τερματικό</long>
+     </locale>
+
+     <locale name="en@shaw">
+       <short>𐑮𐑳𐑯 𐑐𐑮𐑴𐑜𐑮𐑨𐑥 𐑦𐑯 𐑑𐑻𐑥𐑦𐑯𐑩𐑤</short>
+       <long>𐑑𐑮𐑵 𐑦𐑓 𐑞 𐑐𐑮𐑴𐑜𐑮𐑨𐑥 𐑑 𐑣𐑨𐑯𐑛𐑩𐑤 𐑞𐑦𐑕 URL 𐑖𐑫𐑛 𐑚𐑰 𐑮𐑳𐑯 𐑦𐑯 𐑩 𐑑𐑻𐑥𐑦𐑯𐑩𐑤</long>
+     </locale>
+
+     <locale name="en_CA">
+       <short>Run program in terminal</short>
+       <long>True if the program to handle this URL should be run in a terminal</long>
+     </locale>
+
+     <locale name="en_GB">
+       <short>Run program in terminal</short>
+       <long>True if the program to handle this URL should be run in a terminal</long>
+     </locale>
+
+     <locale name="es">
+       <short>Ejecutar programa en un terminal</short>
+       <long>«True» si el programa para manipular esta URL debería ejecutarse en un terminal</long>
+     </locale>
+
+     <locale name="et">
+       <short>Programmi käivitamine terminalis</short>
+       <long>Tõene, kui seda URL-i käsitlev programm peaks töötama terminalis</long>
+     </locale>
+
+     <locale name="eu">
+       <short>Exekutatu programa terminal batean</short>
+       <long>Egiazkoa URL hau kudeatzeko programa terminal batean exekutatu behar bada.</long>
+     </locale>
+
+     <locale name="fa">
+       <short>اجرای برنامه در پایانه</short>
+       <long>درست یعنی برنامه‌ای که با این نشانی اینترنتی کار می‌کند باید در پایانه اجرا شود</long>
+     </locale>
+
+     <locale name="fi">
+       <short>Suorita ohjelma päätteessä</short>
+       <long>Tosi, jos URLin käsittelevä ohjelma halutaan suorittaa päätteessä</long>
+     </locale>
+
+     <locale name="fr">
+       <short>Lancer le programme dans un terminal</short>
+       <long>Définir à VRAI si le programme gérant cet URL doit être lancé dans un terminal</long>
+     </locale>
+
+     <locale name="gl">
+       <short>Executar o programa nun terminal</short>
+       <long>Verdadeiro se o programa para manipular este URL debe executarse nun terminal</long>
+     </locale>
+
+     <locale name="gu">
+       <short>કાર્યક્રમ ટર્મિનલમાં ચલાવો</short>
+       <long>આ URL ને નિયંત્રિત કરવા માટેનો કાર્યક્રમ જો ટર્મિનલમાં ચાલતો હોય તો સાચું છે</long>
+     </locale>
+
+     <locale name="he">
+       <short>Run program in terminal</short>
+       <long>True if the program to handle this URL should be run in a terminal</long>
+     </locale>
+
+     <locale name="hi">
+       <short>टर्मिनल में प्रोग्राम चलाएं</short>
+       <long>सही है अगर इस URL को नियंत्रण करने वाले प्रोग्राम को टर्मिनल में चलाया जाए.</long>
+     </locale>
+
+     <locale name="hr">
+       <short>Pokreni program u terminalu</short>
+       
+     </locale>
+
+     <locale name="hu">
+       <short>Program futtatása terminálban</short>
+       <long>Állítsa igazra, ha azt szeretné, hogy az ezen URL címeket kezelő program terminálban fusson</long>
+     </locale>
+
+     <locale name="id">
+       <short>Jalankan program di terminal</short>
+       <long>Benar jika program yang menangani URL ini harus berjalan pada sebuah terminal</long>
+     </locale>
+
+     <locale name="it">
+       <short>Eseguire il programma nel terminale</short>
+       <long>Impostare a vero se il programma che gestisce questo tipo di URL deve essere eseguito in un terminale.</long>
+     </locale>
+
+     <locale name="ja">
+       <short>端末内で起動する</short>
+       <long>端末内でこの URL を取り扱うプログラムを実行する場合は &quot;TRUE&quot; にして下さい。</long>
+     </locale>
+
+     <locale name="ka">
+       <short>პროგრამის ტერმინალში გაშვება</short>
+       <long>თუ მონიშნულია, ამ სახის ბმულების &quot;გამხსნელი&quot; პროგრამა ტერმინალში იქნება გაშვებული</long>
+     </locale>
+
+     <locale name="kn">
+       <short>ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಿ</short>
+       <long>ಈ URL ಅನ್ನು ನಿಭಾಯಿಸುವ ಪ್ರೊಗ್ರಾಂ ಅನ್ನು ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ನಿಜವಾಗಿರುತ್ತದೆ</long>
+     </locale>
+
+     <locale name="ko">
+       <short>프로그램 터미널에서 실행</short>
+       <long>참이면 이 URL을 처리하는 프로그램을 터미널에서 실행합니다</long>
+     </locale>
+
+     <locale name="ku">
+       <short>Xebitandina bernameyê ji termînalê</short>
+       <long>Dê rast be heke xebtandina bernameya van navnîşanan di termînalê de were sepandin</long>
+     </locale>
+
+     <locale name="ky">
+       <short>Иштемени терминалда иштетүү</short>
+       <long>Эгерде орнотулган болсо, анда бул типтеги шилтемелер үчүн иштеме терминалда ачылат</long>
+     </locale>
+
+     <locale name="lt">
+       <short>Paleisti programą terminale</short>
+       <long>Teigiama, jei programa, apdorojanti webcal adresus, turėtų būti paleidžiama terminale</long>
+     </locale>
+
+     <locale name="lv">
+       <short>Palaist programmu terminālī</short>
+       <long>Patiess ja adrešu apstrādes programma būtu jālaiž terminālī</long>
+     </locale>
+
+     <locale name="mk">
+       <short>Изврши ја програмата во терминал</short>
+       <long>Вклучено ако програмата која што треба да се справи со адресата треба да биде извршена во терминал</long>
+     </locale>
+
+     <locale name="ml">
+       <short>പ്രോഗ്രാം ടെര്‍മിനലില്‍ പ്രവര്‍ത്തിപ്പിക്കുക</short>
+       <long>ഈ പ്രോഗ്രാം ഹാന്‍ഡല്‍ ചെയ്യുന്ന URL ടെര്‍മിനലിലാണ് പ്രവര്‍ത്തിക്കുന്നത് എങ്കില്‍ ശരി ആണ്.</long>
+     </locale>
+
+     <locale name="mr">
+       <short>कार्यक्रम टर्मीनलमध्ये चालवा</short>
+       <long>ही URL हाताळण्याकरीताचे कार्यक्रम टर्मीनल मध्ये चालविले पाहिजे</long>
+     </locale>
+
+     <locale name="ms">
+       <short>Laksanakan program di terminal</short>
+       <long>Benar jika program mengendali URL ini patut dilaksanakan pada terminal</long>
+     </locale>
+
+     <locale name="nb">
+       <short>Kjøre program i terminal</short>
+       <long>«True» hvis programmet som håndterer denne type URLer skal kjøres i en terminal</long>
+     </locale>
+
+     <locale name="nds">
+       <short>Programm im Terminal lööpen laten</short>
+       <long>Wahr, wenn dat Programm düsse URL in ee&apos;m Terminal lööpen laten schall</long>
+     </locale>
+
+     <locale name="ne">
+       <short>टर्मिनलमा कार्यक्रम चलाउनुहोस्</short>
+       <long>यदि यो यूआरएल ह्यान्डल गर्न कार्यक्रम एउटा टर्मिनलमा चलाउनु छ भने ठीक छ</long>
+     </locale>
+
+     <locale name="nl">
+       <short>Programma uitvoeren in een opdrachtvenster</short>
+       <long>Waar, indien het programma voor deze URL, uitgevoerd moet worden in een opdrachtvenster</long>
+     </locale>
+
+     <locale name="nn">
+       <short>Køyra program i terminal</short>
+       <long>«True» viss programmet som handsamar denne type URLer skal kjøres i ein terminal</long>
+     </locale>
+
+     <locale name="oc">
+       <short>Aviar lo programa dins un terminal</short>
+       
+     </locale>
+
+     <locale name="or">
+       <short>କାରିକାକୁ ଟର୍ମିନାଲରେ ଚଳାନ୍ତୁ</short>
+       <long>ସତ ଯଦି ଏହି ୟୁ.ଆର.ଏଲ.କୁ ଚଳାଇବା କାରିକାକୁ ଟର୍ମିନାଲରେ ଚଳାଇବା ଉଚିତ</long>
+     </locale>
+
+     <locale name="pa">
+       <short>ਪਰੋਗਰਾਮ ਟਰਮੀਨਲ &apos;ਚ ਚਲਾਓ</short>
+       <long>ਸੱਚ, ਜੇਕਰ ਪਰੋਗਰਾਮ ਇਸ URL ਨੂੰ ਟਰਮੀਨਲ ਵਿੱਚ ਹੈਂਡਲ ਕਰ ਸਕੇ</long>
+     </locale>
+
+     <locale name="pl">
+       <short>Uruchomienie programu w terminalu</short>
+       <long>Powinno być ustawione na wartość &quot;true&quot;, jeśli program obsługujący ten adres URL powinien być uruchomiony w terminalu</long>
+     </locale>
+
+     <locale name="ps">
+       <short>کړنلار په پایالي کې پرانيستل</short>
+       
+     </locale>
+
+     <locale name="pt">
+       <short>Executar aplicação na consola</short>
+       <long>Verdadeiro se a aplicação para manipular este URL deve ser executada numa consola</long>
+     </locale>
+
+     <locale name="pt_BR">
+       <short>Executar programa num terminal</short>
+       <long>&quot;True&quot; se o programa para manipular essa URL deve ser executado em um terminal</long>
+     </locale>
+
+     <locale name="ro">
+       <short>Pornește programul în terminal</short>
+       <long>Adevărat, dacă programul folosit pentu procesarea acestui URL ar trebui lansat în terminal</long>
+     </locale>
+
+     <locale name="ru">
+       <short>Запускать программу в терминале</short>
+       <long>Если установлен, программа-обработчик этого типа ссылок будет запускаться в терминале</long>
+     </locale>
+
+     <locale name="si">
+       <short>ක්‍රමලේඛනය ටර්මිනලයේ ක්‍රියාත්මක කරන්න</short>
+       <long>මෙම URL හසුරුවන ක්‍රමලේඛය ටර්මිනලයක් තුළ ක්‍රියාත්මක වුවහොත් සත්‍ය වේ</long>
+     </locale>
+
+     <locale name="sk">
+       <short>Spustiť program v termináli</short>
+       <long>True, ak program na obsluhu tohoto URL má bežať v termináli</long>
+     </locale>
+
+     <locale name="sl">
+       <short>Poženi program v terminalu</short>
+       <long>Izbrano, če naj program, izveden v terminalu,  upravlja z tem URI</long>
+     </locale>
+
+     <locale name="sq">
+       <short>Ekzekuto programin në terminal</short>
+       <long>E vërtetë nëse programi që duhet të trajtojë këtë URL duhet ekzekutuar në një terminal</long>
+     </locale>
+
+     <locale name="sr">
+       <short>Покрени програм у терминалу</short>
+       <long>Означено ако програм за управљање овом адресом треба покренути у терминалу</long>
+     </locale>
+
+     <locale name="sr@latin">
+       <short>Pokreni program u terminalu</short>
+       <long>Označeno ako program za upravljanje ovom adresom treba pokrenuti u terminalu</long>
+     </locale>
+
+     <locale name="sv">
+       <short>Kör programmet i en terminal</short>
+       <long>Sant om programmet för att hantera denna URL ska köras i en terminal</long>
+     </locale>
+
+     <locale name="ta">
+       <short>நிரலை முனையத்தில் இயக்குக</short>
+       <long>இந்த யூஆர்எல்(URL) ஐ நிரல் கையாண்டு முனையத்தில் இயங்கினால் உண்மை </long>
+     </locale>
+
+     <locale name="te">
+       <short>టెర్మినల్లో ప్రక్రమాన్ని నడపండి</short>
+       <long>ప్రక్రమం ఈ యుఆర్ఎల్ నిర్వహించటానికైతే దాన్ని టెర్మినల్లో నడపవచ్చు</long>
+     </locale>
+
+     <locale name="th">
+       <short>เรียกโปรแกรมในเทอร์มินัล</short>
+       <long>เลือกเมื่อต้องการให้โปรแกรมทำงานในเทอร์มินัล</long>
+     </locale>
+
+     <locale name="tr">
+       <short>Programı uçbirimde çalıştır</short>
+       <long>Eğer seçiliyse, URL&apos;lerin işleneceği program uçbirim içinde çalışır</long>
+     </locale>
+
+     <locale name="ug">
+       <short>پروگراممىنى تېرمىنالدا ئىجرا قىلىش</short>
+       <long>مەزكۇر URL نى باشقۇرىدىغان پروگرامما تېرمىنالدا ئىجرا بولسا True بولىدۇ</long>
+     </locale>
+
+     <locale name="uk">
+       <short>Запускати програму у терміналі</short>
+       <long>Якщо встановлено, програма-обробник посилань цього типу буде запускатись у терміналі</long>
+     </locale>
+
+     <locale name="vi">
+       <short>Chạy trên dòng lệnh</short>
+       <long>True (đúng) nếu chương trình xử lý URL này cần chạy trên dòng lệnh</long>
+     </locale>
+
+     <locale name="xh">
+       <short>Phumeza inkqubo kwikhompyutha enxulumaniswe kwitheminali</short>
+       <long>Iyinyaniso ukuba inkqubo eza kuphatha ezi-URL iphunyezwa kwikhompyutha enxulumaniswe kwengundoqo</long>
+     </locale>
+
+     <locale name="zh_CN">
+       <short>在终端中运行程序</short>
+       <long>如果要处理此网址的程序应在在终端中运行，则为真</long>
+     </locale>
+
+     <locale name="zh_HK">
+       <short>在終端機中執行程式</short>
+       <long>如果本設定的值為 true，則處理 webcal URL 的程式必須在終端機中執行</long>
+     </locale>
+
+     <locale name="zh_TW">
+       <short>在終端機中執行程式</short>
+       <long>如果本設定的值為 true，則處理 webcal URL 的程式必須在終端機中執行</long>
+     </locale>
+	  </schema>
+</schemalist>
+</gconfschemafile>
+

@@ -1,0 +1,3 @@
+?package(xvkbd):needs="x11" section="Applications/Accessibility" \
+	title="xvkbd" longtitle="X Virtual Keyboard" command="/usr/bin/xvkbd"
+

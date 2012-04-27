@@ -1,0 +1,11 @@
+18fadd03a4d5d1f07080666f1176fd08  usr/lib/aspell/marathi.alias
+cc874f5e916f205dbd721fa53ebb8766  usr/lib/aspell/mr.dat
+2299e4539d8b005958bda29554fd6aab  usr/lib/aspell/mr.multi
+c6a3d7a07841f9237d4bc7ab1d424b6f  usr/share/aspell/mr.contents
+3eb9043b052edcc033dcac3588135f52  usr/share/aspell/mr.cwl.gz
+ced2e700379d7eaf6e42073c2c46cb3f  usr/share/doc/aspell-mr/README
+cae4b44ffa6c84af4f2d0f5f4ea9638c  usr/share/doc/aspell-mr/changelog.Debian.gz
+36d6f6c49d2e4a68258d4efa84758bc3  usr/share/doc/aspell-mr/copyright
+d41d8cd98f00b204e9800998ecf8427e  var/lib/aspell/mr.compat
+d41d8cd98f00b204e9800998ecf8427e  var/lib/aspell/mr.rws
+308bdb93b1c0bb1176976f6ac5800d4f  var/lib/dictionaries-common/aspell/aspell-mr

@@ -1,0 +1,43 @@
+gnome-session for Debian
+========================
+
+Applications at startup
+-----------------------
+
+Upon startup, gnome-session starts the following applications:
+ - Saved session: if you have saved a session, it is located in 
+   ~/.config/gnome-session/saved-session/. You can enable automatic 
+   session saving or manually save it in the "Startup Applications" 
+   configuration applet.
+ - Autostart applications: applications shipping a .desktop file in 
+   /usr/share/gnome/autostart or /etc/xdg/autostart. This includes the 
+   keyring manager, the settings daemon, nautilus and the power 
+   manager. They can be selectively disabled in the configuration 
+   applet.
+ - Required components: they are listed in the 
+   /desktop/gnome/session/required_components_list GConf key. This 
+   includes the window manager, the panel and the file manager.
+   The required components are always respawned if they crash or exit. 
+   To disable them, you need to change this GConf key. If you want to 
+   use an alternate panel or window manager, you need to change the 
+   corresponding key in /desktop/gnome/session/required_components/.
+
+
+Splash screen
+-------------
+
+Displaying a splash screen implies a noticeable delay in login for most users,
+hence it's entirely disabled now.
+
+
+Changing the window manager
+---------------------------
+
+For GNOME 2, gnome-session tries to start metacity, mutter or sawfish if 
+they are installed, then falls back to the system default.
+
+If you want to specify the window manager by hand, you can set the 
+/desktop/gnome/session/required_components/windowmanager GConf key to 
+the value of your preferred one.
+
+For GNOME 3, it starts gnome-shell instead.

@@ -1,0 +1,5 @@
+012063f9fc830b970f16b35a84d6dfec  usr/share/lintian/overrides/libvorbisfile3
+e494023884cdd478086a4b31587653c8  usr/share/doc/libvorbisfile3/changelog.gz
+6146d0267189a06b3ede97d3a18eb1fb  usr/share/doc/libvorbisfile3/copyright
+75cfa8f349a4036f9f9ad1f4fda6dfb8  usr/share/doc/libvorbisfile3/changelog.Debian.gz
+a7c58697d1bf875363288a9640a6e8ab  usr/lib/libvorbisfile.so.3.3.2

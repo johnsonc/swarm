@@ -1,0 +1,2981 @@
+<gconfschemafile>
+    <schemalist>
+
+      <schema>
+        <key>/schemas/apps/fish_applet/prefs/name</key>
+        <owner>fish-applet</owner>
+        <type>string</type>
+        <default>Wanda</default>
+        <locale name="C">
+          <short>The fish's name</short>
+          <long>
+            A fish without a name is a pretty dull fish. Bring your fish to
+            life by naming him.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Die vis se naam</short>
+          <long>&apos;n Vis sonder &apos;n naam is &apos;n redelike bleeksiel. Blaas lewe in jou vis deur hom &apos;n naam te gee.</long>
+        </locale>
+
+        <locale name="am">
+          <short>የዓሳው ስም</short>
+          
+        </locale>
+
+        <locale name="ar">
+          <short>اسم السمكة</short>
+          <long>سمكة بدون أسم سمكة مملة. أحيي سمكتك بإعطائها اسما.</long>
+        </locale>
+
+        <locale name="as">
+          <short>মাছৰ নাম</short>
+          <long>নামহীন মাছ অত্যন্ত নিৰ্জীব  । আপোনাৰ মাছৰ নামকৰণ কৰক আৰু তাক জগাওক  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>El nome del pexe</short>
+          <long>Un pexe ensin nome ye un pexe persosu. Deai-y vida al so pexe dando-y un nome.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Balığın adı</short>
+          <long>Adsız balıq, cansıxıcıdır.Balığınıza ad qoyaraq ona həyat bəxş edin.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Мянушка рыбкі</short>
+          <long>Рыбка безь мянушкі - вельмі тупая рыбіна. Вярніце рыбіне жыцьцё - дайце ёй мянушку.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Imia rybki</short>
+          <long>Rybka biez imia - heta vielmi hłupaja rybka. Viarni rybcy sens žyćcia, daŭšy joj imia.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Името на рибата</short>
+          <long>Риба без име е много скучна. Вдъхнете ѝ малко живот като ѝ изберете име.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>মাছের নাম</short>
+          <long>নামহীন মাছ অত্যন্ত নির্জীব। আপনার মাছের নামকরণ করার মাধ্যমে জীবিত করুন।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>মাছের নাম</short>
+          <long>নামহীন মাছ অত্যন্ত নির্জীব। আপনার মাছের নামকরণ করুন এবং তাকে জাগিয়ে তুলুন।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Anv ar pesk</short>
+          <long>Ur pesk disanv a zo ur vrav a besk e darn. Dakait buhez en ho pesk en ur reiñ un anv dezhañ.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Ime ribe</short>
+          <long>Riba bez imena je prilično glupa riba. Oživite vašu ribu dajući joj ime.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>El nom del peix</short>
+          <long>Un peix sense nom és un peix poc interessant. Poseu un nom al vostre peix, i doneu-li vida.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>El nom del peix</short>
+          <long>Un peix sense nom és un peix poc interessant. Poseu un nom al vostre peix, i doneu-li vida.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Balıqnıñ adı</short>
+          <long>Adsız bir balıq, çok meraqsız bir balıqtır. Balığıñıznı isimlendirerek onı ayatqa ketiriñiz.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Jméno ryby</short>
+          <long>Ryba bez jména je pěkně hloupá ryba. Oživte svou rybu tím, že ji pojmenujete.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Enw&apos;r pysgodyn</short>
+          <long>Mae pysgodyn heb enw yn bysgodyn eithaf diflas. Gwnewch i&apos;ch pysgodyn fyw gan ei enwi.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Fiskens navn</short>
+          <long>En fisk uden navn er en ret kedelig fisk. Giv din fisk liv ved at navngive den.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Der Name des Fisches</short>
+          <long>Ein namenloser Fisch ist ein ziemlich dämlicher Fisch. Erwecken Sie Ihren Fisch zum Leben, indem Sie ihm einen Namen geben!</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ཉའི་མིང་དེ།</short>
+          <long>མིང་མེད་པའི་ཉ་དེ་ ཉ་ལྐུགས་པ་ཅིག་ཨིན། ཁྱོད་རའི་ཉ་དེ་ལུ་ མིང་བཏགས་པའི་སྒོ་ལས་ སྲོག་ལྡན་བཟོ།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Το όνομα του ψαριού</short>
+          <long>Ένα ψάρι χωρίς όνομα είναι ένα χαζό ψάρι. Δώστε ζωή στο ψάρι σας βαπτίζοντας το.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑞 𐑓𐑦𐑖𐑧𐑕 𐑯𐑱𐑥</short>
+          <long>𐑩 𐑓𐑦𐑖 𐑢𐑦𐑞𐑬𐑑 𐑩 𐑯𐑱𐑥 𐑦𐑟 𐑩 𐑐𐑮𐑦𐑑𐑦 𐑛𐑳𐑤 𐑓𐑦𐑖. 𐑚𐑮𐑦𐑙 𐑿𐑼 𐑓𐑦𐑖 𐑑 𐑤𐑲𐑓 𐑚𐑲 𐑯𐑱𐑥𐑦𐑙 𐑣𐑦𐑥.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>The fish&apos;s name</short>
+          <long>A fish without a name is a pretty dull fish. Bring your fish to life by naming him.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>The fish&apos;s name</short>
+          <long>A fish without a name is a pretty dull fish. Bring your fish to life by naming him.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>La fiŝnomo</short>
+          <long>Fiŝo sen nomo estas iom malinteresa. Lasu vian fiŝon al vivo per sia nomiĝo.</long>
+        </locale>
+
+        <locale name="es">
+          <short>El nombre del pez</short>
+          <long>Un pez sin nombre es un pez triste. Dele vida a su pez poniéndole un nombre.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Kala nimi</short>
+          <long>Ilma nimeta kala on üsna igav kala. Puhu oma kalale eluvaim sisse ja pane talle nimi!</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Arrainaren izena</short>
+          <long>Izenik gabeko arraina tristea da. Emaiozu izena bizirik egon dadin.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>نام ماهی</short>
+          <long>ماهی بدون اسم به درد نمی‌خورد. با اسم گذاشتن ماهی‌تان را زنده کنید.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Kalan nimi</short>
+          <long>Nimetön kala on varsin tylsä ilmestys. Nimeäpä siis kalasi.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Le nom du poisson</short>
+          <long>Un poisson sans un nom est un pauvre poisson. Donnez une vie à votre poisson en le nommant.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Il nom dal pès</short>
+          <long>Un pès cence nom al reste incazzât. Rindilu content cuntun biel nom.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Ainm an éisc</short>
+          <long>Is iasc cuibheasach dúr é iasc gan ainm. Ainmnigh d&apos;iasc.</long>
+        </locale>
+
+        <locale name="gl">
+          <short>O nome do peixe</short>
+          <long>Un peixe sen nome é un peixe realmente triste. Déalle vida ao seu peixe póndolle un nome.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>માછલીનું નામ</short>
+          <long>નામ વગરની માછલી બહુ આળસુ હશે. તેને કોઇ નામ આપીને જીવંત બનાવો.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Sunan kifin</short>
+          <long>Idan kifi bai da suna, ya kan zama mai maras ban sha&apos;awa. Ka ba da kifin ka suna don ya sami rayuwa mai kyau.</long>
+        </locale>
+
+        <locale name="he">
+          <short>שם הדג</short>
+          <long>דג ללא שם הוא דג די משעמם. תן לדג שלך חיים - תן לו שם.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>मछली का नाम</short>
+          <long>बिना नाम वाली मछली तो बहुत सुस्त होगी. इसका कोई प्यारा सा नाम देकर इसमें जीवन भरें.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Ime ribe</short>
+          <long>Riba bez imena je poprilično glupa riba. Oživite Vašu ribu dajući joj ime.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>A hal neve</short>
+          <long>Egy név nélküli hal nagyon unalmas hal. Adjon életet a halának, adjon neki nevet!</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Ձկնիկի անունը</short>
+          <long>Միանգամայն ձանձրալի անուն չունեցող ձկնիկ։ Կյանքի՛ կոչեք ձեր ձկնիկին՝ նրան անուն տալով։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Nama ikan</short>
+          <long>Ikan tak bernama adalah Ikan bodoh. Hidupkan ikanmu dengan memberinya nama.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Aha azụ ahụ</short>
+          <long>Azụ ọbụla na-enweghị aha bụ azụ tìì. Webata ndụ n&apos;azụ site n&apos;ịgụ ya aha.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Nafn fisksins</short>
+          <long>Fiskur með engu nafni er frekar daufur fiskur. Lífgaðu upp á hann með því að gefa honum nafn.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Il nome del pesce</short>
+          <long>Un pesce senza nome è triste. Rendilo felice dandogli un bel nome.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>おさかな君の名前</short>
+          <long>名前のない &quot;おさかな君&quot; はちょっとさえない魚です。名前を付けて命を吹きこみましょう！</long>
+        </locale>
+
+        <locale name="ka">
+          <short>თევზის სახელი</short>
+          <long>თევზი სახელის გარეშე, მართლაც რომ საცოდავი არსებაა. არ გაანაწყენოთ იგი, დაარქვით სახელი.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಮೀನಿನ ಹೆಸರು</short>
+          <long>ಒಂದು ಮೀನಿಗೆ ಹೆಸರಲ್ಲಿದಿದ್ದರೆ ಅದು ಪೇಲವವೆನಿಸುತ್ತದೆ. ನಿಮ್ಮ ಮೀನಿಗೊಂದು ಹೆಸರಿಡುವ ಮೂಲಕ ಅದನ್ನು ಜೀವಂತಗೊಳಿಸಿ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>물고기의 이름</short>
+          <long>이름 없는 물고기는 아주 멍청한 물고기일 뿐입니다. 당신의 물고기에 이름을 지어 생명을 불어 넣으십시오.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Navê masiyê</short>
+          <long>Masiyekî bênav tiştekî nebaş e. Nav û jiyan bide wî.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Балык аты</short>
+          <long>Аты жок балык - кызыксыз балык. Ага ат берип, турмуш кызыгына баттырыңыз.</long>
+        </locale>
+
+        <locale name="li">
+          <short>De naam van de vèsj</short>
+          <long>Eine vèsj zónger naam is äörtelik saai. Geuf &apos;t bieske ei naam veur &apos;t get mie laeve te gaeve.</long>
+        </locale>
+
+        <locale name="lt">
+          <short>Žuvies vardas</short>
+          <long>Žuvis be vardo - nuobodi žuvis. Pagyvink savo žuvį, ją pavadindamas</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Zivtiņas vārds</short>
+          <long>Zivs bez vārda ir diezgan garlaicīga zivs. Ved to dzīvē, dodot tai vārdu.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>मछली क&apos; नाम</short>
+          <long>बिनु नाम बाली मछली तँ बहुत सुस्त हाएत. एकर कोनो बढ़ियाँ नाम दए क&apos; एहिमे जीवन भरू.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Ny anaran&apos;ilay trondro</short>
+          <long>Trondro tsy misy anarana izany trondro tsy dia manintona loatra. Omeo anarana ny trondronao mba hahavelombelona azy.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Името на рибата</short>
+          <long>Риба без име е доста досадна риба. Оживејте си ја рибата давајќи ѝ име.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>മീനിന്റെ പേര്</short>
+          <long>മീനിനു് പേര് നല്‍കുക.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Загасны нэр</short>
+          <long>Нэргүй загас уйтгартай байна. Өөрийн загасыг сонгож нэрлэнэ үү.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>मास्याचे नाव</short>
+          <long>नाव नसलेला मासा म्हणजे एकदम सुस्त मासा. या माश्याला एक चांगले नाव देऊनत्याला कार्यरत बनवा.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Nama ikan</short>
+          <long>Ikan tanpa nama adalah ikan yg membosankan. Berikan erti kehidupan padanya dengan menamakanya.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Fiskens navn</short>
+          <long>En fisk uten et navn er en veldig kjedelig fisk. Gi liv til din fisk ved å gi den et navn.</long>
+        </locale>
+
+        <locale name="nds">
+          <short>De Fisk sien Naam</short>
+          
+        </locale>
+
+        <locale name="ne">
+          <short>माछाको नाम</short>
+          <long>बेनामी माछा एउटा ज्यादै निष्क्रिय माछा हो । माछाको नामकरण गरेर जिवित बनाउनुहोस् ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>De naam van de vis</short>
+          <long>Een vis zonder naam is behoorlijk saai. Geef het beestje een naam om er leven in te blazen.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Namnet på fisken</short>
+          <long>Ein fisk utan namn er ein kjedeleg fisk. Gje liv til fisken din ved å gje honom eit namn.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Leina la hlapi</short>
+          <long>Hlapi yeo e se nago leina ke hlapi e sa kgahlišego. Dira gore hlapi ya gago e phele ka go e thea leina.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Lo nom del peis</short>
+          <long>Un pes qu&apos;a pas de nom es plan malurós. Balhatz-lo una vida novèla en li donant un nom.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ମାଛର ନାମ</short>
+          <long>ବିନା ନାମର ମାଛ ବହୁତ ମାନ୍ଦା. ନାମକରଣ କରି ମାଛକୁ ଜୀବନ୍ତ କରନ୍ତୁ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਮੱਛੀ ਦਾ ਨਾਂ</short>
+          <long>ਮੱਛੀ ਨਾਂ ਬਿਨਾਂ ਸੋਹਣੀ ਹੈ, ਨਾਂ ਦੇ ਕੇ ਮੱਛੀ ਨੂੰ ਸੰਜੀਵ ਕਰੋ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Imię rybki</short>
+          <long>Rybka bez nazwy jest bardzo głupią rybką. Imię przywraca rybce sens życia.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>د کب نوم</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>O nome do peixe</short>
+          <long>Um peixe sem nome é um peixe muito monótono. Reanime o seu peixe dando-lhe um nome.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>O nome do peixe</short>
+          <long>Um peixe sem nome é um peixe um tanto estúpido. Traga vida ao seu peixe dando a ele um nome.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Numele peștelui</short>
+          <long>Un pește fără nume este un pește destul de neinteresant. Adu peștele tău la viața botezându-l.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Имя рыбки</short>
+          <long>Рыбка без имени — скучная рыбка. Оживите рыбку, дав ей имя.</long>
+        </locale>
+
+        <locale name="si">
+          <short>මාලුවාගේ නම</short>
+          
+        </locale>
+
+        <locale name="sk">
+          <short>Meno ryby</short>
+          <long>Ryba bez mena je úplne nanič. Musíte jej dať meno aby ožila.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Ime ribe</short>
+          <long>Riba brez imena je precej dolgočasna riba. Oživite svojo ribo tako, da jo poimenujete.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Emri i peshkut</short>
+          <long>Një peshk pa emër është një peshk i mërzitshëm. Gëzoje peshkun duke i vënë një emër.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Име рибе</short>
+          <long>Риба без имена је прилично глупа риба. Оживите вашу рибу дајући јој име.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Име рибе</short>
+          <long>Риба без имена је прилично глупа риба. Оживите вашу рибу дајући јој име.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Ime ribe</short>
+          <long>Riba bez imena je prilično glupa riba. Oživite vašu ribu dajući joj ime.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Fiskens namn</short>
+          <long>En fisk utan ett namn är en ganska tråkig fisk. Gör din fisk levande genom att namnge den.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>மீனின் பெயர்</short>
+          <long>பெயரில்லாத மீன் சோம்பேரி மீண். பெயரிட்டு மீனுக்கு உயிர்தரவும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>చాప యొక్క నామము</short>
+          <long>నామము లేని చాపా బాగా దీనము గా ఉంది.దానికి నామము పెట్టుట ద్వారా మీ చాపకు జీవితాన్ని ఇవ్వండి.</long>
+        </locale>
+
+        <locale name="th">
+          <short>ชื่อของปลา</short>
+          <long>ปลาที่ไร้นามนั้นไม่ค่อยน่าสนใจ ตั้งชื่อปลาเพื่อให้เขามีชีวิตชีวาหน่อยสิ</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Balığın adı</short>
+          <long>Adsız bir balık, çok boş bir balıktır. Balığınıza bir isim takarak ona hayat verin.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Ім&apos;я рибки</short>
+          <long>Рибка без імені — нудна рибка. Додайте життя своїй рибці, давши їй ім&apos;я.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Baliqchaning ismi</short>
+          <long>Ismsiz baliqcha juda zerikarli boʻladi. Unga ism qoʻying.</long>
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Балиқчанинг исми</short>
+          <long>Исмсиз балиқча жуда зерикарли бўлади. Унга исм қўйинг.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Tên con cá</short>
+          <long>Một con cá không có tên là một con cá khá nhạt nhẽo. Hãy cho con cá cuộc sống bằng cách đặt tên cho nó.</long>
+        </locale>
+
+        <locale name="wa">
+          <short>Li no do pexhon</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>Igama lentlanzi</short>
+          <long>Intlanzi engenagama yintlanzi entle edangeleyo. Yiphe ubomi intlanzi yakho ngokuyinika igama.</long>
+        </locale>
+
+        <locale name="yi">
+          <short>דעם פֿישס נאָמען</short>
+          <long>אַ פֿיש אָן אַ נאָמען איז װי אַ ייִד אָן אַ היטל.  זײַ אים מחיה מיט אַ נאָמען.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Orúkọ ẹja náà</short>
+          <long>Òmùgọ̀ ẹja ní kò ní lórúkọ. Sọ eja dí alàyè nípa fífun lórúkọ.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>小鱼的名字</short>
+          <long>没有名字的鱼是缺少生气的。为赋予它生命，请给它起个名字。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>小魚的名稱</short>
+          <long>沒有名稱的魚兒是比較呆滯的。請為魚兒命名，為它帶來一點生氣。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>小魚的名稱</short>
+          <long>沒有名稱的魚兒是比較呆滯的。請為魚兒命名，為它帶來一點生氣。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Igama lenhlanzi</short>
+          <long>Inhlanzi engenagama yisilima. Philisa inhlanzi yakho ngokuyiqamba igama.</long>
+        </locale>
+      </schema>
+
+       <schema>
+        <key>/schemas/apps/fish_applet/prefs/image</key>
+        <owner>fish-applet</owner>
+        <type>string</type>
+        <default>wanda.png</default>
+        <locale name="C">
+          <short>The fish's animation pixmap</short>
+          <long>
+            This key specifies the filename of the pixmap which will be used
+            for the animation displayed in the fish applet relative to the
+            pixmap directory.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Die vis se animasie-pixelkaart</short>
+          <long>Hierdie sleutel spesifiseer die lêernaam, relatief tot die pixelkaart-gids, van die pixelkaart wat gebruik sal word vir die animasie wat in die vis-miniprogram vertoon word.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>بكسامب الرسم المتحرك للسمكة</short>
+          <long>يحدّد المفتاح اسم ملف البكسماب الذي سيستعمل للصور المتحرّكة في بريمج السمكة نسبة إلى دليل البكسماب.</long>
+        </locale>
+
+        <locale name="as">
+          <short>মাছৰ এনিমেছন পিক্সমেপ</short>
+          <long>এই চাবিয়ে পিক্সমেপ পঞ্জিকাৰ অপেক্ষাত নথিপত্ৰৰ নাম নিৰ্ধাৰণ কৰে যি মাছৰ এপ্লেটৰ এনিমেছনত প্ৰদৰ্শিত হ&apos;ব  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>El mapa de pixels d&apos;animación del pexe</short>
+          <long>Esta clave especifica&apos;l nome de ficheru del pixmap que s&apos;usará pa la animación que s&apos;amuesa na aplicación del pexe rellativu al direutoriu pixmap.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Balığın animasiya rəsmi</short>
+          <long>Bu qiymət, balıq animasiyasında istifadı ediləcək animasiya piksməpinin fayl edını müəyyən edir.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Файл з анімацыяй рыбак</short>
+          <long>Гэты ключ задае назву файла для анімацыі аплету рыбкі адносна тэчкі зь відарысамі.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Piksmapa z animacyjaj rybki</short>
+          <long>Opcyja akreślivaje nazvu (adnosna katalohu ź piksmapami) fajłu piksmapy z animacyjaj apletu rybki.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Картинка с анимацията на рибата</short>
+          <long>Тук се задава името на файла за картинката, която ще се използва за анимацията в аплета на рибата. Името е относително спрямо папката за изображения.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>মাছের অ্যানিমেশন পিক্সম্যাপ</short>
+          <long>এই কী ফাইলের নাম নির্ধারণ করে যা পিক্সম্যাপ ডিরেক্টরি সম্পর্কিত মাছের অ্যাপ্লেটের প্রদর্শিত অ্যানিমেশনের জন্য ব্যবহৃত হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>মাছের অ্যানিমেশন পিক্সম্যাপ</short>
+          <long>এই কি-টি পিক্সম্যাপ ডিরেক্টরির অপেক্ষায় ফাইলের নাম নির্ধারণ করে যা মাছের অ্যাপ্লেটের অ্যানিমেশনে প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Restr skeudennoù blivadur ar pesk</short>
+          <long>Termenet e vez gant an alc&apos;hwez-se anv ar restr skeudennoù a vo implijet e-barzh blivadur ar pesk tennet deus rollad ar restroù skeudennoù.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Sličica za animaciju ribe</short>
+          <long>Ovaj ključ navodi ime datoteke sa slikom koja se koristi za animaciju ribe, datu u odnosu na direktorij sa slikama.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>El mapa de píxels de l&apos;animació del peix</short>
+          <long>Aquesta clau especifica el nom del fitxer del mapa de píxels que s&apos;utilitzarà per a l&apos;animació mostrada a la miniaplicació del peix, relatiu al directori de mapes de píxels.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>El mapa de píxels de l&apos;animació del peix</short>
+          <long>Esta clau especifica el nom del fitxer del mapa de píxels que s&apos;utilitzarà per a l&apos;animació mostrada a la miniaplicació del peix, relatiu al directori de mapes de píxels.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Balıqnıñ canlandıma piks-haritası</short>
+          <long>Bu anahtar, balıq uyğulamaçığında kösterilecek canlandırmada qullanılacaq suretniñ piks-haritaları (pixmaps) cilbentine nisbeten dosye adını belirtir.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Obrázek animace ryby</short>
+          <long>Tento klíč určuje název souboru obrázku, který bude použit k animaci zobrazované v appletu ryby, relativně k adresáři obrázků.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Map picseli animeiddiad y pysgodyn</short>
+          <long>Mae&apos;r allwedd hon yn penodi enw ffeil y map picseli a gaiff ei ddefnyddio ar gyfer yr animeiddiad a ddangosir yn y rhaglennig pysgodyn yn gymharol i&apos;r cyfeiriadur mapiau picseli.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Fiskens animeringsbillede</short>
+          <long>Filnavnet for det billede som bruges til animationen i fiskepanelprogrammet, i forhold til pixmap-mappen.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Die Animations-Pixmap des Fisches</short>
+          <long>Dieser Schlüssel gibt den Dateinamen der Pixmap an, die für die im Fisch-Applet angezeigte Animation verwendet wird, und zwar relativ zum Pixmap-Ordner.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ཉའི་བསྒུལ་པར་གྱི་པར་ཁྲ་།</short>
+          <long>ལྡེ་མིག་འདི་གིས་ ཉའི་ཨེཔ་ལེཊི་ནང་ལུ་ པར་ཁྲའི་སྣོད་ཐོ་དང་འབྲེལ་བའི་ བསྒུལ་པར་བཀྲམ་སྟོན་ འབད་ཡོད་མིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ པར་ཁྲའི་ཡིག་སྣོད་ཀྱི་མིང་ གསལ་བཀོད་འབདཝ་ཨིན།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Η κινούμενη εικόνα pixmap του ψαριού</short>
+          <long>Αυτό το κλειδί καθορίζει το όνομα αρχείου της εικόνας που θα χρησιμοποιηθεί για το κινούμενο σχέδιο της μικροεφαρμογής του ψαριού.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑞 𐑓𐑦𐑖𐑧𐑕 𐑨𐑯𐑩𐑥𐑱𐑖𐑩𐑯 pixmap</short>
+          <long>𐑞𐑦𐑕 𐑒𐑰 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑟 𐑞 𐑓𐑲𐑤𐑯𐑱𐑥 𐑝 𐑞 𐑐𐑦𐑒𐑕𐑥𐑨𐑐 𐑢𐑦𐑗 𐑢𐑦𐑤 𐑚𐑰 𐑿𐑟𐑛 𐑓𐑹 𐑞 𐑨𐑯𐑩𐑥𐑱𐑖𐑩𐑯 𐑛𐑩𐑕𐑐𐑤𐑱𐑛 𐑦𐑯 𐑞 𐑓𐑦𐑖 𐑨𐑐𐑤𐑩𐑑 𐑮𐑧𐑤𐑩𐑑𐑦𐑝 𐑑 𐑞 𐑐𐑦𐑒𐑕𐑥𐑨𐑐 𐑛𐑲𐑮𐑧𐑒𐑑𐑼𐑦.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>The fish&apos;s animation pixmap</short>
+          <long>This key specifies the filename of the pixmap which will be used for the animation displayed in the fish applet relative to the pixmap directory.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>The fish&apos;s animation pixmap</short>
+          <long>This key specifies the filename of the pixmap which will be used for the animation displayed in the fish applet relative to the pixmap directory.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Piktogramo de la fiŝa animado</short>
+          <long>Ĉi tiu ŝlosilo specifas la dosiernomon de la piktogramo kiu estas uzata por la animado montrata en la fiŝa aplikaĵeto relative al la piktogramdosierujo.</long>
+        </locale>
+
+        <locale name="es">
+          <short>La imagen de la animación del pez</short>
+          <long>Esta clave especifica el nombre del archivo de imagen que se usará para la animación mostrada en la miniaplicación pez relativo al directorio de imágenes.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Kala animatsiooni pilt</short>
+          <long>See võti määrab kalarakendi animatsiooni jaoks kasutatava pildifaili nime suhtelisena pixmap kataloogi suhtes.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Arrainaren animazioaren pixmapa</short>
+          <long>Gako honek zehazten du arrainaren miniaplikazioaren animazioan erakutsiko den pixmaparen fitxategi-izena, pixmapen direktorioari erlazioa eginez.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>نقشه‌ی نقطه‌ای پویانمایی ماهی</short>
+          <long>این کلید نام پرونده‌ی نقشه‌نقطه‌ای را که برای پویانمایی نمایش داده شده در برنامک ماهی به کار می‌رود به طور نسبی به شاخه‌ی نقشه‌نقطه‌ای‌ها مشخص می‌کند.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Kalan animaatiokuva</short>
+          <long>Tämä avain määrittelee kalasovelmassa näkyvässä animaatiossa käytettävän kuvan tiedostonimen suhteessa kuvakansioon.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>L&apos;image d&apos;animation du poisson</short>
+          <long>Cette clé indique le nom du fichier image utilisé pour l&apos;animation du poisson affichée dans l&apos;applet, relativement au répertoire de pixmaps.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>La piture pixmap par l&apos;animazion dal pès</short>
+          <long>Cheste clâf a mostre il nom dal pès, tes directory des pitures, da pixmap doprade par visualizâ l&apos;animazion dal pès.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Mapa picteilíní íomhá bheo an éisc</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>O mapa de imaxe coa animación do peixe</short>
+          <long>Esta chave especifica o nome de ficheiro (relativo ao directorio do mapa de píxeles) da imaxe que se usará para mostrar a animación do miniaplicativo do peixe.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>માછલીનું એનિમેશન પિક્સમેપ</short>
+          <long>આ કી સ્પષ્ટ કરે છે , ફાઇલનુ નામ કે જે ચિત્રની માહતિી પુસ્તિકાને સંબંધતિ માછલીના એપ્લેટમાં એનિમેશન દર્શાવવામાં મદદ કરે છે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Pixmap ɗin motsin kifi</short>
+          <long>Wannan maɓalli na ƙayyade sunanfayil na pixmap da za&apos;a amfanida wa sura mai motsi da aka nuna cikin applet ɗin kifi, amma ya danganta ga gafakan pixmap.</long>
+        </locale>
+
+        <locale name="he">
+          <short>תמונת ההנפשה של הדג</short>
+          <long>מפתח זה מציין את שם הקובץ של מפת הפיקסלים שתהיה בשימוש להנפשה שתוצג בישומון הדג ביחס לספריית מפת הפיקסלים.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>मछली के एनीमेशन हेतु पिक्समैप</short>
+          <long>यह कुंजी pixmap के फाइलनाम को निर्दिष्ट करती है जो कि फिश एप्पलेट में प्रदर्शित एनीमेशन के लिये प्रयोग किया जायेगा pixmap निर्देशिका के सापेक्ष.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Sličica za animaciju ribe</short>
+          <long>Ovaj ključ navodi ime datoteke sa slikom koja se koristi za animaciju ribe, datu u odnosu na direktorij sa slikama.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>A hal animációja</short>
+          <long>Ez a kulcs megadja a hal kisalkalmazásban megjelenített animáció képének helyét a képkönyvtárhoz képest.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Ձկնիկի անիմացիայի արտապատկերում</short>
+          <long>Այս ստեղնը նշում է արտապատկերման ֆայլի անունը, որը պետք է օգտագործվի ձկնիկ ապլետում ցույց տրվող անիմացիայի համար՝ սկսած արտապատկերման գրացուցակից։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Berkas pixmap animasi ikan</short>
+          <long>Key ini adalah nama berkas pixmap yang akan digunakan untuk animasi pada aplet ikan. Letaknya relatif ke direktori pixmap.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Pixmap animeshiọnụ azụ</short>
+          <long>Kii a na-ezipụta ahafaịlụ nke pixmap nke a ga-eji maka ngosipụta anịmeshiọn n&apos;ime apleetị azụ yītụ́wárá ihenlereanya pixmap.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Hreyfimynd fisksins</short>
+          <long>Þessi lykill tilgreinir skrárnafn myndarinnar sem verður notuð fyrir hreyfimyndina sem birt er í fiskaforritinu með tilliti til myndamöppunar.</long>
+        </locale>
+
+        <locale name="it">
+          <short>L&apos;immagine pixmap per l&apos;animazione del pesce</short>
+          <long>Questa chiave indica il nome del file (relativo alla directory delle immagini) della pixmap usata per visualizzare l&apos;animazione del pesce.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>おさかな君のアニメーション画像</short>
+          <long>このキーはおさかな君アプレットでアニメーションする際に使用する ($datadir/pixmaps フォルダ下の) 画像ファイルを指定します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>თევზის ანიმაციის პიქტოგრამა</short>
+          <long>ეს პარამეტრი წარმოადგენს პიქტოგრამის ფაილის სახელს რომელიც გამოყენებულ იქნება ანიმაციის ადგილას.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಮೀನಿನ ಸಜೀವನದಲ್ಲಿನ(ಎನಿಮೇಶನ್‌) ಪಿಕ್ಸ್‍ಮ್ಯಾಪ್</short>
+          <long>ಈ ಕೀಲಿಯು ಪಿಕ್ಸ್‍ಮ್ಯಾಪ್ ಕೋಶಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಮೀನಿನ ಆಪ್ಲೆಟ್ಟಿನಲ್ಲಿ ಬಳಸಲಾಗುವ ಪಿಕ್ಸ್‍ಮ್ಯಾಪ್ ಕಡತದ ಹೆಸರನ್ನು ಸೂಚಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>물고기의 애니메이션 픽스맵</short>
+          <long>이 키는 물고기 애플릿에서 보여 줄 애니메이션의 픽스맵 파일 이름을 지정합니다. 픽스맵 디렉터리에 대한 상대 경로입니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Nexşeya Pix a çarçoveya masî</short>
+          <long>Bişkoja taybetmendiya navê dosya nexşeya Pix çarçoveya bikartîne .....</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Балыктын анимацияланган сүрөттөлүшү</short>
+          <long>Бул ачкыч сүрөттөлүштөр каталогуна (pixmap) салыштырмалуу, балык анимация апплетин чагылдырууда колдонулуучу сүрөттөлүш файлын аныктайт.</long>
+        </locale>
+
+        <locale name="li">
+          <short>&apos;t animasiepiktogram van de vèsj</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Žuvies animacijos paveiksliukas</short>
+          <long>Šis raktas nurodo paveikslėlio, kuris bus naudojamas žuvies įtaiso animacijai, failo pavadinimą, santykinį paveikslėlio katalogui.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Zivtiņas animācijas bitkarte</short>
+          <long>Šī vērtība nosaka tā attēla faila nosaukumu, kas tiks lietots zivtiņas animācijā faila atrašanās vieta ir relatīva attiecībā pret attēlkaršu (pixmap) mapi.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>मछली क&apos; एनीमेशन लेल पिक्समैप</short>
+          <long>ई कुँजी pixmap क&apos; फाइलनामकेँ निर्दिष्ट करैत अछि जे फिश एप्पलेटमे प्रदर्शित एनीमेशन क&apos; लेल प्रयोग कएल जएताह pixmap निर्देशिका क&apos; सापेक्ष.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Ny pixmap&apos;ny sary mihetsik&apos;ilay trondro</short>
+          <long>Ity famaha ity dia mamaritra ny anaran-drakitry ny pixmap hampiasaina amin&apos;ny sary mihetsika hita eo amin&apos;ny applet an&apos;ilay trondro izay mifandraika amin&apos;ny laha-tahirin&apos;ilay pixmap.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Сликата за анимација на рибата</short>
+          <long>Ова копче го одредува името на датотеката на pixmap-от кој ќе биде користен за анимацијата прикажана во делот со рибата.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>മീനിന്റെ ആനിമേഷന്‍ പിക്സ്മാപ്പ്</short>
+          <long>പിക്സ്‌മാപ് ഡയറക്ടറിയ്ക്കു് യോജിക്കുന്ന ഫിഷ് ആപ്ലെറ്റില്‍ കാണിക്കുന്ന ആനിമേഷനുപയോഗിക്കുന്ന പിക്സ്‌മാപിന്റെ ഫയല്‍നാമം ഈ കീ വ്യക്തമാക്കുന്നു.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Загасны хөдөлгөөний пиксмап</short>
+          <long>Энэ түлхүүр нь загас апплетийг пиксмаптай харьцуулсан харьцааг харуулдаг хөдөлгөөнд зориулан хэрэглэдэг пиксмапийн файлын нэрийг тодорхойлдог.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>मास्याचे ऍनीमेशन पिक्समॅपर</short>
+          <long>ही कळ पिक्झमॅपची फाइल दर्शवते, जी मासा ऍपलेटमध्ये पिक्झमॅप डिरेक्ट्रीशी सापेक्ष एनिमेशन दाखवण्यासाठी वापरली जाईल.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Pixmap animasi ikan</short>
+          <long>Kekunci ini menyatakan namafail bagi pixmap dimana akan digunakan bagi animasi yg dipaparkan pada plat ikan relatif ke direktori pixmap.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Fiskens animerte bilde</short>
+          <long>Denne nøkkelen spesifiserer filnavnet relativ til bildekatalogen for bildet som skal brukes som animasjon for fisken.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>माछाको एनिमेसन पिक्सम्याप</short>
+          <long>यस कुञ्जीले पिक्सम्याप डाइरेक्टरीसँग सम्बन्धित माछा एप्लेटमा प्रदर्शित हुने एनिमेसनका लागि प्रयोग गरिने पिक्सम्यापको फाइलनाम निर्दिष्ट गर्दछ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Het animatiepictogram van de vis</short>
+          <long>Deze sleutel geeft de bestandsnaam aan van de afbeelding die gebruikt wordt voor de animatie in het vis-applet, relatief aan de map waarin de afbeelding zich bevindt.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Fisken sitt animasjonsbilete</short>
+          <long>Denne nøkkelen inneheld filnamnet, relativt til biletekatalogen, på biletefila som skal brukast til animasjonen til fisken.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Pixmap ya tsošološo ya hlapi</short>
+          <long>Senotlelo se se laetša leina la faele ya pixmap yeo e tla dirišetšwago tsošološo yeo e bontšhitšwego tirišong ya khomphuthara ya hlapi go ya go tšhupetšo ya pixmap.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>L&apos;imatge de l&apos;animation del peis</short>
+          <long>Aquesta clau especifica lo nom de fichièr del pixmap que serà utilizat per l&apos;animacion visualizada dins l&apos;ajuston de peis relatiu al repertòri del pixmap.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ମାଛର ଜୀବନାୟନ ପିକ୍ସମାପ୍</short>
+          <long>ଏହି ଚାବି ମାଛ ଆପ୍ଲେଟରେ ପ୍ରଦର୍ଶିତ ଜୀବନାୟନ ପାଇଁ ବ୍ଯବହାର କରାଯିବା ପିକ୍ସମାପ୍ ଫାଇଲ ନାମକୁ ନିର୍ଦ୍ଦିଷ୍ଟ କରେ, ପିକ୍ସମାପ୍ଡିରେକଟୋରି ଆପେକ୍ଷିକରେ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਮੱਛੀ ਦੀ ਸਜੀਵਤਾ ਦਾ ਪੈਕਸਮੈਪ</short>
+          <long>ਇਹ ਕੁੰਜੀ ਮੱਛੀ ਐਪਲਿਟ ਦੀ ਪੈਕਸਪੈਮ ਡਾਇਰੈਕਟਰੀ ਦੀ ਥਾਂ ਦਿੱਸਣ ਵਾਲੀ ਸਜੀਵਤਾ ਦੀ ਫਾਇਲ ਦਾ ਨਾਂ ਤਹਿ ਕਰਦੀ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Mapa pikseli z animacją rybki</short>
+          <long>Ten klucz określa nazwę (względem katalogu z mapami pikseli) pliku mapy pikseli z animacją apletu rybki.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>د کب د سېلن پېکسمېپ</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>A imagem de animação do peixe</short>
+          <long>Esta chave especifica o nome de ficheiro da imagem que será utilizada para a animação apresentada na applet de peixe, relativamente ao directório de imagens.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>A imagem da animação do peixe</short>
+          <long>Essa chave especifica o nome do arquivo da imagem que será usada para a animação exibida no miniaplicativo do peixe relativa ao diretório pixmap.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Imaginea animată a peștelui</short>
+          <long>Această cheie specifică calea fișierului imagine ce va fi utilizat pentru animația afișată în mini-aplicație, cale relativă la directorul imaginii.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Анимированное изображение рыбки</short>
+          <long>Этот ключ определяет имя файла изображения, которое будет использоваться для отображения анимации апплета рыбки, относительно каталога изображений (pixmap).</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Obrázok s animáciou ryby</short>
+          <long>Tento kľúč určuje meno súboru obrázku, ktorý sa používa pre animáciu ryby. Cesta je relatívna k priečinku obrázkov.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Slikica animacije ribe</short>
+          <long>Ta ključ navaja ime datoteke kjer se nahajajo slike, ki bodo uporabljene za animacijo prikazano v vstavku ribe, glede na imenik sličic.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Pamja e peshkut në animim</short>
+          <long>Ky kyç përcakton emrin e file të figurës që do të përdoret për animimin e shfaqur tek programi &quot;fish&quot; relative me directory e figurave.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Сличица за анимацију рибе</short>
+          <long>Овај кључ наводи име датотеке са сликом која се користи за анимацију рибе, дату у односу на директоријум са сликама.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Сличица за анимацију рибе</short>
+          <long>Овај кључ наводи име датотеке са сликом која се користи за анимацију рибе, дату у односу на директоријум са сликама.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Sličica za animaciju ribe</short>
+          <long>Ovaj ključ navodi ime datoteke sa slikom koja se koristi za animaciju ribe, datu u odnosu na direktorijum sa slikama.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Fiskens animationsbildfil</short>
+          <long>Denna nyckel anger filnamnet för den bild som kommer att användas som den animation som visas i fiskpanelprogrammet relativt bildkatalogen.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>மீனின் அசைவூட்டம் பிக்ஸ்படம்</short>
+          <long>இந்த விசை மீன் குறுநிரல் பிக்ஸ்மேப் அடைவில் உள்ள இயக்க சித்திரத்தின் கோப்பின் பெயரை குறிப்பிட பயன்படும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>చాప యొక్క యానిమేషన్(సజీవంగాభ్రమింపచేయు) పిక్స్ మాప్</short>
+          <long>పిక్సమాప్ సంచయానికి సంభందించిన చాప ఆప్లెట్ లోని యానిమేషన్(సజీవంగాభ్రమింపచేయు) ప్రదర్శనకు ఉపయోగపడు పిక్స్ మాప్ యొక్క దస్త్రనామము ను ఈ కీ తెలియజేస్తుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>pixmap ของภาพปลาเคลื่อนไหว</short>
+          <long>ค่านี้กำหนดชื่อแฟ้มภาพพิกซ์แมป จากตำแหน่งโฟลเดอร์พิกซ์แมป ซึ่งจะใช้สำหรับแสดงการเคลื่อนไหว ในแอพเพล็ตปลา</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Balık canlandımasının benekeşlemi</short>
+          <long>Bu anahtar balık canlandırmasının gösterimindekullanılacak resmin benekeşlem dizinine göre dosya adını belirtir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Анімаційне зображення рибки</short>
+          <long>Цей параметр визначає назву файла зображення, що його буде застосовано в анімації.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Ảnh bằng điểm hoạt cảnh của con cá</short>
+          <long>Khoá này xác định tên tập tin của ảnh bằng điểm sẽ được dùng cho hoạt cảnh được hiển thị trong tiểu dụng Cá, so với thư mục ảnh bằng điểm.</long>
+        </locale>
+
+        <locale name="wa">
+          <short>Li fitchî d&apos; animåcion do pexhon</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>Isakhelo sokukhetha upopayi wentlanzi</short>
+          <long>Le ntlanzi ixela ukuba igama lefayili yesakhelo sokukhetha esiya kusetyenziselwa oopopayi ababoniswa kwinkqubo ye-applet yentlanzi enxulumene novimba weefayili wesakhelo sokukhetha.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Pixmap ìṣàfarawé kọ̀ǹpútà ẹja</short>
+          <long>Bọ́tìnì yìí sọ ní pàtó orúkọ-fáìlì pixmap tí a óò lò fún ìṣàfarawé kọ̀ǹpútà tí aṣàfihàn nínú ápúlẹ́ẹ̀tì ẹja tó jọ atọ́nà pixmap.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>小鱼的动画位图</short>
+          <long>此处指定的位图文件名，会被用来显示与该位图目录相关的小鱼的动画。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>小魚的動畫 pixmap</short>
+          <long>本設定鍵指定小魚面板程式在顯示動畫時使用的 pixmap 檔的檔案名稱。它應該是 pixmap 目錄下的相對路徑。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>小魚的動畫 pixmap</short>
+          <long>本設定鍵指定小魚面板程式在顯示動畫時使用的 pixmap 檔的檔案名稱。它應該是 pixmap 目錄下的相對路徑。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Isifanekiso senhlanzi pixmap</short>
+          <long>Lenkinobho isho igama-hele lepixmap elizosetshenziswa embonisweni wesifanekiso sokumayelana nenhlanzi ngokuphathelene nombombo wepixmap.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/fish_applet/prefs/command</key>
+        <owner>fish-applet</owner>
+        <type>string</type>
+        <default>fortune</default>
+        <locale name="C">
+          <short>Command to execute on click</short>
+          <long>
+            This key specifies the command that will be tried to execute when
+            the fish is clicked.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Bevel om te loop wanneer gekliek word</short>
+          <long>Hierdie sleutel spesifiseer die bevel wat probeer sal word om uit te voer wanneer die vis gekliek word.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>الأمر الذي سينفذ عند النقر</short>
+          <long>يحدد هذا المفاتح الأمر الذي سيحاول تنفيذه عند نقر السمكة.</long>
+        </locale>
+
+        <locale name="as">
+          <short>ক্লিক কৰিলে চিহ্নিত আদেশ পালন কৰা হ&apos;ব</short>
+          <long>মাছৰ ওপৰত ক্লিক কৰিলে যি আদেশ পালন কৰা হ&apos;ব সেইটো এই চাবিৰ দ্বাৰা নিৰ্ধাৰিত হয়  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Comandu a executar cuando calque</short>
+          <long>Esta clave especifica&apos;l comandu qu&apos;intentará executase encalcando&apos;l pexe.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Tıqlandığında icra ediləcək əmr</short>
+          <long>Bu düymə balıq tıqlandığında icra ediləcək əmri tə&apos;yin edir.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Загад для выкананьня пасьля націску</short>
+          <long>Гэты ключ вызначае загад, які будзе выкананы, калі націснуць на рыбку.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Zahad, jaki vykonvajecca paśla kliku</short>
+          <long>Akreślivaje, jaki zahad budzie vykanany, kali kliknuć rybku.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Команда за изпълнение при натискане</short>
+          <long>Този клавиш определя командата, която да се изпълни при натискане върху рибата.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>ক্লিক করার মাধ্যমে এক।সিকিউট করার কমান্ড</short>
+          <long>মাছের উপরে ক্লিক করলে যে কমান্ডটি এক্সিকিউট করা হবে তা এই কী দ্বারা নির্ধারিত হয়।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>ক্লিক করা হলে চিহ্নিত কমান্ড পালন করা হবে</short>
+          <long>মাছের উপরে ক্লিক করলে যে কমান্ড পালন করা হবে তা এই কি-র দ্বারা নির্ধারিত হয়।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Urzh da seveniñ pa glikoc&apos;h</short>
+          <long>Termenet e vez gant an alc&apos;hwez-se an urzh a vo klasket lañsiñ pa vez kliket ar pesk.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Komanda za izvršavanje po kliku</short>
+          <long>Ovaj ključ navodi komandu za izvršavanje po kliku na ribu.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Ordre a executar en fer clic</short>
+          <long>Aquesta clau especifica l&apos;ordre que s&apos;intentarà executar en fer clic al peix.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Orde a executar en fer clic</short>
+          <long>Esta clau especifica l&apos;orde que s&apos;intentarà executar en fer clic al peix.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Çertme üzerine ifa etilecek buyruq</short>
+          <long>Bu anahtar balıq çertilgeninde ifa etilmege çalışılacaq buyruqnı belirtir.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Příkaz spouštěný po kliknutí</short>
+          <long>Tento klíč určuje příkaz, se kterým bude učiněn pokus o spuštění po kliknutí na rybu.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Gorchymyn i&apos;w weithredu pan gaiff ei glicio</short>
+          <long>Mae&apos;r allwedd hon yn penodi&apos;r gorchymyn i&apos;w weithredu pan gaiff y pysgodyn ei glicio.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Kommando som udføres ved klik</short>
+          <long>Kommando som forsøges udført når der klikkes på fisken.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Beim Anklicken des Fisches auszuführender Befehl</short>
+          <long>Dieser Schlüssel gibt den Befehl an, der beim Anklicken des Fischs ausgeführt werden soll.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ཨེབ་གཏང་འབདཝ་ད་ ལག་ལེན་འཐབ་ནིའི་བརྡ་བཀོད།</short>
+          <long>ལྡེ་མིག་འདི་གིས་ ཉའི་གུ་ཨེབ་གཏང་འབདཝ་ད་ ལག་ལེན་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ གསལ་བཀོད་འབདཝ་ཨིན།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Εντολή προς εκτέλεση στο κλικ</short>
+          <long>Αυτό το κλειδί καθορίζει την εντολή προς εκτέλεση όταν το ψάρι πατηθεί.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑒𐑩𐑥𐑭𐑯𐑛 𐑑 𐑧𐑒𐑕𐑩𐑒𐑿𐑑 𐑪𐑯 𐑒𐑤𐑦𐑒</short>
+          <long>𐑞𐑦𐑕 𐑒𐑰 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑟 𐑞 𐑒𐑩𐑥𐑭𐑯𐑛 𐑞𐑨𐑑 𐑢𐑦𐑤 𐑚𐑰 𐑑𐑮𐑲𐑛 𐑑 𐑧𐑒𐑕𐑩𐑒𐑿𐑑 𐑢𐑧𐑯 𐑞 𐑓𐑦𐑖 𐑦𐑟 𐑒𐑤𐑦𐑒𐑑.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Command to execute on click</short>
+          <long>This key specifies the command that will be tried to execute when the fish is clicked.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Command to execute on click</short>
+          <long>This key specifies the command that will be tried to execute when the fish is clicked.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Komando por lanĉi per klako</short>
+          <long>Ĉi tiu klavo specifas la komandon lanĉotan kiam la fiŝo estas klakita.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Comando a ejecutar al pulsar</short>
+          <long>Esta clave especifica el comando que se intentará ejecutar al pulsar sobre el pez.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Klõpsamisel käivitatav käsk</short>
+          <long>Selle võtmega määratakse käsk, mida proovitakse kala peal klõpsamise korral käivitada.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Klik egitean exekutatzeko komandoa</short>
+          <long>Gako honek zehazten du zein komando exekutatzen saiatuko den arraian klik egiten denean.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>فرمانی که با کلیک کردن اجرا می‌شود</short>
+          <long>این کلید فرمانی را مشخص می‌کند که وقتی روی ماهی کلیک می‌شود اجرا خواهد شد.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Napsauttamalla käynnistyvä komento</short>
+          <long>Kalaa napsauttamalla käynnistyvä komento.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Commande à exécuter lors d&apos;un clic</short>
+          <long>Cette clé indique la commande à exécuter lorsqu&apos;on clique sur le poisson.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Comant di eseguî cuant che si frache</short>
+          <long>Cheste clâf a mostre il comant che si volares inviâ cuant ch&apos;a di frache sul pès.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Ordú a rith le cliceáil</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Orde que se executará ao premer</short>
+          <long>Esta chave especifica a orde que se tentará executar ao premer o peixe co rato.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>ક્લિક કરવા પર ચાલવવાનો આદેશ</short>
+          <long>જ્યારે માછલી ને ક્લિક કરવામાં આવે ત્યારે જે આદેશ ચલાવવાનો પ્રયત્ન કરવાનો છે તે સ્પષ્ટ કરો.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Umarnin da za&apos;a zartar da kan danne</short>
+          <long>Wannan maɓalli na ƙayyade umarni da za&apos;a ƙoƙarta a zartar da idan an danna kifin.</long>
+        </locale>
+
+        <locale name="he">
+          <short>פקודה להפעלה בלחיצה</short>
+          <long>מפתח זה מציין את הפקודה להפעלה כשלוחצים על הדג</long>
+        </locale>
+
+        <locale name="hi">
+          <short>क्लिक करने पर चलाया जाने वाला कमांड</short>
+          <long>यह कुंजी निर्दिष्ट करती है कि कौन सा कमांड चलाना है, जब मछली को क्लिक किया जाए.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Naredba za izvršenje po kliku</short>
+          <long>Ovaj ključ navodi naredbu za izvršenje po kliku na ribu.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Kattintáskor végrehajtandó parancs</short>
+          <long>Ez a kulcs megadja a halra kattintáskor végrehajtandó parancsot.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Կտտացրեք գործարկելու հրաման տալու համար</short>
+          <long>Այս ստեղնը նշում է այն հրահանգը, որը պետք է որ գործարկվի, երբ ձկնիկի վրա կտտացնում եք։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Perintah yang dijalankan ketika diklik</short>
+          <long>Perintah yang akan dijalankan pada saat ikan diklik</long>
+        </locale>
+
+        <locale name="ig">
+          <short>A ga-emepụta iwu n&apos;ịpị</short>
+          <long>Kii a na-ezipụta iwu ahụ nke a ga-achọ imepụta mgbe a pịrị azụ ahụ.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Skipun til að keyra þegar smellt er</short>
+          <long>Þessi lykill tilgreinir skipunina sem verður reynt að framkvæma þegar smellt er á fiskinn</long>
+        </locale>
+
+        <locale name="it">
+          <short>Comando da eseguire quando si fa clic</short>
+          <long>Questa chiave indica il comando che si tenta di eseguire quando si fa clic sul pesce.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>クリックされた時に実行するコマンド</short>
+          <long>このキーはおさかな君をクリックした際に実行するコマンドを指定します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ბრძანება შესრულდება დაჭერისას</short>
+          <long>ეს პარამეტრი წარმოადგენს ბრძანებას რომელიც თევზზე დაწკაპვის შედეგად ჩაირთვება.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಕಾರ್ಯಗತಗೊಳಿಸಬೇಕಿರುವ ಆಜ್ಞೆ</short>
+          <long>ಮೀನಿನ ಮೇಲೆ ಕ್ಲಿಕ್ಕಿಸಿದಾಗ ಕಾರ್ಯಗತಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸಬೇಕಿರುವ ಆಜ್ಞೆಯನ್ನು ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>누르면 실행할 명령</short>
+          <long>이 키는 물고기를 눌렀을 때 실행할 명령을 지정합니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Fermana ku dê bi tikandinê bicih were</short>
+          <long>Taybetmendiyê fermana di dema tikandina masî di derdikevin holê.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Чертүү учурунда аткарылуучу команда</short>
+          <long>Бул ачкыч балыкты черткен учурда аткарылуучу команданы аныктайт.</long>
+        </locale>
+
+        <locale name="lt">
+          <short>Komanda, paleidžiama spragtelėjus </short>
+          <long>Šis raktas nusako komandą, paleidžiamą spragtelėjus ant žuvies</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Komanda, ko palaist, kad tiek klikšķināts uz zivtiņas</short>
+          <long>Šī vērtība nosaka kāda komanda tiks palaista, kad tiek klikšķināts uz zivtiņas.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>क्लिक करब पर चलाओल जाए बला कमांड</short>
+          <long>ई कुँजी निर्दिष्ट करैत अछि जे कौन सा कमांड चलओनाइ अछि जखन मछलीकेँ क्लिक कएल जाए.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Baiko tanterahina rehefa voatsindry ity</short>
+          <long>Ity famaha ity dia mamaritra ny baiko ezahina ho tanterahina rehefa voatsindry ilay trondro.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Команда што треба да се изврши при кликање</short>
+          <long>Команда која ќе се _подигне кога ќе кликнете на рибата.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ക്ലിക്ക് ചെയ്യുമ്പോള്‍ പ്രവര്‍ത്തിക്കേണ്ട നിര്‍ദ്ദേശം</short>
+          <long>മീനില്‍ ക്ലിക്ക് ചെയ്യുമ്പോള്‍ പ്രവര്‍ത്തിക്കുന്ന നിര്‍ദ്ദേശം ഏതെന്ന് വ്യക്തമാക്കുന്ന കീ</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Товшиход устгах команд</short>
+          <long>Загасан дээр дарахад биелүүлэхийг оролдох тушаалыг энэ түлхүүрээр тогтооно.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>क्लिक केल्यावर चालवण्याजोगी आदेश</short>
+          <long>माशावर क्लिक केल्यावर अमलात येणारी सूचना निश्चित करणारीही कळ आहे.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Arahan untuk dilaksanakan bila diklik</short>
+          <long>Kekunci ini menyatakan arahan yang akan cuba dilaksanakan bila ikan di klik.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Kommando som skal utføres ved klikk</short>
+          <long>Denne nøkkelen oppgir kommandoen som skal utføres ved klikk på fisken.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>क्लिक गर्दा कार्यान्वयन गरिने आदेश</short>
+          <long>यस कुञ्जीले माछा क्लिक गर्दा कार्यान्वयन गर्न प्रयास गरिने आदेश निर्दिष्ट गर्दछ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Uit te voeren opdracht bij een muisklik</short>
+          <long>Deze sleutel geeft de opdracht aan die getracht wordt uit te voeren wanneer de vis wordt aangeklikt.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Kommando som skal utførast når klikka på</short>
+          <long>Denne nøkkelen avgjer kva for kommando som skal utførast ved klikk på fisken.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Laela go phethagatša ka go kgotla</short>
+          <long>Senotlelo se se laetša taelo yeo e tla lekwago bakeng sa go phethagatša ge hlapi e kgotlwa.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Comanda d&apos;executar al moment d&apos;un clic</short>
+          <long>Aquesta clau indica la comanda d&apos;executar quand clicatz sul pes.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ମାଉସ୍ ଚାବି ଦବାଇଲେ ନିଷ୍ପାଦନ କରାଯିବା ନିର୍ଦ୍ଦେଶ</short>
+          <long>ଏହି ଚାବି ନିର୍ଦ୍ଦିଷ୍ଟ କରେ, ମାଛକୁ ଦବାଇଲେ କେଉଁ  ନିର୍ଦ୍ଦେଶଟି ନିଷ୍ପାଦନ ହେବ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਦਬਾਉਣ ਉੱਤੇ ਚੱਲਣ ਵਾਲੀ ਕਮਾਂਡ</short>
+          <long>ਇਹ ਕੁੰਜੀ ਮੱਛੀ ਦੇ ਕਲਿੱਕ ਕਰਨ ਚੱਲਣ ਵਾਲੀ ਕਮਾਂਡ ਤਹਿ ਕਰਦੀ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Polecenie wykonywane po kliknięciu</short>
+          <long>Ten klucz określa jakie polecenie zostanie wykonywane po kliknięciu rybki.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>هغه بولۍ چې په کېکاږلو سره وځغلي</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Comando a executar ao clicar</short>
+          <long>Esta chave especifica o comando que se tentará executar ao clicar no peixe.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Comando para executar ao clicar</short>
+          <long>Essa chave especifica o comando que tentará executar quando o peixe for clicado.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Comandă de executat la clic</short>
+          <long>Această cheie specifică comanda de executat la un clic pe pește.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Команда, выполняемая при нажатии</short>
+          <long>Этот ключ определяет команду, выполняемую при щелчке на рыбке.</long>
+        </locale>
+
+        <locale name="si">
+          <short>ක්ලික් කළ විට ක්‍රියාත්මක විය යුතු විධානය</short>
+          
+        </locale>
+
+        <locale name="sk">
+          <short>Príkaz spúšťaný po kliknutí</short>
+          <long>Tento kľúč určuje príkaz, ktorý sa spustí pri kliknutí na rybu.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Ukaz, ki naj se izvrši ob kliku</short>
+          <long>Ta ključ navaja ukaz, ki naj se izvrši ob kliku na ribo.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Komanda që duhet të ekzekutohet kur klikohet</short>
+          <long>Ky pulsant përcakton komandën që do ekzekutohet kur të klikohet peshku.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Наредба за извршење по клику</short>
+          <long>Овај кључ наводи наредбу за извршење по клику на рибу.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Наредба за извршење по клику</short>
+          <long>Овај кључ наводи наредбу за извршење по клику на рибу.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Naredba za izvršenje po kliku</short>
+          <long>Ovaj ključ navodi naredbu za izvršenje po kliku na ribu.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Kommando att köra vid klick</short>
+          <long>Denna nyckel anger det kommando som ska försökas utföras när man klickar på fisken.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>க்ளிக் செய்யும் போது செயல்படவேண்டிய கட்டளை</short>
+          <long>இந்த விசை மீனை க்ளிக் செய்தபிறகு நிகழ்த்த வேண்டிய கட்டளையை குறிப்பிடும்</long>
+        </locale>
+
+        <locale name="te">
+          <short>నొక్కుట ద్వారా ఎగ్జిక్యూట్ చేయవలిసిన ఆదేశం</short>
+          <long>చాప నొక్కబడినప్పుడు ఎగ్జక్యూట్ అవటానికి ప్రయత్నించే ఆదేశాన్ని ఈ కీ తెలియజేస్తుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>คำสั่งที่จะเรียกใช้งานเมื่อมีการคลิก</short>
+          <long>ค่านี้กำหนดคำสั่งที่จะลองเรียกใช้งานเมื่อปลาถูกคลิก</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Tıklandığı zaman çalıştırılacak uygulama</short>
+          <long>Bu anahtar balığa tıklandığında çalıştırılacak komutu belirtir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Команда, що виконуватиметься з клацанням на рибці</short>
+          <long>Цей ключ визначає команду, що виконуватиметься при клацанні на рибці.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Bosilganda ishga tushiriladigan buyruq</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Босилганда ишга тушириладиган буйруқ</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Lệnh cần thực hiện khi nhấp chuột</short>
+          <long>Khoá này xác định lệnh sẽ thực hiện khi nhấn vào con cá.</long>
+        </locale>
+
+        <locale name="wa">
+          <short>Comande a-z enonder cwand on clitche sol pexhon</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>Umyalelo wokuphumeza xa kucofiwe</short>
+          <long>Eli qhosha lixela ukuba umyalelo uya kuzanywa kwimpumezo xa icofiwe intlanzi.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Àṣẹ láti mu ṣiṣẹ́ lórí ìtẹ̀</short>
+          <long>Bọ́tìnì yìí ń sọ ní pàtó àṣẹ tí a óò gbìyànjú láti mú ṣiṣẹ́ nígbà tí a bá tẹ̀ lórí ẹja.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>点击时执行的命令</short>
+          <long>此处指定了点击小鱼后尝试执行的命令。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>按下小魚時執行的指令</short>
+          <long>本設定鍵指定按下小魚時執行的指令。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>按下小魚時執行的指令</short>
+          <long>本設定鍵指定按下小魚時執行的指令。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Umlayelo wokusebenzisa ngokucofoza</short>
+          <long>Lenkinobho isho umlayelo ozozanywa ukusetshenziswa uma kucofozwa inhlanzi.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/fish_applet/prefs/frames</key>
+        <owner>fish-applet</owner>
+        <type>int</type>
+        <default>8</default>
+        <locale name="C">
+          <short>Frames in fish's animation</short>
+          <long>
+            This key specifies the number of frames that will be displayed in
+            the fish's animation.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Rame in vis se animasie</short>
+          <long>Hierdie sleutel spesifiseer die aantal rame wat in die vis se animasie vertoon sal word.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>إطارات رسوم السمكة المتحركة</short>
+          <long>يحدد هذا المفتاح عدد الإطارات التي ستعرض في الرسم المتحرك للسمكة.</long>
+        </locale>
+
+        <locale name="as">
+          <short>মাছৰ এনিমেছনত ফ্ৰেমৰ সংখ্যা</short>
+          <long>এই চাবি দ্বাৰা মাছৰ এনিমেছনত ফ্ৰেমৰ সংখ্যা নিৰ্ধাৰণ কৰা হয়  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Fotogrames n&apos;animación del pexe</short>
+          <long>Esta clave especifica la cantidá de fotogrames que s&apos;amosarán na animación del pexe.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Balıq animasiyasındaki kadr miqdarı</short>
+          <long>Bu düymə balıq animasiyasındaki kadr miqdarını tə&apos;yin edir.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Колькасьць кадраў у анімацыі рыбкі</short>
+          <long>Гэты ключ задае колькасьць кадраў у анімацыі рыбкі.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Kolkaść kadraŭ u animacyi rybki</short>
+          <long>Akreślivaje kolkaść kadraŭ, pakazvanych pry animacyi rybki.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Броят на кадрите в анимацията на рибата</short>
+          <long>Този клавиш определя броя на кадрите, които ще се изобразят при анимацията на рибата.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>মাছের অ্যানিমেশনে ফ্রেমের সংখ্যা</short>
+          <long>এই কী দ্বারা মাছের অ্যানিমেশনে ফ্রেমের সংখ্যা নির্ধারণ করা হয়।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>মাছের অ্যানিমেশনে ফ্রেমের সংখ্যা</short>
+          <long>এই কি দ্বারা মাছের অ্যানিমেশনে ফ্রেমের সংখ্যা নির্ধারণ করা হয়।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Skeudennoù dre eilenn e-barzh blivadur ar pesk</short>
+          <long>Termenet e vez gant an alc&apos;hwez-se niver ar skeudennoù dre eilenn a vo diskouezet e blivadur ar pesk.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Broj okvira u animaciji ribe</short>
+          <long>Ovaj ključ navodi broj okvira u animaciji ribe.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Fotogrames en l&apos;animació del peix</short>
+          <long>Aquesta clau especifica el nombre de fotogrames que es mostraran en l&apos;animació del peix.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Fotogrames en l&apos;animació del peix</short>
+          <long>Esta clau especifica el nombre de fotogrames que es mostraran en l&apos;animació del peix.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Balıqnıñ canlandırmasındaki çerçive sayısı</short>
+          <long>Bu anahtar, balıqnıñ canlandırılmasında kösterilecek çerçive sayısını belirtir.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Políčka v animaci ryby</short>
+          <long>Tento klíč určuje počet políček zobrazovaných v animaci ryby.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Nifer y fframiau yn animeiddiad y pysgodyn</short>
+          <long>Mae&apos;r allwedd hon yn penodi nifer y fframiau a gaiff eu dangos yn animeiddiad y pysgodyn.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Antallet af billeder i fiskens animation</short>
+          <long>Antallet af billeder som vil blive vist i fiskens animation.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Einzelbilder in Fischanimation</short>
+          <long>Dieser Schlüssel gibt die Anzahl der darzustellenden Einzelbilder in der Fischanimation an.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ཉའི་བསྒུལ་པར་ནང་གི་ གཞི་སྒྲོམ་ཚུ།</short>
+          <long>ལྡེ་མིག་འདི་གིས་ ཉའི་བསྒུལ་པར་ནང་ བཀྲམ་སྟོན་འབད་ནིའི་ གཞི་སྒྲོམ་གྱི་གྱངས་ཁ་ གསལ་སྟོན་འབདཝ་ཨིན།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Ο αριθμός των καρέ στην κίνηση του ψαριού</short>
+          <long>Αυτό το κλειδί καθορίζει τον αριθμό των καρέ στην κίνηση του ψαριού.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑓𐑮𐑱𐑥𐑟 𐑦𐑯 𐑓𐑦𐑖𐑧𐑕 𐑨𐑯𐑩𐑥𐑱𐑖𐑩𐑯</short>
+          <long>𐑞𐑦𐑕 𐑒𐑰 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑟 𐑞 𐑯𐑳𐑥𐑚𐑼 𐑝 𐑓𐑮𐑱𐑥𐑟 𐑞𐑨𐑑 𐑢𐑦𐑤 𐑚𐑰 𐑛𐑩𐑕𐑐𐑤𐑱𐑛 𐑦𐑯 𐑞 𐑓𐑦𐑖𐑧𐑕 𐑨𐑯𐑩𐑥𐑱𐑖𐑩𐑯.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Frames in fish&apos;s animation</short>
+          <long>This key specifies the number of frames that will be displayed in the fish&apos;s animation.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Frames in fish&apos;s animation</short>
+          <long>This key specifies the number of frames that will be displayed in the fish&apos;s animation.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Kadroj en la fiŝa animacio</short>
+          <long>Ĉi tiu klavo specifas la nombron da kadroj montrotaj en la fiŝa animacio.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Fotogramas en la animación del pez</short>
+          <long>Esta clave especifica la cantidad de fotogramas que se mostrarán en la animación del pez.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Kala animatsiooni kaadrite arv</short>
+          <long>Selle võtmega määratakse kaadrite arv, mida kala animatsioonis kuvatakse.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Arrainaren animazioko irudiak</short>
+          <long>Gako honek zehazten du zenbat irudi bistaratuko diren arrainaren animazioan.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>چارچوب در پویانمایی ماهی</short>
+          <long>این کلید تعداد چارچوب‌هایی را مشخص می‌کند که در پویانمایی ماهی نمایش داده خواهند شد.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Kalan animaation ruutujen määrä</short>
+          <long>Kalan animaation ruutujen määrä.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Trames dans l&apos;animation du poisson</short>
+          <long>Cette clé indique le nombre de trames affichées dans l&apos;animation du poisson.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Fotograms ta l&apos;animazion dal pès</short>
+          <long>Cheste clâf a mostre il numar di fotograms ch&apos;a si viodin ta l&apos;animazion dal pès.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Frámaí in íomhá bheo an éisc</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Fotogramas da animación do peixe</short>
+          <long>Esta chave especifica o número de fotogramas que se mostrarán na animación do peixe.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>માછલીના એનિમેશનમાંના ચોકઠાઓ</short>
+          <long>માછલીના એનિમેશનમાં જેટલા ચોકઠા દર્શાવાય તેની સંખ્યા આ કી સ્પષ્ટ કરે છે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Firam masu cikin motsin kifi</short>
+          <long>Wannan maɓalli na ƙayyade yawan firam da za&apos;a nuna cikin shirin motsin kifi.</long>
+        </locale>
+
+        <locale name="he">
+          <short>פריימים בהנפשת הדג</short>
+          <long>מפתח זה מציין את מספר הפריימים שיוצגו בהנפשת הדג.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>मछली एनीमेशन में फ्रेम्स</short>
+          <long>यह कुंजी निर्दिष्ट करती है कि मछली के एनीमेशन हेतु कितने फ्रेम की संख्या प्रदर्शित होगी.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Broj okvira u animaciji ribe</short>
+          <long>Ovaj ključ navodi broj okvira u animaciji ribe.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Az animáció képkockáinak száma</short>
+          <long>Ez a kulcs megadja a halanimáció képkockáinak számát.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Կադրեր ձկնիկի անիմացիայում</short>
+          <long>Այս ստեղնը բնորոշում է կադրերի թիվը, որոնք պետք է ցույց տրվեն ձկնիկի անիմացիայում։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Jumlah gambar dalam animasi ikan</short>
+          <long>Jumlah frame dalam animasi ikan</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Freemu n&apos;ime anịmeshiọn azụ</short>
+          <long>Kii a na-ezipụta ọnụọgụgụ freemu nke a ga-egosipụta n&apos;ime anịmeshiọnụ azụ.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Rammar í hreyfimynd fisksins</short>
+          <long>Þessi lykill tilgreinir fjölda ramma sem verða birtir í hreyfimynd fisksins.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Fotogrammi nell&apos;animazione del pesce</short>
+          <long>Questa chiave indica il numero di fotogrammi mostrati nell&apos;animazione del pesce.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>アニメーションのフレーム数</short>
+          <long>このキーはおさかな君をアニメーションする際のフレーム数を指定します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>პიქტოგრამები თევზის ანიმაციაში</short>
+          <long>ეს პარამეტრი წარმოადგენს პიქტოგრამების რაოდენობას თევზის ანიმაციაში.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಮೀನಿನ ಸಜೀವನದಲ್ಲಿನ(ಎನಿಮೇಶನ್‌) ಚೌಕಟ್ಟುಗಳು</short>
+          <long>ಮೀನಿನ ಸಜೀವನದಲ್ಲಿ(ಎನಿಮೇಶನ್‌) ತೋರಿಸಲಾಗುವ ಚೌಕಟ್ಟುಗಳ ಸಂಖ್ಯೆಗಳನ್ನು ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>물고기 애니메이션의 프레임 수</short>
+          <long>물고기 애니메이션에서 보여줄 프레임 수를 지정합니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Çaçoveyên di candariya masî de</short>
+          <long>Ev bişkoj taybetmendiyê dide çarçoveya ku dê were xebitandin di candariya masî de.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Балыкты анимациялоо учурундагы кадр саны</short>
+          <long>Бул ачкыч балык анимациясын чагылдыруудагы кадрлар санын аныктайт.</long>
+        </locale>
+
+        <locale name="lt">
+          <short>Kadrų skaičius žuvies animacijoje</short>
+          <long>Šis raktas nusako kadrų skaičius žuvies animacijoje</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Kadru skaits zivtiņas animācijā</short>
+          <long>Šī vērtība nosaka, cik kadru būs zivtiņas animācijā.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>मछली एनीमेशनमे फ्रेम्स</short>
+          <long>ई कुँजी निर्दिष्ट करैत अछि जे मछली क&apos; एनीमेशन लेल कतेक फ्रेम क&apos; सँख्या प्रदर्शित हाएत.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Ireo frame anatin&apos;ny sary mihetsik&apos;ilay trondro</short>
+          <long>Ity famaha ity dia mamaritra ny isan&apos;ny frame haseho amin&apos;ny sary mihetsik&apos;ilay trondro.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Број на рамки во анимацијата на рибата</short>
+          <long>Ова копче го одредува бројот на рамките во анимацијата на рибата.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>മീനിന്റെ നീക്കത്തിലുളള ഫ്രെയിമുകള്‍</short>
+          <long>മീനിന്റെ ആനിമേഷനില്‍ എത്ര ഫ്രെയിമുകള്‍ ഉണ്ട് എന്ന് വ്യക്തമാക്കുന്ന കീ.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Загасны хөдөлгөөний кадрууд</short>
+          <long>Энэ түлхүүр нь загасны хөдөлгөөнийг харуулдаг кадрын тоог тодорхойлдог.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>मास्याचे एनीमेशनातील चौकटी</short>
+          <long>माशाच्या चित्रावर प्रदर्शित होणाऱ्या एकूण चौकटींची संख्या निश्चित करणारी ही कळ आहेमाशाचे चित्र.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Kerangka pada animasi ikan</short>
+          <long>Kekunci ini menyatakan bilangan kerangka yang akan dipaparkan pada animasi ikan.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Antall bilder i fiskens animasjon</short>
+          <long>Denne nøkkelen oppgir antall bilder som vises i fiskens animasjon.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>माछाको एनिमेसनका फ्रेम</short>
+          <long>यस कुञ्जीले माछाको एनिमेसनमा प्रदर्शित हुने फ्रेमको नम्बर निर्दिष्ट गर्दछ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Het aantal beeldjes in het animatiebestand</short>
+          <long>Deze sleutel geeft het aantal beeldjes aan voor weergave van de visanimatie.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Bilete i animasjonen til fisken</short>
+          <long>Denne nøkkelen inneheld talet på bilete som vert viste i animasjonen til fisken.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Diforeime tsošološong ya hlapi</short>
+          <long>Senotlelo se se laetša palo ya diforeime tšeo di tla bontšhwago tsošološong ya hlapi.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Imatges dins l&apos;animacion del peis</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>ମାଛର ଜୀବନାୟନରେ ଫ୍ରେମ</short>
+          <long>ଏହି ଚାବି ମାଛର ଜୀବନାୟନରେ ପ୍ରଦର୍ଶିତ ଫ୍ରେମର ସଂଖ୍ଯା ନିର୍ଦ୍ଦିଷ୍ଟ କରେ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਮੱਛੀ ਸਜੀਵਤਾ ਵਿਚ ਫਰੇਮ</short>
+          <long>ਇਹ ਕੁੰਜੀ ਮੱਛੀ ਸਜੀਵਤਾ ਵਿੱਚ ਦਿਸਣ ਵਾਲੇ ਫਰੇਮਾਂ ਦੀ ਗਿਣਤੀ ਤਹਿ ਕਰਦੀ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Liczba ramek w animacji rybki</short>
+          <long>Ten klucz określa liczbę ramek wyświetlanych przy animacji rybki.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>د کب په سېلن کښې چوکاټونه</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Imagens na animação do peixe</short>
+          <long>Esta chave especifica o número de imagens que serão apresentadas na animação do peixe.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Número de quadros na animação do peixe</short>
+          <long>Essa chave especifica o número de quadros exibidos na animação do peixe.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Numărul de cadre în animația peștelui</short>
+          <long>Această cheie specifică numărul de cadre ce vor fi afișate în animația peștelui.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Число кадров в анимации рыбки</short>
+          <long>Этот ключ определяет число кадров, используемых в анимации рыбки.</long>
+        </locale>
+
+        <locale name="si">
+          <short>මාලුවාගේ සජීවීකරණයේ රාමු ගණන</short>
+          
+        </locale>
+
+        <locale name="sk">
+          <short>Počet snímok v animácii ryby</short>
+          <long>Tento kľúč určuje počet snímok v animácii ryby.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Število slik v ribini animaciji</short>
+          <long>Ta ključ navaja število okvirjev v animaciji ribe.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Pamje në animimin e peshkut</short>
+          <long>Ky pulsant përcakton numrin e pamjeve në animimin e peshkut.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Број кадрова у анимацији рибе</short>
+          <long>Овај кључ наводи број кадрова у анимацији рибе.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Број кадрова у анимацији рибе</short>
+          <long>Овај кључ наводи број кадрова у анимацији рибе.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Broj kadrova u animaciji ribe</short>
+          <long>Ovaj ključ navodi broj kadrova u animaciji ribe.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Antalet bildrutor i fiskens animation</short>
+          <long>Denna nyckel anger antalet bildrutor som kommer att visas i fiskens animation.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>மீன் இயக்க சித்திரத்தில் உள்ள சட்டங்கள்</short>
+          <long>இந்த விசை மீன் இயக்க சித்திரத்தில் உள்ள சட்டங்களின் எண்ணிக்கையை குறிப்பிட பயன்படும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>చాప యానిమేషన్(సజీవంగాభ్రమింపచేయు) లోని ఫ్రేములు</short>
+          <long>చాప యొక్క యానిమేషన్(సజీవంగాభ్రమింపజేయు) లో ఎన్ని ఫ్రేములు ప్రదర్శితమవ్వాలో ఈ కీ తెలియజేస్తుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>จำนวนเฟรมในการเคลื่อนไหวของปลา</short>
+          <long>ค่านี้กำหนดจำนวนเฟรมที่แสดงการเคลื่อนไหวของปลา</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Canlandırmadaki çerçeve sayısı</short>
+          <long>Bu anahtar balığın canlandırılmasında kullanılacak çerçeve sayısını belirtir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Кадрів у анімації</short>
+          <long>Цей параметр визначає кількість кадрів, що показуватимуться в анімації.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Baliqcha animatsiyasidagi kadrlar</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Балиқча анимациясидаги кадрлар</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Các khung hình trong hoạt cảnh con cá</short>
+          <long>Khoá này xác định số khung hình trong hoạt cảnh sẽ được hiển thị trong hoạt cảnh con cá.</long>
+        </locale>
+
+        <locale name="wa">
+          <short>Li nombe di cådes dins l&apos; animåcion do pexhon</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>Izakhelo kupopayi wentlanzi</short>
+          <long>Eli qhosha lixela inani lezakhelo zokukhetha eziya kuboniswa koopopayi bentlanzi.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Àwọn férémù inú ìṣàfarawé kọ̀ǹpútà ẹja</short>
+          <long>Bọ́tìnì yìí ń sọ ní pàtó iye férémù tí a óò ṣàfihàn wọn nínú ìṣàfarawé kọ̀ǹpútàẹja.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>小鱼动画的帧数</short>
+          <long>此处指定了小鱼动画显示的帧数。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>小魚的動畫格數</short>
+          <long>本設定鍵指定了小魚的動畫格數</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>小魚的動畫格數</short>
+          <long>本設定鍵指定了小魚的動畫格數</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Amafelemu esifanekisweni senhlanzi</short>
+          <long>Lenkinobho isho inani lamafelemu ezoboniswa esifanekisweni senhlanzi.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/fish_applet/prefs/speed</key>
+        <owner>fish-applet</owner>
+        <type>float</type>
+        <default>0.3</default>
+        <locale name="C">
+          <short>Pause per frame</short>
+          <long>
+            This key specifies the number of seconds each frame will be
+            displayed.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Pouse per raam</short>
+          <long>Hierdie sleutel spesifiseer hoe lank elke raam vertoon sal word in sekondes.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>المهلة لكل إطار</short>
+          <long>يحدّد المفتاح عدد الثواني التي سيستغرقها عرض كل إطار.</long>
+        </locale>
+
+        <locale name="as">
+          <short>প্ৰতি ফ্ৰেমত বিৰাম</short>
+          <long>এই চাবিৰ দ্বাৰা প্ৰতি ফ্ৰেম কিমান ছেকেণ্ডলৈ প্ৰদৰ্শিত হ&apos;ব সেইটো নিৰ্ধাৰণ কৰা হয়  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Pausa por fotograma</short>
+          <long>Esta clave especifica&apos;l númberu de segundos que ca fotograma s&apos;amosará.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Kadrlar _arasındakı fasilə</short>
+          <long>Bu qiymət, hər kadrın göstəriləcəyi saniyə miqdarını müəyyən edir.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Затрымка між кадрамі</short>
+          <long>Гэты ключ задае колькасьць сэкундаў на адлюстраваньне кожнага кадру.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Čas čakańnia pamiž kadrami</short>
+          <long>Akreślivaje, kolki sekundaŭ pakazvać kožny kadar.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Пауза на кадър</short>
+          <long>Тук се задава за колко секунди ще се изобразява всеки кадър.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>প্রতি ফ্রেমে বিরতী</short>
+          <long>এই কী দ্বারা প্রতি ফ্রেম কত সেকেন্ড ধরে প্রদর্শিত হবে তা নির্ধারণ করা হয়।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>প্রতি ফ্রেমে বিরাম</short>
+          <long>এই কি&apos;র দ্বারা প্রতি ফ্রেম কত সেকেন্ড ধরে প্রদর্শিত হবে তা নির্ধারণ করা হয়।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Skeudennoù dre eilenn</short>
+          <long>Termenet e vez gant an alc&apos;hwez-se e-pad ped a eilennoù e vo diskouezet pep rann.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Pauza po okviru</short>
+          <long>Ovaj ključ navodi trajanje svakog okvira u sekundama.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Pausa per fotograma</short>
+          <long>Aquesta clau especifica el nombre de segons que es mostrarà cada fotograma.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Pausa per fotograma</short>
+          <long>Esta clau especifica el nombre de segons que es mostrarà cada fotograma.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Çerçive başına tınış</short>
+          <long>Bu anahtar, er çerçiveniñ kösterilecigi saniye sayısını belirtir.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Prodleva mezi políčky</short>
+          <long>Tento klíč určuje počet sekund, po který bude každé políčko zobrazeno.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Saib rhwng bob ffrâm</short>
+          <long>Mae&apos;r allwedd hon yn penodi&apos;r nifer o eiliadau dangosir bob ffrâm.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Pause pr. billede</short>
+          <long>Antallet af sekunder som hver billede vil blive vist.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Pause nach jedem Einzelbild</short>
+          <long>Dieser Schlüssel legt die Anzahl der Sekunden fest, die jedes Einzelbild angezeigt werden soll.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>གཞི་སྒྲོམ་རེའི་དོན་ལུ་ཐེམ་ཆ།</short>
+          <long>ལྡེ་མིག་འདི་གིས་ གཞི་སྒྲོམ་རེ་རེ་བཞིན་དུ་ བཀྲམ་སྟོན་འབད་ནིའི་དུས་ཡུན་ སྐར་ཆའི་གྱངས་ཁ་ནང་ གསལ་བཀོད་འབདཝ་ཨིན།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Παύση ανά καρέ</short>
+          <long>Αυτό το κλειδί καθορίζει τον αριθμό των δευτερολέπτων που θα προβάλλεται το κάθε καρέ.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑐𐑷𐑟 𐑐𐑻 𐑓𐑮𐑱𐑥</short>
+          <long>𐑞𐑦𐑕 𐑒𐑰 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑟 𐑞 𐑯𐑳𐑥𐑚𐑼 𐑝 𐑕𐑧𐑒𐑩𐑯𐑛𐑟 𐑰𐑗 𐑓𐑮𐑱𐑥 𐑢𐑦𐑤 𐑚𐑰 𐑛𐑩𐑕𐑐𐑤𐑱𐑛.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Pause per frame</short>
+          <long>This key specifies the number of seconds each frame will be displayed.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Pause per frame</short>
+          <long>This key specifies the number of seconds each frame will be displayed.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Paŭzo per bildo</short>
+          <long>Ĉi tiu klavo specifas la nombron de sekundoj dum kiuj ĉiu kadro estos montrataj.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Pausa por fotograma</short>
+          <long>Esta clave especifica el número de segundos que se mostrará cada fotograma.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Paus kaadrite vahel</short>
+          <long>Selle võtmega määratakse iga kaadri kuvamiseks kulutatav sekundite arv.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Irudi bakoitzeko pausa</short>
+          <long>Gako honek zehazten du irudi bakoitza zenbat segundoz bistaratuko den.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>مکث در هر چارچوب</short>
+          <long>این کلید تعداد ثانیه‌هایی را مشخص می‌کند که هر چارچوب نمایش داده خواهد شد.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Tauko ruutua kohden</short>
+          <long>Tämä avain määrittelee ajan sekunteina, jonka verran kukin kehys näkyy.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Pause par image</short>
+          <long>Cette clé indique le nombre de secondes séparant l&apos;affichage de chaque trame.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Durade fotogram</short>
+          <long>Cheste clâf a mostre il numar di seconds che al à di durâ ogni fotogram.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Sos de gach fráma</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Pausa en cada fotograma</short>
+          <long>Esta chave especifica o número de segundos durante os que se mostrará cada fotograma.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>વિરામ પ્રતિ ચોકઠું</short>
+          <long>દરેક ચોકઠુ કેટલી સેકન્ડો માટે દર્શાવાય છે તે આ કી સ્પષ્ટ કરે છે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Ɗan hutu ga ko wani firam</short>
+          <long>Wannan maɓalli na ƙayyade yawan sakan da za&apos;a nuna ko wacca firam.</long>
+        </locale>
+
+        <locale name="he">
+          <short>הפסקה לכל פריים</short>
+          <long>מפתח זה מציין את מספר השניות שבה כל פריים יוצג.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>प्रति फ्रेम में रुकें</short>
+          <long>यह कुंजी निर्दिष्ट करती है कि प्रत्येक फ्रेम कितने सेकण्ड्स तक प्रदर्शित हो.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Pauza po okviru</short>
+          <long>Ovaj ključ navodi trajanje svakog okvira u sekundama.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Képkockánkénti várakozás</short>
+          <long>Ez a kulcs megadja, hogy hány másodpercig látható egy képkocka.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Դադարեցում կադրում</short>
+          <long>Այս ստեղնը նշում է յուրաքանչյուր կադրի ցուցադրման տևողությունը վայրկյաններով։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Jeda per gambar</short>
+          <long>Lama jeda penampilan tiap-tiap frame</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Kwụsị freemu nke ọbụla </short>
+          <long>Kii a na-ezipụta ọnụọgụgụ nke oge nke otu ntabianya a ga-egosipụta freemu nke ọbụla.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Hlé í hverjum ramma</short>
+          <long>Þessi lykill tilgreinir fjölda sekúndna sem hver rammi verður birtur.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Durata fotogramma</short>
+          <long>Questa chiave indica la durata di visualizzazione in secondi di ogni fotogramma.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>フレーム毎のポーズ</short>
+          <long>このキーは各フレームを表示する時間 (秒) を指定します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>კადრის შეჩერება</short>
+          <long>ეს გასაღები წარმოადგენს პიქტოგრამის შეყოვნების წამების რაოდენობას.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಪ್ರತಿ ಚೌಕಟ್ಟಿನಲ್ಲಿನ ಸ್ಥಗಿತಗೊಳಿಸುವಿಕೆಗಳ ಸಂಖ್ಯೆ</short>
+          <long>ಪ್ರತಿ ಚೌಕಟ್ಟುಗಳು ತೋರಿಸಲ್ಪಡುವ ಸೆಕೆಂಡುಗಳ ಸಂಖ್ಯೆಯನ್ನು ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>프레임마다 쉬는 시간</short>
+          <long>이 키는 각 프레임을 보여줄 간격을 지정합니다 (초 단위).</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Rawestana her çarçoveyê</short>
+          <long>Ev bişkoj taybetmendiya hejmara çirkan di her çarçoveyekê de dixebitîne.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Кадрды кармоо</short>
+          <long>Бул ачкыч ар-бир кадрдын канча секунд чагылдырыларын аныктайт.</long>
+        </locale>
+
+        <locale name="li">
+          <short>Poes per bildje</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Pauzė tarp kadrų</short>
+          <long>Šis raktas nurodo, kiek sekundžių kiekvienas kadras bus rodomas.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Pauze uz kadru</short>
+          <long>Šī vērtība nosaka, cik sekundes tiks rādīts katrs kadrs.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>प्रति फ्रेममे थामू</short>
+          <long>ई कुँजी निर्दिष्ट करैत अछि जे प्रत्येक फ्रेम कतेक सेकण्ड्स तक प्रदर्शित हुए.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Fiatoana isaky ny sary</short>
+          <long>Ity famaha ity dia mamaritra ny isan&apos;ny segaondra hanehoana ny frame tsirairay avy.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Пауза по рамка(и):</short>
+          <long>Ова копче го одредува бројот на секунди меѓу кои ќе биде прикажана секоја рамка.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ഓരോ ഫ്രെയിമിലും താല്‍കാലികമായി നിര്‍ത്തുക</short>
+          <long>ഓരോ ഫ്രെയിമും എത്ര സമയം പ്രദര്‍ശിപ്പിക്കുന്നു എന്ന് വ്യക്തമാക്കുന്ന കീ.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Кадр бүрээр түр зогсоох</short>
+          <long>Энэ түлхүүр нь харуулж буй кадр бүрийн секундын тоог тодорхойлдог.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>प्रत्येक पटलानंतर थांबा</short>
+          <long>ही कळ प्रत्येक चौकट किती सेकंद दाखवली जाईल हे दर्शवते.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Hentian per kerangka</short>
+          <long>Kekunci ini menyatakan bilangan saat setiap kerangkan akan dipaparkan.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Pause for hvert bilde</short>
+          <long>Denne nøkkelen oppgir antall sekunder hvert bilde vil vises.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>प्रत्येक फ्रेमलाई पज गर्नुहोस्</short>
+          <long>यस कुञ्जीले प्रदर्शित हुने प्रत्येक कुञ्जीको सेकेन्डको नम्बर निर्दिष्ट गर्दछ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Pauze per beeldje</short>
+          <long>Deze sleutel geeft het aantal seconden aan voor weergave van elk beeldje.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Pause for kvart bilete</short>
+          <long>Denne nøkkelen styrer kor mange sekund kvart bilete vert vist.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Emiša nakwana go ya ka foreime</short>
+          <long>Senotlelo se se laetša palo ya metsotswana yeo foreime e nngwe le e nngwe e tla bontšhwago.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Pausa per imatge</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>ପ୍ରତି ଫ୍ରେମରେ ବିରତି</short>
+          <long>ଏହି ଚାବି ନିର୍ଦ୍ଦିଷ୍ଟ କରେ ପ୍ରତି ଫ୍ରେମ କେତେ ସେକେଣ୍ଡ ପାଇଁ ପ୍ରଦର୍ଶିତ କରାଯିବ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਦੇਰੀ ਪ੍ਰਤੀ ਫਰੇਮ</short>
+          <long>ਇਹ ਕੁੰਜੀ ਸਕਿੰਟਾਂ ਦੀ ਗਿਣਤੀ ਤਹਿ ਕਰਦੀ ਹੈ, ਜਿਸ ਲਈ ਇੱਕ ਫਰੇਮ ਵੇਖਾਇਆ ਜਾਵੇਗਾ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Czas oczekiwania pomiędzy klatkami</short>
+          <long>Ten klucz określa liczbę sekund wyświetlania każdej ramki.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>ځنډ پر چوکاټ</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Pausa por imagem</short>
+          <long>Esta chave especifica o número de segundos que cada imagem será apresentada.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Pausa por quadro</short>
+          <long>Essa chave especifica o número de segundos de exibição de cada quadro.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Pauză între cadre</short>
+          <long>Această cheie specifică numărul de secunde între cadre</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Задержка кадра</short>
+          <long>Этот ключ определяет количество секунд, в течение которых отображается каждый кадр.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Prestávka medzi snímkami</short>
+          <long>Tento kľúč určuje počet sekúnd, ktoré bude zobrazený každý snímok.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Premor med slikami</short>
+          <long>Ta ključ navaja število sekund kolikor bo prikazana vsaka sličica.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Pauzë për pamje</short>
+          <long>Ky kyç përcakton numrin e sekondave për të cilat do të shfaqet çdo frame.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Пауза по кадру</short>
+          <long>Овај кључ наводи трајање сваког кадра у секундама.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Пауза по кадру</short>
+          <long>Овај кључ наводи трајање сваког кадра у секундама.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Pauza po kadru</short>
+          <long>Ovaj ključ navodi trajanje svakog kadra u sekundama.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Paus per bildruta</short>
+          <long>Denna nyckel anger antalet sekunder som varje ram kommer att visas.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>ஒவ்வொறு சட்டத்திலும் நிறுத்தம்</short>
+          <long>இந்த விசை ஒவ்வொரு சட்டமும் எவ்வளவு நேரம் காட்டப்பட வேண்டும் என்பதை குறிப்பிடும்</long>
+        </locale>
+
+        <locale name="te">
+          <short>ఫ్రేము కి ఆగు</short>
+          <long>ఒక్కో ఫ్రేము ఎన్ని సెకన్లు ప్రదర్శితమవ్వాలో ఈ కీ తెలియజేస్తుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>ระยะเวลาระหว่างเฟรม</short>
+          <long>ค่านี้กำหนดจำนวนวินาทีของแต่ละเฟรมที่จะถูกแสดง</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Çervece başına bekleme</short>
+          <long>Bu anahtar her çerçevenin kaç saniye boyunca gösterileciğini belirtir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Затримка на кадр</short>
+          <long>Цей ключ визначає кількість секунд показу кожного кадру.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Khoảng chờ giữa mỗi khung hình</short>
+          <long>Khoá này xác định số giây hiển thị mỗi khung hình.</long>
+        </locale>
+
+        <locale name="wa">
+          <short>Si djoker a tchaeke cåde</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>Ukunqumama ngesakhelo ngasinye</short>
+          <long>Eli qhosha lixela inani lemizuzwana ekuya kuboniswa ngalo i-frame nganye.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Ìdẹsẹ̀dúró fún férémù kọ̀ọ̀kan</short>
+          <long>Bọ́tìnì yìí ń sọ ní pàtó iye àwọn ìṣísẹ̀ tí férémù kọ̀ọ̀kan á ṣàfihàn.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>每帧暂停</short>
+          <long>此处指定了每帧动画显示的秒数。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>每格的暫停時間</short>
+          <long>本設定鍵指定每格動畫顯示的時間</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>每格的暫停時間</short>
+          <long>本設定鍵指定每格動畫顯示的時間</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Hlaba ikhefu kufelemu</short>
+          <long>Lenkinobho isho inani lemizuzwana ezobonisa ifelemu ngalodwa.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/fish_applet/prefs/rotate</key>
+        <owner>fish-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Rotate on vertical panels</short>
+          <long>
+            If true, the fish's animation will be displayed rotated on vertical
+            panels.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Roteer op vertikale panele</short>
+          <long>Indien as waar gemerk, sal die vis se animasie roterend op vertikale panele vertoon word.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>تدوير على الشرائط العمودية</short>
+          <long>إذا كان &quot;صحيح&quot;، ستعرض صور السمكة المتحرّكة مدوّرة على الشرائط العموديّة.</long>
+        </locale>
+
+        <locale name="as">
+          <short>উলম্ব পেনেলত ঘূৰোৱা হ&apos;ব</short>
+          <long>মান সত্য হ&apos;লে পেনেলৰ উলম্ব দিশত মাছৰ এনিমেছন ঘূৰোৱা হ&apos;ব  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Rotar nos paneles verticales</short>
+          <long>Si ye «true», l&apos;animación del pexe amosaráse rotada nos paneles verticales.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Şaquli Panellərdə döndər</short>
+          <long>Seçilidirsə, balıq animasiyası şaquli panellərdə çevirilmiş olaraq göstəriləcək.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Паварочваць на вэртыкальных панэлях</short>
+          <long>Калі ісьціна, анімацыя рыбкі будзе павернутая на вэртыкальных панэлях.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Pieravaročvańnie pry vertykalnym pałažeńni paneli</short>
+          <long>Akreślivaje, ci animacyja rybki budzie pieraviernutaja, kali panel maje vertykalnuju aryjentacyju.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Завъртане при вертикални панели</short>
+          <long>Ако е истина, анимацията на рибата да се изобрази завъртяна във вертикалните панели.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>উল্লম্ব প্যানেলে ঘোরানো হবে</short>
+          <long>মান true হলে, মাছের অ্যানিমেশনটি ঘুরিয়ে উল্লম্ব প্যানেলে প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>উলম্ব প্যানেলে ঘোরানো হবে</short>
+          <long>মান true (সত্য) হলে প্যানেলটির উলম্ব দিশায় মাছের অ্যানিমেশন ঘোরানো হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Treiñ war banelloù a blom</short>
+          <long>Ma&apos;z eo gwir e vo diskouezet blivadur ar pesk troet war panelloù a blom.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Rotiraj na vertikalnim pločama</short>
+          <long>Ukoliko je istinito, animacija ribe će biti rotirana kada je ploča vertikalno usmjerena.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Gira en els quadres verticals</short>
+          <long>Si és cert, l&apos;animació del peix es girarà si el quadre s&apos;orienta verticalment.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Gira en els quadres verticals</short>
+          <long>Si és cert, l&apos;animació del peix es girarà si el quadre s&apos;orienta verticalment.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Vertikal panellerde bur</short>
+          <long>Eger doğru ise, balıqnıñ canlandırması vertikal panellerde burulğan kösterilecek.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Na svislém panelu otočit</short>
+          <long>Je-li &quot;true&quot;, bude animace ryby na svislých panelech zobrazena s otočením.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Cylchdroi ar baneli fertigol</short>
+          <long>Os yn wir, yna caiff animeiddiad y pysgodyn ei gylchdroi ar baneli fertigol.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Vend om på lodrette paneler</short>
+          <long>Om fiskeanimationen skal roteres på lodrette paneler.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Auf vertikalen Panels drehen</short>
+          <long>Falls dieser Schlüssel WAHR ist, wird die Fischanimation auf vertikalen Panels gedreht angezeigt.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ཀེར་ཕྲང་པེ་ནཱལ་ཚུ་གུ་ པད་སྐོར་བསྒྱིར།</short>
+          <long>བདེན་པ་ཨིན་པ་ཅིན་ ཉའི་བསྒུལ་པར་དེ་ ཀེར་ཕྲང་པེ་ནཱལསི་གུ་ པད་སྐོར་བསྒྱིར་ཏེ་བཀྲམ་སྟོན་འབད་འོང་།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Περιστροφή στους κάθετους πίνακες εφαρμογών</short>
+          <long>Αν αληθές, η εικόνα παρασκηνίου θα περιστρέφεται αν ο πίνακας εφαρμογών προσανατολίζεται κάθετα.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑮𐑴𐑑𐑱𐑑 𐑪𐑯 𐑝𐑻𐑑𐑦𐑒𐑩𐑤 𐑐𐑨𐑯𐑩𐑤𐑟</short>
+          <long>𐑦𐑓 𐑑𐑮𐑵, 𐑞 𐑓𐑦𐑖𐑧𐑕 𐑨𐑯𐑩𐑥𐑱𐑖𐑩𐑯 𐑢𐑦𐑤 𐑚𐑰 𐑛𐑩𐑕𐑐𐑤𐑱𐑛 𐑮𐑴𐑑𐑱𐑑𐑩𐑛 𐑪𐑯 𐑝𐑻𐑑𐑦𐑒𐑩𐑤 𐑐𐑨𐑯𐑩𐑤𐑟.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Rotate on vertical panels</short>
+          <long>If true, the fish&apos;s animation will be displayed rotated on vertical panels.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Rotate on vertical panels</short>
+          <long>If true, the fish&apos;s animation will be displayed rotated on vertical panels.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Rotaciu en vertikalaj paneloj</short>
+          <long>Se vera, la animado de la fiŝo estos montrata rotaciita sur vertikalaj paneloj.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Rotar en los paneles verticales</short>
+          <long>Si está activada, la animación del pez se mostrará rotada en los paneles verticales.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Pööra vertikaalsel paneelil</short>
+          <long>Kui märgitud, siis kalaanimatsiooni kuvatakse pööratuna vertikaalpaneeli jaoks.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Biratu panel bertikaletan</short>
+          <long>Hautatzen bada, animazioa biratu egingo da panel bertikaletan.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>دوران در تابلوهای عمودی</short>
+          <long>اگر درست باشد، پویانمایی ماهی در تابلوهای عمودی به صورت دوران یافته نمایش داده می‌شود.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Kierrä pystypaneeleissa</short>
+          <long>Jos tosi, kalan animaatio näkyy kiertyneenä pystypaneeleissa.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Pivoter dans les tableaux de bord verticaux</short>
+          <long>Si vrai, l&apos;animation du poisson est pivotée quand le tableau de bord est orienté verticalement.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Zire tai panei verticâi</short>
+          <long>Se impostât a TRUE, l&apos;animazion dal pès a je zirade tai panei verticâi.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Rothlaigh ar phainéil ingearacha</short>
+          <long>Má tá fíor, casfar timpeall íomhá bheo an éisc ar phainéail ingearaigh.</long>
+        </locale>
+
+        <locale name="gl">
+          <short>Rotar nos paneis verticais</short>
+          <long>Se é true, a animación do peixe aparecerá rotada nos paneis verticais.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>ઊભી પેનલ પર ફેરવો</short>
+          <long>જો ખરુ હોય તો, માછલીનું એનિમેશન ઊભી પેનલો પર ફરતુ દેખાશે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Juya kan fanel masu tsaiyuwa</short>
+          <long>In da gaske, za&apos;a nuna motsin kifi a juye kan fanel masu tsaye.</long>
+        </locale>
+
+        <locale name="he">
+          <short>סובב ללוחות אנכיים</short>
+          <long>אם אמת, הנפשת הדג תוצג מסובבת בלוחות אנכיים.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>खड़े पटल पर घुमाएँ</short>
+          <long>यदि सत्य है, तो मछली का एनिमेशन खड़े पटल पर घुमाया हुआ दिखाया जाएगा.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Rotiraj na vertikalnim pločama</short>
+          <long>Ukoliko je postavljeno, animacija ribe će biti rotirana kada je ploča vertikalno usmjerena.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Függőleges panelen forgatás</short>
+          <long>Ha be van állítva, a hal animációja forgatva fog megjelenni a függőleges paneleken.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Շրջել ուղղաձիգ վահանակների վրա</short>
+          <long>Եթե ճիշտ է, ապա ձկնիկի անիմացիոն պատկերը ուղղահայաց վահանակի վրա կերևա շրջված։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Rotasi di panel vertikal</short>
+          <long>Animasi ikan akan ditampilkan berputar pada panel vertikal</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Tugharịa na vatịkal peneelụ</short>
+          <long>Ọ bụrụ na ọ bụ eziokwu, e gosipụtara anịmeshiọn azụ ahụ na ntụgharị n&apos;elu vatịkal paneelụ</long>
+        </locale>
+
+        <locale name="is">
+          <short>Snúa á lóðréttum stikum</short>
+          <long>Ef þetta er valið er hreyfing fiskins sýnd sem sem snúningur á lóðréttum stikum.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Ruota nei pannelli verticali</short>
+          <long>Se impostata a VERO, l&apos;animazione del pesce è ruotata nei pannelli verticali.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>パネルが縦向きの場合は回転する</short>
+          <long>TRUE にすると、パネルが縦向きになった際におさかな君のアニメーションも一緒に回転させます。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ამოტრიალება ვერტიკალური პანელის შემთხვევაში</short>
+          <long>მონიშვნის შემთხვევაში, თევზის ანიმაცია 90%ით ამოტრიალდება პანელის მიმართ.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಲಂಬ ಫಲಕಗಳಲ್ಲಿ ತಿರುಗಿಸಿ</short>
+          <long>ನಿಜವಾದಲ್ಲಿ, ಮೀನಿನ ಸಜೀವನವುಎನಿಮೇಶನ್) ಲಂಬ ಫಲಕಗಳಲ್ಲಿ ತಿರುಗುತ್ತಿರುವಂತೆ ಕಾಣಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>세로 패널에서 회전</short>
+          <long>참이면, 세로 패널에서 물고기 애니메이션도 세로 방향으로 회전해서 표시합니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Zivrandina li ser panela sereke</short>
+          <long>Heke raste, çarçoveya masî dê were xebitandin</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Вертикалдык панелдерде айлантуу</short>
+          <long>Эгер бул орнотулса, вертикалдык панелдерде анимация буралган түрдө чагылдырылат.</long>
+        </locale>
+
+        <locale name="li">
+          <short>Kwinkele in vertikale peniele</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Pasukti stačiuose skydeliuose</short>
+          <long>Jei tiesa, tai žuvies animacija vertikaliuose skydeliuose bus pasukta.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Rotēt vertikālajos paneļos</short>
+          <long>Ja šis ir atzīmēts, zivtiņas animācija tiks rādīta sagriezta vertikālajā panelī.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>ठाड़ पटल पर घुमाबू</short>
+          <long>जँ सत्य अछि तँ मछली क&apos; एनिमेशन ठाड़ पटल पर घुमाओल गेल देखाओल जएताह.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Ahodina rehefa mitsangana tontonana</short>
+          <long>Raha toa ka marina, dia haseho mihodina ny sary mihetsik&apos;ilay trondro rehefa mitsangana tontonana.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>_Ротирај на вертикални панели</short>
+          <long>Ако е точно, сликата во позадина ќе биде прокажана ротирана на вертикалнипанели.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>കുത്തനെയുള്ള പാളികളില്‍ കറക്കുക</short>
+          <long>ശരിയാണെങ്കില്‍, മീനിന്റെ നീക്കങ്ങള്‍ കുത്തനെയുള്ള പാളികളില്‍ കറക്കി പ്രദര്‍ശിപ്പിയ്ക്കുന്നതായിരിയ്ക്കും.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Босоо самбарт эргүүлэх</short>
+          <long>Хэрэв үнэн бол загасны хөдөлгөөн босоо самбарт эргэлдэнэ.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>उभ्या पॅनल्सवर गोल फिरवा</short>
+          <long>खरे असल्यास, उभ्यापट्टीवर मासोळीचे फिरते चित्र दिसून येईल.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Kilas pada panel menegak</short>
+          <long>Jika benar, animasi ikan akan dipaparkan dikilas pada panel menegak</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Roter på vertikale paneler</short>
+          <long>Fiskens animasjon vil roteres på vertikale paneler hvis denne settes til «true».</long>
+        </locale>
+
+        <locale name="ne">
+          <short>ठाडो प्यानलमा घुमाउनुहोस्</short>
+          <long>ठीक भएमा, ठाडो प्यानलमा माछाको एनिमेसन घुमाएर प्रदर्शित गरिन्छ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Kantelen in verticale panelen</short>
+          <long>Indien ingeschakeld wordt de achtergrondafbeelding gekanteld wanneer het paneel verticaal geöriënteerd is.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Roter på loddrette panel</short>
+          <long>Dersom set til sann, vert animasjonen til fisken vist rotert på loddrette panel.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Dikološa dipaneleng tše tsepamego</short>
+          <long>Ge e ba e le therešo, tsošološo ya hlapi e tla bontšhwa e dikološitšwe paneleng e tsepamego.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Pivotar dins los panèls verticals</short>
+          <long>S&apos;es verai, l&apos;animacion del peis serà visualizat pivotat quand lo panèl serà vertical.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ଭୂଲମ୍ବ ଫଳକରେ ଘୂରାନ୍ତୁ</short>
+          <long>ସତ ଥିଲେ, ମାଛର ଜୀବନାୟନ ଭୂଲମ୍ବ ଫଳକରେ ଘୂରାହୋଇଥିବା ଦେଖାଯିବ .</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਲੰਬਕਾਰੀ ਪੈਨਲ ਵਿਚ ਲੈ ਜਾਓ</short>
+          <long>ਜੇ ਸੱਚ ਹੈ ਤਾਂ ਮੱਛੀ ਦੀ ਸਜੀਵਤਾ ਲੰਬਕਾਰ ਪੈਨਲ ਵਿਚ ਘੁੰਮੇਗੀ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Obracanie przy pionowym ułożeniu panelu</short>
+          <long>Określa czy animacja rybki będzie obrócona, jeśli panel ma orientację pionową.</long>
+        </locale>
+
+        <locale name="pt">
+          <short>Rodar em painéis verticais</short>
+          <long>Se verdadeiro, a animação do peixe será apresentada rodada em painéis verticais.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Girar em painéis verticais</short>
+          <long>Se verdadeiro, a animação do peixe será girada quando o painel é orientado verticalmente.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Rotește în panouri verticale</short>
+          <long>La activare animația peștelui va fi afișată rotit în panourile verticale.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Поворачивать на вертикальных панелях</short>
+          <long>Если этот ключ установлен, на вертикальных панелях анимация будет отображаться в повёрнутом виде.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Otočiť na zvislých paneloch</short>
+          <long>Ak je toto true, animácia ryby bude na zvislých paneloch otočená.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Zavrti predmet pri navpično postavljenih pultih</short>
+          <long>Izbrana možnost omogoča, da bo ribja animacija na navpičnem pultu prikazana obrnjeno.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Rrotullo në panelet vertikale</short>
+          <long>Nëse true, peshku do të shfaqet i rrotulluar tek panelët vertikalë.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Ротирај на усправним панелима</short>
+          <long>Уколико је постављено, анимација рибе ће бити ротирана када је панел усмерен усправно.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Ротирај на вертикалним панелима</short>
+          <long>Уколико је постављено, анимација рибе ће бити ротирана када је панел усмјерен усправно.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Rotiraj na uspravnim panelima</short>
+          <long>Ukoliko je postavljeno, animacija ribe će biti rotirana kada je panel usmeren uspravno.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Rotera i vertikala paneler</short>
+          <long>Om detta är sant kommer fiskens animation att visas roterad på vertikala paneler.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>செங்குத்தான பலகத்தில் சுழற்று</short>
+          <long>உண்மையெனில், மீன் இயக்க சித்திரம் செங்குத்து பலகத்தில் சுழற்றப்படுவதை காட்டும்</long>
+        </locale>
+
+        <locale name="te">
+          <short>నిటారుగా ఉన్న ప్యానల్సు పై తిరుగు</short>
+          <long>నిజమైతే, చాప యొక్క యానిమేషన్(సజీవంగాభ్రమింపచేయు) నిటారుగా ఉన్న ప్యానల్సు పై తిరుగుతూ ప్రదర్శితమవుతుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>หมุนเมื่ออยู่บนพาเนลแนวตั้ง</short>
+          <long>ถ้าเลือก ภาพเคลื่อนไหวของปลาจะหมุน 90 องศา เมื่ออยู่บนพาเนลแนวตั้ง</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Dikey panellerde döndür</short>
+          <long>Eger seçiliyse, balığın canlandırması dikey panelde döndürülecek.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Розвертати на вертикальних панелях</short>
+          <long>Чи анімація рибки має повертатись на вертикальних панелях.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Quay thành Bảng điều khiển dọc</short>
+          <long>Nếu đúng, hoạt cảnh cá sẽ được xoay khi hiển thị ngang trên Bảng điều khiển dọc.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Jikelezisa iindawo zolawulo ezisuka phezulu ziye ezantsi</short>
+          <long>Ukuba yinyaniso, upopayi wentlanzi uza kuboniswa aze ajikeleziswe kwindawo yolawulo esuka phezulu iye ezantsi.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Yípo lórí àwọn pánẹ́ẹ̀lì òòró</short>
+          <long>Tó bá jẹ́ òótọ́, a óò ṣàfihàn ìṣàfarawé kọ̀ǹpútà ẹja tí ó yípo lórí àwọn pánẹ́ẹ̀lì òòró.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>在垂直面板上作相应旋转</short>
+          <long>如果为 true，则会在面板为垂直面板时旋转小鱼的动画。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>使用垂直面板時會旋轉程式顯示</short>
+          <long>如設定為‘true’，在垂直面板中，動畫會以垂直方向顯示。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>使用垂直面板時會旋轉程式顯示</short>
+          <long>如設定為‘true’，在垂直面板中，動畫會以垂直方向顯示。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Jikelisiza ohlwini oluqonde thwi</short>
+          <long>Uma kuyiqiniso, isifanekiso senhlanzi sizobonakaliswa sijikeliswa endaweni yohlu oluqonde-thwi.</long>
+        </locale>
+      </schema>
+
+  </schemalist>
+
+</gconfschemafile>

@@ -1,0 +1,512 @@
+<gconfschemafile>
+    <schemalist>
+    
+      <schema>
+        <key>/schemas/apps/geyes/prefs/theme_path</key>
+        <owner>geyes_applet2</owner>
+        <type>string</type>
+        <locale name="C">
+          <short>Directory in which the theme is located</short>
+          <long></long>
+        </locale>
+
+        <locale name="af">
+          <short>Gids waarin die tema geleë is</short>
+          
+        </locale>
+
+        <locale name="ar">
+          <short>الدليل الذي بِه السِمة</short>
+          
+        </locale>
+
+        <locale name="as">
+          <short>থিম ধাৰণকৰ্তা ডিৰেক্টৰি</short>
+          
+        </locale>
+
+        <locale name="ast">
+          <short>Direutoriu au ta allugáu&apos;l tema</short>
+          
+        </locale>
+
+        <locale name="az">
+          <short>Örtüyün mövcud olduğu cərgə</short>
+          
+        </locale>
+
+        <locale name="be">
+          <short>Тэчка, у якой знаходзіцца тэма</short>
+          
+        </locale>
+
+        <locale name="be@latin">
+          <short>Kataloh, u jakim znachodzicca matyŭ</short>
+          
+        </locale>
+
+        <locale name="bg">
+          <short>Папка, в която е темата</short>
+          
+        </locale>
+
+        <locale name="bn">
+          <short>থিম ধারণকারী ডিরেক্টরি</short>
+          
+        </locale>
+
+        <locale name="bn_IN">
+          <short>থিম ধারণকারী ডিরেক্টরি</short>
+          
+        </locale>
+
+        <locale name="br">
+          <short>Teuliad e-lec&apos;h m&apos;emañ an neuz</short>
+          
+        </locale>
+
+        <locale name="bs">
+          <short>Direktorij u kojem se nalazi tema</short>
+          
+        </locale>
+
+        <locale name="ca">
+          <short>Directori on es troba el tema</short>
+          
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Directori on es troba el tema</short>
+          
+        </locale>
+
+        <locale name="crh">
+          <short>Temanın bulunduğu dizin</short>
+          
+        </locale>
+
+        <locale name="cs">
+          <short>Adresář, ve kterém je motiv umístěn</short>
+          
+        </locale>
+
+        <locale name="cy">
+          <short>Y cyfeiriadur mae&apos;r thema ynddi</short>
+          
+        </locale>
+
+        <locale name="da">
+          <short>Mappe som temaet er placeret i</short>
+          
+        </locale>
+
+        <locale name="de">
+          <short>Ordner, in dem sich das Thema befindet</short>
+          
+        </locale>
+
+        <locale name="dz">
+          <short>བརྗོད་དོན་གནས་སའི་སྣོད་ཐོ།</short>
+          
+        </locale>
+
+        <locale name="el">
+          <short>Κάταλογος στον οποίο υπάρχει στο θέμα</short>
+          
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑛𐑲𐑮𐑧𐑒𐑑𐑼𐑦 𐑦𐑯 𐑢𐑦𐑗 𐑞 𐑔𐑰𐑥 𐑦𐑟 𐑤𐑴𐑒𐑱𐑑𐑩𐑛</short>
+          
+        </locale>
+
+        <locale name="en_CA">
+          <short>Directory in which the theme is located</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+          <short>Directory in which the theme is located</short>
+          
+        </locale>
+
+        <locale name="es">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_AR">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_GT">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+          <short>Directorio en el cual se encuentra situado el tema</short>
+          
+        </locale>
+
+        <locale name="et">
+          <short>Kataloog, kus teema asub</short>
+          
+        </locale>
+
+        <locale name="eu">
+          <short>Gaia dagoen direktorioa</short>
+          
+        </locale>
+
+        <locale name="fa">
+          <short>شاخه‌ای که تم در آن قرار دارد</short>
+          
+        </locale>
+
+        <locale name="fi">
+          <short>Hakemisto, josta teema löytyy</short>
+          
+        </locale>
+
+        <locale name="fr">
+          <short>Répertoire dans lequel le thème est situé</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>O directorio onde está localizado o tema</short>
+          
+        </locale>
+
+        <locale name="gu">
+          <short>ડીરેક્ટરી કે જ્યાં થીમ સ્થાપિત થયેલી છે</short>
+          
+        </locale>
+
+        <locale name="he">
+          <short>Directory in which the theme is located</short>
+          
+        </locale>
+
+        <locale name="hi">
+          <short>डिरेक्ट्री जहाँ प्रसंग स्थित है</short>
+          
+        </locale>
+
+        <locale name="hr">
+          <short>Direktorij u kojem se nalazi tema</short>
+          
+        </locale>
+
+        <locale name="hu">
+          <short>A téma könyvtára</short>
+          
+        </locale>
+
+        <locale name="hy">
+          <short>Թղթապանակ որտեղ գտնվում են թեմաները</short>
+          
+        </locale>
+
+        <locale name="id">
+          <short>Direktori di mana tema ditempatkan</short>
+          
+        </locale>
+
+        <locale name="is">
+          <short>Mappan þar sem þemað er staðsett</short>
+          
+        </locale>
+
+        <locale name="it">
+          <short>Directory in cui è posizionato il tema</short>
+          
+        </locale>
+
+        <locale name="ja">
+          <short>テーマを格納するフォルダです</short>
+          
+        </locale>
+
+        <locale name="ka">
+          <short>საქაღალდე, სადაც გაფორმების თემები ინახება</short>
+          
+        </locale>
+
+        <locale name="kn">
+          <short>ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಇರಿಸಲ್ಪಟ್ಟಿರುವ ಕೋಶ</short>
+          
+        </locale>
+
+        <locale name="ko">
+          <short>테마가 들어 있는 디렉터리</short>
+          
+        </locale>
+
+        <locale name="ku">
+          <short>Peldanka ku dirb tê de ye</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Aplankas kuriame yra tema</short>
+          
+        </locale>
+
+        <locale name="lv">
+          <short>Direktorija, kurā ir novietota tēma</short>
+          
+        </locale>
+
+        <locale name="mai">
+          <short>निर्देशिका जतए थीम स्थित अछि</short>
+          
+        </locale>
+
+        <locale name="mg">
+          <short>Ny laha-tahiry misy ilay endrika</short>
+          
+        </locale>
+
+        <locale name="mk">
+          <short>Директориум во кој е лоцирана темата</short>
+          
+        </locale>
+
+        <locale name="ml">
+          <short>പ്രമേയം ഉളള ഡയറക്ടറി.</short>
+          
+        </locale>
+
+        <locale name="mn">
+          <short>Гадаргуун Арьс байрласан хавтас </short>
+          
+        </locale>
+
+        <locale name="mr">
+          <short>निर्देशिका जिच्यामध्ये थीम आहे</short>
+          
+        </locale>
+
+        <locale name="ms">
+          <short>Direktori dimana letaknya tema</short>
+          
+        </locale>
+
+        <locale name="nb">
+          <short>Katalog hvor tema er lokalisert</short>
+          
+        </locale>
+
+        <locale name="ne">
+          <short>डाइरेक्टरी जहाँ विषयवस्तु अवस्थित छ</short>
+          
+        </locale>
+
+        <locale name="nl">
+          <short>Map waar het thema zich bevindt</short>
+          
+        </locale>
+
+        <locale name="nn">
+          <short>Katalogen drakta ligg i</short>
+          
+        </locale>
+
+        <locale name="oc">
+          <short>Repertòri ont es lo tèma</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>ଡିରେକ୍ଟୋରି ଯାହା ଭିତରେ ପ୍ରସଙ୍ଗଟି ଅବସ୍ଥିତ</short>
+          
+        </locale>
+
+        <locale name="pa">
+          <short>ਡਾਇਰੈਕਟਰੀ,ਜਿਸ ਵਿੱਚ ਥੀਮ ਮੌਜੂਦ ਹੈ</short>
+          
+        </locale>
+
+        <locale name="pl">
+          <short>Katalog, w którym znajduje się motyw</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Directório onde está localizado o tema</short>
+          
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Diretório em que o tema está localizado</short>
+          
+        </locale>
+
+        <locale name="ro">
+          <short>Dosarul în care se află tema</short>
+          
+        </locale>
+
+        <locale name="ru">
+          <short>Каталог, где расположены темы</short>
+          
+        </locale>
+
+        <locale name="sk">
+          <short>Priečinok, kde je umiestnená téma</short>
+          
+        </locale>
+
+        <locale name="sl">
+          <short>Imenik v katerem se nahaja tema</short>
+          
+        </locale>
+
+        <locale name="sq">
+          <short>Kartela ku gjendet tema</short>
+          
+        </locale>
+
+        <locale name="sr">
+          <short>Директоријум у ком се налази тема</short>
+          
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Direktorijum u kom se nalazi tema</short>
+          
+        </locale>
+
+        <locale name="sv">
+          <short>Katalog där temat finns</short>
+          
+        </locale>
+
+        <locale name="ta">
+          <short>பொருள் உள்ள அமைந்திருக்கும் அடைவு </short>
+          
+        </locale>
+
+        <locale name="te">
+          <short>వైవిధ్యాంశ స్థానము ఉన్న వివరణము</short>
+          
+        </locale>
+
+        <locale name="th">
+          <short>โฟลเดอร์ที่ชุดตกแต่งอยู่</short>
+          
+        </locale>
+
+        <locale name="tr">
+          <short>Temanın bulunduğu dizin</short>
+          
+        </locale>
+
+        <locale name="uk">
+          <short>Каталог, де розташована тема</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Thư mục chứa sắc thái</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>Uvimba weefayili apho umxholo ukhoyo</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+          <short>主题所在的目录</short>
+          
+        </locale>
+
+        <locale name="zh_HK">
+          <short>佈景主題所在的目錄</short>
+          
+        </locale>
+
+        <locale name="zh_TW">
+          <short>佈景主題所在的目錄</short>
+          
+        </locale>
+      </schema>
+      
+       
+    </schemalist>
+
+</gconfschemafile>  

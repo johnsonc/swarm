@@ -1,0 +1,1 @@
+/usr/share/pyshared/python_debian-0.1.18_squeeze1.egg-info/SOURCES.txt

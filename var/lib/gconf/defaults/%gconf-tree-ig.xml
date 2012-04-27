@@ -1,0 +1,1251 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="show_backup_files">
+						<local_schema short_desc="Ma ọ bụ ka egosi mgbakwunye faịlụ ndị ahụ">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, mgbe ahụ faịlụ mgbakwunye dịka ndị Emacs kewapụtara ka egosipụtara. Kèọ́fụ́ụ̄, sọsọ faịlụ ndị gwụrụ na tildị (~) ka e weere dịka mgbakwunye faịlụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Ma ọ bụ ka egosi faịlụ ndị ahụ e zoro ezo">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, ya bụ na a ga-egosi faịlụ ndị e zoro ezo na onyenlekọta faịlụ. Faịlụ ndị e zoro ezo nwere ike ị́bụ̄ dọtfaịlụ mọọbụ na edesịtara ha na nsoromebefaịlụ .faịlụ ndị e zoro ezo. </longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Onyenlekọta Windo ">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Aha aịkọn ebe mkpofuozi desktọ́ọ̀pụ̀">
+							<longdesc>A ga-ahazinwu aha a ma ọ bụrụ na ịchọrọ aha emeredịkachọrọ maka aịkọn ebemkpofuozi na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Aha aịkọn ụlọ desktọ́ọ̀pụ̀">
+							<longdesc>A ga-ahazinwu aha a ma ọ bụrụ na ịchọrọ aha emeredịkachọrọ maka aịkọn keụlọ na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="Aha aịkọn kọmputa desktọ́ọ̀pụ̀">
+							<longdesc>A ga-ahazinwu aha a ma ọ bụrụ na ịchọrọ aha emeredịkachọrọ maka aịkọn kọmputa na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="Gosi ụda ndị ewelitere ewelite na desktọ́ọ̀pụ̀">
+							<longdesc>Ọ bụrụ na a haziri nke a na eziokwu, aịkọn na-abanye n&apos;ụda ewelitere ewelite a ga-etinye ya na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Aịkọn ebemkpofuozi nke a hụrụ anya na desktọ́ọ̀pụ̀">
+							<longdesc>Ọ bụrụ na a haziri nke a na eziokwu, aịkọn na-abanye n&apos;ebemkpofuozi a ga-etinye ya na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Aịkọn kọmputa ahụrụanya na desktọ́ọ̀pụ̀">
+							<longdesc>Ọ bụrụ na a haziri nke a na eziokwu, aịkọn na-abanye na kọmputa a ga-etinye ya na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="A hụrụ aịkọn nke ụlọ na desktọ́ọ̀pụ̀">
+							<longdesc>Ọ bụrụ na a haziri nke a na eziokwu, aịkọn na-abanye n&apos;ụlọ nsomebefaịlụ a ga-etinye ya na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema>
+								<longdesc>Ọ bụrụ na a haziri ya na eziokwu, Nautilus ga-egosi sọsọ nsomebefaịlụ ndị ahụ na tríì saịd pen. Kama ọ ga-egosi nsomebefaịlụ na faịlụ ndị ahụ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="Dìfọ́ọ̀ltụ̀ nhazi mpagharaogologo na ndesịta ngosi">
+							<longdesc>Dìfọ́ọ̀ltụ̀ nhazi mpagharaogologo na ndesịta ngosi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="Ndesịta dìfọ́ọ̀ltụ̀ nke mpagharaogologo ahụrụanya ná ngosi ndesịta">
+							<longdesc>Ndesịta dị̀fọ́ọ̀ltụ̀ nke mpagharaogologo ahụrụanya ná ngosi ndesịta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Ndesịta dìfọ́ọ̀ltụ̀ ógó zum">
+							<longdesc>Dìfọ́ọ̀ltụ̀ ógó zum nke ngosi ndesịta jiri rụọ ọrụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Gbanwe nhazi na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, faịlụ ndị dị na windo ka a ga-ahazi n&apos;ụdị nhazi mgbanwe. nke bụ, ọ bụrụ na a haziri ya site n&apos;aha, ya bụ na kama ihazi faịlụ ndị ahụ site na &quot;a&quot; ruo na &quot;z&quot;, a ga-ahazi ha site na &quot;z&quot; ruo na &quot;a&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Dìfọ́ọ̀ltụ̀ iwu nhazi">
+							<longdesc>Dìfọ́ọ̀ltụ̀ iwu-nhazi maka ihenhọrọ na ngosi ndesịta.Uru dị mmenwu bụ &quot;name&quot;, &quot;size&quot;, &quot;type&quot;, na &quot;modification_date&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Dìfọ́ọ̀ltụ̀ aịkọn ógó zum">
+							<longdesc>Difọọltụ ógó ndapụ ọsịṣọ nke ngosi aịkọn jiri rụọ ọrụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="Jiri ndozi nlereanya na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, windo ndị ọfụụ ga-eji ndozi ihenlereanya site na dìfọ́ọ̀ltụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="Tinye ihengosi n&apos;akụkụ aịkọn ndị ahụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, a ga-edesa ihengosi ndị ahụ n&apos;akụkụ aịkọn kama ịdesa ha n&apos;okpuru.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="Jiri ndozi taịta na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, Dìfọ́ọ̀ltụ̀ ga-ejidesi aịkọn ike na windo ọfụụ ndị ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Gbanwe nhazi na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, faịlụ ndị dị na windo ka a ga-ahazi n&apos;ụdị nhazi mgbanwe. nke bụ, ọ bụrụ na a haziri ya site n&apos;aha, ya bụ na kama ihazi faịlụ ndị ahụ site na &quot;a&quot; ruo na &quot;z&quot;, a ga-ahazi ha site na &quot;z&quot; ruo na &quot;a&quot;, ọ bụrụ na a haziri ya site n&apos;ụhara, kama ihaziwe n&apos;elu elu ha ga n&apos;ahazi n&apos;ala ala.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Dìfọ́ọ̀ltụ̀ iwu nhazi">
+							<longdesc>Dìfọ́ọ̀ltụ̀ iwu-nhazi maka ihenhọrọ ná ngosi aịkọn.Uru dị mmenwu bụ &quot;name &quot;, &quot;size&quot;, &quot;type&quot;, &quot;modification_date&quot;, na &quot;emblems&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Ndesịta okwu okpuru na aịkọn ndị ahụ">
+							<longdesc>Kapshiọn n&apos;okpuru aịkọn ná ngosi aịkọn nakwa desktọọpụ. Kpọmkwem ọnụọgụgụ nke okwu ndị ahụ egosirila gbadoro ụkwụ n&apos;ogo zum. Uru dị mmenwu bụ : &quot;size&quot;, &quot;type&quot;, &quot;date_modified&quot;, &quot;date_changed&quot;, &quot;date_accessed&quot;, &quot;owner&quot;, &quot;group&quot;, &quot;permissions&quot;, &quot;octal_permissions&quot; na &quot;mime_type&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Ngosi saịd pen">
+							<longdesc>Ngosi saịd pen ga-egosipụta na windo ndị ọfụụ ahụ emepere emepe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Gosi saịd pen na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, windo ndị á kà mepere ọfụụ ga-eme ka áhụ́ saịd pen anya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Gosi status báà na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, windo ndị á kà mepere ọfụụ ga-eme ka áhụ́ status báà anya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Gosi ebe báà na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, windo ndị á kà mepere ọfụụ ga-eme ka áhụ́ báà ébē anya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Gosi tulbáà na windo ndị ọfụụ">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, windo ndị á kà mepere ọfụụ ga-eme ka áhụ́ tulbáà ndị ahụ anya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Uhie nke saịd pen">
+							<longdesc>Dìfọ́ọ̀ltụ̀ uhie nke saịd pen na windo ndị ọfụụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Nhazi ụbọchị">
+							<longdesc>Ọdịdị nke ụbọchị faịlụ. Uru dị mmenwu bụ &quot;locale&quot;, &quot;iso&quot;, na &quot;informal&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Dìfọ́ọ̀ltụ̀ nsomebefaịlụ onyenlereanya">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Ahịrịnkọwa faịlụ okpuru saịd pen dìfọ́ọ̀ltụ̀">
+							<longdesc>Ahafaịlụ maka okpuru saịd pen dìfọ́ọ̀ltụ̀. A na-eji ya ma ọ bụrụ na saịd_pen_okpuru_nhazi bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Ụcha okpuru saịd pen dìfọ́ọ̀ltụ̀">
+							<longdesc>Ahafaịlụ maka okpuru saịd pen dìfọ́ọ̀ltụ̀. A na-eji ya ma ọ bụrụ na saịd_pen_okpuru_nhazi bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Nhazi okpuru saịd pen emeredịkachọrọ">
+							<longdesc>Ma ọ bụ na a haziela okpuru saịd pen dìfọ́ọ̀ltụ̀ emeredịkachọrọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Ahafaịlụ okpuru dìfọ́ọ̀ltụ̀">
+							<longdesc>Ahafaịlụ maka okpuru nsomebe faịlụ dìfọ́ọ̀ltụ̀. A na-eji ya ma ọ bụrụ na okpuru_nhazi bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Ụcha okpuru dìfọ́ọ̀ltụ̀">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema>
+							<longdesc>Ma ọ bụ na a haziela okpuru nsomebefaịlụ dìfọ́ọ̀ltụ̀ emeredịkachọrọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="Kraịteria maka ọchịchọ ọ̀chọ́ọ̀ báà">
+							<longdesc>Kraịteria mgbe a na-amakọ faịlụ achọrọla maka na ọchịchọ báà. Ọ bụrụ na a hazie ya na &quot;search_by_text&quot;, mgbe ahụ Nautilus ga-achọ faịlụ site n&apos;aha faịlụ sọsọ. Ọ bụrụ na a hazie ya na &quot;search_by_text_and_properties&quot;, mgbe ahụ Nautilus ga-achọ faịlụ site n&apos;aha faịlụ nakwa ngwaọrụ faịlụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Nautilus na-eji nsomebefaịlụ ụlọ nke ndị ojieme dịka desktọ́ọ̀pụ̀">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, Nautilus ga-eji nsomebefaịlụ ụlọ nke ojieme dịka desktọ́ọ̀pụ̀. Ọ bụrụ na ọ bụ àsị́, mgbe ahụ ọ ga-eji ~/Desktọ́ọ̀pụ̀ dịka desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Ihumkpụrụedemede desktọ́ọ̀pụ̀">
+							<longdesc>Nkọwa ihumkpụrụedemede ejiri maka aịkọn na desktọ́ọ̀pụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Ndezi Nautilus na-àdọ̀ desktọ́ọ̀pụ̀">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, Nautilus gà-àdọ́ aịkọn ahụ na desktọ́òpụ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Gosi n&apos;izizi nsomebefaịlụ na windo ndị ahụ">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, Nautilus ga-egosi nsomebefaịlụ túpúù ngosi faịlụ na aịkọn nakwa ngosi ndesịta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="Ma ọ bụ ka elebiritụanya ụda mgbe a na-amawụsụ na aịkọn">
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Faịlụ nlekọta mbawanye n&apos;ime nsomebefaịlụ">
+							<longdesc>Nsomebefaịlụ n&apos;ụhara a ka a ga-egbubi ka ọ gbaa gburu gburu n&apos;ụhara a. Ebumnuche nke a bụ izere amaghị ama mmebi híìpụ̀ nakwa imebi Nautilus na nnukwu nsomebefaịlụ. Uru enweghị isi dìnóòtùrù enweghị ógō. Ógō ahụ dị ḿgbàkọ́ n&apos;ihi nwepụtaozi nke nsomebefaịlụ chọnk-waịzị.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Ụhara inyogo mbawanye maka tọ́mbnéèlị̀n">
+							<longdesc>Inyogo n&apos;ụhara a (na baịtị) agaghị a bụ tọ́mbnéèlụ̀. Ebumnuche nhazi a bụ ka ezere inyogo ndị buru ibu nke tọ́mbnéèlụ̀ nke nwere ike igbu oge n&apos;idebata mọọbụ jiri ebenchekwaozi dị ichiiche.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Mgbe a na-egosi tọ́mbnéèlụ̀ nke inyogo faịlụ ndị ahụ">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Nautilus isiokwu nke ọfụụ (Nkeochie)">
+							<longdesc>Aha isiokwu Nautilus a ga-eji. Émēélá nke a ochie dịka nke Nautilus 2.2. Kama jiri isiokwu aịkọn biko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="Ihe a ga-eji faịlụ ngwe dị̄ mbido méé mgbe ejiri ya rụọ ọrụ">
+							<longdesc>Ihe a ga-eji faịlụ ngwe dị̄ mbido méé mgbe ejiri ha rụọ ọrụ (pịa otu ugboro mọọbụ pịmpịkwasa). Uru dị mmenwu ga &quot;bubata&quot; ebubata ha dịka program, &quot;jụọ&quot; n&apos;ịjụ ihe a ga-eme n&apos;ụzọ dayalọ́ọ̀gụ̀, nakwa &quot;display&quot; igosi ha dịka faịlụ ngwe ndị ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="Ụdị ọ̀pị̀pị̀ eji ebubata/mmepe faịlụ ndị ahụ">
+							<longdesc>A ga-ebubata uru faịlụ dị mmenwu bụ &quot;single&quot; site n&apos;ịpị otu ugboro, mọọbụ &quot;double&quot; ka ibubata ha site n&apos;ịpị pịmpịkwasa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Mgbe a na-egosi ọnụọgụgụ ihenhọrọ na nsomebefaịlụ">
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Mgbe a na-egosi nlebiritụanya ngwe na aịkọn ndị ahụ">
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Ma ọ bụ ka é kwé nhicha ozugbo">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, Nautilus ga-enwe iheọrụ ga-enyere gị ohere ihicha faịlụ ozugbo n&apos;ebe, kama ịkpụga ya n&apos;ebemkpofuozi. Iheọrụ a nwere ike i dị̄ egwu, ya bụ na ka i jiri nzere.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Na-ekwe àgwà Nautilus nke bụ̄ ákpụ̀, ebe windo niile ndị ahụ bụcha omenchọgharị">
+							<longdesc>Ọ bụrụ na a haziri ya na eziokwu, Nautilus windo niile ga-abụ windo nchọgharị. Nke a bụ etu Nautilus sị akpa agwa túpúù agbanke 2.6, nakwa ụfọdụ ndị mmadụ kara chọọ agwa a.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="internet_time">
+						<local_schema short_desc="Jiri oge ịntaneetị">
+							<longdesc>N&apos;iji Kii a kà édìprìkéètìrì na GNOME 2.6 n&apos;uru nke Kii &apos;nhazi&apos;. Edesara Ndesita atụmatụ a maka nrụkọrụ ya na agba nke ochie. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Jiri oge UNIX">
+							<longdesc>N&apos;iji Kii a kà édìprìkéètìrì na GNOME 2.6 n&apos;uru nke Kii &apos;nhazi&apos;. Edesara Ndesita atụmatụ a maka nrụkọrụ ya na agba nke ochie. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Nhazi Elekere">
+							<longdesc>N&apos;iji Kii a kà édìprìkéètìrì na GNOME 2.6 n&apos;uru nke Kii &apos;nhazi&apos;. Edesara Ndesita atụmatụ a maka nrụkọrụ ya na agba nke ochie. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Gosi ọnụọgụgụ izu ụka na kalenda">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, Gosi ọnụọgụgụ izu ụka na Kalenda.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Ngwaọrụ mmepụta oge">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Jiri UTC">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Gosi ụbọchị na tuultip">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, Gosi ụbọchị n&apos;ime tuultip mgbe pọịnta nọ n&apos;elekere.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Gosi ụbọchị n&apos;elekere">
+							<longdesc>O bụrụ na ọ bụ eziokwu, gosi ụbọchị n&apos;elekere ahụ, na mgbakwunye oge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Gosi oge ya na oge ntabi anya">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, Gosi elekere nke ntabi anya n&apos;oge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Nhazi emeredịkachọrọ nke elekere">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Nhazi Elekere">
+							<longdesc>Kii a na-ezipụta nhazi oge nke elekere apleeti jiri rụọ ọrụ.Uru dị mmenwu bụ &quot;12-hour&quot;, &quot;24-hour&quot;, &quot;internet&quot;, &quot;unix&quot; na &quot;custom&quot;. Ọ bụrụ na ekpokọta ya na &quot;internet&quot;, elekere ahụ ga-egosi oge nke ịntaneetị. Sistem oge ịntaneetị na-ekewa ụbọchị n&apos;ime otu puku &quot; beats&quot;.Enweghị nkewasị oge ụwa na sistem a,  ya bụ na oge ga-abụ otu na mba ụwa. Ọ bụrụ na-ekpokọta ya na &quot;unix&quot;, elekere ahụ ga-egosi oge n&apos;ụdị ntabi anya kamgbe Epoch, ya bụ n&apos;afọ 1970-01-01. Maọbụrụ na ekpokọta ya na</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="Bawanye windo n&apos;ụdị horizontal">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="Bawanye windo n&apos;ụdị vatikal">
+						</local_schema>
+					</entry>
+					<entry name="lower">
+						<local_schema short_desc="Budata windo n&apos;okpuru windo ndị ọzọ">
+						</local_schema>
+					</entry>
+					<entry name="raise">
+						<local_schema short_desc="Welite n&apos;elu windo ndị ọzọ">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_down">
+						<local_schema short_desc="Kpụga windo n&apos;otu wọ́kspēèsì ala">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_up">
+						<local_schema short_desc="Kpụga windo n&apos;otu wọ́kspēèsì n&apos;elu">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_right">
+						<local_schema short_desc="Kpụga windo n&apos;otu wọ́kspēèsì n&apos;akanri">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_left">
+						<local_schema short_desc="Kpụga windo n&apos;otu wọ́kspēèsì n&apos;akaekpe">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Kpụga windo na 12 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Kpụga windo na 11 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Kpụga windo na 10 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Kpụga windo na 9 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Kpụga windo na 8 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Kpụga windo na 7wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Kpụga windo na 6 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Kpụga windo na 5 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Kpụga windo na 4 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Kpụga windo na 3 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Kpụga windo na 2 wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Kpụga windo na 1wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="begin_resize">
+						<local_schema short_desc="Megharịa ụhara windo">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="Kpụgharịa windo">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Mechie windo">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="Webilata windo">
+						</local_schema>
+					</entry>
+					<entry name="toggle_shaded">
+						<local_schema short_desc="Pịa n&apos;ọnọdụ shéèdì">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="Bawanye windo">
+						</local_schema>
+					</entry>
+					<entry name="toggle_maximized">
+						<local_schema short_desc="Pịa n&apos;ọnọdụ mbawanye">
+						</local_schema>
+					</entry>
+					<entry name="toggle_fullscreen">
+						<local_schema short_desc="Pịa na móòdù fúlskríìn">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybinding_commands">
+					<entry name="command_window_screenshot">
+						<local_schema short_desc="Windo ahụ skrììnshọ́ọ̀tụ̀rụ̀ ntiiwu">
+							<longdesc>/apps/metacity/global_keybindings/run_command_window_screenshot Kii na-akọwa kiibaịndịn nke n&apos;ebute ntiiwu ezipụtara site na nhazi à á ga-atụtegharị.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command_screenshot">
+						<local_schema short_desc="Skrììnshọ́ọ̀tụ̀ọ́ ntiiwu">
+							<longdesc>/apps/metacity/global_keybindings/run_command_screenshot Kii ahụ na-akọwa kiibaịdịn nke n&apos;ebute ntiiwu ezipụtara site na nhazi à á ga-atụtegharị.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Ntiiwu iji bido na nzighachi na kíìbaịndịn ndị ahụ">
+							<longdesc> /apps/metacity/global_keybindings/run_command_N Kii ahụ nke na-akọwa kiibaịndịn ndị ahụ nke na-adaba ntiiwu ndị a. Ịpị kiibaịndịn maka run_command_N ga-emepụta command_N.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_terminal">
+						<local_schema short_desc="Bido ngwaọrụ mbupụ na mbubata ozi">
+						</local_schema>
+					</entry>
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="Skrììnshọ́ọ̀tụ̀ọ́ na windo">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="Skrììnshọ́ọ̀tụ̀ọ́">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels_backward">
+						<local_schema short_desc="Kpụghachi azụ n&apos;etiti pánēèlụ̀ na desktọ́ọ̀pụ̀ ozugbo">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels">
+						<local_schema short_desc="Kpụgharịa n&apos;etiti pánēèlụ̀ na desktọ́ọ̀pụ̀ ozugbo">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows">
+						<local_schema short_desc="Kpụgharịa n&apos;etiti windo ozugbo">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="Swichie na wọkspeesi 12">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="Banye na wọ́kspéèsì 11">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="Banye na wọ́kspéèsì 10">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="Banye na wọ́kspéèsì 9">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="Banye na wọ́kspéèsì 8">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="Banye na wọ́kspéèsì 7">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="Banye wọ́kspéèsì 6">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="Banye na wọ́kspéèsì 5">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="Banye na wọ́kspéèsì 4">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="Banye na wọ́kspéèsì 3">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="Banye na wọ́kspéèsì 2">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="Banye na wọ́kspéèsì 1">
+						</local_schema>
+					</entry>
+					<entry name="run_command">
+						<local_schema short_desc="Bido ntiiwu a kọwara akọwa">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="Aha wọ́kspēèsì">
+							<longdesc>Aha wọ́kspéèsì.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="disable_workarounds">
+						<local_schema short_desc="Enweghị iheọrụ mabiri emebi nke achọrọ site na nke ochie mọọbụ nkwụsị usoroiheomume ndị ahụ">
+						</local_schema>
+					</entry>
+					<entry name="application_based">
+						<local_schema short_desc="(Ewepụtaghị ya) Ngagharị n&apos;arụ ọrụ dịka usoroiheomume ọ bụghị Windo">
+						</local_schema>
+					</entry>
+					<entry name="reduced_resources">
+						<local_schema short_desc="Ọ bụrụ na ọ bụ eziokwu, tréèdìá ọ́ọ̀fụ̀ njieme maka mbelata nsirinweta njieme">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell_type">
+						<local_schema short_desc="Ụdị mgbịrịgba ihenlereanya">
+							<longdesc>Na-agwa Metacity etu ọ ga-esi mepụta ngosi nlechapụta na sistem mgbịrịgba mọọbụ usoroiheomume ọzọ &apos;mgbịrịgba&apos; akụọla ngwaọrụ ngosi. Ugbua e nwere valiu nwereisi abụọ, &quot;fullscreen&quot;, nke n&apos;ebutere njupụtainyogo waịt-blak flashị, na &quot;frame_flash&quot; nke n&apos;ebutere taịtụlbáà nke usoroiheomume nke zigara signáàlụ̀ mgbịrịgba ahụ na flashị. Ọ bụrụ na-amaghị usoroiheomume nke zigara mgbịrịgba ahụ (Ka ọ dị bu kéèsì maka dìfọ́ọ̀ltụ̀ &quot;system beep&quot;), A fláàshị̀rị̀ windo fókọ́ọ̀sụ̀ taịtụlbáà nọ mgbe ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="audible_bell">
+						<local_schema short_desc="Bell sistem n&apos;ada ụda">
+							<longdesc>ga-ekwu ma usoroiheomume mọọbụ sistem ahụ ga-ewepụta nnukwu &apos;ụda&apos;; nwere ike jiri na njikọ nke ya na &apos;mgbịrịgba nlechapụta&apos; ka ekwe &apos;ọ̀wụ̀&apos; bata.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Na-ekwe mgbịrịgba nlechapụta">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="Ọnụọgụgụ wọ́kspēèsì">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_font">
+						<local_schema short_desc="Ihumkpụrụedemede isiokwu windo">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_uses_system_font">
+						<local_schema short_desc="Jiri sistem ihumkpụrụedemede nke bụ ákpụ̀ n&apos;isiokwu windo ndị ahụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, leghara nhọrọ tittlebar_font anya, ma jiri ihumkpụrụedemede usoroiheomume anabatara maka isiokwu windo ndị ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Isiokwu ọfụụ">
+							<longdesc>Isiokwu ahụ na-ezipụta ngosipụta agbata windo, taịtụlbáà, na ndị ọzọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise_delay">
+						<local_schema short_desc="Ogbugbu oge na milisekọndụ ndị ahụ maka ihenhọrọ nwelite nkeonwe">
+							<longdesc>Oge egburu tupuu nwelite windo ọ bụrụ na auto_raise na ahaziri ya ka ọ bụrụ eziokwu. A ga-enye ogbugbu oge ahụ na tawụzan nke otu sekọndụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise">
+						<local_schema short_desc="Ji aka ya welite windo ebe fōkọ́ọ̀sụ̀rụ̀">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="Mmem na taịtụl báà pịa-mpịkwasa">
+						</local_schema>
+					</entry>
+					<entry name="focus_mode">
+						<local_schema short_desc="Móòdù fókọ́ọ̀sụ̀ windo">
+							<longdesc>Windo fókọ́ọ̀sụ̀ móòdù na-egosi etu windo arụ ọrụ. Onwere uru atọ dị omume; &quot;click&quot; pụtara na a ga-apịnye windo ndị ahụ ka é fókọ́ọ̀sụ̀ọ́ na ha, &quot;sloppy&quot; pụtara na é fōkọ́ọ̀sụ̀rụ̀ na windo ndị ahụ mgbe máụ̀sụ̀ banyere na windo, nakwa &quot;mouse&quot; pụtara na é fōkọ́ọ̀sụ̀rụ̀ windo mgbe máụ̀sụ̀ banyere na windo ahụ ma ọ̀nfókọ́ọ̀sụ̀ọ́ mgbe máụ̀sụ̀ ahụ hapụrụ windo ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="button_layout">
+						<local_schema short_desc="Nhazi nke bọtịn ndị ahụ na taịtụlbaa">
+						</local_schema>
+					</entry>
+					<entry name="mouse_button_modifier">
+						<local_schema short_desc="Omemmegharị ga-eji maka mmem ọ̀pị̀pị́ windo mmegharị">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Mpagharauhie n&apos;ime wọkspeesi omembanye">
+							<longdesc>Kii a na-egosi mpagharauhie ole (maka ndozi horizon) mọọbụ mpagharaogologo (maka ndozi vatịkal) omembanye wọkspeesi na-egosi wọkspeesi n&apos;ime. Kii a na-aba uru mgbe ngosi wọkspeesi kii_niile_ahụ bụ̀ eziokwu. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Gosi wọkspeesi niile">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, omembanye wọkspeesi ahụ ga-egosi wọkspeesi niile. Kama ọ ga-egosi sọsọ wọkspeesi nọ mgbe ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Gosi aha wọkspeesi">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Ụhara ndesịta windo buru ibu">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Ụhara ndesịta windo pekarịsịrị mpe">
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Kpụga windo ndị ahụ na wọkspeesi nọ mgbe ahụ mgbe á ná-ēpéwágá ya mpe">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, mgbe ị na-epewaga windo mpe, kpụga ya na wọkspeesi nọ mgbe ahụ. Kama, banye na wọkspeesi nke windo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Mgbe a ga-ekewasị windo">
+							<longdesc>Kpebie mgbe ị ga-ekewasị windo site n&apos;otu usoroiheomume ahụ ná ndesịta windo ahụ. uru dị mmenwu bụ &quot;never&quot;, &quot;auto&quot; na &quot;always&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Gosi windo site na wọkspeesi niile">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, ndesịta windo ga-egosi windo site na wọkspeesi niile. kama ọ ga-egosi windo sọsọ site na wọkspeesi nọ mgbe ahụ.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Akwụsịla ike dizebụlụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, paneelụ ahụ agaghị e kwe ojieme ka ọkwụsị usoroiheomume n&apos;ike site n&apos;iwepụ ikikembanye na bọtịnị nkwụsị n&apos;ike.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Ọpụpụ dizebụlụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, paneelụ agaghị e kwe ka ojieme pụọ, site n&apos;iwepụ ikikembanye n&apos;ebe mbanye menu ọpụpụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="Apleetị IIDs ka odizebụlụọ site na ndebata">
+							<longdesc>Ndesịta nke apleetị IIDs nke paneelụ na-elegharanya. N&apos;ụzọ a ị ga-edizebụlụ ụfọdụ apleetị site n&apos;idebata mọọbụ igosi na menu. Omụmatụ n&apos;ịdịzebụlụ apleetị otiiwu-obere tinye &apos;OAFIID:GNOME_MiniCommanderApplet&apos; na ndesịta a. A ga-ebidogharị paneelụ ahụ ka nke a bido ọrụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Mkpọchi paneelụ zuruoke">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, paneelụ ahụ agaghị e kwe mgbanwe ọbụla na nhazi paneelụ ahụ. Paneelụ ndị ọzọ ga-achọ mkpọchi n&apos;iche n&apos;iche ka ọ dị. A ga-ebidogharịrị paneelụ ahụ ka nke a bido ọrụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Kpụkpụta ndi mbubata na maụsova">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, akpụpụtara obubata mgbe ojieme kpụgara pọịnta na ya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Chọchaa nwepụ nke paneelụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, egosiri dayalọọgụ n&apos;ịjụ maka nchọpụta ma ọ bụrụ na ojieme chọrọ iwepụ paneelụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Drọwa nke mmechi nkeonwe">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, drọwa ga-eji aka ya mechie mgbe ojieme pịrị obubata n&apos;ime ya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="N&apos;ekwe anịmeshiọn">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Keochie">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="N&apos;ekwe tuultip">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, a ga-egosi tuultip maka ọbjektị nọ na paneelụ.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Ụdị bọtịn mmem">
+							<longdesc>Ụdị mmem bọtịnị a na-anọchi. Valiu ndị dị mmenwu bụ &quot;lock&quot;, &quot;logout&quot;, &quot;run&quot;, &quot;search&quot;screenshot&quot;. Kii a na-aba uru ma ọ bụrụ na kii object_type bụ &quot;action-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Ebe obubata">
+							<longdesc>Ebe desktọọpụ faịlụ nà-àkọ́wá obubata. Kii a na-aba uru ma ọ bụrụ na kii object_type bụ &quot;launcher-object&quot;. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Paatị ndịna menu">
+							<longdesc>Paatị ahụ nke e siri rụpụta  ndịna menu. Kii a na-aba uru ma ọ bụrụ na kii use_menu_path bụ eziokwu nakwa kii object_type bụ &quot;menu- object&quot;. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="JIri paatị emeredịkachọrọ maka menu ndịna">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, ejiri kii menu_path dịka path nke a rụpụtara na ndịna menu. Ma ọ bụrụ na ọ bụ asị, a ga-eleghara kii menu_path anya. Kii a na-aba uru sọsọ ma ọ bụrụ na kii object_type bụ &quot;menu-object&quot;. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Aịkọn ejirila maka bọtịn ọbjektị">
+							<longdesc>Ebe faịlụ inyogo ejiri dịka aịkọn maka bọtịnị ọbjektị. Kii a sọsọ na-aba uru ma ọ bụrụ na kii object_type bụ &quot;drawer-object&quot; mọọbụ &quot;menu-object&quot; nakwa kii use_custom_icon bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Jiri aịkọn emeredịkachọrọ maka bọtịnị ọbjektị">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, kii aịkọn_emeredịkachọrọ ka e weere dịka aịkọnụ emeredịkachọrọ maka bọtịnị ahụ. Ma ọ bụrụ na ọ bụ asị, a ga-eleghara aịkọnụ_emeredịkachọrọ anya. Kii a na-aba uru ma ọ bụrụ na kii ụdị_ọbjektị bụ &quot;menu-object&quot; mọọbụ &quot;drawer-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Egosiri tuultiip maka drọwa mọọbụ menu">
+							<longdesc>Ngwe ahụ nke ga-egosi na tuultiipu maka drọwa a mọọbụ menu a. Kii a sọsọ bara uru ma ọ bụrụ na kii object_type bụ &quot;drawer-object&quot; mọọbụ &quot;menu-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Paneelụ agbakwunyere na drọwa">
+							<longdesc>Ògòsí nke paneelụ agbakwunyere na drọwa a. Kii a na-aba uru ma ọ bụrụ kii object_type bụ &quot;drawer-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Apleetị IID Bonobo">
+							<longdesc>ID nwepụta Bonobo nke apleetị - ọmụmatụ. &quot;OAFIID:GNOME_ClockApplet&quot;. Kii a na-aba uru ma ọ bụrụ na kii object_type bụ &quot;bonobo-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Kpọchie ọbjektị na paneelụ ahụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, ojieme nwere ike ọ gaghị akpụgha apleetị n&apos;ebughị ụzọ akpọpe ọbjektị ahụ n&apos;iji &quot;Unlock&quot; menuitem.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="Tụgharịa ebe n&apos;akụkụ okpuru/akanri">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, a ga-atụgharị ebe ọbjektị n&apos;akụkụ akanri (mọọbụ n&apos;okpuru ma ọ bụrụ na ọ dị vatikal) nke paneelụ ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Ebe ọbjektị na paneelụ">
+							<longdesc>Ebe paneelụ ọbjektị a. Ezipụtara ebe ahụ site n&apos;ọnụọgụgụ nke pikseelụ n&apos;akaekpe (mọọbụ nke elu ma ọ bụrụ na ọ dị vatịkal) paneelụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Tọplevụụl paneelụ nwere ọbjektị">
+							<longdesc>Ogosi nke paneelụ tọplevụụlụ nke nwere ọbjektị a n&apos;ime ya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Ụdị ọbjektị paneelụ">
+							<longdesc>Ụdị paneelụ ọbjektị a. Valiu ndị dị mmenwu bụ &quot;drawer-object&quot;, &quot;menu-object&quot;, &quot;launcher-object&quot;, &quot;bonobo-applet&quot;, &quot;action-applet&quot; na &quot;menu-bar&quot;. </longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Nhazi mgbaama ochie gbanwere">
+							<longdesc>Boolean flag ga-egosi ma nhazi ochie ojieme nà / apps/panel/profile/difọọltụ edebatala n&apos;ebe ọfụụ na /apps/ paneelụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Ndesịta ID ọbjektị paneelụ">
+							<longdesc>Ndesịta IDs ọbjektị paneelụ. ID nke ọbụla na-egosi ọbjektị paneelụ (ọmụmatụ obubata, bọtịnị mmem mọọbụ bọtịnị menu/bar). Nhazi maka ọbjektị ndị a ka echekwara na /apps/panel/objects/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Ndesịta ID apleetị paneelụ">
+							<longdesc>Ndesịta paneelụ IDs apleetị. ID nke ọbụla na-egosi paneelụ apleetị. Nhazi maka apleetị ndị a ka echekwara na /apps/panel/applets/ $(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Ndesịta ID paneelụ">
+							<longdesc>Ndesịta ID paneelụ. IDs nke ọbụla na-egosi paneelụ tọplevụụl. Nhazi ahụ maka nke ọbụla nke paneelụ ndị a ka echekwara na /apps/panel/toplevels/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="N&apos;ekwe ngwụcha keonwe na &quot;Bido usoroiheomume&quot;dayalọọgụ">
+							<longdesc>Ọ bụrụ na o bụ eziokwu, a ga-ewepụta ngwụcha nkeonwe nọ na &quot;Bido usoroiheomume&quot; dayalọọgụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Bawanye ndesịta program na &quot;Bido usoroiheomume&quot;dayalọọgu">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, &quot;Usoroiheomume ahụ a ma ama&quot;ndesịta ahụ n&apos;ime &quot;Bido usoroiheomume&quot;dayalọogụ ka abawanyere mgbe e mepere dayalọọgụ. Kii a bara uru sọsọ ma ọ bụrụ na kii ndesịta_program_nke e kwere bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="N&apos;ekwe ndesịta program na &quot;Bido usoroiheomume&quot;dayalọọgụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, &quot;Usoroiheomume ahu a ma ama&quot;Ewepụtara ndesịta ahụ n&apos;ime &quot;Bido usoroiheomume&quot;dayalọọgụ. Ma ọ bụ ma ọbụghị na a bawanyere ndesịta ahụ mgbe e gosiri dayalọọgụ ka elekọtara site n&apos;aka kii_program_ngosi.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Anịmeshiọnụ ngwa ngwa">
+							<longdesc>Ụdị ọsịsọ nke paneelụ animeshiọn na-agba. Valiu dị mmenwu bụ &quot;slow &quot;, &quot;medium&quot; na &quot;fast&quot;. Kii a sọsọ na-aba uru ma ọ bụrụ na kii enable_animations bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Pikselụ ndị ahụrụ anya mgbe ezoro ya ezo">
+							<longdesc>Na-ezipụta ọnụọgụgụ nke mmebereinyogo ahụrụ anya mgbe paneelụ ji aka ya zoghzrịa onwe ya n&apos;otu kọna. Kii a sọsọ bara uru ma ọ buru na kii auto_hide bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Ogbugbu oge ezoghiezo nkeonwe nke paneelụ">
+							<longdesc>Na-ezipụta ọnụọgụgụ nke ogbugbu oge nke milisekọnds mgbe pọịnta banyere na mpaghara paneelụ tupuu paneelụ ejiri aka ya gosigharịa onwe ya. Kii a sọsọ bara uru ma ọ bụrụ na kii auto_hide bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Ogbugbu oge ozuzo nkeonwe nke paneelụ">
+							<longdesc>Na-ezipụta ọnụọgụgụ nke ọgbugbu oge milisekọds mgbe pọịnta hapụrụ mpaghara paneelụ tupuu paneelụ ejiri aka ya zogharịa onwe ya. Kii a sọsọ bara uru ma ọ bụrụ na kii auto_hide bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Na-enyere aro aka na bọtịnị ozuzzo">
+							<longdesc>O bụrụ na ọ bụ eziokwu, a ga-edogowe aro ndị ahụ na bọtịnị ozuzo. Kii a sọsọ bara uru ma ọ bụrụ na kịị enable_buttons bụ eziokwu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Na-enye aka izo bọtịn">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, a ga-edogowe bọtịn na mpaghara paneelụ nke ọbula nke a ga-eji kpụga paneelụ ahụ n&apos;isi inyogo, hapụ otu bọtịn ka ọ ná-ègósí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="N&apos;ekwe anịmeshiọn">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, ozuzo na ezoghi ezo nke paneelụ a kà á gà-èmé n&apos;ụdị ụmụanụmanụ kama ime ozugbo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="O ji aka ya zóó paneelụ n&apos;ime kọna ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, paneelụ ahụ ga-eji aka ya zóó onwe ya n&apos;ime kọna nke inyogo ahụ mgbe pọịnta ahụ papụrụ mpaghara paneelụ. Ịkpụga pọịnta ahụ na kọna ahụ ọzọ ga eme ka paneelụ ahụ pụta-gharịa ọzọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Etiti paneelụ na y-axis">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Etiti paneelụ na x-axis">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Y co-ordinate nke paneelụ">
+							<longdesc>Ebe paneelụ a n&apos;ụzọ y axis. Kii a sọṣọ bara uru na moodu ánábáwányéghị́ ábáwányé. Na moodu abawanyere aaabawanye a na-eleghara kii a anya nakwa a na-edogowe paneelụ a n&apos;isi inyogo nke kii nduzi zipụtara.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="X co-ordinate nke paneelụ">
+							<longdesc>Ebe paneelụ a n&apos;ụzọ x axis. Kii a sọsọ bara uru na moodu ánábáwányéghị́ ábáwányé. Na moodu abawanyere abawanye a na-eleghara kii a anya nakwa a na-edogowe paneelụ a n&apos;isi inyogo nke kii nduzi zipụtara.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Ụhara paneelụ">
+							<longdesc>Ogo (Uhie maka vatịkal paneelụ)nke paneelụ. paneelụ ahụ ga-ekwun&apos;oge mbido ụhara nke àl̀à nke beeziri n&apos;ụhara ihumkpụrụedemede nakwa ogosi ndị ọzọ. Ụhara nke elu ka emeziri n&apos;otu mpaghara nke ogo inyogo (mọọbụ uhie).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Nduzi paneelụ">
+							<longdesc>Ndụzi nke paneelụ. Valiu dị mmenwu bụ &quot;top&quot;,&quot;bottom&quot;, &quot;left &quot;, &quot;right&quot;. Na moodu anabawanyeghị̤ abawanye adimiche n&apos;etiti &quot;top&quot; na &quot;bottom &quot; abachaghị uru - ha abụọ na-egosi na nke a bụ paneelụ kwụ ọtọ - ma na-enye ozi bara uru dịka etu ụfọdụ ọbjektị paneelụ sị akpa agwa. Ọmụmatụ, na &quot;top&quot;paneelụ bọtị̣nị menu ga-pọpụ ọpụ menu ya n&apos;okpụrụ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Bawanye ka ị nọchie uhie inyogo niile">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, paneelụ ahụ ga-anọchị uhie inyogo niile ahụ (ógō ma ọ bụrụ na nke a bụ vatikal paneelụ). Ábị́á na moodu a ga-edogowe paneelụ sọsọ n&apos;isi inyogo. Ọ bụrụ na ọ bụ asị, paneelụ ahụ ga-ebu ibu nke ibubataju apleetị ndị ahụ, obubata na bọtịn paneelụ. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Inyogo Xinerama ebe egosiri paneelụ ahụ">
+							<longdesc>Na nrụnye nke Xinerama, inwere ike inwe paneelụ n;inyogo nke ọbụla. Kii a na-egosipụta inyogo nọ mgbe ahụ a ga-egosiwe paneelụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="X screen ebe egosiri paneelụ ahụ ">
+							<longdesc>Tinyere nrụnye nke mọlti-skriin, inwere ike inwe paneelụ n&apos;inyogo nke ọbụla. Kii a na-egosipụta inyogo ọfụụ ǹkè a na-egosi paneelụ na ya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Aha ka ihụwa ama paneelụ">
+							<longdesc>Nke a bụ aha mmadụ dị mma ọgụgụ nke ị ga-eji gosi paneelụ. Nkeisi ya bụ ịrụ orụ dịka isiokwu windo paneelụ nke bara uru mgbe a na-eme ngagharị na paneelụ ndị ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Tụgharịa inyogo na vatịkal paneelụ">
+								<longdesc>Ọ bụrụ na ọ bụ eziokwu, a ga-atụgharị inyogo okpuru mgbe eduziri paneelụ vatikali.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Gbatịa inyogo na paneelụ">
+								<longdesc>Ọ bụrụ na ọ bụ eziokwu, a ga-skeelụ mpaghara paneelụ. Agaghị ajikwa aspektị reshio nke inyogo. </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Fiitie inyogo na paneelụ">
+								<longdesc>Ọ bụrụ na ọ bụ eziokwu, a ga-skeelụ inyogo (desagharia aspektị reshio nke inyogo) n&apos;ogo paneelụ (ma ọ bụrụ na ọkwụ ogologo).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Inyogo okpuru">
+								<longdesc>Na-ezipụta faịlụ ka ejiri ya maka inyogo okpuru. Ọ bụrụ na inyogo ahụ nwere alpha channel a ga-ahazi ya n&apos;okpuru inyogo desktọọpụ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Okpuru ucha kèánāhụ́chāghị́ányá">
+								<longdesc>Na-ezipụta nhazi ụcha okpuru nke ánāhụ́chāghị́ányá. Ọ bụrụ na ụcha ahụ na-ahughị ya anya kpamkpam (valiu nke les dan 65535), a ga-ahazi ụcha ahụ n&apos;inyogo okpuru desktọọpụ. </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Ucha okpuru">
+								<longdesc>Na-ezipụta ụcha okpuru maka paneelụ ahụ na nhazi nke #RGB.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Ụdị inyogo">
+								<longdesc>Kedu ụdị okpuru nke a ga-eji maka paneelụ a. Valiu mmenwu bụ &quot;gtk&quot; - difọọltụ GTK ahụ+ a ga-eji wijeeti nke okpuru, &quot;color&quot; - a ga-eji kii ụcha ahụ dịka okpuru ụcha mọọbụ &quot;image&quot; - egosipụtara inyogo site na kii inyogo a ga-eji ya dịka okpuru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Tugharịa na vatịkal peneelụ">
+							<longdesc>Ọ bụrụ na ọ bụ eziokwu, e gosipụtara anịmeshiọn azụ ahụ na ntụgharị n&apos;elu vatịkal paneelụ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Kwụsị freemu nke ọbụla ">
+							<longdesc>Kii a na-ezipụta ọnụọgụgụ nke oge nke otu ntabianya a ga-egosipụta freemu nke ọbụla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Freemu n&apos;ime anịmeshiọn azụ">
+							<longdesc>Kii a na-ezipụta ọnụọgụgụ freemu nke a ga-egosipụta n&apos;ime anịmeshiọnụ azụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="A ga-emepụta iwu n&apos;ịpị">
+							<longdesc>Kii a na-ezipụta iwu ahụ nke a ga-achọ imepụta mgbe a pịrị azụ ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Pixmap animeshiọnụ azụ">
+							<longdesc>Kii a na-ezipụta ahafaịlụ nke pixmap nke a ga-eji maka ngosipụta anịmeshiọn n&apos;ime apleetị azụ yītụ́wárá ihenlereanya pixmap.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Aha azụ ahụ">
+							<longdesc>Azụ ọbụla na-enweghị aha bụ azụ tìì. Webata ndụ n&apos;azụ site n&apos;ịgụ ya aha.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="Inyogo nke a kara chọọ a ga-eji maka mbanye inyogo ngosi ndubanye ">
+							<longdesc>Nke a bụ nyiri ụzọ valiu kwụpụrụ n&apos;ihenlereanya nke $datadir/pixmaps/. Ihenlereanya-keobere na aha inyogo bụ valiu nkeisi. Ịgbanwe valui a ga-emetụta mbata oge mmem n&apos;esonụ̄.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="Ọ̀gwá mgbe ọ̀pụ̀pụ́">
+							<longdesc>Ọ bụrụ na a hapụrụ ya, gnome-session ga-agwa ojieme mgbe ọ ga-anabata ozi tupuu a na-akwụsị oge mmem.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Chekwaa oge mmem">
+							<longdesc>Ọ bụrụ na a hụpụrụ ya, gnome menu ga-echekwa oge mmem ahụ na nkeonwe ya, dayalọọgụ mpụta ahụ ga-enwe nhọrọ ịchekwa oge mmem ahụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Gosi inyogo ngosi ndubanye">
+							<longdesc>Gosi inyogo ngosi ndubanye mgbe oge mmem na-ebido</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="fullscreen">
+						<local_schema short_desc="Kpọchie na móòdù njupụtainyogo">
+							<longdesc>Na-akpọchi Epiphany na móòdù njupụtainyogo. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_history">
+						<local_schema short_desc="Agụgụala akwụsịrị ọrụ">
+							<longdesc>Kwụsị ozi agụgụala niile site n&apos;ịkwụsị nchọgharị nke azụ na ihu, na-ekweghị dayalọ́ọ̀gụ̀ agụgụala nakwa izo ndesịta búùkmáàks nke a kara jiri rụọ ọrụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_toolbar_editing">
+						<local_schema short_desc="Kwụsị ọrụ ndezi tulbáà">
+							<longdesc>Kwụsị ọrụ ike ojieme ka idezie tulbáàs.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_bookmark_editing">
+						<local_schema short_desc="Ndezi búùkmáàkị akwụsịrị akwụsị">
+							<longdesc>Kwụsị ọrụ ike ojieme ka itinye mọọbụ dezie búùkmáàks.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_arbitrary_url">
+						<local_schema short_desc="URL abitrarị akwụsịrị ọrụ">
+							<longdesc>Kwụsị ọrụ ike ojieme ka ịpịnye na URL to Epiphany.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="additional_safe_protocols">
+						<local_schema short_desc="Séèfù protokọ́ọ̀lụ̀ ndị agbakwunyere agbakwunye">
+							<longdesc>Ndesịta nke protokọ́ọ̀lụ̀ nke a ga-anabata dịka na-enweghị nsogbu na mgbakwunye na difọ́ọ̀ltụ̀, mgbe e kwèèrè dizebụl_ọnséèfù_protokọ́ọ̀lụ̀. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_unsafe_protocols">
+						<local_schema short_desc="Kwụsị ọrụ ọnséèfprotokọ́ọ̀lụ̀">
+							<longdesc>Nkwụsị ọrụ n&apos;ịbubata ndịna site ọ̀nséèf protokọ́ọ̀lụ̰̀. Séèf protokọ́ọ̀lụ̀ bụ http na https.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_menubar">
+						<local_schema short_desc="Zòó menubáà site na difọ́ọ̀ltụ̀">
+						</local_schema>
+					</entry>
+					<entry name="disable_javascript_chrome">
+						<local_schema short_desc="Nlekọta króòmù ndesịta asụsụ program akwụsịrị ọrụ">
+							<longdesc>Nlekọta ndesịta asụsụ program akwụsịrị ọrụ na windo króòmù.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="directories">
+					<entry name="downloads_folder">
+						<local_schema short_desc="Nsomebefaịlụ nke mbubata ndị ahụ">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="browse_with_caret">
+						<local_schema short_desc="Jiri Káréètị̀ chọgharịa">
+						</local_schema>
+					</entry>
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Hapụ ndesịta asụsụ program">
+						</local_schema>
+					</entry>
+					<entry name="allow_popups">
+						<local_schema short_desc="Hapụ pọpọps">
+							<longdesc>Hapụ saịts ka ọ mepee windo ndị a n&apos;iji ndesịta asụsụ program (ma ọ bụrụ na a hapụrụ ndesịta asụsụ program).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cookie_accept">
+						<local_schema short_desc="Nnabata Kuki">
+							<longdesc>Ebe a ga esi nabata kukiis. Pọsịbụl valius bụ  &quot;anywhere&quot;, &quot;current site&quot; and &quot;nowhere&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Asụsụ dị ichiiche">
+							<longdesc>Asụsụ ndị akarachọọ, mkpụrụokwu abụọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cache_size">
+						<local_schema short_desc="Ụhara nke diski ébéńchékwáózīọ́sị́sọ́">
+							<longdesc>Ụhara nke diski ébéńchékwáózīọ́sị́sọ́, na MB.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_font_type">
+						<local_schema short_desc="Ụdị ihumkpụrụedemede difọ́ọ̀ltụ̀">
+							<longdesc>Ụdị ihumkpụrụedemede difọ́ọ̀ltụ̀. Pọsịbụl valius bụ &quot;serif&quot; na &quot;sans-serif&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema short_desc="Ndenye kóòdù difọ́ọ̀ltụ̀">
+							<longdesc>Ndenye kóòdú difọ́ọ̀ltụ̀. Valius ndị anabatara bụ: &quot;armscii-8&quot;, &quot;Big5&quot;, &quot;Big5-HKSCS&quot;, &quot;EUC-JP&quot;, &quot;EUC-KR&quot;, &quot;gb18030&quot;, &quot;GB2312&quot;, &quot;geostd8&quot;, &quot;HZ-GB-2312&quot;, &quot;IBM850&quot;, &quot;IBM852&quot;, &quot;IBM855&quot;, &quot;IBM857&quot;, &quot;IBM862&quot;, &quot;IBM864&quot;, &quot;IBM866&quot;, &quot;ISO-2022-CN&quot;, &quot;ISO-2022-JP&quot;, &quot;ISO-2022-KR&quot;, &quot;ISO-8859-1&quot;, &quot;ISO-8859-2&quot;, &quot;ISO-8859-3&quot;, &quot;ISO-8859-4&quot;, &quot;ISO-8859-5&quot;, &quot;ISO-8859-6&quot;, &quot;ISO-8859-7&quot;, &quot;ISO-8859-8&quot;, &quot;ISO-8859-8-I&quot;, &quot;ISO-8859-9&quot;, &quot;ISO-8859-10&quot;, &quot;ISO-8859-11&quot;, &quot;ISO-8859-13&quot;, &quot;ISO-8859-14&quot;, &quot;ISO-8859-15&quot;, &quot;ISO-8859-16&quot;, &quot;ISO-IR-111&quot;, &quot;KOI8-R&quot;, &quot;KOI8-U&quot;, &quot;Shift_JIS&quot;, &quot;TIS-620&quot;, &quot;UTF-7&quot;, &quot;UTF-8&quot;, &quot;VISCII&quot;, &quot;windows-874&quot;, &quot;windows-1250&quot;, &quot;windows-1251&quot;, &quot;windows-1252&quot;, &quot;windows-1253&quot;, &quot;windows-1254&quot;, &quot;windows-1255&quot;, &quot;windows-1256&quot;, &quot;windows-1257&quot;, &quot;windows-1258&quot;, &quot;x-euc-tw&quot;, &quot;x-gbk&quot;, &quot;x-johab&quot;, &quot;x-mac-arabic&quot;, &quot;x-mac-ce&quot;, &quot;x-mac-croatian&quot;, &quot;x-mac-cyrillic&quot;, &quot;x-mac-devanagari&quot;, &quot;x-mac-farsi&quot;, &quot;x-mac-greek&quot;, &quot;x-mac-gujarati&quot;, &quot;x-mac-gurmukhi&quot;, &quot;x-mac-hebrew&quot;, &quot;x-mac-icelandic&quot;, &quot;x-mac-roman&quot;, &quot;x-mac-romanian&quot;, &quot;x-mac-turkish&quot;, &quot;x-mac-ukrainian&quot;, &quot;x-user-defined&quot;, &quot;x-viet-tcvn5712&quot;, &quot;x-viet-vps&quot; and &quot;x-windows-949&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="Jiri ihumkpụrụedemede nke gị">
+							<longdesc>Jiri ihumkpụrụedemede nke gị kama iji ihumkpụrụedemede nke ihuakwụkwọ chọrọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="Jiri ụcha nke gị">
+							<longdesc>Jiri ụcha nke gị kama iji ụcha nke ihuakwụkwọ chọrọ.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="print_page_numbers">
+						<local_schema short_desc="Ma a ga-ebipụta ọnụọgụgụ ihuakwụkwọ ndị ahụ (x nke mgbakọ) na ngwe elu ihuakwụkwọ">
+						</local_schema>
+					</entry>
+					<entry name="print_date">
+						<local_schema short_desc="Ma a ga-ebipụta ụbọchị na ngwe okpuru ihuakwụkwọ">
+						</local_schema>
+					</entry>
+					<entry name="print_page_url">
+						<local_schema short_desc="Ma a ga-ebipụta ngosi ebe ihuakwụkwọ na ngwe elu ihuakwụkwọ">
+						</local_schema>
+					</entry>
+					<entry name="print_page_title">
+						<local_schema short_desc="Ma a ga-ebipụta isiokwu ihuakwụkwọ na ngwe elu ihuakwụkwọ">
+						</local_schema>
+					</entry>
+					<entry name="preferences_font_language">
+						<local_schema short_desc="Asụsụ ihumkpụrụedemede a họrọla ọfụụ">
+							<longdesc>Asụsụ ihumkpụrụedemede a họrọla ọfụụ. Valius ndị nwereisi bụ. Values are &quot;ar&quot; (arabic), &quot;x-baltic&quot; (baltic languages), &quot;x-central-euro&quot; (central european languages), &quot;x-cyrillic&quot; (languages written with cyrillic alphabet), &quot;el&quot; (greek), &quot;he&quot; (hebrew), &quot;ja&quot; (japanese), &quot;ko&quot; (korean), &quot;zh-CN&quot; (simplified chinese), &quot;th&quot; (thai), &quot;zh-TW&quot; (traditional chinese), &quot;tr&quot; (turkish), &quot;x-unicode&quot; (other languages), &quot;x-western&quot; (languages written in latin script), &quot;x-tamil&quot; (tamil) and &quot;x-devanagari&quot; (devanagari).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="history_view_details">
+						<local_schema short_desc="Ozi ihuakwụkwọ egosiri na ngosi agụgụala">
+						</local_schema>
+					</entry>
+					<entry name="bookmarks_view_details">
+						<local_schema short_desc="Ozi búùkmáàkì egosiri na ngosi omendezi">
+							<longdesc>Ozi búùkmáàkì egosiri na ngosi omendezi.Valius nwere isi na ndesịta bụ &quot;address&quot; na &quot;title&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="history_date_filter">
+						<local_schema short_desc="Nhazi oge ihuakwụkwọ agụgụala">
+							<longdesc>Gosi ihuakwụkwọ agụgụala abanyegorola &quot;ever&quot;, &quot;last_two_days&quot;, &quot;last_three_days&quot;, &quot;today&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="active_extensions">
+						<local_schema short_desc="Mgbatịkwu ndị n&apos;arụ ọrụ">
+							<longdesc>Desịta mgbatịkwu ọrụ ọrụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_statusbar">
+						<local_schema short_desc="Gosi statusbáà site na difọ́ọ̀ltụ̀">
+						</local_schema>
+					</entry>
+					<entry name="show_bookmarks_bar">
+						<local_schema short_desc="Gosi búùkmáàks báà site na difọ́ọ̀ltụ̀">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbars">
+						<local_schema short_desc="Gosi tulbáà site na difọ́ọ̀ltụ̀">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Ọdịdị tulbáà">
+							<longdesc>Ọdịdị tulbáà. Valius ndị ekwere bụ &quot;&quot; (use GNOME default style), &quot;both&quot; (text and icons), &quot;both-horiz&quot; (text besides icons), &quot;icons&quot;, and &quot;text&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="middle_click_open_url">
+						<local_schema short_desc="Pịa n&apos;etiti ka imepee ngwaọrụ www apọintịrị na site na ngwe a họrọla ọfụụ">
+							<longdesc>Pịa n&apos;etiti péènù ngosi nkeisi ga-emepe ngwaọrụ www nke apọịntịrị na site na ngwe a họrọla ọfụụ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="automatic_downloads">
+						<local_schema short_desc="Mbubata nkeonwe">
+							<longdesc>Mgbe omenchọgharị nà-émēpéghị́nwú faịlụ ndị ahụ ha ga eji aka ha bubata onwe ha na nsomebefaịlụ mbubata ma mepee n&apos;usoroiheomume kwesịrịnụ̄. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="Ná-ègosi tab báà mgbe ọbụla">
+							<longdesc>Gosi tab báà n&apos;otu aka ahụ mgbe enwere otu táàbụ́ mepere emepe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Ụlọ ihu inyogo">
+							<longdesc>Ngosi ebe nke ihu inyogo nke ojieme.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

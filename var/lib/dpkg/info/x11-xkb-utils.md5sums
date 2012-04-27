@@ -1,0 +1,16 @@
+a48348d966eb25f73edeabcd62b3c87f  usr/bin/setxkbmap
+49e02f6bded09afbf97f168805d25e09  usr/bin/xkbbell
+afdfbe7dcddc7c44f14aa8300530fb5e  usr/bin/xkbcomp
+1c82f890e8f5072fbba0ccd84e83378b  usr/bin/xkbevd
+6d3794657ed872958ce688769e113479  usr/bin/xkbprint
+fe224ae48985a341829e4dc601dcbb87  usr/bin/xkbvleds
+6c7d5f770a8c29fbce3f3c279b38da8a  usr/bin/xkbwatch
+bf445ee3786d48b0949e3a6b4f09a517  usr/share/doc/x11-xkb-utils/changelog.gz
+aa4cada6570a5600a59623551f2d1881  usr/share/doc/x11-xkb-utils/copyright
+8e256e8b127ad3ae1bb762908dfba63a  usr/share/man/man1/setxkbmap.1.gz
+828cd5c1bf9cf76e56d7ac875302c202  usr/share/man/man1/xkbbell.1.gz
+4fb8e473b9c3a01de7674eb312541db4  usr/share/man/man1/xkbcomp.1.gz
+03a85d3f165b17734a46d60f6ee4aabb  usr/share/man/man1/xkbevd.1.gz
+f1745a56a3c108fbd9c89fd0e63dc05f  usr/share/man/man1/xkbprint.1.gz
+28c1cb6021660df0501b092fdcb3d6a5  usr/share/man/man1/xkbvleds.1.gz
+8e15490fe0f5afee1b6ea513b1913a3b  usr/share/man/man1/xkbwatch.1.gz

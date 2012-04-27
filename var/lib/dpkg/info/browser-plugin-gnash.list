@@ -1,0 +1,13 @@
+/.
+/etc
+/etc/gnashpluginrc
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/browser-plugin-gnash
+/usr/share/doc/browser-plugin-gnash/changelog.Debian.gz
+/usr/share/doc/browser-plugin-gnash/copyright
+/usr/share/doc/browser-plugin-gnash/changelog.gz
+/usr/lib
+/usr/lib/gnash
+/usr/lib/gnash/libgnashplugin.so

@@ -1,0 +1,2452 @@
+<gconfschemafile>
+    <schemalist>
+
+      <schema>
+        <key>/schemas/apps/window_list_applet/prefs/display_all_workspaces</key>
+        <owner>window-list-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Show windows from all workspaces</short>
+          <long>
+            If true, the window list will show windows from all workspaces.
+            Otherwise it will only display windows from the current workspace.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Vertoon vensters van alle werkruimtes</short>
+          <long>Indien as waar gemerk, sal die vensterlys alle vensters van alle werkruimtes vertoon. Andersins word slegs vensters van die huidige werkruimte vertoon.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>أظهر النوافذ من جميع مساحات العمل</short>
+          <long>إذا كان &quot;صحيح&quot;، ستعرض قائمة النوافذ نوافذ جميع مساحات العمل. أو أنّها ستعرض نوافذ مساحة العمل الحاليّة فقط.</long>
+        </locale>
+
+        <locale name="as">
+          <short>সমস্ত কৰ্মক্ষেত্ৰৰ সংযোগক্ষেত্ৰ প্ৰদৰ্ছন কৰা হ&apos;ব</short>
+          <long>মান সত্য হ&apos;লে, সংযোগক্ষেত্ৰ তালিকাত সমস্ত কৰ্মক্ষেত্ৰৰ সংযোগক্ষেত্ৰ প্ৰদৰ্শিত হ&apos;ব  । অন্যথা অকল বৰ্তমান কৰ্মক্ষেত্ৰৰ সংযোগক্ষেত্ৰসমূহ প্ৰদৰ্শিত হ&apos;ব  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Amosar ventanes de tolos espacios de trabayu</short>
+          <long>Si ye «true», la llista de ventanes amosará les ventanes de toles arees de trabayu, n&apos;otru casu, amosará ventanes namái pal área de trabayu autual.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Bütün iş sahələrindəki pəncərələri göstər</short>
+          <long>Seçilidirsə, pəncərə siyahısı bütün iş sahələrindəki pəncərələri, əks halda ancaq hazırkı iş sahəsindəki pəncərələri göstərəcək.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Паказваць вокны ўсіх працоўных прастораў</short>
+          <long>Калі ісьціна, сьпіс вокнаў будзе паказваць вокны з усіх працоўных прастораў. Інакш ён будзе паказваць толькі вокны бягучай працоўнай прасторы.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Pakazvaj vokny z usich rabočych abšaraŭ</short>
+          <long>Akreślivaje, ci śpis zadańniaŭ pakazvaje vokny z usich rabočych abšaraŭ. U advarotnym vypadku buduć pakazanyja tolki vokny ź dziejnaha abšaru.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Показване на прозорците от всички работни плотове.</short>
+          <long>Ако е истина, списъкът с прозорци показва прозорците от всички работни места. В противен случай — само прозорците от текущото работно място.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>সমস্ত কর্মপরিসরের উইন্ডো প্রদর্শিত হবে</short>
+          <long>মান true হলে, উইন্ডো তালিকায় সমস্ত কর্মপরিসরের উইন্ডো প্রদর্শিত হবে। অন্যথায়, শুধুমাত্র বর্তমান কর্মপরিসরের উইন্ডোগুলি প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>সমস্ত কর্মক্ষেত্রের উইন্ডো প্রদর্শন করা হবে</short>
+          <long>মান true (সত্য) হলে, উইন্ডো তালিকায় সমস্ত কর্মক্ষেত্রের উইন্ডো প্রদর্শিত হবে। অন্যথা শুধুমাত্র বর্তমান কর্মক্ষেত্রের উইন্ডোগুলি প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Diskouez prenistri an holl zachennoù-labour</short>
+          <long>Mar gwir e vo diskouezet ar prenistri diwar an holl dachennoù labour gant roll ar prenestroù. A-hend-all e skrammo prenestroù diouzh an dachenn labour vremanel hepken.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Prikaži prozore sa svih radnih površina</short>
+          <long>Ukoliko je ovo uključeno, popis prozora prikazuje prozore sa svih radnih površina, a inače samo sa tekuće.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Mostra les finestres de tots els espais de treball</short>
+          <long>Si és cert, la llista de tasques mostrarà finestres de tots els espais de treball. Si no, només mostrarà les finestres de l&apos;espai de treball actual.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Mostra les finestres de tots els espais de treball</short>
+          <long>Si és cert, la llista de tasques mostrarà finestres de tots els espais de treball. Si no, només mostrarà les finestres de l&apos;espai de treball actual.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Çalışma-fezalarınıñ episinden pencerelerni köster</short>
+          <long>Eger doğru ise, pencere cedveli çalışma-fezalarınıñ episiniñ pencerelerini kösterecek. Aksi taqdirde, sadece ağımdaki çalışma-fezasındaki pencerelerni kösterecek.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Zobrazovat okna ze všech pracovních ploch</short>
+          <long>Je-li &quot;true&quot;, zobrazuje seznam oken okna ze všech pracovních ploch. V opačném případě zobrazuje jen okna z aktuální pracovní plochy.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Dangos ffenestri o bob gweithfan</short>
+          <long>Os mae hyn yn wir, fe fydd y rhestr ffenestri yn dangos ffenestri o bob gweithfan; fel arall fe fydd yn dangos ffenestri o&apos;r weithfan gyfredol yn unig.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Vis vinduer fra alle arbejdsområder</short>
+          <long>Hvis sand, viser vindueslisten vinduer fra alle arbejdsområder, ellers vises kun vinduer fra det aktive arbejdsområde.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Auf allen Arbeitsfläche befindliche Fenster anzeigen</short>
+          <long>Falls dieser Schlüssel WAHR ist, zeigt die Fensterliste alle geöffneten Fenster an, einschließlich denen, die sich auf anderen Arbeitsflächen befinden. Andernfalls zeigt sie lediglich die auf der momentan sichtbaren Arbeitsfläche befindlichen Fenster an.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ལཱ་གི་ས་སྒོ་ཆ་མཉམ་ནང་ལས་ སྒོ་སྒྲིག་ཚུ་སྟོན།</short>
+          <long>བདེན་པ་ཨིན་པ་ཅིན་ སྒོ་སྒྲིག་ཐོ་ཡིག་དེ་གིས་ ལཱ་གི་ས་སྒོ་ཆ་མཉམ་ནངལས་ སྒོ་སྒྲིག་ཚུ་སྟོན་འོང་། དེ་མིན་པ་ཅིན་ ད་ལྟོའི་ལཱ་གི་ས་སྒོ་ནང་གི་ སྒོ་སྒྲིག་ཚུ་རྐྱངམ་གཅིག་ བཀྲམ་སྟོན་འབད་འོང་།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Προβάλλει τα παράθυρα από όλους τους χώρους εργασίας</short>
+          <long>Αν αληθές, η λίστα εργασιών θα προβάλλει τα παράθυρα από όλους τους χώρους εργασίας, αλλιώς θα εμφανίζει μόνο τα παράθυρα του τρέχοντος χώρου εργασίας.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑖𐑴 𐑢𐑦𐑯𐑛𐑴𐑟 𐑓𐑮𐑪𐑥 𐑷𐑤 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟</short>
+          <long>𐑦𐑓 𐑑𐑮𐑵, 𐑞 𐑢𐑦𐑯𐑛𐑴 𐑤𐑦𐑕𐑑 𐑢𐑦𐑤 𐑖𐑴 𐑢𐑦𐑯𐑛𐑴𐑟 𐑓𐑮𐑪𐑥 𐑷𐑤 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟. 𐑳𐑞𐑼𐑢𐑲𐑟 𐑦𐑑 𐑢𐑦𐑤 𐑴𐑯𐑤𐑦 𐑛𐑩𐑕𐑐𐑤𐑱 𐑢𐑦𐑯𐑛𐑴𐑟 𐑓𐑮𐑪𐑥 𐑞 𐑒𐑳𐑮𐑩𐑯𐑑 𐑢𐑻𐑒𐑕𐑐𐑱𐑕.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Show windows from all workspaces</short>
+          <long>If true, the window list will show windows from all workspaces. Otherwise it will only display windows from the current workspace.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Show windows from all workspaces</short>
+          <long>If true, the window list will show windows from all workspaces. Otherwise it will only display windows from the current workspace.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Montru fenestrojn de ĉiu laborkadroj</short>
+          <long>Se vera, la fenestrolisto montros la fenestrojn de ĉiuj laborkadroj. Alie ĝi montros nur la fenestrojn de la aktuala laborkadro.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Mostrar las ventanas de todas las áreas de trabajo</short>
+          <long>Si está activada, la lista de ventanas mostrará las ventanas de todas las áreas de trabajo, en otro caso mostrará ventanas sólo para el área de trabajo actual.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Näita kõikide tööalade aknaid</short>
+          <long>Kui märgitud, siis aknaloendis näidatakse kõikide tööalade aknaid, vastasel juhul näidatakse ainult aktiivse tööala aknaid.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Erakutsi laneko area guztietako leihoak</short>
+          <long>Hautatzen bada, laneko area guztietako leihoak ikusiko dira zerrendan. Bestela, uneko laneko areakoak bakarrik ikusiko dira.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>نمایش پنجره‌های همه‌ی فضاهای کاری</short>
+          <long>اگر درست باشد، فهرست پنجره‌ها، پنجره‌های همه‌ی فضاهای کاری را نشان خواهد داد. در غیر این صورت فقط پنجره‌های فضای کاری فعلی را نمایش می‌دهد.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Näytä kaikkien työtilojen ikkunat</short>
+          <long>Jos tosi, niin kaikkien työtilojen ikkunat näkyvät ikkunaluettelossa, muulloin vain nykyisen työtilan ikkunat näkyvät.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Afficher les fenêtres de tous les espaces de travail</short>
+          <long>Si vrai, la liste des fenêtres affiche les fenêtres de tous les espaces de travail, sinon elle n&apos;affiche que les fenêtres de l&apos;espace de travail actuel.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Mostre i barcons di dutis lis arees di lavôr</short>
+          <long>Se impostât a TRUE, ta l&apos;elenco dai barcons a son metûts dentri i barcons di ogni aree di lavôr. In câs contrari dome i barcons da l&apos;aree di lavôr ch&apos;a si sta doprant.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Taispeáin fuinneoga ó gach spás oibre</short>
+          <long>Má tá fíor, taispeánfaidh liosta na fuinneoga fuinneoga ó gach spás oibre. Seachas sin, ní thaispeánfaidh sé ach fuinneoga ó spás oibre reatha.</long>
+        </locale>
+
+        <locale name="gl">
+          <short>Mostrar as xanelas de todos os espazos de traballo</short>
+          <long>Se é true, a lista de xanelas mostrará as xanelas de todos os espazos de traballo. Se non é así, mostrará unicamente as do espazo de traballo actual.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>બધી કામ કરવાની જગ્યામાંથી વિન્ડો દર્શાવો</short>
+          <long>જો ખરુ હોય તો, વિન્ડોની મેનુ બધી કામ કરવાની જગ્યામાંથી બધી વિન્ડો દર્શાવશે. નહતિર એ ફક્ત હાલની કામ કરવાની જગ્યાની વિન્ડો દર્શાવશે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Nuna tagogi daga duk filayenaiki</short>
+          <long>In da gaske, jerin taga zai nuna tagogi daga duk filayen aiki. In ba haka ba, kawai, zai nuna tagogi daga filin aiki da ake kai yanzu.</long>
+        </locale>
+
+        <locale name="he">
+          <short>מציג חלונות מכל סביבות העבודה</short>
+          <long>אם אמת, רשימת החלונות תציג חלונות מכל סביבות העבודה, אחרת היא תציג חלונות מסביבת העבודה הנוכחית.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>सभी कार्यस्थान से विंडोज़ दिखाएँ</short>
+          <long>यदि सत्य है, तो विंडो सूची सभी कार्यस्थान से विंडोज़ दिखाएगा. अन्यथा यह वर्तमान कार्यस्थान से विंडो दिखाएगा.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Prikaži prozore sa svih radnih površina</short>
+          <long>Ukoliko je ovo uključeno, popis prozora prikazuje prozore sa svih radnih površina, a inače samo sa tekuće.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Az összes munkaterület ablakainak megjelenítése</short>
+          <long>Ha be van állítva, az ablaklista az összes munkaterület ablakait tartalmazza, különben csak a jelenlegiét.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Ցույց տալ բոլոր աշխատասեղանների պատուհանները</short>
+          <long>Եթե ճիշտ է, ապա պատուհանների ցանկը ցույց կտա բոլոր աշխատասեղանների պատուհաններ։ Հակառակ դեպքում ցույց կտա միայն ընթացիկ աշխատասեղանի պատուհանները։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Tampilkan semua jendela dari semua area kerja</short>
+          <long>Jika dipilih, daftar jendela program akan menampilkan semua jendela pada semua area kerja. Bila tidak dipilih, yang akan ditampilkan hanyalah semua jendela pada area kerja yang aktif saja.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Gosi windo site na wọkspeesi niile</short>
+          <long>Ọ bụrụ na ọ bụ eziokwu, ndesịta windo ga-egosi windo site na wọkspeesi niile. kama ọ ga-egosi windo sọsọ site na wọkspeesi nọ mgbe ahụ.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Sýna glugga frá öllum vinnusvæðum</short>
+          <long>Ef valið, mun gluggalistinn sýna glugga frá öllum vinnusvæðum. Annars verða aðeins birtir gluggar frá núverandi vinnusvæði.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Mostra le finestre di tutti gli spazi di lavoro</short>
+          <long>Se impostata a VERO, nell&apos;elenco delle finestre sono mostrate le finestre presenti su tutti gli spazi di lavoro. In caso contrario solo quelle dello spazio di lavoro in uso.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>全てのワークスペースのウインドウを表示する</short>
+          <long>TRUE にすると、ウィンドウ一覧に全てのワークスペースのウィンドウを表示します。それ以外は、現在のワークスペースにあるウィンドウのみ表示します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ფანჯრების ყველა სამუშაო გარემოდან ჩვენება</short>
+          <long>თუ მონიშნულია, ფანჯრების სია აჩვენებს არამარტო მიმდინარე გარემოში გახსნილ ფანჯრებს, არამედ ყველა ფანჯრებს სისტემაში არსებული გარემოებებიდან.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳಲ್ಲಿನ ವಿಂಡೋಗಳನ್ನು ತೋರಿಸು</short>
+          <long>ನಿಜವಾದಲ್ಲಿ, ವಿಂಡೋ ಪಟ್ಟಿಯು ಎಲ್ಲಾ ಕಾರ್ಯ ಕ್ಷೇತ್ರಗಳಿಂದ ವಿಂಡೋಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ ಕೇವಲ ಈಗಿನ ಕಾರ್ಯಕ್ಷೇತ್ರದ ವಿಂಡೋಗಳನ್ನು ಮಾತ್ರವೆ ತೋರಿಸಲಾಗುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>모든 작업 공간의 창 보여주기</short>
+          <long>참이면, 모든 작업 공간의 창을 창 표시줄에서 보이고. 거짓이면 현재 작업 공간에 있는 창만 보입니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Nîşandana hemû paceyên qada xebatê</short>
+          <long>Heke rast be, lîsteya paceyan dê paceyan ji hemû qadên xebatê bide nîşandan. heke ne wiha be dê bi tenê paceyan ji qada xebatê ya heyî nîşan bide.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Бардык иш орундарынын терезелерин көрсөтүү</short>
+          <long>Эгер бул орнотулса, терезелер тизмеси учурдагы иш орунунун терезелерин гана эмес, башка бардык иш орундарынын терезелерин чагылдырат.</long>
+        </locale>
+
+        <locale name="li">
+          <short>Tuin vinsters van alle wirkblajer</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Rodyti langus iš visų darbalaukių</short>
+          <long>Jei teigiama, langų saraše bus matomi visi langai iš visų darbalaukių. Priešingu atveju bus rodomi langai iš dabartinės darbalaukio.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Rādīt logus no visām darba vietām</short>
+          <long>Ja šī vērtība ir patiesa, &quot;Logu saraksts&quot; parādīs visus logus no visām darba vietām. Pretējā gadījumā tas parādīs logus tikai no pašreizējās darbvirsmas.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>सबहि कार्यस्थान सँ विंडोज़ देखाबू</short>
+          <long>जँ सत्य अछि तँ विंडो सूची सबहि कार्यस्थान सँ विंडोज़ देखाएत. अन्यथा ई वर्तमान कार्यस्थान सँ विंडो देखाएत.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Asehoy avy amin&apos;ny workspace rehetra ireo fikandrana</short>
+          <long>Raha marina izay voalaza, dia hampiseho ireo fikandrana avy amin&apos;ny workspace rehetra ny lisitry ny fikandrana. Raha tsy izany dia avy amin&apos;ny workspace iasana ihany no hanehoany azy ireo</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Покажи прозорци од сите работни простори</short>
+          <long>Ако ова е точно листата на прозорци ќе ги прикажува сите прозорци на сите екрани за работа, во спротивно ќе ги прикажува прозорците само на тековниот екран.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>എല്ലാ പണിയറകളിലെയും ജാലകങ്ങള്‍ കാണിയ്ക്കുക</short>
+          <long>true എങ്കില്‍, എല്ലാ പണിയറയില്‍ നിന്നും ജാലകത്തിന്റെ പട്ടിക ജാലകങ്ങള്‍ കാണിക്കുന്നു. അല്ലെങ്കില്‍, നിലവിലുള്ള പണിയറയില്‍ നിന്നു മാത്രം ജാലകങ്ങള്‍ കാണിക്കുന്നു.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Бүх ажлын талбарын цонхнуудыг харуулах</short>
+          <long>Хэрэв үнэн бол цонхны жагсаалт нь бүх ажлын талбарын цонхнуудыг үзүүлнэ. Үгүй бол зөвхөн идэвхитэй ажлын  талбарыг харуулна.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>सर्व कार्यक्षेत्रातील पटल दाखवा</short>
+          <long>खरे असल्यास, विंडोची सूची कार्यक्षेत्रातील सर्व पटल दाखवेल. अन्यथा केवळ चालू कार्यक्षेत्रातील विंडो दाखवेल.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Papar tetingkap dari semua ruangkerja</short>
+          <long>Jika ia benar, senarai tetingkap akan memapar tetingkap dari semua ruangkerja. Sebaliknya ia akan memapar tetingkap dari ruangkerja semasa .</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Vis vinduer fra alle arbeidsområder</short>
+          <long>Hvis denne settes til «true» vil oppgavelisten vise vinduer fra alle arbeidsområder. Ellers vil kun vinduer fra aktivt arbeidsområde vises.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>सबै कार्यस्थानबाट सन्झ्याल देखाउनुहोस्</short>
+          <long>ठीक भएमा, सञ्झ्याल सूचीले सबै कार्यस्थानबाट सञ्झ्याल देखाउछ । अन्यथा यसले हालको कार्यस्थानबाट सन्झ्याल मात्र देखाउछ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Vensters van alle werkbladen tonen</short>
+          <long>Indien ingeschakeld toont de vensterlijst alle vensters van alle werkbladen, anders slechts de vensters van het huidige werkblad.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Vis vindauge frå alle arbeidsområda</short>
+          <long>Dersom set til sann, vil vindaugslista visa vindauga på alle arbeidsområda. Elles vil ho berre visa vindauge på det noverande arbeidsområdet.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Bontšha mafesetere go tšwa dikgobeng ka moka tša go šomela</short>
+          <long>Ge eba e le therešo, lelokelelo la lefesetere le tla bontšha mafesetere go tšwa dikgobeng ka moka tša go šomela. Go se bjalo le tla bontšha feela mafesetere go tšwa sekgobeng sa gona bjale sa go šomela.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Visualizar las fenèstras de totes los espacis de trabalh</short>
+          <long>S&apos;es verai, la tièra de fenèstras visualizarà las fenèstras de totes los espacis de trabalh. Si que non, visualizarà pas que las fenèstras del espaci de trabalh actiu.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ସବୁ କାର୍ଯ୍ଯକ୍ଷେତ୍ରରୁ ୱିଣ୍ଡୋ ଦେଖାନ୍ତୁ</short>
+          <long>ସତ ଥିଲେ, ୱିଣ୍ଡୋ ତାଲିକା ସବୁ କାର୍ଯ୍ଯକ୍ଷେତ୍ରରୁ ୱିଣ୍ଡୋ ପ୍ରଦର୍ଶିତ କରେ. ନଚେତ୍ ଏହା କେବଳ ସାମ୍ପ୍ରତିକ କାର୍ଯ୍ଯକ୍ଷେତ୍ରରୁ ୱିଣ୍ଡୋ ପ୍ରଦର୍ଶିତ କରିବ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਸਭ ਵਰਕਸਪੇਸਾਂ ਵਿਚੋਂ ਝਰੋਖੇ ਵੇਖੋ</short>
+          <long>ਜੇ ਇਹ ਸਹੀ ਹੈ, ਤਾਂ ਵਿੰਡੋ ਲਿਸਟ ਸਾਰੇ ਵਰਕਸਪੇਸਾਂ ਦੀਆਂ ਝਰੋਖੇ ਵੇਖਾਵੇਗੀ। ਨਹੀਂ ਤਾਂ ਮੌਜੂਦਾ ਵਰਕਸਪੇਸ ਵਿਚਲੀਆਂ ਝਰੋਖੇ ਨੂੰ ਹੀ ਵੇਖਿਆ ਜਾਵੇਗਾ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Wyświetla okna ze wszystkich obszarów roboczych</short>
+          <long>Określa, czy lista zadań wyświetla okna ze wszystkich obszarów roboczych. W przeciwnym wypadku wyświetlone zostaną tylko okna z bieżącego obszaru.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>د ټولو کارتشو کړکۍ ښودل</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Apresentar janelas de todas as áreas</short>
+          <long>Se verdadeiro, a lista de janelas apresentará janelas de todas as áreas, caso contrário apenas as janelas da área de trabalho actual.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Mostra janelas de todos os espaços de trabalho</short>
+          <long>Se verdadeiro, a lista de tarefas mostrará janelas de todos os espaços de trabalho. Caso contrário, ela exibirá apenas as janelas do espaço de trabalho atual.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Arată ferestrele de pe toate spațiile de lucru</short>
+          <long>La activare lista ferestrelor va arăta ferestrele din toate spațiile de lucru, altfel va arăta doar ferestrele din spațiul curent.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Показывать окна со всех рабочих мест</short>
+          <long>Если этот ключ установлен, список окон будет отображать окна со всех рабочих мест, а не только с текущего.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Zobraziť okná zo všetkých plôch</short>
+          <long>Ak je toto true, zoznam okien zobrazí okná zo všetkých plôch, ináč zobrazí iba okná z aktuálnej plochy.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Pokaži okna vseh delovnih površin</short>
+          <long>Izbrana možnost določa, da bo seznam oken kazal okna vseh delovnih površin, sicer bo kazal le okna trenutne delovne površine.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Shfaq dritaret e të gjitha hapësirave të punës</short>
+          <long>Nëse kjo është e vërtetë,atëhere lista e dritareve do shfaqë dritaret ekzistuese në të gjitha hapësirat e punës, përndryshe do shfaqë vetëm dritaret e hapësirës aktuale të punës.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Прикажи прозоре са свих радних површина</short>
+          <long>Уколико је ово укључено, списак прозора приказује прозоре са свих радних површина, а иначе само са текуће.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Прикажи прозоре са свих радних површина</short>
+          <long>Уколико је ово укључено, списак прозора приказује прозоре са свих радних површина, а иначе само са текуће.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Prikaži prozore sa svih radnih površina</short>
+          <long>Ukoliko je ovo uključeno, spisak prozora prikazuje prozore sa svih radnih površina, a inače samo sa tekuće.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Visa fönster från alla arbetsytor</short>
+          <long>Om detta är sant kommer fönsterlistan att visa fönster från alla arbetsytor. Annars kommer den endast att visa fönster från den aktuella arbetsytan.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>அனைத்து வேலையிடங்களில் உள்ள சாளரங்களை காட்டுக</short>
+          <long>உண்மையெனில் சாளர பட்டியல் எல்லா பணியிடங்களையும் காட்டும், அல்லது இது சாளரத்தின் தற்போதைய பணியிடத்தை மட்டும் காட்டும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>విండోలను అన్ని కార్యక్షేత్రములనుండి చూపుము</short>
+          <long>నిజమైతే,విండో జాబితా అన్ని కార్యక్షేత్రల నుండి విండోలను చూపిస్తుంది. లేదంటే అది ప్రస్తుతకార్యక్షేత్రం నుండి మాత్రమే విండోలను చూపిస్తుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>แสดงหน้าต่างจากพื้นที่ทำงานทั้งหมด</short>
+          <long>ถ้าเลือก รายชื่อหน้าต่างจะแสดงหน้าต่างจากพื้นที่ทำงานทั้งหมด มิฉะนั้นจะแสดงเฉพาะหน้าต่างที่มาจากพื้นที่ทำงานปัจจุบันเท่านั้น</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Bütün çalışma alanlarındaki pencereleri göster</short>
+          <long>Eğer seçiliyse, pencere listesi bütün çalışma alanlarındaki pencereleri gösterecektir. Aksi halde sadece o an kullanılan çalışma alanındaki pencereleri gösterir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Показувати вікна з усіх робочих областей</short>
+          <long>Якщо встановлено, то список вікон показуватиме вікна зі всіх робочих областей, а не лише з поточного.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Barcha ish oʻrinlaridagi oynalarni koʻrsatish</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Барча иш ўринларидаги ойналарни кўрсатиш</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Hiện các cửa sổ trên mọi vùng làm việc</short>
+          <long>Nếu đúng, danh sách cửa sổ sẽ hiển thị các cửa sổ từ mọi vùng làm việc. Nếu sai thì chỉ hiển thị cửa sổ từ vùng làm việc hiện thời.</long>
+        </locale>
+
+        <locale name="wa">
+          <short>Mostrer les purneas di tos les scribannes</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>Bonisa iifestile kuzo zonke izithuba zokusebenza</short>
+          <long>Ukuba yinyaniso, uludwe lwefestile luya kubonakalisa iifestile kuzo zonke izithuba zokusebenza. Ngaphandle koko luya kubonisa iifestile zesithuba sokusebenza sangoku.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Fi àwọn fèrèsé láti gbogbo àwọn ààyè-iṣẹ́ hàn</short>
+          <long>Tó bá jẹ́ òótọ́, àtòjọ fèrèsé á fi àwọn fèrèsé láti inú gbogbo àwọn ààyè-iṣẹ́ hàn. Láì jẹ́ bẹ́ẹ̀,yóò kàn ṣàfihàn àwọn fèrèsé láti inú ààyè-iṣẹ́ lọ́wọ́lọ́wọ́ ni.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>显示所有工作区中的窗口</short>
+          <long>如果为 true，则窗口列表将显示所有工作区的窗口，否则只显示当前工作区中的窗口。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>顯示所有工作區中的視窗</short>
+          <long>如設定為‘true’，「視窗清單」會顯示所有工作區中的視窗，否則只會顯示目前工作區中的視窗。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>顯示所有工作區中的視窗</short>
+          <long>如設定為‘true’，「視窗清單」會顯示所有工作區中的視窗，否則只會顯示目前工作區中的視窗。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Bonisa amafasitela kuzozonke izindawo zokusebenzela</short>
+          <long>Uma kuyiqiniso, uhlu lwamafasitela lizobonisa zonke izindawo zokusebenzela. Ngaphandle kwalokho izotshengisa amafasitela kundawo yokusebenzela yamanje.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/window_list_applet/prefs/group_windows</key>
+        <owner>window-list-applet</owner>
+        <type>string</type>
+        <default>never</default>
+        <locale name="C">
+          <short>When to group windows</short>
+          <long>
+            Decides when to group windows from the same application on the
+            window list. Possible values are "never", "auto" and "always".
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Wanneer om vensters te groepeer</short>
+          <long>Besluit wanneer om vensters van dieselfde toepassing in die vensterlys te groepeer. Moontlike waardes is &quot;never&quot;, &quot;auto&quot; en &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>متى تجمّع النوافذ</short>
+          <long>يقرر متى تجميع نوافذ نفس التطبيق في قائمة النوافذ. القيم الممكنة هي &quot;never&quot;، &quot;auto&quot; و &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="as">
+          <short>সংযোগক্ষেত্ৰ দলবদ্ধ কৰাৰ সময়</short>
+          <long>এটা অনুপ্ৰয়োগৰ বিভিন্ন সংযোগক্ষেত্ৰসমূহ সংযোগক্ষেত্ৰ তালিকাত কোন সময়ত দলবদ্ধ কৰা হ&apos;ব সেইটো নিৰ্ধাৰণ কৰিবলৈ ব্যৱহৃত হয়  ।সম্ভাব্য মান &quot;কেতিয়াও নহয়&quot;, &quot;স্বয়ংক্ৰিয়&quot; আৰু &quot;সদায়ে&quot;  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Cuándo agrupar ventanes</short>
+          <long>Decide cuándo agrupar ventanes pa la mesma aplicación na llista de ventanes. Los valores dables son «never», «auto» y «always».</long>
+        </locale>
+
+        <locale name="az">
+          <short>Pəncərələri qruplama vaxtı</short>
+          <long>Pəncərə Siyahısındakı eyni proqramın pəncərələrinin nə vaxt qruplanacağına qərar verir. Mümkün qiymətlər: &quot;qətiyyən&quot;, &quot;avtomatik&quot; and &quot;həmişə&quot;.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Калі групаваць вокны</short>
+          <long>Вырашае, калі групаваць вокны аднаго й таго ж дастасаваньня ў сьпісе вокнаў. Магчымыя значэньні: &quot;never&quot; (ніколі), &quot;auto&quot; (аўтаматычна) і &quot;always&quot; (заўсёды).</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Kali hrupavać vokny</short>
+          <long>Akreślivaje, kali ŭ śpisie zadańniaŭ vokny adnoj i toj ža aplikacyi pavinny być hrupavanyja. Pravilnyja vartaści: &quot;never&quot; (nikoli), &quot;auto&quot; (aŭtamatyčna) i &quot;always&quot; (zaŭždy).</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Кога да се групират прозорците</short>
+          <long>Определя дали прозорците на една и съща програма да се обединяват в групи в списъка с прозорци. Валидни стойности са „never“ (никога), „auto“ (автоматично) и „always“ (винаги).</long>
+        </locale>
+
+        <locale name="bn">
+          <short>উইন্ডো গ্রুপ করার সময়</short>
+          <long>উইন্ডো তালিকায় একই অ্যাপ্লিকেশনের বিভিন্ন উইন্ডো কোন সময় গ্রুপ করা হবে তা নির্ধারণ করা হয়। সম্ভাব্য মান হলো &quot;কখনো না&quot;, &quot;স্বয়ংক্রিয়&quot; ও &quot;সবসময়&quot;।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>উইন্ডো দলবদ্ধ করার সময়</short>
+          <long>এক অ্যাপ্লিকেশনের বিভিন্ন উইন্ডোগুলি উইন্ডো তালিকার মধ্যে কোন সময়ে দলবদ্ধ করা হবে তা নির্ধারণ করতে ব্যবহৃত হয়।সম্ভাব্য মান &quot;কখনো না&quot;, &quot;স্বয়ংক্রিয়&quot; ও &quot;সর্বদা&quot;।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Pegoulz strollañ ar prenistri</short>
+          <long>Divizout a ra pegoulz kenstrollañ ar prenestroù eus an hevelep arload war roll ar prenestroù. Ar gwerzhioù a vez kavet zo &quot;morse&quot;, &quot;emgefreek&quot; ha &quot;bepred&quot;.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Kada grupisati prozore</short>
+          <long>Određuje kada grupisati prozore iz istog programa na listi prozora. Dozvoljene vrijednosti su &quot;never&quot; (nikad), &quot;auto&quot; (automatski) i &quot;always&quot; (uvijek).</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Quan agrupar les finestres</short>
+          <long>Decideix quan agrupar finestres de la mateixa aplicació a la llista de tasques. Els valors vàlids són «never», «auto» i «always».</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Quan agrupar les finestres</short>
+          <long>Decideix quan agrupar finestres de la mateixa aplicació a la llista de tasques. Els valors vàlids són «never», «auto» i «always».</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Pencerelerniñ ne zaman zümrelendirilecegi</short>
+          <long>Pencere cedvelinde aynı uyğulamadan pencerelerniñ ne zaman zümrelendirilecegine qarar berir. Caiz qıymetler: &quot;never&quot; (asla), &quot;auto&quot; (avtomatik) ve &quot;always&quot; (er zaman).</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Kdy seskupovat okna</short>
+          <long>Určuje, kdy seskupovat okna jedné aplikace v seznamu oken. Možné hodnoty jsou &quot;never&quot;, &quot;auto&quot;, a &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Pryd i grwpio ffenestri</short>
+          <long>Penderfynu pryd i grwpio ffenestri o&apos;r un rhaglen yn y rhestr ffenestri. Mae &quot;never&quot;, &quot;auto&quot; ac &quot;always&quot; yn werthoedd dilys.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Hvornår vinduer skal grupperes</short>
+          <long>Bestemmer hvornår vinduer fra det samme program skal grupperes i vindueslisten. Gyldige værdier er &quot;never&quot;, &quot;auto&quot; og &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Wann Fenster gruppiert werden sollen</short>
+          <long>Dieser Schlüssel legt fest, wann Fenster der selben Anwendung in der Fensterliste gruppiert werden sollen. Zulässige Werte: »never« (nie), »auto« (bei Platzmangel) sowie »always« (immer).</long>
+        </locale>
+
+        <locale name="dz">
+          <short>སྒོ་སྒྲིག་ཚུ་ ནམ་སྡེ་ཚན་བསྡོམ་དགོཔ་ཨིན་ན།</short>
+          <long>སྒོ་སྒྲིག་ཐོ་ཡིག་ནང་ གློག་རིམ་གཅིག་པའི་ནང་ལས་ སྒོ་སྒྲིག་ཚུ་ ནམ་སྡེ་ཚན་བསྡོམ་ནི་ཨིན་ན་ཐག་བཅད། སྲིད་པའི་བེ་ལུསི་ &quot;never&quot;, &quot;auto&quot; དང་ &quot;always&quot;ཚུ་ཨིན།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Πότε θα ομαδοποιούνται τα παράθυρα</short>
+          <long>Αποφασίζει αν θα ομαδοποιούνται παράθυρα από την ίδια εφαρμογή στη λίστα παραθύρων. Έγκυρες τιμές είναι &quot;never&quot;, &quot;auto&quot; και &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑢𐑧𐑯 𐑑 𐑜𐑮𐑵𐑐 𐑢𐑦𐑯𐑛𐑴𐑟</short>
+          <long>𐑛𐑦𐑕𐑲𐑛𐑟 𐑢𐑧𐑯 𐑑 𐑜𐑮𐑵𐑐 𐑢𐑦𐑯𐑛𐑴𐑟 𐑓𐑮𐑪𐑥 𐑞 𐑕𐑱𐑥 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯 𐑪𐑯 𐑞 𐑢𐑦𐑯𐑛𐑴 𐑤𐑦𐑕𐑑. 𐑐𐑪𐑕𐑩𐑚𐑩𐑤 𐑝𐑨𐑤𐑿𐑟 𐑸 &quot;never&quot;, &quot;auto&quot; 𐑯 &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>When to group windows</short>
+          <long>Decides when to group windows from the same application on the window list. Possible values are &quot;never&quot;, &quot;auto&quot; and &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>When to group windows</short>
+          <long>Decides when to group windows from the same application on the window list. Possible values are &quot;never&quot;, &quot;auto&quot; and &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Kiam grupi fenestrojn</short>
+          <long>Decidas kiam grupi fenestrojn de la sama aplikaĵo en la fenestrolisto. Eblaj valoroj estas &quot;neniam&quot;, &quot;aŭtomate&quot; kaj &quot;ĉiam&quot;.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Cuándo agrupar las ventanas</short>
+          <long>Decide cuándo agrupar ventanas para la misma aplicación en la lista de ventanas. Los valores posibles son «never», «auto» y «always».</long>
+        </locale>
+
+        <locale name="et">
+          <short>Millal aknaid grupeerida</short>
+          <long>Määrab, millal grupeerida sama rakenduse aknad aknaloendis. Võimalikud väärtused on mitte kunagi &quot;never&quot;, automaatselt &quot;auto&quot; ja alati &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Noiz elkartu leihoak</short>
+          <long>Aplikazio bereko leihoak noiz elkartu behar diren leiho-zerrendan. Aukerak: &quot;never&quot; (inoiz ere ez), &quot;auto&quot; (automatikoki) eta &quot;always&quot; (beti).</long>
+        </locale>
+
+        <locale name="fa">
+          <short>زمان گروه شدن پنجره‌ها</short>
+          <long>تصمیم می‌گیرد که کی پنجره‌های متعلق به یک برنامه را در فهرست پنجره‌ها گروه کند. مقادیر ممکن عبارتند از «هیچ‌وقت»، «خودکار» و «همیشه».</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Milloin ikkunat ryhmittyvät</short>
+          <long>Määrittelee, milloin saman sovelluksen ikkunat ryhmittyvät ikkunaluettelossa. Käypiä arvoja ovat ”never” (ei koskaan), ”auto” (automaattisesti) ja ”always” (aina).</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Quand grouper les fenêtres</short>
+          <long>Décide de la manière de grouper les fenêtres d&apos;une même application dans la liste des fenêtres. Les valeurs valides sont « never » (jamais), « auto » (automatique) et « always » (toujours).</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Al mostre cuant meti dongje i barcons</short>
+          <long>Al mostre cuant meti dongje i barcons di une stesse aplicazion ta l&apos;elenco dai barcons. Valôrs pussibî a son &quot;never&quot;, &quot;auto&quot; e &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>An t-am fuinneoga a ghrúpáil</short>
+          <long>Socraíonn sé seo an t-am fuinneoga don feidhmchlár chéanna a ghrúpáil ar liosta fuinneog. Tá luachanna incheaptha &quot;never&quot;, &quot;auto&quot; nó &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="gl">
+          <short>Cando agrupar xanelas</short>
+          <long>Decide cando agrupar as xanelas do mesmo aplicativo na lista de xanelas. Os valores posíbeis son &quot;never&quot; (nunca), &quot;auto&quot; (automático) e &quot;always&quot; (sempre).</long>
+        </locale>
+
+        <locale name="gu">
+          <short>વિન્ડોના જૂથ ક્યારે પાડવા</short>
+          <long>વિન્ડોની મેનુ પર એક જ કાર્યક્રમમાંથી વિન્ડોના જૂથો કયારે પાડવા તે નક્કી કરે છે. &quot;ક્યારેય નહિ&quot;, &quot;આપોઆપ&quot; અને &quot;હંમેશા&quot; તેની શક્ય કિંમતો છે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Lokacin da za&apos;a iya kasa tagogi cikin ƙungiyoyi</short>
+          <long>Yana yanke shawarar lokacin da za&apos;a kasa tagogi cikin ƙungiyoyi daga shirin ayuka guɗa, a kan jerin tagan. Kima masu yiwu sune &quot;kar a taɓa&quot;, &quot;farat ɗaya&quot; da &quot;kullum&quot;.</long>
+        </locale>
+
+        <locale name="he">
+          <short>מתי לקבץ חלונות</short>
+          <long>מחליט מתי לקבץ חלונות של אותו הישום ברשימת החלונות. ערכים אפשריים הם &quot;never&quot;, &quot;auto&quot; וגם &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>विंडोज़ को कब समूहबद्ध करें</short>
+          <long>तय करता है कि विंडो को कब समूह बद्ध करें विंडो सूची के एक ही प्रकार के अनुप्रयोगों में से. सही मूल्य हैं &quot;कभी नहीं&quot;, &quot;स्वचालित&quot; तथा &quot;हमेशा&quot;.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Kada grupirati prozore</short>
+          <long>Određuje kada grupirati prozore iz istog programa na listi prozora. Dozvoljene vrijednosti su &quot;never&quot; (nikad), &quot;auto&quot; (automatski) i &quot;always&quot; (uvijek).</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Mikor legyenek az ablakok csoportosítva</short>
+          <long>Megadja, mikor csoportosítsa az Ablaklista kisalkalmazás egyazon alkalmazás ablakait. Lehetséges értékek „never” (soha), „auto”, és „always” (mindig).</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Երբ խմբավորել պատուհանները</short>
+          <long>Որոշում է, թե երբ խմբավորել միատեսակ ծրագրերի պատուհանները Պատուհանների ցանկում։ Հնարավոր արժեքներն են &quot;never&quot;, &quot;auto&quot; և &quot;always&quot;։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Kriteria pengelompokkan jendela program</short>
+          <long>Tentukan apakah jendela program akan dikelompokkan berdasarkan jenis yang sama atau tidak. Pilih antara &quot;never&quot;, &quot;auto&quot; atau &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Mgbe a ga-ekewasị windo</short>
+          <long>Kpebie mgbe ị ga-ekewasị windo site n&apos;otu usoroiheomume ahụ ná ndesịta windo ahụ. uru dị mmenwu bụ &quot;never&quot;, &quot;auto&quot; na &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Hvenær safna skal gluggum saman</short>
+          <long>Tilgreinir hvenær safna eigi saman gluggum sama forrits í gluggalistanum. Möguleg gildi eru „aldrei‟, „sjálfvirkt‟ og „alltaf‟.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Indica quando raggruppare le finestre</short>
+          <long>Indica quando raggruppare le finestre di una stessa applicazione nell&apos;elenco delle finestre. Valori ammessi sono &quot;never&quot;, &quot;auto&quot; e &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>ウインドウをグループ化する時</short>
+          <long>ウィンドウ一覧にある同じアプリをいつグループ化するかを指定します。指定可能な値: &quot;never&quot;, &quot;auto&quot;, &quot;always&quot;</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ფანჯრების დაჯგუფება</short>
+          <long>წყვეტს დააჯგუფოს თუ არა ერთი და იმავე პროგრამიდან წარმოშობილი ფანჯრები. შესაძლებელი მნიშვნელობებია &quot;არასდროს&quot;, &quot;ავტო&quot; და &quot;ყოველთვის&quot;.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ವಿಂಡೋಗಳನ್ನು ಯಾವಾಗ ಗುಂಪುಗೂಡಿಸಬೇಕು</short>
+          <long>ವಿಂಡೋ ಪಟ್ಟಿಯಲ್ಲಿನ ಅನ್ವಯಗಳ ವಿಂಡೋಗಳನ್ನು ಯಾವಾಗ ಗುಂಪುಗೂಡಿಸಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳು &quot;ಎಂದಿಗೂ ಬೇಡ&quot;, &quot;ತಾನಾಗಿಯೆ&quot; ಹಾಗು &quot;ಯಾವಾಗಲೂ&quot; ಆಗಿರುತ್ತವೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>창을 모을 상황</short>
+          <long>언제 같은 프로그램의 창을 창 표시줄에서 모을 것인지 결정합니다. 쓸 수 있는 값은 &quot;never&quot;, &quot;auto&quot; 그리고 &quot;always&quot;입니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Kengî pace tên komkirin</short>
+          <long>Biryar dide bo komkirina paceyan ji heman sepana lîsteya paceyan.nirxên çalak &quot;dest pê bike&quot;, &quot;bixweber&quot; û &quot;herdem&quot;.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Терезелерди топторго бөлүүдө</short>
+          <long>Терезелер тизмесинде бир иштеменин терезелерин топтоону аныктайт. Мүмкүн болгон маанилер &quot;эч качан&quot;, &quot;автоматтык&quot; жана &quot;дайыма&quot;.</long>
+        </locale>
+
+        <locale name="li">
+          <short>Wen vinsters gegróppeerd waere</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Kada grupuoti langus</short>
+          <long>Nusprendžia, kada langų sąraše sugrupuoti tos pačios programos langus. Galimos reikšmės yra „never“, „auto“ and „always“.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Kad grupēt logus</short>
+          <long>Lemj, kad grupēt vienas programmas logus &quot;Logu sarakstā&quot;. Pieļaujamās  vērtības ir &quot;never&quot;, &quot;auto&quot; un &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>विंडोज़केँ कखन समूहबद्ध करू</short>
+          <long>तय करैत अछि जे विंडोकेँ कखन समूह बद्ध करू विंडो सूची क&apos; एकटा प्रकार क&apos; अनुप्रयोमे सँ. सही मूल्य अछि &quot; कहियो नहि&quot;, &quot;स्वचालित&quot; आओर &quot; हरदम &quot;.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Ny fotoana amondronana ireo fikandrana</short>
+          <long>Manapaka hoe rahoviana no avondrona ao anatin&apos;ny lisitry ny fikandrana ny fikandran&apos;ny rindran&apos;asa iray. &quot;never&quot;, &quot;auto&quot; and &quot;always&quot; no sanda azo ampiasaina.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Кога да групира прозорци</short>
+          <long>Одлучува дали да ги групира прозорците од иста апликација во листата на прозорци. Може да стои „никогаш“, „автоматски“ и „секогаш“.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ജാലകങ്ങള്‍ എപ്പോള്‍ കൂട്ടമാക്കണം</short>
+          <long>ജാലകത്തിന്റെ പട്ടികയില്‍ ഒരോ പ്രയോഗത്തില്‍ നിന്നും എപ്പോള്‍ ജാലകം ഗ്രൂപ്പ് ചെയ്യണമെന്നു് നിശ്ചയിക്കുന്നു. സാധ്യമായ മൂല്ല്യങ്ങള്‍: &quot;ഒരിക്കലുമില്ല&quot;, &quot;ഓട്ടോ&quot; , &quot;എപ്പോഴും&quot;.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Цонхны бүлэглэлд</short>
+          <long>Цонхны жагсаалтад зарим програмын цонхнуудыг бүлэглэхээр шийдэх. Боломжит утгууд: &quot;хэзээ ч үгүй&quot;, &quot;автомат&quot; ба &quot;үргэлж&quot;.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>चौकटींचे गट कधी करावे</short>
+          <long>विंडोतील सूचीप्रमाणे तत्सम अनूप्रयोग करणारे विंडोचे गट कधी करायचे ते ठरविते सम्भाव्य मूल्य &quot;never&quot;, &quot;auto&quot; व &quot;always&quot; यानुरूप आहेत.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Bila mengumpul tetingkap</short>
+          <long>Menentukan bila mengumpulkan tetingkap dari aplikasi sama pada senarai tetingkap. Nilai yang sah adalah &quot;tidak sekali&quot;, &quot;auto&quot; dan &quot;sentiasa&quot;.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Når skal vinduer grupperes</short>
+          <long>Bestemmer når vinduer fra samme program skal grupperes i oppgavelisten. Mulige verdier er «never», «auto» og «always».</long>
+        </locale>
+
+        <locale name="ne">
+          <short>सञ्झ्याललाई समूहकृत गर्दा</short>
+          <long>सञ्झ्याल सूचीमा उस्तै अनुप्रयोगबाट कहिले समूह बनाउने निर्णय गर्दछ । सम्भावित मान &quot;कहिले पनि&quot;, &quot;स्वचालित&quot; र &quot;सधैँ&quot; हुन् ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Wanneer vensters te groeperen</short>
+          <long>Bepaalt waneer vensters van eenzelfde toepassing op de vensterlijst worden gegroepeerd. Geldige waarden zijn: ‘never’, ‘auto’, en ‘always’.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Når vindauge skal setjast i grupper</short>
+          <long>Styrer når vindauge frå same program skal setjast i gruppe på vindaugelista. Moglege verdiar er «never», «auto» og «always».</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Ke neng mo o swanetšego go dira mafesetere dihlopha</short>
+          <long>E phetha gore ke neng mo e swanetšego go dira mafesetere dihlopha go tšwa tirišong e swanago lelokelelong la lefesetere. Dika tše kgonegago ke &quot;le gatee&quot;, &quot;itiragalelago&quot; le &quot;ka mehla&quot;.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Quand gropar las fenèstras</short>
+          <long>Decidís quora cal gropar las fenèstras de la meteissa aplicacion dins la tièra de fenèstras. Las valors possiblas son &quot;jamai&quot;, &quot;auto&quot; e &quot;totjorn&quot;.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ୱିଣ୍ଡୋଗୁଡି଼କୁ କେତେବେଳେ ସମୂହିତ କରାଯିବ</short>
+          <long>ସ୍ଥିର କରେ ଗୋଟିଏ ପ୍ରୟୋଗର ୱିଣ୍ଡୋଗୁଡି଼କ କେତେବେଳେ ୱିଣ୍ଡୋ ତାଲିକାରେ ସମୂହିତ କରାଯିବ. ସାମ୍ଭାବ୍ଯ ମୂଲ୍ଯ  ହେଲା &quot;never&quot;, &quot;auto&quot; and &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਝਰੋਖੇ ਗਰੁੱਪ ਕਦੋਂ ਬਣਾਉਣਾ ਹੈ</short>
+          <long>ਵਿੰਡੋ ਲਿਸਟ ਵਿੱਚ ਇਕੋ ਕੰਮ ਦੇ ਵਿੰਡੋ ਦਾ ਗਰੁੱਪ ਕਦੋਂ ਬਣਾਉਣਾ ਹੈ, ਇਹ ਦੱਸੋ। ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਕਦੇ ਨਹੀਂ&quot;, &quot;ਆਟੋ&quot; ਅਤੇ &quot;ਹਮੇਸ਼ਾ&quot;।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Kiedy grupować okna</short>
+          <long>Określa, kiedy na liście zadań okna tego samego programu powinny być grupowane. Poprawnymi wartościami są: &quot;never&quot; (nigdy), &quot;auto&quot; (automatycznie) oraz &quot;always&quot; (zawsze).</long>
+        </locale>
+
+        <locale name="ps">
+          <short>کله بايد کړکۍ ډله شي</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Quando agrupar janelas</short>
+          <long>Decide quando agrupar janelas da mesma aplicação na lista de janelas. Valores válidos são &quot;never&quot;, &quot;auto&quot; e &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Quando agrupar janelas</short>
+          <long>Decide quando agrupar janelas de um mesmo aplicativo na lista de janelas. Valores válidos são &quot;never&quot; (nunca), &quot;auto&quot; (auto) e &quot;always&quot; (sempre).</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Când sunt ferestrele grupate</short>
+          <long>Decide când să grupeze ferestrele din aceeași aplicație în lista ferestrelor. Valorile valide sunt „never”, „auto” și „always”.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Группировать ли окна</short>
+          <long>Определяет, когда группировать окна одинаковых приложений в списке окон. Допустимые значения: «never», «auto» и «always».</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Kedy zoskupovať okná</short>
+          <long>Určuje, či sa majú okná jednej aplikácie zoskupiť v zozname úloh. Platné hodnoty sú &quot;never&quot; (nikdy), &quot;auto&quot; (automaticky) a &quot;always&quot; (vždy).</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Kdaj naj se okna združujejo skupine?</short>
+          <long>Določi, kdaj se v seznamu oken, okna istega programa združujejo. Veljavne vrednosti so &quot;nikoli&quot;, &quot;samodejno&quot; in &quot;vedno&quot;.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Kur duhen grupuar dritaret</short>
+          <long>Vendos kur të grupojë dritaret e të njëjtit program në listën e dritareve. Vlerat e mundëshme janë &quot;asnjëherë&quot;, &quot;auto&quot; dhe &quot;gjithmonë&quot;.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Када груписати прозоре</short>
+          <long>Одређује када груписати прозоре из истог програма у Списку прозора. Дозвољене вредности су „never“ (никад), „auto“ (аутоматски) и „always“ (увек).</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Када груписати прозоре</short>
+          <long>Одређује када груписати прозоре из истог програма у Списку прозора. Дозвољене вриједности су „never“ (никад), „auto“ (аутоматски) и „always“ (увијек).</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Kada grupisati prozore</short>
+          <long>Određuje kada grupisati prozore iz istog programa u Spisku prozora. Dozvoljene vrednosti su „never“ (nikad), „auto“ (automatski) i „always“ (uvek).</long>
+        </locale>
+
+        <locale name="sv">
+          <short>När fönster ska grupperas</short>
+          <long>Avgör när fönster från samma program ska grupperas i fönsterlistan. Giltiga värden är &quot;never&quot; (aldrig), &quot;auto&quot; (auto) och &quot;always&quot; (alltid).</long>
+        </locale>
+
+        <locale name="ta">
+          <short>எப்பொழுது சாளரங்களை தொகுப்பது</short>
+          <long>சாளரங்களை ஒரே பயன்பாட்டின் குழுக்களாக எப்போது ஆக்குவது என்பதை தீர்மானிக்கும். மதிப்புகள் &quot;எப்போதுமில்லை&quot;, &quot;தானாக&quot; மற்றும் &quot;எப்போதும்&quot;</long>
+        </locale>
+
+        <locale name="te">
+          <short>విండోలను ఎప్పుడు సమూహం చేయాలి</short>
+          <long>విండోజాబితాలో ఒకే రకమైన అప్లకేషన్ నుండి వచ్చిన విండోలను ఎప్పుడు సమూహం చేయాలో నిర్ణయిస్తుంది. సాధ్యమైన విలువలు &quot;ఎప్పటికివద్దు&quot;, &quot;స్వయంచాలకంగా&quot; మరియు &quot;ఎల్లప్పుడు&quot;.</long>
+        </locale>
+
+        <locale name="th">
+          <short>เวลาที่จะจัดกลุ่มหน้าต่าง</short>
+          <long>กำหนดว่าเมื่อใดจะจัดกลุ่มหน้าต่างที่มาจากโปรแกรมเดียวกันในรายชื่อหน้าต่าง ค่าที่เป็นไปได้คือ &quot;never&quot;, &quot;auto&quot; และ &quot;always&quot;</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Pencerelerin ne zaman gruplanacağı</short>
+          <long>Pencere listesinde aynı uygulamaların ne zaman gruplanacağına karar verir. Geçerli değerler  &quot;hiçbir zaman&quot;, &quot;otomatik&quot; ve &quot;herzaman&quot; dır.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Умови групування вікон</short>
+          <long>Визначає правила групування вікон програм у списку вікон. Можливими значеннями є &quot;never&quot;, &quot;auto&quot; і &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Khi nên xếp nhóm cửa sổ</short>
+          <long>Quyết định khi nào xếp nhóm các cửa sổ từ cùng ứng dụng trên danh sách cửa sổ. Giá trị hợp lệ là &quot;never&quot; (không bao giờ), &quot;auto&quot; (tự động) và &quot;always&quot; (luôn luôn).</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Iifestile zibekwa nini ngokwamaqela</short>
+          <long>Yenza isigqibo sokuba iifestile zenkqubo enye yekhompyutha zibekwa nini ngokwamaqela kuludwe lweefestile. Amaxabiso anako ukufumaneka ngala &quot;never&quot;, &quot;auto&quot; ngokunjalo &quot;always&quot;.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Ìgbà tó yẹ ká pín àwọn fèrèsé</short>
+          <long>Ń sọ ìgbà tí a óò pín àwọn fèrèsé láti inú ìṣàmúlò-ètò kan náà lórí àtòjọ fèrèsé.Àwọn fálù tó lè jẹ́ ni &quot;rárá&quot;, &quot;aládàáṣe&quot; àti &quot;ìgbà gbogbo&quot;.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>何时对窗口编组</short>
+          <long>决定何时在窗口列表中将同一个应用程序的窗口编组。可供选择的值有“从不”、“自动”和“总是”。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>何時合併同類的視窗</short>
+          <long>決定是否在「視窗清單」中合併同類應用程式的視窗。有效的值為“never”、“auto”及 “always”。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>何時合併同類的視窗</short>
+          <long>決定是否在「視窗清單」中合併同類應用程式的視窗。有效的值為“never”、“auto”及 “always”。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Kufanele kubuthwe amafasitela nini</short>
+          <long>Nquma ukubuthanisa amafasitela kusisebenziso esinye kuhlu lwamafasitela. Amanani angenzeka &quot;ngeke&quot;, &quot;kuzenzakalelayo&quot; no &quot;njalo-nje&quot;.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/window_list_applet/prefs/move_unminimized_windows</key>
+        <owner>window-list-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <locale name="C">
+          <short>Move windows to current workspace when unminimized</short>
+          <long>
+            If true, then when unminimizing a window, move it to the
+            current workspace. Otherwise, switch to the workspace of
+            the window.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Skuif vensters na huidige werkruimte wanneer hulle onverklein word</short>
+          <long>Indien as waar gemerk, word &apos;n venster onverklein word, word dit na die huidige werkruimte geskuif. Andersins word die venster se werkruimte gebruik.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>انقل النوافذ إلى مساحة العمل الحالية عند إلغاء تصغيرها</short>
+          <long>إذا كان &quot;صحيح&quot;، ستنقل النافذة إلى مساحة العمل الحاليّة عند إلغاء تصغيرها. و إلا فسيقع التحوّل إلى مساحة عمل النافذة.</long>
+        </locale>
+
+        <locale name="as">
+          <short>সৰু কৰা সংযোগক্ষেত্ৰ ডাঙৰ কৰাৰ সময়ত বৰ্তমান কৰ্মক্ষেত্ৰলৈ স্থানান্তৰ কৰা হ&apos;ব</short>
+          <long>মান সত্য হ&apos;লে, সৰু কৰা সংযোগক্ষেত্ৰ ডাঙৰ কৰাৰ সময়ত বৰ্তমান কৰ্মক্ষেত্ৰত স্থাপন কৰা হ&apos;ব  । অন্যথা, সংযোগক্ষেত্ৰৰ মৌলিক কৰ্মক্ষেত্ৰ প্ৰদৰ্শিত হ&apos;ব  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Mover ventanes al espaciu de trabayu autual cuando nun tean minimizaes</short>
+          <long>Si es «true», al restaurar una ventana, la mueve al área de trabajo actual. En otro caso, cambia al área de trabajo de la ventana.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Pəncərələri geri böyüdərkən hazırkı iş sahəsinə daşı</short>
+          <long>Seçilidirsə, pəncərələri geri böyüdərkən pəncərələr hazırkı iş sahəsinə daşınacaq, əks halda pəncərənin olduğu iş sahəsinə daşınacaq.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Перамяшчаць вокны ў бягучую працоўную прастору падчас разгортваньня</short>
+          <long>Калі ісьціна, падчас разгортваньня вакна яно перамяшчаецца ў бягучую працоўную прастору. Інакш, адбываецца пераключэньне на працоўную прастору вакна.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Viartańnie voknaŭ na dziejnym rabočym abšary</short>
+          <long>Akreślivaje, ci padčas viartańnia vakno pieranosicca na dziejny rabočy abšar. U advarotnym vypadku budzie źmienieny rabočy abšar vakna.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Преместване на прозорците на текущия работен плот при възстановяване от минимизирано състояние</short>
+          <long>Ако е истина, възстановеният минимизиран прозорец ще се появи на текущия работен плот. В противен случай — на работния плот където е бил преди да е минимизирането.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>ছোট করা উইন্ডো বড় করার সময় বর্তমান কর্মপরিসরে পরিবর্তন করুন</short>
+          <long>মান true হলে, ছোট করা উইন্ডো বড় করার সময় বর্তমান কর্মপরিসরে সরান। অন্যথায়, উইন্ডোটির কর্মপরিসরে পরিবর্তন করুন।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>ছোট করা উইন্ডো বড় করার সময় বর্তমান কর্মক্ষেত্রে স্থানান্তর করা হবে</short>
+          <long>মান true (সত্য) হলে, ছোট করা উইন্ডো বড় করার সময় বর্তমান কর্মক্ষেত্রে স্থাপন করা হবে। অন্যথা, উইন্ডোটির মৌলিক কর্মক্ষেত্র প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Kas ar prenistri war an dachenn labour dibabet pa vezont divihanaet</short>
+          <long>Mar gwir, pa vez brasaet ur prenestr ez eo dilec&apos;hiet war an dachenn labour vremanel. A-hend-all e trec&apos;haol betek tachenn labour ar prenestr.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Prebaci umanjene prozore na trenutnu radnu površinu pri prikazu</short>
+          <long>Ukoliko je ovo uključeno, kada prikazujete umanjeni prozor, prebaci ga na tekuću radnu površinu. Inače, prebacuje na njegovu matičnu radnu površinu. </long>
+        </locale>
+
+        <locale name="ca">
+          <short>Mou les finestres a l&apos;espai de treball actual en restaurar</short>
+          <long>Si és cert, en desminimitzar una finestra, es mou a l&apos;espai de treball actual. Si no, canvia a l&apos;espai de treball de la finestra.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Mou les finestres a l&apos;espai de treball actual en restaurar</short>
+          <long>Si és cert, en desminimitzar una finestra, es mou a l&apos;espai de treball actual. Si no, canvia a l&apos;espai de treball de la finestra.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Ğayrı asğariyleştirilgen pencerelerni ağımdaki çalışma-fezasına taşı</short>
+          <long>Eger doğru ise, bir pencere ğayrı asğariyleştirilgende ağımdaki çalışma-fezasına taşılır. Aksi taqdirde, pencereniñ çalışma-fezasına almaşılır.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Při obnovení minimalizovaných oken je přesunout na aktuální pracovní plochu</short>
+          <long>Je-li &quot;true&quot;, okno se při zrušení minimalizace přesune na aktuální pracovní plochu. V opačném případě se přepne na pracovní plochu okna.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Symud ffenestri sy&apos;n cael eu datleihau i&apos;r weithfan gyfredol</short>
+          <long>Os yn wir, yna caiff ffenest ei symud i&apos;r weithfan gyfredol pan gaiff ei ddatleihau. Fel arall, newidir at weithfan y ffenest.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Flyt vinduer til det aktive arbejdsområde ved gendannelse</short>
+          <long>Hvis sand, bringes et vindue der bliver gendannet efter en minimering, til det aktive arbejdsområde. Ellers skiftes til arbejdsområdet for vinduet.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Fenster beim Wiederherstellen auf momentan sichtbare Arbeitsfläche verschieben</short>
+          <long>Fall dieser Schlüssel WAHR ist, wird ein Fenster auf die sichtbare Arbeitsfläche verschoben, wenn es wiederhergestellt wird. Andernfalls wird zur Arbeitsfläche gewechselt, auf der sich das Fenster befindet.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>སྒོ་སྒྲིག་ཚུ་ མར་ཕབ་བཤོལ་བའི་སྐབས་ལུ་ ད་ལྟོའི་ལཱ་གི་ས་སྒོ་ལུ་ སྤོ་བཤུད་འབད།</short>
+          <long>བདེན་པ་ཨིན་པ་ཅིན་ སྒོ་སྒྲིག་ཅིག་གི་ཚད་ མར་ཕབ་བཤོལཝ་ད་ ད་ལྟོའི་ལཱ་གི་ས་སྒོ་ལུ་ སྤོ་བཤུད་འབད། དེ་མིན་པ་ཅིན་ སྒོ་སྒྲིག་གི་ ལཱ་གི་ས་སྒོ་ལུ་ སོར་བསྒྱུར་འབད།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Μετακίνηση παραθύρων στην τρέχουσα περιοχή εργασίας κατά την επαναφορά τους</short>
+          <long>Αν αληθές, κατά την επαναφορά παραθύρου, θα το εμφανίζει στον τρέχοντα χώρο εργασίας. Αλλιώς, αλλαγή στο χώρο εργασίας του παραθύρου.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑥𐑵𐑝 𐑢𐑦𐑯𐑛𐑴𐑟 𐑑 𐑒𐑳𐑮𐑩𐑯𐑑 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑢𐑧𐑯 𐑳𐑯𐑥𐑦𐑯𐑦𐑥𐑲𐑟𐑛</short>
+          <long>𐑦𐑓 𐑑𐑮𐑵, 𐑞𐑧𐑯 𐑢𐑧𐑯 𐑳𐑯𐑥𐑦𐑯𐑦𐑥𐑲𐑟𐑦𐑙 𐑩 𐑢𐑦𐑯𐑛𐑴, 𐑥𐑵𐑝 𐑦𐑑 𐑑 𐑞 𐑒𐑳𐑮𐑩𐑯𐑑 𐑢𐑻𐑒𐑕𐑐𐑱𐑕. 𐑳𐑞𐑼𐑢𐑲𐑟, 𐑕𐑢𐑦𐑗 𐑑 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑝 𐑞 𐑢𐑦𐑯𐑛𐑴.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Move windows to current workspace when unminimized</short>
+          <long>If true, then when unminimizing a window, move it to the current workspace. Otherwise, switch to the workspace of the window.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Move windows to current workspace when unminimised</short>
+          <long>If true, then when unminimising a window, move it to the current workspace. Otherwise, switch to the workspace of the window.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Movu fenestrojn al la aktuala tabulo kiam malminimumigita</short>
+          <long>Se vera, kiam fenestro estas  malminimumigata  movu ĝin al la aktuala laborkadro. Alie transŝaltu al la laborkadro de la fenestro.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Mover las ventanas al área de trabajo actual al ser restauradas</short>
+          <long>Si está activada, al restaurar una ventana, la mueve al área de trabajo actual. En otro caso, cambia al área de trabajo de la ventana.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Tõsta aknad minimeeritud olekust taastamisel aktiivsesse tööalasse</short>
+          <long>Kui märgitud, siis tõstetakse aken minimeeritud olekust taastamisel aktiivsesse tööalasse. Vastasel korral vahetatakse tööala taastatava akna tööala vastu.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Leheneratzean, eraman leihoak uneko laneko areara</short>
+          <long>Hautatzen bada, leiho bat leheneratzen denean, uneko laneko arean azalduko da. Bestela, leihoari dagokion laneko areara aldatuko da.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>انتقال پنجره‌ها به فضای کاری فعلی هنگامی که حداقل می‌شوند</short>
+          <long>اگر درست باشد، موقع ناحداقل کردن یک پنجره، آن را به فضای کاری فعلی منتقل می‌کند. در غیر این صورت، فضای کاری را به فضای حاوی پنجره تعویض خواهد کرد.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Siirrä ikkunat nykyiseen työtilaan palautettaessa</short>
+          <long>Jos tosi, niin pienennetyn ikkunan palauttaminen siirtää sen nykyiseen työtilaan. Muulloin siirrytään ikkunan työtilaan.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Déplacer les fenêtres dans l&apos;espace de travail actuel lorsqu&apos;elles sont déminimisées</short>
+          <long>Si vrai, quand une fenêtre est déminimisée, elle est affichée dans l&apos;espace de travail actuel, sinon l&apos;affichage bascule vers l&apos;espace de travail de la fenêtre.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Bog fuinneoga ar spás oibre reatha agus iad dí-íoslaghdaithe</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Mover as xanelas ao espazo de traballo actual ao restaurar</short>
+          <long>Se é true, ao restaurar unha xanela minimizada, aparecerá no espazo de traballo actual. Se non é así, mostrarase o espazo de traballo orixinal da xanela.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>મોટી કરવા પર વિન્ડોને હાલની કામ કરવાની જગ્યા પર મોકલો</short>
+          <long>જો ખરુ હોય, તો વિન્ડોને ન્યૂનતમ સ્થિતિમાંથી બદલતી વખતે હાલની કામ કરવાની જગ્યામાં ખસેડો. નહિંતર, હાલની કામ કરવાની વિન્ડો પર જાઓ.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Motsa tagogi zuwa filinaiki da ake kai yanzu idan an cire tsuke</short>
+          <long>In da gaske, ka motsa shi zuwa filin aiki da kake kai yanzu, idan kana cire tsukewa ga taga. Idan ba haka ba, sai ka sauya zuwa filin aiki na tagan.</long>
+        </locale>
+
+        <locale name="he">
+          <short>העבר את החלונות לסביבת העבודה הנוכחית כאשר הם מוחזרים</short>
+          <long>אם אמת, כאשר מחזירים חלון, מעבירים אותו לסביבת העבודה הנוכחית. אחרת, משנים לסביבת העבודה של החלון.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>बड़ा करने पर विंडोज़ को वर्तमान कार्यस्थान में ले जाएँ</short>
+          <long>यदि सत्य है, तो विंडो बड़ा करने पर वर्तमान कार्यस्थान पर खिसकाएगा, अन्यथा विंडो के कार्यस्थान को स्विच करेगा.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Prebaci umanjene prozore na trenutnu radnu površinu pri prikazu</short>
+          <long>Ukoliko je ovo uključeno, kada prikazujete umanjeni prozor, prebaci ga na tekuću radnu površinu. Inače, prebacuje na njegovu matičnu radnu površinu.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>A jelenlegi munkaterületen bukkanjanak fel az ablakok</short>
+          <long>Ha be van állítva, az ablak visszaállításakor, az a jelenlegi munkaterületen jelenjen meg, különben kapcsoljon át az ablak eredeti munkaterületére.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Վերականգնելիս պատուհանները տեղափոխել ընթացիկ աշխատասեղան</short>
+          <long>Եթե ճիշտ է, ապա պատուհանը վերականգնելիս տեղափոխեք կամ ընթացիկ կամ պատուհանի աշխատասեղան։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Pindahkan jendela ke area kerja aktif ketika dikembalikan ukurannya</short>
+          <long>Jika dipilih, maka pada saat suatu jendela program mengembalikan ukuran jendela kembali menjadi ukuran semula, jendela itu akan ditampilkan pada area kerja aktif. Jika tidak, maka jendela itu akan ditampilkan pada ruang kerja asalnya.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Kpụga windo ndị ahụ na wọkspeesi nọ mgbe ahụ mgbe á ná-ēpéwágá ya mpe</short>
+          <long>Ọ bụrụ na ọ bụ eziokwu, mgbe ị na-epewaga windo mpe, kpụga ya na wọkspeesi nọ mgbe ahụ. Kama, banye na wọkspeesi nke windo.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Flytja glugga á núverandi vinnusvæði þegar hann er þaninn</short>
+          <long>Ef valið, mun gluggi verða fluttur á núverandi vinnusvæði þegar hann er þaninn. Annars er skipt yfir vinnusvæði gluggans.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Sposta le finestre nello spazio di lavoro in uso alla deminimizzazione</short>
+          <long>Se impostata a VERO, con la deminimizzazione la finestra viene portata nello spazio di lavoro in uso. In caso contrario si passa automaticamente allo spazio di lavoro nativo della finestra.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>最小化から復元する際に現在のワークスペースへ移動する</short>
+          <long>TRUE にすると、最小化から復元する際にそのウィンドウを現在のワークスペースに移動して表示します。それ以外は、ウィンドウがあったワークスペースに表示します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>გადაიტანე ფანჯარა ახალ სამუშაო გარემოში დაკეცვისას</short>
+          <long>თუ მონიშნულია, ფანჯარა გაიხსნება მიმდინარე სამუშაო გარემოში და არა იმ გარემოში სადაც ის პირველად გაიხსნა.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಚಿಕ್ಕದಾಗಿಸಲಾದ ಒಂದು ವಿಂಡೋವನ್ನು ಹಿಗ್ಗಿಸುವಾಗ, ಅದನ್ನು ಈಗಿನ ಕಾರ್ಯಕ್ಷೇತ್ರಕ್ಕೆ ವರ್ಗಾಯಿಸು</short>
+          <long>ನಿಜವಾದಲ್ಲಿ, ಚಿಕ್ಕದಾಗಿಸಲಾದ ಒಂದು ವಿಂಡೋವನ್ನು ಹಿಗ್ಗಿಸುವಾಗ, ಅದನ್ನು ಈಗಿನ ಕಾರ್ಯಕ್ಷೇತ್ರಕ್ಕೆ ವರ್ಗಾಯಿಸಲಾಗುವುದು. ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ ವಿಂಡೋವಿನ ಕಾರ್ಯಕ್ಷೇತ್ರಕ್ಕೆ ಬದಲಾಯಿಸಿ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>최소화 해제할 때 창을 현재 작업 공간으로 옮김</short>
+          <long>참이면, 창의 최소화를 해제할 때 현재 작업 공간으로 창을 불러 옵니다. 거짓이면 그 창의 작업 공간으로 작업 공간을 바꿉니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Dema tu biçûkbûna paceyan betal bikî dê vegerin mezinahiya qada xebatê ya heyî</short>
+          <long>Heke rast be, dema tu biçûkirina paceyê betal bikî dê pace vegere meznahiya qada xebatê ya heyî. An na, qada xebatê ya paceyê vêxe.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Терезелерди калыбына келтирүүдө аны учурдагы иш орунуна жылдыруу</short>
+          <long>Эгер бул орнотулса, терезе учурдагы иш орунунда, антпесе ал баштапкы иш орунунда калыбына келтирилет.</long>
+        </locale>
+
+        <locale name="lt">
+          <short>Padidinus langus perkelti į esamą darbalaukį</short>
+          <long>Nustačius, išdidinant sumažintas langas bus perkeltas į esamą darbalaukį. Priešingu atveju esamas darbalaukis bus pakeistas į lango darbalaukį.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Atjaunojot pārvietot logus uz pašreizējo darba vietu</short>
+          <long>Ja patiess, tad, kad atjauno logu, pārvietot to uz pašreizējo darba vietu. Pretējā gadījumā pāriet uz loga darba vietu.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>पैघ करब पर विंडोज़केँ वर्तमान कार्यस्थानमे लए जाउ</short>
+          <long>जँ सत्य अछि तँ विंडो पैघ करब पर वर्तमान कार्यस्थान पर हटाएत, अन्यथा विंडो क&apos; कार्यस्थानकेँ स्विच करताह.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Afindrao anatin&apos;ny workspace iasana ny ireo fikandrana rehefa halehibiazina</short>
+          <long>Raha marina izay voalaza, dia afindrao anatin&apos;ny workspace iasana ireo fikandrana rehefa averina halehibiazina. Raha tsy izany dia mifindrÃ  mankany amin&apos;ny workspace an&apos;ilay fikandrana.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Преместувај ги прозорците до тековниот работен простор кога се минимизирани</short>
+          <long>Ако е точно, кога ќе се зголемува прозорец од листата донеси го на моменталниот екран. Во спротивно префрли се на неговиот екран за работа.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ചെറുതാക്കുന്നതു് ഉപേക്ഷിക്കുമ്പോള്‍ നിലവിലുള്ള പണിയറയിലേക്ക് ജാലകങ്ങള്‍ നീക്കുക</short>
+          <long>true എങ്കില്‍, ഒരു ജാലകം ചെറുതാക്കുന്നതു് ഉപേക്ഷിച്ചാല്‍, അതു് നിലവിലുള്ള പണിയറയിലേക്ക് നീക്കുക. അല്ലെങ്കില്‍, ജാലകത്തിന്റെ പണിയറയിലേക്ക് നീങ്ങുക.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Цонхыг жижигрүүлээгүй бол идэвхтэй ажлын талбар руу шилжүүлэх</short>
+          <long>Хэрэв үнэн бол жижигрүүлээгүй цонхыг идэвхитэй ажлын талбарт шилжүүлнэ. Үгүй бол цонхны ажлын талбарыг холбоно.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>किमान आकारामध्ये असताना पटल चालू कृतीस्थळाकडे घ्या</short>
+          <long>खरे असल्यास, खिडकीचा आकार कमी करायचा नसेल तेंव्हा चालू कार्य स्थळाकडे जा.अन्यथा खिडकीतील कार्यस्थळ सुरू करा.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Pindahkan tetingkap ke ruangkerja semasa bila nyahminima</short>
+          <long>Jika benar, bila nyahminimum tetingkap, membawanya ke ruangkerja semasa. Sebaliknya, bertukar ke ruangkerja bagi tetingkap.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Flytt vinuder til aktivt arbeidsområde ved gjenoppretting</short>
+          <long>Hvis satt til «true» hentes vinduer til aktivt arbeidsområde ved gjenoppretting. Ellers bytt til vinduets arbeidsområde.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>बढाउदा सञ्झ्याललाई हालको कार्यस्थानमा सार्नुहोस्</short>
+          <long>ठीक भएमा, सञ्झ्याललाई बढाए पछि, यसलाई हालको कार्यस्थानमा सार्नुहोस् ।अन्यथा, सञ्झ्यालको कार्यस्थानमा स्विच गर्नुहोस् ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Vensters bij herstellen verplaatsen naar het huidige werkblad</short>
+          <long>Indien ingeschakeld zal het herstellen van een venster deze naar het huidige werkblad brengen. Anders zal worden gewisseld naar het oorspronkelijke werkblad van het venster.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Flytt vindauge til noverande arbeidsområde når dei vert gjenoppretta</short>
+          <long>Dersom set til sann, vil eit vindauge som vert gjenoppretta setjast på det aktive arbeidsområdet. Elles vil fokus flyttast til vindauget sitt arbeidsområde.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Šuthiša mafesetere go sekgoba sa gona bjale sa go šomela ge a sa fokotšwa</short>
+          <long>Ge e ba e le therešo, ge o se sa fokotša lefesetere, le šuthišetše sekgobeng sa gona bjale sa go šomela. Go sego bjalo, fetogela go sekgoba sa go šomela sa lefesetere.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Quand son desminimizadas, desplaçar las fenèstras dins l&apos;espaci de trabalh actual</short>
+          <long>S&apos;es verai, quand una fenèstra es desminimizada, es desplaçada dins l&apos;espaci de trabalh actiu. Si que non, passa a l&apos;espaci de trabalh de la fenèstra.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ୱିଣ୍ଡୋକୁ କ୍ଷୁଦ୍ରତମରୁ ସାଧାରଣ ଆକାର ଦେଲାବେଳେ, ତାହାକୁ ସାମ୍ପ୍ରତିକ କାର୍ଯ୍ଯକ୍ଷେତ୍ରକୁ ଆଣନ୍ତୁ</short>
+          <long>ସତ ଥିଲେ, ଗୋଟିଏ ୱିଣ୍ଡୋକୁ କ୍ଷୁଦ୍ରତମରୁ ସାଧାରଣ ଆକାର ଦେଲାବେଳେ, ତାହାକୁ ସାମ୍ପ୍ରତିକ କାର୍ଯ୍ଯକ୍ଷେତ୍ରକୁ ଆଣିବ. ନଚେ୍ତ ୱିଣ୍ଡୋର କାର୍ଯ୍ଯକ୍ଷେତ୍ରକୁ ଘୁଞ୍ଚାଇ ଦିଆଯିବ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਜਦੋਂ ਝਰੋਖਾ ਨੂੰ ਵੱਡਾ ਕੀਤਾ ਜਾਏ ਤਾਂ ਮੌਜੂਦਾ ਵਰਕਸਪੇਸ ਵਿਚ ਵੇਖੋ</short>
+          <long>ਜੇ ਇਹ ਸਹੀ ਹੈ, ਤਾਂ ਛੋਟੀ ਨਾ ਕੀਤੀ ਝਰੋਖਾ, ਨੂੰ ਮੌਜੂਦਾ ਵਰਕਸਪੇਸ ਵਿੱਚ ਲੈ ਆਉ। ਨਹੀਂ ਤਾਂ ਝਰੋਖਾ ਦੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਚਲੇ ਜਾਓ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Przywraca okna na bieżącym obszarze roboczym</short>
+          <long>Określa, czy podczas przywracania okno przenoszone jest na bieżące biurko. W przeciwnym razie, zmieniony zostanie obszar roboczy okna.</long>
+        </locale>
+
+        <locale name="pt">
+          <short>Mover janelas para a área actual, ao restaurar</short>
+          <long>Se verdadeiro, ao restaurar uma janela, será trazida para a área actual. Caso contrário, utilizador irá para a área de trabalho da janela.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Move as janelas para o espaço de trabalho atual quando restauradas</short>
+          <long>Se verdadeiro, quando uma janela for restaurada ela será trazida para o espaço de trabalho atual. Caso contrário, o espaço de trabalho será trocado para o da janela.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Mută ferestrele minimizate în spațiul de lucru curent la restaurare</short>
+          <long>La activare ferestrele minimizate vor fi restaurate în spațiul de lucru curent. Altfel va schimba în spațiul de lucru inițial al ferestrei.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Перемещать окна на текущее рабочее место при восстановлении</short>
+          <long>Если этот ключ установлен, восстановление окна будет происходить на текущее рабочее место, а не на исходное.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Pri zrušení minimalizácie presunúť okná na aktuálnu plochu</short>
+          <long>Ak je toto true, pri obnovení okna sa okno presunie na aktuálnu plochu. Ináč sa prejde na plochu okna.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Ko so okna povečana na običajno velikost, jih prestavi na trenutno delovno površino</short>
+          <long>Možnost določa, da bo ob povečanju okna na običajno velikost to postavljeno na trenutno delovno površino, sicer se preklopi na delovno površino okna.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Kur maksimizohet,zhvendose dritaren tek hapësira aktuale e punës</short>
+          <long>Nëse true, kur zmadhon një dritare, sille atë tek hapësira aktuale e punës. Përndryshe, lëre tek hapësira e punës e dritares.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Пребаци умањене прозоре на тренутну радну површину при приказу</short>
+          <long>Уколико је ово укључено, када приказујете умањени прозор, пребаци га на текућу радну површину. Иначе, пребацује на његову матичну радну површину. </long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Пребаци умањене прозоре на тренутну радну површину при приказу</short>
+          <long>Уколико је ово укључено, када приказујете умањени прозор, пребаци га на текућу радну површину. Иначе, пребацује на његову матичну радну површину. </long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Prebaci umanjene prozore na trenutnu radnu površinu pri prikazu</short>
+          <long>Ukoliko je ovo uključeno, kada prikazujete umanjeni prozor, prebaci ga na tekuću radnu površinu. Inače, prebacuje na njegovu matičnu radnu površinu. </long>
+        </locale>
+
+        <locale name="sv">
+          <short>Flytta fönster till den aktuella arbetsytan vid återställning</short>
+          <long>Om detta är sant kommer återställning av ett fönster att flytta det till den aktuella arbetsytan. Byt annars till fönstrets arbetsyta.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>மறைந்த சாளரங்களை காண்பிக்கும்போது தற்போதைய வேலையிடத்திட்கு நக்ர்த்தவும்</short>
+          <long>உண்மையெனில், சாளரத்தை பெரிதாக்கும் போது தற்போதைய பணியிடத்திற்கு நகர்த்து. அல்லது பணி இடத்தை வேறு சாளரத்திற்கு கொண்டு செல்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>ఎప్పుడైతే విండోలు చిన్నవిగా ఉండవో వాటిని ప్రస్తుత కార్యక్షేత్రమునకు కదుపుము</short>
+          <long>నిజమైతే, ఎప్పుడైతే విండోను చిన్నది చేయవో అప్పుడు దానిని, ప్రస్తుత కార్యక్షేత్రానికి కదుపుము. లేదంటే, ఆ విండో కార్యక్షేత్రానికి మారుము.</long>
+        </locale>
+
+        <locale name="th">
+          <short>ย้ายหน้าต่างไปที่พื้นที่ทำงานปัจจุบันเมื่อเรียกคืนหน้าต่างที่ย่อเก็บ</short>
+          <long>ถ้าเลือก เมื่อใดที่คืนขนาดหน้าต่างที่ถูกย่อเล็กสุด ให้ย้ายหน้าต่างนั้นไปที่พื้นที่ทำงานปัจจุบัน มิฉะนั้นเปลี่ยนไปที่พื้นที่ทำงานเดิมของหน้าต่างนั้น</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Büyütülen pencereleri o anki çalışma alanına taşı</short>
+          <long>Eğer seçiliyse, pencereyi büyülttüğünüzde o anki çalışma alanına gelecektir. Aksi halde, büyütülen pencerenin çalışma alanına geçilecektir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Переносити мінімізовані вікна у поточну область</short>
+          <long>Якщо встановлено, відновлення вікна буде відбуватись на поточну робочу область, а не на початкову.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Oynalar tiklanayotganda joriy ish oʻrniga koʻchirish</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Ойналар тикланаётганда жорий иш ўрнига кўчириш</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Chuyển cửa sổ tới vùng làm việc hiện thời khi được phục hồi</short>
+          <long>Nếu đúng, khi phục hồi cửa sổ, di chuyển nó đến vùng làm việc hiện hành. Nếu khác, chuyển đến vùng làm việc của cửa sổ đó.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Shenxisela iifestile kwisithuba sokusebenza sangoku xa singacuthwanga</short>
+          <long>Ukuba yinyaniso, ngoko ke xa ifestile ingasacuthwa, yishenxisele kwisithuba sokusebenza sangoku. Ngaphandle koko, vula uye kwisithuba sokusebenza sefestile.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Gbé àwọn fèrèsé lọ sí ààyè-iṣẹ́ lọ́wọ́lọ́wọ́ tí a kò bá fẹ̀ẹ́lójú mọ́ </short>
+          <long>Tó bá jẹ́ òótọ́, tí o bá ti ń fe ojú fèrèsé gbe lọ sí ààyè-iṣẹ́ lọ́wọ́lọ́wọ́.Láì jẹ́ bẹ́ẹ̀,sún sí ààyè-iṣẹ́ fèrèsé náà.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>解除窗口最小化时将窗口移动到当前工作区</short>
+          <long>如果为 true，则在解除窗口最小化的时候将其放入当前工作区。否则切换到窗口所在的工作区。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>視窗由最小化狀態還原時，會在目前的工作區顯示</short>
+          <long>如設定為‘true’，當視窗由最小化還原時，會在目前的工作區顯示。否則會切換至視窗原來的工作區來顯示。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>視窗由最小化狀態還原時，會在目前的工作區顯示</short>
+          <long>如設定為‘true’，當視窗由最小化還原時，會在目前的工作區顯示。否則會切換至視窗原來的工作區來顯示。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Hambisa amafasitela kundawo yokusebenzela yamanje uma akhulisiwe</short>
+          <long>Uma kuyiqiniso, ukhulisa ifasitela, lihambise kundawo yokusebenzela yamanje. Ngaphandle kwalokho, qhebezela kundawo yokusebenzela yefasitela.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/window_list_applet/prefs/minimum_size</key>
+        <owner>window-list-applet</owner>
+        <type>int</type>
+        <default>50</default>
+        <locale name="C">
+          <short>Minimum window list size</short>
+          <long>
+	    The use of this key was deprecated in GNOME 2.20. The schema is
+	    retained for compatibility with older versions.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Minimum-vensterlysgrootte</short>
+          
+        </locale>
+
+        <locale name="ar">
+          <short>الحجم الأدنى لقائمة النوافذ</short>
+          <long>ألغي استخدام هذا المفتاح في جنوم 2.6 دعمًا لمفتاح &apos;format&apos;. أبقي على المخطط فقط للتطابق مع الإصدارات القديمة.</long>
+        </locale>
+
+        <locale name="as">
+          <short>সংযোগক্ষেত্ৰ তালিকাৰ সৰ্বনিম্ন মাপ</short>
+          <long>GNOME 2.20 ত এই চাবি অবচিত হৈছে  । পুৰাতণ সংস্কৰণৰ সৈতে সামঞ্জস্যৰ উদ্দেশ্যে স্কিমা ৰখা হৈছে  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Tamañu mínimu de la llista de ventanes</short>
+          <long>L&apos;usu d&apos;esta clave foi declaráu obsoletu en GNOME 2.20. L&apos;esquema caltiénse por compatibilidá con versiones antigües.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Minimal pəncərə siyahısı böyüklüyü</short>
+          
+        </locale>
+
+        <locale name="be">
+          <short>Найменшы памер сьпісу вокнаў</short>
+          <long>Гэты ключ асуджаны ў GNOME 2.20. Схема пакінута для сумяшчальнасьці з папярэднімі вэрсіямі.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Minimalny pamier śpisu voknaŭ</short>
+          <long>Užyvańnie hetaha kluča sastarełaje ŭ GNOME 2.20. Schiema była zachavanaja dla zhodnaści z papiarednimi versijami.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Минимален размер на списъка с прозорци</short>
+          <long>Използването на този ключ беше махнато в GNOME 2.20. Схемата е запазена заради съвместимост с по-стари версии.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>উইন্ডো তালিকার সর্বনিম্ন আকার</short>
+          <long>GNOME 2.20-এ এই কী অবলোপ করা হয়েছে। পুরাতণ সংস্করণের সাথে সামঞ্জস্যের উদ্দেশ্যে স্কিমা বজায় রাখা হয়েছে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>উইন্ডো তালিকার সর্বনিম্ন মাপ</short>
+          <long>GNOME 2.20-এ এই কি অবচিত হয়েছে। পুরাতণ সংস্করণের সাথে সামঞ্জস্যের উদ্দেশ্যে স্কিমা বজায় রাখা হয়েছে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Ment vihanañ ar prenestr roll</short>
+          <long>Diaotreet eo bet arver an alc&apos;hwez-mañ e GNOME 2.20. Miret eo an doare evit ar c&apos;heverlec&apos;h gant handelvoù koshoc&apos;h.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Najmanja veličina popisa prozora</short>
+          
+        </locale>
+
+        <locale name="ca">
+          <short>Mida mínima de la llista de tasques</short>
+          <long>L&apos;ús d&apos;aquesta clau es desaconsella des del GNOME 2.20. L&apos;esquema es reté per compatibilitat amb versions anteriors.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Mida mínima de la llista de tasques</short>
+          <long>L&apos;ús d&apos;esta clau es desaconsella des del GNOME 2.20. L&apos;esquema es reté per compatibilitat amb versions anteriors.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Asğariy pencere cedveli ölçüsi</short>
+          <long>Bu anahtarnıñ qullanımı GNOME 2.20&apos;de takbih etilgen edi. Bu shema, eski sürümler ile telif qabiliyeti içün alıqoyulğandır.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Minimální velikost seznamu oken</short>
+          <long>Použití tohoto klíče je od GNOME 2.20 zastaralé. Schéma bylo ponecháno kvůli kompatibilitě se staršími verzemi.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Maint lleiaf y rhestr ffenestri:</short>
+          
+        </locale>
+
+        <locale name="da">
+          <short>Minimal vindueslistestørrelse</short>
+          <long>Brugen af denne nøgle blev forældet i Gnome 2.20. Dette schema bevares af hensyn til kompatibilitet med ældre versioner.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Minimale Größe der Fensterliste</short>
+          <long>Im Zuge von GNOME 2.20 wurde dieser Schlüssel für nichtig erklärt. Das Schema wird zwecks Rückwärtskompatibilität beibehalten.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>སྒོ་སྒྲིག་ཐོ་ཡིག་གི་ ཚད་ཀྱི་ཉུང་མཐའ།</short>
+          <long>ལྡེ་མིག་འདི་གི་ལག་ལེན་དེ་ ཇི་ནོམ་༢.༦ ནང་ལུ་ གསང་བ་བཟོ་སྟེ་ཡོད། ལས་འཆར་དེ་ ཐོན་རིམ་རྙིངམ་ཚུ་དང་ མཐུན་འགྱུར་གྱི་དོན་ལུ་ བདག་འཛིན་འབད་བཞག་ཡོད།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Ελάχιστο μέγεθος παραθύρου λίστας</short>
+          <long>Η χρήση αυτού του κλειδιού έγινε deprecated στο GNOME 2.20. Το schema έχει διατηρηθεί για συμβατότητα με παλιότερες εκδόσεις.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑥𐑦𐑯𐑩𐑥𐑩𐑥 𐑢𐑦𐑯𐑛𐑴 𐑤𐑦𐑕𐑑 𐑕𐑲𐑟</short>
+          <long>𐑞 𐑿𐑕 𐑝 𐑞𐑦𐑕 𐑒𐑰 𐑢𐑪𐑟 𐑛𐑧𐑐𐑮𐑩𐑒𐑱𐑑𐑩𐑛 𐑦𐑯 ·𐑜𐑯𐑴𐑥 2.20. 𐑞 𐑕𐑒𐑰𐑥𐑩 𐑦𐑟 𐑮𐑦𐑑𐑱𐑯𐑛 𐑓𐑹 𐑒𐑩𐑥𐑐𐑨𐑑𐑩𐑚𐑦𐑤𐑩𐑑𐑰 𐑢𐑦𐑞 𐑴𐑤𐑛𐑼 𐑝𐑻𐑠𐑩𐑯𐑟.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Minimum window list size</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+          <short>Minimum window list size</short>
+          <long>The use of this key was deprecated in GNOME 2.20. The schema is retained for compatibility with older versions.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Minimuma fenestrolista grando :</short>
+          <long>La uzo de tiu ĉi ŝlosilo estas arkaika depost GNOME 2.20. La skemo estas konservata pro kongrueco kun iamaj versioj.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Tamaño mínimo de la lista de ventanas</short>
+          <long>El uso de esta clave ha sido declarado obsoleto en GNOME 2.20. El esquema se conserva por compatibilidad con versiones antiguas.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Aknaloendi väikseim suurus.</short>
+          <long>Selle võtme kasutamine on alates GNOME versioonist 2.20 aegunud. See skeem on alles jäetud vanemate versioonidega ühildumise eesmärgil.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Leiho-zerrendaren gutxieneko tamaina</short>
+          <long>Giltza honen erabilera GNOME 2.20 bertsioan zaharkitua gelditu zen. Eskema hau bertsio zaharkituekin parekotasuna mantentzeko jarraitzen da.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>حداقل اندازه‌ی فهرست پنجره‌ها</short>
+          
+        </locale>
+
+        <locale name="fi">
+          <short>Pienin ikkunalistan koko</short>
+          <long>Tämä avain on vanhentunut Gnome 2.20-julkaisussa. Kaavain on olemassa yhteensopivuuden vuoksi.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Taille minimale de la liste des fenêtres</short>
+          <long>L&apos;utilisation de cette clé a été dépréciée dans GNOME 2.20. Le schéma est conservé pour des raisons de compatibilité avec des versions plus anciennes.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Dimension minime elenco barcons</short>
+          <long>Miôr no doprâ cun GNOME 2.20. Lassât pes versions di prime.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Íosmhéid liosta na fuinneoga</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Tamaño mínimo da lista de xanelas</short>
+          <long>O uso desta chave rexeitouse no GNOME 2.20. O esquema consérvase para a compatibilidade con versións anteriores.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>વિન્ડોની યાદીનું ન્યૂનતમ માપ</short>
+          <long>આ કીનો વપરાશ GNOME 2.20 માં દૂર કરવામાં આવેલ છે. જૂની આવૃત્તિઓ સાથે સુસંગતતા માટે પદ્ધતિ પુનઃપ્રાપ્ત કરવામાં આવી.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Girmar jerin taga a ƙalla</short>
+          
+        </locale>
+
+        <locale name="he">
+          <short>גודל רשימת חלונות מינימלי</short>
+          <long>The use of this key was deprecated in GNOME 2.20. The schema is retained for compatibility with older versions.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>न्यूतम विंडो सूची आकार</short>
+          <long>इस कुंजी का प्रयोग GNOME 2.20 में पदावनत किया गया था. स्कीमा को सुसंगतता के लिये पुराने संस्कऱण के साथ बनाये रखा जाता है.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Najmanja veličina popisa prozora</short>
+          <long>Korištenje ovog ključa je nevažeće u GNOME 2.20. Shema je zadržana zbog kompatibilnosti sa starijim verzijama.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Legkisebb ablaklistaméret</short>
+          <long>Ez a kulcs a GNOME 2.20-ban már elavult. A séma a régebbi verziókkal való kompatibilitás miatt maradt meg.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Նվազագույն չափի պատուհանների ցուցակ</short>
+          <long>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.20-ում։ Սխեման համատեղելի է ավելի հին տարբերակների հետ։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Ukuran m_inimum daftar jendela:</short>
+          <long>Kunci ini tidak dipakai lagi pada GNOME 2.20. Skema dipertahankan demi kompabilitas dengan versi sebelumnya.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Ụhara ndesịta windo pekarịsịrị mpe</short>
+          
+        </locale>
+
+        <locale name="is">
+          <short>Lágmarksstærð fyrir gluggalista</short>
+          <long>Notkun þessa lykils var gerð óæskileg í GNOME 2.20. Þessari grind er viðhaldið vegna samhæfni við eldri útgáfur.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Dimensione minima elenco finestre</short>
+          <long>L&apos;uso di questa chiave è stato deprecato in GNOME 2.20. Lo schema è mantenuto per compatibilità con le versioni più vecchie.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>ウィンドウ一覧のサイズ (最小値)</short>
+          <long>このキーの使用は GNOME 2.20 で廃止になりました (このスキーマは古いバージョンと互換性を維持するためだけに残されています)。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ფანჯარათა სიის მინიმალური ზომა</short>
+          <long>გირჩევთ არ გამოიყენოთ ეს გასაღები GNOME 2.20-დან მოყოლებულ ვერსიებში. მოცემული გასაღები ძველ ვერსიებთან თავსევადობის უზრუნველყოფისთვისაა შემორჩენილი.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ವಿಂಡೋ ಪಟ್ಟಿಗಳ ಕನಿಷ್ಟ ಗಾತ್ರ</short>
+          <long>GNOME 2.20 ಯಲ್ಲಿ ಈ ಕೀಲಿಯ ಬಳಕೆಯನ್ನು ತೆಗೆದು ಹಾಕಲಾಗಿದೆ. ಹಳೆಯ ಆವೃತ್ತಿಗಳಿಗೆ ಹೊಂದಿಕೊಳ್ಳುವಂತೆ ಸ್ಕೀಮಾವನ್ನು ಹಾಗೆಯೆ ಉಳಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>창 목록 최소 크기</short>
+          <long>그놈 2.20에서는 이 키를 사용하지 않기를 권합니다. 이 스키마는 예전 버전과의 호환성을 위해 남아 있습니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Mezinahiya kêmtirîn ya lîsteya paceyan</short>
+          
+        </locale>
+
+        <locale name="ky">
+          <short>Терезелер тизмесинин минималдык өлчөмү</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Mažiausias langų sąrašo dydis</short>
+          <long>Šis raktas nuo GNOME 2.20 nebenaudojamas. Schema išsaugota tik dėl suderinamumo su senesnėmis versijomis.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Minimālais logu saraksta izmērs</short>
+          <long>Kopš GNOME 2.20 šis elements vairs netiek lietots. Šī shēma ir saglabāta, lai nodrošinātu savietojamību ar vecākām versijām.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>न्यूतम विंडो सूची आकार</short>
+          
+        </locale>
+
+        <locale name="mg">
+          <short>Haben&apos;ny lisitry ny fikandrana ambany indrindra</short>
+          
+        </locale>
+
+        <locale name="mk">
+          <short>Минимална големина за листање на прозорецот</short>
+          <long>Употребата на ова копче е запоставена во GNOME 2.20. Оваа шема постои заради компатибилност со постари верзии.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ജാലക പട്ടികയുടെ കുറഞ്ഞ വലിപ്പം</short>
+          <long>ഗ്നോ 2.20-ല്‍ ഈ കീയുടെ ഉപയോഗം നിര്‍ത്തിയിരുന്നു. പഴയ പതിപ്പുകളുമായുള്ള പൊരുത്തത്തിനായി സ്കീമാ സൂക്ഷിക്കുന്നു.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Цонх жагсаалтын хамгийн бага хэмжээ:</short>
+          
+        </locale>
+
+        <locale name="mr">
+          <short>विंडो सूचीचा किमान आकार</short>
+          <long>GNOME2.20 मध्ये या कळेचा वापर नापसंत केले गेले होते. जुन्या आवृत्त्यांसह सुसंगततेसाठी सुत्रयोजना तसाच बाळगण्यात आला आहे.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Saiz minimum senarai tetingkap</short>
+          <long>Kegunaan kekunci ini telah ditiadakan pada GNOME 2.20. Skema dikekalkan untuk kesesuaian dengan versi lebih lama.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Minste størrelse på vinduliste</short>
+          <long>Bruk av denne nøkkelen gikk ut i GNOME 2.20. Denne bevares for kompatibilitet med eldre versjoner.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>न्यूनतम सन्झ्याल सूची साइज</short>
+          <long>जिनोम २.२० मा यस कुञ्जीको प्रयोग अनुचित ठानिएको छ । स्किमालाई पूरानो संस्करणसँग मिलाउन पहिलाको रूपमा राखिएको छ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Minimumgrootte van vensterlijst</short>
+          <long>Het gebruik van deze sleutel is achterhaald sinds Gnome 2.20. Het schema blijft behouden voor compatibiliteit met oudere versies.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Minste storleik på vindaugsliste</short>
+          <long>Bruk av denne nøkkelen gikk ut i GNOME 2.20. Denne vert teke vare på for kompatibilitet med eldre versjonar.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Bogolo bja lelokelelo la lefesetere le lenyenyane</short>
+          
+        </locale>
+
+        <locale name="oc">
+          <short>Talha minimala de la tièra de fenèstras</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>ସର୍ବନିମ୍ନ ୱିଣ୍ଡୋ ତାଲିକା ଆକାର</short>
+          <long>ଏହି ଚାବିର ବ୍ୟବହାରକୁ GNOME 2.20ରେ ନାପସନ୍ଦ କରାଯାଇଛି. ଏହି ବିବରଣିକା ପୁରୁଣା ସଂସ୍କରଣ ସହିତ ସଙ୍ଗତ ଦୃଷ୍ଟିରୁ ରଖାଯାଇଛି.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਘੱਟੋ-ਘੱਟ ਝਰੋਖਾ ਲਿਸਟ ਆਕਾਰ</short>
+          <long>ਇਸ ਕੁੰਜੀ ਦਾ ਗਨੋਮ 2.20 ਵਿਚ &apos;ਫਾਰਮੈਟ&apos; ਕੁੰਜੀ ਦੇ ਤੌਰ ਉੱਤੇ ਬਰਤਰਫ਼ ਕੀਤੀ ਗਈ ਹੈ। ਸਕੀਮਾ ਨੂੰ ਪੁਰਾਣੇ ਵਰਜਨਾਂ ਨਾਲ ਅਨੁਕੂਲਤਾ ਲਈ ਹੀ ਸ਼ਾਮਿਲ ਕੀਤਾ ਗਿਆ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Minimalny rozmiar listy okien</short>
+          <long>Używanie tego klucza stało się przestarzałe w GNOME 2.20. Schemat został zachowany dla zgodności z poprzednimi wersjami.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>د کړکيو د لړ ټولولږه کچ</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Tamanho mínimo da lista de janelas</short>
+          <long>A utilização desta chave foi tornada obsoleta no GNOME 2.20. O esquema é mantido para compatibilidade com versões anteriores.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Tamanho mínimo da lista de janelas</short>
+          <long>O uso dessa chave tornou-se obsoleto no GNOME 2.20. O esquema é mantido para ter compatibilidade com versões mais antigas.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Mărime minimă listă ferestre</short>
+          <long>Utilizarea acestei chei este descurajată în GNOME 2.20. Schema este reținută doar pentru compatibilitate cu versiunile mai vechi.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Минимальный размер списка окон</short>
+          <long>Использовать этот ключ в среде GNOME версии начиная с 2.20 не рекомендуется. Данный ключ остаётся только для совместимости с предыдущими версиями.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Minimálna veľkosť zoznamu okien</short>
+          <long>Použitie tohto kľúča bolo zavrhnuté v GNOME 2.20. Schéma sa ponecháva kvôli spätnej kompatibilite.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Najmanjša velikost seznama oken</short>
+          <long>Uporaba tega ključa je od GNOME 2.20 neuporabna. Shema je ohranjena zaradi skladnosti s starejšimi različicami.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Përmasa minimale e listës së dritareve</short>
+          <long>Përdorimi i këtij kyçi nuk kryhet më në GNOME 2.20. Skema është mbajtur për përputhshmëri me versionet më të vjetra.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Најмања величина списка прозора</short>
+          <long>Употреба овог кључа је превазиђена у Гному 2.20. Шема је задржана зарад сагласности са старијим издањима.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Најмања величина списка прозора</short>
+          
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Najmanja veličina spiska prozora</short>
+          <long>Upotreba ovog ključa je prevaziđena u Gnomu 2.20. Šema je zadržana zarad saglasnosti sa starijim izdanjima.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Minimal fönsterlistestorlek</short>
+          <long>Användandet av denna nyckel föråldrades i GNOME 2.20. Schemat har behållits för kompatibilitet med äldre versioner.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>ஆகக்குறைந்த சாளர பட்டியல் அளவு</short>
+          <long>க்னோம் 2.6 இல் இந்த விசையின் பயன்பாடு மறுக்கப்பட்டது . பழைய பதிப்புகளுக்கு ஆதரவு தருவதற்காக இந்த திட்டம் தொடரப்படுகிறது.</long>
+        </locale>
+
+        <locale name="te">
+          <short>కనిష్ఠ విండో జాబితా పరిమాణం</short>
+          <long>ఈ కీ యొక్క ఉపయోగం GNOME 2.20 లో తగ్గించబడింది.పాత విడుదలల తో సారూప్యత కొరకు ఈ స్కీమా అలాగేఉంచబడింది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>จำนวนรายชื่อหน้าต่างต่ำสุด</short>
+          <long>ค่านี้เลิกใช้แล้วใน GNOME 2.20  schema นี้คงไว้เพื่อความเข้ากันได้กับโปรแกรมรุ่นเก่าเท่านั้น</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Asgari pencere listesi boyutu</short>
+          <long>Bu anahtarın kullanımı GNOME 2.20 ile artık kalktı. Şema eski sürümlerle uyumluluk için korunuyor.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Мінімальний розмір списку вікон</short>
+          <long>Використання цього ключа небажане у GNOME 2.20. Даний ключ зберігається для сумісності з попередніми версіями.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Oynalar roʻyxatining minimal hajmi</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Ойналар рўйхатининг минимал ҳажми</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Kích thước danh sách cửa sổ tối thiểu</short>
+          <long>Dùng khoá này đã bị phản đối trong GNOME 2.20. Giản đồ vẫn được giữ nguyên để tương thích với các phiên bản cũ.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Ubukhulu boludwe lweefestile obubobona buncinci</short>
+          
+        </locale>
+
+        <locale name="yo">
+          <short>Ìwọ̀n àtòjọ fèrèsé tó kéré jù</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+          <short>窗口列表的最小大小</short>
+          <long>在 GNOME 2.20 推荐使用此键。这里仅为与旧版本兼容而保留。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>視窗清單數目下限</short>
+          <long>此設定鍵在 GNOME 2.20 已不再使用。它的存在純粹是為了和舊版本兼容。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>視窗清單數目下限</short>
+          <long>此設定鍵在 GNOME 2.20 已不再使用。它的存在純粹是為了和舊版本相容。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Nciphisa ubungakanani bohlu lwefasitela</short>
+          
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/window_list_applet/prefs/maximum_size</key>
+        <owner>window-list-applet</owner>
+        <type>int</type>
+        <default>4096</default>
+        <locale name="C">
+          <short>Maximum window list size</short>
+          <long>
+	    The use of this key was deprecated in GNOME 2.20. The schema is
+	    retained for compatibility with older versions.
+         </long>
+        </locale>
+
+        <locale name="af">
+          <short>Maksimum-vensterlysgrootte</short>
+          
+        </locale>
+
+        <locale name="ar">
+          <short>الحجم الأقصى لقائمة النوافذ</short>
+          <long>ألغي استخدام هذا المفتاح في جنوم 2.6 دعمًا لمفتاح &apos;format&apos;. أبقي على المخطط فقط للتطابق مع الإصدارات القديمة.</long>
+        </locale>
+
+        <locale name="as">
+          <short>সংযোগক্ষেত্ৰ তালিকাৰ সৰ্বোচ্চ মাপ</short>
+          <long>GNOME 2.20 ত এই চাবি অবচিত হৈছে  । পুৰাতণ সংস্কৰণৰ সৈতে সামঞ্জস্যৰ উদ্দেশ্যে স্কিমা ৰখা হৈছে  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Tamañu máximu de la llista de ventanes</short>
+          <long>L&apos;usu d&apos;esta clave foi declaráu obsoletu en GNOME 2.20. L&apos;esquema caltiénse por compatibilidá con versiones antigües.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Maximal pəncərə siyahısı böyüklüyü</short>
+          
+        </locale>
+
+        <locale name="be">
+          <short>Найбольшы памер сьпісу вокнаў</short>
+          <long>Гэты ключ асуджаны ў GNOME 2.20. Схема пакінута для сумяшчальнасьці з папярэднімі вэрсіямі.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Maksymalny pamier śpisu voknaŭ</short>
+          <long>Užyvańnie hetaha kluča sastarełaje ŭ GNOME 2.20. Schiema była zachavanaja dla zhodnaści z papiarednimi versijami.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Максимален размер на списъка с прозорци</short>
+          <long>Използването на този ключ беше махнато в GNOME 2.20. Схемата е запазена заради съвместимост с по-стари версии.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>উইন্ডো তালিকার সর্বোচ্চ আকার</short>
+          <long>GNOME 2.20-এ এই কী অবলোপ করা হয়েছে। পুরাতণ সংস্করণের সাথে সামঞ্জস্যের উদ্দেশ্যে স্কিমা বজায় রাখা হয়েছে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>উইন্ডো তালিকার সর্বোচ্চ মাপ</short>
+          <long>GNOME 2.20-এ এই কি অবচিত হয়েছে। পুরাতণ সংস্করণের সাথে সামঞ্জস্যের উদ্দেশ্যে স্কিমা বজায় রাখা হয়েছে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Ment vrasañ ar prenestr roll</short>
+          <long>Diaotreet eo bet arver an alc&apos;hwez-mañ e GNOME 2.20. Miret eo an doare evit ar c&apos;heverlec&apos;h gant handelvoù koshoc&apos;h.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Najveća veličina lista prozora</short>
+          
+        </locale>
+
+        <locale name="ca">
+          <short>Mida màxima de la llista de finestres</short>
+          <long>L&apos;ús d&apos;aquesta clau es desaconsella des del GNOME 2.20. L&apos;esquema es reté per compatibilitat amb versions anteriors.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Mida màxima de la llista de finestres</short>
+          <long>L&apos;ús d&apos;esta clau es desaconsella des del GNOME 2.20. L&apos;esquema es reté per compatibilitat amb versions anteriors.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Azamiy pencere cedveli ölçüsi</short>
+          <long>Bu anahtarnıñ qullanımı GNOME 2.20&apos;de takbih etilgen edi. Bu shema, eski sürümler ile telif qabiliyeti içün alıqoyulğandır.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Maximální velikost seznamu oken</short>
+          <long>Použití tohoto klíče je od GNOME 2.20 zastaralé. Schéma bylo ponecháno kvůli kompatibilitě se staršími verzemi.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Maint mwyaf y rhestr ffenestri:</short>
+          
+        </locale>
+
+        <locale name="da">
+          <short>Maksimal vindueslistestørrelse</short>
+          <long>Brugen af denne nøgle blev forældet i Gnome 2.20. Dette schema bevares af hensyn til kompatibilitet med ældre versioner.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Maximale Größe der Fensterliste</short>
+          <long>Im Zuge von GNOME 2.20 wurde dieser Schlüssel für nichtig erklärt. Das Schema wird zwecks Rückwärtskompatibilität beibehalten.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>སྒོ་སྒྲིག་ཐོ་ཡིག་གི་ ཚད་ཀྱི་མང་མཐའ།</short>
+          <long>ལྡེ་མིག་འདི་གི་ལག་ལེན་དེ་ ཇི་ནོམ་༢.༦ ནང་ལུ་ གསང་བ་བཟོ་སྟེ་ཡོད། ལས་འཆར་དེ་ ཐོན་རིམ་རྙིངམ་ཚུ་དང་ མཐུན་འགྱུར་གྱི་དོན་ལུ་ བདག་འཛིན་འབད་བཞག་ཡོད།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Μέγιστο μέγεθος παραθύρου λίστας</short>
+          <long>Η χρήση αυτού του κλειδιού έγινε deprecated στο GNOME 2.20. Το schema έχει διατηρηθεί για συμβατότητα με παλιότερες εκδόσεις.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑥𐑨𐑒𐑕𐑦𐑥𐑩𐑥 𐑢𐑦𐑯𐑛𐑴 𐑤𐑦𐑕𐑑 𐑕𐑲𐑟</short>
+          <long>𐑞 𐑿𐑕 𐑝 𐑞𐑦𐑕 𐑒𐑰 𐑢𐑪𐑟 𐑛𐑧𐑐𐑮𐑩𐑒𐑱𐑑𐑩𐑛 𐑦𐑯 ·𐑜𐑯𐑴𐑥 2.20. 𐑞 𐑕𐑒𐑰𐑥𐑩 𐑦𐑟 𐑮𐑦𐑑𐑱𐑯𐑛 𐑓𐑹 𐑒𐑩𐑥𐑐𐑨𐑑𐑩𐑚𐑦𐑤𐑩𐑑𐑰 𐑢𐑦𐑞 𐑴𐑤𐑛𐑼 𐑝𐑻𐑠𐑩𐑯𐑟.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Maximum window list size</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+          <short>Maximum window list size</short>
+          <long>The use of this key was deprecated in GNOME 2.20. The schema is retained for compatibility with older versions.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Maksimuma fenestrolista grando :</short>
+          <long>La uzo de tiu ĉi ŝlosilo estas arkaika depost GNOME 2.20. La skemo estas konservata pro kongrueco kun iamaj versioj.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Tamaño máximo de la lista de ventanas</short>
+          <long>El uso de esta clave ha sido declarado obsoleto en GNOME 2.20. El esquema se conserva por compatibilidad con versiones antiguas.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Aknaloendi suurim suurus</short>
+          <long>Selle võtme kasutamine on alates GNOME versioonist 2.20 aegunud. See skeem on alles jäetud vanemate versioonidega ühildumise eesmärgil.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Leiho-zerrendaren gehienezko tamaina</short>
+          <long>Giltza honen erabilera GNOME 2.20 bertsioan zaharkitua gelditu zen. Eskema hau bertsio zaharkituekin parekotasuna mantentzeko jarraitzen da.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>حداکثر اندازه‌ی فهرست پنجره‌ها</short>
+          
+        </locale>
+
+        <locale name="fi">
+          <short>Suurin ikkunalistan koko</short>
+          <long>Tämä avain on vanhentunut Gnome 2.20-julkaisussa. Kaavain on olemassa yhteensopivuuden vuoksi.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Taille maximale de la liste des fenêtres</short>
+          <long>L&apos;utilisation de cette clé a été dépréciée dans GNOME 2.20. Le schéma est conservé pour des raisons de compatibilité avec des versions plus anciennes.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Dimension massime elenco barcons</short>
+          <long>Miôr no doprâ cun GNOME 2.20. Lassât pes versions di prime.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Uasmhéid liosta na fuinneoga</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Tamaño máximo da lista de xanelas</short>
+          <long>O uso desta chave rexeitouse no GNOME 2.20. O esquema consérvase para a compatibilidade con versións anteriores.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>વિન્ડોની યાદીનું મહત્તમ માપ</short>
+          <long>આ કીનો વપરાશ GNOME 2.20 માં દૂર કરવામાં આવેલ છે. જૂની આવૃત્તિઓ સાથે સુસંગતતા માટે પદ્ધતિ પુનઃપ્રાપ્ત કરવામાં આવી.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Iyaka girmar jerin taga</short>
+          
+        </locale>
+
+        <locale name="he">
+          <short>גודל רשימת חלונות מקסימלי</short>
+          <long>The use of this key was deprecated in GNOME 2.20. The schema is retained for compatibility with older versions.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>अधिकतम विंडो सूची आकार</short>
+          <long>इस कुंजी का प्रयोग GNOME 2.20 में पदावनत किया गया था. स्कीमा को सुसंगतता के लिये पुराने संस्कऱण के साथ बनाये रखा जाता है.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Najveća veličina lista prozora</short>
+          <long>Korištenje ovog ključa je nevažeće u GNOME 2.20. Shema je zadržana zbog kompatibilnosti sa starijim verzijama.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Legnagyobb ablaklistaméret</short>
+          <long>Ez a kulcs a GNOME 2.20-ban már elavult. A séma a régebbi verziókkal való kompatibilitás miatt maradt meg.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Առավելագույն չափի պատուհանների ցուցակ</short>
+          <long>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.20-ում։ Սխեման համատեղելի է ավելի հին տարբերակների հետ։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Ukuran m_aksimum daftar jendela:</short>
+          <long>Kunci ini tidak dipakai lagi pada GNOME 2.20. Skema dipertahankan demi kompabilitas dengan versi sebelumnya.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Ụhara ndesịta windo buru ibu</short>
+          
+        </locale>
+
+        <locale name="is">
+          <short>Hámarksstærð fyrir gluggalista</short>
+          <long>Notkun þessa lykils var gerð óæskileg í GNOME 2.20. Þessari grind er viðhaldið vegna samhæfni við eldri útgáfur.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Dimensione massima elenco finestre</short>
+          <long>L&apos;uso di questa chiave è stato deprecato in GNOME 2.20. Lo schema è mantenuto per compatibilità con le versioni più vecchie.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>ウィンドウ一覧のサイズ (最大値)</short>
+          <long>このキーの使用は GNOME 2.20 で廃止になりました (このスキーマは古いバージョンと互換性を維持するためだけに残されています)。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ფანჯარათა სიის მაქსიმალური ზომა</short>
+          <long>გირჩევთ არ გამოიყენოთ ეს გასაღები GNOME 2.20-დან მოყოლებულ ვერსიებში. მოცემული გასაღები ძველ ვერსიებთან თავსევადობის უზრუნველყოფისთვისაა შემორჩენილი.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ವಿಂಡೋ ಪಟ್ಟಿಗಳ ಗರಿಷ್ಟ ಗಾತ್ರ</short>
+          <long>GNOME 2.20 ಯಲ್ಲಿ ಈ ಕೀಲಿಯ ಬಳಕೆಯನ್ನು ತೆಗೆದು ಹಾಕಲಾಗಿದೆ. ಹಳೆಯ ಆವೃತ್ತಿಗಳಿಗೆ ಹೊಂದಿಕೊಳ್ಳುವಂತೆ ಸ್ಕೀಮಾವನ್ನು ಹಾಗೆಯೆ ಉಳಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>창 목록 최대 크기</short>
+          <long>그놈 2.20에서는 이 키를 사용하지 않기를 권합니다. 이 스키마는 예전 버전과의 호환성을 위해 남아 있습니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Mezinahiya pirtirîn ya lîsteya paceyan</short>
+          
+        </locale>
+
+        <locale name="ky">
+          <short>Терезелер тизмесинин максималдык өлчөмү</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Didžiausias langų sąrašo dydis</short>
+          <long>Šis raktas nuo GNOME 2.20 nebenaudojamas. Schema išsaugota tik dėl suderinamumo su senesnėmis versijomis.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Maksimālais logu saraksta izmērs</short>
+          <long>Kopš GNOME 2.20 šis elements vairs netiek lietots. Šī shēma ir saglabāta, lai nodrošinātu savietojamību ar vecākām versijām.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>अधिकतम विंडो सूची आकार</short>
+          
+        </locale>
+
+        <locale name="mg">
+          <short>Haben&apos;ny lisitry ny fikandrana ambony indrindra</short>
+          
+        </locale>
+
+        <locale name="mk">
+          <short>Максимална големина за листање на прозорецот</short>
+          <long>Употребата на ова копче е запоставена во GNOME 2.20. Оваа шема постои заради компатибилност со постари верзии.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ജാലക പട്ടികയുടെ കൂടിയ വലിപ്പം</short>
+          <long>ഗ്നോ 2.20-ല്‍ ഈ കീയുടെ ഉപയോഗം നിര്‍ത്തിയിരുന്നു. പഴയ പതിപ്പുകളുമായുള്ള പൊരുത്തത്തിനായി സ്കീമാ സൂക്ഷിക്കുന്നു.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Цонх жагсаалтын хамгийн их хэмжээ</short>
+          
+        </locale>
+
+        <locale name="mr">
+          <short>विंडो सूचीचा कमाल आकार</short>
+          <long>GNOME2.20 मध्ये या कळेचा वापर नापसंत केले गेले होते. जुन्या आवृत्त्यांसह सुसंगततेसाठी सुत्रयोजना तसाच बाळगण्यात आला आहे.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Saiz maksimum senarai tetingkap</short>
+          <long>Kegunaan kekunci ini telah ditiadakan pada GNOME 2.20. Skema dikekalkan untuk kesesuaian dengan versi lebih lama.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Maksimal størrelse på vinduliste</short>
+          <long>Bruk av denne nøkkelen gikk ut i GNOME 2.20. Denne bevares for kompatibilitet med eldre versjoner.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>अधिकतम सन्झ्याल सूची साइज</short>
+          <long>जिनोम २.२० मा यस कुञ्जीको प्रयोग अनुचित ठानिएको छ । स्किमालाई पूरानो संस्करणसँग मिलाउन पहिलाको रूपमा राखिएको छ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Maximumgrootte van vensterlijst</short>
+          <long>Het gebruik van deze sleutel is achterhaald sinds Gnome 2.20. Het schema blijft behouden voor compatibiliteit met oudere versies.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Største storleik på vindaugsliste</short>
+          <long>Bruk av denne nøkkelen gikk ut i GNOME 2.20. Denne vert teke vare på for kompatibilitet med eldre versjonar.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Bogolo bja lelokelelo la lefesetere le legolo</short>
+          
+        </locale>
+
+        <locale name="oc">
+          <short>Talha maximala de la tièra de fenèstras</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>ସର୍ବାଧିକ ୱିଣ୍ଡୋ ତାଲିକା ଆକାର</short>
+          <long>ଏହି ଚାବିର ବ୍ୟବହାରକୁ GNOME 2.20ରେ ନାପସନ୍ଦ କରାଯାଇଛି. ଏହି ବିବରଣିକା ପୁରୁଣା ସଂସ୍କରଣ ସହିତ ସଙ୍ଗତ ଦୃଷ୍ଟିରୁ ରଖାଯାଇଛି.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਵੱਧ ਤੋਂ ਵੱਧ ਝਰੋਖਾ ਲਿਸਟ ਸਾਈਜ਼</short>
+          <long>ਇਸ ਕੁੰਜੀ ਦਾ ਗਨੋਮ 2.20 ਵਿਚ &apos;ਫਾਰਮੈਟ&apos; ਕੁੰਜੀ ਦੇ ਤੌਰ ਉੱਤੇ ਬਰਤਰਫ਼ ਕੀਤੀ ਗਈ ਹੈ। ਸਕੀਮਾ ਨੂੰ ਪੁਰਾਣੇ ਵਰਜਨਾਂ ਨਾਲ ਅਨੁਕੂਲਤਾ ਲਈ ਹੀ ਸ਼ਾਮਿਲ ਕੀਤਾ ਗਿਆ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Maksymalny rozmiar listy okien</short>
+          <long>Używanie tego klucza stało się przestarzałe w GNOME 2.20. Schemat został zachowany dla zgodności z poprzednimi wersjami.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>د کړکيو د لړ ټولوجګه کچ</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Tamanho máximo da lista de janelas</short>
+          <long>A utilização desta chave foi tornada obsoleta no GNOME 2.20. O esquema é mantido para compatibilidade com versões anteriores.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Tamanho máximo da lista de janelas</short>
+          <long>O uso dessa chave tornou-se obsoleto no GNOME 2.20. O esquema é mantido para ter compatibilidade com versões mais antigas.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Mărime maximă listă ferestre</short>
+          <long>Utilizarea acestei chei este descurajată în GNOME 2.20. Schema este reținută doar pentru compatibilitate cu versiunile mai vechi.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Максимальный размер списка окон</short>
+          <long>Использовать этот ключ в среде GNOME версии начиная с 2.20 не рекомендуется. Данный ключ остаётся только для совместимости с предыдущими версиями.</long>
+        </locale>
+
+        <locale name="si">
+          <short>උපරිම කවුළු ලැයිස්තු  ප්‍රමාණය</short>
+          
+        </locale>
+
+        <locale name="sk">
+          <short>Maximálna veľkosť zoznamu okien</short>
+          <long>Použitie tohto kľúča bolo zavrhnuté v GNOME 2.20. Schéma sa ponecháva kvôli spätnej kompatibilite.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Največja velikost seznama oken</short>
+          <long>Uporaba tega ključa je od GNOME 2.20 neuporabna. Shema je ohranjena zaradi skladnosti s starejšimi različicami.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Madhësia maksimale e listës së dritareve</short>
+          <long>Përdorimi i këtij kyçi nuk kryhet më në GNOME 2.20. Skema është mbajtur për përputhshmëri me versionet më të vjetra.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Највећа величина списка прозора</short>
+          <long>Употреба овог кључа је превазиђена у Гному 2.20. Шема је задржана зарад сагласности са старијим издањима.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Највећа величина списка прозора</short>
+          
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Najveća veličina spiska prozora</short>
+          <long>Upotreba ovog ključa je prevaziđena u Gnomu 2.20. Šema je zadržana zarad saglasnosti sa starijim izdanjima.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Maximal fönsterlistestorlek</short>
+          <long>Användandet av denna nyckel föråldrades i GNOME 2.20. Schemat har behållits för kompatibilitet med äldre versioner.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>ஆகக்கூடிய சாளர பட்டியல் அளவு</short>
+          <long>க்னோம் 2.6 இல் இந்த விசையின் பயன்பாடு மறுக்கப்பட்டது . பழைய பதிப்புகளுக்கு ஆதரவு தருவதற்காக இந்த திட்டம் தொடரப்படுகிறது.</long>
+        </locale>
+
+        <locale name="te">
+          <short>గరిష్ఠ విండో జాబితా పరిమాణం</short>
+          <long>ఈ కీ యొక్క ఉపయోగం GNOME 2.20 లో తగ్గించబడింది.పాత విడుదలల తో సారూప్యత కొరకు ఈ స్కీమా అలాగేఉంచబడింది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>จำนวนรายชื่อหน้าต่างสูงสุด</short>
+          <long>ค่านี้เลิกใช้แล้วใน GNOME 2.20  schema นี้คงไว้เพื่อความเข้ากันได้กับโปรแกรมรุ่นเก่าเท่านั้น</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Azami pencere listesi boyutu</short>
+          <long>Bu anahtarın kullanımı GNOME 2.20 ile artık kalktı. Şema eski sürümlerle uyumluluk için korunuyor.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Максимальний розмір списку вікон</short>
+          <long>Використання цього ключа небажане у GNOME 2.20. Даний ключ зберігається для сумісності з попередніми версіями.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Oynalar roʻyxatining maksimal hajmi</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Ойналар рўйхатининг максимал ҳажми</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Kích thước danh sách cửa sổ tối đa</short>
+          <long>Dùng khoá này đã bị phản đối trong GNOME 2.20. Giản đồ vẫn được giữ nguyên để tương thích với các phiên bản cũ.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Ubukhulu boludwe lweefestile obubobona bukhulu</short>
+          
+        </locale>
+
+        <locale name="yo">
+          <short>Ìwọ̀n àtòjọ fèrèsé tó ga jù</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+          <short>窗口列表的最大大小</short>
+          <long>在 GNOME 2.20 推荐使用此键。这里仅为与旧版本兼容而保留。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>視窗清單數目上限</short>
+          <long>此設定鍵在 GNOME 2.20 已不再使用。它的存在純粹是為了和舊版本兼容。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>視窗清單數目上限</short>
+          <long>此設定鍵在 GNOME 2.20 已不再使用。它的存在純粹是為了和舊版本相容。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Khulisa ubungakanani bohlu lefasitela</short>
+          
+        </locale>
+      </schema>
+
+    </schemalist>
+
+</gconfschemafile>

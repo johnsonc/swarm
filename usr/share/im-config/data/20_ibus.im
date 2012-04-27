@@ -1,0 +1,25 @@
+# start IBus
+# vim: set sts=4 expandtab:
+
+# start IBus daemon
+/usr/bin/ibus-daemon --daemonize --xim
+
+# set variables for the plain XIM
+XMODIFIERS=@im=ibus
+
+GTK_IM_MODULE=xim
+# use immodule when available for GTK
+for IM_CONFIG_MARKER in /usr/lib/gtk-2.0/*/immodules/im-ibus.so ; do
+    if [ -e $IM_CONFIG_MARKER ]; then
+        GTK_IM_MODULE=ibus
+    fi
+done
+
+QT_IM_MODULE=xim
+# use immodule when available for QT
+for IM_CONFIG_MARKER in /usr/lib/qt4/plugins/inputmethods/libqtim-ibus.so ; do
+    if [ -e $IM_CONFIG_MARKER ]; then
+        QT_IM_MODULE=ibus
+    fi
+done
+

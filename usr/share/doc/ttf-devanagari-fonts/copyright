@@ -1,0 +1,126 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: ttf-devanagari-fonts
+Maintainer: Debian-IN Team <debian-in-workers@lists.alioth.debian.org>
+Source: http://www.indictrans.in/d-fonts,
+        https://fedorahosted.org/lohit/,
+        http://www.sarai.net,
+        http://sarovar.org/projects/samyak/,
+
+Author: Cyberscape Multimedia Ltd.,
+        Prof Jitendra Shah <jitendras@vsnl.com>,
+        Monika Shah <monika_shah@lycos.com>,
+        Sonali Sonania <sonalisonania@yahoo.com>,
+        Alka Irani <alka@ncst.ernet.in>,
+        Automatic Control Equipments, Pune, INDIA,
+        Sanir Karmacharya <sanir@email.com>,
+        Suyash Shrestha,
+        Mihail Bayaryn,
+        University of Cambridge,
+        Sarai <http://www.sarai.net>,
+        Rahul Bhalerao <b.rahul.pm@gmail.com>,
+        Sandip Shedmake <sandip.shedmake@gmail.com>,
+        Bageshri Salvi <sbageshri@gmail.com>,
+        Pravin Satpute <pravin.d.s@gmail.com>.
+
+Files: gargi.ttf
+Copyright: Glyphs Copyright (C) Cyberscape Multimedia Ltd
+ Open Type rules and extra glyphsets made by Localization Team HBCSE,
+ TIFR Devanagari character shapes improved and maintained by Monika Shah
+ and Sonali Sonania of janabhaaratii Team, C-DAC, Mumbai.
+ <http://www.janabhaaratii.org.in>
+
+Files: kalimati.ttf, samanata.ttf
+Copyright: (C) Sanir Karmacharya <sanir@email.com>,
+               Suyash Shrestha
+
+Files: chandas1-2.ttf
+Copyright: (C) 2005, Mihail Bayaryn
+                     Latin and Cyrillic glyphs were added from DejaVu font and
+                     modified according to GPL.
+
+Files: Sarai_07.ttf
+Copyright: (C) 2007, Sarai <http://www.sarai.net>
+
+Files: nakula.ttf, sahadeva.ttf
+Copyright: (C) 2006, University of Cambridge.
+                     Designed and developed by IMRC, India.
+Latin and Cyrillic glyphs from the font Nimbus Roman No9 L Regular
+Copyright: (C) 1999, (URW)++ Design & Development
+
+Cyrillic glyphs
+Copyright (C) 2001-2002, Valek Filippov
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This package is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this package; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General Public License can be
+ found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: Samyak-Devanagari.ttf
+Copyright: (C) 2005-2006, H.B.C.S.E., T.I.F.R., Mumbai, INDIA.
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; version 2 of the License.
+ .
+ This package is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this package; if not, write to the Free Software Foundation, Inc., 51 Franklin
+ St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General Public License can be
+ found in `/usr/share/common-licenses/GPL-2'.
+
+Files: lohit_*.ttf
+Copyright: (C) 2003, Automatic Control Equipments, Pune, INDIA
+           (C) 2006, Modular Infotech Pvt Ltd.
+           (C) 2009, Red Hat, Inc.
+License: GPL-2 with font exception
+ Licensed under the GNU General Public License, version 2 (see text below)
+ along with the following exception:
+ .
+ As a special exception, if you create a document which uses this font, and
+ embed this font or unaltered portions of this font into the document, this
+ font does not by itself cause the resulting document to be covered by the GNU
+ General Public License. This exception does not however invalidate any other
+ reasons why the document might be covered by the GNU General Public License.
+ If you modify this font, you may extend this exception to your version of the
+ font, but you are not obligated to do so. If you do not wish to do so, delete
+ this exception statement from your version.
+ .
+ This package is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; version 2 of the License.
+ .
+ This package is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this package; if not, write to the Free Software Foundation, Inc., 51 Franklin
+ St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General Public License can be
+ found in `/usr/share/common-licenses/GPL-2'.
+
+Files: debian/*
+Copyright: This collection itself is hereby assigned to the public domain by
+ the compilers, Jaldhar H. Vyas <jaldhar@braincells.com> and Soumyadip Modak
+ <soumyadip@softhome.net>
+License: Public Domain

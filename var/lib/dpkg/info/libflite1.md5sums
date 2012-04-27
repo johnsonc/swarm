@@ -1,0 +1,11 @@
+a5e62ddad5dc2f3151ff4cb630872ebe  usr/lib/libflite.so.1.4
+9fbe2a03d9e7056256b7730a74e813bd  usr/lib/libflite_cmu_time_awb.so.1.4
+df2d758533c7ac05a93c6edd2131e797  usr/lib/libflite_cmu_us_awb.so.1.4
+49b55dd459a02aece6cec7edf1f50ffc  usr/lib/libflite_cmu_us_kal.so.1.4
+05d9bbdcd446e20244c93df30a07e9f1  usr/lib/libflite_cmu_us_kal16.so.1.4
+bd3bbbcd37b3da65bde76c0e34041086  usr/lib/libflite_cmu_us_rms.so.1.4
+644ed09f2c2fb9d6ad85c20b2481f3ed  usr/lib/libflite_cmu_us_slt.so.1.4
+6fda49803e764553081ee27288cb1c6c  usr/lib/libflite_cmulex.so.1.4
+9587503bac9e95e2ba2f8d25349bb731  usr/lib/libflite_usenglish.so.1.4
+a368ab47d7c79103eb88ff5329f745f6  usr/share/doc/libflite1/changelog.Debian.gz
+1eba58ca143fdd2cebd223f033f67cc2  usr/share/doc/libflite1/copyright

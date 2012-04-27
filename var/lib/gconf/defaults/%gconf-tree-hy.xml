@@ -1,0 +1,1555 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="show_backup_files">
+						<local_schema short_desc="Արդյո՞ք ցույց տալ պահեստային կամ պատճենող ֆայլերը։">
+							<longdesc>Եթե ճշգրիտ է, ապա պատճենող ֆայլերը, ինչպիսիք են Emacs–ով ստեղծված ֆայլերը պատկերվում են։ Ներկայումս միայն tilde (~)–ով վերջացող ֆայլերն են համարվում պատճենող ֆայլեր։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Արդյո՞ք ցույց տալ թաքնված ֆայլերը։">
+							<longdesc>Եթե ճշգրիտ է, ապա թաքնված ֆայլերը ցույց են տրվում ֆայլ մենեջերի մեջ։ Թաքնված ֆայլերը կամ կետով սկսվող ֆայլեր են կամ գտնվում են պանակի թաքնված ֆայլերի ցուցակում։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Պատուհանի մենեջեր">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="diskload_color2">
+						<local_schema short_desc="Սկավառակիկի ծանրաբեռնվածության գրաֆիկի նախադրյալի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color1">
+						<local_schema short_desc="Գրաֆիկի գույնը դիսկը ձայնագրելու համար">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color0">
+						<local_schema short_desc="Սկավառակըը կարդալու գրակիֆի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color1">
+						<local_schema short_desc="Բեռի գրաֆիկի ֆոնի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color0">
+						<local_schema short_desc="Գրաֆիկի գույնը միջին բեռի պատկերման համար">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color1">
+						<local_schema short_desc="Փոխանակային ծրագրի ֆոնի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color0">
+						<local_schema short_desc="Գրաֆիկի գույնը գործարկողի կողմից փոխանակման ծրագրի օգտագործումը պատկերելու համար">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color3">
+						<local_schema short_desc="Ցանցի գրաֆիկի ֆոնի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="memload_color4">
+						<local_schema short_desc="ՀԻշողության գրաֆիկի ֆոնի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="memload_color3">
+						<local_schema short_desc="cached հիշողության պատկերման գրաֆիկի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="memload_color2">
+						<local_schema short_desc="Բուֆերային հիշողության պատկերման գրաֆիկի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="memload_color1">
+						<local_schema short_desc="Գրաֆիկի գույնը առանձնացված հիշողությունը պատկերելու համար">
+						</local_schema>
+					</entry>
+					<entry name="memload_color0">
+						<local_schema short_desc="Գրաֆիկի գույնը գործարկողի կողմից օգտագործվող հիշողությունը պատկերելու համար">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color4">
+						<local_schema short_desc="Պրոցեսորի գրաֆիկի նախադրյալի գույնը">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color3">
+						<local_schema short_desc="Գրաֆիկի գույնը պրոցեսորի iowait–ի հետ առնչվող գործունեությունը պատկերելու համար">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color2">
+						<local_schema short_desc="Գրաֆիկի գույնը պրոցեսորի՝ nice–ի հետ առնչվող գործունեության համար ">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color1">
+						<local_schema short_desc="Գրաֆիկի գույնը պրոցեսորի՝ համակարգի հետ առնչվող գործունեությունը պատկերելու համար">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color0">
+						<local_schema short_desc="Գրաֆիկի գույնը պրոցեսորի գործարկողի հետ առնչվող գործունեությունը պատկերելու համար">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Գրաֆիկի չափսը">
+							<longdesc>Հորիզոնական պանելի համար, գրաֆիկի լայնությունը պիքսելներով, (պատկերման նվազագույն տարրերով)։  Ուղղահայաց պանելի համար, գրաֆիկի բարձրությունը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Ապլետի նորացման հաճախականությունը միլի վայրկյաններում">
+						</local_schema>
+					</entry>
+					<entry name="view_diskload">
+						<local_schema short_desc="Միացնել դիսկի ծանրաբեռնվածության գրաֆիկը">
+						</local_schema>
+					</entry>
+					<entry name="view_loadavg">
+						<local_schema short_desc="Միացնել միջին ծանրաբեռնվածության գրաֆիկը">
+						</local_schema>
+					</entry>
+					<entry name="view_swapload">
+						<local_schema short_desc="Միացնել փոխանակային ծանրաբerնվածության գրաֆիկը">
+						</local_schema>
+					</entry>
+					<entry name="view_netload">
+						<local_schema short_desc="Միացնել ցանցի ծանրաբեռնվածության գրաֆիկը">
+						</local_schema>
+					</entry>
+					<entry name="view_memload">
+						<local_schema short_desc="Միացնել հիշողության ծանրաբեռնվածության գրաֆիկը">
+						</local_schema>
+					</entry>
+					<entry name="view_cpuload">
+						<local_schema short_desc="Միացնել պրոցեսորի ծանրաբեռնվածության գրաֆիկը">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="geyes">
+				<dir name="prefs">
+					<entry name="theme_path">
+						<local_schema short_desc="Թղթապանակ որտեղ գտնվում են թեմաները">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_text">
+						<local_schema short_desc="Ցուցադրել ժամանակ/տոկոս պիտակը">
+						</local_schema>
+					</entry>
+					<entry name="show_battery">
+						<local_schema short_desc="Ցուցադրել հորիզոնական մարտկոցը">
+						</local_schema>
+					</entry>
+					<entry name="show_status">
+						<local_schema short_desc="Ուղղահայաց (փոքր) մարտկոց">
+						</local_schema>
+					</entry>
+					<entry name="drain_from_top">
+						<local_schema short_desc="Սպառել վերևից">
+							<longdesc>Ցուցադրել մարտկոցի ցուցչի վերից վար իջեցումը։ Կիրառելի է միայն մարտկոցի ավանդական տեսաբերման ժամանակ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="Ազդանշանել նախազգուշացումների դեպքում">
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="Լիցքավորված Մարտկոցի Տեղեկացում">
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="Լիվքաթափված Մարտկոցի Տեղեկացում">
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="Կարմիր արժեքի մակարդակ">
+							<longdesc>Մարտկոցի լիցքավորման չափը, որից ցածր մարտկոցը պատկերվում է կարմիր գույնով, ինչպես նաև այն մակրդակը, որի դեպքում նախազգուշացնում է մարտկոցի լիցքաթափման մասին</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="mixer_applet">
+				<dir name="prefs">
+					<entry name="vol">
+						<local_schema short_desc="Ձայնի բարձրության պահպանված մակարդակը հաջորդ գործարկման ժամանակ վերականգնվելու համար">
+						</local_schema>
+					</entry>
+					<entry name="mute">
+						<local_schema short_desc="Համր ձայնի կարգավիճակի պահպանում">
+						</local_schema>
+					</entry>
+					<entry name="channel">
+						<local_schema short_desc="Ապլետով կառավարվող ալիք։  Միայն OSS կայանքների համար">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema short_desc="Ժամանակի ինտերվալ միացման կետի կարգավիճակը ստուգելու համար">
+							<longdesc>Կարգավիճակի նորացման միջև ընկած ժամանակահատվածը վարկյաններով</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="Առկա ներկապնակների ցանկ">
+						</local_schema>
+					</entry>
+					<entry name="current_list">
+						<local_schema short_desc="Ապլետը գործարկելիս ցուցադրվող նիշեր">
+							<longdesc>Գործարկողի կողմից վերջին օգտագործման ժամանակ ընտրված տողը։ Այս տողը կհայտնվի հետագա գործարկման ժամանակ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_list">
+						<local_schema short_desc="ԽՈՐՀՈՒՐԴ ՉԻ ՏՐՎՈՒՄ – Ապլետը գործարկելիս ցուցադրվող նիշեր">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="show_text_mode">
+						<local_schema short_desc="Պատկերվող տեքստի տիպը (եթե տեքստը միացված է)">
+						</local_schema>
+					</entry>
+					<entry name="show_mode">
+						<local_schema short_desc="Պրոցեսորի օգտագործումը ցույց տալու ռեժիմ">
+						</local_schema>
+					</entry>
+					<entry name="cpu">
+						<local_schema short_desc="Վերահսկվող պրոցեսոր">
+							<longdesc>Ընտրել վերահսկվող պրոցեսորը։ Մեկ պրոցեսորային համակարգիչներում փոփոխություն պետք չէ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="settings">
+					<entry name="confirm_deletion">
+						<local_schema short_desc="Գրառումը հեռացնելիս հավանություն խնդրել">
+						</local_schema>
+					</entry>
+					<entry name="force_default">
+						<local_schema short_desc="Կիրառե՞լ հիմնական գույնը և տառատեսակը բոլոր գրառումների համար">
+							<longdesc>Եթե տարբերակը միացված է ապա գործարկողի կողմից առանձին գրառումների համար նշված գույնը և տառատեսակը չի օգտագործվում</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_font">
+						<local_schema short_desc="Օգտագործե՞լ համակարգի հիմնական տառատեսակը">
+							<longdesc>Եթե այս տարբերակը անջատված է ապա գործարկողի կողմից ընտրված տառատեսակը կարող է օգտագործվել որպես հիմնական տառատեսակ բոլոր կպչուն գրառումների համար</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_color">
+						<local_schema short_desc="Օգտագործե՞լ համակարգի հիմնական գույնը">
+							<longdesc>Եթե այս տարբերակը անջատված է ապա գործարկողի կողմից ընտրված գույնը կարող է օգտագործվել որպես հիմնական գույն բոլոր կպչուն գրառումների համար</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Ամսաթվի ֆորմատը և գրառման վերնագիրը">
+							<longdesc>Ըստ հիմնական դրվածքի կպչուն գրառումները վերնագրվում են ընթացիկ ամսաթվով։  Օգտագործվում է այդ ֆորմատը։  Այն ինչը կարող է ճշգրիտ վերլուծության ենթարկվել strftime  () ֆունկցիայով համարվում է ճիշտ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Կպչուն գրառումների ֆիքսման կարգավիճակը">
+							<longdesc>Նշում է արդյո՞ք կպչուն գրառումը արգելափակված է(ենթակա չէ խմբագրման) թե ոչ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sticky">
+						<local_schema short_desc="Գրառումների կպչունությունը աշխատանքային տարածքին">
+							<longdesc>Տեղեկացնում է արդյո՞ք կպչուն գրառումները տեսանելի են բոլոր աշխատանքային տարածքներում թե ոչ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="defaults">
+					<entry name="font">
+						<local_schema short_desc="Նոր գրառումների համար հիմնական տառատեսակ">
+						</local_schema>
+					</entry>
+					<entry name="font_color">
+						<local_schema short_desc="Տառատեսակի հիմնական գույնը">
+							<longdesc>Նոր կպչուն գրառումների հիմնական գույնը։  Գույնը պետք է համապատասխանի html տասնվեցանգամյա պայմանին, օրինակ &quot;#000000&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="color">
+						<local_schema short_desc="Նոր գրառումների հիմնական գույնը">
+							<longdesc>Նոր կպչուն գրառումների հիմնական գույնը։  Գույնը պետք է համապատասխանի html տասնվեցանգամյա պայմանին, օրինակ &quot;#30FF50&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="height">
+						<local_schema short_desc="Նոր գրառումների բարձրության հիմնական">
+							<longdesc>Նոր կպչուն գրառումների հիմնական բարձրություն պիքսելներով</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="Դեֆոլտ լայնություն նոր գրառումների համար">
+							<longdesc>Նոր կպչուն գրառումների հիմնական լայնություն պիքսելներով</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Աշխատանքային սեղանի թափոն պատկերակի անունը">
+							<longdesc>Այս անունը կարող է տեղադրվել, եթե դուք աշխատանքայն սեղանի թափոն պատկերակի համար ցանկանում եք գործարկողի անուն սահմանել։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Աշխատասեղանի սեփական տուն պատկերակի անունը">
+							<longdesc>Այս անունը կարող է տեղադրվել, եթե դուք աշխատասեղանի սեփական տուն պատկերակի համար ցանկանում եք գործարկողի անուն սահմանել։ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="Աշխատասեղանի համակարգչի պատկերակի անունը">
+							<longdesc>Այս անունը կարող է տեղադրվել, եթե դուք աշխատասեղանի համակարգչի պատկերակի համար ցանկանում եք գործարկողի անուն սահմանել։  </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="Ցույց տալ միացված հատորները աշխատասեղանի վրա">
+							<longdesc>Եթե ճշգրիտ է, ապա աշխատասեղանի վրա դրվում է պատկերակ, որը հղում է կատարում դեպի միացված հատորները։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Աշխատասեղանի վրա տեսանելի թափոն պատկերակ։">
+							<longdesc>Եթե ճշգրիտ է, ապա աշխատասեղանի վրա դրվում է պատկերակ, որը հղում է կատարում դեպի փափոն զամբյուղը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Աշխատասեղանին երևացող համակարգչի պատկերակ">
+							<longdesc>Եթե ճշգրիտ է, ապա  աշխատասեղանի վրա դրվում է պատկերակ, որը հղում է կատարում դեպի համակարգչի տեղակայումը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Սեփական տուն պատկերակը տեսանելի է աշխատասեղանի վրա">
+							<longdesc>Եթե ճշգրիտ է, ապա աշխատասեղանի վրա դրվում է պատկերակ, որը հղում է կատարում դեպի սեփական տուն պանակը։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema>
+								<longdesc>Եթե ճշգրիտ է, նաուտիլիուսը ցույց կտա պանակները ծառ կողային վահանակում։ Հակառակ դեպքում այն ցույց կտա երկուսն էլ, և պանակները և ֆայլերը։ </longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="Սյուների նախնական կարգը տեսացուցակի մեջ">
+							<longdesc>Սյունակների նախնական կարգը տեսացանկի մեջ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="Սյունակների նախնական ցանկ, որոնք երևում են տեսաբերված ցանկում">
+							<longdesc>Սյունակների նախնական ցանկ, որոնք երևում են տեսաբերված ցանկում</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Պատկերման մասշտաբի նախնական ցանկ">
+							<longdesc>Նախնական պատկերման մասշտաբ, որն օգտագործվում է ցուցակի տեսաբերման ժամանակ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Հակառակ դասավորություն նոր պատուհաններում">
+							<longdesc>Եթե ճշգրիտ է, նոր պատուհաններում ֆայլերը դասավորվում են հակառակ ուղղությամբ, այսինքն, եթե դասավորված են անունով, ապա ա–ից ֆ դասավորելու փոխարեն դրանք դասավորվում են ֆ–ից ա։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Տեսակավորման նախնական կարգ">
+							<longdesc>Նախնական տեսակավորման կարգ ցուցակի տեսաբերման տարրերի համար։ Հնարավոր արժեքներն են &quot;name&quot;, &quot;size&quot;, &quot;type&quot;, և &quot;modification_date&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Պատկերակի պատկերման նախնական մասշտաբ">
+							<longdesc>Պատկերման մասշտաբի նախնական մակարդակ, որն օգտագործվում է  պատկերակի տեսաբերման ժամանակ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="Պատուհաններում օգտագործել ձեռքով կառավարվող սխեմաներ։">
+							<longdesc>Եթե ճշգրիտ է, նոր պատուհանները օգտագործում են ձեռքով տեղակայում ըստ նախնականի</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="Դնել պիտակները պատկերակների կողքին։">
+							<longdesc>Եթե ճշգրիտ է, պիտակները տեղակայվում են պատկերակների կողքին և ոչ թե նրանց ներքևում</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="Պատուհաններում օգտագործել առավել խիտ սխեմաներ։">
+							<longdesc>Եթե ճշգրիտ է, պատկերակները նոր պատուհաններում, ըստ նախնականի դասավորվում են ավելի խիտ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Հակառակ դասավորություն նոր պատուհաններում">
+							<longdesc>Եթե ճշգրիտ է, նոր պատուհաններում ֆայլերը դասավորվում են հակառակ ուղղությամբ, այսինքն, եթե դասավորված են անունով, ապա ա–ից ֆ դասավորելու փոխարեն դրանք դասավորվում են ֆ–ից ա, եթե դասավորվում են ըստ չափսի՝ աճելու փոխարեն դրանք նվազում են։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Տեսակավորման նախնական կարգ">
+							<longdesc>Նախնական տեսակավորման կարգ պատկերակների տեսաբերման տարրերի համար։ Հնարավոր արժեքներն են &quot;name&quot;, &quot;size&quot;, &quot;type&quot;, &quot;modification_date&quot;, և &quot;emblems&quot;։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Պատկերակների վրա հնարավոր վերնագրերի ցանկը">
+							<longdesc>Աշխատասեղանի վրա տեղակայված տեսակոճակից ներքև՝ որպես պատկերակներ ներկայացվող վերնագրերի ցանկ։ Ցույց տրվող վերնագրերի իրական թիվը  կախված է պատկերման մասշտաբից։Հնարավոր արժեքներն են: &quot;size&quot;, &quot;type&quot;, &quot;date_modified&quot;, &quot;date_changed&quot;, &quot;date_accessed&quot;, &quot;owner&quot;, &quot;group&quot;, &quot;permissions&quot;, &quot;octal_permissions&quot; և &quot;mime_type&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Կողակին վահանակի տեսաբերում">
+							<longdesc>Կողային վահանակի տեսաբերում նոր բացվող պատուհաններում</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Ցույց տալ կողային վահանակը նոր պատուհաններում">
+							<longdesc>Եթե ճշգրիտ է, նոր բացվող պատուհանները ցույց կտան կողային վահանակը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Ցույց տալ կարգավիճակի տողը նոր պատուհաններում">
+							<longdesc>Եթե ճշգրիտ է, նոր բացվող պատուհանները ցույց կտան կարգավիճակի տողը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Ցույց տալ տեղակայման վահանակը պատուհաններում">
+							<longdesc>Եթե ճշգրիտ է, նոր բացվող պատուհանները ցույց կտան տեղակայումը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Ցույց տալ գործիքների վահանակը նոր պատուհաններում">
+							<longdesc>Եթե ճշգրիտ է, նոր բացվող պատուհանները ցույց կտան գործիքների վահանակը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Կողային վահանակի լայնությունը։">
+							<longdesc>Կողային վահանակի նախնական լայնությունը նոր պատուհաններում</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Ամսաթվի ֆորմատ">
+							<longdesc>Ֆայլի ամսաթվերի ֆորմատը։ Հնարավոր արժեքներն են &quot;locale&quot;, &quot;iso&quot;, և &quot;informal&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Պանակների նախնական տեսաբերում">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Կողային վահանակի ֆայլի անվան նախնական հետին պլան ">
+							<longdesc>Կողային վահանակի նախնական հետին պլանի ֆայլի անուն։ Կիրառվում է միայն, երբ side_pane_background_set–ը ճշգրիտ է</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Կողային վահանակի նախնական հետին պլան ">
+							<longdesc>Կողային վահանակի նախնական հետին պլանի ֆայլի անուն։ Կիրառվում է միայն, երբ side_pane_background_set–ը ճշգրիտ է</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Գործարկողի կողմից ընտրված կողային վահանակի հետին պլան ">
+							<longdesc>Արդյո՞ք գործարկողի կողային վահանակի նախնական հետին պլանը սահմանվել է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Ֆայլի անվան նախնական հետին պլան">
+							<longdesc>Նախնական պանակի հետին պլանի ֆայլի անուն։ Կիրառվում է միայն, երբ background_set–ը ճշգրիտ է</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Հետին պլանի նախնական գույն">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema>
+							<longdesc>Արդյո՞ք գործարկողի պանակի նախնական հետին պլանը սահմանվել է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="Որոնման վահանակի որոնման չափանիշ">
+							<longdesc>Որոնման վահանակի միջոցոց ֆայլերի որոնման չափանիշներ. Եթե ընտրվում է &quot;search_by_text&quot;, Nautilus–ը փնտրում է ֆայլերը միայն անունով Եթե ընտրվում է &quot;search_by_text_and_properties&quot;, ֆայլի որոնումը կատարվում է ըստ ֆայի անունի և հատկությունների։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Նաուտիլիուսն օգտագործում է գործարկողի սեփական տուն պանակը որպես աշխատասեղան">
+							<longdesc>Եթե ճշգրիտ է, ապա նաուտիլիուսը օգտագործում է գործարկողի սեփական տուն պանակը որպես աշխատասեղան։ Եթե այն ճշգրիտ չէ, ապա այն օգտագործում է ~/ախատանքային սեղանը որպես աշխատանքային սեղան։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Աշխատանքաին էկրանի տառատեսակը">
+							<longdesc>Աշխատասեղանի պատկերակների համար օգտագործվող տառատեսակի նկարագրությունը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Նաուտիլիուսն օգտագործվում է աշխատասեղանը նկարելու համար">
+							<longdesc>Եթե ճշգրիտ է, ապա նաուտիլիուսը պատկերում է պատկերակները աշխատասեղանի վրա։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Պանակները առաջինը ցույց տալ պատուհաններում">
+							<longdesc>Եթե ճշգրիտ է, ապա նաուտիլիուսը ցույց է տալիս պանակները  ավելի շուտ քան ցույց կտա ֆայլերը որպես պատկերակներ և ցուցակ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="Արդյո՞ք նախապես լսել ձայները՝ դրվագապատկեների վրա մկնիկի սլաքը տեղափոխելիս։">
+							<longdesc>Արագության ընտրությունը, երբ ցույց են տրվում ձայնային ֆայլերը մկնիկի սլաքը այդ ֆալերի պատկերակների վրայով շարժելիս։ Եթե սահմանված է &quot;always&quot;, ապա ձայնը միշտ կվերարտադրվի, նույնիսկ եթե ֆայլը հեռավոր սերվերի վրա է։ Եթե սահմանված է &quot;local_only&quot;, ապա վերարտադրվում են միայն նախնական հնչյունները տեղային ֆայլերի համակարգում։ Եթե սահմանված է &quot;never&quot;, ապա ֆայլերը չեն վերարտադրում ձայնը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Պանակի մեջ առավելագույն թվով ֆայլերի քանակը">
+							<longdesc>Այս չափսից առավել մեծ պանակները փոքրացվում են մինչև այս չափսը։ Դրա նպատակն է խուսափել հիշողության անտեղի կուտակումից և  մեծ պանակներում նաուտիլիուսի ոչնչացումից։ Բացասական արժեքը նշանակում է սահմանափակման բացակայություն։ Սահմանափակումները մոտավոր են, քանի որ պանակների ընթերցումը իրականացվում է մաս–մաս։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Փոքրացման համար առավելագույն պատկերի չափսը">
+							<longdesc>Այս չափսից մեծ պատկերները (բայթերով) չեն փոքրացվում։ Այս կարգադրվածքի նպատակն է խուսափել մեծ պատկերները փոքրացնելուց, որը կարող է երկար ժամանակ խլել բեռնելիս կամ մեծ հիշողություն օգտագործել։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Երբ ցույց տալ պատկերային ֆայլերի պիկտոգրամաները։">
+							<longdesc>Արագության ընտրությունը, երբ ցույց են տրվում պատկերների ֆայլերը որպես պիկտոգրամաներ։ Եթե սահմանված է &quot;always&quot;, ապա միշտ կցուցադրվեն, նույնիսկ եթե պանակները գտնվում են հեռավոր սերվերների վրա։ Եթե սահմանված է &quot;local_only&quot;, ապա կցուցադրվեն տեղային ֆայլերի համակարգերի պիկտոգրամաները։  Եթե սահմանված է &quot;never&quot;, ապա երբեք չի հաջողվի տեսնել պատկերները, կարելի է օգտվել միայն ընդհանուր պատկերակներից։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Ընթացիկ Nautilus թեմա (հնացած)">
+							<longdesc>Նաուտիլիուսի կողմից օգտագործվող թեմայի անունը։ Սա հնացել է սկսած 2.2 տարբերակից։ Խնդրվում է դրա փոխարեն օգտագործել պատկերակների թեման</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="Ինչպես վարվել գործարկվող տեքստային ֆայլերի հետ, երբ ակտվացվում են։">
+							<longdesc>Ինչպես վարվել գործարկվող տեքստաին ֆայլերի հետ, երբ դրանք ակտիվացվում են (մեկ կամ կրկնակի կտտոցներով)։ Հնարավոր արժեքներն են. &quot;launch&quot;, դրանք գործարկելու համար որպես ծրագրեր, &quot;ask&quot; , հարցնել ինչ կատարել դիալոգի միջոցով, և &quot;display&quot;, դրանք պատկերել որպես տեքստային ֆայլեր։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="Կտտոցի տեսակը, որն օգտագործվում է ֆայլերը գործարկելու/բացելու համար։">
+							<longdesc>Հնարավոր արժեքներն են &quot;single&quot; , որոնք ֆայլերը գործարկում են մեկ կտտոցով, կամ &quot;double&quot;, որոնք դրանք գործարկում են կրկնակի կտտոցով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Ե՞րբ ցույց տալ տարրերի թիվը պանակի մեջ">
+							<longdesc>Արագության ընտրությունը, երբ ցույց է տրվում պանակի տարրերի քանակությունը։ Եթե սահմանված է &quot;always&quot;, ապա տարրերի թիվը միշտ ցուցադրվում է, նույնիսկ եթե պանակը գտնվում է հեռավոր սերվերի վրա։ Եթե սահմանված է &quot;local_only&quot;, ապա այն ցույց է տրվում միայն տեղային ֆայլերի համակարգում։ Եթե սահմանված է &quot;never&quot;, ապա դրանց թիվը հաշվելն անհնար է</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Ե՞րբ ցույց տալ տեքստի նախնական պատկերը պատկերակում։">
+							<longdesc>Արագության ընտրությունը, երբ ցույց են տրվում տեքստային ֆայլերի բովանդակությունը ֆայլերի պատկերակներում։ Եթե սահմանված է &quot;always&quot;, ապա նախնական ցուցադրումը միշտ կատարվում է, նույնիսկ եթե պանակը հեռավոր սերվերի վրա է գտնվում։ Եթե սահմանված է &quot;local_only&quot;, ապա ցույց է տրվում տեղային ֆայլերի համակարգերի նախնական տեքստերը։ Եթե սահմանված է &quot;never&quot;, երբեք չի հաջողվի կարդալ նախնական տեղեկատվությունը։ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Արդյո՞ք միացնել արագ հեռացումը։">
+							<longdesc>Եթե ճշգրիտ է, ապա նաուտիլիուսը հնարավորություն է տալիս ֆայլը անմիջապես տեղում հեռացնել, դեպի թափոնի զամբյուղը շարժելով տանելու փոխարեն։ Այս հնարավորությունը կարող է վտանգավոր լինել,  այն զգուշությամբ օգտագործեք։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_location_entry">
+						<local_schema short_desc="Միշտ օգտագործել տեղակայման մուտքագրումը, և ոչ ցանցի երթուղին">
+							<longdesc>Եթե ճշգրիտ է, ապա նաուտիլիուսը զննիչ պատուհանները գործիքների տեղակայման տողի համար միշտ օգտագործում է տեքստային մուտքագրումներ, հետագծի տողի փոխարեն։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Միացնել կլասիկ նաուտիլիուսի վարքագիծը, որտեղ բոլոր պատուհանները զննիչներ են">
+							<longdesc>Եթե ճշգրիտ է, ապա նաուտիլիուսի պատուհանները զննիչ պատուհաններ են։ Ահա ինչպիսի վարքագիծ ուներ նաուտիլիուսը նախքան 2.6 տարբերակը և որոշ մարդիկ այս տարբերակը նախընտրում են։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="speed_unit">
+						<local_schema short_desc="Արագության միավոր">
+							<longdesc>Միավորն օգտագործել քամու ուժգնությունը ցույց տալիս։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="Ջերմաստիճանի միավոր">
+							<longdesc>Միավորն օգտագործել ջերմաստիճանները ցույց տալիս։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cities">
+						<local_schema short_desc="տեղակայությունների ցուցակ">
+							<longdesc>Տեղակայությունների ցուցակը օրացույցի պատուհանում ցույց տալու համար։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="internet_time">
+						<local_schema short_desc="Օգտագործել ինտերնետ ժամանակը">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.6–ում որպես &apos;format&apos; ստեղն։ Սխեման համատեղելի է միայն ավելի հին տարբերակների հետ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Օգտագործել յունիքս (UNIX) ժամանակը">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.6–ում որպես &apos;format&apos; ստեղն։ Սխեման համատեղելի է միայն ավելի հին տարբերակների հետ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Ժամի ձևաչափ">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.6–ում որպես &apos;format&apos; ստեղն։ Սխեման համատեղելի է միայն ավելի հին տարբերակների հետ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_locations">
+						<local_schema short_desc="Ընդլայնել տեղակայությունների ցուցակը">
+							<longdesc>Եթե ճիշտ է, ապա ընդլայնել տեղակայությունների ցուցակը օրացույցի պատուհանում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_weather">
+						<local_schema short_desc="Ընդլայնել եղանակային տվյալների ցուցակը">
+							<longdesc>Եթե ճիշտ է, ապա օրացույցի պատուհանում ընդլայնել եղանակի տեսության ցուցակը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_tasks">
+						<local_schema short_desc="Ընդլայնել առաջադրանքների ցուցակը">
+							<longdesc>Եթե ճիշտ է, ապա օրացույցի պատուհանում ընդլայնել առաջադրանքների ցուցակը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_birthdays">
+						<local_schema short_desc="Ընդլայնել ծննդյան օրերի ցուցակը">
+							<longdesc>Եթե ճիշտ է, ապա օրացույցի պատուհանում ընդլայնել ծննդյան տոների ցուցակը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_appointments">
+						<local_schema short_desc="Ընդլայնել հանդիպումների ցուցակը">
+							<longdesc>Եթե ճիշտ է, ապա օրացույցի պատուհանում ընդլայնել հանդիպումների ցուցակը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Ցույց տալ շաբաթների թիվը օրացույցում">
+							<longdesc>Եթե ճիշտ է, ապա ցույց տալ շաբաթների թիվը օրացույցում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Ժամանակի կոֆիգուրացիայի գործիք">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.22-ում տարածքային ժամանակի կոնֆիգուրացիոն գործիքի հետ միաժամանակ։ Այս սխեման համատեղելի է ավելի հին տարբերակների հետ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Օգտագործել (UTC)–ը">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.28-ում ժամային գոտիների օգտեգործման համար։ Սխեման համատեղելի է հին տարբերակների հետ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_temperature">
+						<local_schema short_desc="Ցուցադրել ջերմաստիճանը ժամացույցի մեջ">
+							<longdesc>Եթե ճիշտ է, ապա ցույց տալ ջերմաստիճանը եղանակի պատկերանիշից հետո։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_weather">
+						<local_schema short_desc="Ցույց տալ եղանակը ժամացույցի մեջ">
+							<longdesc>Եթե ճիշտ է, ապա ցուց տալ եղանակի պատկերանիշը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Ցույց տալ ամսաթիվը հուշման մեջ">
+							<longdesc>Եթե ճիշտ է, ապա ցույց տալ ամսաթիվը հուշման մեջ, երբ սլաքը ժամացույցի վրա է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Ցուցադրել ամսաթիվը ժամացույցի մեջ">
+							<longdesc>Եթե ճիշտ է, ապա ժամացույցում բացի ժամից ցույց տալ նաև ամսաթիվը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Ցույց տալ ժամը վայրկյաններով">
+							<longdesc>Եթե ճիշտ է, ապա ցույց տալ վայրկյանները ժամում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Ժամացույցի սովորական ձևաչափ">
+							<longdesc>Այս ստեղնը նշում է ժամացույցի ապլետի ձևաչափը, երբ ձևաչափի ստեղնը կարգավորված է &quot;custom&quot;-ում։ Դուք կարող եք օգտագործել strftime()-ով հասկացված փոխարկման հատկորոշիչները յուրահատուկ ձևաչափ ստանալու համար։ Նայեք strftime() manual-ը ավելի շատ տեղեկատվության համար։ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Ժամի ձևաչափ">
+							<longdesc>Այս ստեղնը նշում  է ժամացույց ապլետի օգտագործած ժամի ձևաչափը։ Հնարավոր արժեքներն են՝ &quot;12-hour&quot;,&quot;24-hour&quot;,&quot;internet&quot;,&quot;unix&quot;և&quot;custom&quot;։ Եթե ընտրված է &quot;ինտերնետ&quot;–ը, ժամացույցը կցուցադրի ինտերնետ ժամանակը։ Ինտերնետի ժամային գոտին օրը բաժանում է 1000 &quot;.beats&quot;–ի։ Այս համակագում բացակայում են ժամային գոտիները, այնպես որ ժամանակը ամբողջ աշխարհում նույնն է։ Եթե ընտրված է &quot;unix&quot;-ը, ապա ժամացույցը ցույց կտա ժամերը վայրկյաններով դարաշրջանից՝ այն է՝ 1970-01-01–ից սկսած։ Եթե ընտրված է &quot;custom&quot; տարբերակը, ապա ժամացույցը ժամերը ցույց կտա ըստ custom_format ստեղնում նշված ձևաչափի։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="Պատուհանը մեծացնել հորիզոնական ուղղությամբ">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="Պատուհանը մեծացնել ուղղահայաց ուղղությամբ">
+						</local_schema>
+					</entry>
+					<entry name="lower">
+						<local_schema short_desc="Պատուհանը տեղադրել այլ պատուհանի տակ։">
+						</local_schema>
+					</entry>
+					<entry name="raise">
+						<local_schema short_desc="Պատուհանը տեղադրել մյուս պատուհաններից վերև">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_down">
+						<local_schema short_desc="Պատուհանը տեղափոխել մեկ աշխատանքային տարածք ներքև">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_up">
+						<local_schema short_desc="Պատուհանը տեղափոխել մեկ աշխատանքային տարածք դեպի վեր">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_right">
+						<local_schema short_desc="Պատուհանը տեղափոխել մեկ աշխատանքային տարածք դեպի աջ">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_left">
+						<local_schema short_desc="Պատուհանը տեղափոխել մեկ աշխատանքային տարածք դեպի ձախ">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 12">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 11">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 10">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 9">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 8">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 7">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 6">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 5">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 4">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 3">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 2">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Պատուհանը տեղափոխել աշխատանքային տարածք 1">
+						</local_schema>
+					</entry>
+					<entry name="begin_resize">
+						<local_schema short_desc="Պատուհանիչափսերը փոխել">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="Պատուհանը տեղափոխել">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Պատուհանը փակել">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="Պատուհանը իջեցնել">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="Պատուհանը մեծացնել">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybinding_commands">
+					<entry name="command_window_screenshot">
+						<local_schema>
+							<longdesc>Հրաման (հավանաբար պարամետրերով), որը և ստեղծում է աշխատանքային պատուհանի պատկերը։ /apps/metacity/global_keybindings/run_ command_window_screenshot ստեղնը սահմանում է ստեղների կոմբինացիան, որը և ստեղծում է պատուհանի պատկերը։ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command_screenshot">
+						<local_schema>
+							<longdesc>Հրաման (հավանաբար պարամետրերով), որը և ստեղծում է աշխատանքային էկրանի պատկերը։ /apps/metacity/global_keybindings/run_command_screenshot ստեղնը սահմանում է ստեղների կոմբինացիան, որը թույլատրում է տվյալ դասավորությամբ սահմանված հրահանգի կատարումը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Ստեղների կոմբինացիաներին ի պատասխան գործարկվող հրահանգներ">
+							<longdesc> /apps/metacity/global_keybindings/run_command_N keys ստեղնը սահմանում է ստեղների կոմբինացիաները, որոնք համապատասխանում են այդ հրամաններին։  Սեղմելով  run_command_N կոմբինացիան կգործարկի command_N–ը։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_terminal">
+						<local_schema short_desc="Գործարկել տերմինալը">
+						</local_schema>
+					</entry>
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="Ստանալ պատուհանի նկարը">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="Ստանալ էկրանի նկարը">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels_backward">
+						<local_schema short_desc="Վահանակների և աշխատանքային էկրանի միջև ակտիվ կարգավիճակը անմիջապես վերացնել">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels">
+						<local_schema short_desc="Վահանակների և աշխատանքային էկրանի միջև ակտիվ կարգավիճակը անմիջապես վերացնել">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows">
+						<local_schema short_desc="Պատուհանների միջև ակտիվ կարգավիճակը վերացնել">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 12">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 11">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 10">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 9">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 8">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 7">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 6">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 5">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 4">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 3">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 2">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="Տեղափոխվել աշխատանքային տարածք 1">
+						</local_schema>
+					</entry>
+					<entry name="run_command">
+						<local_schema short_desc="Տալ որոշակի հրահանգ">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="Աշխատանքային տարածքի անունը">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="disable_workarounds">
+						<local_schema short_desc="Սխալ ֆունկցիաների անջատում, որոնք անհրաժեշտ են հին կամ վնասված կիրառական ծրագրերի համար">
+						</local_schema>
+					</entry>
+					<entry name="application_based">
+						<local_schema short_desc="(Կատարված չէ) Նավիգացիան կատարվում է ըստ կիրառական ծրագրերի և ոչ ըստ պատուհանների">
+						</local_schema>
+					</entry>
+					<entry name="reduced_resources">
+						<local_schema short_desc="Եթե ճշգրիտ է, օգտագործման հարմարավետությունը փոխարինվում է ավելի քիչ ռեսուրսների օգտագործումով։">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell_type">
+						<local_schema>
+							<longdesc>Մետասիթիի մենեջերին տեղեկացնում է ինչպես իրականացնել ձայնային ազդանշանի մասին տեղեկացումը, կամ որ մեկ այլ կիրառական ծրագրի զանգը հնչել է։Այժմ կան երկու արժեքներ &quot;fullscreen&quot;, որն  ամբողջ էկրանի վրա առաջ է բերում սև–սպիտակ առկայծում, և &quot;frame_flash&quot;, որը ակտիվացնում է այն պատուհանի վերնագրի տողերը, որում կիրառական ծրագիրը ձայնային ազդանը առկայծում է հարուցել։ Եթե ծրագիրը, որն ազդանշան է ուղարկել հայտնի չէ, առկայծում է ակտիվ պատուհանի վերնագիրը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="audible_bell">
+						<local_schema short_desc="Համակարգի ազդանշանը լսելի է">
+							<longdesc>Որոշում է արդյոք կիրառական ծրագրերը կամ համակարգը կարող են լսելի ձայնային ազդանշաններ արձակել։ Կարող է օգտագործվել տեսանելի ազդանշանի հետ՝ անաղմուկ ձայնային ազդանշաններ արձակելու համար։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Միացնել տեսանելի ազդանշանը">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="Աշխատանքային տարածքների քանակը">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_uses_system_font">
+						<local_schema>
+							<longdesc>Եթե ճշգրտ է, վերնագրի տող_տառատեսակ տարբերակը բաց թողնել և պատուհանի վերնագրերի համար օգտագործելստանդարտ կիրառական ծրագրերի տառատեսակը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Ընթացիկ թեմա">
+						</local_schema>
+					</entry>
+					<entry name="auto_raise_delay">
+						<local_schema short_desc="Միլիվայրկյանների հետաձգում պատուհանի ավտոմատ տեղափոխման համար">
+						</local_schema>
+					</entry>
+					<entry name="auto_raise">
+						<local_schema short_desc="Ավտոմատ կերպով բարձրացնում է ակտիվ պատուհանը">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="Գործողություն վերնագրի տողի վրա՝ կրկնակի կտտոցով">
+						</local_schema>
+					</entry>
+					<entry name="button_layout">
+						<local_schema short_desc="Վերնագրի տողի վրա կոճակների դասավորություն">
+						</local_schema>
+					</entry>
+					<entry name="mouse_button_modifier">
+						<local_schema short_desc="Մոդիֆիկացված պատուհանի հետ կտտոցով գործողությունների համար օգտագործվող մոդիֆիկատոր">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="background_image">
+							<local_schema short_desc="Նախադիր պատկեր">
+								<longdesc>Նախադիր պատկերի ֆայլը</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="font">
+							<local_schema short_desc="Տառատեսակ">
+							</local_schema>
+						</entry>
+						<entry name="icon">
+							<local_schema short_desc="Տերմինալի պատկերակը">
+								<longdesc>Այս պրոֆիլի պատկերակը</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="title">
+							<local_schema short_desc="Տերմինալի վերնագիրը">
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Տողեր աշխատասեղանի փոխարկչում">
+							<longdesc>Այս ստեղնը նշում է, թե քանի տող  (հորիզոնական դիրքով) կամ սյուն (ուղղահայաց դիրքով)  է աշխատասեղանի փոխարկիչը ցույց տալիս աշխասեղաններում։ Այս ստեղնը տեղին է, եթե  display_all_workspaces ստեղնը ճիշտ է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Ցույց տալ բոլոր աշխատասեղանները">
+							<longdesc>Եթե ճիշտ է, ապա աշխատասեղանի փոխարկիչը ցույց կտա բոլոր աշխատասեղանները։ Հակառակ դեպքում կտեսնեք միայն ընթացիկ աշխատասեղանը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Ցույց տալ աշխատասեղանների անվանումները">
+							<longdesc>Եթե ճիշտ է, ապա աշխատասեղանները աշխատասեղանի փոխարկչում ցույց կտան աշխատասեղանների անվանումները։ Հակառակ դեպքում աշխատասեղանի վրա կերևան պատուհանները։ Այս պարամետրը աշխատում է միայն այն ժամանակ, երբ պատուհանի կառավարիչը Metacity-ն է։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Առավելագույն չափի պատուհանների ցուցակ">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.20-ում։ Սխեման համատեղելի է ավելի հին տարբերակների հետ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Նվազագույն չափի պատուհանների ցուցակ">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում կիրառել GNOME 2.20-ում։ Սխեման համատեղելի է ավելի հին տարբերակների հետ։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Վերականգնելիս պատուհանները տեղափոխել ընթացիկ աշխատասեղան">
+							<longdesc>Եթե ճիշտ է, ապա պատուհանը վերականգնելիս տեղափոխեք կամ ընթացիկ կամ պատուհանի աշխատասեղան։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Երբ խմբավորել պատուհանները">
+							<longdesc>Որոշում է, թե երբ խմբավորել միատեսակ ծրագրերի պատուհանները Պատուհանների ցանկում։ Հնարավոր արժեքներն են &quot;never&quot;, &quot;auto&quot; և &quot;always&quot;։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Ցույց տալ բոլոր աշխատասեղանների պատուհանները">
+							<longdesc>Եթե ճիշտ է, ապա պատուհանների ցանկը ցույց կտա բոլոր աշխատասեղանների պատուհաններ։ Հակառակ դեպքում ցույց կտա միայն ընթացիկ աշխատասեղանի պատուհանները։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Ապաակտիվացնել ստիպողական անջատում">
+							<longdesc>Եթե ճիշտ է, ապա վահանակը թույլ չի տա օգտագործողին դուրս գալ ծրագրից՝ անհասանելի դարձնելով ստիպողական անջատման կոճակը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Անջատել ելք ստեղնը">
+							<longdesc>Եթե ճիշտ է, ապա վահանակը թույլ չի տա օգտագործողին դուրս գալ՝ անհասանելի դարձնելով log out մենյուի կետը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+							<longdesc>Այս ստեղնը խորհուրդ չի տրվում, քանի որ այն չի կարող ճշգրտորեն արգելափակել։ Փոխարենը պետք է օգտագործվի /desktop/gnome/lockdown/disable_lock_screen ստեղնը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="Ապլետի IID, որոնք պետք է բեռնումից անջատել">
+							<longdesc>Ապլետի IID ցանկ, որը վահանակը անտեսելու է։ Այս կերպ դուք կարող եք անջատել որոշ ապլետներ և չբեռնել կամ ցույց չտալ ցանկի մեջ։ Օրինակ՝ անջատելու համար Մինի–հրահանգ ապլետը պետք է այս ցուցակին  ավելացնել&apos;OAFIID:GNOME_MiniCommanderApplet&apos;։ Վահանակը պետք է վերագործարկել այս արդյունքը ստանալու համար։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Վահանակի ամբողջական արգելափակում">
+							<longdesc>Եթե ճիշտ է, ապա վահանակը թույլ չի տա որևէ փոփոխություններ վահանակի կոնֆիգուրացիաներում։ Անհատական ապլետները հնարավոր է առանձին–առանձին արգելափակվելու կարիք ունենան։ Սրա համար վահանակը պետք է վերագործարկվի։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Ընդգծել գործարկիչները մկնիկը նրա վրա պահելու դեպքում">
+							<longdesc>Եթե ճիշտ է, ապա գործարկիչը ընդգծվում է, երբ օգտագործողը շարժում է սլաքը դրա վրայով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Հաստատել վահանակի հեռացումը">
+							<longdesc>Եթե ճիշտ է, ապա երևում է դիալոգը, որը հարց է տալիս հաստատման վերաբերյալ, եթե օգտագործողը ցանկանում է հեռացնել վահանակը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Ավտոմատ փակել դարակը">
+							<longdesc>եթե ճիշտ է, ապա դարակը ավտոմատ կերպով փակվում է, երբ օգտագործողը կտտացնում է նրա գործարկչի վրա։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Միացնել անիմացիաները">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Խորհուրդ չի տրվում">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="ՄԻացնել հուշումը">
+							<longdesc>Եթե ճիշտ է, ապա հուշումները ցույց են տրվում վահանակներում՝ որպես օբյեկտ։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Գործողության ստեղնի տեսակ">
+							<longdesc>Այս ստեղնը բնութագրող գործողության տեսակը։ Հնարավոր արժեքներն են &quot;lock&quot;, &quot;logout&quot;, &quot;run&quot;, &quot;search&quot; and &quot;screenshot&quot;. Այս ստեղնը միայն տեղին է, եթե object_type ստեղնը &quot;action-applet&quot; է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Գործարկչի տեղը">
+							<longdesc> .desktop ֆայլի տեղը, որը նկարագրում է գործարկիչը։ Այս ստեղնը տեղին է միայն եթե object_type ստեղնը &quot;launcher-object&quot; է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Ցանկի բովանդակության ուղի">
+							<longdesc>Ուղին, որից մենյուի բովանդակությունն է սկսվում։ Այս ստեղնը տեղին է միայն, եթե use_menu_path ստեղնը ճիշտ է և object_type ստեղնը  &quot;menu-object&quot; է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Օգտագործել սովորական ուղին որպես մենյուի բովանդակություն">
+							<longdesc>Եթե ճիշտ է, ապա menu_path ստեղնն օգտագործվում է որպես մի տեղ, որտեղից ցանկի բովանդակությունը պետք է կառուցվի։ Եթե սխալ է, menu_path ստեղնը անտեսվում է։ Այս ստեղնը տեղին է միայն երբ object_type ստեղնը &quot;menu-object&quot; է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Պատկերանիշ, որն օգտագործվում է տարրերի ստեղների համար">
+							<longdesc>Նկարի ֆայլի տեղը, որն օգտագործվում է որպես օբյեկտի կոճակի պատկերանիշ։ Այս ստեղնը տեղին է միայն երբ object_type ստեղնը &quot;drawer-object&quot; է, կամ &quot;menu-object&quot; և use_custom_icon ստեղնը ճիշտ է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Օգտագործել սովորական պատկերանշանը որպես օբյեկտի ստեղն">
+							<longdesc>Եթե ճիշտ է, ապա custom_icon ստեղնն օգտագործվում է որպես սովորական պատկերանիշ կոճակի համար։ եթե սխալ է, custom_icon ստեղնն անտեսվում է։ Այս ստեղնը տեղին է միայն, երբ object_type ստեղնը  &quot;menu-object&quot; կամ &quot;drawer-object&quot; է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Դարակի կամ մենյուի համար ցույց տրվող հուշում։">
+							<longdesc>Հուշման մեջ ցույց տրվող տեքստը այս դարակի կամ մենյուի համար։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Դարակին ամրացված վահանակ">
+							<longdesc>Այս դարակին կցված վահանակի իդենտիֆիկատոր։ Այս ստեղնը տեղին է միայն եթե object_type ստեղնը &quot;drawer-object&quot; է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Ապլետ Bonobo IID">
+							<longdesc>Ապլետի Bonobo իրականացման ID–օրինակ &quot;OAFIID:GNOME_ClockApplet&quot;։ Այս ստեղնը տեղին է միայն, եթե object_type սըեղնը &quot;bonobo-applet&quot; է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Օբյեկտն արգելափակել վահանակին">
+							<longdesc>Եթե ճիշտ է, ապա օգտագործողը չի կարող է շարժել ապլետը առանց օբյեկտը արգելափակումից դուրս բերելու՝ օգտագործելով &quot;Unlock&quot; մենյույի կետը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="Մեկնաբանել դիրքը ըստ ներքևի և աջ մասերի">
+							<longdesc>Եթե ճիշտ է, ապա տարրի դիրքը մեկնաբանվում է վահանակի աջ ծայրի (կամ ներքևի, եթե ուղղահայաց է) համեմատ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Օբյեկտի դիրքը վահանակի վրա">
+							<longdesc>Այս վահանակի օբյեկտի դիրքը։ Դիրքը նշվում է վահանակի ձախ ծայրի(կամ ուղղահայացի դեպքում վերևի) պիքսելների թվով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Վերին մակարդակի վահանակ պարունակող օբյեկտ">
+							<longdesc>Վերին մակարդակի վահանակի իդենտիֆիկատոր, որը պարունակում է այս օբյեկտը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Վահանակի օբյեկտի տեսակը">
+							<longdesc>Վահանակի այս օբյեկտի տեսակը։ Հնարավոր արժեքներն են &quot;drawer-object&quot;, &quot;menu-object&quot;, &quot;launcher-object&quot;, &quot;bonobo-applet&quot;, &quot;action-applet&quot; and &quot;menu-bar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Հին պրոֆիլների կոնֆիգուրացիայի տեղափոխում">
+							<longdesc>Տրամաբանական դրոշակը, որը ցույց է տալիս, թե արդյոք օգտագործողի նախորդ կոնֆիգուրացիան /apps/panel/profiles/default–ից պատճենվել է նոր տեղում՝ /apps/panel վրա։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Վահանակի տարրի ID ցանկ">
+							<longdesc>Վահանակի օբյեկտների ID–ների ցուցակ։ Յուրաքանչյուր ID սահմանում է անհատական վահանակի օբյեկտ (օրինակ՝ գործարկիչ,  գործողության ստեղն, մենյուի կոճակ/տող)։ Այս օբյեկտներից յուրաքանչյուրի պարամետրերը  պահվում են apps/panel/objects/$(id)–ում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Վահանակի ապլետի ID ցանկ">
+							<longdesc>Վահանակի ապլետների ID–ների ցուցակ։ Յուրաքանչյուր ID սահմանում է անհատական վահանակի ապլետ։  Այս ապլետներից յուրաքանչյուրի պարամետրերը  պահվում են /apps/panel/applets/$(id)–ում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Վահանակի ID ցանկ">
+							<longdesc>Վահանակի ID–ների ցուցակ։ Յուրաքանչյուր ID սահմանում է անհատական բարձր կարգի վահանակ։ Այս ապլետներից յուրաքանչյուրի պարամետրերը  պահվում են  /apps/panel/toplevels/$(id)–ում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="Միացնել ավտոմատ լրացումը &quot;Run Application&quot; դիալոգում">
+							<longdesc>Եթե ճիշտ է, ապա ավտոմատ լրացումը  &quot;Run Application&quot; դիալոգում հնարավոր է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Ընդլայնել ծրագրի ցանկը  &quot;Run Application&quot; դիալոգում">
+							<longdesc>Եթե ճիշտ է, ապա &quot;Known Applications&quot; ցանկը &quot;Run Application&quot; դիալոգում ընդլայնվում է, երբ դիալոգը բաց է։ Այս ստեղնը տեղին է միայն եթե enable_program_list–ը ստեղնը ճիշտ է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="Միացնել ծրագրերի ցանկը  &quot;Run Application&quot; դիալոգում">
+							<longdesc>Եթե ճիշտ է, ապա &quot;Known Applications&quot; ցանկը &quot;Run Application&quot; դիալոգում կիրառելի է։ Ցանկը  ընդլայնվում է, երբ դիալոգը ցույց է տրվում և վերահսկվում է show_program_list ստեղնով։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Անիմացիայի արագությունը">
+							<longdesc>Արագությունը, որով պետք է կատարվեն վահանակի անիմացիաները։ Հնարավոր արժեքներն են &quot;slow&quot;, &quot;medium&quot; and &quot;fast&quot;։ Այս ստեղնը տեղին է միայն եթե enable_animations ստեղնը ճիշտ է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Տեսանելի պիքսելներ թաքնված ժամանակ">
+							<longdesc>Նշում  է պիքսելների թիվը, որոնք տեսանելի են, երբ վահանակը ավտոմատ կերպով թաքնվում է անկյունում։ Այս ստեղնը տեղին է միայն, եթե auto_hide ստեղնը ճիշտ է։ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Վահանակը ավտոմատ  թաքցնելու ուշացում">
+							<longdesc>Նշում է միլիվայրկյանների ուշացման թիվը այն բանից հետո, երբ սլաքը մտնում է վահանակի տիրույթ, նախքան վահանակի ավտոմատ կերպով նորից երևալը։ Այս ստեղնը տեղին է միայն եթե auto_hide ստեղնը ճիշտ է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Վահանակը ավտոմատ  թաքցնելու ուշացում">
+							<longdesc>Նշում  է միլիվայրկյանների ուշացման թիվը այն բանից հետո, երբ սլաքը մտնում է վահանակի տիրույթ, նախքան վահանակը ավտոմատ կերպով փակվում է։ Այս ստեղնը տեղին է միայն եթե auto_hide ստեղնը ճիշտ է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Թաքցնել ստեղների վրա սլաքներն ակտիվացնել">
+							<longdesc>Եթե ճիշտ է, ապա սլաքները պետք է տեղադրվեն թաքցնել կոճակների վրա։ Այս ստեղնը տեղին է միայն, երբ enable_buttons ստեղնը ճշգրիտ է։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Թաքցնել ստեղները միացնել">
+							<longdesc>Եթե ճիշտ է, ապա ստեղները պետք է տեղակայվեն վահանակի յուրաքանչյուր կողմում, որոնք կարող են օգտագործվել վահանակը էկրանի ծայրը տեղափոխելու համար, թողնելով միայն ստեղնը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Միացնել անիմացիաները">
+							<longdesc>Եթե ճիշտ է, ապա այս վահանակի թաքցնելը և տեսանելի դարձնելը կլինեն անիմացված և ոչ արագ կատարվող։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Վահանակը ավտոմատ թաքցնել անկյունում">
+							<longdesc>Եթե ճիշտ է, ապա վահանակը ավտոմատ թաքցվում է էկրանի անկյունում, երբ սլաքը թողնվում է վահանակի տարածքում։ Տեղափոխելով սլաքը դեպի այդ անկյունը վահանակը կրկին տեսանելի է դառնում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Կենտրոն վահանակ  x առանցքի վրա">
+							<longdesc>Եթե ճիշտ է, y և y_bottom ստեղները անտեսվում են, և վահանակը տեղակայվում է էկրանի y առանցքի կենտրոնում։  Եթե վահանակի չափերը փոփոխվեն, այն կմնա նույն դիրքում, այն է՝ վահանակը կմեծանա երկու կողմից։ Եթե սխալ է, y և y_bottom ստեղները նշում են վահանակի տեղը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Կենտրոն վահանակ  x առանցքի վրա">
+							<longdesc>Եթե ճիշտ է, x և x_right ստեղները անտեսվում են, և վահանակը տեղակայվում է էկրանի x առանցքի կենտրոնում։ Եթե վահանակի չափերը փոփոխվում են, այն կմնա նույն դիրքում, այն է՝ վահանակը կմեծանա երկու կողմից։ Եթե սխալ է, x և x_right ստեղները նշում են վահանակի տեղը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_bottom">
+						<local_schema short_desc="Վահանակի Y կոորդինատ՝ սկսելով էկրանի ներքևից">
+							<longdesc>Վահանակի տեղը y առանցքի երկայնքով՝ սկսած էկրանի ներքևից։ Եթե դրված է 1, արժեքը բաց է թողնվում և  y ստեղնի արժեքն է գործածվում։ Եթե արժեքը 0–ից մեծ է, ապա y ստեղնի արժեքը բաց է թողնվում։ Այս ստեղնը տեղին է միայն ոչ ընդլայնված ռեժիմում։ Ընդլայնված ռեժիմում այս ստեղնը բաց է թողնվում և վահանակը տեղակայվում է էկրանի ծայրին՝ նշված կողմնորոշիչ ստեղնով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x_right">
+						<local_schema short_desc="Վահանակի X կոորդինատ՝ սկսելով էկրանի աջ կողմից ">
+							<longdesc>Վահանակի տեղը x առանցքի երկայնքով՝ սկսած էկրանի աջ կողմից։ Եթե դրված է 1, արժեքը բաց է թողնվում և x ստեղնի արժեքն է գործածվում։ Եթե արժեքը 0–ից մեծ է, ապա x ստեղնի արժեքը բաց է թողնվում։ Այս ստեղնը միայն տեղին է ոչ ընդլայնված ռեժիմում։ Ընդլայնված ռեժիմում այս ստեղնը բաց է թողնվում և վահանակը տեղակայվում է էկրանի ծայրին՝ նշված կողմնորոշիչ ստեղնով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Վահանակի Y կոորդինատ">
+							<longdesc>Վահանակի տեղը y առանցքի երկայնքով։ Այս ստեղնը տեղին է միայն ոչ ընդլայնված ռեժիմում։ Ընդլայնված ռեժիմում այս ստեղն անտեսվում է, և վահանակը տեղակայվում է էկրանի ծայրին նշված կողմնորոշիչ ստեղնով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="Վահանակի X կոորդինատ">
+							<longdesc>Վահանակի տեղը x առանցքի երկայնքով։ Այս ստեղնը միայն տեղին է ոչ ընդլայնված ռեժիմում։ Ընդլայնված ռեժիմում այս ստեղն անտեսվում է և վահանակը տեղակայվում է էկրանի ծայրին՝ նշված կողմնորոշիչ ստեղնով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Վահանակի չափը">
+							<longdesc>Վահանակի բարձրությունը (հորիզոնական վահանակի համար լայնությունը)։ Վահանկը սահմանում է նվազագույն չափը աշխատանքային ժամանակում՝ հենվելով տառատեսակի չափի և այլ ցուցիչների վրա։ Առավելագույն չափը ֆիքսված է էկրանի բարձրության (կամ լայնության) մեկ քառորդի չափով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Վահանակի կողմնորոշում">
+							<longdesc>Վահանակի կողմնորոշումը։ Հնարավոր արժեքներն են &quot;top&quot;, &quot;bottom&quot;, &quot;left&quot;, &quot;right&quot;։ Ընդլայնված ռեժիմում ստեղնը նշում է, թե  էկրանի որ ծայրին է գտնվում վահանակը։ Ոչ ընդլայնված ռեժիմում &quot;top&quot; և &quot;bottom&quot; –ի միջև տարբերությունը պակաս կարևոր է, երկուսն էլ ցույց են տալիս որ սա հորիզոնական վահանակ է, սակայն տալիս են օգտակար հուշում այն մասին թե ինչպիսին պետք է լինի վահանակի մի քանի տարրերի վարքագիծը։ Օրինակ, &quot;top&quot; վահանակում ցանկ ստեղնը էկրան կբերի իր ցանկը վահանակի ներքևում, մինչդեռ  &quot;bottom&quot; վահանակում ցանկը էկրանին կհայտնվի վահանակի վերևում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Ընդլայնել ամբողջ էկրանի լայնությունը գրավելու համար">
+							<longdesc>Եթե ճիշտ է, ապա վահանակը կզբաղեցնի էկրանի ամբողջ լայնությունը (բարձրությունը, եթե ուղղահայաց վահանակ է)։ Այս ռեժիմում վահանակը կարող է տեղակայվել միայն էկրանի անկյունում։ Եթե սխալ է, վահանակը ընդամենը կարող է այնքան մեծ լինել, որ ապլենտները, գործարկիչները և ստեղները կարողանա վահանակի վրա հարմարեցնել։ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Xinerama մոնիտոր, որտեղ ցույց է տրվում վահանակը">
+							<longdesc> Xinerama կարգավորվածքում դուք կարող եք վահանակներ ունենալ յուրաքանչյուր անհատական մոնիտորի վրա։ Այս ստեղնը նույնացնում է այն աշխատանքային մոնիտորը, որի վրա վահանակը ցույց է տրվում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="X էկրան, որտեղ ցույց է տրվում վահանակը">
+							<longdesc>Բազմէկրան կարգավորվածքով դուք կարող եք ունենալ վահանակներ յուրաքանչյուր առանձին էկրանում։ Այս ստեղնը նույնացնում է ընթացիկ էկրանը, որի վրա պատկերված է վահանակը։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Անունը վահանակը նույնացնելու համար">
+							<longdesc>Սա մարդու անուն է, որը դուք կարող եք օգտագործել վահանակը ճանաչելու համար։ Դրա հիմնական նպատակն է ծառայել որպես վահանակի պատուհանի վերնագիր, որն օգտակար է վահանակների միջև նավիգացիայի ժամանակ։</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Պատկերը ուղղաձիգ վահանակի վրա շրջել">
+								<longdesc>Եթե ճիշտ է, ապա Ֆոնի նկարը կշրջվի, երբ վահանակը տեղակայված է ուղղահայաց։</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Պատկերը ձգել մինչև վահանակ">
+								<longdesc>Եթե ճիշտ է, ապա պատկերի մասշտաբը համապատասխանեցվում է վահանակի չափումներին։ Պատկերի ասպեկտային հարաբերությունը չի պահպանվի։</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Պատկերը տեղավորել վահանակի վրա">
+								<longdesc>Եթե ճիշտ է, ապա պատկերը կլինի մասշտաբային (պահպանելով պատկերի ասպեկտային հարաբերությունը) վահանակի բարձրության համեմատ(եթե հորիզոնական է)։</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Ֆոնի նկար">
+								<longdesc>Նշում է այն ֆայլը, որը պետք է օգտագործվի ֆոնի նկարի համար։ Եթե նկարը պարունակում է ալֆա ալիք, այն կտեղակայվի աշխատասեղանի ֆոնի նկարի կոմպոզիցիայում։</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Ֆոնի գույնի անթափանցությունը">
+								<longdesc>Նշում  է ֆոնի գույնի անթափանց ֆորմատը։ Եթե գույնը ամբողջովին անթափանց չէ ( 65535–ի պակաս արժեքի դեպքում) գույնը կտեղակայվի աշխատանքային էկրանի ֆոնի կոմպոզիցիայի մեջ։</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Ֆոնի գույն">
+								<longdesc>Նշել վահանակի ֆոնի գույնը #RGB ձևաչափում։</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Ֆոնի տեսակ">
+								<longdesc>Ինչ տեսակի ֆոն պետք է օգտագործվի այս վահանակի համար։ Հնարավոր արժեքներն են &quot;gtk&quot;–նախնական GTK+ widget ֆոն կօգտագործվի,&quot;color&quot;, գույնի ստեղնը կօգտագործվի որպես ֆոնի գույն, կամ &quot;image&quot;– այն պատկերը, որը կնշի նկարի ստեղնով, դա էլ կօգտագործվի որպես ֆոն։</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Շրջել ուղղաձիգ վահանակների վրա">
+							<longdesc>Եթե ճիշտ է, ապա ձկնիկի անիմացիոն պատկերը ուղղահայաց վահանակի վրա կերևա շրջված։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Դադարեցում կադրում">
+							<longdesc>Այս ստեղնը նշում է յուրաքանչյուր կադրի ցուցադրման տևողությունը վայրկյաններով։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Կադրեր ձկնիկի անիմացիայում">
+							<longdesc>Այս ստեղնը բնորոշում է կադրերի թիվը, որոնք պետք է ցույց տրվեն ձկնիկի անիմացիայում։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Կտտացրեք գործարկելու հրաման տալու համար">
+							<longdesc>Այս ստեղնը նշում է այն հրահանգը, որը պետք է որ գործարկվի, երբ ձկնիկի վրա կտտացնում եք։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Ձկնիկի անիմացիայի արտապատկերում">
+							<longdesc>Այս ստեղնը նշում է արտապատկերման ֆայլի անունը, որը պետք է օգտագործվի ձկնիկ ապլետում ցույց տրվող անիմացիայի համար՝ սկսած արտապատկերման գրացուցակից։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Ձկնիկի անունը">
+							<longdesc>Միանգամայն ձանձրալի անուն չունեցող ձկնիկ։ Կյանքի՛ կոչեք ձեր ձկնիկին՝ նրան անուն տալով։</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="Նախընտրելի տարբերակ, որպես համակարգ մտնելու առկայծող էկրան օգտագործելու համար">
+							<longdesc>Սա հարաբերական ուղու արժեք է՝ հիմնված $datadir/pixmaps/, տվյալների կատալոգից դուրս։ Ենթա–կատալոգները և պատկերների անունները համապատասխան արժեքներ են։ Այս արժեքները փոփոխելը կներգործի հաջորդ սեանսի համար համակարգ մտնելիս։</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="Համակարգից դուրս գալու հուշում">
+							<longdesc>Միացնելու դեպքում գնոմ–ենթահամակարգը գործարկողին հուշում է սեանսի ավարտի մասին</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Պահպանել սեանսները">
+							<longdesc>Միացնելու դեպքում գնոմ ենթահամակարգը սեանսը ավտոմատ կերպով պահում է, հակառակ դեպքում համակարգից դուրս գալու դիալոգը ներկայացնում է սեանսը պահելու տարբերակ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Ցույց տալ առկայծող էկրանը">
+							<longdesc>Ցույց տալ առկայծող էկրանը, երբ սեանսը սկսվում է</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_history">
+						<local_schema short_desc="Անջատել պատմությունը">
+						</local_schema>
+					</entry>
+					<entry name="disable_toolbar_editing">
+						<local_schema short_desc="Անջատել վահանակի խմբագրումը">
+							<longdesc>Անջատել վահանակները խմբագրելու հնարավորությունը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_bookmark_editing">
+						<local_schema short_desc="Անջատել էջանշանների խմբագրումը">
+							<longdesc>Անջատել էջանշաններն ավելացնելու կամ խմբագրելու հնարավորությունը</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="additional_safe_protocols">
+						<local_schema short_desc="Հավելյալ հուսալի հաղորդակարգերը">
+							<longdesc>Հավելյալ հաղորդակարգերի ցանկ, որն համարվում է հուսալի, երբ disable_unsafe_protocols միացրած է</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_unsafe_protocols">
+						<local_schema short_desc="Անջատել ոչ հուսալի հաղորդակարգերը">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="language">
+						<local_schema short_desc="Լեզուներ">
+						</local_schema>
+					</entry>
+					<entry name="minimum_font_size">
+						<local_schema short_desc="Տառատեսակի մինիմալ չափը">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="remember_passwords">
+						<local_schema short_desc="Հիշել գաղտնագրերը">
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Հիմնական էջ">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="radar">
+						<local_schema short_desc="Տեղեկատվական ռեսուրս ռադարային քարտեզի համար">
+							<longdesc>Գործարկողի տեղեկատվական ռեսուրսի ցուցիչ ռադարային քարտեզի ստացման համար</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_radar_url">
+						<local_schema short_desc="Օգտագործել գործարկողի տեղեկատվական ռեսուրսը ռադարային քարտեզի համար">
+							<longdesc>Եթե միացված է, ապա ռադարային քարտեզը ստանալ &quot;ռադար &quot;ստեղնով ընտրված հասցեից</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="enable_radar_map">
+						<local_schema short_desc="Ցույց է տալիս ռադարային քարտեզը">
+							<longdesc>Ռադարային քարտեզը փոխել յուրաքանչյուր նորացման ժամանակ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_detailed_forecast">
+						<local_schema short_desc="Այլևս չի օգտագործվում">
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="Ջերմաստիճանի միավոր">
+							<longdesc>Ջերմաստիճանի համար օգտագործվող միավոր</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed_unit">
+						<local_schema short_desc="Արագության միավոր">
+							<longdesc>Քամու արագության միավորներ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="pressure_unit">
+						<local_schema short_desc="Ճնշման միավոր">
+							<longdesc>Ճնշման համար օգտագործվող միավոր</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="distance_unit">
+						<local_schema short_desc="Տարածության միավորներ">
+							<longdesc>Տեսանելիության միավորներ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_metric">
+						<local_schema short_desc="Օգտագործել մետրիկ համակարգ">
+							<longdesc>Օգտագործել մետրիկ համակարգ անգլիականի փոխարեն</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update_interval">
+						<local_schema short_desc="Նորացման ժամանակահատված">
+							<longdesc>Ավտոմատ նորացումների միջև ժամանակահատվածը վայրկյաններով</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update">
+						<local_schema short_desc="Տվյալները ավտոմատ նորացնել">
+							<longdesc>Որոշում է արդյոք ապլետը ավտոմատ կերպով նորացնում է եղանակի տեղեկատվությունը թե ոչ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

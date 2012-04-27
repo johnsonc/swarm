@@ -1,0 +1,11 @@
+3bad5809d1ea58b0521aafb3a89ed071  usr/lib/libcaca++.so.0.99.17
+6411d430920c5947128ad7af0074e4ad  usr/lib/libcaca.so.0.99.17
+a4dcfe523973122de12c95b3d0c2d6d2  usr/lib/caca/libx11_plugin.so.0.0.0
+1446d5904aa88003948cd6059a065976  usr/lib/caca/libx11_plugin.la
+6a439d93595143e3485024ca94605b5e  usr/lib/caca/libgl_plugin.so.0.0.0
+31db3ca3f6c929188ef5b3a146d95550  usr/lib/caca/libgl_plugin.la
+70b582026541cae88044d9396759c2cb  usr/lib/caca/libx11_plugin.a
+e626858b7263896ff5e950e6b07e9749  usr/lib/caca/libgl_plugin.a
+59f27802d6e98dd61c55f7ad79cf5642  usr/share/doc/libcaca0/copyright
+a6a0d4c4be910604a7099bda15c90bd2  usr/share/doc/libcaca0/changelog.gz
+0b0d5bc285ddcafe21280d92083e0dde  usr/share/doc/libcaca0/changelog.Debian.gz

@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libeststring.so.2.0.95
+/usr/lib/libestbase.so.2.0.95
+/usr/lib/libestools.so.2.0.95
+/usr/share
+/usr/share/doc
+/usr/share/doc/libestools2.0
+/usr/share/doc/libestools2.0/changelog.Debian.gz
+/usr/share/doc/libestools2.0/README.Debian
+/usr/share/doc/libestools2.0/copyright
+/usr/lib/libeststring.so.2.0
+/usr/lib/libestools.so.2.0
+/usr/lib/libestbase.so.2.0

@@ -1,0 +1,1305 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/calendar/exec</key>
+      <applyto>/desktop/gnome/applications/calendar/exec</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>evolution</default>
+      <locale name="C">
+        <short>Default calendar</short>
+        <long>Default calendar application</long>
+      </locale>
+
+      <locale name="ar">
+        <short>التقويم الإفتراضي</short>
+        <long>تطبيق التقويم الإفتراضي</long>
+      </locale>
+
+      <locale name="as">
+        <short>অবিকল্পিত পঞ্জিকা</short>
+        <long>অবিকল্পিত পঞ্জিকা অনুপ্ৰয়োগ</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Repertoriu predetermináu</short>
+        <long>Aplicación de repertoriu predeterminada</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Стандартна програма за календар</short>
+        <long>Стандартна програма за календар</long>
+      </locale>
+
+      <locale name="bn">
+        <short>পূর্বনির্ধারিত ক্যালেন্ডার</short>
+        <long>পূর্বনির্ধারিত ক্যালেন্ডার অ্যাপ্লিকেশন</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ডিফল্ট বর্ষপঞ্জি</short>
+        <long>ডিফল্ট বর্ষপঞ্জি অ্যাপ্লিকেশন</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Calendari predeterminat</short>
+        <long>Aplicació de calendari predeterminada</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Calendari predeterminat</short>
+        <long>Aplicació de calendari predeterminada</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Ög-belgilengen taqvim</short>
+        <long>Ög-belgilengen taqvim uyğulaması</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výchozí kalendář</short>
+        <long>Výchozí aplikace kalendáře</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Calendr rhagosodedig</short>
+        <long>Rhaglen calendr rhagosodedig</long>
+      </locale>
+
+      <locale name="da">
+        <short>Standardkalender</short>
+        <long>Standardkalenderprogram</long>
+      </locale>
+
+      <locale name="de">
+        <short>Voreingestellter Kalender</short>
+        <long>Voreingestellte Kalender-Anwendung</long>
+      </locale>
+
+      <locale name="el">
+        <short>Προεπιλεγμένο ημερολόγιο</short>
+        <long>Προεπιλεγμένη εφαρμογή ημερολογίου</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑛𐑦𐑓𐑷𐑤𐑑 𐑒𐑨𐑤𐑩𐑯𐑛𐑼</short>
+        <long>𐑛𐑦𐑓𐑷𐑤𐑑 𐑒𐑨𐑤𐑩𐑯𐑛𐑼 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Default calendar</short>
+        <long>Default calendar application</long>
+      </locale>
+
+      <locale name="es">
+        <short>Calendario predeterminado</short>
+        <long>Aplicación de calendario predeterminada</long>
+      </locale>
+
+      <locale name="et">
+        <short>Vaikimisi kalender</short>
+        <long>Vaikimisi kalendrirakendus</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Egutegi lehenetsia</short>
+        <long>Egutegiaren aplikazio lehenetsia</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Oletuskalenteri</short>
+        <long>Kalenteriohjelman oletus</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Calendrier par défaut</short>
+        <long>Application de calendrier par défaut</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Calendario predefinido</short>
+        <long>Aplicativo de calendario predefinido</long>
+      </locale>
+
+      <locale name="gu">
+        <short>મૂળભૂત કેલેન્ડર</short>
+        <long>મૂળભૂત કેલેન્ડર કાર્યક્રમ</long>
+      </locale>
+
+      <locale name="he">
+        <short>Default calendar</short>
+        <long>Default calendar application</long>
+      </locale>
+
+      <locale name="hi">
+        <short>तयशुदा पंचांग</short>
+        <long>तयशुदा पंचांग अनुप्रयोग</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Alapértelmezett naptár</short>
+        <long>Alapértelmezett naptáralkalmazás</long>
+      </locale>
+
+      <locale name="it">
+        <short>Calendario predefinito</short>
+        <long>Applicazione di calendario predefinita</long>
+      </locale>
+
+      <locale name="ja">
+        <short>デフォルトのカレンダ</short>
+        <long>デフォルトのカレンダ・アプリケーションです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಪೂರ್ವನಿಯೋಜಿತ ಕ್ಯಾಲೆಂಡರ್</short>
+        <long>ಪೂರ್ವನಿಯೋಜಿತ ಕ್ಯಾಲೆಂಡರ್ ಅನ್ವಯ</long>
+      </locale>
+
+      <locale name="ko">
+        <short>기본 달력</short>
+        <long>기본 달력 응용프로그램</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Numatytasis kalendorius</short>
+        <long>Numatytoji kalendoriaus programa</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Noklusētais kalendārs</short>
+        <long>Noklusētā kalendāra programma</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Стандарден календар</short>
+        <long>Стандардна апликација за календар</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സഹജമായ കലണ്ടര്‍</short>
+        <long>സഹജമായ കലണ്ടര്‍ പ്രയോഗം</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Өгөгдмөл цаглабар</short>
+        <long>Өгөгдмөл цаглабар программ</long>
+      </locale>
+
+      <locale name="mr">
+        <short>मुलभूत दिनदर्शीका</short>
+        <long>मुलभूत दिनदर्शीका अनुप्रयोग</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Forvalgt kalender</short>
+        <long>Forvalgt kalenderprogram</long>
+      </locale>
+
+      <locale name="nds">
+        <short>Standardkalenner</short>
+        <long>Standardkalennerprogramm</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Standaardagenda</short>
+        <long>Standaard agenda toepassing</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Standardkalender</short>
+        <long>Standard kalenderprogram</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Calendièr per defaut</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ପୂର୍ବନିର୍ଦ୍ଧାରିତ କାଲେଣ୍ଡର</short>
+        <long>ପୂର୍ବନିର୍ଦ୍ଧାରିତ କାଲେଣ୍ଡର ପ୍ରୟୋଗ ପ୍ରୟୋଗ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਡਿਫਾਲਟ ਕੈਲੰਡਰ</short>
+        <long>ਡਿਫਾਲਟ ਕੈਲੰਡਰ ਐਪਲੀਕੇਸ਼ਨ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Domyślny kalendarz</short>
+        <long>Domyślny program kalendarza</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Calendário por omissão</short>
+        <long>Aplicação de calendário por omissão</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Calendário padrão</short>
+        <long>Aplicativo padrão de calendário</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Calendar implicit</short>
+        <long>Aplicație calendar implicită</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Календарь по умолчанию</short>
+        <long>Приложение календаря по умолчанию</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Predvolený kalendár</short>
+        <long>Predvolená kalendárová aplikácia</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Privzeti koledar</short>
+        <long>Privzet koledarski program</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Kalendari i paracaktuar</short>
+        <long>Aplikativi i kalendarit të paracaktuar</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Подразумевани календар</short>
+        <long>Подразумевани програм за календар</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Podrazumevani kalendar</short>
+        <long>Podrazumevani program za kalendar</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Standardkalender</short>
+        <long>Standardprogram för kalender</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முன்னிருப்பு நாள்காட்டி</short>
+        <long>முன்னிருப்பு நாள்காட்டி பயன்பாடு</long>
+      </locale>
+
+      <locale name="te">
+        <short>అప్రమేయ క్యాలెండర్</short>
+        <long>అప్రమేయ క్యాలెండర్ అనువర్తనము</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปฏิทินปริยาย</short>
+        <long>โปรแกรมปฏิทินปริยาย</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Öntanımlı takvim</short>
+        <long>Öntanımlı takvim uygulaması</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Типовий календар</short>
+        <long>Типова програма календаря</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lịch mặc định</short>
+        <long>Ứng dụng lịch mặc định</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>默认日历</short>
+        <long>终端日历应用程序</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>預設行事曆</short>
+        <long>預設的行事曆應用程式</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>預設行事曆</short>
+        <long>預設的行事曆應用程式</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/calendar/needs_term</key>
+      <applyto>/desktop/gnome/applications/calendar/needs_term</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Calendar needs terminal</short>
+        <long>Whether the default calendar application needs a terminal to run</long>
+      </locale>
+
+      <locale name="ar">
+        <short>يحتاج تطبيق التقويم الإفتراضي لطرفية</short>
+        <long>ما إذا كان تطبيق التقويم الإفتراضي يحتاج طرفية للعمل</long>
+      </locale>
+
+      <locale name="as">
+        <short>পঞ্জিকাক টাৰ্মিনেল আৱশ্যক</short>
+        <long>অবিকল্পিত পঞ্জিকা ব্যৱহাৰৰ বাবে টাৰ্মিনেল প্ৰয়োগ কৰা আৱশ্যক নে নহয়</long>
+      </locale>
+
+      <locale name="ast">
+        <short>El repertoriu necesita un terminal</short>
+        <long>Si l&apos;aplicación predeterminada de calendariu necesita un terminal pa executase.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Календарът се нуждае от терминал</short>
+        <long>Дали стандартната програма за календар се нуждае от терминал</long>
+      </locale>
+
+      <locale name="bn">
+        <short>বর্যপঞ্জির জন্য টার্মিনাল আবশ্যক</short>
+        <long>পূর্বনির্ধারিত ক্যালেন্ডার ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>বর্যপঞ্জির ক্ষেত্রে টার্মিনাল আবশ্যক।</short>
+        <long>ডিফল্ট বর্ষপঞ্জি ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না</long>
+      </locale>
+
+      <locale name="ca">
+        <short>El calendari necessita un terminal</short>
+        <long>Si l&apos;aplicació de calendari predeterminada necessita un terminal per executar-se</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>El calendari necessita un terminal</short>
+        <long>Si l&apos;aplicació de calendari predeterminada necessita un terminal per a executar-se</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Taqvim terminalğa muhtac</short>
+        <long>Ög-belgilengen taqvimniñ çapmaq içün terminalğa muhtac olıp olmağanı</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Kalendář potřebuje terminál</short>
+        <long>Zda výchozí kalendář potřebuje ke běhu terminál</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Mae&apos;r calendr angen terfynell</short>
+        <long>A ydy&apos;r calendr rhagosodedig angen terfynell er mwyn gweithredu</long>
+      </locale>
+
+      <locale name="da">
+        <short>Kalender kræver terminal</short>
+        <long>Om det forvalgte kalenderprogram skal bruge en terminal for at køre</long>
+      </locale>
+
+      <locale name="de">
+        <short>Kalender benötigt Terminal</short>
+        <long>Legt fest, ob die voreingestellte Kalender-Anwendung ein Terminal benötigt, um ausgeführt zu werden</long>
+      </locale>
+
+      <locale name="el">
+        <short>Το ημερολόγιο χρειάζεται τερματικό</short>
+        <long>Αν η προεπιλεγμένη εφαρμογή ημερολογίου χρειάζεται τερματικό για να εκτελεσθεί</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑒𐑨𐑤𐑩𐑯𐑛𐑼 𐑯𐑰𐑛𐑟 𐑑𐑻𐑥𐑦𐑯𐑩𐑤</short>
+        <long>𐑢𐑧𐑞𐑼 𐑞 𐑛𐑦𐑓𐑷𐑤𐑑 𐑒𐑨𐑤𐑩𐑯𐑛𐑼 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯 𐑯𐑰𐑛𐑟 𐑩 𐑑𐑻𐑥𐑦𐑯𐑩𐑤 𐑑 𐑮𐑳𐑯</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Calendar needs terminal</short>
+        <long>Whether the default calendar application needs a terminal to run</long>
+      </locale>
+
+      <locale name="es">
+        <short>El calendario necesita un terminal</short>
+        <long>Indica si la aplicación predeterminada de calendario necesita un terminal para ejecutarse</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kalender vajab terminali</short>
+        <long>Kas vaikimisi kalendrirakendus vajab töötamiseks terminali.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Egutegiak terminala behar du</short>
+        <long>Egutegiaren aplikazio lehenetsia exekutatzeko terminal bat behar den ala ez adierazten du.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Kalenteri tarvitsee päätteen</short>
+        <long>Tarvitseeko oletuskalenteri päätteen toimiakseen</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Le calendrier a besoin d&apos;un terminal</short>
+        <long>Indique si l&apos;application de calendrier par défaut a besoin d&apos;un terminal pour fonctionner.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>O terminal precisa o calendario</short>
+        <long>Indica se o aplicativo de calendario predefinido precisa dun terminal para se executar</long>
+      </locale>
+
+      <locale name="gu">
+        <short>કેલેન્ડરને ટર્મિનલ જરુરી છે</short>
+        <long>શું મૂળભૂત કેલેન્ડર કાર્યક્રમને ચલાવવા માટે ટર્મિનલ જરૂરી છે</long>
+      </locale>
+
+      <locale name="he">
+        <short>Calendar needs terminal</short>
+        <long>Whether the default calendar application needs a terminal to run</long>
+      </locale>
+
+      <locale name="hi">
+        <short>पंचांग को टर्मिनल की जरूरत है</short>
+        <long>क्या तयशुदा पंचांग अनुप्रयोग चलाने के लिए टर्मिनल की आवश्यकता है</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A böngészőnek szüksége van-e terminálra?</short>
+        <long>Az alapértelmezett naptáralkalmazásnak szüksége van-e terminálra a futáshoz?</long>
+      </locale>
+
+      <locale name="it">
+        <short>Calendario necessita del terminale</short>
+        <long>Indica se l&apos;applicazione calendario predefinita necessita di un terminale per essere eseguita</long>
+      </locale>
+
+      <locale name="ja">
+        <short>カレンダを端末から起動する</short>
+        <long>デフォルトのカレンダ・アプリケーションを実行するのに端末が必要かどうかです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಕ್ಯಾಲೆಂಡರಿಗೆ ಟರ್ಮಿನಲ್‌ನ ಅಗತ್ಯವಿದೆ</short>
+        <long>ಪೂರ್ವನಿಯೋಜಿತ ಕ್ಯಾಲೆಂಡರ್ ಚಲಾಯಿತಗೊಳ್ಳಲು ಒಂದು ಟರ್ಮಿನಲ್‌ನ ಅಗತ್ಯವಿದೆಯೆ</long>
+      </locale>
+
+      <locale name="ko">
+        <short>달력에 터미널이 필요</short>
+        <long>기본 달력 응용프로그램을 터미널에서 실행해야 할 지 여부</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Kalendoriui reikia terminalo</short>
+        <long>Ar numatytajai kalendorių programai yra būtinas terminalas</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Kalendāram nepieciešama komandrinda</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Календарот бара терминал</short>
+        <long>Дали на стандардниот календар му треба терминал за да работи</long>
+      </locale>
+
+      <locale name="ml">
+        <short>പിശക് അറിയിയ്ക്കുന്ന സന്ദേശം</short>
+        <long>സഹജമായുള്ള കലണ്ടര്‍ പ്രയോഗത്തിനു് പ്രവര്‍ത്തിക്കുന്നതിനു് ടെര്‍മിനല്‍ ആവശ്യമോ എന്നു്</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Цаглабар терминал шаардаж байна</short>
+        <long>Өгөгдмөл цаглабар програм ажиллахын тулд терминал шаардах эсэх</long>
+      </locale>
+
+      <locale name="mr">
+        <short>दिनदर्शीका करीता टर्मीनल आवश्य आहे</short>
+        <long>मुलभूत दिनदर्शीका अनुप्रयोग चालविण्याकरीता टर्मीनल आवश्यक आहे</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Kalender trenger terminal</short>
+        <long>Om forvalgt kalenderprogram trenger en terminal for å kjøre.</long>
+      </locale>
+
+      <locale name="nds">
+        <short>kalenner brukt Terminal</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Agenda heeft terminalvenster nodig</short>
+        <long>Of de standaardagenda toepassing voor het uitvoeren een terminalvenster vereist</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Kalenderen treng terminal</short>
+        <long>Om standardkalenderen treng ein terminal for å køyra</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Lo calendièr deu aver un terminal</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>କାଲେଣ୍ଡର ପାଇଁ ଟର୍ମିନାଲ ଆବଶ୍ଯକ</short>
+        <long>ପୂର୍ବନିର୍ଦ୍ଧାରିତ କାଲେଣ୍ଡର ପ୍ରୟୋଗ ଚାଲିବା ଳି ପାଇଁ ଟର୍ମିନାଲ ଆବଶ କରେ୍ଯକ କି</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੈਲੰਡਰ ਨੂੰ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ</short>
+        <long>ਕੀ ਡਿਫਾਲਟ ਕੈਲੰਡਰ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਚੱਲਣ ਲਈ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Kalendarz wymaga terminala</short>
+        <long>Określa, czy domyślny program kalendarza wymaga terminala do działania</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Calendário necessita de consola</short>
+        <long>Se a aplicação de calendário por omissão necessita de uma consola para ser executada.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>O calendário requer um terminal</short>
+        <long>Se o aplicativo padrão de calendário precisa de um terminal para ser executado</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Calendarul necesită terminal</short>
+        <long>Specifică dacă aplicația calendar implicită are nevoie de terminal la pornire</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Календарю нужен терминал</short>
+        <long>Нуждается ли приложение календаря по умолчанию в терминале.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Kalendár potrebuje terminál</short>
+        <long>Či predvolená aplikácia kalendára potrebuje terminál pre svoj beh</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Koledar potrebuje terminal</short>
+        <long>Ali privzet koledarski program za zagon potrebuje terminal.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Kalendari ka nevojë për një terminal</short>
+        <long>Tregon nëse aplikativi kalendar i paracaktuar ka nevojë për një terminal që të zbatohet</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Календар захтева терминал</short>
+        <long>Да ли је уобичајеном програму за календар неопходан терминал за извршавање</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Kalendar zahteva terminal</short>
+        <long>Da li je uobičajenom programu za kalendar neophodan terminal za izvršavanje</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kalender behöver terminal</short>
+        <long>Huruvida standardprogram för kalender behöver en terminal för att köra</long>
+      </locale>
+
+      <locale name="ta">
+        <short>நாள்காட்டிக்கு முனையம் வேண்டும்</short>
+        <long>முன்னிருப்பு நாள்காட்டி பயன்பாட்டை இயக்குவதற்கு முனையம் வேண்டுமா</long>
+      </locale>
+
+      <locale name="te">
+        <short>క్యాలెండర్‌కు టెర్మినల్ అవసరము</short>
+        <long>అప్రమేయ క్యాలెండర్ అనువర్తనము నడుపుటకు టెర్మినల్ అవసరమా</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปฏิทินต้องใช้เทอร์มินัล</short>
+        <long>ปฏิทินปริยายต้องใช้เทอร์มินัลหรือไม่</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Takvim uçbirime ihtiyaç duyuyor</short>
+        <long>Öntanımlı takvim uygulamasının bir uçbirime ihtiyaç duyup duymadığı.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Програмі календаря потрібен термінал</short>
+        <long>Чи потрібен термінал для запуску програми календаря.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lịch cần thiết bị cuối</short>
+        <long>Ứng dụng lịch mặc định có cần thiết bị cuối để chạy không.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>日历需要终端</short>
+        <long>默认的日历应用程序是否需要终端来运行。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>行事曆需要終端機</short>
+        <long>預設的行事曆是否需要終端機方可運行</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>行事曆需要終端機</short>
+        <long>預設的行事曆是否需要終端機方可運行</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/applications/tasks/exec</key>
+      <applyto>/desktop/gnome/applications/tasks/exec</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>evolution</default>
+      <locale name="C">
+        <short>Default tasks</short>
+        <long>Default tasks application</long>
+      </locale>
+
+      <locale name="ar">
+        <short>المهام الإفتراضي</short>
+        <long>تطبيق المهام الإفتراضي</long>
+      </locale>
+
+      <locale name="as">
+        <short>অবিকল্পিত কাৰ্য্য</short>
+        <long>অবিকল্পিত কাৰ্য্য অনুপ্ৰয়োগ</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Xeres por defeutu</short>
+        <long>Aplicación de xeres por defeutu</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Стандартна програма за задачи</short>
+        <long>Стандартна програма за задачи</long>
+      </locale>
+
+      <locale name="bn">
+        <short>পূর্বনির্ধারিত কাজ</short>
+        <long>পূর্বনির্ধারিত কাজের অ্যাপ্লিকেশন</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ডিফল্ট কর্ম</short>
+        <long>ডিফল্ট কর্মের অ্যাপ্লিকেশন</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Aplicació de tasques predeterminada</short>
+        <long>Aplicació de tasques predeterminat</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Aplicació de tasques predeterminada</short>
+        <long>Aplicació de tasques predeterminat</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Ög-belgilengen vazifeler</short>
+        <long>Ög-belgilengen vazifeler uyğulaması</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výchozí úlohy</short>
+        <long>Výchozí aplikace úloh</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Tasgau rhagosodedig</short>
+        <long>Rhaglen tasgau rhagosodedig</long>
+      </locale>
+
+      <locale name="da">
+        <short>Standardopgaver</short>
+        <long>Standardopgaveprogram</long>
+      </locale>
+
+      <locale name="de">
+        <short>Voreingestellte Aufgaben</short>
+        <long>Voreingestellte Aufgaben-Anwendung</long>
+      </locale>
+
+      <locale name="el">
+        <short>Προεπιλεγμένες εργασίες</short>
+        <long>Προεπιλεγμένη εφαρμογή εργασιών</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑛𐑦𐑓𐑷𐑤𐑑 𐑑𐑭𐑕𐑒𐑕</short>
+        <long>𐑛𐑦𐑓𐑷𐑤𐑑 𐑑𐑭𐑕𐑒𐑕 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Default tasks</short>
+        <long>Default tasks application</long>
+      </locale>
+
+      <locale name="es">
+        <short>Tareas predeterminadas</short>
+        <long>Aplicación de tareas predeterminada</long>
+      </locale>
+
+      <locale name="et">
+        <short>Vaikimisi ülesanded</short>
+        <long>Vaikimisi ülesanneterakendus</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Zeregin lehenetsiak</short>
+        <long>Zereginen aplikazio lehenetsia</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Oletustehtäväsovellus</short>
+        <long>Tehtävähallinnan oletussovellus</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Tâches par défaut</short>
+        <long>Application de gestion de tâches par défaut</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Tarefas predefinidas</short>
+        <long>Aplicativo de tarefas predefinido</long>
+      </locale>
+
+      <locale name="gu">
+        <short>મૂળભૂત ક્રિયાઓ</short>
+        <long>મૂળભૂત ક્રિયાઓ કાર્યક્રમ</long>
+      </locale>
+
+      <locale name="he">
+        <short>Default tasks</short>
+        <long>Default tasks application</long>
+      </locale>
+
+      <locale name="hi">
+        <short>तयशुदा कार्य</short>
+        <long>तयशुदा कार्य अनुप्रयोग</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Alapértelmezett feladatkezelő</short>
+        <long>Alapértelmezett feladatkezelő alkalmazás</long>
+      </locale>
+
+      <locale name="it">
+        <short>Compiti predefinito</short>
+        <long>Applicazione di compiti predefinita</long>
+      </locale>
+
+      <locale name="ja">
+        <short>デフォルトのタスク</short>
+        <long>デフォルトのタスク管理アプリケーションです</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಪೂರ್ವನಿಯೋಜಿತ ಕಾರ್ಯಗಳು</short>
+        <long>ಪೂರ್ವನಿಯೋಜಿತ ಕಾರ್ಯಗಳ ಅನ್ವಯ</long>
+      </locale>
+
+      <locale name="ko">
+        <short>기본 작업</short>
+        <long>기본 작업 응용프로그램</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Numatytosios užduotys</short>
+        <long>Numatytųjų užduočių programa</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Noklusētie uzdevumi</short>
+        <long>Noklusētā uzdevumu programma</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Стандардни задачи</short>
+        <long>Стандардна апликација за задачи</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സഹജമായുള്ള പണികള്‍</short>
+        <long>സഹജമായുള്ള പണികള്‍ക്കുള്ള പ്രയോഗം</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Өгөгдмөл даалгавар</short>
+        <long>Өгөгдмөл даалгавар програм</long>
+      </locale>
+
+      <locale name="mr">
+        <short>मुलभूत कार्य</short>
+        <long>मुलभूत कार्य अनुप्रयोग</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Forvalgte oppgaver</short>
+        <long>Forvalgt oppgaveprogram</long>
+      </locale>
+
+      <locale name="nds">
+        <short>Stadardopgav</short>
+        <long>Stadardopgavprogramm</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Standaard taken</short>
+        <long>Standaard taken toepassing</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Standardoppgåver</short>
+        <long>Program for standardoppgåver</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Prètzfaches per defaut</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ପୂର୍ବନିର୍ଦ୍ଧାରିତ କାର୍ଯ୍ୟଗୁଡ଼ିକ</short>
+        <long>ପୂର୍ବନିର୍ଦ୍ଧାରିତ କାର୍ଯ୍ୟର ପ୍ରୟୋଗ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਡਿਫਾਲਟ ਟਾਸਕ</short>
+        <long>ਡਿਫਾਲਟ ਟਾਸਕ ਐਪਲੀਕੇਸ਼ਨ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Domyślne zadania</short>
+        <long>Domyślna program zadań</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Tarefas por omissão</short>
+        <long>Aplicação de tarefas por omissão</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Tarefas padrão</short>
+        <long>Aplicativo padrão de tarefas</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Sarcini implicite</short>
+        <long>Aplicație implicită de organizare</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Задачи по умолчанию</short>
+        <long>Приложение задач по умолчанию</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Predvolené úlohy</short>
+        <long>Predvolená aplikácia úloh</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Privzete naloge</short>
+        <long>Privzeti program nalog</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Aktivitetet i paracaktuar</short>
+        <long>Aplikativi i aktiviteteve i paracaktuar</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Подразумеана свеска задужења</short>
+        <long>Подразумевани програм за задужења</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Podrazumeana sveska zaduženja</short>
+        <long>Podrazumevani program za zaduženja</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Standarduppgifter</short>
+        <long>Standardprogram för uppgifter</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முன்னிருப்பு பணிகள்</short>
+        <long>முன்னிருப்பு பணிகள் பயன்பாடு</long>
+      </locale>
+
+      <locale name="te">
+        <short>అప్రమేయ కర్తవ్యాలు</short>
+        <long>అప్రమేయ కర్తవ్యాల అనువర్తనము</long>
+      </locale>
+
+      <locale name="th">
+        <short>โปรแกรมงานปริยาย</short>
+        <long>โปรแกรมรายการงานปริยาย</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Öntanımlı görevler</short>
+        <long>Öntanımlı görevler uygulaması</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Типові задачі</short>
+        <long>Типова програма задач</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tác vụ mặc định</short>
+        <long>Ứng dụng tác vụ mặc định</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>默认任务</short>
+        <long>默认任务应用程序</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>預設工作</short>
+        <long>預設的工作應用程式</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>預設工作</short>
+        <long>預設的工作應用程式</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/tasks/needs_term</key>
+      <applyto>/desktop/gnome/applications/tasks/needs_term</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Tasks needs terminal</short>
+        <long>Whether the default tasks application needs a terminal to run</long>
+      </locale>
+
+      <locale name="ar">
+        <short>تحتاج المهام لطرفية</short>
+        <long>ما إذا كان تطبيق المهام الإفتراضي يحتاج طرفية للعمل</long>
+      </locale>
+
+      <locale name="as">
+        <short>কাৰ্য্যক টাৰ্মিনেলৰ আৱশ্যক</short>
+        <long>অবিকল্পিত কাৰ্য্য ব্যৱহাৰৰ বাবে টাৰ্মিনেল প্ৰয়োগ কৰা আৱশ্যক নে নহয়</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Les xeres necesiten un terminal</short>
+        <long>Si l&apos;aplicación predeterminada pa les xeres necesita un terminal pa executase.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Програмата за задачи се нуждае от терминал</short>
+        <long>Дали стандартната програма за задачи се нуждае от терминал</long>
+      </locale>
+
+      <locale name="bn">
+        <short>কাজের জন্য টার্মিনাল আবশ্যক</short>
+        <long>পূর্বনির্ধারিত কাজের অ্যাপ্লিকেশনের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>কর্মের ক্ষেত্রে টার্মিনাল আবশ্যক</short>
+        <long>ডিফল্ট কর্ম অ্যাপ্লিকেশন ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না</long>
+      </locale>
+
+      <locale name="ca">
+        <short>L&apos;aplicació de tasques necessita un terminal</short>
+        <long>Si l&apos;aplicació de tasques predeterminada necessita un terminal per executar-se</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>L&apos;aplicació de tasques necessita un terminal</short>
+        <long>Si l&apos;aplicació de tasques predeterminada necessita un terminal per a executar-se</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Vazifeler terminalğa muhtac</short>
+        <long>Ög-belgilengen vazifeler uyğulamasınıñ çapmaq içün terminalğa muhtac olıp olmağanı</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Úlohy potřebují terminál</short>
+        <long>Zda výchozí aplikace úloh potřebuje ke běhu terminál</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Mae&apos;r tasgau angen terfynell</short>
+        <long>A ydy&apos;r rhaglen tasgau rhagosodedig angen terfynell er mwyn gweithredu</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opgaveprogram kræver terminal</short>
+        <long>Om det forvalgte opgaveprogram skal bruge en terminal for at køre</long>
+      </locale>
+
+      <locale name="de">
+        <short>Aufgaben-Anwendung benötigt Terminal</short>
+        <long>Legt fest, ob die voreingestellte Aufgaben-Anwendung ein Terminal benötigt, um ausgeführt zu werden</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εργασίες που χρειάζονται τερματικό</short>
+        <long>Αν η προεπιλεγμένη εφαρμογή εργασιών χρειάζεται τερματικό για να εκτελεσθεί</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑑𐑭𐑕𐑒𐑕 𐑯𐑰𐑛𐑟 𐑑𐑻𐑥𐑦𐑯𐑩𐑤</short>
+        <long>𐑢𐑧𐑞𐑼 𐑞 𐑛𐑦𐑓𐑷𐑤𐑑 𐑑𐑭𐑕𐑒𐑕 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯 𐑯𐑰𐑛𐑟 𐑩 𐑑𐑻𐑥𐑦𐑯𐑩𐑤 𐑑 𐑮𐑳𐑯</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Tasks needs terminal</short>
+        <long>Whether the default tasks application needs a terminal to run</long>
+      </locale>
+
+      <locale name="es">
+        <short>Las tareas necesitan un terminal</short>
+        <long>Indica si la aplicación de tareas predeterminada necesita un terminal para ejecutarse</long>
+      </locale>
+
+      <locale name="et">
+        <short>Ülesanded vajavad terminali</short>
+        <long>Kas vaikimisi ülesanneterakendus vajab töötamiseks terminali.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Zereginak terminala behar du</short>
+        <long>Zereginen aplikazio lehenetsia exekutatzeko terminal bat behar den ala ez adierazten du.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Tehtävähallinta tarvitsee päätteen</short>
+        <long>Tarvitseeko oletustehtävähallinta päätteen toimiakseen</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Les tâches ont besoin d&apos;un terminal</short>
+        <long>Indique si l&apos;application de gestion de tâches par défaut a besoin d&apos;un terminal pour fonctionner.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>As tarefas precisan un terminal</short>
+        <long>Indica se o aplicativo de tarefas predefinidas precisa dun terminal para executarse</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ક્રિયાઓને ટર્મિનલ જરૂરી છે</short>
+        <long>શું મૂળભૂત ક્રિયા કાર્યક્રમને ચલાવવા માટે ટર્મિનલ જરૂરી છે</long>
+      </locale>
+
+      <locale name="he">
+        <short>Tasks needs terminal</short>
+        <long>Whether the default tasks application needs a terminal to run</long>
+      </locale>
+
+      <locale name="hi">
+        <short>कार्य के लिए टर्मिनल की आवश्यकता है</short>
+        <long>क्या तयशुदा कार्य अनुप्रयोग चलाने के लिए टर्मिनल की आवश्यकता है</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A feladatkezelőnek szüksége van-e terminálra?</short>
+        <long>Az alapértelmezett feladatkezelő alkalmazásnak szüksége van-e terminálra a futáshoz?</long>
+      </locale>
+
+      <locale name="it">
+        <short>Compiti necessita del terminale</short>
+        <long>Indica se l&apos;applicazione per i compiti predefinita necessita di un terminale per essere eseguita</long>
+      </locale>
+
+      <locale name="ja">
+        <short>タスクを端末から起動する</short>
+        <long>デフォルトのタスク管理アプリケーションを実行するのに端末が必要かどうかです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಕಾರ್ಯಕ್ಕೆ ಟರ್ಮಿನಲ್‌ನ ಅಗತ್ಯವಿದೆ</short>
+        <long>ಪೂರ್ವನಿಯೋಜಿತ ಕಾರ್ಯಗಳು ಚಲಾಯಿತಗೊಳ್ಳಲು ಒಂದು ಟರ್ಮಿನಲ್‌ನ ಅಗತ್ಯವಿದೆಯೆ</long>
+      </locale>
+
+      <locale name="ko">
+        <short>작업에 터미널 필요</short>
+        <long>기본 작업 응용프로그램을 터미널에서 실행해야 할 지 여부</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Užduotims reikia terminalo</short>
+        <long>Ar numatytajai užduočių programai yra būtinas terminalas</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Uzdevumam nepieciešama komandrinda</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Задачите бараат терминал</short>
+        <long>Дали на стандардната апликација за задачи му треба терминал за да работи</long>
+      </locale>
+
+      <locale name="ml">
+        <short>പണികള്‍ക്കു് ടെര്‍മിനല്‍ ആവശ്യമുണ്ടു്</short>
+        <long>സഹജമായുള്ള പണികള്‍ക്കുള്ള പ്രയോഗത്തിനു് പ്രവര്‍ത്തിക്കുന്നതിനു് ടെര്‍മിനല്‍ ആവശ്യമോ എന്നു്</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Даалгавар терминал шаардаж байна</short>
+        <long>Өгөгдмөл даалгаварын програм ажиллахын тулд терминал шаардах эсэх</long>
+      </locale>
+
+      <locale name="mr">
+        <short>कार्य करीता टर्मीनल आवश्य आहे</short>
+        <long>मुलभूत कार्य अनुप्रयोग चालविण्याकरीता टर्मीनल आवश्यक आहे</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Oppgaver trenger terminal</short>
+        <long>Om forvalgt oppgaveprogram trenger en terminal for å kjøre.</long>
+      </locale>
+
+      <locale name="nds">
+        <short>Opgaven bruken dat Terminal</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Taken heeft terminalvenster nodig</short>
+        <long>Of de standaardtaak toepassing voor het uitvoeren een terminalvenster vereist</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Oppgåver treng terminal</short>
+        <long>Om standard oppgåveprogram treng ein terminal for å køyra</long>
+      </locale>
+
+      <locale name="or">
+        <short>କାର୍ଯ୍ୟଗୁଡ଼ିକାଳି ପାଇଁ ଟର୍ମିନାଲ ଆବଶ୍ଯକ</short>
+        <long>ପୂର୍ବନିର୍ଦ୍ଧାରିତ କାର୍ଯ୍ୟ ପ୍ରୟୋଗ ଚାଲିବା ପାଇଁ ଟର୍ମିନାଲ ଆବଶ୍ଯକ କରେ କି</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਟਾਸਕ ਨੂੰ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ</short>
+        <long>ਕੀ ਡਿਫਾਲਟ ਟਾਸਕ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਚੱਲਣ ਲਈ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Zadania wymagają terminala</short>
+        <long>Określa, czy domyślny program zadań wymaga terminala do działania</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Tarefas necessitam de consola</short>
+        <long>Se a aplicação de tarefas por omissão necessita de uma consola para ser executada.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>As tarefas precisam de um terminal</short>
+        <long>Se o aplicativo padrão de tarefas precisa de um terminal para ser executado</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Organizatorul necesită terminal</short>
+        <long>Specifică dacă aplicația implicită de organizare are nevoie de terminal la pornire</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Задачам нужен терминал</short>
+        <long>Нуждается ли приложение задач по умолчанию в терминале.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Úlohy potrebujú terminál</short>
+        <long>Či predvolená aplikácia úloh potrebuje terminál pre svoj beh</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Naloge zahtevajo terminal</short>
+        <long>Ali privzet program za naloge za zagon potrebuje terminal.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Aktivitetet ka nevojë për një terminal</short>
+        <long>Tregon nëse aplikativi i aktiviteteve i paracaktuar ka nevojë për një terminal që të zbatohet.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Пословник захтева терминал</short>
+        <long>Да ли је уобичајеном програму за задужења неопходан терминал за извршавање</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Poslovnik zahteva terminal</short>
+        <long>Da li je uobičajenom programu za zaduženja neophodan terminal za izvršavanje</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Uppgifter behöver terminal</short>
+        <long>Huruvida standardprogram för uppgifter behöver en terminal för att köra</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முனையம் வேண்டும் பணிகள்</short>
+        <long>முன்னிருப்பு மேலோடி இயக்குவதற்கு முனையம் வேண்டுமா</long>
+      </locale>
+
+      <locale name="te">
+        <short>కర్తవ్యాలకు టెర్మినల్ అవసరము</short>
+        <long>అప్రమేయ కర్తవ్య అనువర్తనము నడుచుటకు టెర్మినల్ అవసరమా</long>
+      </locale>
+
+      <locale name="th">
+        <short>โปรแกรมงานต้องใช้เทอร์มินัล</short>
+        <long>โปรแกรมรายการงานปริยายต้องใช้เทอร์มินัลหรือไม่</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Görevler uçbirime ihtiyaç duyuyor</short>
+        <long>Öntanımlı görevler uygulamasının bir uçbirime ihtiyaç duyup duymadığı.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Програмі задач потрібен термінал</short>
+        <long>Чи потрібен термінал для запуску програми задач.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tác vụ cần thiết bị cuối</short>
+        <long>Ứng dụng tác vụ mặc định có cần thiết bị cuối để chạy không.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>任务需要终端</short>
+        <long>默认的任务应用程序是否需要终端来运行。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>工作需要終端機</short>
+        <long>預設的工作是否需要終端機方可運行</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>工作需要終端機</short>
+        <long>預設的工作是否需要終端機方可運行</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

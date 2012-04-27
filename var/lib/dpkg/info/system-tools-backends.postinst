@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+if dpkg-maintscript-helper supports mv_conffile; then
+  dpkg-maintscript-helper mv_conffile /etc/dbus-1/system.d/system-tools-backends.conf \
+    /etc/dbus-1/system.d/org.freedesktop.SystemToolsBackends.conf 2.6.0-6.1 -- "$@"
+fi
+
+

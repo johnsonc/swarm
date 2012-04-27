@@ -1,0 +1,1 @@
+/usr/share/pyshared/deskbar/ui/preferences/ErrorDialog.py

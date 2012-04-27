@@ -1,0 +1,11 @@
+May 18 15:31:38 mid shutdown[3803]: shutting down for system halt
+May 18 15:48:55 mid bonobo-activation-server (ira-1778): could not associate with desktop session: Failed to connect to socket /tmp/dbus-U1zcfTakg2: Connection refused
+May 18 16:53:13 mid shutdown[1977]: shutting down for system halt
+May 18 19:52:53 mid hildon-background-manager: osso_mem 12797952 = 270336 + 0 + 82172928 - 69645312
+May 19 01:10:09 mid hildon-background-manager: osso_mem 64985088 = 270336 + 0 + 134360064 - 69645312
+May 19 02:49:34 mid hildon-background-manager: osso_mem 45250560 = 270336 + 0 + 114625536 - 69645312
+May 19 05:12:55 mid shutdown[9165]: shutting down for system halt
+May 19 05:13:00 mid bonobo-activation-server (ira-9184): could not associate with desktop session: Failed to connect to socket /tmp/dbus-2Uj8AQFUM6: Connection refused
+May 19 18:44:43 mid shutdown[2068]: shutting down for system halt
+May 19 18:49:44 mid shutdown[1821]: shutting down for system halt
+May 19 19:10:52 mid shutdown[1821]: shutting down for system halt

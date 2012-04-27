@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="WMTSOCAlsamixerSPK" mtime="1431543608" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightOutMixerDAC" mtime="1431543607" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightOutMixerAA" mtime="1431543606" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightInMixerMicin" mtime="1431543606" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightInMixerLinein" mtime="1431543606" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightHPMIX" mtime="1431543605" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightHPDAC" mtime="1431543604" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightCLDMIX" mtime="1431543602" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerRightCLDDAC" mtime="1431543601" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerLeftOutMixerDAC" mtime="1431543600" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerLeftOutMixerAA" mtime="1431543600" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerLeftHPMIX" mtime="1431543599" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerLeftHPDAC" mtime="1431543598" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerLeftCLDMIX" mtime="1431543597" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerLeftCLDDAC" mtime="1431543593" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerHP" mtime="1431543592" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerCapture" mtime="1431543592" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerPlayback" mtime="1431543591" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerCapturePGA" mtime="1431543590" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerCaptureBoost" mtime="1431543590" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerCaptureADC" mtime="1431543589" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerPlaybackDAC" mtime="1431543588" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerPlaybackBoost" mtime="1431543588" type="bool" value="true"/>
+	<entry name="WMTSOCAlsamixerPlaybackAA" mtime="1431543587" type="bool" value="true"/>
+	<entry name="active-element" mtime="1431544273" type="string">
+		<stringvalue>WMT_SOC (Alsa mixer)</stringvalue>
+	</entry>
+</gconf>

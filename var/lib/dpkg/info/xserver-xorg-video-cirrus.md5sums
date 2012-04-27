@@ -1,0 +1,7 @@
+78a6eb29ce46a0d6958a656cf3eb44a8  usr/lib/xorg/modules/drivers/cirrus_alpine.so
+b0f8d371aac3b062744c05e7a1841099  usr/lib/xorg/modules/drivers/cirrus_drv.so
+d9e3d3f7b9c5264f0d24af1c253f1411  usr/lib/xorg/modules/drivers/cirrus_laguna.so
+137b1ae1f3de9db1ab326d27600be5c3  usr/share/doc/xserver-xorg-video-cirrus/changelog.Debian.gz
+dc45b481125440e2ea2d7d49efed4052  usr/share/doc/xserver-xorg-video-cirrus/changelog.gz
+9420246f86877187ae5116b5313a9a1e  usr/share/doc/xserver-xorg-video-cirrus/copyright
+b1fdf1b6ac3ea61de09f510bf5d30a62  usr/share/man/man4/cirrus.4.gz

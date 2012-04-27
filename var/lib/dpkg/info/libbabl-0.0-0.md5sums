@@ -1,0 +1,16 @@
+2bb3c1a8f075e620b78c42f435b8cb59  usr/share/doc/libbabl-0.0-0/changelog.gz
+35d17601a1e69e6dc63e36fd5839859c  usr/share/doc/libbabl-0.0-0/TODO
+bf53b2247e0ab456bfc5509c458d7879  usr/share/doc/libbabl-0.0-0/TODO.Debian
+d06a47673492c819e28a1d9546d932c4  usr/share/doc/libbabl-0.0-0/copyright
+003bacb874b67b0c79e211618a122417  usr/share/doc/libbabl-0.0-0/AUTHORS
+989f030ac9936256f72fa16b7a6ecdee  usr/share/doc/libbabl-0.0-0/README.gz
+3a33f282941fa986523a3fde58d02264  usr/share/doc/libbabl-0.0-0/NEWS.gz
+bbace1adb5d6dc236358b95b0284de03  usr/share/doc/libbabl-0.0-0/changelog.Debian.gz
+cf3d3c2cd9bc3ec1fded7a1a53d57eb3  usr/lib/libbabl-0.0.so.0.22.0
+123d11da2745bd0a764f4409ea4fcf04  usr/lib/babl-0.0/naive-CMYK.so
+8d9c53f60f6ed3975c72f3b8f0166525  usr/lib/babl-0.0/CIE-Lab.so
+501f32317e2420f3905ad4960eab58b5  usr/lib/babl-0.0/gimp-8bit.so
+c9c50d855be25e7701d5136e0c073af0  usr/lib/babl-0.0/gggl.so
+9095d0956d2045807b3753cce1ed1f80  usr/lib/babl-0.0/sse-fixups.so
+4802cdcd50160a4bee8e8ab6f1fa8f7d  usr/lib/babl-0.0/gegl-fixups.so
+04246049b35131d214555a13afcdf5f5  usr/lib/babl-0.0/gggl-lies.so

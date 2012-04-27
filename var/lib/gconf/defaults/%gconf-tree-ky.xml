@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="webcal">
+						<entry name="need-terminal">
+							<local_schema short_desc="Иштемени терминалда иштетүү">
+								<longdesc>Эгерде орнотулган болсо, анда бул типтеги шилтемелер үчүн иштеме терминалда ачылат</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&apos;webcal&apos; тибиндеги шилтемелердин (URL) иштемеси">
+								<longdesc>&apos;webcal&apos; тибиндеги шилтемелердин (URL) иштемеси</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&apos;webcal&apos; тибиндеги шилтемелер (URL) кандай иштетүү">
+								<longdesc>Эгерде орнотулган болсо, анда &apos;webcal&apos; тибиндеги шилтемелерди (URL) иштетүү үчүн &quot;command&quot; ачкыч сөзүндө көрсөтүлгөн иштеме колдонулат</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="yelp">
+				<entry name="fixed_font">
+					<local_schema short_desc="Туруктуу текстин ариби">
+						<longdesc>Жазылыгы туруктуу текстин ариби.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="variable_font">
+					<local_schema short_desc="Текстин ариби">
+						<longdesc>Жазылыгы өзгөрмөлүү текстин ариби.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="Системалык ариптерди колдонуу">
+						<longdesc>Алдыналынган системалык ариптер көптүгүн колдонуу.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_caret">
+					<local_schema short_desc="Курсорду колдонуу">
+						<longdesc>Барактарды кароодо алиптергич аркылуу башкарылуучу курсорду колдонуу</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_text">
+						<local_schema short_desc="Убакыт/процент белгисин чагылдыруу">
+						</local_schema>
+					</entry>
+					<entry name="show_battery">
+						<local_schema short_desc="Горизонталдык батареяны көрсөтүү">
+						</local_schema>
+					</entry>
+					<entry name="show_status">
+						<local_schema short_desc="Вертикалдык (кичинекей) батарея">
+						</local_schema>
+					</entry>
+					<entry name="drain_from_top">
+						<local_schema short_desc="Жогору жагынан кичирейет">
+							<longdesc>Батарея заряды азайганда индикатор жогорудан төмөн түшөт. Салттуу батарея түрүндө гана ишке ашырылган.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="Үн сигналы менен эскертүү">
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="Заряддын толуктугун билдирүү">
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="Заряддын аздыгын билдирүү">
+						</local_schema>
+					</entry>
+					<entry name="red_value_is_time">
+						<local_schema short_desc="Аз калган процент эмес, аз калган убакыт жөнүндө эскертүү">
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="Кызыл түстүн деңгээли">
+							<longdesc>Бул мааниден азайган учурда кызыл түс менен чагылдырылуучу батарея деңгээли. Ошондой эле, батарея зарядынын деңгээли төмөн жөнүндөгү эскертүү берүү мааниси.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema short_desc="Бириктирүү чекитин текшерүү үчүн таймер убакыты">
+							<longdesc>Абалды жаңылоо ортосундагы убакыт секунд менен</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="Мүмкүн болгон палитралар тизмеси">
+						</local_schema>
+					</entry>
+					<entry name="current_list">
+						<local_schema short_desc="Апплетти иштеткен учурда көрсөтүлүүчү символдор">
+						</local_schema>
+					</entry>
+					<entry name="default_list">
+						<local_schema short_desc="СУНУШТАЛБАЙТ - Апплетти иштеткен учурда көрсөтүлүүчү символдор">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="show_text_mode">
+						<local_schema>
+							<longdesc>0 - БП жыштыгын көрсөтүү, 1 - жыштыгын жана бирдигин көрсөтүү, жана 2 - жыштыктын ордуна процентин көрсөтүү.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cpu">
+						<local_schema short_desc="Байкалуучу процессор">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="internet_time">
+						<local_schema short_desc="Интернет убакытын колдонуу">
+							<longdesc>Бул ачкычты GNOMEдун 2.6 версиясында колдонуу сунушталбайт. Анын ордуна &quot;формат&quot; ачкычын колдонуу туура. Бул ачкыч мурдагы версиялар менен дал келүү максатында гана калтырылган.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="UNIX убакытын колдонуу">
+							<longdesc>Бул ачкычты GNOMEдун 2.6 версиясында колдонуу сунушталбайт. Анын ордуна &quot;формат&quot; ачкычын колдонуу туура. Бул ачкыч мурдагы версиялар менен дал келүү максатында гана калтырылган.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Саат форматы">
+							<longdesc>Бул ачкычты GNOMEдун 2.6 версиясында колдонуу сунушталбайт. Анын ордуна &quot;формат&quot; ачкычын колдонуу туура. Бул ачкыч мурдагы версиялар менен дал келүү максатында гана калтырылган.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Календарда жуманын катар номурун көрсөтүү">
+							<longdesc>Эгер бул орнотулса, календарда жуманын катар номуру көрсөтүлөт</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Убакытты орнотуу программасы">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Гринвич (UTC) убакытын колдонуу">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Датаны сунуш сабында көрсөтүү">
+							<longdesc>Эгер бул орнотулса, чычкан көрсөткүчү саат үстүнө келгенде, дата чагылдырылат.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Саат апплетинде датаны көрсөтүү">
+							<longdesc>Эгер бул орнотулса, саатта убакыт менен кошо дата да чагылдырылат.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Секундун көрсөтүү">
+							<longdesc>Эгер бул орнотулса, секунду көрсөтүлөт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Сааттын башка форматы">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Саат форматы">
+							<longdesc>Бул ачкыч саат апплети колдонуучу форматты аныктайт. Мүмкүн болгон маанилер төмөнкүлөр: &quot;12 саатык (12-hour)&quot;, &quot;24 саатык (24-hour)&quot;, &quot;интернет убакыты (internet)&quot;, &quot;UNIX убакыты (unix)&quot; жана &quot;башка (custom)&quot;. Эгер бул ачкыч &quot;internet&quot; маанисине орнотулса, саат Интернет убактысын чагылдырат. Бул системада күн 1000 &quot;битке (.beats)&quot; бөлүнөт. Системада саат алкактары жок, ошондуктан бүт дүйнөдө убакыт бирдей. Эгерде &quot;unix&quot; мааниси орнотулса, саат эпоханын (&quot;Epoch&quot; башталышынан тартып, б.а. 1.01.1970, секунд менен ченелет. Эгер бул ачкычтын мааниси &quot;custom&quot; болсо, анда убакыт &quot;custom_format&quot; ачкычы аныктаган мааниси боюнча чагылдырылат .</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Тандагычтагы саптардын саны">
+							<longdesc>Бул ачкыч, тандагыч канча сапты (горизонталдык жайгашууда) же канча мамычаны (вертикалдык жайгашууда) чагылдыруусун аныктайт. display_all_workspaces ачкычы орнотулган убакта гана мааниси бар.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Бардык иш орундарын көрсөтүү">
+							<longdesc>Эгер бул орнотулса, учурдагы иш орунун гана эмес, бардык иш орундарды көрсөтөт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Иш орундарынын аттарын чагылдыруу">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Терезелер тизмесинин максималдык өлчөмү">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Терезелер тизмесинин минималдык өлчөмү">
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Терезелерди калыбына келтирүүдө аны учурдагы иш орунуна жылдыруу">
+							<longdesc>Эгер бул орнотулса, терезе учурдагы иш орунунда, антпесе ал баштапкы иш орунунда калыбына келтирилет.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Терезелерди топторго бөлүүдө">
+							<longdesc>Терезелер тизмесинде бир иштеменин терезелерин топтоону аныктайт. Мүмкүн болгон маанилер &quot;эч качан&quot;, &quot;автоматтык&quot; жана &quot;дайыма&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Бардык иш орундарынын терезелерин көрсөтүү">
+							<longdesc>Эгер бул орнотулса, терезелер тизмеси учурдагы иш орунунун терезелерин гана эмес, башка бардык иш орундарынын терезелерин чагылдырат.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Отключить принудительное завершение">
+							<longdesc>Если этот ключ установлен, панель не будет позволять принудительно завершать приложение. Соответствующая кнопка будет недоступна.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Отключить завершение сеанса">
+							<longdesc>Если этот ключ установлен, панель не будет позволять завершать сеанс. Соответствующий пункт меню будет недоступен.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="Идентификаторы (IID) запрещённых апплетов">
+							<longdesc>Список идентификаторов апплетов (IID), которые панель будет игнорировать. Таким образом можно запретить загрузку некоторых апплетов или их отображение в меню. Например, чтобы запретить апплет командной строки необходимо добавить строку &quot;OAFIID:GNOME_MiniCommanderApplet&quot; к этому списку. Для получения эффекта панель необходимо перезапустить.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Полная блокировка панели">
+							<longdesc>Если этот ключ установлен, панель не будет позволять производить изменения в конфигурации панели. Однако отдельные апплеты могут потребовать отдельной блокировки. Для достижения эффекта панель необходимо перезапустить.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Подсвечивать кнопки при наведении мыши">
+							<longdesc>Если этот ключ установлен, кнопка запуска подсвечивается при наведении на неё указателя.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Подтверждать удаление панели">
+							<longdesc>Если этот ключ установлен, при попытке удаления панели будет запрашиваться подтверждение.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Автоматически закрывать ящик">
+							<longdesc>Если этот ключ установлен, ящик будет автоматически закрываться при нажатии на одну из кнопок запуска в нём.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Анимацияны иштетүү">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Эскирген">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="Суурулма сунуштарды иштетүү">
+							<longdesc>Если этот ключ установлен, для объектов панели отображаются всплывающие подсказки.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Тип кнопки действия">
+							<longdesc>Тип действия, реализуемого кнопкой.  Допустимые значения: &quot;lock&quot;, &quot;logout&quot;, &quot;run&quot;, &quot;search&quot; and &quot;screenshot&quot;.  Этот параметр имеет смысл только если object_type содержит &quot;action-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Расположение кнопки запуска">
+							<longdesc>Расположение файла .desktop, описывающего кнопку запуска.  Этот параметр имеет смысл, только если тип объекта (object_type) содержит &quot;launcher-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Путь содержимого меню">
+							<longdesc>Путь, из которого содержимое меню будет сконструировано. Этот ключ имеет смысл, только если ключ use_menu_path установлен и ключ object_type имеет значение &quot;menu-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Использовать иной путь к содержимому меню">
+							<longdesc>Если этот ключ установлен, то значение из ключа menu_path используется как путь, из которого будет сконструировано меню. Если не установлен, то значение ключа menu_path будет проигнорировано.  Этот параметр имеет смысл только если ключ object_type содержит значение &quot;menu-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Значок, используемый для кнопки объекта">
+							<longdesc>Расположение файла изображения, используемого как значок для кнопки объекта.  Этот ключ имеет смысл, если тип объекта (ключ object_type) содержит &quot;drawer-object&quot; и ключ use_custom_icon установлен.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Использовать другой значок для кнопки объекта">
+							<longdesc>Если этот ключ установлен, то значение из ключа custom_icon используется как пользовательский значок для кнопки. Если не установлен, то значение ключа custom_icon будет проигнорировано. Этот параметр имеет смысл, только если ключ object_type содержит значение &quot;menu-object&quot; или &quot;drawer-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Всплывающая подсказка для ящика или меню">
+							<longdesc>Текст, используемый в качестве подсказки для данного ящика. Этот параметр имеет смысл, только если ключ object_type имеет значение  &quot;drawer-object&quot; или &quot;menu-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Панель, присоединённая к ящику">
+							<longdesc>Идентификатор панели, присоединенной к данному ящику.  Эта параметр имеет смысл только если тип объекта (object_type) содержит &quot;drawer-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Bonobo-идентификатор апплета">
+							<longdesc>Идентификатор реализации Bonobo (the Bonobo implementation ID) апплета -- например, &quot;OAFIID:GNOME_ClockApplet&quot;.  Эта параметр имеет смысл только если object_type содержит &quot;bonobo-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Блокировать объект на панели">
+							<longdesc>Если этот ключ установлен, то пользователь НЕ может перемещать апплет не отдав перед этим команду &quot;Разблокировать&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="Интерпретировать позицию относительно нижнего/правого края">
+							<longdesc>Если этот ключ установлен, то позиция объекта интерпретируется относительно правого (или нижнего для вертикальных панелей) края панели.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Позиция объекта на панели">
+							<longdesc>Позиция объекта на панели.  Позиция определяется количеством пикселей от левого (или верхнего для вертикальных панелей) края панели.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Панель верхнего уровня, содержащая объект">
+							<longdesc>Идентификатор панели верхнего уровня, которая содержит данный объект.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Панель объектисинин тиби">
+							<longdesc>Тип объекта панели.  Допустимые значения: &quot;drawer-object&quot;, &quot;menu-object&quot;, &quot;launcher-object&quot;, &quot;bonobo-applet&quot;, &quot;action-applet&quot; и &quot;menu-bar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Настройка старых профилей перенесена">
+							<longdesc>Булевый флаг, указывающий, перенести ли предыдущую конфигурацию пользователя из /apps/panel/profiles/default на новое место в /apps</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Список идентификаторов объектов панели">
+							<longdesc>Список идентификаторов (ID) объектов панели.  Каждый идентификатор идентифицирует отдельный объект панели (например, кнопку запуска, кнопку команды или или меню).  Параметры каждого из этих объектов хранятся в /apps/panel/objects/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Список идентификаторов апплетов панели">
+							<longdesc>Список идентификаторов апплетов панели.  Каждый идентификатор идентифицирует отдельный апплет на панели.  Параметры каждого из этих апплетов хранятся в /apps/panel/applets/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Список идентификаторов панели">
+							<longdesc>Список идентификаторов панелей.  Каждый идентификатор идентифицирует отдельную панель верхнего уровня.  Параметры каждой из этих панелей хранятся в /apps/panel/toplevels/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="Включить автодополнение в диалоге &quot;Выполнить программу&quot;">
+							<longdesc>Если этот параметр установлен, автодополнение в диалоге &quot;Выполнить программу&quot; будет доступно.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Разворачивать список программ в диалоге &quot;Выполнить программу&quot;">
+							<longdesc>Если этот ключ установлен, список &quot;Известные приложения&quot; в диалоге &quot;Выполнить программу&quot; по умолчанию разворачивается.  Эта установка имеет смысл только в том случае, если устанвлен параметр enable_program_list.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="Включить список программ в диалоге &quot;Выполнить программу&quot;">
+							<longdesc>Если этот ключ установлен, то в диалоге &quot;Выполнить программу&quot; становится доступным список &quot;Известные приложения&quot;.  Будет ли он развёрнут по умолчанию или нет -- контролируется настройкой show_program_list.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Анимация ылдамдыгы">
+							<longdesc>Анимация жүргүзүүнүн ылдамдыгы. Мүмкүн болгон маанилери: &quot;slow&quot; (жай), &quot;medium&quot; (орточо), жана &quot;fast&quot; (ылдам).  Бул ачкыч enable_animations ачкычы орнотулган учурда гана мааниге ээ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Панель жашырылган абалында көрсөтүлүүчү пикселдер саны.">
+							<longdesc>Панель автоматтык түрдө экрандын сыртына жашырылган учурда, көрүнө калган пикселдердин саны. Бул auto_hide ачкычы орнотулган учурда гана мааниге ээ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Панелди автокөрсөтүү алдындагы күтүлүүчү убакыт">
+							<longdesc>Чычкан көрсөткүчүнүн панель областына келгенден кийин, панелдин автоматтык түрдө кайра көргөзүлүшүнө чейинки күтүү убактысын миллисекунд менен аныктайт. Бул auto_hide ачкычы орнотулган учурда гана мааниге ээ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Панелди автожашыруунун алдындагы күтүлүүчү убакыт">
+							<longdesc>Чычкан көрсөткүчү панель областын таштагандан кийин, панелдин автоматтык түрдө жашырылышына чейинки күтүү убактысын миллисекунд менен аныктайт. Бул auto_hide ачкычы орнотулган учурда гана мааниге ээ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Жашыруу баскычтарындагы багыт белгилерин иштетүү">
+							<longdesc>Эгер бул ачкыч орнотулса, жашыруу/көрсөтүү баскычтарында багыт белгиси чийилет. Бул параметр enable_buttons орнотулган учурда гана мааниси бар.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Жашыруу/көрсөтүү баскычтарын иштетүү">
+							<longdesc>Эгерде бул ачкыч орнотулса, анда панелге жашыруу/көргөзүү баскычтары чийилет. Алар панелди экрандын сыртына &quot;жашырат&quot; да, аны кайра калыбына келтирүүчү &quot;көргөзүү&quot; баскычтары гана калат.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Анимацияны иштетүү">
+							<longdesc>Эгер бул ачкыч орнотулса, панелди жашыруу жана көргөзүү процесси анимацияланат, антпесе панель дароо жашырылат де кайра көргөзүлөт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Панелди автоматтык түрдө бурчка жашыруу">
+							<longdesc>Эгер бул ачкыч орнотулса, чычкан көрсөткүчү панель мейкиндигинен чыккан учурда, панель автоматтык түрдө экрандын бурчуна жашырылат. Көрсөткүчтү бул бурчка алып келген учурда, панель кайрадан көрсөтүлөт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Панелди Y огу боюнча борборлоштуруу">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Панелди X огу боюнча борборлоштуруу">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="панелдин Y-координатасы">
+							<longdesc>Панелдин Y огу боюнча жайгашуусу. Бул маани кеңейтилбеген режимде гана иштейт. Кеңейтилген режимде бул маани эске алынбайт жана багыт ачкычынын маанисине жараша, панель экрандын четинде жайгаштырылат.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="Панелдин X-координатасы">
+							<longdesc>Панелдин X огу боюнча жайгашуусу. Бул маани кеңейтилбеген режимде гана иштейт. Кеңейтилген режимде бул маани эске алынбайт жана багыт ачкычынын маанисине жараша, панель экрандын четинде жайгаштырылат.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Панель өлчөмү">
+							<longdesc>Панелдин бийиктиги (же жазылыгы, эгер ал вертикалдык болсо). Панель өзүнүн эң кичине мүмкүн болгон өлчөмүн, ариптин өлчөмүнө жана ага жайгаштырылган индикаторлордун өлчөмүнө жараша, чагылдыруу убактысында аныктайт. Эң чоң мааниси экрандын бийиктигинин (же жазылыгынын, вертикалдык учурда) төрттөн бири менен чектелген.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Панелдин багыты">
+							<longdesc>Панелдин жайгашуу багыты (ориентациясы). Мүмкүн болгон маанилери: &quot;top&quot;, &quot;bottom&quot;, &quot;left&quot;, &quot;right&quot;. Кеңейтилен режимде бул маани панелди экрандын кайсы четине жайгаштырууну аныктайт. Кеңейтилбеген режимде &quot;top&quot; менен &quot;bottom&quot; ортосунда айырманын мааниси аз - эки маани тең анын горизонталдык экендигин аныктайт, бирок панелдеги объектердин жүрүш-турушунун кээ бир аспектилерине таасир этет. Мисалы, &quot;top&quot; мааниси учурунда суурулма менюлар төмөн багытталса, ал эми &quot;bottom&quot; учурунда жогору багытталат.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Панелди экрандын бардык жазылыгын ээлегенче кеңейтет">
+							<longdesc>Эгер бул ачкыч орнотулса, панель экрандын бардык жазылыгын (же бийиктигин, вертикалдык учурда) ээлейт. Мындай панелдер экрандын сырткы чектеринде гана жайгаша алат. Эгер орнотулбаса, анда панель ага тийиштүү апплеттерди, баскычтарды чагылдырууга канча орун керек болсо, ошончо орунду ээлейт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Панель чагылдыруу үчүн Xinerama монитору">
+							<longdesc>Xinerma системасын колдонгон учурда, панелди индивидуалдык мониторго жайгаштырса болот. Бул ачкыч панель жайгашкан учурдагы мониторду аныктайт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="Панель чагылдырылуучу Х системасындагы экран">
+							<longdesc>Бир нече экранды колдонууну ырастаган учурда, панелди индивидуалдык экранга жайгаштырса болот. Бул ачкыч панель жайгашкан учурдагы экранды аныктайт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="панелди идентификациялоо үчүн анын аты">
+							<longdesc>Адамдын окуусуна ыңгайлуу панель аты. Негизги кызматы -- панель терезесинин башсабын чагылдыруу жана панелдер ортосундагы өтүүдө пайдалуу.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Вертикалдык панелдерде сүрөттөлүштөрдү айлантуу">
+								<longdesc>Эгер бул ачкыч орнотулса, панель вертикалдык багытта болгондо, фондук сүрөттөлүш айландырылат.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Сүрөттөлүштү панель боюнча созуу">
+								<longdesc>Эгер бул ачкыч орнотулса, сүрөтөлүш өлчөмү панелдин өлчөмүнө чейин өзгөртүлөт. Ошол эле убакта бийиктик/жазылык каташы сакталат.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Сүрөттөлүштүн өлчөмүн панелге тууралоо">
+								<longdesc>Эгер бул ачкыч орнотулса, фондук сүрөттөлүш панелдин бийиктигине чейин (панель горизонталдык болсо) масштабдалат (бийиктик/жазылык катышы сакталат).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Фондук сүрөттөлүш">
+								<longdesc>Фондук сүрөттөлүш катары колдонулуучу файлдын атын көрсөтөт. Эгерде, анда альфа-канал болсо, анда иш столунун сүрөттөлүшүнүн тунук жерлеринде аны менен композицияланат.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Фондук түстүн тунуксуздук деңгээли">
+								<longdesc>Фондук түстүн тунуксуздук даражасын аныктайт. Эгер түстүн тунуктук мааниси аныкталган болсо (анын мааниси 65535тен кем), анда түс иш столунун фондук сүрөттөлүшү менен &quot;бириктирилет&quot;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Фондук түс">
+								<longdesc>Панелдин фонунун түсүн #RGB форматында аныктайт.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Фон тиби">
+								<longdesc>Панель үчүн кайсы типти колдонуу. Мүмкүн болгон маанилер: &quot;gtk&quot; ( жалпы системалык GTK+ виджеттер фону колдонулат, &quot;color&quot; (фон ырастоодо көрсөтүлгөн түс менен боёлот) жана &quot;image&quot; (фон үчүн ырстоодо көрсөтүлгөн сүрөттөлүш колдонулат).</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Вертикалдык панелдерде айлантуу">
+							<longdesc>Эгер бул орнотулса, вертикалдык панелдерде анимация буралган түрдө чагылдырылат.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Кадрды кармоо">
+							<longdesc>Бул ачкыч ар-бир кадрдын канча секунд чагылдырыларын аныктайт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Балыкты анимациялоо учурундагы кадр саны">
+							<longdesc>Бул ачкыч балык анимациясын чагылдыруудагы кадрлар санын аныктайт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Чертүү учурунда аткарылуучу команда">
+							<longdesc>Бул ачкыч балыкты черткен учурда аткарылуучу команданы аныктайт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Балыктын анимацияланган сүрөттөлүшү">
+							<longdesc>Бул ачкыч сүрөттөлүштөр каталогуна (pixmap) салыштырмалуу, балык анимация апплетин чагылдырууда колдонулуучу сүрөттөлүш файлын аныктайт.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Балык аты">
+							<longdesc>Аты жок балык - кызыксыз балык. Ага ат берип, турмуш кызыгына баттырыңыз.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

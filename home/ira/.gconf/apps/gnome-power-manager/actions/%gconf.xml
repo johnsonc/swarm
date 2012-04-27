@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="critical_battery" mtime="1262360041" type="string">
+		<stringvalue>shutdown</stringvalue>
+	</entry>
+</gconf>

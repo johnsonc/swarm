@@ -1,0 +1,11 @@
+d8d883ac905f2227aed3339626f7a15c  usr/lib/libslv2.so.9.2.0
+2858e7aea34a55501989b65d883bf78a  usr/share/doc/libslv2-9/README
+fcb0243a518f24aaa2f364491d182ce6  usr/share/doc/libslv2-9/changelog.Debian.gz
+5c2cca308f31d732f14e79bb5df90a61  usr/share/doc/libslv2-9/changelog.gz
+ed1b20b0a6131cda8daa6ffd8b3ba5bd  usr/share/doc/libslv2-9/copyright
+9548dfb0959ef0e47ff593ff6cb62747  usr/share/man/man3/slv2.3.gz
+fe4c22cbd3d78ddf276973968b41d73c  usr/share/man/man3/slv2_collections.3.gz
+820a8951baae1e071697192fc98290e3  usr/share/man/man3/slv2_data.3.gz
+1b1d37407889c92ecc55036ebdaa34f5  usr/share/man/man3/slv2_library.3.gz
+bd22f4596bb9ff7d965ed8e6433d7993  usr/share/man/man3/slv2_util.3.gz
+2c660da2711c70e85a586f277c7b2bdc  usr/share/man/man3/slv2_world.3.gz

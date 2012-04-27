@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="power" mtime="1262360041" type="string">
+		<stringvalue>interactive</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,37 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
+Packaged-By: Ross Burton <ross@debian.org>
+Packaged-Date: Wed, 10 Nov 2004 14:09:00 +0000
+Original-Source-Location: http://packages.qa.debian.org/app-install-data
+
+Files: menu-data/*
+Copyright: © The copyright holders of the software in Debian
+License: other
+ These files are collected from various packages in Debian. Please take a look
+ at the copyright file of the package to find out the exact license.
+ .
+ To see the origin of the icons, see README.icons, which lists the file, the
+ package name and the path inside the package.
+ .
+ For the desktop files, open them and look at X-App-Install-Package key.
+
+Files: tools/addPopconData.py, tools/getMenuData.py, tools/data/*
+Copyright: © 2005-2008 Canonical
+           © 2007-2009 Julian Andres Klode <jak@jak-linux.org>
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991.
+ .
+ On Debian systems, the full text of the GPL can be found in
+ /usr/share/common-licenses/GPL-2
+
+Files: tools/files.py, tools/compareData.py
+Copyright: © 2007-2009 Julian Andres Klode <jak@jak-linux.org>
+License: GPL-3+
+ This package is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the full text of the GPL can be found in
+ /usr/share/common-licenses/GPL-3

@@ -1,0 +1,3 @@
+/apps/epiphany/general/homepage http://www.debian.org/
+/apps/epiphany/web/language [system]
+/apps/epiphany/web/autodetect_encoding universal_charset_detector

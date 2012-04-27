@@ -1,0 +1,41 @@
+			GRAPHITE
+
+Graphite is a smart font system consists of an engine, and optionally 
+some common font and rendering system support code, which transforms a
+Graphite enables font, unicode string and font formatting information 
+(features, size, etc.) into a set of positioned glyphs.
+In reality, Graphite does more than this, as it can handle cursor 
+tracking, mouse interaction, string selection and other interaction tasks.
+
+This is a meta-project the engine and each of the wrappers/backends are 
+complete and independent projects in their own right and will build 
+separately of each other's source (provdided any necessary dependencies are 
+met of course). The wrappers project and subprojects depend upon pkgconfig 
+(http://pkgconfig.freedesktop.org/wiki/) being installed on the developer's 
+system to allow these projects to detect their dependencies to discover build 
+and linking flags and decide what to build. If you do not have pkgconfig then 
+you will only be able to build the engine "out of the box".
+Building this project will build the engine plus as many wrappers as the host 
+system can support (e.g. if you don't have freetype development headers 
+installed it will skip building any wrappers which depend of freetype).
+
+The *nix build system uses autoconf and automake including all the 
+conventions of those tools. This includes extended support for debug, 
+maintenance mode, etc. See the GNU autotools info pages for the appropriate 
+tools for help.
+
+If you have checked this source out of our Subversion repository or a similar 
+version control system you will need to generate the autotools scripts and 
+files (configure, Makefile.in etc) to do this run:
+
+    autoreconf --install
+        
+Please see INSTALL for information on building
+
+NOTE: 
+If you modify any configure.in or Makefile.am file you will need rerun 
+autoreconf like so:
+
+    autoreconf
+    
+For those changes to affect the configure script and makefiles.

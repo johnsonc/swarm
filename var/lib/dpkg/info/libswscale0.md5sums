@@ -1,0 +1,11 @@
+c4c2af6c7d0d1481b33071e58f0cfa84  usr/lib/libswscale.so.0.7.1
+abc2878e09b5568f8753553403ac7896  usr/lib/neon/vfp/libswscale.so.0.7.1
+64bcda3bfd022182c96b3ca3072057b0  usr/lib/vfp/libswscale.so.0.7.1
+4263310f0087032d17bbf57d24cc982f  usr/share/doc/libswscale0/CREDITS
+cfb14a1b75f6825cece0d019fdde55f2  usr/share/doc/libswscale0/MAINTAINERS.gz
+5d4f3da091ed2960228e255391b6553c  usr/share/doc/libswscale0/README.Debian.gz
+5445eeb1b70893e88726cf7d9a0da1d7  usr/share/doc/libswscale0/TODO
+dce496c66d57f840c9f4ffdbbccb5ecd  usr/share/doc/libswscale0/changelog.Debian.gz
+f46207c2c8d152b571a05e44522aa6ab  usr/share/doc/libswscale0/changelog.gz
+a1dcc5382322f9332809f502cf7509c9  usr/share/doc/libswscale0/copyright
+28dacea89b816231f532904e07104c64  usr/share/lintian/overrides/libswscale0

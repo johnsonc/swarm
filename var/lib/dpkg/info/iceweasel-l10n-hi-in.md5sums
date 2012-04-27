@@ -1,0 +1,8 @@
+f70081e0de43fff0f421269dbef11777  usr/lib/iceweasel/extensions/langpack-hi-IN@firefox.mozilla.org/chrome.manifest
+383ead4399eee4ee56544a12220179cf  usr/lib/iceweasel/extensions/langpack-hi-IN@firefox.mozilla.org/chrome/hi-IN.jar
+832971a75c1132c0ea1d040cc3b01b76  usr/lib/iceweasel/extensions/langpack-hi-IN@firefox.mozilla.org/install.rdf
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/iceweasel/extensions/langpack-hi-IN@firefox.mozilla.org/uninstall/Uninstall
+7e699bfe739be3f5184a220b765128f1  usr/share/doc/iceweasel-l10n-hi-in/changelog.Debian.gz
+678ca9537ccd73657c7753ef4da5e3ea  usr/share/doc/iceweasel-l10n-hi-in/copyright
+18e38545f6caa39ee1ca2c14fee81eae  usr/share/lintian/overrides/iceweasel-l10n-hi-in
+4510984908a9ba1fff86878e4e3062b6  var/lib/iceweasel/extensions.d/50hi-IN-locale.ext

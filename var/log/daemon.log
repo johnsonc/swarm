@@ -1,0 +1,1120 @@
+May 18 15:31:40 mid init: Switching to runlevel: 0
+May 18 15:31:48 mid acpid: exiting
+May 18 15:32:30 mid acpid: cannot open input layer
+May 18 15:32:30 mid acpid: starting up with netlink and the input layer
+May 18 15:32:30 mid acpid: 1 rule loaded
+May 18 15:32:30 mid acpid: waiting for events: event logging is off
+May 18 15:32:31 mid bluetoothd[1342]: Bluetooth deamon 4.66
+May 18 15:32:31 mid bluetoothd[1342]: Starting SDP server
+May 18 15:32:31 mid bluetoothd[1342]: opening L2CAP socket: Address family not supported by protocol
+May 18 15:32:31 mid bluetoothd[1342]: Server initialization failed
+May 18 15:32:31 mid avahi-daemon[1352]: Found user 'avahi' (UID 104) and group 'avahi' (GID 107).
+May 18 15:32:31 mid avahi-daemon[1352]: Successfully dropped root privileges.
+May 18 15:32:31 mid avahi-daemon[1352]: avahi-daemon 0.6.27 starting up.
+May 18 15:32:31 mid avahi-daemon[1352]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+May 18 15:32:31 mid bluetoothd[1342]: Starting experimental netlink support
+May 18 15:32:31 mid bluetoothd[1342]: Failed to find Bluetooth netlink family
+May 18 15:32:31 mid bluetoothd[1342]: Failed to init netlink plugin
+May 18 15:32:31 mid avahi-daemon[1352]: Successfully called chroot().
+May 18 15:32:31 mid avahi-daemon[1352]: Successfully dropped remaining capabilities.
+May 18 15:32:31 mid avahi-daemon[1352]: No service file found in /etc/avahi/services.
+May 18 15:32:31 mid avahi-daemon[1352]: socket() failed: Permission denied
+May 18 15:32:31 mid bluetoothd[1342]: Failed to open control socket: Address family not supported by protocol (97)
+May 18 15:32:31 mid bluetoothd[1342]: Can't init bnep module
+May 18 15:32:31 mid bluetoothd[1342]: Failed to init network plugin
+May 18 15:32:31 mid avahi-daemon[1352]: socket() failed: Address family not supported by protocol
+May 18 15:32:31 mid avahi-daemon[1352]: Failed to create server: No suitable network protocol available
+May 18 15:32:31 mid avahi-daemon[1352]: avahi-daemon 0.6.27 exiting.
+May 18 15:32:31 mid bluetoothd[1342]: Unable to start SCO server socket
+May 18 15:32:31 mid bluetoothd[1342]: Failed to init audio plugin
+May 18 15:32:31 mid bluetoothd[1342]: Can't open HCI socket: Address family not supported by protocol (97)
+May 18 15:32:31 mid bluetoothd[1342]: adapter_ops_setup failed
+May 18 15:32:56 mid polkitd[1696]: started daemon version 0.96 using authority implementation `local' version `0.96'
+May 18 15:48:54 mid gnome-session[1606]: WARNING: Failed to send buffer
+May 18 16:53:14 mid init: Switching to runlevel: 0
+May 18 16:53:16 mid acpid: exiting
+May 18 18:55:12 mid acpid: cannot open input layer
+May 18 18:55:12 mid acpid: starting up with netlink and the input layer
+May 18 18:55:12 mid acpid: 1 rule loaded
+May 18 18:55:12 mid acpid: waiting for events: event logging is off
+May 18 18:55:13 mid avahi-daemon[1388]: Found user 'avahi' (UID 104) and group 'avahi' (GID 107).
+May 18 18:55:13 mid avahi-daemon[1388]: Successfully dropped root privileges.
+May 18 18:55:13 mid avahi-daemon[1388]: avahi-daemon 0.6.27 starting up.
+May 18 18:55:13 mid avahi-daemon[1388]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+May 18 18:55:13 mid avahi-daemon[1388]: Successfully called chroot().
+May 18 18:55:13 mid avahi-daemon[1388]: Successfully dropped remaining capabilities.
+May 18 18:55:13 mid avahi-daemon[1388]: No service file found in /etc/avahi/services.
+May 18 18:55:13 mid avahi-daemon[1388]: socket() failed: Permission denied
+May 18 18:55:13 mid avahi-daemon[1388]: socket() failed: Address family not supported by protocol
+May 18 18:55:13 mid avahi-daemon[1388]: Failed to create server: No suitable network protocol available
+May 18 18:55:13 mid avahi-daemon[1388]: avahi-daemon 0.6.27 exiting.
+May 18 18:55:14 mid bluetoothd[1415]: Bluetooth deamon 4.66
+May 18 18:55:14 mid bluetoothd[1415]: Starting SDP server
+May 18 18:55:14 mid bluetoothd[1415]: opening L2CAP socket: Address family not supported by protocol
+May 18 18:55:14 mid bluetoothd[1415]: Server initialization failed
+May 18 18:55:14 mid bluetoothd[1415]: Starting experimental netlink support
+May 18 18:55:14 mid bluetoothd[1415]: Failed to find Bluetooth netlink family
+May 18 18:55:14 mid bluetoothd[1415]: Failed to init netlink plugin
+May 18 18:55:14 mid bluetoothd[1415]: Failed to open control socket: Address family not supported by protocol (97)
+May 18 18:55:14 mid bluetoothd[1415]: Can't init bnep module
+May 18 18:55:14 mid bluetoothd[1415]: Failed to init network plugin
+May 18 18:55:14 mid bluetoothd[1415]: Unable to start SCO server socket
+May 18 18:55:14 mid bluetoothd[1415]: Failed to init audio plugin
+May 18 18:55:14 mid bluetoothd[1415]: Can't open HCI socket: Address family not supported by protocol (97)
+May 18 18:55:14 mid bluetoothd[1415]: adapter_ops_setup failed
+May 18 18:55:38 mid polkitd[1695]: started daemon version 0.96 using authority implementation `local' version `0.96'
+May 18 19:55:33 mid gnome-session[3235]: atk-bridge-WARNING: AT_SPI_REGISTRY was not started at session startup.
+May 18 19:55:33 mid gnome-session[3235]: atk-bridge-WARNING: IOR not set.
+May 18 19:55:33 mid gnome-session[3235]: atk-bridge-WARNING: Could not locate registry
+May 18 19:55:43 mid gdm-simple-greeter[3254]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 18 19:57:38 mid gdm-simple-greeter[3254]: WARNING: Failed to send buffer
+May 18 20:12:06 mid gdm-simple-greeter[3695]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 18 20:13:09 mid gdm-simple-greeter[3695]: WARNING: Failed to send buffer
+May 19 01:03:57 mid gnome-session[4204]: atk-bridge-WARNING: AT_SPI_REGISTRY was not started at session startup.
+May 19 01:03:57 mid gnome-session[4204]: atk-bridge-WARNING: IOR not set.
+May 19 01:03:57 mid gnome-session[4204]: atk-bridge-WARNING: Could not locate registry
+May 19 01:04:08 mid gdm-simple-greeter[4223]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 01:04:31 mid gdm-simple-greeter[4223]: WARNING: Failed to send buffer
+May 19 01:04:42 mid gnome-session[4293]: atk-bridge-WARNING: AT_SPI_REGISTRY was not started at session startup.
+May 19 01:04:42 mid gnome-session[4293]: atk-bridge-WARNING: IOR not set.
+May 19 01:04:42 mid gnome-session[4293]: atk-bridge-WARNING: Could not locate registry
+May 19 01:04:54 mid gdm-simple-greeter[4312]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 02:46:30 mid acpid: input device has been disconnected
+May 19 03:18:25 mid gnome-session[4715]: atk-bridge-WARNING: AT_SPI_REGISTRY was not started at session startup.
+May 19 03:18:25 mid gnome-session[4715]: atk-bridge-WARNING: IOR not set.
+May 19 03:18:25 mid gnome-session[4715]: atk-bridge-WARNING: Could not locate registry
+May 19 03:18:36 mid gdm-simple-greeter[4736]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 03:31:06 mid gdm-simple-greeter[5033]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 03:31:40 mid gdm-simple-greeter[5033]: WARNING: Failed to send buffer
+May 19 03:34:40 mid gdm-simple-greeter[5241]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 03:38:50 mid gdm-simple-slave[5188]: WARNING: Unable to activate session: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 19 03:38:52 mid gnome-session[5222]: WARNING: Client '/org/gnome/SessionManager/Client4' failed to reply before timeout
+May 19 03:38:52 mid gnome-session[5222]: WARNING: Client '/org/gnome/SessionManager/Client3' failed to reply before timeout
+May 19 03:38:54 mid gnome-session[5222]: WARNING: Unable to find desktop file 'gdm-simple-greeter.desktop': Valid key file could not be found in search dirs
+May 19 03:38:54 mid gnome-session[5222]: WARNING: Unable to find desktop file 'gnome-gdm-simple-greeter.desktop.desktop': Valid key file could not be found in search dirs
+May 19 03:40:32 mid gdm-simple-greeter[5241]: WARNING: SelectLayout org.freedesktop.DBus.Error.NoReply raised: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.#012
+May 19 03:41:03 mid gdm-simple-greeter[5241]: WARNING: SelectLayout org.freedesktop.DBus.Error.NoReply raised: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.#012
+May 19 03:41:07 mid gdm-simple-greeter[5241]: WARNING: Failed to send buffer
+May 19 03:43:44 mid gdm-simple-slave[5409]: WARNING: Failed to get display ID /org/gnome/DisplayManager/Display3: Message did not receive a reply (timeout by message bus)
+May 19 03:43:55 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.461325 seconds
+May 19 03:43:55 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.524078 seconds
+May 19 03:43:56 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.493398 seconds
+May 19 03:43:56 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.489021 seconds
+May 19 03:43:57 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.494601 seconds
+May 19 03:43:57 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.624128 seconds
+May 19 03:43:58 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.648941 seconds
+May 19 03:43:58 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.519406 seconds
+May 19 03:43:59 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.507682 seconds
+May 19 03:44:00 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.550083 seconds
+May 19 03:44:00 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.608270 seconds
+May 19 03:44:01 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.578987 seconds
+May 19 03:44:01 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.400453 seconds
+May 19 03:44:02 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.463470 seconds
+May 19 03:44:02 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.423249 seconds
+May 19 03:44:03 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.471059 seconds
+May 19 03:44:03 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.374457 seconds
+May 19 03:44:03 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.393559 seconds
+May 19 03:44:04 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.397551 seconds
+May 19 03:44:04 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.496520 seconds
+May 19 03:44:05 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.275224 seconds
+May 19 03:44:05 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.498177 seconds
+May 19 03:44:05 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278016 seconds
+May 19 03:44:06 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.494823 seconds
+May 19 03:44:06 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.305052 seconds
+May 19 03:44:07 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.279866 seconds
+May 19 03:44:07 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282638 seconds
+May 19 03:44:07 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283612 seconds
+May 19 03:44:07 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.298016 seconds
+May 19 03:44:08 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.277181 seconds
+May 19 03:44:08 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.281822 seconds
+May 19 03:44:08 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.273542 seconds
+May 19 03:44:09 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.490770 seconds
+May 19 03:44:09 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.275591 seconds
+May 19 03:44:10 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.493635 seconds
+May 19 03:44:10 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.277990 seconds
+May 19 03:44:10 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283596 seconds
+May 19 03:44:10 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306582 seconds
+May 19 03:44:11 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.280460 seconds
+May 19 03:44:11 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274586 seconds
+May 19 03:44:11 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284699 seconds
+May 19 03:44:12 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283323 seconds
+May 19 03:44:12 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.276201 seconds
+May 19 03:44:12 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282539 seconds
+May 19 03:44:12 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293601 seconds
+May 19 03:44:13 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.302795 seconds
+May 19 03:44:13 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294743 seconds
+May 19 03:44:13 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.270577 seconds
+May 19 03:44:14 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.315107 seconds
+May 19 03:44:14 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272475 seconds
+May 19 03:44:14 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282475 seconds
+May 19 03:44:15 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293560 seconds
+May 19 03:44:15 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283734 seconds
+May 19 03:44:15 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.296548 seconds
+May 19 03:44:15 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278695 seconds
+May 19 03:44:16 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.299218 seconds
+May 19 03:44:16 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.273996 seconds
+May 19 03:44:16 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293385 seconds
+May 19 03:44:17 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.277377 seconds
+May 19 03:44:17 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.275228 seconds
+May 19 03:44:17 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.285772 seconds
+May 19 03:44:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283304 seconds
+May 19 03:44:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.288363 seconds
+May 19 03:44:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.269873 seconds
+May 19 03:44:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274334 seconds
+May 19 03:44:19 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290557 seconds
+May 19 03:44:19 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272562 seconds
+May 19 03:44:19 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274536 seconds
+May 19 03:44:20 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282512 seconds
+May 19 03:44:20 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.304994 seconds
+May 19 03:44:20 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282395 seconds
+May 19 03:44:20 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.281125 seconds
+May 19 03:44:21 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306560 seconds
+May 19 03:44:21 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.266663 seconds
+May 19 03:44:21 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292285 seconds
+May 19 03:44:22 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284587 seconds
+May 19 03:44:22 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.279511 seconds
+May 19 03:44:22 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.286504 seconds
+May 19 03:44:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.270620 seconds
+May 19 03:44:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290080 seconds
+May 19 03:44:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274972 seconds
+May 19 03:44:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.302181 seconds
+May 19 03:44:24 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274092 seconds
+May 19 03:44:24 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291131 seconds
+May 19 03:44:24 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271237 seconds
+May 19 03:44:25 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.298567 seconds
+May 19 03:44:25 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283506 seconds
+May 19 03:44:25 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274207 seconds
+May 19 03:44:25 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.307060 seconds
+May 19 03:44:26 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283885 seconds
+May 19 03:44:26 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.286310 seconds
+May 19 03:44:26 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.269224 seconds
+May 19 03:44:27 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291576 seconds
+May 19 03:44:27 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282201 seconds
+May 19 03:44:27 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274751 seconds
+May 19 03:44:28 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283642 seconds
+May 19 03:44:28 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.305353 seconds
+May 19 03:44:28 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278099 seconds
+May 19 03:44:28 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.285544 seconds
+May 19 03:44:29 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283110 seconds
+May 19 03:44:29 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272806 seconds
+May 19 03:44:29 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282630 seconds
+May 19 03:44:30 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283491 seconds
+May 19 03:44:30 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291769 seconds
+May 19 03:44:30 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.287405 seconds
+May 19 03:44:30 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290575 seconds
+May 19 03:44:31 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272508 seconds
+May 19 03:44:31 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.286997 seconds
+May 19 03:44:31 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278511 seconds
+May 19 03:44:32 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283870 seconds
+May 19 03:44:32 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283252 seconds
+May 19 03:44:32 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283632 seconds
+May 19 03:44:33 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.307655 seconds
+May 19 03:44:33 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.287016 seconds
+May 19 03:44:33 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271304 seconds
+May 19 03:44:33 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284469 seconds
+May 19 03:44:34 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282590 seconds
+May 19 03:44:34 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283597 seconds
+May 19 03:44:34 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283243 seconds
+May 19 03:44:35 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306627 seconds
+May 19 03:44:35 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.267957 seconds
+May 19 03:44:35 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283299 seconds
+May 19 03:44:35 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294777 seconds
+May 19 03:44:36 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282598 seconds
+May 19 03:44:36 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283663 seconds
+May 19 03:44:36 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283235 seconds
+May 19 03:44:37 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306737 seconds
+May 19 03:44:37 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272838 seconds
+May 19 03:44:37 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284367 seconds
+May 19 03:44:38 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283195 seconds
+May 19 03:44:38 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284370 seconds
+May 19 03:44:38 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.273070 seconds
+May 19 03:44:38 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282511 seconds
+May 19 03:44:39 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.304462 seconds
+May 19 03:44:39 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283195 seconds
+May 19 03:44:39 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.281390 seconds
+May 19 03:44:40 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278682 seconds
+May 19 03:44:40 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.286348 seconds
+May 19 03:44:40 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272253 seconds
+May 19 03:44:40 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293257 seconds
+May 19 03:44:41 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292664 seconds
+May 19 03:44:41 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272339 seconds
+May 19 03:44:41 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.295506 seconds
+May 19 03:44:42 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.280255 seconds
+May 19 03:44:42 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.288159 seconds
+May 19 03:44:42 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282759 seconds
+May 19 03:44:42 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271159 seconds
+May 19 03:44:43 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293198 seconds
+May 19 03:44:43 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283555 seconds
+May 19 03:44:43 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293655 seconds
+May 19 03:44:44 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306519 seconds
+May 19 03:44:44 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.277333 seconds
+May 19 03:44:44 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.289610 seconds
+May 19 03:44:45 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.266583 seconds
+May 19 03:44:45 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306512 seconds
+May 19 03:44:45 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.266639 seconds
+May 19 03:44:45 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283444 seconds
+May 19 03:44:46 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291338 seconds
+May 19 03:44:46 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.273983 seconds
+May 19 03:44:46 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292126 seconds
+May 19 03:44:47 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.285155 seconds
+May 19 03:44:47 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.277376 seconds
+May 19 03:44:47 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284979 seconds
+May 19 03:44:47 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284551 seconds
+May 19 03:44:48 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.270598 seconds
+May 19 03:44:48 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294641 seconds
+May 19 03:44:48 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294143 seconds
+May 19 03:44:49 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283040 seconds
+May 19 03:44:49 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282485 seconds
+May 19 03:44:49 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290157 seconds
+May 19 03:44:50 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274589 seconds
+May 19 03:44:50 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.286999 seconds
+May 19 03:44:50 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.279539 seconds
+May 19 03:44:50 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282544 seconds
+May 19 03:44:51 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293648 seconds
+May 19 03:44:51 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283578 seconds
+May 19 03:44:51 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293671 seconds
+May 19 03:44:52 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.296585 seconds
+May 19 03:44:52 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.273663 seconds
+May 19 03:44:52 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.286394 seconds
+May 19 03:44:52 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.267252 seconds
+May 19 03:44:53 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.303238 seconds
+May 19 03:44:53 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274156 seconds
+May 19 03:44:53 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292619 seconds
+May 19 03:44:54 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292026 seconds
+May 19 03:44:54 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271600 seconds
+May 19 03:44:54 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.287264 seconds
+May 19 03:44:55 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.266449 seconds
+May 19 03:44:55 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.325116 seconds
+May 19 03:44:55 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282181 seconds
+May 19 03:44:55 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292670 seconds
+May 19 03:44:56 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271636 seconds
+May 19 03:44:56 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.296527 seconds
+May 19 03:44:56 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.296577 seconds
+May 19 03:44:57 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284515 seconds
+May 19 03:44:57 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282154 seconds
+May 19 03:44:57 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283049 seconds
+May 19 03:44:58 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290463 seconds
+May 19 03:44:58 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284351 seconds
+May 19 03:44:58 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282323 seconds
+May 19 03:44:58 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278665 seconds
+May 19 03:44:59 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284780 seconds
+May 19 03:44:59 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.281117 seconds
+May 19 03:44:59 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.284038 seconds
+May 19 03:45:00 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292297 seconds
+May 19 03:45:00 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.406016 seconds
+May 19 03:45:00 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.270315 seconds
+May 19 03:45:01 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.322894 seconds
+May 19 03:45:01 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292117 seconds
+May 19 03:45:01 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283541 seconds
+May 19 03:45:01 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.303450 seconds
+May 19 03:45:02 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278734 seconds
+May 19 03:45:02 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.266737 seconds
+May 19 03:45:02 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293728 seconds
+May 19 03:45:03 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294604 seconds
+May 19 03:45:03 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.601699 seconds
+May 19 03:45:04 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.298909 seconds
+May 19 03:45:04 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.276522 seconds
+May 19 03:45:04 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283645 seconds
+May 19 03:45:05 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.403377 seconds
+May 19 03:45:05 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290774 seconds
+May 19 03:45:05 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.285496 seconds
+May 19 03:45:05 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.270663 seconds
+May 19 03:45:06 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294918 seconds
+May 19 03:45:06 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.382249 seconds
+May 19 03:45:06 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306565 seconds
+May 19 03:45:07 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.267853 seconds
+May 19 03:45:07 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294559 seconds
+May 19 03:45:07 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.296572 seconds
+May 19 03:45:08 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.279942 seconds
+May 19 03:45:08 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.276644 seconds
+May 19 03:45:08 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294411 seconds
+May 19 03:45:08 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272112 seconds
+May 19 03:45:09 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282532 seconds
+May 19 03:45:09 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306588 seconds
+May 19 03:45:09 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.267719 seconds
+May 19 03:45:10 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291549 seconds
+May 19 03:45:10 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.287109 seconds
+May 19 03:45:10 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.285006 seconds
+May 19 03:45:11 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.285055 seconds
+May 19 03:45:11 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282258 seconds
+May 19 03:45:11 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.289079 seconds
+May 19 03:45:11 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.275774 seconds
+May 19 03:45:12 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282546 seconds
+May 19 03:45:12 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.305098 seconds
+May 19 03:45:12 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271141 seconds
+May 19 03:45:13 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283625 seconds
+May 19 03:45:13 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283713 seconds
+May 19 03:45:13 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306739 seconds
+May 19 03:45:13 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274581 seconds
+May 19 03:45:14 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.281825 seconds
+May 19 03:45:14 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274771 seconds
+May 19 03:45:14 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290548 seconds
+May 19 03:45:15 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274367 seconds
+May 19 03:45:15 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283666 seconds
+May 19 03:45:15 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293587 seconds
+May 19 03:45:16 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283242 seconds
+May 19 03:45:16 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294629 seconds
+May 19 03:45:16 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293442 seconds
+May 19 03:45:16 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.292685 seconds
+May 19 03:45:17 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272920 seconds
+May 19 03:45:17 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294451 seconds
+May 19 03:45:17 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271097 seconds
+May 19 03:45:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291199 seconds
+May 19 03:45:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272660 seconds
+May 19 03:45:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272046 seconds
+May 19 03:45:18 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.273912 seconds
+May 19 03:45:19 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291697 seconds
+May 19 03:45:19 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.275234 seconds
+May 19 03:45:19 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290214 seconds
+May 19 03:45:20 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274395 seconds
+May 19 03:45:20 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283236 seconds
+May 19 03:45:20 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282699 seconds
+May 19 03:45:21 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.291951 seconds
+May 19 03:45:21 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.274126 seconds
+May 19 03:45:21 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293725 seconds
+May 19 03:45:21 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.272528 seconds
+May 19 03:45:22 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290537 seconds
+May 19 03:45:22 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.273999 seconds
+May 19 03:45:22 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283560 seconds
+May 19 03:45:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294634 seconds
+May 19 03:45:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.282765 seconds
+May 19 03:45:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283557 seconds
+May 19 03:45:23 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.293637 seconds
+May 19 03:45:24 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.297988 seconds
+May 19 03:45:24 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.281608 seconds
+May 19 03:45:24 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.266391 seconds
+May 19 03:45:25 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306599 seconds
+May 19 03:45:25 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.287869 seconds
+May 19 03:45:25 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.271716 seconds
+May 19 03:45:26 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.306578 seconds
+May 19 03:45:26 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.278058 seconds
+May 19 03:45:26 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.295449 seconds
+May 19 03:45:26 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.280743 seconds
+May 19 03:45:27 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.276203 seconds
+May 19 03:45:27 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.301289 seconds
+May 19 03:45:27 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.275716 seconds
+May 19 03:45:28 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.283771 seconds
+May 19 03:45:28 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.303795 seconds
+May 19 03:45:29 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.704378 seconds
+May 19 03:45:29 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.667860 seconds
+May 19 03:45:30 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.510480 seconds
+May 19 03:45:31 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.709820 seconds
+May 19 03:45:31 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.695107 seconds
+May 19 03:45:33 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 1.131057 seconds
+May 19 03:45:34 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 1.056366 seconds
+May 19 03:45:36 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 1.580187 seconds
+May 19 03:45:36 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.618101 seconds
+May 19 03:45:37 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.485142 seconds
+May 19 03:45:37 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.294105 seconds
+May 19 03:45:37 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.320905 seconds
+May 19 03:45:38 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.302963 seconds
+May 19 03:45:38 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.490587 seconds
+May 19 03:45:38 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.314408 seconds
+May 19 03:45:39 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.533581 seconds
+May 19 03:45:39 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.290707 seconds
+May 19 03:45:40 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.403830 seconds
+May 19 03:45:40 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.419384 seconds
+May 19 03:45:40 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.296108 seconds
+May 19 03:45:41 mid gdm3[5440]: WARNING: GdmDisplay: display lasted 0.527613 seconds
+May 19 03:45:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295228 seconds
+May 19 03:45:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.487826 seconds
+May 19 03:45:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.300110 seconds
+May 19 03:45:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284419 seconds
+May 19 03:45:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.495105 seconds
+May 19 03:45:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.313479 seconds
+May 19 03:45:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283248 seconds
+May 19 03:45:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291964 seconds
+May 19 03:45:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305973 seconds
+May 19 03:46:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.408967 seconds
+May 19 03:46:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.337317 seconds
+May 19 03:46:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288174 seconds
+May 19 03:46:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.366390 seconds
+May 19 03:46:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.447794 seconds
+May 19 03:46:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.573549 seconds
+May 19 03:46:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.506876 seconds
+May 19 03:46:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.289348 seconds
+May 19 03:46:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.308265 seconds
+May 19 03:46:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.278668 seconds
+May 19 03:46:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304005 seconds
+May 19 03:46:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293532 seconds
+May 19 03:46:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.300818 seconds
+May 19 03:46:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285360 seconds
+May 19 03:46:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.276392 seconds
+May 19 03:46:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.313104 seconds
+May 19 03:46:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282638 seconds
+May 19 03:46:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283906 seconds
+May 19 03:46:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.401257 seconds
+May 19 03:46:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294407 seconds
+May 19 03:46:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.290021 seconds
+May 19 03:46:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.278116 seconds
+May 19 03:46:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296651 seconds
+May 19 03:46:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.277747 seconds
+May 19 03:46:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294149 seconds
+May 19 03:46:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293782 seconds
+May 19 03:46:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291303 seconds
+May 19 03:46:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284905 seconds
+May 19 03:46:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.300958 seconds
+May 19 03:46:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273564 seconds
+May 19 03:46:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303639 seconds
+May 19 03:46:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292266 seconds
+May 19 03:46:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296937 seconds
+May 19 03:46:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.276161 seconds
+May 19 03:46:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294897 seconds
+May 19 03:46:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.281033 seconds
+May 19 03:46:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303985 seconds
+May 19 03:46:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284118 seconds
+May 19 03:46:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301837 seconds
+May 19 03:46:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284681 seconds
+May 19 03:46:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304746 seconds
+May 19 03:46:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282741 seconds
+May 19 03:46:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293901 seconds
+May 19 03:46:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.313997 seconds
+May 19 03:46:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.314196 seconds
+May 19 03:46:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271806 seconds
+May 19 03:46:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293747 seconds
+May 19 03:46:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293850 seconds
+May 19 03:46:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.313703 seconds
+May 19 03:46:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272615 seconds
+May 19 03:46:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291243 seconds
+May 19 03:46:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295427 seconds
+May 19 03:46:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271807 seconds
+May 19 03:46:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304837 seconds
+May 19 03:46:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284000 seconds
+May 19 03:46:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293820 seconds
+May 19 03:46:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283131 seconds
+May 19 03:46:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303362 seconds
+May 19 03:46:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303333 seconds
+May 19 03:46:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295239 seconds
+May 19 03:46:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291245 seconds
+May 19 03:46:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295468 seconds
+May 19 03:46:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266692 seconds
+May 19 03:46:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.312611 seconds
+May 19 03:46:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274120 seconds
+May 19 03:46:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302386 seconds
+May 19 03:46:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274140 seconds
+May 19 03:46:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301439 seconds
+May 19 03:46:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283305 seconds
+May 19 03:46:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293933 seconds
+May 19 03:46:22 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303496 seconds
+May 19 03:46:22 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294027 seconds
+May 19 03:46:22 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283370 seconds
+May 19 03:46:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292914 seconds
+May 19 03:46:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291343 seconds
+May 19 03:46:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272867 seconds
+May 19 03:46:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.314389 seconds
+May 19 03:46:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293343 seconds
+May 19 03:46:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280385 seconds
+May 19 03:46:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285797 seconds
+May 19 03:46:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280923 seconds
+May 19 03:46:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.313402 seconds
+May 19 03:46:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271411 seconds
+May 19 03:46:26 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283856 seconds
+May 19 03:46:26 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293894 seconds
+May 19 03:46:26 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.517408 seconds
+May 19 03:46:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275656 seconds
+May 19 03:46:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292877 seconds
+May 19 03:46:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292142 seconds
+May 19 03:46:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296957 seconds
+May 19 03:46:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.289256 seconds
+May 19 03:46:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295885 seconds
+May 19 03:46:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286239 seconds
+May 19 03:46:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282092 seconds
+May 19 03:46:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296794 seconds
+May 19 03:46:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.298947 seconds
+May 19 03:46:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288847 seconds
+May 19 03:46:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284445 seconds
+May 19 03:46:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.300533 seconds
+May 19 03:46:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275077 seconds
+May 19 03:46:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293842 seconds
+May 19 03:46:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.313659 seconds
+May 19 03:46:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286220 seconds
+May 19 03:46:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275781 seconds
+May 19 03:46:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.297351 seconds
+May 19 03:46:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.298031 seconds
+May 19 03:46:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272859 seconds
+May 19 03:46:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296884 seconds
+May 19 03:46:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288770 seconds
+May 19 03:46:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.314053 seconds
+May 19 03:46:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271974 seconds
+May 19 03:46:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283873 seconds
+May 19 03:46:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303883 seconds
+May 19 03:46:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.565283 seconds
+May 19 03:46:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.360562 seconds
+May 19 03:46:36 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283744 seconds
+May 19 03:46:36 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.503951 seconds
+May 19 03:46:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.433632 seconds
+May 19 03:46:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.662418 seconds
+May 19 03:46:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.314735 seconds
+May 19 03:46:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282760 seconds
+May 19 03:46:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301726 seconds
+May 19 03:46:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273029 seconds
+May 19 03:46:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274311 seconds
+May 19 03:46:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.297389 seconds
+May 19 03:46:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.268941 seconds
+May 19 03:46:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306905 seconds
+May 19 03:46:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280664 seconds
+May 19 03:46:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.276622 seconds
+May 19 03:46:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282861 seconds
+May 19 03:46:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305291 seconds
+May 19 03:46:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271836 seconds
+May 19 03:46:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283887 seconds
+May 19 03:46:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306784 seconds
+May 19 03:46:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267323 seconds
+May 19 03:46:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305242 seconds
+May 19 03:46:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272741 seconds
+May 19 03:46:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301990 seconds
+May 19 03:46:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286773 seconds
+May 19 03:46:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.308177 seconds
+May 19 03:46:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288442 seconds
+May 19 03:46:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.268200 seconds
+May 19 03:46:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283794 seconds
+May 19 03:46:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283806 seconds
+May 19 03:46:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306928 seconds
+May 19 03:46:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.269522 seconds
+May 19 03:46:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291813 seconds
+May 19 03:46:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.287614 seconds
+May 19 03:46:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.279981 seconds
+May 19 03:46:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283468 seconds
+May 19 03:46:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272391 seconds
+May 19 03:46:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274270 seconds
+May 19 03:46:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283935 seconds
+May 19 03:46:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292046 seconds
+May 19 03:46:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286694 seconds
+May 19 03:46:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282476 seconds
+May 19 03:46:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275574 seconds
+May 19 03:46:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271904 seconds
+May 19 03:46:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283083 seconds
+May 19 03:46:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274328 seconds
+May 19 03:46:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282906 seconds
+May 19 03:46:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296853 seconds
+May 19 03:46:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.289083 seconds
+May 19 03:46:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272979 seconds
+May 19 03:46:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296205 seconds
+May 19 03:46:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.277946 seconds
+May 19 03:46:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282887 seconds
+May 19 03:46:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283897 seconds
+May 19 03:46:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284003 seconds
+May 19 03:46:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293919 seconds
+May 19 03:46:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291891 seconds
+May 19 03:46:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275730 seconds
+May 19 03:46:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293412 seconds
+May 19 03:46:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283948 seconds
+May 19 03:46:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294280 seconds
+May 19 03:46:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282810 seconds
+May 19 03:46:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.279782 seconds
+May 19 03:46:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286255 seconds
+May 19 03:46:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271738 seconds
+May 19 03:46:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304905 seconds
+May 19 03:46:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284477 seconds
+May 19 03:46:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267475 seconds
+May 19 03:46:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283923 seconds
+May 19 03:46:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294061 seconds
+May 19 03:46:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296977 seconds
+May 19 03:46:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280238 seconds
+May 19 03:46:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.278254 seconds
+May 19 03:46:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286704 seconds
+May 19 03:46:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267152 seconds
+May 19 03:46:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283964 seconds
+May 19 03:46:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293663 seconds
+May 19 03:46:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283891 seconds
+May 19 03:46:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301707 seconds
+May 19 03:46:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280348 seconds
+May 19 03:47:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.404609 seconds
+May 19 03:47:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.270732 seconds
+May 19 03:47:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272657 seconds
+May 19 03:47:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273386 seconds
+May 19 03:47:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283906 seconds
+May 19 03:47:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284046 seconds
+May 19 03:47:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305090 seconds
+May 19 03:47:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.270482 seconds
+May 19 03:47:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302983 seconds
+May 19 03:47:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285183 seconds
+May 19 03:47:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280447 seconds
+May 19 03:47:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284863 seconds
+May 19 03:47:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280498 seconds
+May 19 03:47:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272131 seconds
+May 19 03:47:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286152 seconds
+May 19 03:47:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267257 seconds
+May 19 03:47:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296899 seconds
+May 19 03:47:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275883 seconds
+May 19 03:47:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283969 seconds
+May 19 03:47:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283834 seconds
+May 19 03:47:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283996 seconds
+May 19 03:47:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294944 seconds
+May 19 03:47:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283860 seconds
+May 19 03:47:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284041 seconds
+May 19 03:47:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303000 seconds
+May 19 03:47:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273726 seconds
+May 19 03:47:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295801 seconds
+May 19 03:47:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267748 seconds
+May 19 03:47:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304848 seconds
+May 19 03:47:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272150 seconds
+May 19 03:47:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283790 seconds
+May 19 03:47:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294974 seconds
+May 19 03:47:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295799 seconds
+May 19 03:47:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267036 seconds
+May 19 03:47:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283955 seconds
+May 19 03:47:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295032 seconds
+May 19 03:47:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293325 seconds
+May 19 03:47:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272974 seconds
+May 19 03:47:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302423 seconds
+May 19 03:47:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273394 seconds
+May 19 03:47:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296844 seconds
+May 19 03:47:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267000 seconds
+May 19 03:47:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293902 seconds
+May 19 03:47:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294214 seconds
+May 19 03:47:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296561 seconds
+May 19 03:47:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266882 seconds
+May 19 03:47:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306970 seconds
+May 19 03:47:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288836 seconds
+May 19 03:47:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267228 seconds
+May 19 03:47:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293982 seconds
+May 19 03:47:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283845 seconds
+May 19 03:47:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283891 seconds
+May 19 03:47:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283518 seconds
+May 19 03:47:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294914 seconds
+May 19 03:47:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282911 seconds
+May 19 03:47:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296799 seconds
+May 19 03:47:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288393 seconds
+May 19 03:47:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273741 seconds
+May 19 03:47:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293582 seconds
+May 19 03:47:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283469 seconds
+May 19 03:47:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.281491 seconds
+May 19 03:47:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283870 seconds
+May 19 03:47:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283956 seconds
+May 19 03:47:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306771 seconds
+May 19 03:47:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267952 seconds
+May 19 03:47:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296894 seconds
+May 19 03:47:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284723 seconds
+May 19 03:47:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274554 seconds
+May 19 03:47:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294952 seconds
+May 19 03:47:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282827 seconds
+May 19 03:47:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293938 seconds
+May 19 03:47:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283840 seconds
+May 19 03:47:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292324 seconds
+May 19 03:47:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273853 seconds
+May 19 03:47:22 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303644 seconds
+May 19 03:47:22 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.270558 seconds
+May 19 03:47:22 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273203 seconds
+May 19 03:47:22 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286922 seconds
+May 19 03:47:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.287994 seconds
+May 19 03:47:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284873 seconds
+May 19 03:47:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285851 seconds
+May 19 03:47:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288641 seconds
+May 19 03:47:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266976 seconds
+May 19 03:47:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303416 seconds
+May 19 03:47:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271463 seconds
+May 19 03:47:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273197 seconds
+May 19 03:47:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.289958 seconds
+May 19 03:47:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266765 seconds
+May 19 03:47:26 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295068 seconds
+May 19 03:47:26 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295721 seconds
+May 19 03:47:26 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266979 seconds
+May 19 03:47:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283872 seconds
+May 19 03:47:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306886 seconds
+May 19 03:47:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275690 seconds
+May 19 03:47:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272143 seconds
+May 19 03:47:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286208 seconds
+May 19 03:47:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285127 seconds
+May 19 03:47:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283278 seconds
+May 19 03:47:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282417 seconds
+May 19 03:47:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273034 seconds
+May 19 03:47:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283927 seconds
+May 19 03:47:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283903 seconds
+May 19 03:47:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305008 seconds
+May 19 03:47:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.270467 seconds
+May 19 03:47:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283929 seconds
+May 19 03:47:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283822 seconds
+May 19 03:47:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294977 seconds
+May 19 03:47:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283948 seconds
+May 19 03:47:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282747 seconds
+May 19 03:47:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.297072 seconds
+May 19 03:47:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292712 seconds
+May 19 03:47:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286458 seconds
+May 19 03:47:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274489 seconds
+May 19 03:47:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304100 seconds
+May 19 03:47:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271720 seconds
+May 19 03:47:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304522 seconds
+May 19 03:47:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280087 seconds
+May 19 03:47:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275182 seconds
+May 19 03:47:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283818 seconds
+May 19 03:47:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283954 seconds
+May 19 03:47:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293863 seconds
+May 19 03:47:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283862 seconds
+May 19 03:47:36 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292361 seconds
+May 19 03:47:36 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286105 seconds
+May 19 03:47:36 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.279009 seconds
+May 19 03:47:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284138 seconds
+May 19 03:47:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282710 seconds
+May 19 03:47:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285416 seconds
+May 19 03:47:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274451 seconds
+May 19 03:47:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285964 seconds
+May 19 03:47:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272013 seconds
+May 19 03:47:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288913 seconds
+May 19 03:47:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267048 seconds
+May 19 03:47:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283871 seconds
+May 19 03:47:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303568 seconds
+May 19 03:47:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271577 seconds
+May 19 03:47:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303640 seconds
+May 19 03:47:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271788 seconds
+May 19 03:47:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286700 seconds
+May 19 03:47:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272534 seconds
+May 19 03:47:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.276556 seconds
+May 19 03:47:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282799 seconds
+May 19 03:47:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302985 seconds
+May 19 03:47:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283127 seconds
+May 19 03:47:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274262 seconds
+May 19 03:47:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302798 seconds
+May 19 03:47:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273169 seconds
+May 19 03:47:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283801 seconds
+May 19 03:47:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283844 seconds
+May 19 03:47:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303949 seconds
+May 19 03:47:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303379 seconds
+May 19 03:47:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284486 seconds
+May 19 03:47:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285644 seconds
+May 19 03:47:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.276506 seconds
+May 19 03:47:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283848 seconds
+May 19 03:47:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294038 seconds
+May 19 03:47:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291200 seconds
+May 19 03:47:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274225 seconds
+May 19 03:47:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295728 seconds
+May 19 03:47:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266453 seconds
+May 19 03:47:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305446 seconds
+May 19 03:47:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271614 seconds
+May 19 03:47:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303997 seconds
+May 19 03:47:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291164 seconds
+May 19 03:47:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275115 seconds
+May 19 03:47:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282874 seconds
+May 19 03:47:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296895 seconds
+May 19 03:47:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.276004 seconds
+May 19 03:47:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303292 seconds
+May 19 03:47:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285615 seconds
+May 19 03:47:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288609 seconds
+May 19 03:47:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272602 seconds
+May 19 03:47:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272381 seconds
+May 19 03:47:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272709 seconds
+May 19 03:47:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273977 seconds
+May 19 03:47:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283901 seconds
+May 19 03:47:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283881 seconds
+May 19 03:47:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306948 seconds
+May 19 03:47:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272243 seconds
+May 19 03:47:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275790 seconds
+May 19 03:47:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285269 seconds
+May 19 03:47:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.290904 seconds
+May 19 03:47:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274623 seconds
+May 19 03:47:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302872 seconds
+May 19 03:47:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272938 seconds
+May 19 03:47:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301597 seconds
+May 19 03:47:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275463 seconds
+May 19 03:47:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282661 seconds
+May 19 03:47:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293931 seconds
+May 19 03:47:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283982 seconds
+May 19 03:47:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283743 seconds
+May 19 03:47:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292290 seconds
+May 19 03:47:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285549 seconds
+May 19 03:47:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266764 seconds
+May 19 03:47:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305251 seconds
+May 19 03:47:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284520 seconds
+May 19 03:47:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280388 seconds
+May 19 03:47:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282857 seconds
+May 19 03:47:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284032 seconds
+May 19 03:47:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.308377 seconds
+May 19 03:47:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.280920 seconds
+May 19 03:47:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.266146 seconds
+May 19 03:47:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294870 seconds
+May 19 03:47:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294397 seconds
+May 19 03:48:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.369609 seconds
+May 19 03:48:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275247 seconds
+May 19 03:48:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302006 seconds
+May 19 03:48:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285914 seconds
+May 19 03:48:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.281728 seconds
+May 19 03:48:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.289283 seconds
+May 19 03:48:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274521 seconds
+May 19 03:48:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.307125 seconds
+May 19 03:48:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272974 seconds
+May 19 03:48:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.287208 seconds
+May 19 03:48:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267719 seconds
+May 19 03:48:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283809 seconds
+May 19 03:48:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301022 seconds
+May 19 03:48:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283315 seconds
+May 19 03:48:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284466 seconds
+May 19 03:48:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.269441 seconds
+May 19 03:48:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306897 seconds
+May 19 03:48:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275710 seconds
+May 19 03:48:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271716 seconds
+May 19 03:48:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274460 seconds
+May 19 03:48:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283582 seconds
+May 19 03:48:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283863 seconds
+May 19 03:48:06 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283977 seconds
+May 19 03:48:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293807 seconds
+May 19 03:48:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283819 seconds
+May 19 03:48:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283999 seconds
+May 19 03:48:07 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.305522 seconds
+May 19 03:48:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.270060 seconds
+May 19 03:48:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283990 seconds
+May 19 03:48:08 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291745 seconds
+May 19 03:48:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274481 seconds
+May 19 03:48:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296856 seconds
+May 19 03:48:09 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275997 seconds
+May 19 03:48:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272486 seconds
+May 19 03:48:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.272495 seconds
+May 19 03:48:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283781 seconds
+May 19 03:48:10 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283924 seconds
+May 19 03:48:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293988 seconds
+May 19 03:48:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296825 seconds
+May 19 03:48:11 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274885 seconds
+May 19 03:48:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273041 seconds
+May 19 03:48:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273738 seconds
+May 19 03:48:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284023 seconds
+May 19 03:48:12 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283746 seconds
+May 19 03:48:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306893 seconds
+May 19 03:48:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267400 seconds
+May 19 03:48:13 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283927 seconds
+May 19 03:48:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306933 seconds
+May 19 03:48:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275182 seconds
+May 19 03:48:14 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303110 seconds
+May 19 03:48:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.274315 seconds
+May 19 03:48:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282854 seconds
+May 19 03:48:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292492 seconds
+May 19 03:48:15 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285228 seconds
+May 19 03:48:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271408 seconds
+May 19 03:48:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294954 seconds
+May 19 03:48:16 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283937 seconds
+May 19 03:48:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283525 seconds
+May 19 03:48:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294422 seconds
+May 19 03:48:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.289648 seconds
+May 19 03:48:17 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.273461 seconds
+May 19 03:48:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.374882 seconds
+May 19 03:48:18 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.492872 seconds
+May 19 03:48:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.453918 seconds
+May 19 03:48:19 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.478279 seconds
+May 19 03:48:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.505904 seconds
+May 19 03:48:20 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.677852 seconds
+May 19 03:48:21 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.521905 seconds
+May 19 03:48:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 1.537598 seconds
+May 19 03:48:23 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.505902 seconds
+May 19 03:48:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.796398 seconds
+May 19 03:48:24 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.501616 seconds
+May 19 03:48:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.453741 seconds
+May 19 03:48:25 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.493999 seconds
+May 19 03:48:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 1.191633 seconds
+May 19 03:48:27 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.517099 seconds
+May 19 03:48:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.365934 seconds
+May 19 03:48:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.311553 seconds
+May 19 03:48:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301903 seconds
+May 19 03:48:28 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286067 seconds
+May 19 03:48:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.278822 seconds
+May 19 03:48:29 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.527726 seconds
+May 19 03:48:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304809 seconds
+May 19 03:48:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271621 seconds
+May 19 03:48:30 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293799 seconds
+May 19 03:48:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.494163 seconds
+May 19 03:48:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.416970 seconds
+May 19 03:48:31 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.330661 seconds
+May 19 03:48:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292175 seconds
+May 19 03:48:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.291795 seconds
+May 19 03:48:32 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283497 seconds
+May 19 03:48:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303577 seconds
+May 19 03:48:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292354 seconds
+May 19 03:48:33 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.299829 seconds
+May 19 03:48:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.304994 seconds
+May 19 03:48:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.499445 seconds
+May 19 03:48:34 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.316083 seconds
+May 19 03:48:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285610 seconds
+May 19 03:48:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.315111 seconds
+May 19 03:48:35 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.269640 seconds
+May 19 03:48:36 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.428784 seconds
+May 19 03:48:36 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.301517 seconds
+May 19 03:48:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.540867 seconds
+May 19 03:48:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294058 seconds
+May 19 03:48:37 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302915 seconds
+May 19 03:48:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293542 seconds
+May 19 03:48:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285756 seconds
+May 19 03:48:38 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286408 seconds
+May 19 03:48:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.494593 seconds
+May 19 03:48:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.324725 seconds
+May 19 03:48:39 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285691 seconds
+May 19 03:48:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286932 seconds
+May 19 03:48:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.267748 seconds
+May 19 03:48:40 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.315116 seconds
+May 19 03:48:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294785 seconds
+May 19 03:48:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.275935 seconds
+May 19 03:48:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285316 seconds
+May 19 03:48:41 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292570 seconds
+May 19 03:48:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.316963 seconds
+May 19 03:48:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.269255 seconds
+May 19 03:48:42 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293722 seconds
+May 19 03:48:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.315347 seconds
+May 19 03:48:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293408 seconds
+May 19 03:48:43 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.279200 seconds
+May 19 03:48:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286792 seconds
+May 19 03:48:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.318874 seconds
+May 19 03:48:44 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.502719 seconds
+May 19 03:48:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292932 seconds
+May 19 03:48:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.313272 seconds
+May 19 03:48:45 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.302739 seconds
+May 19 03:48:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.284313 seconds
+May 19 03:48:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271458 seconds
+May 19 03:48:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.314330 seconds
+May 19 03:48:46 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292802 seconds
+May 19 03:48:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.282819 seconds
+May 19 03:48:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296760 seconds
+May 19 03:48:47 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285439 seconds
+May 19 03:48:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294957 seconds
+May 19 03:48:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292778 seconds
+May 19 03:48:48 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283943 seconds
+May 19 03:48:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.434930 seconds
+May 19 03:48:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.281404 seconds
+May 19 03:48:49 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283953 seconds
+May 19 03:48:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303712 seconds
+May 19 03:48:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294071 seconds
+May 19 03:48:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.315092 seconds
+May 19 03:48:50 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.271539 seconds
+May 19 03:48:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.307035 seconds
+May 19 03:48:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.300744 seconds
+May 19 03:48:51 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.340198 seconds
+May 19 03:48:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.290360 seconds
+May 19 03:48:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286979 seconds
+May 19 03:48:52 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292236 seconds
+May 19 03:48:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.306181 seconds
+May 19 03:48:53 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.720613 seconds
+May 19 03:48:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.636791 seconds
+May 19 03:48:54 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286891 seconds
+May 19 03:48:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.322819 seconds
+May 19 03:48:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294030 seconds
+May 19 03:48:55 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303547 seconds
+May 19 03:48:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.393957 seconds
+May 19 03:48:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.417179 seconds
+May 19 03:48:56 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.286250 seconds
+May 19 03:48:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.300405 seconds
+May 19 03:48:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.283693 seconds
+May 19 03:48:57 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.296493 seconds
+May 19 03:48:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.289481 seconds
+May 19 03:48:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293937 seconds
+May 19 03:48:58 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.413996 seconds
+May 19 03:48:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.295358 seconds
+May 19 03:48:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.317155 seconds
+May 19 03:48:59 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.285801 seconds
+May 19 03:49:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303783 seconds
+May 19 03:49:00 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.367427 seconds
+May 19 03:49:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.762489 seconds
+May 19 03:49:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.323599 seconds
+May 19 03:49:01 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.308696 seconds
+May 19 03:49:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.292867 seconds
+May 19 03:49:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.294600 seconds
+May 19 03:49:02 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.288849 seconds
+May 19 03:49:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.297684 seconds
+May 19 03:49:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.517133 seconds
+May 19 03:49:03 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.303499 seconds
+May 19 03:49:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293877 seconds
+May 19 03:49:04 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.488157 seconds
+May 19 03:49:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.297335 seconds
+May 19 03:49:05 mid gdm3[6429]: WARNING: GdmDisplay: display lasted 0.293805 seconds
+May 19 03:50:48 mid gnome-session[5064]: WARNING: Detected that screensaver has left the bus
+May 19 04:04:55 mid gdm-simple-greeter[9000]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 04:05:26 mid gdm-simple-greeter[9000]: WARNING: Failed to send buffer
+May 19 05:12:56 mid init: Switching to runlevel: 0
+May 19 05:13:00 mid acpid: exiting
+May 19 16:30:32 mid acpid: starting up with netlink and the input layer
+May 19 16:30:32 mid acpid: 1 rule loaded
+May 19 16:30:32 mid acpid: waiting for events: event logging is off
+May 19 16:30:34 mid avahi-daemon[1385]: Found user 'avahi' (UID 104) and group 'avahi' (GID 107).
+May 19 16:30:34 mid avahi-daemon[1385]: Successfully dropped root privileges.
+May 19 16:30:34 mid avahi-daemon[1385]: avahi-daemon 0.6.27 starting up.
+May 19 16:30:34 mid avahi-daemon[1385]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+May 19 16:30:34 mid avahi-daemon[1385]: Successfully called chroot().
+May 19 16:30:34 mid avahi-daemon[1385]: Successfully dropped remaining capabilities.
+May 19 16:30:34 mid avahi-daemon[1385]: No service file found in /etc/avahi/services.
+May 19 16:30:34 mid avahi-daemon[1385]: socket() failed: Permission denied
+May 19 16:30:34 mid avahi-daemon[1385]: socket() failed: Address family not supported by protocol
+May 19 16:30:34 mid avahi-daemon[1385]: Failed to create server: No suitable network protocol available
+May 19 16:30:34 mid avahi-daemon[1385]: avahi-daemon 0.6.27 exiting.
+May 19 16:30:34 mid bluetoothd[1417]: Bluetooth deamon 4.66
+May 19 16:30:34 mid bluetoothd[1417]: Starting SDP server
+May 19 16:30:34 mid bluetoothd[1417]: opening L2CAP socket: Address family not supported by protocol
+May 19 16:30:34 mid bluetoothd[1417]: Server initialization failed
+May 19 16:30:34 mid bluetoothd[1417]: Starting experimental netlink support
+May 19 16:30:34 mid bluetoothd[1417]: Failed to find Bluetooth netlink family
+May 19 16:30:34 mid bluetoothd[1417]: Failed to init netlink plugin
+May 19 16:30:34 mid bluetoothd[1417]: Failed to open control socket: Address family not supported by protocol (97)
+May 19 16:30:34 mid bluetoothd[1417]: Can't init bnep module
+May 19 16:30:34 mid bluetoothd[1417]: Failed to init network plugin
+May 19 16:30:34 mid bluetoothd[1417]: Unable to start SCO server socket
+May 19 16:30:34 mid bluetoothd[1417]: Failed to init audio plugin
+May 19 16:30:35 mid bluetoothd[1417]: Can't open HCI socket: Address family not supported by protocol (97)
+May 19 16:30:35 mid bluetoothd[1417]: adapter_ops_setup failed
+May 19 16:30:55 mid polkitd[1667]: started daemon version 0.96 using authority implementation `local' version `0.96'
+May 19 16:31:02 mid gdm-simple-greeter[1663]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 16:31:27 mid gdm-simple-greeter[1663]: WARNING: Failed to send buffer
+May 19 18:44:13 mid acpid: input device has been disconnected
+May 19 18:44:13 mid acpid: input device has been disconnected
+May 19 18:44:45 mid init: Switching to runlevel: 0
+May 19 18:44:50 mid acpid: exiting
+May 19 18:46:17 mid acpid: cannot open input layer
+May 19 18:46:17 mid acpid: starting up with netlink and the input layer
+May 19 18:46:17 mid acpid: 1 rule loaded
+May 19 18:46:17 mid acpid: waiting for events: event logging is off
+May 19 18:46:18 mid avahi-daemon[1373]: Found user 'avahi' (UID 104) and group 'avahi' (GID 107).
+May 19 18:46:18 mid avahi-daemon[1373]: Successfully dropped root privileges.
+May 19 18:46:18 mid avahi-daemon[1373]: avahi-daemon 0.6.27 starting up.
+May 19 18:46:18 mid avahi-daemon[1373]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+May 19 18:46:18 mid avahi-daemon[1373]: Successfully called chroot().
+May 19 18:46:18 mid avahi-daemon[1373]: Successfully dropped remaining capabilities.
+May 19 18:46:18 mid avahi-daemon[1373]: No service file found in /etc/avahi/services.
+May 19 18:46:18 mid avahi-daemon[1373]: socket() failed: Permission denied
+May 19 18:46:18 mid avahi-daemon[1373]: socket() failed: Address family not supported by protocol
+May 19 18:46:18 mid avahi-daemon[1373]: Failed to create server: No suitable network protocol available
+May 19 18:46:18 mid avahi-daemon[1373]: avahi-daemon 0.6.27 exiting.
+May 19 18:46:18 mid bluetoothd[1386]: Bluetooth deamon 4.66
+May 19 18:46:19 mid bluetoothd[1386]: Starting SDP server
+May 19 18:46:19 mid bluetoothd[1386]: opening L2CAP socket: Address family not supported by protocol
+May 19 18:46:19 mid bluetoothd[1386]: Server initialization failed
+May 19 18:46:19 mid bluetoothd[1386]: Starting experimental netlink support
+May 19 18:46:19 mid bluetoothd[1386]: Failed to find Bluetooth netlink family
+May 19 18:46:19 mid bluetoothd[1386]: Failed to init netlink plugin
+May 19 18:46:19 mid bluetoothd[1386]: Failed to open control socket: Address family not supported by protocol (97)
+May 19 18:46:19 mid bluetoothd[1386]: Can't init bnep module
+May 19 18:46:19 mid bluetoothd[1386]: Failed to init network plugin
+May 19 18:46:19 mid bluetoothd[1386]: Unable to start SCO server socket
+May 19 18:46:19 mid bluetoothd[1386]: Failed to init audio plugin
+May 19 18:46:19 mid bluetoothd[1386]: Can't open HCI socket: Address family not supported by protocol (97)
+May 19 18:46:19 mid bluetoothd[1386]: adapter_ops_setup failed
+May 19 18:46:40 mid polkitd[1651]: started daemon version 0.96 using authority implementation `local' version `0.96'
+May 19 18:46:47 mid gdm-simple-greeter[1647]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 18:47:07 mid gdm-simple-greeter[1647]: WARNING: Failed to send buffer
+May 19 18:49:44 mid init: Switching to runlevel: 0
+May 19 18:49:49 mid acpid: exiting
+May 19 18:50:31 mid acpid: cannot open input layer
+May 19 18:50:31 mid acpid: starting up with netlink and the input layer
+May 19 18:50:31 mid acpid: 1 rule loaded
+May 19 18:50:31 mid acpid: waiting for events: event logging is off
+May 19 18:50:32 mid avahi-daemon[1398]: Found user 'avahi' (UID 104) and group 'avahi' (GID 107).
+May 19 18:50:32 mid avahi-daemon[1398]: Successfully dropped root privileges.
+May 19 18:50:32 mid avahi-daemon[1398]: avahi-daemon 0.6.27 starting up.
+May 19 18:50:32 mid avahi-daemon[1398]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+May 19 18:50:32 mid avahi-daemon[1398]: Successfully called chroot().
+May 19 18:50:32 mid avahi-daemon[1398]: Successfully dropped remaining capabilities.
+May 19 18:50:32 mid avahi-daemon[1398]: No service file found in /etc/avahi/services.
+May 19 18:50:32 mid avahi-daemon[1398]: socket() failed: Permission denied
+May 19 18:50:32 mid avahi-daemon[1398]: socket() failed: Address family not supported by protocol
+May 19 18:50:32 mid avahi-daemon[1398]: Failed to create server: No suitable network protocol available
+May 19 18:50:32 mid avahi-daemon[1398]: avahi-daemon 0.6.27 exiting.
+May 19 18:50:33 mid bluetoothd[1424]: Bluetooth deamon 4.66
+May 19 18:50:34 mid bluetoothd[1424]: Starting SDP server
+May 19 18:50:34 mid bluetoothd[1424]: opening L2CAP socket: Address family not supported by protocol
+May 19 18:50:34 mid bluetoothd[1424]: Server initialization failed
+May 19 18:50:34 mid bluetoothd[1424]: Starting experimental netlink support
+May 19 18:50:34 mid bluetoothd[1424]: Failed to find Bluetooth netlink family
+May 19 18:50:34 mid bluetoothd[1424]: Failed to init netlink plugin
+May 19 18:50:34 mid bluetoothd[1424]: Failed to open control socket: Address family not supported by protocol (97)
+May 19 18:50:34 mid bluetoothd[1424]: Can't init bnep module
+May 19 18:50:34 mid bluetoothd[1424]: Failed to init network plugin
+May 19 18:50:34 mid bluetoothd[1424]: Unable to start SCO server socket
+May 19 18:50:34 mid bluetoothd[1424]: Failed to init audio plugin
+May 19 18:50:34 mid bluetoothd[1424]: Can't open HCI socket: Address family not supported by protocol (97)
+May 19 18:50:34 mid bluetoothd[1424]: adapter_ops_setup failed
+May 19 18:50:54 mid polkitd[1656]: started daemon version 0.96 using authority implementation `local' version `0.96'
+May 19 18:51:01 mid gdm-simple-greeter[1652]: Gtk-WARNING: /build/buildd-gtk+2.0_2.20.1-2-armel-VLYQ8c/gtk+2.0-2.20.1/gtk/gtkwidget.c:5628: widget not within a GtkWindow
+May 19 18:51:29 mid gdm-simple-greeter[1652]: WARNING: Failed to send buffer
+May 19 19:10:52 mid init: Switching to runlevel: 0
+May 19 19:10:59 mid acpid: exiting

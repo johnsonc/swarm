@@ -1,0 +1,194 @@
+May 18 15:31:40 mid gdm-session-worker[1527]: pam_unix(gdm3-autologin:session): session closed for user ira
+May 18 15:31:41 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.17, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 18 15:31:48 mid sshd[1755]: Exiting on signal 15
+May 18 15:31:48 mid sshd[1755]: pam_unix(sshd:session): session closed for user root
+May 18 15:31:48 mid sshd[1476]: Received signal 15; terminating.
+May 18 15:32:41 mid gdm-session-worker[1518]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 18 15:32:41 mid sshd[1590]: Server listening on 0.0.0.0 port 22.
+May 18 15:33:15 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.17 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 18 15:34:44 mid sshd[1758]: Accepted password for root from 192.168.0.16 port 54079 ssh2
+May 18 15:34:44 mid sshd[1758]: pam_unix(sshd:session): session opened for user root by (uid=0)
+May 18 15:48:54 mid gnome-keyring-daemon[1679]: dbus failure unregistering from session: Connection is closed
+May 18 15:48:54 mid gnome-keyring-daemon[1679]: dbus failure unregistering from session: Connection is closed
+May 18 15:48:54 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.17, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 18 15:49:00 mid gdm-session-worker[1824]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 18 15:49:31 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.32 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 18 16:17:01 mid CRON[1970]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 18 16:17:01 mid CRON[1970]: pam_unix(cron:session): session closed for user root
+May 18 16:53:14 mid gnome-keyring-daemon[1893]: dbus failure unregistering from session: Connection is closed
+May 18 16:53:14 mid gnome-keyring-daemon[1893]: dbus failure unregistering from session: Connection is closed
+May 18 16:53:15 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.32, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 18 16:53:16 mid sshd[1590]: Received signal 15; terminating.
+May 18 16:53:16 mid sshd[1758]: Exiting on signal 15
+May 18 16:53:16 mid sshd[1758]: pam_unix(sshd:session): session closed for user root
+May 18 18:55:15 mid sshd[1451]: Server listening on 0.0.0.0 port 22.
+May 18 18:55:23 mid gdm-session-worker[1529]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 18 18:55:57 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.17 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 18 19:12:23 mid sshd[1759]: Accepted password for root from 192.168.0.16 port 42993 ssh2
+May 18 19:12:23 mid sshd[1759]: pam_unix(sshd:session): session opened for user root by (uid=0)
+May 18 19:17:01 mid CRON[1771]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 18 19:17:01 mid CRON[1771]: pam_unix(cron:session): session closed for user root
+May 18 19:50:45 mid su[3138]: Successful su for ira by root
+May 18 19:50:45 mid su[3138]: + /dev/pts/0 root:ira
+May 18 19:50:45 mid su[3138]: pam_unix(su:session): session opened for user ira by root(uid=0)
+May 18 19:54:30 mid su[3138]: pam_unix(su:session): session closed for user ira
+May 18 19:55:21 mid gnome-keyring-daemon[1680]: dbus failure unregistering from session: Connection is closed
+May 18 19:55:21 mid gnome-keyring-daemon[1680]: dbus failure unregistering from session: Connection is closed
+May 18 19:55:21 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.17, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 18 19:55:37 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 18 19:56:07 mid gdm-session-worker[3256]: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 18 19:56:07 mid gdm-session-worker[3256]: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 18 19:56:21 mid gdm-session-worker[3256]: pam_nologin(gdm3:auth): cannot determine username
+May 18 19:56:24 mid gdm-session-worker[3269]: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 18 19:56:24 mid gdm-session-worker[3269]: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 18 19:57:37 mid gdm-session-worker[3269]: pam_unix(gdm3:session): session opened for user ira by (uid=0)
+May 18 19:58:08 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session3 (system bus name :1.43 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 18 20:05:17 mid gnome-keyring-daemon[3364]: dbus failure unregistering from session: Connection is closed
+May 18 20:05:17 mid gnome-keyring-daemon[3364]: dbus failure unregistering from session: Connection is closed
+May 18 20:05:17 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.34, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 18 20:05:17 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session3 (system bus name :1.43, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 18 20:05:23 mid gdm-session-worker[3479]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 18 20:05:54 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session4 (system bus name :1.59 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 18 20:11:45 mid gnome-keyring-daemon[3547]: dbus failure unregistering from session: Connection is closed
+May 18 20:11:45 mid gnome-keyring-daemon[3547]: dbus failure unregistering from session: Connection is closed
+May 18 20:11:45 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session4 (system bus name :1.59, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 18 20:12:00 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session5 (system bus name :1.72 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 18 20:12:14 mid gdm-session-worker[3697]: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 18 20:12:14 mid gdm-session-worker[3697]: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 18 20:12:44 mid gdm-session-worker[3697]: pam_unix(gdm3:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ira
+May 18 20:12:55 mid gdm-session-worker[3710]: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 18 20:12:55 mid gdm-session-worker[3710]: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 18 20:13:08 mid gdm-session-worker[3710]: pam_unix(gdm3:session): session opened for user ira by (uid=0)
+May 18 20:13:39 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session6 (system bus name :1.80 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 18 20:17:01 mid CRON[3856]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 18 20:17:01 mid CRON[3856]: pam_unix(cron:session): session closed for user root
+May 18 21:17:01 mid CRON[4020]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 18 21:17:01 mid CRON[4020]: pam_unix(cron:session): session closed for user root
+May 18 22:17:02 mid CRON[4121]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 18 22:17:02 mid CRON[4121]: pam_unix(cron:session): session closed for user root
+May 18 23:17:01 mid CRON[4127]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 18 23:17:01 mid CRON[4127]: pam_unix(cron:session): session closed for user root
+May 19 00:17:01 mid CRON[4134]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 19 00:17:01 mid CRON[4134]: pam_unix(cron:session): session closed for user root
+May 19 01:03:45 mid gnome-keyring-daemon[3793]: dbus failure unregistering from session: Connection is closed
+May 19 01:03:45 mid gnome-keyring-daemon[3793]: dbus failure unregistering from session: Connection is closed
+May 19 01:03:46 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session6 (system bus name :1.80, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 01:03:46 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session5 (system bus name :1.72, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 01:04:02 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session7 (system bus name :1.97 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 01:04:32 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session7 (system bus name :1.97, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 01:04:46 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session8 (system bus name :1.105 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 01:05:00 mid gdm-session-worker[4314]: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 01:05:00 mid gdm-session-worker[4314]: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 01:05:59 mid gdm-session-worker[4314]: pam_unix(gdm3:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ira
+May 19 01:08:38 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session8 (system bus name :1.105, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 01:17:02 mid CRON[4445]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 19 01:17:02 mid CRON[4445]: pam_unix(cron:session): session closed for user root
+May 19 02:17:01 mid CRON[4451]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 19 02:17:01 mid CRON[4451]: pam_unix(cron:session): session closed for user root
+May 19 03:17:01 mid CRON[4656]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 19 03:17:01 mid CRON[4656]: pam_unix(cron:session): session closed for user root
+May 19 03:18:29 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session9 (system bus name :1.130 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 03:23:34 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session9 (system bus name :1.130, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 03:23:40 mid gdm-session-worker[4818]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 03:24:12 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session10 (system bus name :1.141 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 19 03:30:43 mid gnome-keyring-daemon[4886]: dbus failure unregistering from session: Connection is closed
+May 19 03:30:43 mid gnome-keyring-daemon[4886]: dbus failure unregistering from session: Connection is closed
+May 19 03:30:44 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session10 (system bus name :1.141, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 19 03:31:00 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session11 (system bus name :1.154 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 03:31:39 mid gdm-session-worker[5035]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 03:32:14 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session12 (system bus name :1.162 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 19 03:34:31 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session13 (system bus name :1.177 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 03:35:09 mid gdm-session-worker[5243]: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:35:09 mid gdm-session-worker[5243]: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:38:25 mid gdm-session-worker[5243]: pam_unix(gdm3:session): session opened for user ira by (uid=0)
+May 19 03:40:00 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:40:00 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:40:53 mid unix_chkpwd[5285]: password check failed for user (ira)
+May 19 03:40:53 mid gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=ira
+May 19 03:40:56 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:40:56 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:41:28 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:41:28 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:41:53 mid gnome-keyring-daemon[5370]: couldn't register in session: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 19 03:42:17 mid gnome-keyring-daemon[5370]: couldn't set environment variable in session: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 19 03:42:17 mid gnome-keyring-daemon[5370]: couldn't set environment variable in session: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 19 03:43:51 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session13 (system bus name :1.177, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 03:45:33 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:45:33 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:48:23 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:48:23 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:49:21 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:49:21 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:49:53 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:49:53 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:49:58 mid gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=ira
+May 19 03:50:01 mid gnome-screensaver-dialog: PAM unable to dlopen(/lib/security/pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+May 19 03:50:01 mid gnome-screensaver-dialog: PAM adding faulty module: /lib/security/pam_gnome_keyring.so
+May 19 03:50:48 mid gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): conversation failed
+May 19 03:50:48 mid gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): auth could not identify password for [ira]
+May 19 03:54:23 mid gnome-keyring-daemon[5121]: dbus failure unregistering from session: Connection is closed
+May 19 03:54:23 mid gnome-keyring-daemon[5121]: dbus failure unregistering from session: Connection is closed
+May 19 03:54:24 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session11 (system bus name :1.154, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 03:54:24 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session12 (system bus name :1.162, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 19 03:54:24 mid gdm-session-worker[5035]: pam_unix(gdm3-autologin:session): session closed for user ira
+May 19 03:54:56 mid gdm-session-worker[8347]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 03:55:31 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session15 (system bus name :1.1116 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 19 03:57:13 mid gnome-keyring-daemon[8416]: dbus failure unregistering from session: Connection is closed
+May 19 03:57:13 mid gnome-keyring-daemon[8416]: dbus failure unregistering from session: Connection is closed
+May 19 03:57:14 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session15 (system bus name :1.1116, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 19 03:58:23 mid gdm-session-worker[8534]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 03:58:54 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session16 (system bus name :1.1129 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 19 03:59:46 mid gnome-keyring-daemon[8602]: dbus failure unregistering from session: Connection is closed
+May 19 03:59:46 mid gnome-keyring-daemon[8602]: dbus failure unregistering from session: Connection is closed
+May 19 03:59:47 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session16 (system bus name :1.1129, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 19 04:00:15 mid gdm-session-worker[8721]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 04:00:52 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session17 (system bus name :1.1145 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 19 04:04:11 mid gnome-keyring-daemon[8790]: dbus failure unregistering from session: Connection is closed
+May 19 04:04:12 mid gnome-keyring-daemon[8790]: dbus failure unregistering from session: Connection is closed
+May 19 04:04:12 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session17 (system bus name :1.1145, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 19 04:04:49 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session18 (system bus name :1.1157 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 04:05:26 mid gdm-session-worker[9003]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 04:05:59 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session19 (system bus name :1.1165 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 04:17:01 mid CRON[9153]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 19 04:17:01 mid CRON[9153]: pam_unix(cron:session): session closed for user root
+May 19 05:12:44 mid sshd[1759]: pam_unix(sshd:session): session closed for user root
+May 19 05:12:56 mid gdm-session-worker[9003]: pam_unix(gdm3-autologin:session): session closed for user ira
+May 19 05:12:57 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session19 (system bus name :1.1165, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 05:12:57 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session18 (system bus name :1.1157, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 05:13:00 mid sshd[1451]: Received signal 15; terminating.
+May 19 16:30:36 mid sshd[1474]: Server listening on 0.0.0.0 port 22.
+May 19 16:30:56 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.10 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 16:31:27 mid gdm-session-worker[1668]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 16:32:01 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.23 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 16:33:23 mid sshd[1828]: Accepted password for root from 192.168.0.16 port 44976 ssh2
+May 19 16:33:23 mid sshd[1828]: pam_unix(sshd:session): session opened for user root by (uid=0)
+May 19 17:17:01 mid CRON[1992]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 19 17:17:01 mid CRON[1992]: pam_unix(cron:session): session closed for user root
+May 19 18:17:01 mid CRON[2056]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 19 18:17:01 mid CRON[2056]: pam_unix(cron:session): session closed for user root
+May 19 18:44:46 mid gdm-session-worker[1668]: pam_unix(gdm3-autologin:session): session closed for user ira
+May 19 18:44:46 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.10, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 18:44:46 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.23, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 18:44:50 mid sshd[1474]: Received signal 15; terminating.
+May 19 18:44:50 mid sshd[1828]: Exiting on signal 15
+May 19 18:44:50 mid sshd[1828]: pam_unix(sshd:session): session closed for user root
+May 19 18:46:22 mid sshd[1494]: Server listening on 0.0.0.0 port 22.
+May 19 18:46:40 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.10 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 18:47:06 mid gdm-session-worker[1652]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 18:47:43 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.23 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8)
+May 19 18:48:46 mid sshd[1810]: Accepted password for root from 192.168.0.16 port 60513 ssh2
+May 19 18:48:46 mid sshd[1810]: pam_unix(sshd:session): session opened for user root by (uid=0)
+May 19 18:49:45 mid gdm-session-worker[1652]: pam_unix(gdm3-autologin:session): session closed for user ira
+May 19 18:49:46 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.10, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 18:49:46 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.23, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale hi_IN.utf8) (disconnected from bus)
+May 19 18:49:49 mid sshd[1494]: Received signal 15; terminating.
+May 19 18:49:49 mid sshd[1810]: Exiting on signal 15
+May 19 18:49:49 mid sshd[1810]: pam_unix(sshd:session): session closed for user root
+May 19 18:50:36 mid sshd[1509]: Server listening on 0.0.0.0 port 22.
+May 19 18:50:54 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.10 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 18:51:28 mid gdm-session-worker[1657]: pam_unix(gdm3-autologin:session): session opened for user ira by (uid=0)
+May 19 18:52:02 mid polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.23 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN)
+May 19 19:10:53 mid gdm-session-worker[1657]: pam_unix(gdm3-autologin:session): session closed for user ira
+May 19 19:10:54 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.10, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 19:10:54 mid polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.23, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale mr_IN) (disconnected from bus)
+May 19 19:10:59 mid sshd[1509]: Received signal 15; terminating.

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="recent-layouts" mtime="1430996740" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>kr	kr104</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>in	hin-wx</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>in	bolnagri</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>us</stringvalue>
+		</li>
+	</entry>
+	<entry name="recent-languages" mtime="1431978967" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>mr_IN</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>en_IN.utf8</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>en_IN</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>hi_IN.utf8</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>C</stringvalue>
+		</li>
+	</entry>
+</gconf>

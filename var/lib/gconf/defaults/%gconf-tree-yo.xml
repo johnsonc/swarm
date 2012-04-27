@@ -1,0 +1,1270 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="show_backup_files">
+						<local_schema short_desc="Bóyá ká fi àwọn fáìlì aṣàtìlẹ́yìn h̀àn">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a jẹ́ pé a ó ṣàfihàn àwọn fáaìlì aṣàtìlẹ́yìn bíi irú àwọn tí Emacs ṣẹ̀dá. Lọ́wọ́lọ́wọ́ báyìí, àwọn fáìlì tí àmì fàágùn (~) gbèyìn wọn nìkan la mọ̀ sí àwọn fáìlì aṣàtìlẹ́yìn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Bóyà ká fi a[wọn fáìlì tó farapamọ́ hàn">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a jẹ́ pé àwọn fáìlì tí o farapamọ́ á farahàn nínú alábòójútó fáìlì náà. Àwọn fáìlì tó farapamọ́ lè jẹ́ àwọn fáìlì-dọ́ọ̀tì tàbí tí a tòjọ nínú fáìlì afarapamọ́ fódà náà.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Alábòójútó Fèrèsé">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Orúkọ áíkànnù pàǹtí ojú-iṣẹ́">
+							<longdesc>A lè ṣàgbékalẹ̀ orúkọ yìí tí o bá fẹ́ àkànṣe orúkọ fún áíkànnù pàǹtí náà lórí ojú-iṣẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Orúkọ áíkànnù ilé ojú-iṣẹ́">
+							<longdesc>A lè ṣàgbékalẹ̀ orúkọ yìí, tí o bá fẹ́ àkànṣe orúkọ fún áíkànnù ilé náà lórí ojú-iṣẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="Orúkọ áíkànnù kọ̀ǹpútà ojú-iṣẹ́">
+							<longdesc>A lè ṣàgbékalẹ̀ orúkọ yìí tí o bá fẹ́ àkànṣe orúkọ fún áíkànnù kọ̀ǹpútà náà lórí ojú-iṣẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="Fi àwọn ìgbóhuǹsókè-sódò tí a fi lọ́lẹ̀ lórí ojú-iṣẹ́ hàn">
+							<longdesc>Tí a bá gbé èyí kalẹ̀ sí òótọ́,a óò gbé àwọn áíkànnù tó ń líǹkì sí àwọn ìgbóhùnsókè-sódò tí a fi lọ́lẹ̀ lórí ojú-iṣẹ́ náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Áíkànnù pàǹtí ṣeé rí lórí ojú-iṣẹ́">
+							<longdesc>Tí a bá gbé èyí kalẹ̀ sí òótọ́,a óò gbé áíkànnù tó ń líǹkì sí pàǹtí lórí ojú-iṣẹ́ náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Áíkànnù kọ̀ǹpútà tí a lè rí lorí ojú-iṣẹ́">
+							<longdesc>Tí a bá gbé èyí kalẹ̀ sí òótọ́, a óò gbé áíkànnù tó ń líǹkì sí ààyè kọ̀ǹpútà lórí ojú-iṣẹ́ náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Áíkànnù ilé tí a lè rí lórí ojú-iṣẹ́">
+							<longdesc>Tí a bá gbé èyí kalẹ̀ sí òótọ́,a óò gbé áíkànnù tóńlíǹkì sí fódà ilé lórí ojú-iṣẹ́ náà.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema>
+								<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, Nautilus á kàn fi àwọn fódà inú péènì ẹ̀gbẹ́ igi hàn ni. Láì jẹ́ bẹ́ẹ̀, á fi àwọn fódà àti àwọn fáìlì hàn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="Ètò kọ́lọ̀mù ìpéwọ̀n inú òye àtòjọ náà">
+							<longdesc>Ètò kọ́lọ̀mù ìpéwọ̀n inú òye àtòjọ náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="Àtòjọ ìpéwọ̀n àwọn kọ́lọ̀mù tí a lè rí nínú òye àtòjọ">
+							<longdesc>Àtòjọ ìpéwọ̀n àwọn kọ́lọ̀mù tí a lè rí nínú òye àtòjọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Ìpele ìfẹ àtòjọ ìpéwọ̀n">
+							<longdesc>Ìpele ìfẹ ìpéwọ̀n tí òye áíkànnù lò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Dá ìṣàtò   inú àwọn fèrèsé tuntun pada">
+							<longdesc>Tó bá jẹ́ òótọ́, a óò ṣàtò àwọn fèrèsé tuntun ní àṣe wá sẹ́yìn, tó túmọ pé, tí a bá sàtò rẹ̀ nípa orúkọ, dípò ṣí̀sàtò àwọn fáìlì náà láti &quot;a&quot; dé&quot;z&quot;, a óò ṣeé láti &quot;z&quot; dé &quot;a&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Ètò ì̀ṣààtò ìpéwọ̀n">
+							<longdesc>Ètò-ìṣàtò ìpéwọ̀n fún àwọn wúnrẹ̀n nínú òye àtòjọ. Àwọn fálù tó lè jẹ́ ni &quot;orúkọ&quot;, &quot;ìwọ̀n&quot;, &quot;irúfẹ́&quot; àti &quot;déètì_àtúntò&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Ìpele ìfẹ áíkànnù ìpéwọ̀n">
+							<longdesc>Ìpele ìfẹ ìpéwọ̀n tí òye áíkànnù lò</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="Lo ìlàálẹ́ ọlọ́wọ́ nínú àwọn fèrèsé tuntun">
+							<longdesc>Tó bá jẹ́ òótọ́, àwọn fèrèsé tuntun á lo ìlàálẹ̀ ọlọ́wọ́ gẹ́gẹ́ bíi ìpéwọ̀n.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="Fi àwon ìwé ìsàmì sẹ́gbẹ̀ẹ́ àwọn áíkànnù">
+							<longdesc>Tó bá jẹ́ òótọ́, ẹ̀gbẹ́ àwọn áíkànnù ni a óò àwọn ìwé ìsàmí sí dípò kó wà lábẹ́ wọn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="Lo ìlàálẹ̀ tó le nínú àwọn fèrèsé tuntun">
+							<longdesc>Tó bá jẹ́ òótọ́, a óò to àwọn áíkànnù náà síta nípa ìpéwọ̀n inú àwọn fèrèsé tuntun.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Dá ìṣàtò   inú àwọn fèrèsé tuntun pada">
+							<longdesc>Tó bá jẹ́ òótọ́, a óò ṣàtò àwọn fáìlì nínú àwọn fèrèsé tuntun ní àṣewásẹ́yìn tó túmọ̀ pé tí a bá ṣàtò nípa orúkọ, dípò ká ṣe ìṣàtò àwọn fáìlì náà láti &quot;a&quot; dé &quot;z&quot; a óò ṣeé láti &quot;z&quot; dé &quot;a&quot;; tí a bá ṣeé nípa ìwọ̀n, dípò kó jẹ́ aláfikún díndínkù ni yóò jẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Ètò ì̀ṣààtò ìpéwọ̀n">
+							<longdesc>Ètò-ìsàtò ìpéwọ̀n fún àwọn wúnrẹ̀n nínú òye áíkànnù. Àwọn fálù tó lè jẹ́ ni &quot;orúkọ&quot;, &quot;ìwọ̀n&quot;, &quot;irúfẹ́&quot;, &quot;déètì_àtúntò&quot; àti &quot;àwọn àmì àpẹẹrẹ&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Àtòjọ àwọn àkọlé tó lè wà lórí àwọn áíkànnù">
+							<longdesc>Àtòjọ àwọn àkọlé nísàlẹ̀ áíkànnù nínú òye áíkànnù àti ojú-iṣẹ́ náà. Oye àwọn àkọlé tí a fihàn dálé ìpele ìfẹ̀. Àwọn fálù tó lè jẹ́ ni: &quot;ìwọ̀n&quot;, &quot;irúfẹ́&quot;, &quot;déètì_tí a tuntò&quot;, &quot;déètì _tí a yipadà&quot;, &quot;déètì tí a ráyè&quot;,&quot;olóhun&quot;,&quot;ẹgbẹ́&quot;,&quot;àwọn ìyànda&quot;, &quot;àwọn ìyànda-octal&quot; àti &quot;irúfẹ́_mime&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Òye péènì ẹ̀gbẹ́">
+							<longdesc>Òye péènì ẹ̀gbẹ́ tí a fẹ́ fihàn nínú àwọn fèrèsé tuntun tí a ṣẹ̀ sí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Fi péènì ẹ̀gbẹ́ hàn nínú àwọn fèrèsé tuntun">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a óò lè rí péènì ẹ̀gbẹ́ àwọn fèrèsé tuntun tí a ṣẹ̀ ṣí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Fi àká ipò hàn nínú àwọn fèrèsé">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a óò lè rí àká ipò àwọn fèrèsé tuntun tí a ṣẹ̀ sí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Fi áká ààyè hàn nínú àwọn fèrèsé tuntun">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a óò lè rí àká ààyè àwọn fèrèsé tuntun tí a ṣẹ̀ ṣí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Fi àká-irinṣẹ́ hàn nínú àwọn fèrèsé">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a óò lè rí àwọn àká-irinṣẹ́ àwọn fèrèsé tuntun tí a ṣẹ̀ ṣí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Ìfẹ̀sí péènì ẹ̀gbẹ́">
+							<longdesc>Ìfẹ̀sí ìpéwọ̀n péènì ẹ̀gbẹ́ nínú àwọn fèrèsé tuntun.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Ìgúnrégé Déètì">
+							<longdesc>Ìgúnrégé àwọn déètì fáìlì. Àwọn fálù tó lè jẹ́ ni &quot;locale&quot;, &quot;iso&quot;, àti &quot;informal&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Awòye fódà ìpéwọ̀n">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Orúkọ-fáìlì Ẹ̀yìn Péènì Ẹ̀gbẹ́ Ìpéwọ̀n">
+							<longdesc>Orúkọ-fáìlì fún ẹ̀yìn péènì ẹ̀gbẹ́ ìpéwọ̀n. ìgbà tí àgbékalẹ̀_ẹ̀yìn_péènì_ẹ̀gbẹ́ bá jẹ́ òótọ́ nìkan là ń lòó.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Àwọ̀ Ẹ̀yìn Péènì Ẹ̀gbẹ́ Ìpéwọ̀n">
+							<longdesc>Orúkọ-fáìlì fún ẹ̀yìn péènì ẹ̀gbẹ́ ìpéwọ̀n. ìgbà tí àgbékalẹ̀_ẹ̀yìn_péènì_ẹ̀gbẹ́ bá jẹ́ òótọ́ nìkan là ń lòó.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Àgbékalẹ̀ Ẹ̀yìn Péènì Ẹ̀gbẹ́ Àkànṣe">
+							<longdesc>Bóyà a ti ṣàgbékalẹ̀ ẹ̀yìn péènì ẹ̀gbẹ́ ìpéwọ̀n àkànṣe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Orúkọ-fáìlì Ẹ̀yìn Ìpéwọ̀n">
+							<longdesc>Orúkọ-fáìlì fún ẹ̀yìn fódà ìpéwọ̀n.Ìgbàtí àgbékalẹ̀_ẹ̀yìn bá jẹ́ òótọ́ nìkan là ń lòó</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Àwọ̀ Ẹyìn Ìpéwọ̀n">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema>
+							<longdesc>Bóyá a ti ṣàgbékalẹ̀ ẹ̀yìn fódà ìpéwọ̀n àkànṣe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="Àwọn òṣùwọ̀n fún ìṣèwádìí àká ìwádìí">
+							<longdesc>Àwọn òṣùwọ̀n nígbà tí a bá ń mú àwọn fáìlì tí a wá báramu nínú àká ìwádìí. Tí a bá gbékalẹ̀ sí &quot;wádìí_nípa_àyọkà&quot; , a jẹ́ pé orúkọ fáìlì nìkan ni Nautilus fi máa wá àwọn fáìlì.Tí a bá gbékalẹ̀ sí &quot;wádìí_nípa_àyọkà_àti_àwọn _àbùdá&quot;, a jẹ́ pé orúkọ fáìlì àti àwọn àbùdá fáìlì ni Nautilus fi máa wá àwọn fáìlì.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Nautilus ń lo fódà ilé àwọn òǹlò gẹ́gẹ́ bíi ojú-iṣẹ́">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a jẹ́ pé Nautilus máa lo fódà ilé òǹlò gẹ́gẹ́ bíi ojú-iṣẹ́. Tó bá jẹ́ irọ́, yóò lo ~/Ojú-iṣẹ́ bíi ojú-iṣẹ́ náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Ìrísí-lẹ́tà ojú-iṣẹ́">
+							<longdesc>Àpèjúwe ìrísí-lẹ́tà tí a lò fún àwọn áíkànnù lórí ojú-iṣẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Nautilus ń bójútó ìyàwòrán ojú-iṣẹ́ náà">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a jẹ́ pé Nautilus máa ya àwọn áíkànnù náà sórí ojú-iṣẹ́ náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Àwọn fódà ni ki o kọ́kọ́ fihàn nínú àwọn fèrèsé">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́,a jẹ́ pé Nautilus máa fi àwọn fódà hàn ṣíwájú fífi àwọn fáìlì inú áíkànnù àti àwọn òye àtòjọ hàn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="Bóyá ká ṣàkọ́gbéyẹ̀wò àwọn ìró nígbà tí a bá ń rábàbà lórí áíkànnù kàn">
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Àwọn fáìlì tí a bójútó jù nínú fódà">
+							<longdesc>A óò gé àwọn fódà tí ó bá ju ìwọ̀n yìí lọ sí ìwọ̀n yìí. Ìdí pàtàkì fún èyí ni láti dẹ́kun fífẹ́ òkìtì náà danù, kán sì má pa Nautilus àwọn fódà ńlá láì rò tẹ́lẹ̀. Àmì ìyọkúrò túmọ̀ pé kò sí sàkánì. A gé sàkánì náà kúrú nítorí kíka àwọn fódà lóní bááṣí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Ìwọ̀n àwòrán tó ga jù fún ìṣàpẹẹrẹ ojú-ìwé rébété">
+							<longdesc>A kò ní ṣe àpẹẹrẹ ojú-ìwé rébété àwọn àwòrán tí o bá ti kọ́ja ìwọ̀n (ní àwọn ikin kọ̀ǹpútà) yìí. Ìdí pàtàkí ààtò yìí ni láti dẹ́kun ìṣàpẹẹrẹ ojú-ìwé rébété àwọn àwòrán ńlá tó lè gba àkíkò púpọ̀ láti kìí tàbí lo ọpọlọ kọ̀ǹpútà púpọ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Ìgbà tí a ó fi àwọn àpẹẹrẹ ojú-ìwé rébété àwọn fáìlì àwòrán hàn">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Kókó Nautilus lọ́wọ́lọ́wọ́ (ti kúrò láṣà)">
+							<longdesc>Orúkọ kókó Nautilus ta ó lò. Èyí ti kúrò láṣà gẹ́gẹ́ bíi Nautilus 2.2. Jọ̀wọ́ lo kókó áíkànnù dípò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="Ohun tí a ó ṣe pẹ̀lú àwọn fáìlì àyọkà tó lè ṣiṣẹ́ nígbà tí a bá mu ṣiṣẹ́">
+							<longdesc>Ohun tí a lè ṣe pẹ̀lú àwon fáìlì àyọkà tó lè ṣiṣẹ́ nígbà tí a bá mu ṣiṣẹ́ (tí a bá tẹ̀ẹ́ lẹ́ẹ̀kan tàbí ẹ̀ẹ̀mejì). Àwọn fálù tó lè jẹ́ ni &quot;fi lọ́lẹ̀&quot; láti fi wọ́n lọ́lẹ̀ gẹ́gẹ́ bí àwọn àtòjọ-ètò, &quot;bèrè&quot; láti bèrè ohun tó yẹ ká ṣe nípasẹ̀ onísọ̀rọ̀gbèsì àti &quot;ìṣàfihàn&quot; láti ṣàfihàn wọn gẹ́gẹ́ bí àwọn fáìlì àyọkà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="Irúfẹ́ ìtẹ̀ tí à ń lò láti fi àwọn fáìlì lọ́lẹ̀/ṣi">
+							<longdesc>Àwọn fálù tó lè jẹ́ ni &quot;ẹyọ kan&quot; láti fi àwọn fáìlì lórí ìtẹ̀ kan lọ́lẹ̀ tàbí &quot;méjì&quot; láti fi wọn lọ́lẹ̀ lórí ìtẹ̀ méjì.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Ìgbà tí a ó fi oye àwọn wúnrẹ̀n inú fódà hàn">
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Ìgbà tí a ó fi àyọkà àkọ́gbéyẹ̀wò inú àwọn áíkànnù hàn">
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Bóyá ká mú ìpajẹ wáyé kíákíá ni">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a jẹ́ pé Nautilus máa ní àbùdá kan tí yóò máa fàyè gbà ẹ́ láti pa fáìlì jẹ kíákíá dípò gbígbe lọ sí inú pàǹtí. Àbùdá yìí lè ní ewu, kí o fẹ̀sọ̀ ṣe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Ń mú ìṣesí Nautilus agbógoyọ ṣiṣẹ́, níbi tí gbogbo àwọn fèrèsé yóò jẹ́ àwọn awáròyìn">
+							<longdesc>Tí a bá gbekalẹ̀ sí òótọ́, a jẹ́ pé gbogbo Nautilus máa jẹ́ àwọn fèrèsé awáròyìn. Báyìí ní Nautilus ṣe ń ṣe ṣaájú ẹ̀yà 2.6, àwọn èèyàn kan sì fẹ́ ìṣesí yìí.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="internet_time">
+						<local_schema short_desc="Lo àkókò Ítánẹ́ẹ̀tì">
+							<longdesc>Ìlò bọ́tìnì yìí nínú GNOME 2.6 ti kúrò láṣà.fún &apos;ìgúnrégé&apos; bọ́tìnì. A tọ́jú ìtọsẹ̀ náà fún ìbámu pẹ̀lú àwọn ẹ̀yà tó ti pẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Lo àkókò UNIX">
+							<longdesc>Ìlò bọ́tìnì yìí nínú GNOME 2.6 ti kúrò láṣà.fún &apos;ìgúnrégé&apos; bọ́tìnì. A tọ́jú ìtọsẹ̀ náà fún ìbámu pẹ̀lú àwọn ẹ̀yà tó ti pẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Ìgúnrégé wákàtí">
+							<longdesc>Ìlò bọ́tìnì yìí nínú GNOME 2.6 ti kúrò láṣà.fún &apos;ìgúnrégé&apos; bọ́tìnì. A tọ́jú ìtọsẹ̀ náà fún ìbámu pẹ̀lú àwọn ẹ̀yà tó ti pẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Fi àwọn nọ́ńbà ọ̀sẹ̀ inú kàlẹ́ńdà hàn">
+							<longdesc>Tó bá jẹ́ òótọ́, fi àwọn nọ́ńbà ọ̀sẹ̀ inú kàlẹ́ńdà hàn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Irinṣẹ́ àtòpọ̀ àkókò">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Lo UTC">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Fi déèti hàn nínú ìtalólobó-irinṣẹ́">
+							<longdesc>Tó bá jẹ́ òótọ́, fi déètì hàn nínú ìtalólobó-irinṣẹ́ nígbà tí atọ́ka bá wà lórí aago.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Fi déètì hàn nínú aago">
+							<longdesc>Tó bá jẹ́ òótọ́, ṣàfihàn déètì nínú aago gẹ́gẹ́ bí àfíkun àkókò</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Fi àkókò pẹ̀lú àwọn ìṣísẹ̀ hàn">
+							<longdesc>Tó bá jẹ́ òótọ́,ṣàfihàn àwọn ìṣísẹ̀ nínú àkókò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Ìgúnrégé àkànṣẹ́ fún aago">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Ìgúnrégé wákàtí">
+							<longdesc>Bọ́tìnì yìí ń sọ ní pàtó ìgúnrégé wákàtí tí ápúlẹ́ẹ̀tì aago náà lò. Àwọn fálù tó lèjẹ́ ni &quot;wákàtí méjìlá&quot;,&quot;wákàtí mẹ́rinlélógún&quot;, &quot;ítánẹ́ẹ̀tì&quot;, &quot;unix&quot; àti &quot;àkànṣe&quot;. Tía bá ṣàgbékalẹ̀ rẹ̀ sí &quot;ítánẹ́ẹ̀tì&quot;, àkókò ítánẹ́ẹ̀tì ni aago máa ṣàfihàn. Ẹgbẹ̀rún niètò aago ítánẹ́ẹ̀tì pín ọjọ́ sí&quot;beats&quot;. Kò sí àwọn ìhà àkókò nínú ètò yìí, fún ìdí èyíbákan náà ni àkókò rí kárí-ayé. Tí a bá ṣàgbékalẹ̀ rẹ̀ sí &quot;unix&quot;, ní ìṣísẹ̀ ni aago máa ṣàfihàn àkókòláti ìgbà Epoch tó jẹ́ 1970-01-01. Tí a bá ṣàgbékalẹ̀ rẹ̀ sí &quot;àkànṣe&quot;, aago náà á ṣàfihàn àkókògẹ́gẹ́ bíi ìgúnrégé tí a sọ ní pàtó nínú bọ́tìnì ìgúnrégé_àkànṣe.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="Fẹ fèrèsé lóníbùú">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="Fẹ fèrèsé lólóròó">
+						</local_schema>
+					</entry>
+					<entry name="lower">
+						<local_schema short_desc="Fèrèsé ìsàlẹ̀ lábẹ́ àwọn fèrèsé mìíràn">
+						</local_schema>
+					</entry>
+					<entry name="raise">
+						<local_schema short_desc="Gbeŕ fèrèsé ga ju àwọn fèrèsé mìíràn lọ">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_down">
+						<local_schema short_desc="Gbé ààyè-iṣẹ́ fèrèsé kan wálẹ̀">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_up">
+						<local_schema short_desc="Gbé ààyè-iṣẹ́ fèrèsé kan sókè">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_right">
+						<local_schema short_desc="Gbé ààyè-iṣẹ́ fèrèsé kan sí ọ̀tún">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_left">
+						<local_schema short_desc="Gbé ààyè-iṣẹ́ fèrèsé kan sí òsì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kejìlá">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kọkànlá">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kẹwàá">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kẹsàn án">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kẹjọ">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ keje">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kẹfà">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ karùn ún">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kẹrin">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kẹta">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kejì">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Gbé fèrèsé lọ sí ààyè-iṣẹ́ kìíní">
+						</local_schema>
+					</entry>
+					<entry name="begin_resize">
+						<local_schema short_desc="Ìṣòdíwọ̀n fèrèsé">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="Gbé fèrèsé">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Ti Fèrèsé">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="Pa fèrèsé dé">
+						</local_schema>
+					</entry>
+					<entry name="toggle_shaded">
+						<local_schema short_desc="Tọ́gù ipò tí a kùn">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="Fẹ fèrèsé">
+						</local_schema>
+					</entry>
+					<entry name="toggle_maximized">
+						<local_schema short_desc="Tọ́gù ipò ìfẹ̀lójú">
+						</local_schema>
+					</entry>
+					<entry name="toggle_fullscreen">
+						<local_schema short_desc="Tọ́gù móòdù ojú kọ̀ǹpútà kíkún">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybinding_commands">
+					<entry name="command_window_screenshot">
+						<local_schema short_desc="Àṣẹ ìmáwòràn fèrèsé">
+							<longdesc>Bọ́tìnì /apps/metacity/àwọn aṣẹ̀dá-ìtọ́ka bọ́tìni_kárí ayé/rọ́ọ̀nù_àṣẹ_ìmáwòrán_fèrèsé ló máa ń sọ oríkì aṣẹ̀dá-ìtọ́ka bọ́tìnì tó ń fa ìgbàpadà àṣẹ tí ààtò yìí sọ ní pàtó.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command_screenshot">
+						<local_schema short_desc="Àṣẹ ìmáwòrán">
+							<longdesc>Bọ́tìnì /apps/metacity/àwọn aṣẹ̀dá-ìtọ́ka bọ́tìni_kárí ayé/rọ́ọ̀nù_àṣẹ_ìmáwòrán ló máa ń sọ oríkì aṣẹ̀dá-ìtọ́ka bọ́tìnì tó ń fa ìgbàpadà àṣẹ tí ààtò yìí sọ ní pàtó.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Àwọn àṣẹ tí a fẹ́ rọ́ọ̀nù ní ìfèsì àwọn aṣẹ̀dá-ìtọ́ka bọ́tìnì">
+							<longdesc>Àwọn bọ́tìnì /apps/metacity/àwọn aṣẹ̀dá-ìtọ́ka bọ́tìnì_kárí ayé/rọ́ọ̀nù_àṣẹ_N máa ń soríkì àwọn aṣẹ̀dá-ìtọ́ka bọ́tìnì tó bá àwọn àṣẹ yìí mu. Títẹ aṣẹ̀dá-ìtọ́ka bọ́tìnì náà láti rọ́ọ̀nù_àṣẹ_N á mú àṣẹ_N ṣe.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_terminal">
+						<local_schema short_desc="Rọ́ọ̀nù támínà">
+						</local_schema>
+					</entry>
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="Ya ìmáwòrán fèrèsé kan">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="Ya ìmáwòrán">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels_backward">
+						<local_schema short_desc="Lọ sẹ́yìn láàrin àwọn pánẹ́ẹ̀lì àti ojú-iṣẹ́ lẹ́sẹ̀kẹsẹ̀">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels">
+						<local_schema short_desc="Lọ láàrin àwọn pánẹ́èlì àti ojú-iṣẹ́ lẹ́sẹ̀kẹsẹ̀">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows">
+						<local_schema short_desc="Lọ láàrin àwọn fèrèsé lẹ́sẹ̀kẹsẹ̀">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kejìlá">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kọkànlá">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kẹwàá">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kẹsàn án">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kẹjọ">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ keje">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kẹfà">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ karùn ún">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kẹrin">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kẹta">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kejì">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="Sún sí ààyè-iṣẹ́ kìíní">
+						</local_schema>
+					</entry>
+					<entry name="run_command">
+						<local_schema short_desc="Rọ́ọ̀nù àṣẹ tí a kì">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="Orúkọ ààyè-iṣẹ́">
+							<longdesc>Orúkọ ààyè-iṣẹ́ kan.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="disable_workarounds">
+						<local_schema short_desc="Má mùú àwọn àbùd́á ségesège tí àwọn ìṣàmúlò-ètò àtijọ́ tàbí tí ó bàjẹ́ ń fẹ́ ṣiṣẹ́">
+						</local_schema>
+					</entry>
+					<entry name="application_based">
+						<local_schema short_desc="(A kò pilẹ̀ rẹ̀) Wíwúlò àwọn ìṣàmúlò-ètò ní ìtọpa ń bá ṣiṣẹ́ kìí ṣe ti àwọn fèrèsé">
+						</local_schema>
+					</entry>
+					<entry name="reduced_resources">
+						<local_schema short_desc="Tó bá jẹ́ òótọ́, pààrọ̀ agbára ìlò fún ìlò ìròyìn díẹ̀">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell_type">
+						<local_schema short_desc="Irúfẹ́ Aago Tí a lè rí">
+							<longdesc>Ń sọ fún Metacity bí wọ́n ṣe ń pilẹ̀ ìtọ́ka tí a lè fojúrí pé aago ètò kọ̀ǹpútà tàbí atọ́ka &apos;aago&apos; ìṣàmúlò-ètò mìíràn ti dún. Lọ́wọ́lọ́wọ́ báyìí àwọn fálù tó fesẹ̀múlẹ̀ méjì ló wà, &quot;ojú -kọ̀ǹpútà kíkún&quot; tí ó máa ń fa fíláàṣì funfun-dúdú ojú kọ̀ǹpútà kíkún àti &quot;fíláàṣì_férémù&quot; tó máa ń fa kí àká-àkọ́lé ìṣàmúlò-ètò tó ń fi àmì aago ránṣẹ́ sí fíláàṣì. Tí ìṣàmúlò-ètò tó fi aago náà ránṣẹ́ bá jẹ́ àìmọ̀ (bó ṣe máa ń rí fún ìpéwọ̀n &quot;ìfùnpè ètò kọ̀ǹpútà&quot;) á fíláàṣì àká-àkọ́lé fèrèsé tí a wòye lọ́wọ́lọ́wọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="audible_bell">
+						<local_schema short_desc="Agogo Ètò Kọ̀ǹpútà Dún dáadáa">
+							<longdesc>Ń máa ń sọ bóyá àwọn ìṣàmúlò-ètò tàbí ètò kọ̀ǹpútà lè da àwọn &apos;ìfùnpè&apos; tó dún rọ. KÁ sì lè lòó pẹ̀lú &apos;aago afojúrí&apos; láti lè fàyè gba àwọn &apos;ìfùnpè&apos; ìdákẹ́jẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Mú Agogo Afojúrí Ṣiṣẹ́">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="Iye àwọn ààyè-iṣẹ́">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_font">
+						<local_schema short_desc="Ìrísí-lẹ́tà àkọ́lé fèrèsé">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_uses_system_font">
+						<local_schema short_desc="Lo ìrísí-lẹ́tà ètò òpéwọ̀n nínú àwọn àkọ́lé fèrèsé">
+							<longdesc>Tó bá jẹ́ òótọ́, pa ẹ̀yàn ìrísí-lẹ́tà àká-àkọ́lé náà ti, kí o sì lo ìrísí-lẹ́tà ìṣàmúlò-ètò òpéwọ̀n fún àwọn àkọ́lé fèrèsé.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Kókó lọ́wọ́lọ́wọ́">
+							<longdesc>́Kókó náà ni yóò sọ bí ìrísí àwọn ìpàlà fèrèsé, àká-àkọ́lé, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ ṣe rí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise_delay">
+						<local_schema short_desc="Ìdádúró ìdá-ọ̀kẹ́ ìṣísẹ̀ fún ẹ̀yàn ìgbésókè aládàáṣe">
+							<longdesc>Ìdádúró wà ní àkókò kí a tó gbé fèrèsé sókè tí a bá gbé ìgbéga_aládàáṣe kalẹ̀ sí òótọ́. Ìdádúró náà a máa wà ní ìdá ẹgbẹ̀rún ìṣísẹ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise">
+						<local_schema short_desc="Ń gbé fèrèsé tí a wòye sókè fún ra rẹ̀">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="Iṣẹ́ lórí àká ákọ́lé, tẹ̀ẹ́-lẹ́ẹ̀mejì">
+						</local_schema>
+					</entry>
+					<entry name="focus_mode">
+						<local_schema short_desc="Móòdù ìwòye fèrèsé">
+							<longdesc>Móòdù ìwòye fèrèsé náà máa ń fi bí a ṣe ń mú àwọn fèrèsé ṣiṣẹ́. Àwọn fálù mẹ́ta ló lè jẹ́; &quot;tẹ&quot; ó túmọ sí pé a gbọ́dọ̀ tẹ àwọn fèrèsé láti lè wòye wọn &quot;àìbìkíta&quot; ó túmọ̀ sí pé a gbọ́dọ̀ wòye àwọn fèrèsé nígbà tí fèrèsé náà bá wọ fèrèsé náà, àti&quot;ohun-èlò aṣèkúté&quot; ó túmọ sí pé a gbọ́dọ̀ wòye àwọn fèrèsé nígbà tí ohun-èlò aṣèkúté bá wọ fèrèsé náà kò sí ní wòye nígbà tí ó fi fèrèsé náà sílẹ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="button_layout">
+						<local_schema short_desc="Ètò àwọn bọ́tìnì lórí àká-àkọ́lé">
+						</local_schema>
+					</entry>
+					<entry name="mouse_button_modifier">
+						<local_schema short_desc="Aṣàtúntò tí a fẹ́ lò fún àwọn iṣẹ́ ìtẹ fèrèsé tí a túntò">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Àwọn róòlù nínú ìjánu-ìsún ààyè-iṣẹ́">
+							<longdesc>Bọ́́tìnì yìí ń sọ ní pàtó iye àwọn róòlù (fún ìlàálẹ̀ ìbú) tàbí àwọṅ kọ́lọ̀mù (fún ìlàálẹ̀òòró) tí ìjánu-ìsún ààyè-iṣẹ́ ń fihàn àwọn ààyè-iṣẹ́ náà. Bọ́tìnì yìí kàn sì wúlòtí bọ́tìnì àwọn ààyè-iṣẹ́_gbogbo_ìṣàfihàn bá jẹ́ òótọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Ṣàfihàn gbogbo àwọn ààyè-iṣẹ́">
+							<longdesc>Tó bá jẹ́ òótọ́, ìjánu-ìsún ààyè-iṣẹ́ náà á fi gbogbo àwọn ààyè-iṣẹ́ hàn. Láì jẹ́ bẹ́ẹ̀ yóò kàn fi ààyè-iṣẹ́ lọ́wọ́lọ́wọ́ náà hàn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Ṣàfihàn àwọn orúkọ ààyè-iṣẹ́">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Ìwọ̀n àtòjọ fèrèsé tó ga jù">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Ìwọ̀n àtòjọ fèrèsé tó kéré jù">
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Gbé àwọn fèrèsé lọ sí ààyè-iṣẹ́ lọ́wọ́lọ́wọ́ tí a kò bá fẹ̀ẹ́lójú mọ́ ">
+							<longdesc>Tó bá jẹ́ òótọ́, tí o bá ti ń fe ojú fèrèsé gbe lọ sí ààyè-iṣẹ́ lọ́wọ́lọ́wọ́.Láì jẹ́ bẹ́ẹ̀,sún sí ààyè-iṣẹ́ fèrèsé náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Ìgbà tó yẹ ká pín àwọn fèrèsé">
+							<longdesc>Ń sọ ìgbà tí a óò pín àwọn fèrèsé láti inú ìṣàmúlò-ètò kan náà lórí àtòjọ fèrèsé.Àwọn fálù tó lè jẹ́ ni &quot;rárá&quot;, &quot;aládàáṣe&quot; àti &quot;ìgbà gbogbo&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Fi àwọn fèrèsé láti gbogbo àwọn ààyè-iṣẹ́ hàn">
+							<longdesc>Tó bá jẹ́ òótọ́, àtòjọ fèrèsé á fi àwọn fèrèsé láti inú gbogbo àwọn ààyè-iṣẹ́ hàn. Láì jẹ́ bẹ́ẹ̀,yóò kàn ṣàfihàn àwọn fèrèsé láti inú ààyè-iṣẹ́ lọ́wọ́lọ́wọ́ ni.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Gba agbára lọ́wọ́ Ìjáde Ipá">
+							<longdesc>Tó bá jẹ́ òótọ́, pánẹ́ẹ̀lì náà kò ní fàyè gba òǹlò láti mú ìṣàmúlò-ètò jáde pẹ̀lú ipánípa yíyọ ààyè sí bọ́tìnì ìjáde ipá kúrò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Gba agbára Píparí Iṣẹ́">
+							<longdesc>Tó bá jẹ́ òótọ́, pánẹ́ẹ̀lì náà kò ní fàyè gba òǹlò láti parí iṣẹ́ nípa yíyọ ààyèsí àwọn àmúwọlé àtòjọ-ẹ̀yàn ìparí iṣẹ́ kúrò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="Àwọn IID ápúlẹ́ẹ̀tì tí a kò jẹ́ kí wọn kì">
+							<longdesc>Àtòjọ àwọn IID ápúlẹ́ẹ̀tì tí pánẹ́ẹ̀lì máa patì. Lọ́nà yìí o lè gba agbára àwọn ápúlẹ́ẹ̀tì kan láti má ma ki àtòjọ-ẹ̀yàn tàbí fihàn nínú àtòjọ-ẹ̀yàn náà. Bí àpẹẹrẹ, láti lè gbaagbára ápúlẹ́ẹ̀tì aláṣẹ́-kékeré ṣàfikún &apos;OAFIID:GNOME_MiniCommanderApplet&apos; sí àtòjọ yìí. A gbọ́dọ̀ tún pánẹ́ẹ̀lì náà bẹ̀rẹ̀ kí èyí tó lè wáyé.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Lọ́ọ̀kì pánẹ́ẹ̀lì ìkádìí">
+							<longdesc>Tó bá jẹ́ òótọ́, pánẹ́ẹ̀lì náà kò ní fàyè gba àwọn ìyípadà kankan sí àtòpọ̀ pánẹ́ẹ̀lì náà.Ṣùgbọ́n a sì ní láti ti àwọn ápúlẹ́ẹ̀tì kọ̀ọ̀kan ná. A gbọ́dọ̀tún pánẹ́ẹ̀lì náà bẹ̀rẹ̀ kí èyí tó lè wáyé.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Gbé àwon aṣàfilọ́lẹ̀ yọ lórí ohun-èlò aṣèkúté">
+							<longdesc>Tó bá jẹ́ òótọ́, aṣàfilọ́lẹ̀ kan á yọ nígbà tí òǹlò náà bá gbé atọ́ka náà gba orí ẹ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Àrídájú ìyọkúrò pánẹ́ẹ̀lì">
+							<longdesc>Tó bá jẹ́ òótọ́,onísọ̀rọ̀gbèsì kàn ti farahàn tó ń bèrè fún àrídájú tó bá jẹ́ pé òǹlò fẹ́ yọ Pánẹ́ẹ̀lì kúrò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Dúrọ́wà Aládàátì">
+							<longdesc>Tó bá jẹ́ òótọ́, dúrọ́wà á tì fún ra rẹ̀ nígbà tí òǹlò bá ti tẹaṣàfilọ̀lẹ̀ nínú ẹ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Fún àwọn ìṣàfarawé kọ̀ǹpútà lágbára">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Ó ti kúrò láṣà">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="Fún àwọn ìtalólobó-irinṣẹ́ lágbára">
+							<longdesc>Tó bá jẹ́ òótọ́, a fi àwọn ìtalólobó-irinṣẹ́ hàn fún àwọn nǹkan inú àwọn pánẹ́ẹ̀lì.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Irúfẹ́ bọ́tìnì iṣẹ́">
+							<longdesc>Irúfẹ́ iṣẹ́ tí bọ́tìnì yìí dúró fún. Àwọn fálù tó lè jẹ́ ni&quot;lọ́ọ̀kì&quot;,&quot;parí iṣẹ́&quot;,&quot;rọ́ọ̀nù&quot;,&quot;wádìí&quot;àti &quot;ìmáwòrán&quot;. Bọ́tìnì yìí kàn wúlòtí bọ́tìnì irúfẹ́_nǹkan bá jẹ́ &quot;ápúlẹ́ẹ̀tì-iṣẹ́&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Ààyè Aṣàfilọ́lẹ̀">
+							<longdesc>Ààyè fáìlì ojú-iṣẹ́ tó ń ṣàpèjúwe aṣàfilọ́lẹ̀. Bọ́tìnì yìí kàn wúlò tí bọ́tìnì irúfẹ́_nǹkan bá jẹ́  &quot;nǹkan-aṣàfilọ́lẹ̀&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Ipa àkóónú àtòjọ-ẹ̀yàn">
+							<longdesc>Ipa tí a ti kọ́ àwọn àkóónú àtòjọ-ẹ̀yàn. Bọ́tìnì yìí kàn wúlò tí bọ́tìnìipa_àtòjọ-ẹ̀yàn_ìlò sì jẹ́ òótọ́ tí bọ́tìnì_nǹkan jẹ́&quot;nǹkan-àtòjọ-ẹ̀yàn&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Lo ipa àkànṣe fún àwọn àkóónú àtòjọ-ẹ̀yàn">
+							<longdesc>Tó bá jẹ́ òótọ́, a lo bọ́tìnì ipa _àtòjọ-ẹ̀yàn gẹ́gẹ́ bíi ipa ti a ti lè̀ kọ́ àwọn àkóónú àtòjọ-ẹ̀yàn.Tó bá jẹ́ irọ́, a máa pa bọ́tìnì ipa_àtòjọ-ẹ̀yàn tì. Bọ́tìnì yìí kàn wúlò tí bọ́tìnì irúfẹ́_nǹkan bá jẹ́  &quot;nǹkan_àtòjọ-ẹ̀yàn&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Áíkànnù tí a lò fún bọ́tìnì nǹkan">
+							<longdesc>Ààyè fáìlì àwòrán tí a lò gẹ́gẹ́ bíi áíkànnù fún bọ́tìnì nǹkan náà. bọ́tìnì yìí kàn wúlò tí bọ́tìnì irúfẹ́_nǹkan bá jẹ́ &quot;nǹkan-dúrọ́wà&quot; tàbí &quot;nǹkan àtòjọ-ẹ̀yàn&quot; tí bọ́tìnì áíkànnù_àkànṣe_ìlò jẹ́ òótọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Lo áíkànnù àkànṣe fún bọ́tìnì nǹkan">
+							<longdesc>Tó bá jẹ́ òótọ́, bọ́tìnì áíkànnù_àkànṣe la lò gẹ́gẹ́ bíi áíkànnù àkànṣe fún bọ́tìnì náà. Tó bajẹ́ irọ́ a óò pa bọ́tìnì áíkànnù_àkànṣe tì. Bọ́tìnì yìí kàn wúlò tó bá jẹ́ bọ́tìnì irúfẹ́_nǹkan jẹ́ &quot;nǹkan-àtòjọ-ẹ̀yàn&quot; tàbí &quot;nǹkan-dúrọ́wà&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Ìtalólobó tí a ṣàfihàn fún dúrọ́wà tàbí àtòjọ-ẹ̀yàn">
+							<longdesc>Àyọkà tí a fẹ́ ṣàfihàn rẹ̀ nínú ìtalólobó-irinṣẹ́ fún dúrọ́wà yìí tàbí àtòjọ-ẹ̀yàn yìí. Bọ́tìnìyìí kàn wúlò tí bọ́tìnì irúfẹ́_nǹkan bájẹ́&quot;nǹkan-dúrọwà&quot; tàbí &quot;nǹkan-àtòjọ-ẹ̀yàn&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Pánẹ́ẹ̀lì tí a so mọ́ dúrọ́wà">
+							<longdesc>Ohun ìdánimọ̀ pánẹ́ẹ̀lì tí a somọ́ dúrọ́wà yìí. Bọ́tìnì yìí kàn wúlò tí bọ́tìnì irúfẹ́_nǹkan bá jẹ́ &quot;nǹkan-dúrọ́wà&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Ápúlẹ́ẹ̀tì Bonobo IID">
+							<longdesc>ID ì̀pilẹ̀ Bonobo ti ápúlẹ́ẹ̀tì náà - b.a &quot;OAFIID:GNOME_ClockApplet&quot;.Bọ́tìnì yìí kàn wúlò tí bọ́tìnì irúfẹ́_nǹkan bá jẹ́ &quot;ápúlẹ́ẹ̀tì-bonobo&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Ti nǹkan sínú pánẹ́ẹ̀lì">
+							<longdesc>Tó bá jẹ́ òótọ́, òǹlò náà lè má gbé ápúlẹ́ẹ̀tì láì jẹ́ pé ó kọ́kọ́ ṣí nǹkan tó ń lo &quot;Má tìí&quot; wùnrẹ̀n-àtòjọ-ẹ̀yàn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="Sọ ìtumọ̀ ipo ajemọ́ igun ìsàlẹ̀/ọ̀tún">
+							<longdesc>Tó bá jẹ́ òótọ́, a óò sọ ìtumọ̀ nǹkan náà ní àjẹmọ́ apá ọ̀tún igun pánẹ́ẹ̀lì (tàbí ìsàlẹ̀ tó bá jẹ́ òòró) náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Ipò nǹkan lórí pánẹ́ẹ̀lì">
+							<longdesc>Ipò nǹkan pánẹ́ẹ̀lì yìí. Oye nọ́ńbà àwọn písẹ́́ẹ̀lì tó wà láti igun pánẹ́ẹ̀lì apá òsì (tàbí òkè òòró) ni yóò sọ ipò náà ní pàtó.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Pánẹ́ẹ̀lì ìpele-òkè tó ní nǹkan nínú">
+							<longdesc>Ohun ìdánimọ̀ pánẹ́ẹ̀lì ìpele-òkè tó ní nǹkan yìí nínú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Irúfẹ́ nǹkan pánẹ́ẹ̀lì">
+							<longdesc>Irúfẹ́ nǹkan pánẹ́ẹ̀lì yìí. Àwọn fálù tó lè jẹ́ ni &quot;nǹkan-dúrọ́wà&quot;,&quot;nǹkan-àtòjọ-ẹ̀yàn&quot;,&quot;nǹkan-aṣàfilọ́lẹ̀&quot;,&quot;ápúlẹ́ẹ̀tì bonobo&quot;,&quot;ápúlẹ́ẹ̀tì-iṣẹ́&quot;àti &quot;àká-àtòjọ-ẹ̀yàn&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Àtòpọ̀ àkópọ̀ ìròyìn àtijọ́ ti ṣí kúrò">
+							<longdesc>Àsíá boolean ń fihàn bóyá a ti ṣẹ̀dà àtòpọ̀ òǹlò ilẹ̀ inú /appa/panel/profiles/default sínú ààyè tuntun nínúpánẹ́ẹ̀lì /apps/.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Àtójọ ID nǹkan pánẹ́ẹ̀lì">
+							<longdesc>Àtòjọ àwọn ID ápúlẹ́ẹ̀tì pánẹ́ẹ̀lì. ID kọ̀ọ̀kan ń tọ́ka sí nǹkan pánẹ́ẹ̀lì kọ̀ọ̀kan (b.a.aṣàfilọ́lẹ̀, bọ́tìnì iṣẹ́ tàbí àká/bọ́tìnì àtòjọ-ẹ̀yàn). A fi àwọn ààtò fún àwọn nǹkankọ̀ọ̀kan pamọ́ sínú /apps/panel/objects/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Àtòjọ ID ápúlẹ́ẹ̀tì pánẹ́ẹ̀lì">
+							<longdesc>Àtòjọ àwọn ID ápúlẹ́ẹ̀tì pánẹ́ẹ̀lì. ID kọ̀ọ̀kan ń tọ́ka sí ápúlẹ́ẹ̀tì pánẹ́ẹ̀lì.A fi àwọn ààtò fún àwọn ápúlẹ́ẹ̀tì kọ̀ọ̀kan pamọ́ sínú /apps/panel/applets/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Àtòjọ ID pánẹ́́ẹ̀lì">
+							<longdesc>Àtòjọ àwọn ID pánẹ́ẹ̀lì. ID kọ̀ọ̀kan ló n tọ́ka sí pánẹ́ẹ̀lì ìpele-òkè kọ̀ọ̀kan. A fi àwọnà̀àtò̀ fún àwọn pánẹ́ẹ̀lì kọ̀ọ̀kan pamọ́ sínú /apps/panel/toplevels/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="Mú ìkádìí-aládàáṣe nínú onísọ̀rọ̀gbèsì &quot;Rọ́ọ̀nù Ìṣàmúlò-ètò&quot; ṣiṣẹ́">
+							<longdesc>Tó bá jẹ́ òótọ́, ìkádìí-aládàáṣe inú onísọ̀rọ̀gbèsì &quot;Rọ́ọnù Ìṣàmúlò-ètò&quot; wà nílẹ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Fẹ àtòjọ àtòjọ-ètò inú onísọ̀rọ̀gbèsì &quot;Rọ́ọ̀nù Ìṣàmúlò-ètò&quot; ">
+							<longdesc>Tó bá jẹ́ òótọ́, &quot;Àwọn Ìṣàmúlò-ètò Mímọ̀&quot; tí a tòjọ nínú onísọ̀rọ̀gbèsì &quot;Rọ́ọ̀nù Ìṣàmúlò-ètò&quot;á fẹ̀ nígbà tí a bá ṣí onísọ̀rọ̀gbèsì. Bọ́tìnì yìí kàn wúlò tí bọ́tìnì àtòjọ_àtòjọ-ètò_ bá jẹ́ òótọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="Mú àtòjọ àtòjọ-ètò inú onísọ̀rọ̀gbèsì &quot;Rọ́ọ̀nù Ìsàmúlò-ètò&quot; ṣíṣẹ">
+							<longdesc>Tó bá jẹ́ òótọ́, &quot;Àwọn Ìṣàmúlò-ètò Mímọ̀&quot; tía tòjọ nínú onísọ̀rọ̀gbèsì &quot;Rọ́ọ̀nù Ìsàmúlò-ètò&quot;wà nílẹ̀. Bóyá a fẹ ìṣàtòjọ náà tàbí a kò fẹ̀ẹ́, nígbà tí onísọ̀rọ̀gbèsì náà bá ti farahàn bọ́tìnì àtòjọ_àtòjọ-ètò_ìfihàn ló ń darí rẹ̀.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Ìyárasí àfarawé Kọ̀ǹpútà">
+							<longdesc>Ìyárasí tó yẹ kí àwọn ìṣàfarawé kọ̀ǹpútà ó ti yọ. Àwọn fálù tó lè jẹ́ ni &quot;falẹ̀&quot;, &quot;àárín&quot; àti &quot;ìyára&quot;. Bọ́tìnì yìí kàn wúlò tí bọ́tìnì àwọn mú ìṣàfarawé kọ̀ǹpútà_ṣiṣẹ́ bá jẹ́ òótọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Àwọn písẹ́ẹ̀lì ta lè rí nígbà ìpamọ́">
+							<longdesc>Ń sọ ní pàtó iye àwọn písẹ́ẹ̀lì tó fojúhàn nígbà tí a fi páńẹ̀ẹlì náà pamọ́ sí igun kan. Bọ́tìnì yìí kàn wúlò tí bọ́tìnì ìpamọ́_aládàáṣe bá jẹ́ òótọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Ìdádúró àìfipamọ́-aládàáṣe pánẹ́èlì">
+							<longdesc>Ń sọ ní pàtó oye ìdádúró ọ̀kẹ́-ìṣísẹ̀ lẹ́yìn tí atọ́ka náà ti wọ agbègbè náà kí pánẹ́ẹ̀lì tó dá farahàn. Ìgbà tí bọ́tìnì ìpamọ́_aládàáṣe bá jẹ́ òótọ́ nìkan ni bọ́tìnì yìí wúlò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Ìdádúró ìpamọ́-aládàaṣe pánẹ́ẹ̀lì">
+							<longdesc>Ń sọ ní pàtó oye ìdádúró ọ̀kẹ́-ìṣísẹ̀ lẹ́yìn tí atọ́ka náà ti jáde lágbègbè náà kí pánẹ́ẹ̀lì tó di pípamọ́. Ìgbà tí bọ́tìnì ìpamọ́_aládàáṣe bá jẹ́ òótọ́ nìkan ni bọ́tìnì yìí wúlò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Fún àwon atọ́ka-árò lágbára lórí àwọn bọ́tìnì ìpamọ́">
+							<longdesc>Tó bá jẹ́ ò̀ótọ́,a óò gbé àwọn atọ́ka-árò sórí àwọn bọ́tìnì ìpamọ́. Bọ́tìnì yìíkàn wúlò tí àwọn bọ́tìnì_tí a fún lágbára bá jẹ́ òótọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Mú àwọn bọ́tìnì ìpamọ́ ṣiṣẹ́">
+							<longdesc>Tó bá jẹ́ ò̀ótọ́,a óò gbé àwọn bọ́tìnì sí ẹ̀̀̀gbẹ́ pánẹ́ẹ̀lì kọ̀ọ̀kan tí a lè lò láti gbé pánẹ́ẹ̀lìnáà lọ sí igun ojú kọ̀ǹpútà náà. Yóò sì fi bọ́tìnì kan tó ń ṣàfihàn sílẹ̀</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Fún àwọn ìṣàfarawé kọ̀ǹpútà lágbára">
+							<longdesc>Tó bá jẹ́ òótọ́, ìfipamọ́ àti àìfipamọ́ pánẹ́ẹ̀lì yìí á jẹ́ ìṣàfarawé kọ̀ǹpútà. ní èyí tí kò bá fi ṣẹlẹ̀ lẹ́sẹ̀kẹsẹ̀.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Ó fi pánẹ́ẹ̀lì pamọ́ sí igun">
+							<longdesc>Tó bá jẹ́ òótọ́, a óò fi pánẹ́ẹ̀lì náà pamọ́ fún ra rẹ̀ sínú igun ojú kọ̀ǹpútà náà nígbà tí atọ́ka náà bá fi agbègbè pánẹ́ẹ̀lì náà sílẹ̀. Gbígbé atọ́ka náà lọ sí igun yẹn lẹ́ẹ̀kan si á fa kí pánẹ́ẹ̀lì náà tún farahàn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Pánẹ́ẹ̀lì àárín orí ásìsì y">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Pánẹ́ẹ̀lì àárín orí ásìsì x">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Kọ́dínéètì Y pánẹ́èlì">
+							<longdesc>Ààyè pánẹ́ẹ̀lì lórí ásìsì y. Bọ́tìnì yìí kàn wúlò nínú móòdù tí a kò fẹ̀. Nínú móòdù tí a fẹ̀, ṣe ni a pa bọ́tìnì yìí tì ni, a sì gbesí igun ojú kọ̀ǹpútà tí bọ́tìnì ìṣàlàyé sọ ní pàtó.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="Kọ́dínéètì X pánẹ́ẹ̀lì">
+							<longdesc>Ààyè pánẹ́ẹ̀lì lórí ásìsì x. Bọ́tìnì yìí kàn wúlò nínú móòdù tí a kò fẹ̀. Nínú móòdù tí a fẹ̀, ṣe ni a pa bọ́tìnì yìí tì ni, a sì gbesí igun ojú kọ̀ǹpútà tí bọ́tìnì ìṣàlàyé sọ ní pàtó</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Ìwọ̀n pánẹ́ẹ̀lì">
+							<longdesc>Ìgasí (ìfẹ̀sí fún pánẹ́ẹ̀lì òòró) pánẹ́ẹ̀lì náà. Pánẹ́ẹ̀lì náà ló máa sọ ní àkókò láti rọ́ọ̀nù ìwọ̀n tó kéré jù, tó sì dálé ìwọ̀n ìrísí-lẹ́tà àti àwọn atọ́ka mìíràn. A ti fi ìwọ̀n tó ga jù sí ìdá-mẹ́rin ìgasí ojú kọ̀ǹpútà (tàbí ìfẹ̀sí).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Ìṣàlàyé pánẹ́ẹ̀lì">
+							<longdesc>Ìṣàlàyé pánẹ́ẹ̀lì yìí. Àwọn fálù tó lè jẹ́ ni &quot;òkè&quot;, &quot;ìsàlẹ̀&quot;, &quot;òsì&quot;, &quot;ọ̀tún&quot;. Ní móòdù tí a fẹ̀, bọ́tìnì náà ń sọ ní pàtó igun ojú kọ̀ǹpútà tí pánẹ́ẹ̀lì náà wà lórí ẹ. Nínú móòdù tí a kò fẹ̀ ìyàtọ̀ tó wà láàrin &quot;òkè&quot; àti &quot;ìsàlẹ̀&quot; pàtàkì díẹ̀ - méjéèjì fihàn pé èyí ni pánẹ́ẹ̀lì oníbùú - ṣùgbọ́n ó ṣì ń ṣòfófói bí ó ṣe yẹ kí àwọn nǹkan pánẹ́ẹ̀lì ṣe rí Bí àpẹẹrẹ, lórí pánẹ́ẹ̀lì &quot;òkè&quot; bọ́tìnì àòjọ-ẹ̀yan á ta àtòjọ-ẹ̀yàn rẹ̀ sókè nísàlẹ̀ pánẹ́ẹ̀lì náà. Bẹ́ẹ̀, lórí pánẹ́ẹ̀lì &quot;ìsàlẹ̀&quot; a óò ta àtòjọ-ẹ̀yàn náà sókè pánẹ́ẹ̀lì náà..</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Fẹ̀ẹ́ láti lè gba gbogbo ìfẹ̀sí ojú kọ̀ǹpútà">
+							<longdesc>Tó bá jẹ́ òótọ́, pánẹ́ẹ̀lì náà á gba gbogbo ìfẹ̀sí ojú kọ̀ǹpútà náà (ìgasí tí o bá jẹ́ pánẹ́ẹ̀lì olóòró). Nínú móòdù yìí, pánẹ́ẹ̀lì a kàn lè gbé pánẹ́ẹ̀lì sígun ojú kọ̀ǹpútà ni. Tó bá jẹ́ irọ́, pánẹ́ẹ̀lì náà á kàn tóbi láti gba gbogbo àwọn ápúlẹ́ẹ̀tì náà, àwọn aṣàfilọ́lẹ̀ àti àwọn bọ́tìnì lórí pánẹ́ẹ̀lì náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Àpótí ìṣàfihàn Xinerama níbi tí a ti ṣàfihàn pánẹ́ẹ̀lì náà">
+							<longdesc>Nínú àgbékalẹ̀-ètò Xinerama, o lè ní àwọn pánẹ́ẹ̀lì lórí àpótí ìṣàfihàn kọ̀ọ̀kan. Bọ́tìnì yìí ń tọ́ka sí àpótí ìṣàfihàn lọ́wọ́lọ́wọ́ tí a ti ṣàfihàn pánẹ́ẹ̀lì náà lé lórí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="Ojú kọ̀ǹpútà X níbi tí a ti ṣàfihàn pánẹ́ẹ̀lì náà">
+							<longdesc>Pẹ̀lú àgbékalẹ̀-ètò ojú kọ̀ǹpútà ọlọ́pọ̀, o lè ní àwọn pánẹ́ẹ̀lì lórí ojú kọ̀ǹpútà kọ̀ọ̀kan. Bọ́tìnì yìí ń tọ́ka sí ojú kọ̀ǹpútà lọ́wọ́lọ́wọ́ tí a ti ṣàfihàn pánẹ́èlì náà.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Orúkọ láti dá pánẹ́ẹ̀lì mọ̀">
+							<longdesc>Orúkọ èèyàn tí a lè kà ni èyí, tí o sì lè lò láti tọ́ka sí pánẹ́ẹ̀lì. Ìdí pàtàkì rẹ̀ ni láti ṣe iṣẹ́ gẹ́gẹ́ bíi àkọ́lé fèrèsé pánẹ́ẹ̀lì tí ó wúlò nígbà tí à ń tọpa láàrin àwọn pánẹ́ẹ̀lì.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Yí àwòrán po lórí àwọn pánẹ́ẹ̀lì òòró">
+								<longdesc>Tó bá jẹ́ òótọ́, a óò yí àwòrán ẹ̀yìn po tí pánẹ́ẹ̀lì náà bá jẹ́ olóòró.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Na àwòrán sí pánẹ́ẹ̀lì">
+								<longdesc>Tí ó bá jẹ́ òótọ́, a óò gbé àwòrán léwọ̀n àwọn ojúùwọ̀n pánẹ́ẹ̀lì. Réṣíò aspect àwòrán áwà bó ṣe wà.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Fi àwòrán sí pánẹ́ẹ̀lì">
+								<longdesc>Tó bá jẹ́ òótọ́, a óò ṣe ìgbéléwọ̀n àwòrán (             </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Àwòrán ẹ̀yìn">
+								<longdesc>Ń sọ fáìlì tí a óò lò ní pàtó fún ẹ̀yìn àwòrán. Tí àwòrán náà bá ní ṣánẹ́ẹ̀lì alpha a óò tòójọ sórí àwòrán ẹ̀yìn ojú-iṣẹ́.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Dídí àwọ̀ ẹ̀yìn">
+								<longdesc>Ń sọ ní pàtó dídí ìgúnrégé àwọ̀ ẹ̀yìn . Tí àwọ̀ náà kò bá dí pátá (fálù tó kéré sí 65535) a óò to àwọ̀ náà pọ̀ sórí àwòrán ẹ̀yìn ojú-iṣẹ́.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Àwọ̀ ẹ̀yìn">
+								<longdesc>Ń sọ níp pàtó àwọ̀ ẹ̀yìn fún pánẹ́ẹ̀lì inú ìgúnrégé #RGB.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Irúfẹ́ ẹ̀yìn">
+								<longdesc>Irúfẹ́ ẹ̀yìn wo la ó lò fún pánẹ́ẹ̀lì yìí. Àwọn fálù tó lè jẹ́ ni &quot;gtk&quot; - a óò lo ẹ̀yìn wíjẹ́ẹ̀tì ìpéwọ̀n GTK+, &quot;àwọ̀&quot; a óò lo bọ́tìnì àwọ̀ gẹ́gẹ́ bíi àwọ̀ ẹ̀yìn tàbí &quot;àwòrán&quot; - àwòrán tí bọ́tìnì àwòrán sọ la ó lò gẹ́gẹ́ bíi ẹ̀yìn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Yípo lórí àwọn pánẹ́ẹ̀lì òòró">
+							<longdesc>Tó bá jẹ́ òótọ́, a óò ṣàfihàn ìṣàfarawé kọ̀ǹpútà ẹja tí ó yípo lórí àwọn pánẹ́ẹ̀lì òòró.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Ìdẹsẹ̀dúró fún férémù kọ̀ọ̀kan">
+							<longdesc>Bọ́tìnì yìí ń sọ ní pàtó iye àwọn ìṣísẹ̀ tí férémù kọ̀ọ̀kan á ṣàfihàn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Àwọn férémù inú ìṣàfarawé kọ̀ǹpútà ẹja">
+							<longdesc>Bọ́tìnì yìí ń sọ ní pàtó iye férémù tí a óò ṣàfihàn wọn nínú ìṣàfarawé kọ̀ǹpútàẹja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Àṣẹ láti mu ṣiṣẹ́ lórí ìtẹ̀">
+							<longdesc>Bọ́tìnì yìí ń sọ ní pàtó àṣẹ tí a óò gbìyànjú láti mú ṣiṣẹ́ nígbà tí a bá tẹ̀ lórí ẹja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Pixmap ìṣàfarawé kọ̀ǹpútà ẹja">
+							<longdesc>Bọ́tìnì yìí sọ ní pàtó orúkọ-fáìlì pixmap tí a óò lò fún ìṣàfarawé kọ̀ǹpútà tí aṣàfihàn nínú ápúlẹ́ẹ̀tì ẹja tó jọ atọ́nà pixmap.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Orúkọ ẹja náà">
+							<longdesc>Òmùgọ̀ ẹja ní kò ní lórúkọ. Sọ eja dí alàyè nípa fífun lórúkọ.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="Àwòrán tí a fẹ́ láti lò fún ojú kọ̀ǹpútà píláàṣì">
+							<longdesc>Fálù tó jẹmọ́ ipa tó dálé atọ́nà $datadir/pixmaps/ ni èyí. Àwọn ẹ̀ka-atọ́nà àti àwọn orúkọ àwòrán jẹ́ àwọn fálù tó fẹsẹ̀múlẹ̀. Ìyípadà fálù yìí á kan ìbẹ̀rẹ̀ iṣẹ́ sáà tókàn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="Ìṣílórí ìparí iṣẹ́">
+							<longdesc>Tí a bá fún lágbára iṣẹ́ sáà gnome á́ ṣí òǹlò náà lórí kó tó parí sáà kan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Fi àwọn sáà pamọ́">
+							<longdesc>Tí a bá fún lágbára sáà-gnome á dáfi sáà náà pamọ́. Láì jẹ́ bẹ́ẹ̀, onísọ̀rọ̀gbèsì ìparí iṣẹ́ á ní ẹ̀yàn láti fi sáà náà pamọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Fi ojú kọ̀ǹpútà píláàṣì hàn">
+							<longdesc>Fi ojú kọ̀ǹpútà píláàṣì hàn tí sáà náà bá ti bẹ̀rẹ̀</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_quit">
+						<local_schema short_desc="Epiphany kò lè jáde">
+							<longdesc>A kò fàyè gba òǹlò láti ti Epiphany</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fullscreen">
+						<local_schema short_desc="Tìí ní móòdù ojú kọ̀ǹpútà kíkún">
+							<longdesc>Ń ti Epiphany ní móòdù ojú kọ̀ǹpútà kíkún.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_history">
+						<local_schema short_desc="Gbagbára iṣẹ́ ìtàn">
+							<longdesc>Gbagbára iṣẹ́ gbogbo ìròyìn ajẹmọ́tàn nípa gbígbára ìtọpa ìlọsẹ́yìn àti iwájú. Kó má́ fàyè gba onísọ̀rọ̀gbèsì ìtàn kó sí fi àtòjọ àwọn àmì-ìwé tó lò jù pamọ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_toolbar_editing">
+						<local_schema short_desc="Gbagbára ìṣàyẹ̀wò àká-irinṣẹ́">
+							<longdesc>Gbagbára iṣẹ́ ipá òǹlò láti ṣàyẹ̀wò àwọn àká-irinṣẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_bookmark_editing">
+						<local_schema short_desc="Gbagbára iṣẹ́ ìṣàyẹ̀wò àmì-ìwé">
+							<longdesc>Gbagbára iṣẹ́ ipá òǹlò láti ṣàfikún tàbí láti ṣàyẹ̀wò àwọn àmì-ìwé.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_arbitrary_url">
+						<local_schema short_desc="Gbagbára iṣẹ́ àwọn URL aláìnídìí">
+							<longdesc>Gbagbára iṣẹ́ ipá òǹlò láti tẹ̀wé nínú URL sí Epiphany.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="additional_safe_protocols">
+						<local_schema short_desc="Àfikún à̀wọn ìlàálẹ̀ òfin tí kò léwu">
+							<longdesc>Àtòjọ àwọn ìlàálẹ̀ òfin tí a lè ní pé kòséwu fún ní àfikún sí ìpéwọ̀n náà nígbà tí a bá fún gba agbára kí_àwọn ìlàálẹ̀ òfin_tó léwu lágbára láti ṣiṣẹ́.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_unsafe_protocols">
+						<local_schema short_desc="Gbagbá iṣẹ́ àwọn ìlàálẹ̀ òfin tó léwu">
+							<longdesc>Ń gbagbára iṣẹ́ kíki àkóónú láti inú àwọn ìlàálẹ̀ òfin tó léwu. Àwọn ìlàálẹ̀ òfin tí kò léwu ni http àti àwọn http.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_menubar">
+						<local_schema short_desc="Fi àká-àtòjọ-ẹ̀yàn pamọ́ nípa ìpéwọ̀n">
+						</local_schema>
+					</entry>
+					<entry name="disable_javascript_chrome">
+						<local_schema short_desc="Gbagbára iṣẹ́ ìdarí JavaScript chrome">
+							<longdesc>Gbagbára iṣẹ́ ìdarí JavaScript lórí chrome fèrèsé.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="directories">
+					<entry name="downloads_folder">
+						<local_schema short_desc="Fódà àwọn àgbéwọlé">
+							<longdesc>Ipà fódà tí a fẹ́ ṣàgbéwọlé àwọn fáìlì sí; tàbí&quot;Àwọn àgbéwọlé&quot; láti lo fódà àwọn àgbéwọlé ìpéwọ̀n, tàbí &quot;Ojú-iṣẹ́&quot; láti lo fódà ojú-iṣẹ́.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="browse_with_caret">
+						<local_schema short_desc="Wáròyìn pẹ̀lú caret">
+						</local_schema>
+					</entry>
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Fún JavaScript lágbára iṣẹ́">
+						</local_schema>
+					</entry>
+					<entry name="allow_popups">
+						<local_schema short_desc="Fàyè gba àwọn ìtasókè">
+							<longdesc>Fàyè gba àwọn gbàgede láti ṣí àwọn fèrèsé tuntun nípa lílo JavaScript (tí a bá fún JavaScript lágbára iṣẹ́).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image_animation">
+						<local_schema short_desc="Móòdù ìṣàfarawé kọ̀ǹpútà àwòrán">
+							<longdesc>Bí a ṣe lè ṣàgbékalẹ̀ àwọn àwòrán aṣàfarawé kọ̀ǹpútà. Àwọn fálù tó lẹ̀ jẹ́ ni &quot;déédé&quot;, &quot;lẹ́ẹ̀kan&quot; àti &quot;gbagbára iṣẹ́&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cookie_accept">
+						<local_schema short_desc="Kúkì gbà">
+							<longdesc>Níbì tí a ti máà gba kúkì. Àwọn fálù tó lè̀jẹ́ ni &quot;ibikíbi&quot;, gbàgede lọ́wọ́ĺọ́wọ́&quot; àti &quot;àìsí-níbikíbi&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Àwọn èdè">
+							<longdesc>Àwọn èdè tí a fẹ́ jù, àwọn kóòdù lẹ́tà méjì.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cache_size">
+						<local_schema short_desc="Ìwọ̀n àkópamọ́ fọ́nrán">
+							<longdesc>Ìwọ̀n àkópamọ́ fọ́nrán nínú MB.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_font_type">
+						<local_schema short_desc="Irúfẹ́ ìrísí-lẹ́tà ìpéwọ̀n">
+							<longdesc>Irúfẹ́ ìrísí-lẹ́tà ìpéwọ̀n. Àwọn fálù tó lè jẹ́ ni &quot;serif&quot; àti &quot;sans-serif&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema short_desc="Ìyítumọ̀ ìpéwọ̀n">
+							<longdesc>Ìyítumọ̀ ìpéwọ̀n. Àwọn fálù tó gbà ni: &quot;armscii-8&quot;, &quot;Big5&quot;, &quot;Big5-HKSCS&quot;, &quot;EUC-JP&quot;, &quot;EUC-KR&quot;, &quot;gb18030&quot;, &quot;GB2312&quot;, &quot;geostd8&quot;, &quot;HZ-GB-2312&quot;, &quot;IBM850&quot;, &quot;IBM852&quot;, &quot;IBM855&quot;, &quot;IBM857&quot;, &quot;IBM862&quot;, &quot;IBM864&quot;, &quot;IBM866&quot;, &quot;ISO-2022-CN&quot;, &quot;ISO-2022-JP&quot;, &quot;ISO-2022-KR&quot;, &quot;ISO-8859-1&quot;, &quot;ISO-8859-2&quot;, &quot;ISO-8859-3&quot;, &quot;ISO-8859-4&quot;, &quot;ISO-8859-5&quot;, &quot;ISO-8859-6&quot;, &quot;ISO-8859-7&quot;, &quot;ISO-8859-8&quot;, &quot;ISO-8859-8-I&quot;, &quot;ISO-8859-9&quot;, &quot;ISO-8859-10&quot;, &quot;ISO-8859-11&quot;, &quot;ISO-8859-13&quot;, &quot;ISO-8859-14&quot;, &quot;ISO-8859-15&quot;, &quot;ISO-8859-16&quot;, &quot;ISO-IR-111&quot;, &quot;KOI8-R&quot;, &quot;KOI8-U&quot;, &quot;Shift_JIS&quot;, &quot;TIS-620&quot;, &quot;UTF-7&quot;, &quot;UTF-8&quot;, &quot;VISCII&quot;, &quot;windows-874&quot;, &quot;windows-1250&quot;, &quot;windows-1251&quot;, &quot;windows-1252&quot;, &quot;windows-1253&quot;, &quot;windows-1254&quot;, &quot;windows-1255&quot;, &quot;windows-1256&quot;, &quot;windows-1257&quot;, &quot;windows-1258&quot;, &quot;x-euc-tw&quot;, &quot;x-gbk&quot;, &quot;x-johab&quot;, &quot;x-mac-arabic&quot;, &quot;x-mac-ce&quot;, &quot;x-mac-croatian&quot;, &quot;x-mac-cyrillic&quot;, &quot;x-mac-devanagari&quot;, &quot;x-mac-farsi&quot;, &quot;x-mac-greek&quot;, &quot;x-mac-gujarati&quot;, &quot;x-mac-gurmukhi&quot;, &quot;x-mac-hebrew&quot;, &quot;x-mac-icelandic&quot;, &quot;x-mac-roman&quot;, &quot;x-mac-romanian&quot;, &quot;x-mac-turkish&quot;, &quot;x-mac-ukrainian&quot;, &quot;x-user-defined&quot;, &quot;x-viet-tcvn5712&quot;, &quot;x-viet-vps&quot; and &quot;x-windows-949&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="Lo àwọn ìrísí-lẹ́tà rẹ">
+							<longdesc>Lo àwọn ìrísí-lẹ́tà tìrẹ dípò àwọn ìrísí-lẹ́tà tí ojú-ìwé náà bèrè fún.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="Lo àwọn àwọ̀ rẹ">
+							<longdesc>Lo àwọn àwọ̀ tìrẹ dípò àwọn àwọ̀ tí ojú-ìwé náà bèrè fún.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimum_font_size">
+						<local_schema short_desc="Ìwọ̀n ìrísí-lẹ́tà tó kéré jù">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="print_page_numbers">
+						<local_schema short_desc="Bóyá ká píríǹtì àwọn nọ́ńbà ojú-ìwé (àpapọ̀ x) inú àyọkà ìsàlẹ̀-ilà">
+						</local_schema>
+					</entry>
+					<entry name="print_date">
+						<local_schema short_desc="Bóyá ká píríǹtì déètì náà nínú àyọkà ìsàlẹ̀-ilà">
+						</local_schema>
+					</entry>
+					<entry name="print_page_url">
+						<local_schema short_desc="Bóyá ká píríǹtì déètì náà nínú àyọkà ìsàlẹ̀-ilà">
+						</local_schema>
+					</entry>
+					<entry name="print_page_title">
+						<local_schema short_desc="Bóyá ká píríǹtì àkọ́lẹ́ ojú-ìwé inú àyọkà òkè-ilà náà">
+						</local_schema>
+					</entry>
+					<entry name="preferences_font_language">
+						<local_schema short_desc="Èdè àwọn ìrísí-lẹ́tà tí a ṣẹ̀ yàn lọ́wọ́lọ́wọ́">
+							<longdesc>Èdè àwọn ìrísí-lẹ́tà tí a ṣẹ̀ yàn lọ́wọ́lọ́wọ́. Àwọn fálù tó fẹ̀sẹ̀múlẹ̀ ni &quot;ar&quot; (arabic), &quot;x-baltic&quot; (baltic languages), &quot;x-central-euro&quot; (central european languages), &quot;x-cyrillic&quot; (languages written with cyrillic alphabet), &quot;el&quot; (greek), &quot;he&quot; (hebrew), &quot;ja&quot; (japanese), &quot;ko&quot; (korean), &quot;zh-CN&quot; (simplified chinese), &quot;th&quot; (thai), &quot;zh-TW&quot; (traditional chinese), &quot;tr&quot; (turkish), &quot;x-unicode&quot; (other languages), &quot;x-western&quot; (languages written in latin script), &quot;x-tamil&quot; (tamil) and &quot;x-devanagari&quot; (devanagari).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="history_view_details">
+						<local_schema short_desc="Ìròyìn ojú-ìwé tí a fihàn nínú òye ìtàn náà">
+						</local_schema>
+					</entry>
+					<entry name="bookmarks_view_details">
+						<local_schema short_desc="Ìròyìn àmì-ìwé náà tí a fi hàn nínú òye olótùú náà">
+							<longdesc>Ìròyìn àmì-ìwé náà tí a fi hàn nínú òye olótùú náà. Àwọn fálù tó fesẹ̀múlẹ̀ nínú àtòjọ náà ni &quot;àdírẹ̀sì&quot; àti&quot;àkọ́lé&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="history_date_filter">
+						<local_schema short_desc="Sákánì àkókò àwọn ojú-ìwé ìtàn">
+							<longdesc>Fi àwọn ojú-ìwé ìtàn tí a bẹ̀wò hàn &quot;nígbà gbogbo&quot;, &quot;lọ́jọ́_méjì_sẹ́yìn&quot;, &quot;lónìí&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="managed_network">
+						<local_schema short_desc="Bójútó ipò àìsí lórí wáyà pẹ̀lú Alábòójútó-Alátagbà">
+						</local_schema>
+					</entry>
+					<entry name="active_extensions">
+						<local_schema short_desc="Àwọn amúgbálẹ̀gbẹ́ alápọn">
+							<longdesc>́Ń ṣàtòjọ àwọn amúgbálẹ̀gbẹ́ alápọn</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_statusbar">
+						<local_schema short_desc="Fi àká-ipò hàn nípa ìpéwọ̀n">
+						</local_schema>
+					</entry>
+					<entry name="show_bookmarks_bar">
+						<local_schema short_desc="Fi àká àwọn àmì-ìwé hàn nípa ìpéwọ̀n">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbars">
+						<local_schema short_desc="Fi àwọn àká-irinṣẹ́ hàn nípa ìpéwọ̀n">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Sítàì àká-irinṣẹ́">
+							<longdesc>Sítàì àká-irinṣẹ́. Àwọn fálù tí a fàyè gbà ni &quot;&quot; (lo sítàì ìpéwọ̀n GNOME),.&quot;àti&quot; (àyọkà àti àwọn áíkànnù), &quot;both-horiz&quot; (àyọkà yàtọ̀ sí àwọn áíkànnù), &quot;àwọn áíkànnù&quot; àti &quot;àyọkà&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="middle_click_open_url">
+						<local_schema short_desc="Tẹ à́árín láti ṣí ojú-ìwé wẹ́ẹ̀bù tí àyọkà tí a yàn lọ́wọ́lọ́wọ́ tọ́ka sí">
+							<longdesc>Títẹ̀ péènì òye àárín gangan láàrin á ṣí ojú-ìwé wẹ́ẹ̀bù tí àyọkà tí a yàn lọ́wọ́lọ́wọ́ ń tọ́ka sí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="automatic_downloads">
+						<local_schema short_desc="Àwọn àgbéwọlé aládàáṣe">
+							<longdesc>Nígbà tí a kò bá lè ṣí àwọn fáìlì pẹ̀lú awáròyìn, a jẹ́ pé a ti gbéwọn wọlé nìyẹn sínú fódà àgbéwọlé. bẹ́ẹ̀, la sì ti ṣi pẹ̀lú ìṣàmúlò-ètò tó yẹ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="Ìgbà gbogbo ló máa ń fi àká táàbù hàn">
+							<longdesc>Tún fi àká táàbù náà hàn nígbà tóbá ti ẹ̀ jẹ́ wí pé táàbù kan wà ní ṣíṣí.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Ojú-ìwé ilé">
+							<longdesc>Àdírẹ̀sì ojú-ìwé ilé òǹlò náà.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

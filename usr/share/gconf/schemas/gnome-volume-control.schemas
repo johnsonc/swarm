@@ -1,0 +1,774 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/gnome-volume-control/ui/window_height</key>
+      <applyto>/apps/gnome-volume-control/ui/window_height</applyto>
+      <owner>gnome-volume-control</owner>
+      <type>int</type>
+      <default>-1</default>
+      <locale name="C">
+        <short>Height of the Window</short>
+        <long>Height of the Window to be displayed</long>
+      </locale>
+
+      <locale name="af">
+        <short>Hoogte van die venster</short>
+        <long>Hoogte van die venster wat vertoon word</long>
+      </locale>
+
+      <locale name="ar">
+        <short>ارتفاع النّافذة</short>
+        <long>طول النّافذة التي سيتم إظهارها</long>
+      </locale>
+
+      <locale name="as">
+        <short>উইন্ডোৰ উচ্চতা</short>
+        <long>যে উইন্ডোকে প্ৰদৰ্শন কৰা হ&apos;ব, তাৰ উচ্চতা</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Altor de la ventana</short>
+        <long>L&apos;altor de la ventana que s&apos;amosará</long>
+      </locale>
+
+      <locale name="be">
+        <short>Вышыня вакна</short>
+        <long>Вышыня паказанага вакна</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Vyšynia vakna</short>
+        <long>Vyšynia pakazvanaha vakna</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Височина на прозореца</short>
+        <long>Височина на прозореца, който ще бъде показан</long>
+      </locale>
+
+      <locale name="bn">
+        <short>উইন্ডোর উচ্চতা</short>
+        <long>প্রদর্শনযোগ্য উইন্ডোর উচ্চতা</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>উইন্ডোর উচ্চতা</short>
+        <long>প্রদর্শনযোগ্য উইন্ডোর উচ্চতা</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Alçada de la finestra</short>
+        <long>Alçada de la finestra que es mostrarà</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Alçada de la finestra</short>
+        <long>Alçada de la finestra que es mostrarà</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výška okna</short>
+        <long>Výška zobrazovaného okna</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Uchder y ffenestr</short>
+        <long>Uchder y ffenestr i&apos;w dangos</long>
+      </locale>
+
+      <locale name="da">
+        <short>Vinduets højde</short>
+        <long>Højden af vinduet der skal vises</long>
+      </locale>
+
+      <locale name="de">
+        <short>Höhe des Fensters</short>
+        <long>Die Höhe mit der das Fenster angezeigt wird.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>སྒོ་སྒྲིག་གི་མཐོ་ཚད།</short>
+        <long>བཀྲམ་སྟོན་འབད་ནིའི་ སྒོ་སྒྲིག་གི་མཐོ་ཚད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ύψος του παραθύρου</short>
+        <long>Ύψος του παραθύρου που θα προβληθεί</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑣𐑲𐑑 𐑝 𐑞 𐑢𐑦𐑯𐑛𐑴</short>
+        <long>𐑣𐑲𐑑 𐑝 𐑞 𐑢𐑦𐑯𐑛𐑴 𐑑 𐑚𐑰 𐑛𐑩𐑕𐑐𐑤𐑱𐑛</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Height of the Window</short>
+        <long>Height of the Window to be displayed</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Height of the Window</short>
+        <long>Height of the window to be displayed</long>
+      </locale>
+
+      <locale name="es">
+        <short>Altura de la ventana</short>
+        <long>La altura de la ventana que se mostrará</long>
+      </locale>
+
+      <locale name="et">
+        <short>Akna kõrgus</short>
+        <long>Kuvatava akna kõrgus</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Leihoaren altuera</short>
+        <long>Bistaratuko den leihoaren altuera</long>
+      </locale>
+
+      <locale name="fa">
+        <short>ارتفاع پنجره</short>
+        <long>ارتفاع پنجره‌ای که نمایش داده می‌شود</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Ikkunan korkeus</short>
+        <long>Näytettävän ikkunan korkeus</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Hauteur de la fenêtre</short>
+        <long>Hauteur de la fenêtre à afficher</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Altura da xanela</short>
+        <long>Altura da xanela que se vai mostrar</long>
+      </locale>
+
+      <locale name="gu">
+        <short>વિન્ડોની ઊંચાઈ</short>
+        <long>દર્શાવવા માટેની વિન્ડોની ઊંચાઈ</long>
+      </locale>
+
+      <locale name="he">
+        <short>Height of the Window</short>
+        <long>Height of the Window to be displayed</long>
+      </locale>
+
+      <locale name="hi">
+        <short>विंडो की ऊंचाई</short>
+        <long>प्रदर्शित होने वाली विंडो की ऊंचाई</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Visina prozora</short>
+        <long>Visina prikazanog prozora</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Az ablak magassága</short>
+        <long>A megjelenítendő ablak magassága</long>
+      </locale>
+
+      <locale name="id">
+        <short>Tinggi Jendela</short>
+        <long>Tinggi jendela yang ditampilkan</long>
+      </locale>
+
+      <locale name="it">
+        <short>Altezza della finestra</short>
+        <long>Altezza della finestra da visualizzare</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ウィンドウの高さ</short>
+        <long>表示するウィンドウの高さです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ವಿಂಡೋದ ಉದ್ದ</short>
+        <long>ತೋರಿಸಬೇಕಿರುವ ವಿಂಡೋದ ಉದ್ದ</long>
+      </locale>
+
+      <locale name="ko">
+        <short>창의 높이</short>
+        <long>보이는 창의 높이</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Bilindahiya Paceyê</short>
+        <long>Bilindahiya Paceya ku Wê Were Nîşandan</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Lango aukštis</short>
+        <long>Rodomo lango dydis</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Loga augstums</short>
+        <long>Rādāmā loga augstums</long>
+      </locale>
+
+      <locale name="mai">
+        <short>विंडो क&apos; उँचाइ</short>
+        <long>प्रदर्शित हए बला विंडो क&apos; उँचाइ</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Haavon&apos;ny fikandrana</short>
+        <long>Haavon&apos;ny fikandrana haseho</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Височина на прозорец</short>
+        <long>Височина на прикажаниот прозорец</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ജാലകത്തിന്‍റെ ഉയരം</short>
+        <long>കാണിക്കുവാനുള്ള ജാലകത്തിന്റെ ഉയരം</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Цонхны өндөр</short>
+        <long>Цонхны өндөрийг харуулах болно</long>
+      </locale>
+
+      <locale name="mr">
+        <short>पटलची ऊंची</short>
+        <long>प्रदर्शित होणाऱ्या पटलची ऊंची</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Høyden på vinduet</short>
+        <long>Høyden på vinduet som skal vises</long>
+      </locale>
+
+      <locale name="nds">
+        <short>Finsterhöhe</short>
+        
+      </locale>
+
+      <locale name="ne">
+        <short>सञ्झ्यालको उचाइ</short>
+        <long>प्रदर्शित गर्नुपर्ने सञ्झ्यालको उचाइ</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Hoogte van het venster</short>
+        <long>Hoogte van het weer te geven venster</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Høgde på vindauget</short>
+        <long>Høgde på vindauget som vert vist</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Nautor de la fenèstra</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ୱିଣ୍ଡୋର ଉଚ୍ଚତା</short>
+        <long>ପ୍ରଦର୍ଶିତ କରାଯିବା ୱିଣ୍ଡୋର ଉଚ୍ଚତା</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਝਰੋਖੇ ਦੀ ਉਚਾਈ</short>
+        <long>ਵੇਖਾਉਣ ਲਈ ਝਰੋਖੇ ਦੀ ਉਚਾਈ ਹੈ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wysokość okna</short>
+        <long>Wysokość wyświetlanego okna</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Altura da Janela</short>
+        <long>Altura da Janela a ser apresentada</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Altura da janela</short>
+        <long>A altura da janela a ser exibida</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Înălțimea ferestrei</short>
+        <long>Înălțimea ferestrei afișate</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Высота окна</short>
+        <long>Высота отображаемого окна</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Výška okna</short>
+        <long>Výška okna, ktoré bude zobrazené</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Višina okna</short>
+        <long>Višina okna za prikaz</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Lartësia e dritares</short>
+        <long>Lartësia e dritares për t&apos;u shfaqur</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Висина прозора</short>
+        <long>Висина прозора за приказ</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Visina prozora</short>
+        <long>Visina prozora za prikaz</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Höjd på fönstret</short>
+        <long>Höjd på fönstret som ska visas</long>
+      </locale>
+
+      <locale name="ta">
+        <short>சாளரத்தின் உயரம்</short>
+        <long>காட்ட வேண்டிய சாளரத்தின் உயரம்</long>
+      </locale>
+
+      <locale name="te">
+        <short>విండో యొక్క ఎత్తు</short>
+        <long>ప్రదర్శించవలిసిన విండో యొక్క ఎత్తు</long>
+      </locale>
+
+      <locale name="th">
+        <short>ความสูงของหน้าต่าง</short>
+        <long>ความสูงของหน้าต่างที่จะแสดง</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Pencerenin Yüksekliği</short>
+        <long>Gösterilecek pencerenin yüksekliği</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Висота вікна</short>
+        <long>Висота вінка</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Độ cao của cửa sổ</short>
+        <long>Chiều cao của cửa sổ cần hiển thị</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>窗口的高度</short>
+        <long>窗口所显示的高度</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>視窗高度</short>
+        <long>顯示的視窗的高度</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>視窗高度</short>
+        <long>顯示的視窗的高度</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnome-volume-control/ui/window_width</key>
+      <applyto>/apps/gnome-volume-control/ui/window_width</applyto>
+      <owner>gnome-volume-control</owner>
+      <type>int</type>
+      <default>500</default>
+      <locale name="C">
+        <short>Width of the Window</short>
+        <long>Width of the Window to be displayed</long>
+      </locale>
+
+      <locale name="af">
+        <short>Wydte van die venster</short>
+        <long>Wydte van die venster wat vertoon word</long>
+      </locale>
+
+      <locale name="ar">
+        <short>عرض النّافذة</short>
+        <long>عرض النّافذة التي سيتم إظهارها</long>
+      </locale>
+
+      <locale name="as">
+        <short>উইন্ডোৰ প্ৰস্থ</short>
+        <long>যে উইন্ডোকে প্ৰদৰ্শন কৰা হ&apos;ব, তাৰ প্ৰস্থ</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Anchor de la ventana</short>
+        <long>L&apos;anchor de la ventana que s&apos;amosará</long>
+      </locale>
+
+      <locale name="be">
+        <short>Шырыня вакна</short>
+        <long>Шырыня паказанага вакна</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Šyrynia vakna</short>
+        <long>Šyrynia pakazvanaha vakna</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Широчина на прозореца</short>
+        <long>Широчина на прозореца, който ще бъде показан</long>
+      </locale>
+
+      <locale name="bn">
+        <short>উইন্ডোর প্রস্থ</short>
+        <long>প্রদর্শনযোগ্য উইন্ডোর প্রস্থ</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>উইন্ডোর প্রস্থ</short>
+        <long>প্রদর্শনযোগ্য উইন্ডোর প্রস্থ</long>
+      </locale>
+
+      <locale name="br">
+        <short>Ledander ar prenestr</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Amplada de la finestra</short>
+        <long>Amplada de la finestra que es mostrarà</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Amplada de la finestra</short>
+        <long>Amplada de la finestra que es mostrarà</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Šířka okna</short>
+        <long>Šířka zobrazovaného okna</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Lled y ffenestr</short>
+        <long>Lled y ffenestr i&apos;w dangos</long>
+      </locale>
+
+      <locale name="da">
+        <short>Vinduets bredde</short>
+        <long>Bredden af vinduet der skal vises</long>
+      </locale>
+
+      <locale name="de">
+        <short>Breite des Fensters</short>
+        <long>Die Breite mit der das Fenster angezeigt wird.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>སྒོ་སྒྲིག་གི་རྒྱ་ཚད།</short>
+        <long>བཀྲམ་སྟོན་འབད་ནིའི་ སྒོ་སྒྲིག་གི་རྒྱ་ཚད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Πλάτος του παραθύρου</short>
+        <long>Πλάτος του παραθύρου που θα προβληθεί</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑢𐑦𐑛𐑔 𐑝 𐑞 𐑢𐑦𐑯𐑛𐑴</short>
+        <long>𐑢𐑦𐑛𐑔 𐑝 𐑞 𐑢𐑦𐑯𐑛𐑴 𐑑 𐑚𐑰 𐑛𐑩𐑕𐑐𐑤𐑱𐑛</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Width of the Window</short>
+        <long>Width of the Window to be displayed</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Width of the Window</short>
+        <long>Width of the window to be displayed</long>
+      </locale>
+
+      <locale name="es">
+        <short>Anchura de la ventana</short>
+        <long>La anchura de la ventana que de mostrará</long>
+      </locale>
+
+      <locale name="et">
+        <short>Akna laius</short>
+        <long>Kuvatava akna laius</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Leihoaren zabalera</short>
+        <long>Bistaratuko den leihoaren zabalera</long>
+      </locale>
+
+      <locale name="fa">
+        <short>عرض پنجره</short>
+        <long>عرض پنجره‌ای که نمایش داده می‌شود</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Ikkunan leveys</short>
+        <long>Näytettävän ikkunan leveys</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Largeur de la fenêtre</short>
+        <long>Largeur de la fenêtre à afficher</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Largura da xanela</short>
+        <long>Largura da xanela que se vai mostrar</long>
+      </locale>
+
+      <locale name="gu">
+        <short>વિન્ડોની પહોળાઈ</short>
+        <long>દર્શાવવા માટેની વિન્ડોની પહોળાઈ</long>
+      </locale>
+
+      <locale name="he">
+        <short>Width of the Window</short>
+        <long>Width of the Window to be displayed</long>
+      </locale>
+
+      <locale name="hi">
+        <short>विंडो की चौड़ाई</short>
+        <long>प्रदर्शित होने वाली विंडो की चौड़ाई</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Širina prozora</short>
+        <long>Širina prikazanog prozora</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Az ablak szélessége</short>
+        <long>A megjelenítendő ablak szélessége</long>
+      </locale>
+
+      <locale name="id">
+        <short>Lebar Jendela</short>
+        <long>Lebar jendela yang ditampilkan</long>
+      </locale>
+
+      <locale name="it">
+        <short>Larghezza della finestra</short>
+        <long>Larghezza della finestra da visualizzare</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ウィンドウの幅</short>
+        <long>表示するウィンドウの幅です。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ವಿಂಡೋದ ಅಗಲ</short>
+        <long>ತೋರಿಸಬೇಕಿರುವ ವಿಂಡೋದ ಅಗಲ</long>
+      </locale>
+
+      <locale name="ko">
+        <short>창의 너비</short>
+        <long>보이는 창의 너비</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Firehiya Paceyê</short>
+        <long>Firehiya Paceya ku Wê Were Nîşandan</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Lango plotis</short>
+        <long>Rodomo lango plotis</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Loga platums</short>
+        <long>Rādāmā loga platums</long>
+      </locale>
+
+      <locale name="mai">
+        <short>विंडो क&apos; चओड़ाइ</short>
+        <long>प्रदर्शित हए बला विंडो क&apos; चओड़ाइ</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Indran&apos;ny fikandrana</short>
+        <long>Indran&apos;ny fikandrana haseho</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Широчина на прозорец</short>
+        <long>Широчина на прикажаниот прозорец</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ജാലകത്തിന്‍റെ വീതി</short>
+        <long>കാണിക്കുവാനുള്ള ജാലകത്തിന്റെ വീതി</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Цонхны өргөн</short>
+        <long>Цонхны өргөнийг харуулах болно</long>
+      </locale>
+
+      <locale name="mr">
+        <short>पटलची रुंदी</short>
+        <long>प्रदर्शित होणाऱ्या पटलची रुंदी</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Bredden på vinduet</short>
+        <long>Bredden på vinduet som skal vises</long>
+      </locale>
+
+      <locale name="nds">
+        <short>Finsterbrede</short>
+        
+      </locale>
+
+      <locale name="ne">
+        <short>सञ्झ्यालको चौडाइ</short>
+        <long>प्रदर्शित गर्नुपर्ने सञ्झ्यालको चौडाइ</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Breedte van het venster</short>
+        <long>Breedte van  het weer te geven venster</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Breidde på vindauget</short>
+        <long>Breidde på vindauget som vert vist</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Largor de la fenèstra</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ୱିଣ୍ଡୋର ଓସାର</short>
+        <long>ପ୍ରଦର୍ଶିତ କରାଯିବା ୱିଣ୍ଡୋର ଓସାର</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਝਰੋਖੇ ਦੀ ਚੌੜਾਈ</short>
+        <long>ਵੇਖਾਉਣ ਵਾਲੇ ਝਰੋਖੇ ਦੀ ਚੌੜਾਈ ਹੈ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Szerokość okna</short>
+        <long>Szerokość wyświetlanego okna</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Largura da Janela</short>
+        <long>Largura da Janela a ser apresentada</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Largura da janela</short>
+        <long>A largura da janela a ser exibida</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Lățimea ferestrei</short>
+        <long>Lățimea ferestrei afișate</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Ширина окна</short>
+        <long>Ширина отображаемого окна</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Šírka okna</short>
+        <long>Šírka okna, ktoré bude zobrazené</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Širina okna</short>
+        <long>Širina okna za prikaz</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Gjerësia e Dritares</short>
+        <long>Gjerësia e dritares për t&apos;u shfaqur</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Дужина прозора</short>
+        <long>Дужина прозора за приказ</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Dužina prozora</short>
+        <long>Dužina prozora za prikaz</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Bredd på fönstret</short>
+        <long>Bredd på fönstret som ska visas</long>
+      </locale>
+
+      <locale name="ta">
+        <short>சாளரத்தின் அகலம்</short>
+        <long>காட்ட வேண்டிய சாளரத்தின் உயரம்</long>
+      </locale>
+
+      <locale name="te">
+        <short>విండో యొక్క వెడల్పు</short>
+        <long>ప్రదర్శించవలిసిన విండో వెడల్పు</long>
+      </locale>
+
+      <locale name="th">
+        <short>ความกว้างของหน้าต่าง</short>
+        <long>ความกว้างของหน้าต่างที่จะแสดง</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Pencerenin Genişliği</short>
+        <long>Gösterilecek pencerenin genişliği</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Ширина вікна</short>
+        <long>Ширина вікна</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Độ rộng của cửa sổ</short>
+        <long>Chiều rộng của cửa sổ cần hiển thị</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>窗口的宽度</short>
+        <long>窗口所显示的宽度</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>視窗闊度</short>
+        <long>顯示的視窗的闊度</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>視窗寬度</short>
+        <long>顯示的視窗的寬度</long>
+      </locale>
+    </schema>
+
+ </schemalist>
+</gconfschemafile>

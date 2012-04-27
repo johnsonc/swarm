@@ -1,0 +1,104 @@
+#!/bin/bash
+echo Installing debian squeeze on flash
+#echo Press ctrl-c to abort 5
+#sleep 1
+#echo Press ctrl-c to abort 4
+#sleep 1
+#echo Press ctrl-c to abort 3
+#sleep 1
+#echo Press ctrl-c to abort 2
+#sleep 1
+#echo Press ctrl-c to abort 1
+#sleep 1
+#echo Press ctrl-c to abort 0
+#sleep 1
+echo android is passe anyway getting rid of it
+Fs_root=`cat /proc/mtd | grep filesystem-NAND | cut -f 1 -d:`
+echo root partition = $Fs_root
+Fs_usr=`cat /proc/mtd | grep LocalDisk | cut -f 1 -d:`
+echo usr partition = $Fs_usr
+Fs_disk2=`cat /proc/mtd | grep android-data | cut -f 1 -d:`
+echo disk2 partition=$Fs_disk2
+Fs_android_cache=`cat /proc/mtd | grep android-cache | cut -f 1 -d:`
+echo Fs_android_cache partition=$Fs_android_cache
+
+root_part_num=`echo $Fs_root | cut -dd -f2`
+usr_part_num=`echo $Fs_usr | cut -dd -f2`
+disk2_part_num=`echo $Fs_disk2 | cut -dd -f2`
+home_part_num=`echo $Fs_android_cache | cut -dd -f2`
+
+
+flash_eraseall /dev/$Fs_root
+flash_eraseall /dev/$Fs_usr
+flash_eraseall /dev/$Fs_disk2
+flash_eraseall /dev/$Fs_android_cache
+
+mount /dev/mtdblock$root_part_num /disk1
+mkdir /disk1/usr
+mkdir /disk1/home
+mount /dev/mtdblock$usr_part_num /disk1/usr
+mount /dev/mtdblock$home_part_num /disk1/home
+mkdir /disk1/usr/share
+mount /dev/mtdblock$disk2_part_num /disk1/usr/share
+
+#mkdir /disk2/share
+#ln -s /disk2/share /disk1/usr/share
+#mkdir /disk2/home
+#ln -s /disk2/home /disk1/home
+mount /dev/mmcblk0p2 /mnt
+cd /mnt
+
+cp -rvp * /disk1/
+cp /etc/fstab-nand /disk1/etc/fstab
+
+exit 0
+
+mkdir /disk1/proc
+mkdir /disk1/sys
+mkdir /disk1/disk1
+mkdir /disk1/disk2
+mkdir /disk1/disk3
+mkdir /disk1/disk4
+mkdir /disk1/tmp
+mkdir  disk1/mnt
+mkdir  disk1/mnt1
+mkdir  disk1/mnt2
+cp -rvp /bin /disk1
+cp -rvp /data /disk1
+cp -rvp /dev /disk1
+cp -rvp /etc /disk1  
+cp /etc/fstab-nand /disk1/etc/fstab
+cp -rvp /lib /disk1
+cp -rvp /media /disk1
+cp -rvp /opt /disk1
+cp -rvp /root /disk1
+cp -rvp /selinux /disk1
+cp -rvp /boot /disk1
+cp -rvp /home /disk1
+cp -rvp /sbin /disk1
+cp -rvp /srv /disk1
+cp -rvp /var /disk1
+cd /usr
+cp -rvp bin /disk1/usr/
+cp -rvp sbin /disk1/usr/
+cp -rvp lib /disk1/usr/
+cp -rvp games /disk1/usr/
+cp -rvp include /disk1/usr/
+cp -rvp local  /disk1/usr 
+cp -rvp src /disk1/usr/
+cp -rvp share /disk2/
+
+exit 0
+
+mtd_size=`mtd_debug info /dev/mtd9 | grep mtd.size | cut -d" " -f3`
+echo $mtd_size
+mtd_debug erase /dev/mtd9 0 $mtd_size
+mount /dev/mmcblk0p1 /mnt
+cp /mnt/wmt_scriptcmd_kernel_install /mnt/wmt_scriptcmd
+echo  wmt-install-kernel has the following lines
+echo mmcinit 0
+echo fatload mmc 0 0
+echo nandrw w 0 ${kernel-NAND_ofs} ${filesize}
+echo poweroff 
+echo Remember to  remove sd card and reboot and recopy wmt_scriptcmd-original to wmt_scriptcmd on the microsd
+echo Dont do the above if you dont know what you are doing. You will brick your device

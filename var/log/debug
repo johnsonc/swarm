@@ -1,0 +1,1282 @@
+May 18 15:32:29 mid kernel: On node 0 totalpages: 54784
+May 18 15:32:29 mid kernel: free_area_init_node: node 0, pgdat c05b5f3c, node_mem_map c0696000
+May 18 15:32:29 mid kernel:  Normal zone: 428 pages used for memmap
+May 18 15:32:29 mid kernel:  Normal zone: 0 pages reserved
+May 18 15:32:29 mid kernel:  Normal zone: 54356 pages, LIFO batch:15
+May 18 15:32:30 mid kernel: pci 0000:00:01.0: reg 10 io port: [0xd8008100-0xd8008107]
+May 18 15:32:30 mid kernel: pci 0000:00:01.0: reg 14 io port: [0xd8008144-0xd8008147]
+May 18 15:32:30 mid kernel: pci 0000:00:01.0: reg 20 io port: [0xd8008180-0xd800818f]
+May 18 15:32:30 mid kernel: pci 0000:00:02.0: reg 10 io port: [0xd8004000-0xd80040ff]
+May 18 15:32:30 mid kernel: pci 0000:00:02.0: reg 14 32bit mmio: [0xd8004000-0xd80040ff]
+May 18 15:32:30 mid kernel: pci 0000:00:04.0: reg 10 32bit mmio: [0xd8007900-0xd80079ff]
+May 18 15:32:30 mid kernel: pci 0000:00:05.0: reg 20 io port: [0xd8007b00-0xd8007b1f]
+May 18 15:32:30 mid kernel: pci 0000:00:06.0: reg 20 io port: [0xd8008d00-0xd8008d1f]
+May 18 15:32:30 mid kernel: MTD dev0   size: 0x00d00000   : "filesystem-SF"
+May 18 15:32:30 mid kernel: MTD dev1   size: 0x00280000   : "kernel-SF"
+May 18 15:32:30 mid kernel: MTD dev2   size: 0x00050000   : "u-boot-SF"
+May 18 15:32:30 mid kernel: MTD dev3   size: 0x00010000   : "u-boot env. cfg. 1-SF"
+May 18 15:32:30 mid kernel: MTD dev4   size: 0x00010000   : "u-boot env. cfg. 2-SF"
+May 18 15:32:30 mid kernel: MTD dev5   size: 0x00010000   : "w-load-SF"
+May 18 15:32:30 mid kernel: MTD Dev3 isn't valid
+May 18 15:32:30 mid kernel: Bad block table found at page 524032, version 0x01
+May 18 15:32:30 mid kernel: Bad block table found at page 523904, version 0x01
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x000000400000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x000000500000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x000001000000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x000001100000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x00003b400000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x00003cc00000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x00003cd00000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x000049e00000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x00004ac00000
+May 18 15:32:30 mid kernel: nand_read_bbt: Bad block at 0x00004ae00000
+May 18 15:32:30 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 18 15:32:30 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 18 15:32:30 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 18 15:32:30 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 18 15:32:30 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 18 15:32:30 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 18 15:32:30 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 18 15:32:30 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 18 15:32:30 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 18 15:32:30 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 18 15:32:30 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 18 15:32:30 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 18 15:32:30 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 18 15:32:30 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 18 15:32:30 mid kernel: MTD dev7 size: 0x00400000     : "kernel-logo"
+May 18 15:32:30 mid kernel: drivers/usb/core/inode.c: creating file 'devices'
+May 18 15:32:30 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:05.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:05.0: Performing full reset
+May 18 15:32:30 mid kernel: usb usb1: default language 0x0409
+May 18 15:32:30 mid kernel: usb usb1: udev 1, busnum 1, minor = 0
+May 18 15:32:30 mid kernel: usb usb1: uevent
+May 18 15:32:30 mid kernel: usb usb1: usb_probe_device
+May 18 15:32:30 mid kernel: usb usb1: adding 1-0:1.0 (config #1, interface 0)
+May 18 15:32:30 mid kernel: usb 1-0:1.0: uevent
+May 18 15:32:30 mid kernel: hub 1-0:1.0: usb_probe_interface
+May 18 15:32:30 mid kernel: hub 1-0:1.0: usb_probe_interface - got id
+May 18 15:32:30 mid kernel: hub 1-0:1.0: standalone hub
+May 18 15:32:30 mid kernel: hub 1-0:1.0: no power switching (usb 1.0)
+May 18 15:32:30 mid kernel: hub 1-0:1.0: individual port over-current protection
+May 18 15:32:30 mid kernel: hub 1-0:1.0: power on to power good time: 2ms
+May 18 15:32:30 mid kernel: hub 1-0:1.0: local power source is good
+May 18 15:32:30 mid kernel: hub 1-0:1.0: trying to enable port power on non-switchable hub
+May 18 15:32:30 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 18 15:32:30 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:06.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:06.0: Performing full reset
+May 18 15:32:30 mid kernel: usb usb2: default language 0x0409
+May 18 15:32:30 mid kernel: usb usb2: udev 1, busnum 2, minor = 128
+May 18 15:32:30 mid kernel: usb usb2: uevent
+May 18 15:32:30 mid kernel: usb usb2: usb_probe_device
+May 18 15:32:30 mid kernel: usb usb2: adding 2-0:1.0 (config #1, interface 0)
+May 18 15:32:30 mid kernel: usb 2-0:1.0: uevent
+May 18 15:32:30 mid kernel: hub 2-0:1.0: usb_probe_interface
+May 18 15:32:30 mid kernel: hub 2-0:1.0: usb_probe_interface - got id
+May 18 15:32:30 mid kernel: hub 2-0:1.0: standalone hub
+May 18 15:32:30 mid kernel: hub 2-0:1.0: no power switching (usb 1.0)
+May 18 15:32:30 mid kernel: hub 2-0:1.0: individual port over-current protection
+May 18 15:32:30 mid kernel: hub 2-0:1.0: power on to power good time: 2ms
+May 18 15:32:30 mid kernel: hub 2-0:1.0: local power source is good
+May 18 15:32:30 mid kernel: hub 2-0:1.0: trying to enable port power on non-switchable hub
+May 18 15:32:30 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the open usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:05.0: port 1 portsc 008a,00
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 008a,00
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the release usb serial operation with the generic one.
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:06.0: port 1 portsc 008a,00
+May 18 15:32:30 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 008a,00
+May 18 15:32:30 mid kernel: lib80211_crypt: registered algorithm 'NULL'
+May 18 15:32:30 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 18 15:32:30 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 18 15:32:30 mid kernel: usb usb1: suspend_rh (auto-stop)
+May 18 15:32:30 mid kernel: usb usb2: suspend_rh (auto-stop)
+May 18 15:32:30 mid kernel: usb usb1: uevent
+May 18 15:32:30 mid kernel: usb 1-0:1.0: uevent
+May 18 15:32:30 mid kernel: usb usb2: uevent
+May 18 15:32:30 mid kernel: usb 2-0:1.0: uevent
+May 18 15:32:33 mid kernel: usb usb2: wakeup_rh (auto-start)
+May 18 15:32:33 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 18 15:32:33 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 0093,00
+May 18 15:32:33 mid kernel: hub 2-0:1.0: port 2, status 0101, change 0001, 12 Mb/s
+May 18 15:32:34 mid kernel: hub 2-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x101
+May 18 15:32:34 mid kernel: usb 2-2: default language 0x0409
+May 18 15:32:34 mid kernel: usb 2-2: udev 2, busnum 2, minor = 129
+May 18 15:32:34 mid kernel: usb 2-2: uevent
+May 18 15:32:34 mid kernel: usb 2-2: usb_probe_device
+May 18 15:32:34 mid kernel: usb 2-2: adding 2-2:1.0 (config #1, interface 0)
+May 18 15:32:34 mid kernel: usb 2-2:1.0: uevent
+May 18 15:32:34 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface
+May 18 15:32:34 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface - got id
+May 18 15:32:34 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 18 15:32:34 mid kernel: rt2870 2-2:1.0: usb_probe_interface
+May 18 15:32:34 mid kernel: rt2870 2-2:1.0: usb_probe_interface - got id
+May 18 15:32:34 mid kernel: usb 2-2: uevent
+May 18 15:32:34 mid kernel: usb usb2: uevent
+May 18 15:32:34 mid kernel: usb 2-2: uevent
+May 18 15:32:38 mid kernel: usb usb1: uevent
+May 18 15:32:38 mid kernel: usb 1-0:1.0: uevent
+May 18 15:32:38 mid kernel: usb usb2: uevent
+May 18 15:32:38 mid kernel: usb 2-0:1.0: uevent
+May 18 15:32:38 mid kernel: usb 2-2: uevent
+May 18 15:32:38 mid kernel: usb 2-2:1.0: uevent
+May 18 15:32:54 mid kernel: usb usb1: uevent
+May 18 15:32:54 mid kernel: usb 1-0:1.0: uevent
+May 18 15:32:54 mid kernel: usb usb2: uevent
+May 18 15:32:54 mid kernel: usb 2-0:1.0: uevent
+May 18 15:32:54 mid kernel: usb 2-2: uevent
+May 18 15:32:54 mid kernel: usb 2-2:1.0: uevent
+May 18 15:33:26 mid kernel: usb usb1: uevent
+May 18 15:33:26 mid kernel: usb 1-0:1.0: uevent
+May 18 15:33:26 mid kernel: usb usb2: uevent
+May 18 15:33:26 mid kernel: usb 2-0:1.0: uevent
+May 18 15:33:26 mid kernel: usb 2-2: uevent
+May 18 15:33:26 mid kernel: usb 2-2:1.0: uevent
+May 18 15:48:59 mid kernel: usb usb1: uevent
+May 18 15:48:59 mid kernel: usb 1-0:1.0: uevent
+May 18 15:48:59 mid kernel: usb usb2: uevent
+May 18 15:48:59 mid kernel: usb 2-0:1.0: uevent
+May 18 15:48:59 mid kernel: usb 2-2: uevent
+May 18 15:48:59 mid kernel: usb 2-2:1.0: uevent
+May 18 15:49:41 mid kernel: usb usb1: uevent
+May 18 15:49:41 mid kernel: usb 1-0:1.0: uevent
+May 18 15:49:41 mid kernel: usb usb2: uevent
+May 18 15:49:41 mid kernel: usb 2-0:1.0: uevent
+May 18 15:49:41 mid kernel: usb 2-2: uevent
+May 18 15:49:41 mid kernel: usb 2-2:1.0: uevent
+May 18 18:55:11 mid kernel: On node 0 totalpages: 54784
+May 18 18:55:11 mid kernel: free_area_init_node: node 0, pgdat c05b5f3c, node_mem_map c0696000
+May 18 18:55:12 mid kernel:  Normal zone: 428 pages used for memmap
+May 18 18:55:12 mid kernel:  Normal zone: 0 pages reserved
+May 18 18:55:12 mid kernel:  Normal zone: 54356 pages, LIFO batch:15
+May 18 18:55:12 mid kernel: pci 0000:00:01.0: reg 10 io port: [0xd8008100-0xd8008107]
+May 18 18:55:12 mid kernel: pci 0000:00:01.0: reg 14 io port: [0xd8008144-0xd8008147]
+May 18 18:55:12 mid kernel: pci 0000:00:01.0: reg 20 io port: [0xd8008180-0xd800818f]
+May 18 18:55:12 mid kernel: pci 0000:00:02.0: reg 10 io port: [0xd8004000-0xd80040ff]
+May 18 18:55:12 mid kernel: pci 0000:00:02.0: reg 14 32bit mmio: [0xd8004000-0xd80040ff]
+May 18 18:55:12 mid kernel: pci 0000:00:04.0: reg 10 32bit mmio: [0xd8007900-0xd80079ff]
+May 18 18:55:12 mid kernel: pci 0000:00:05.0: reg 20 io port: [0xd8007b00-0xd8007b1f]
+May 18 18:55:12 mid kernel: pci 0000:00:06.0: reg 20 io port: [0xd8008d00-0xd8008d1f]
+May 18 18:55:12 mid kernel: MTD dev0   size: 0x00d00000   : "filesystem-SF"
+May 18 18:55:12 mid kernel: MTD dev1   size: 0x00280000   : "kernel-SF"
+May 18 18:55:12 mid kernel: MTD dev2   size: 0x00050000   : "u-boot-SF"
+May 18 18:55:12 mid kernel: MTD dev3   size: 0x00010000   : "u-boot env. cfg. 1-SF"
+May 18 18:55:12 mid kernel: MTD dev4   size: 0x00010000   : "u-boot env. cfg. 2-SF"
+May 18 18:55:12 mid kernel: MTD dev5   size: 0x00010000   : "w-load-SF"
+May 18 18:55:12 mid kernel: MTD Dev3 isn't valid
+May 18 18:55:12 mid kernel: Bad block table found at page 524032, version 0x01
+May 18 18:55:12 mid kernel: Bad block table found at page 523904, version 0x01
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x000000400000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x000000500000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x000001000000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x000001100000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x00003b400000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x00003cc00000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x00003cd00000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x000049e00000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x00004ac00000
+May 18 18:55:12 mid kernel: nand_read_bbt: Bad block at 0x00004ae00000
+May 18 18:55:12 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 18 18:55:12 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 18 18:55:12 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 18 18:55:12 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 18 18:55:12 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 18 18:55:12 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 18 18:55:12 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 18 18:55:12 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 18 18:55:12 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 18 18:55:12 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 18 18:55:12 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 18 18:55:12 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 18 18:55:12 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 18 18:55:12 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 18 18:55:12 mid kernel: MTD dev7 size: 0x00400000     : "kernel-logo"
+May 18 18:55:12 mid kernel: drivers/usb/core/inode.c: creating file 'devices'
+May 18 18:55:12 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:05.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:05.0: Performing full reset
+May 18 18:55:12 mid kernel: usb usb1: default language 0x0409
+May 18 18:55:12 mid kernel: usb usb1: udev 1, busnum 1, minor = 0
+May 18 18:55:12 mid kernel: usb usb1: uevent
+May 18 18:55:12 mid kernel: usb usb1: usb_probe_device
+May 18 18:55:12 mid kernel: usb usb1: adding 1-0:1.0 (config #1, interface 0)
+May 18 18:55:12 mid kernel: usb 1-0:1.0: uevent
+May 18 18:55:12 mid kernel: hub 1-0:1.0: usb_probe_interface
+May 18 18:55:12 mid kernel: hub 1-0:1.0: usb_probe_interface - got id
+May 18 18:55:12 mid kernel: hub 1-0:1.0: standalone hub
+May 18 18:55:12 mid kernel: hub 1-0:1.0: no power switching (usb 1.0)
+May 18 18:55:12 mid kernel: hub 1-0:1.0: individual port over-current protection
+May 18 18:55:12 mid kernel: hub 1-0:1.0: power on to power good time: 2ms
+May 18 18:55:12 mid kernel: hub 1-0:1.0: local power source is good
+May 18 18:55:12 mid kernel: hub 1-0:1.0: trying to enable port power on non-switchable hub
+May 18 18:55:12 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 18 18:55:12 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:06.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:06.0: Performing full reset
+May 18 18:55:12 mid kernel: usb usb2: default language 0x0409
+May 18 18:55:12 mid kernel: usb usb2: udev 1, busnum 2, minor = 128
+May 18 18:55:12 mid kernel: usb usb2: uevent
+May 18 18:55:12 mid kernel: usb usb2: usb_probe_device
+May 18 18:55:12 mid kernel: usb usb2: adding 2-0:1.0 (config #1, interface 0)
+May 18 18:55:12 mid kernel: usb 2-0:1.0: uevent
+May 18 18:55:12 mid kernel: hub 2-0:1.0: usb_probe_interface
+May 18 18:55:12 mid kernel: hub 2-0:1.0: usb_probe_interface - got id
+May 18 18:55:12 mid kernel: hub 2-0:1.0: standalone hub
+May 18 18:55:12 mid kernel: hub 2-0:1.0: no power switching (usb 1.0)
+May 18 18:55:12 mid kernel: hub 2-0:1.0: individual port over-current protection
+May 18 18:55:12 mid kernel: hub 2-0:1.0: power on to power good time: 2ms
+May 18 18:55:12 mid kernel: hub 2-0:1.0: local power source is good
+May 18 18:55:12 mid kernel: hub 2-0:1.0: trying to enable port power on non-switchable hub
+May 18 18:55:12 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the open usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:05.0: port 1 portsc 008a,00
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 008a,00
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the release usb serial operation with the generic one.
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:06.0: port 1 portsc 008a,00
+May 18 18:55:12 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 008a,00
+May 18 18:55:12 mid kernel: lib80211_crypt: registered algorithm 'NULL'
+May 18 18:55:12 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 18 18:55:12 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 18 18:55:12 mid kernel: usb usb1: suspend_rh (auto-stop)
+May 18 18:55:12 mid kernel: usb usb2: suspend_rh (auto-stop)
+May 18 18:55:12 mid kernel: usb usb1: uevent
+May 18 18:55:12 mid kernel: usb 1-0:1.0: uevent
+May 18 18:55:12 mid kernel: usb usb2: uevent
+May 18 18:55:12 mid kernel: usb 2-0:1.0: uevent
+May 18 18:55:15 mid kernel: usb usb2: wakeup_rh (auto-start)
+May 18 18:55:15 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 18 18:55:15 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 0093,00
+May 18 18:55:15 mid kernel: hub 2-0:1.0: port 2, status 0101, change 0001, 12 Mb/s
+May 18 18:55:15 mid kernel: hub 2-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x101
+May 18 18:55:15 mid kernel: usb 2-2: default language 0x0409
+May 18 18:55:15 mid kernel: usb 2-2: udev 2, busnum 2, minor = 129
+May 18 18:55:15 mid kernel: usb 2-2: uevent
+May 18 18:55:15 mid kernel: usb 2-2: usb_probe_device
+May 18 18:55:16 mid kernel: usb 2-2: adding 2-2:1.0 (config #1, interface 0)
+May 18 18:55:16 mid kernel: usb 2-2:1.0: uevent
+May 18 18:55:16 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface
+May 18 18:55:16 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface - got id
+May 18 18:55:16 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 18 18:55:16 mid kernel: rt2870 2-2:1.0: usb_probe_interface
+May 18 18:55:16 mid kernel: rt2870 2-2:1.0: usb_probe_interface - got id
+May 18 18:55:16 mid kernel: usb 2-2: uevent
+May 18 18:55:16 mid kernel: usb usb2: uevent
+May 18 18:55:16 mid kernel: usb 2-2: uevent
+May 18 18:55:20 mid kernel: usb usb1: uevent
+May 18 18:55:20 mid kernel: usb 1-0:1.0: uevent
+May 18 18:55:20 mid kernel: usb usb2: uevent
+May 18 18:55:20 mid kernel: usb 2-0:1.0: uevent
+May 18 18:55:20 mid kernel: usb 2-2: uevent
+May 18 18:55:20 mid kernel: usb 2-2:1.0: uevent
+May 18 18:55:36 mid kernel: usb usb1: uevent
+May 18 18:55:36 mid kernel: usb 1-0:1.0: uevent
+May 18 18:55:36 mid kernel: usb usb2: uevent
+May 18 18:55:36 mid kernel: usb 2-0:1.0: uevent
+May 18 18:55:36 mid kernel: usb 2-2: uevent
+May 18 18:55:36 mid kernel: usb 2-2:1.0: uevent
+May 18 18:56:03 mid kernel: usb usb1: uevent
+May 18 18:56:03 mid kernel: usb 1-0:1.0: uevent
+May 18 18:56:03 mid kernel: usb usb2: uevent
+May 18 18:56:03 mid kernel: usb 2-0:1.0: uevent
+May 18 18:56:03 mid kernel: usb 2-2: uevent
+May 18 18:56:03 mid kernel: usb 2-2:1.0: uevent
+May 18 19:55:26 mid kernel: usb usb1: uevent
+May 18 19:55:26 mid kernel: usb 1-0:1.0: uevent
+May 18 19:55:26 mid kernel: usb usb2: uevent
+May 18 19:55:26 mid kernel: usb 2-0:1.0: uevent
+May 18 19:55:26 mid kernel: usb 2-2: uevent
+May 18 19:55:26 mid kernel: usb 2-2:1.0: uevent
+May 18 19:57:31 mid kernel: usb usb1: wakeup_rh (auto-start)
+May 18 19:57:31 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a3,00
+May 18 19:57:31 mid kernel: hub 1-0:1.0: port 2, status 0301, change 0001, 1.5 Mb/s
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 18 19:57:31 mid kernel: hub 1-0:1.0: debounce: port 2: total 125ms stable 100ms status 0x301
+May 18 19:57:31 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 18 19:57:31 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 18 19:57:31 mid kernel: usb 1-2: default language 0x0409
+May 18 19:57:31 mid kernel: usb 1-2: udev 2, busnum 1, minor = 1
+May 18 19:57:31 mid kernel: usb 1-2: uevent
+May 18 19:57:31 mid kernel: usb 1-2: usb_probe_device
+May 18 19:57:31 mid kernel: usb 1-2: adding 1-2:1.0 (config #1, interface 0)
+May 18 19:57:31 mid kernel: usb 1-2:1.0: uevent
+May 18 19:57:31 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface
+May 18 19:57:31 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface - got id
+May 18 19:57:31 mid kernel: usbhid 1-2:1.0: usb_probe_interface
+May 18 19:57:31 mid kernel: usbhid 1-2:1.0: usb_probe_interface - got id
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 2 ep81-INT, period 8, phase 4, 118 us
+May 18 19:57:31 mid kernel: usb 1-2: adding 1-2:1.1 (config #1, interface 1)
+May 18 19:57:31 mid kernel: usb 1-2:1.1: uevent
+May 18 19:57:31 mid kernel: usbserial_generic 1-2:1.1: usb_probe_interface
+May 18 19:57:31 mid kernel: usbserial_generic 1-2:1.1: usb_probe_interface - got id
+May 18 19:57:31 mid kernel: usbhid 1-2:1.1: usb_probe_interface
+May 18 19:57:31 mid kernel: usbhid 1-2:1.1: usb_probe_interface - got id
+May 18 19:57:31 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 2 ep82-INT, period 8, phase 4, 87 us
+May 18 19:57:31 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 18 19:57:31 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 18 19:57:32 mid kernel: usb 1-2:1.0: uevent
+May 18 19:57:32 mid kernel: usb 1-2:1.1: uevent
+May 18 19:57:32 mid kernel: usb 1-2: uevent
+May 18 19:57:32 mid kernel: usb 1-2: uevent
+May 18 19:57:32 mid kernel: usb 1-2:1.0: uevent
+May 18 19:57:32 mid kernel: usb 1-2:1.1: uevent
+May 18 19:58:06 mid kernel: usb usb1: uevent
+May 18 19:58:06 mid kernel: usb 1-0:1.0: uevent
+May 18 19:58:06 mid kernel: usb 1-2: uevent
+May 18 19:58:06 mid kernel: usb 1-2:1.0: uevent
+May 18 19:58:06 mid kernel: usb 1-2:1.1: uevent
+May 18 19:58:06 mid kernel: usb usb2: uevent
+May 18 19:58:06 mid kernel: usb 2-0:1.0: uevent
+May 18 19:58:06 mid kernel: usb 2-2: uevent
+May 18 19:58:06 mid kernel: usb 2-2:1.0: uevent
+May 18 20:05:21 mid kernel: usb usb1: uevent
+May 18 20:05:21 mid kernel: usb 1-0:1.0: uevent
+May 18 20:05:21 mid kernel: usb 1-2: uevent
+May 18 20:05:21 mid kernel: usb 1-2:1.0: uevent
+May 18 20:05:22 mid kernel: usb 1-2:1.1: uevent
+May 18 20:05:22 mid kernel: usb usb2: uevent
+May 18 20:05:22 mid kernel: usb 2-0:1.0: uevent
+May 18 20:05:22 mid kernel: usb 2-2: uevent
+May 18 20:05:22 mid kernel: usb 2-2:1.0: uevent
+May 18 20:06:02 mid kernel: usb usb1: uevent
+May 18 20:06:02 mid kernel: usb 1-0:1.0: uevent
+May 18 20:06:02 mid kernel: usb 1-2: uevent
+May 18 20:06:02 mid kernel: usb 1-2:1.0: uevent
+May 18 20:06:02 mid kernel: usb 1-2:1.1: uevent
+May 18 20:06:02 mid kernel: usb usb2: uevent
+May 18 20:06:02 mid kernel: usb 2-0:1.0: uevent
+May 18 20:06:02 mid kernel: usb 2-2: uevent
+May 18 20:06:02 mid kernel: usb 2-2:1.0: uevent
+May 18 20:11:49 mid kernel: usb usb1: uevent
+May 18 20:11:49 mid kernel: usb 1-0:1.0: uevent
+May 18 20:11:49 mid kernel: usb 1-2: uevent
+May 18 20:11:49 mid kernel: usb 1-2:1.0: uevent
+May 18 20:11:50 mid kernel: usb 1-2:1.1: uevent
+May 18 20:11:50 mid kernel: usb usb2: uevent
+May 18 20:11:50 mid kernel: usb 2-0:1.0: uevent
+May 18 20:11:50 mid kernel: usb 2-2: uevent
+May 18 20:11:50 mid kernel: usb 2-2:1.0: uevent
+May 18 20:13:39 mid kernel: usb usb1: uevent
+May 18 20:13:39 mid kernel: usb 1-0:1.0: uevent
+May 18 20:13:39 mid kernel: usb 1-2: uevent
+May 18 20:13:39 mid kernel: usb 1-2:1.0: uevent
+May 18 20:13:39 mid kernel: usb 1-2:1.1: uevent
+May 18 20:13:39 mid kernel: usb usb2: uevent
+May 18 20:13:39 mid kernel: usb 2-0:1.0: uevent
+May 18 20:13:39 mid kernel: usb 2-2: uevent
+May 18 20:13:39 mid kernel: usb 2-2:1.0: uevent
+May 19 01:03:50 mid kernel: usb usb1: uevent
+May 19 01:03:50 mid kernel: usb 1-0:1.0: uevent
+May 19 01:03:50 mid kernel: usb 1-2: uevent
+May 19 01:03:50 mid kernel: usb 1-2:1.0: uevent
+May 19 01:03:51 mid kernel: usb 1-2:1.1: uevent
+May 19 01:03:51 mid kernel: usb usb2: uevent
+May 19 01:03:51 mid kernel: usb 2-0:1.0: uevent
+May 19 01:03:51 mid kernel: usb 2-2: uevent
+May 19 01:03:51 mid kernel: usb 2-2:1.0: uevent
+May 19 01:04:35 mid kernel: usb usb1: uevent
+May 19 01:04:35 mid kernel: usb 1-0:1.0: uevent
+May 19 01:04:35 mid kernel: usb 1-2: uevent
+May 19 01:04:35 mid kernel: usb 1-2:1.0: uevent
+May 19 01:04:36 mid kernel: usb 1-2:1.1: uevent
+May 19 01:04:36 mid kernel: usb usb2: uevent
+May 19 01:04:36 mid kernel: usb 2-0:1.0: uevent
+May 19 01:04:36 mid kernel: usb 2-2: uevent
+May 19 01:04:36 mid kernel: usb 2-2:1.0: uevent
+May 19 01:08:46 mid kernel: usb usb1: uevent
+May 19 01:08:46 mid kernel: usb 1-0:1.0: uevent
+May 19 01:08:46 mid kernel: usb 1-2: uevent
+May 19 01:08:46 mid kernel: usb 1-2:1.0: uevent
+May 19 01:08:47 mid kernel: usb 1-2:1.1: uevent
+May 19 01:08:47 mid kernel: usb usb2: uevent
+May 19 01:08:47 mid kernel: usb 2-0:1.0: uevent
+May 19 01:08:47 mid kernel: usb 2-2: uevent
+May 19 01:08:47 mid kernel: usb 2-2:1.0: uevent
+May 19 01:09:46 mid kernel: usb usb1: uevent
+May 19 01:09:46 mid kernel: usb 1-0:1.0: uevent
+May 19 01:09:46 mid kernel: usb 1-2: uevent
+May 19 01:09:46 mid kernel: usb 1-2:1.0: uevent
+May 19 01:09:46 mid kernel: usb 1-2:1.1: uevent
+May 19 01:09:46 mid kernel: usb usb2: uevent
+May 19 01:09:46 mid kernel: usb 2-0:1.0: uevent
+May 19 01:09:46 mid kernel: usb 2-2: uevent
+May 19 01:09:46 mid kernel: usb 2-2:1.0: uevent
+May 19 01:10:31 mid kernel: usb usb1: uevent
+May 19 01:10:31 mid kernel: usb 1-0:1.0: uevent
+May 19 01:10:31 mid kernel: usb 1-2: uevent
+May 19 01:10:31 mid kernel: usb 1-2:1.0: uevent
+May 19 01:10:31 mid kernel: usb 1-2:1.1: uevent
+May 19 01:10:31 mid kernel: usb usb2: uevent
+May 19 01:10:31 mid kernel: usb 2-0:1.0: uevent
+May 19 01:10:31 mid kernel: usb 2-2: uevent
+May 19 01:10:31 mid kernel: usb 2-2:1.0: uevent
+May 19 01:14:32 mid kernel: usb usb1: uevent
+May 19 01:14:32 mid kernel: usb 1-0:1.0: uevent
+May 19 01:14:32 mid kernel: usb 1-2: uevent
+May 19 01:14:32 mid kernel: usb 1-2:1.0: uevent
+May 19 01:14:32 mid kernel: usb 1-2:1.1: uevent
+May 19 01:14:32 mid kernel: usb usb2: uevent
+May 19 01:14:32 mid kernel: usb 2-0:1.0: uevent
+May 19 01:14:32 mid kernel: usb 2-2: uevent
+May 19 01:14:32 mid kernel: usb 2-2:1.0: uevent
+May 19 01:15:11 mid kernel: usb usb1: uevent
+May 19 01:15:11 mid kernel: usb 1-0:1.0: uevent
+May 19 01:15:11 mid kernel: usb 1-2: uevent
+May 19 01:15:11 mid kernel: usb 1-2:1.0: uevent
+May 19 01:15:12 mid kernel: usb 1-2:1.1: uevent
+May 19 01:15:12 mid kernel: usb usb2: uevent
+May 19 01:15:12 mid kernel: usb 2-0:1.0: uevent
+May 19 01:15:12 mid kernel: usb 2-2: uevent
+May 19 01:15:12 mid kernel: usb 2-2:1.0: uevent
+May 19 02:46:30 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:46:30 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 018a,00
+May 19 02:46:30 mid kernel: hub 1-0:1.0: port 2, status 0300, change 0003, 1.5 Mb/s
+May 19 02:46:30 mid kernel: usb 1-2: unregistering device
+May 19 02:46:30 mid kernel: usb 1-2: usb_disable_device nuking all URBs
+May 19 02:46:30 mid kernel: uhci_hcd 0000:00:05.0: shutdown urb ca8b70a0 ep1in-intr
+May 19 02:46:30 mid kernel: uhci_hcd 0000:00:05.0: release dev 2 ep81-INT, period 8, phase 4, 118 us
+May 19 02:46:30 mid kernel: uhci_hcd 0000:00:05.0: shutdown urb caaf5640 ep2in-intr
+May 19 02:46:30 mid kernel: uhci_hcd 0000:00:05.0: release dev 2 ep82-INT, period 8, phase 4, 87 us
+May 19 02:46:30 mid kernel: usb 1-2: unregistering interface 1-2:1.0
+May 19 02:46:30 mid kernel: usb 1-2:1.0: uevent
+May 19 02:46:30 mid kernel: usb 1-2: unregistering interface 1-2:1.1
+May 19 02:46:30 mid kernel: usb 1-2:1.1: uevent
+May 19 02:46:30 mid kernel: usb 1-2: uevent
+May 19 02:46:31 mid kernel: hub 1-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x300
+May 19 02:46:32 mid kernel: usb usb1: suspend_rh (auto-stop)
+May 19 02:46:37 mid kernel: usb usb1: wakeup_rh (auto-start)
+May 19 02:46:37 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:46:37 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a3,00
+May 19 02:46:37 mid kernel: hub 1-0:1.0: port 2, status 0301, change 0001, 1.5 Mb/s
+May 19 02:46:37 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 19 02:46:37 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:46:37 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:46:37 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:46:37 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:46:37 mid kernel: hub 1-0:1.0: debounce: port 2: total 175ms stable 100ms status 0x301
+May 19 02:46:37 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:46:37 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:46:37 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 19 02:46:37 mid kernel: hub 1-0:1.0: port 2, status 0301, change 0003, 1.5 Mb/s
+May 19 02:46:38 mid kernel: hub 1-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x301
+May 19 02:46:38 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 19 02:46:38 mid kernel: usb 1-2: default language 0x0409
+May 19 02:46:38 mid kernel: usb 1-2: udev 4, busnum 1, minor = 3
+May 19 02:46:38 mid kernel: usb 1-2: uevent
+May 19 02:46:38 mid kernel: usb 1-2: usb_probe_device
+May 19 02:46:38 mid kernel: usb 1-2: adding 1-2:1.0 (config #1, interface 0)
+May 19 02:46:38 mid kernel: usb 1-2:1.0: uevent
+May 19 02:46:38 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface
+May 19 02:46:38 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface - got id
+May 19 02:46:38 mid kernel: usbhid 1-2:1.0: usb_probe_interface
+May 19 02:46:38 mid kernel: usbhid 1-2:1.0: usb_probe_interface - got id
+May 19 02:46:38 mid kernel: drivers/usb/core/inode.c: creating file '004'
+May 19 02:46:38 mid kernel: usb 1-2:1.0: uevent
+May 19 02:46:38 mid kernel: usb 1-2:1.0: uevent
+May 19 02:46:38 mid kernel: usb 1-2: uevent
+May 19 02:46:38 mid kernel: usb 1-2: uevent
+May 19 02:46:38 mid kernel: usb 1-2:1.0: uevent
+May 19 02:46:38 mid kernel: usb 1-2:1.0: uevent
+May 19 02:46:38 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:46:38 mid kernel: uhci_hcd 0000:00:05.0: release dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:46:38 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:46:38 mid kernel: uhci_hcd 0000:00:05.0: release dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:46:38 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:04 mid kernel: uhci_hcd 0000:00:05.0: release dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:21 mid kernel: usb usb1: uevent
+May 19 02:50:21 mid kernel: usb 1-0:1.0: uevent
+May 19 02:50:21 mid kernel: usb 1-2: uevent
+May 19 02:50:21 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:21 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:21 mid kernel: usb usb2: uevent
+May 19 02:50:21 mid kernel: usb 2-0:1.0: uevent
+May 19 02:50:21 mid kernel: usb 2-2: uevent
+May 19 02:50:21 mid kernel: usb 2-2:1.0: uevent
+May 19 02:50:27 mid kernel: uhci_hcd 0000:00:05.0: release dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:35 mid kernel: usb usb1: uevent
+May 19 02:50:35 mid kernel: usb 1-0:1.0: uevent
+May 19 02:50:35 mid kernel: usb 1-2: uevent
+May 19 02:50:35 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:35 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:35 mid kernel: usb usb2: uevent
+May 19 02:50:35 mid kernel: usb 2-0:1.0: uevent
+May 19 02:50:35 mid kernel: usb 2-2: uevent
+May 19 02:50:35 mid kernel: usb 2-2:1.0: uevent
+May 19 02:50:45 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:50:45 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 19 02:50:45 mid kernel: hub 1-0:1.0: port 2, status 0301, change 0003, 1.5 Mb/s
+May 19 02:50:45 mid kernel: usb 1-2: unregistering device
+May 19 02:50:45 mid kernel: usb 1-2: usb_disable_device nuking all URBs
+May 19 02:50:45 mid kernel: uhci_hcd 0000:00:05.0: shutdown urb caaf53c0 ep1in-intr
+May 19 02:50:45 mid kernel: uhci_hcd 0000:00:05.0: release dev 4 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:45 mid kernel: usb 1-2: unregistering interface 1-2:1.0
+May 19 02:50:45 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:45 mid kernel: usb 1-2: uevent
+May 19 02:50:45 mid kernel: hub 1-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x301
+May 19 02:50:45 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 19 02:50:45 mid kernel: usb 1-2: default language 0x0409
+May 19 02:50:45 mid kernel: usb 1-2: udev 5, busnum 1, minor = 4
+May 19 02:50:45 mid kernel: usb 1-2: uevent
+May 19 02:50:45 mid kernel: usb 1-2: usb_probe_device
+May 19 02:50:45 mid kernel: usb 1-2: adding 1-2:1.0 (config #1, interface 0)
+May 19 02:50:45 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:45 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface
+May 19 02:50:45 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface - got id
+May 19 02:50:45 mid kernel: usbhid 1-2:1.0: usb_probe_interface
+May 19 02:50:45 mid kernel: usbhid 1-2:1.0: usb_probe_interface - got id
+May 19 02:50:45 mid kernel: drivers/usb/core/inode.c: creating file '005'
+May 19 02:50:45 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:45 mid kernel: usb 1-2: uevent
+May 19 02:50:45 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:45 mid kernel: usb 1-2: uevent
+May 19 02:50:45 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:45 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 5 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:45 mid kernel: uhci_hcd 0000:00:05.0: release dev 5 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:45 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 5 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:45 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:50 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:50:50 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 018a,00
+May 19 02:50:50 mid kernel: hub 1-0:1.0: port 2, status 0300, change 0003, 1.5 Mb/s
+May 19 02:50:50 mid kernel: usb 1-2: unregistering device
+May 19 02:50:50 mid kernel: usb 1-2: usb_disable_device nuking all URBs
+May 19 02:50:50 mid kernel: uhci_hcd 0000:00:05.0: shutdown urb caaf53c0 ep1in-intr
+May 19 02:50:50 mid kernel: uhci_hcd 0000:00:05.0: release dev 5 ep81-INT, period 8, phase 4, 93 us
+May 19 02:50:50 mid kernel: usb 1-2: unregistering interface 1-2:1.0
+May 19 02:50:50 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:50 mid kernel: usb 1-2: uevent
+May 19 02:50:51 mid kernel: hub 1-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x300
+May 19 02:50:52 mid kernel: usb usb1: suspend_rh (auto-stop)
+May 19 02:50:57 mid kernel: usb usb1: wakeup_rh (auto-start)
+May 19 02:50:57 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a3,00
+May 19 02:50:57 mid kernel: hub 1-0:1.0: port 2, status 0301, change 0001, 1.5 Mb/s
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01a9,00
+May 19 02:50:57 mid kernel: hub 1-0:1.0: debounce: port 2: total 125ms stable 100ms status 0x301
+May 19 02:50:57 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 19 02:50:57 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 19 02:50:57 mid kernel: usb 1-2: default language 0x0409
+May 19 02:50:57 mid kernel: usb 1-2: udev 6, busnum 1, minor = 5
+May 19 02:50:57 mid kernel: usb 1-2: uevent
+May 19 02:50:57 mid kernel: usb 1-2: usb_probe_device
+May 19 02:50:57 mid kernel: usb 1-2: adding 1-2:1.0 (config #1, interface 0)
+May 19 02:50:57 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:57 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface
+May 19 02:50:57 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface - got id
+May 19 02:50:57 mid kernel: usbhid 1-2:1.0: usb_probe_interface
+May 19 02:50:57 mid kernel: usbhid 1-2:1.0: usb_probe_interface - got id
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 6 ep81-INT, period 8, phase 4, 118 us
+May 19 02:50:57 mid kernel: usb 1-2: adding 1-2:1.1 (config #1, interface 1)
+May 19 02:50:57 mid kernel: usb 1-2:1.1: uevent
+May 19 02:50:57 mid kernel: usbserial_generic 1-2:1.1: usb_probe_interface
+May 19 02:50:57 mid kernel: usbserial_generic 1-2:1.1: usb_probe_interface - got id
+May 19 02:50:57 mid kernel: usbhid 1-2:1.1: usb_probe_interface
+May 19 02:50:57 mid kernel: usbhid 1-2:1.1: usb_probe_interface - got id
+May 19 02:50:57 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 6 ep82-INT, period 8, phase 4, 87 us
+May 19 02:50:57 mid kernel: drivers/usb/core/inode.c: creating file '006'
+May 19 02:50:57 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 02:50:57 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:57 mid kernel: usb 1-2: uevent
+May 19 02:50:57 mid kernel: usb 1-2:1.0: uevent
+May 19 02:50:57 mid kernel: usb 1-2:1.1: uevent
+May 19 02:50:57 mid kernel: usb 1-2: uevent
+May 19 02:50:57 mid kernel: usb 1-2:1.1: uevent
+May 19 03:18:18 mid kernel: usb usb1: uevent
+May 19 03:18:18 mid kernel: usb 1-0:1.0: uevent
+May 19 03:18:18 mid kernel: usb 1-2: uevent
+May 19 03:18:18 mid kernel: usb 1-2:1.0: uevent
+May 19 03:18:18 mid kernel: usb 1-2:1.1: uevent
+May 19 03:18:18 mid kernel: usb usb2: uevent
+May 19 03:18:18 mid kernel: usb 2-0:1.0: uevent
+May 19 03:18:18 mid kernel: usb 2-2: uevent
+May 19 03:18:18 mid kernel: usb 2-2:1.0: uevent
+May 19 03:23:38 mid kernel: usb usb1: uevent
+May 19 03:23:38 mid kernel: usb 1-0:1.0: uevent
+May 19 03:23:38 mid kernel: usb 1-2: uevent
+May 19 03:23:38 mid kernel: usb 1-2:1.0: uevent
+May 19 03:23:39 mid kernel: usb 1-2:1.1: uevent
+May 19 03:23:39 mid kernel: usb usb2: uevent
+May 19 03:23:39 mid kernel: usb 2-0:1.0: uevent
+May 19 03:23:39 mid kernel: usb 2-2: uevent
+May 19 03:23:39 mid kernel: usb 2-2:1.0: uevent
+May 19 03:24:22 mid kernel: usb usb1: uevent
+May 19 03:24:22 mid kernel: usb 1-0:1.0: uevent
+May 19 03:24:22 mid kernel: usb 1-2: uevent
+May 19 03:24:22 mid kernel: usb 1-2:1.0: uevent
+May 19 03:24:22 mid kernel: usb 1-2:1.1: uevent
+May 19 03:24:22 mid kernel: usb usb2: uevent
+May 19 03:24:22 mid kernel: usb 2-0:1.0: uevent
+May 19 03:24:22 mid kernel: usb 2-2: uevent
+May 19 03:24:22 mid kernel: usb 2-2:1.0: uevent
+May 19 03:30:49 mid kernel: usb usb1: uevent
+May 19 03:30:49 mid kernel: usb 1-0:1.0: uevent
+May 19 03:30:49 mid kernel: usb 1-2: uevent
+May 19 03:30:49 mid kernel: usb 1-2:1.0: uevent
+May 19 03:30:50 mid kernel: usb 1-2:1.1: uevent
+May 19 03:30:50 mid kernel: usb usb2: uevent
+May 19 03:30:50 mid kernel: usb 2-0:1.0: uevent
+May 19 03:30:50 mid kernel: usb 2-2: uevent
+May 19 03:30:50 mid kernel: usb 2-2:1.0: uevent
+May 19 03:32:09 mid kernel: usb usb1: uevent
+May 19 03:32:09 mid kernel: usb 1-0:1.0: uevent
+May 19 03:32:09 mid kernel: usb 1-2: uevent
+May 19 03:32:09 mid kernel: usb 1-2:1.0: uevent
+May 19 03:32:09 mid kernel: usb 1-2:1.1: uevent
+May 19 03:32:09 mid kernel: usb usb2: uevent
+May 19 03:32:09 mid kernel: usb 2-0:1.0: uevent
+May 19 03:32:09 mid kernel: usb 2-2: uevent
+May 19 03:32:09 mid kernel: usb 2-2:1.0: uevent
+May 19 03:34:13 mid kernel: usb usb1: uevent
+May 19 03:34:13 mid kernel: usb 1-0:1.0: uevent
+May 19 03:34:13 mid kernel: usb 1-2: uevent
+May 19 03:34:13 mid kernel: usb 1-2:1.0: uevent
+May 19 03:34:15 mid kernel: usb 1-2:1.1: uevent
+May 19 03:34:15 mid kernel: usb usb2: uevent
+May 19 03:34:15 mid kernel: usb 2-0:1.0: uevent
+May 19 03:34:15 mid kernel: usb 2-2: uevent
+May 19 03:34:15 mid kernel: usb 2-2:1.0: uevent
+May 19 03:43:00 mid kernel: usb usb1: uevent
+May 19 03:43:00 mid kernel: usb 1-0:1.0: uevent
+May 19 03:43:00 mid kernel: usb 1-2: uevent
+May 19 03:43:00 mid kernel: usb 1-2:1.0: uevent
+May 19 03:43:00 mid kernel: usb 1-2:1.1: uevent
+May 19 03:43:00 mid kernel: usb usb2: uevent
+May 19 03:43:00 mid kernel: usb 2-0:1.0: uevent
+May 19 03:43:00 mid kernel: usb 2-2: uevent
+May 19 03:43:00 mid kernel: usb 2-2:1.0: uevent
+May 19 03:54:55 mid kernel: usb usb1: uevent
+May 19 03:54:55 mid kernel: usb 1-0:1.0: uevent
+May 19 03:54:55 mid kernel: usb 1-2: uevent
+May 19 03:54:55 mid kernel: usb 1-2:1.0: uevent
+May 19 03:54:55 mid kernel: usb 1-2:1.1: uevent
+May 19 03:54:55 mid kernel: usb usb2: uevent
+May 19 03:54:55 mid kernel: usb 2-0:1.0: uevent
+May 19 03:54:55 mid kernel: usb 2-2: uevent
+May 19 03:54:55 mid kernel: usb 2-2:1.0: uevent
+May 19 03:55:30 mid kernel: usb usb1: uevent
+May 19 03:55:30 mid kernel: usb 1-0:1.0: uevent
+May 19 03:55:31 mid kernel: usb 1-2: uevent
+May 19 03:55:31 mid kernel: usb 1-2:1.0: uevent
+May 19 03:55:31 mid kernel: usb 1-2:1.1: uevent
+May 19 03:55:31 mid kernel: usb usb2: uevent
+May 19 03:55:31 mid kernel: usb 2-0:1.0: uevent
+May 19 03:55:31 mid kernel: usb 2-2: uevent
+May 19 03:55:31 mid kernel: usb 2-2:1.0: uevent
+May 19 03:58:21 mid kernel: usb usb1: uevent
+May 19 03:58:21 mid kernel: usb 1-0:1.0: uevent
+May 19 03:58:21 mid kernel: usb 1-2: uevent
+May 19 03:58:21 mid kernel: usb 1-2:1.0: uevent
+May 19 03:58:22 mid kernel: usb 1-2:1.1: uevent
+May 19 03:58:22 mid kernel: usb usb2: uevent
+May 19 03:58:22 mid kernel: usb 2-0:1.0: uevent
+May 19 03:58:22 mid kernel: usb 2-2: uevent
+May 19 03:58:22 mid kernel: usb 2-2:1.0: uevent
+May 19 03:58:59 mid kernel: usb usb1: uevent
+May 19 03:58:59 mid kernel: usb 1-0:1.0: uevent
+May 19 03:58:59 mid kernel: usb 1-2: uevent
+May 19 03:58:59 mid kernel: usb 1-2:1.0: uevent
+May 19 03:58:59 mid kernel: usb 1-2:1.1: uevent
+May 19 03:58:59 mid kernel: usb usb2: uevent
+May 19 03:58:59 mid kernel: usb 2-0:1.0: uevent
+May 19 03:58:59 mid kernel: usb 2-2: uevent
+May 19 03:58:59 mid kernel: usb 2-2:1.0: uevent
+May 19 04:00:13 mid kernel: usb usb1: uevent
+May 19 04:00:13 mid kernel: usb 1-0:1.0: uevent
+May 19 04:00:13 mid kernel: usb 1-2: uevent
+May 19 04:00:13 mid kernel: usb 1-2:1.0: uevent
+May 19 04:00:14 mid kernel: usb 1-2:1.1: uevent
+May 19 04:00:14 mid kernel: usb usb2: uevent
+May 19 04:00:14 mid kernel: usb 2-0:1.0: uevent
+May 19 04:00:14 mid kernel: usb 2-2: uevent
+May 19 04:00:14 mid kernel: usb 2-2:1.0: uevent
+May 19 04:00:57 mid kernel: usb usb1: uevent
+May 19 04:00:57 mid kernel: usb 1-0:1.0: uevent
+May 19 04:00:57 mid kernel: usb 1-2: uevent
+May 19 04:00:57 mid kernel: usb 1-2:1.0: uevent
+May 19 04:00:57 mid kernel: usb 1-2:1.1: uevent
+May 19 04:00:57 mid kernel: usb usb2: uevent
+May 19 04:00:57 mid kernel: usb 2-0:1.0: uevent
+May 19 04:00:57 mid kernel: usb 2-2: uevent
+May 19 04:00:57 mid kernel: usb 2-2:1.0: uevent
+May 19 04:04:37 mid kernel: usb usb1: uevent
+May 19 04:04:37 mid kernel: usb 1-0:1.0: uevent
+May 19 04:04:37 mid kernel: usb 1-2: uevent
+May 19 04:04:37 mid kernel: usb 1-2:1.0: uevent
+May 19 04:04:38 mid kernel: usb 1-2:1.1: uevent
+May 19 04:04:38 mid kernel: usb usb2: uevent
+May 19 04:04:38 mid kernel: usb 2-0:1.0: uevent
+May 19 04:04:38 mid kernel: usb 2-2: uevent
+May 19 04:04:38 mid kernel: usb 2-2:1.0: uevent
+May 19 04:06:00 mid kernel: usb usb1: uevent
+May 19 04:06:00 mid kernel: usb 1-0:1.0: uevent
+May 19 04:06:00 mid kernel: usb 1-2: uevent
+May 19 04:06:00 mid kernel: usb 1-2:1.0: uevent
+May 19 04:06:00 mid kernel: usb 1-2:1.1: uevent
+May 19 04:06:00 mid kernel: usb usb2: uevent
+May 19 04:06:01 mid kernel: usb 2-0:1.0: uevent
+May 19 04:06:01 mid kernel: usb 2-2: uevent
+May 19 04:06:01 mid kernel: usb 2-2:1.0: uevent
+May 19 16:30:32 mid kernel: On node 0 totalpages: 54784
+May 19 16:30:32 mid kernel: free_area_init_node: node 0, pgdat c05b5f3c, node_mem_map c0696000
+May 19 16:30:32 mid kernel:  Normal zone: 428 pages used for memmap
+May 19 16:30:32 mid kernel:  Normal zone: 0 pages reserved
+May 19 16:30:32 mid kernel:  Normal zone: 54356 pages, LIFO batch:15
+May 19 16:30:32 mid kernel: pci 0000:00:01.0: reg 10 io port: [0xd8008100-0xd8008107]
+May 19 16:30:32 mid kernel: pci 0000:00:01.0: reg 14 io port: [0xd8008144-0xd8008147]
+May 19 16:30:32 mid kernel: pci 0000:00:01.0: reg 20 io port: [0xd8008180-0xd800818f]
+May 19 16:30:32 mid kernel: pci 0000:00:02.0: reg 10 io port: [0xd8004000-0xd80040ff]
+May 19 16:30:32 mid kernel: pci 0000:00:02.0: reg 14 32bit mmio: [0xd8004000-0xd80040ff]
+May 19 16:30:32 mid kernel: pci 0000:00:04.0: reg 10 32bit mmio: [0xd8007900-0xd80079ff]
+May 19 16:30:32 mid kernel: pci 0000:00:05.0: reg 20 io port: [0xd8007b00-0xd8007b1f]
+May 19 16:30:32 mid kernel: pci 0000:00:06.0: reg 20 io port: [0xd8008d00-0xd8008d1f]
+May 19 16:30:32 mid kernel: MTD dev0   size: 0x00d00000   : "filesystem-SF"
+May 19 16:30:32 mid kernel: MTD dev1   size: 0x00280000   : "kernel-SF"
+May 19 16:30:32 mid kernel: MTD dev2   size: 0x00050000   : "u-boot-SF"
+May 19 16:30:32 mid kernel: MTD dev3   size: 0x00010000   : "u-boot env. cfg. 1-SF"
+May 19 16:30:32 mid kernel: MTD dev4   size: 0x00010000   : "u-boot env. cfg. 2-SF"
+May 19 16:30:32 mid kernel: MTD dev5   size: 0x00010000   : "w-load-SF"
+May 19 16:30:32 mid kernel: MTD Dev3 isn't valid
+May 19 16:30:32 mid kernel: Bad block table found at page 524032, version 0x01
+May 19 16:30:32 mid kernel: Bad block table found at page 523904, version 0x01
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x000000400000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x000000500000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x000001000000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x000001100000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x00003b400000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x00003cc00000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x00003cd00000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x000049e00000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x00004ac00000
+May 19 16:30:32 mid kernel: nand_read_bbt: Bad block at 0x00004ae00000
+May 19 16:30:32 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 19 16:30:32 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 19 16:30:32 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 19 16:30:32 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 19 16:30:32 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 19 16:30:32 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 19 16:30:32 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 19 16:30:32 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 19 16:30:32 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 19 16:30:32 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 19 16:30:32 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 19 16:30:32 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 19 16:30:32 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 19 16:30:32 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 19 16:30:32 mid kernel: MTD dev7 size: 0x00400000     : "kernel-logo"
+May 19 16:30:32 mid kernel: drivers/usb/core/inode.c: creating file 'devices'
+May 19 16:30:32 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:05.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:05.0: Performing full reset
+May 19 16:30:32 mid kernel: usb usb1: default language 0x0409
+May 19 16:30:32 mid kernel: usb usb1: udev 1, busnum 1, minor = 0
+May 19 16:30:32 mid kernel: usb usb1: uevent
+May 19 16:30:32 mid kernel: usb usb1: usb_probe_device
+May 19 16:30:32 mid kernel: usb usb1: adding 1-0:1.0 (config #1, interface 0)
+May 19 16:30:32 mid kernel: usb 1-0:1.0: uevent
+May 19 16:30:32 mid kernel: hub 1-0:1.0: usb_probe_interface
+May 19 16:30:32 mid kernel: hub 1-0:1.0: usb_probe_interface - got id
+May 19 16:30:32 mid kernel: hub 1-0:1.0: standalone hub
+May 19 16:30:32 mid kernel: hub 1-0:1.0: no power switching (usb 1.0)
+May 19 16:30:32 mid kernel: hub 1-0:1.0: individual port over-current protection
+May 19 16:30:32 mid kernel: hub 1-0:1.0: power on to power good time: 2ms
+May 19 16:30:32 mid kernel: hub 1-0:1.0: local power source is good
+May 19 16:30:32 mid kernel: hub 1-0:1.0: trying to enable port power on non-switchable hub
+May 19 16:30:32 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 16:30:32 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:06.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:06.0: Performing full reset
+May 19 16:30:32 mid kernel: usb usb2: default language 0x0409
+May 19 16:30:32 mid kernel: usb usb2: udev 1, busnum 2, minor = 128
+May 19 16:30:32 mid kernel: usb usb2: uevent
+May 19 16:30:32 mid kernel: usb usb2: usb_probe_device
+May 19 16:30:32 mid kernel: usb usb2: adding 2-0:1.0 (config #1, interface 0)
+May 19 16:30:32 mid kernel: usb 2-0:1.0: uevent
+May 19 16:30:32 mid kernel: hub 2-0:1.0: usb_probe_interface
+May 19 16:30:32 mid kernel: hub 2-0:1.0: usb_probe_interface - got id
+May 19 16:30:32 mid kernel: hub 2-0:1.0: standalone hub
+May 19 16:30:32 mid kernel: hub 2-0:1.0: no power switching (usb 1.0)
+May 19 16:30:32 mid kernel: hub 2-0:1.0: individual port over-current protection
+May 19 16:30:32 mid kernel: hub 2-0:1.0: power on to power good time: 2ms
+May 19 16:30:32 mid kernel: hub 2-0:1.0: local power source is good
+May 19 16:30:32 mid kernel: hub 2-0:1.0: trying to enable port power on non-switchable hub
+May 19 16:30:32 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the open usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:05.0: port 1 portsc 008a,00
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 19 16:30:32 mid kernel: hub 1-0:1.0: port 2: status 0301 change 0003
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the release usb serial operation with the generic one.
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:06.0: port 1 portsc 008a,00
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 008a,00
+May 19 16:30:32 mid kernel: lib80211_crypt: registered algorithm 'NULL'
+May 19 16:30:32 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0004 evt 0000
+May 19 16:30:32 mid kernel: hub 1-0:1.0: port 2, status 0301, change 0000, 1.5 Mb/s
+May 19 16:30:32 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 19 16:30:32 mid kernel: usb 1-2: skipped 1 descriptor after interface
+May 19 16:30:32 mid kernel: usb 1-2: default language 0x0409
+May 19 16:30:32 mid kernel: usb 1-2: udev 2, busnum 1, minor = 1
+May 19 16:30:32 mid kernel: usb 1-2: uevent
+May 19 16:30:32 mid kernel: usb 1-2: usb_probe_device
+May 19 16:30:32 mid kernel: usb 1-2: adding 1-2:1.0 (config #1, interface 0)
+May 19 16:30:32 mid kernel: usb 1-2:1.0: uevent
+May 19 16:30:32 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface
+May 19 16:30:32 mid kernel: usbserial_generic 1-2:1.0: usb_probe_interface - got id
+May 19 16:30:32 mid kernel: usbhid 1-2:1.0: usb_probe_interface
+May 19 16:30:32 mid kernel: usbhid 1-2:1.0: usb_probe_interface - got id
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 2 ep81-INT, period 8, phase 4, 118 us
+May 19 16:30:32 mid kernel: usb 1-2: adding 1-2:1.1 (config #1, interface 1)
+May 19 16:30:32 mid kernel: usb 1-2:1.1: uevent
+May 19 16:30:32 mid kernel: usbserial_generic 1-2:1.1: usb_probe_interface
+May 19 16:30:32 mid kernel: usbserial_generic 1-2:1.1: usb_probe_interface - got id
+May 19 16:30:32 mid kernel: usbhid 1-2:1.1: usb_probe_interface
+May 19 16:30:32 mid kernel: usbhid 1-2:1.1: usb_probe_interface - got id
+May 19 16:30:32 mid kernel: uhci_hcd 0000:00:05.0: reserve dev 2 ep82-INT, period 8, phase 4, 87 us
+May 19 16:30:32 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 19 16:30:32 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 19 16:30:32 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 16:30:32 mid kernel: usb usb2: suspend_rh (auto-stop)
+May 19 16:30:32 mid kernel: usb usb1: uevent
+May 19 16:30:32 mid kernel: usb 1-0:1.0: uevent
+May 19 16:30:32 mid kernel: usb 1-2: uevent
+May 19 16:30:32 mid kernel: usb 1-2:1.0: uevent
+May 19 16:30:32 mid kernel: usb 1-2:1.1: uevent
+May 19 16:30:32 mid kernel: usb usb2: uevent
+May 19 16:30:32 mid kernel: usb 2-0:1.0: uevent
+May 19 16:30:32 mid kernel: usb 1-2:1.1: uevent
+May 19 16:30:32 mid kernel: usb 1-2: uevent
+May 19 16:30:32 mid kernel: usb 1-2:1.1: uevent
+May 19 16:30:32 mid kernel: usb 1-2:1.0: uevent
+May 19 16:30:32 mid kernel: usb 1-2: uevent
+May 19 16:30:32 mid kernel: usb 1-2:1.0: uevent
+May 19 16:30:36 mid kernel: usb usb2: wakeup_rh (auto-start)
+May 19 16:30:36 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 16:30:36 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 0093,00
+May 19 16:30:36 mid kernel: hub 2-0:1.0: port 2, status 0101, change 0001, 12 Mb/s
+May 19 16:30:37 mid kernel: hub 2-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x101
+May 19 16:30:37 mid kernel: usb 2-2: default language 0x0409
+May 19 16:30:37 mid kernel: usb 2-2: udev 2, busnum 2, minor = 129
+May 19 16:30:37 mid kernel: usb 2-2: uevent
+May 19 16:30:37 mid kernel: usb 2-2: usb_probe_device
+May 19 16:30:37 mid kernel: usb 2-2: adding 2-2:1.0 (config #1, interface 0)
+May 19 16:30:37 mid kernel: usb 2-2:1.0: uevent
+May 19 16:30:37 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface
+May 19 16:30:37 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface - got id
+May 19 16:30:37 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 19 16:30:37 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 16:30:37 mid kernel: rt2870 2-2:1.0: usb_probe_interface
+May 19 16:30:37 mid kernel: rt2870 2-2:1.0: usb_probe_interface - got id
+May 19 16:30:37 mid kernel: usb 2-2: uevent
+May 19 16:30:37 mid kernel: usb usb2: uevent
+May 19 16:30:37 mid kernel: usb 2-2: uevent
+May 19 16:30:41 mid kernel: usb usb1: uevent
+May 19 16:30:41 mid kernel: usb 1-0:1.0: uevent
+May 19 16:30:41 mid kernel: usb 1-2: uevent
+May 19 16:30:41 mid kernel: usb 1-2:1.0: uevent
+May 19 16:30:41 mid kernel: usb 1-2:1.1: uevent
+May 19 16:30:42 mid kernel: usb usb2: uevent
+May 19 16:30:42 mid kernel: usb 2-0:1.0: uevent
+May 19 16:30:42 mid kernel: usb 2-2: uevent
+May 19 16:30:42 mid kernel: usb 2-2:1.0: uevent
+May 19 16:30:56 mid kernel: usb usb1: uevent
+May 19 16:30:56 mid kernel: usb 1-0:1.0: uevent
+May 19 16:30:56 mid kernel: usb 1-2: uevent
+May 19 16:30:56 mid kernel: usb 1-2:1.0: uevent
+May 19 16:30:56 mid kernel: usb 1-2:1.1: uevent
+May 19 16:30:56 mid kernel: usb usb2: uevent
+May 19 16:30:56 mid kernel: usb 2-0:1.0: uevent
+May 19 16:30:56 mid kernel: usb 2-2: uevent
+May 19 16:30:56 mid kernel: usb 2-2:1.0: uevent
+May 19 16:32:03 mid kernel: usb usb1: uevent
+May 19 16:32:03 mid kernel: usb 1-0:1.0: uevent
+May 19 16:32:03 mid kernel: usb 1-2: uevent
+May 19 16:32:03 mid kernel: usb 1-2:1.0: uevent
+May 19 16:32:03 mid kernel: usb 1-2:1.1: uevent
+May 19 16:32:03 mid kernel: usb usb2: uevent
+May 19 16:32:03 mid kernel: usb 2-0:1.0: uevent
+May 19 16:32:03 mid kernel: usb 2-2: uevent
+May 19 16:32:03 mid kernel: usb 2-2:1.0: uevent
+May 19 18:44:13 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 19 18:44:13 mid kernel: hub 1-0:1.0: port 2, status 0301, change 0003, 1.5 Mb/s
+May 19 18:44:13 mid kernel: usb 1-2: unregistering device
+May 19 18:44:13 mid kernel: usb 1-2: usb_disable_device nuking all URBs
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: shutdown urb cd1c88e0 ep1in-intr
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: release dev 2 ep81-INT, period 8, phase 4, 118 us
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: shutdown urb cd1c87e0 ep2in-intr
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: release dev 2 ep82-INT, period 8, phase 4, 87 us
+May 19 18:44:13 mid kernel: usb 1-2: unregistering interface 1-2:1.0
+May 19 18:44:13 mid kernel: usb 1-2:1.0: uevent
+May 19 18:44:13 mid kernel: usb 1-2: unregistering interface 1-2:1.1
+May 19 18:44:13 mid kernel: usb 1-2:1.1: uevent
+May 19 18:44:13 mid kernel: usb 1-2: uevent
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 01ab,00
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 018a,00
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 0188,00
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 0188,00
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 0188,00
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 0188,00
+May 19 18:44:13 mid kernel: hub 1-0:1.0: debounce: port 2: total 150ms stable 100ms status 0x300
+May 19 18:44:13 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 18:44:13 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 0188,00
+May 19 18:44:13 mid kernel: hub 1-0:1.0: port 2 enable change, status 00000300
+May 19 18:44:14 mid kernel: usb usb1: suspend_rh (auto-stop)
+May 19 18:46:17 mid kernel: On node 0 totalpages: 54784
+May 19 18:46:17 mid kernel: free_area_init_node: node 0, pgdat c05b5f3c, node_mem_map c0696000
+May 19 18:46:17 mid kernel:  Normal zone: 428 pages used for memmap
+May 19 18:46:17 mid kernel:  Normal zone: 0 pages reserved
+May 19 18:46:17 mid kernel:  Normal zone: 54356 pages, LIFO batch:15
+May 19 18:46:17 mid kernel: pci 0000:00:01.0: reg 10 io port: [0xd8008100-0xd8008107]
+May 19 18:46:17 mid kernel: pci 0000:00:01.0: reg 14 io port: [0xd8008144-0xd8008147]
+May 19 18:46:17 mid kernel: pci 0000:00:01.0: reg 20 io port: [0xd8008180-0xd800818f]
+May 19 18:46:17 mid kernel: pci 0000:00:02.0: reg 10 io port: [0xd8004000-0xd80040ff]
+May 19 18:46:17 mid kernel: pci 0000:00:02.0: reg 14 32bit mmio: [0xd8004000-0xd80040ff]
+May 19 18:46:17 mid kernel: pci 0000:00:04.0: reg 10 32bit mmio: [0xd8007900-0xd80079ff]
+May 19 18:46:17 mid kernel: pci 0000:00:05.0: reg 20 io port: [0xd8007b00-0xd8007b1f]
+May 19 18:46:17 mid kernel: pci 0000:00:06.0: reg 20 io port: [0xd8008d00-0xd8008d1f]
+May 19 18:46:17 mid kernel: MTD dev0   size: 0x00d00000   : "filesystem-SF"
+May 19 18:46:17 mid kernel: MTD dev1   size: 0x00280000   : "kernel-SF"
+May 19 18:46:17 mid kernel: MTD dev2   size: 0x00050000   : "u-boot-SF"
+May 19 18:46:17 mid kernel: MTD dev3   size: 0x00010000   : "u-boot env. cfg. 1-SF"
+May 19 18:46:17 mid kernel: MTD dev4   size: 0x00010000   : "u-boot env. cfg. 2-SF"
+May 19 18:46:17 mid kernel: MTD dev5   size: 0x00010000   : "w-load-SF"
+May 19 18:46:17 mid kernel: MTD Dev3 isn't valid
+May 19 18:46:17 mid kernel: Bad block table found at page 524032, version 0x01
+May 19 18:46:17 mid kernel: Bad block table found at page 523904, version 0x01
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x000000400000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x000000500000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x000001000000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x000001100000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x00003b400000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x00003cc00000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x00003cd00000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x000049e00000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x00004ac00000
+May 19 18:46:17 mid kernel: nand_read_bbt: Bad block at 0x00004ae00000
+May 19 18:46:17 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 19 18:46:17 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 19 18:46:17 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 19 18:46:17 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 19 18:46:17 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 19 18:46:17 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 19 18:46:17 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 19 18:46:17 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 19 18:46:17 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 19 18:46:17 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 19 18:46:17 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 19 18:46:17 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 19 18:46:17 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 19 18:46:17 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 19 18:46:17 mid kernel: MTD dev7 size: 0x00400000     : "kernel-logo"
+May 19 18:46:17 mid kernel: drivers/usb/core/inode.c: creating file 'devices'
+May 19 18:46:17 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:05.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:05.0: Performing full reset
+May 19 18:46:17 mid kernel: usb usb1: default language 0x0409
+May 19 18:46:17 mid kernel: usb usb1: udev 1, busnum 1, minor = 0
+May 19 18:46:17 mid kernel: usb usb1: uevent
+May 19 18:46:17 mid kernel: usb usb1: usb_probe_device
+May 19 18:46:17 mid kernel: usb usb1: adding 1-0:1.0 (config #1, interface 0)
+May 19 18:46:17 mid kernel: usb 1-0:1.0: uevent
+May 19 18:46:17 mid kernel: hub 1-0:1.0: usb_probe_interface
+May 19 18:46:17 mid kernel: hub 1-0:1.0: usb_probe_interface - got id
+May 19 18:46:17 mid kernel: hub 1-0:1.0: standalone hub
+May 19 18:46:17 mid kernel: hub 1-0:1.0: no power switching (usb 1.0)
+May 19 18:46:17 mid kernel: hub 1-0:1.0: individual port over-current protection
+May 19 18:46:17 mid kernel: hub 1-0:1.0: power on to power good time: 2ms
+May 19 18:46:17 mid kernel: hub 1-0:1.0: local power source is good
+May 19 18:46:17 mid kernel: hub 1-0:1.0: trying to enable port power on non-switchable hub
+May 19 18:46:17 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 18:46:17 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:06.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:06.0: Performing full reset
+May 19 18:46:17 mid kernel: usb usb2: default language 0x0409
+May 19 18:46:17 mid kernel: usb usb2: udev 1, busnum 2, minor = 128
+May 19 18:46:17 mid kernel: usb usb2: uevent
+May 19 18:46:17 mid kernel: usb usb2: usb_probe_device
+May 19 18:46:17 mid kernel: usb usb2: adding 2-0:1.0 (config #1, interface 0)
+May 19 18:46:17 mid kernel: usb 2-0:1.0: uevent
+May 19 18:46:17 mid kernel: hub 2-0:1.0: usb_probe_interface
+May 19 18:46:17 mid kernel: hub 2-0:1.0: usb_probe_interface - got id
+May 19 18:46:17 mid kernel: hub 2-0:1.0: standalone hub
+May 19 18:46:17 mid kernel: hub 2-0:1.0: no power switching (usb 1.0)
+May 19 18:46:17 mid kernel: hub 2-0:1.0: individual port over-current protection
+May 19 18:46:17 mid kernel: hub 2-0:1.0: power on to power good time: 2ms
+May 19 18:46:17 mid kernel: hub 2-0:1.0: local power source is good
+May 19 18:46:17 mid kernel: hub 2-0:1.0: trying to enable port power on non-switchable hub
+May 19 18:46:17 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the open usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:05.0: port 1 portsc 008a,00
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 008a,00
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the release usb serial operation with the generic one.
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:06.0: port 1 portsc 008a,00
+May 19 18:46:17 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 008a,00
+May 19 18:46:17 mid kernel: lib80211_crypt: registered algorithm 'NULL'
+May 19 18:46:17 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 19 18:46:17 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 19 18:46:17 mid kernel: usb usb1: suspend_rh (auto-stop)
+May 19 18:46:17 mid kernel: usb usb2: suspend_rh (auto-stop)
+May 19 18:46:17 mid kernel: usb usb1: uevent
+May 19 18:46:17 mid kernel: usb 1-0:1.0: uevent
+May 19 18:46:17 mid kernel: usb usb2: uevent
+May 19 18:46:17 mid kernel: usb 2-0:1.0: uevent
+May 19 18:46:22 mid kernel: usb usb2: wakeup_rh (auto-start)
+May 19 18:46:22 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 18:46:22 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 0093,00
+May 19 18:46:22 mid kernel: hub 2-0:1.0: port 2, status 0101, change 0001, 12 Mb/s
+May 19 18:46:22 mid kernel: hub 2-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x101
+May 19 18:46:22 mid kernel: usb 2-2: default language 0x0409
+May 19 18:46:22 mid kernel: usb 2-2: udev 2, busnum 2, minor = 129
+May 19 18:46:22 mid kernel: usb 2-2: uevent
+May 19 18:46:22 mid kernel: usb 2-2: usb_probe_device
+May 19 18:46:22 mid kernel: usb 2-2: adding 2-2:1.0 (config #1, interface 0)
+May 19 18:46:22 mid kernel: usb 2-2:1.0: uevent
+May 19 18:46:22 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface
+May 19 18:46:22 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface - got id
+May 19 18:46:22 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 19 18:46:23 mid kernel: rt2870 2-2:1.0: usb_probe_interface
+May 19 18:46:23 mid kernel: rt2870 2-2:1.0: usb_probe_interface - got id
+May 19 18:46:23 mid kernel: usb 2-2: uevent
+May 19 18:46:23 mid kernel: usb usb2: uevent
+May 19 18:46:23 mid kernel: usb 2-2: uevent
+May 19 18:46:25 mid kernel: usb usb1: uevent
+May 19 18:46:25 mid kernel: usb 1-0:1.0: uevent
+May 19 18:46:25 mid kernel: usb usb2: uevent
+May 19 18:46:25 mid kernel: usb 2-0:1.0: uevent
+May 19 18:46:25 mid kernel: usb 2-2: uevent
+May 19 18:46:25 mid kernel: usb 2-2:1.0: uevent
+May 19 18:46:40 mid kernel: usb usb1: uevent
+May 19 18:46:40 mid kernel: usb 1-0:1.0: uevent
+May 19 18:46:41 mid kernel: usb usb2: uevent
+May 19 18:46:41 mid kernel: usb 2-0:1.0: uevent
+May 19 18:46:41 mid kernel: usb 2-2: uevent
+May 19 18:46:41 mid kernel: usb 2-2:1.0: uevent
+May 19 18:47:42 mid kernel: usb usb1: uevent
+May 19 18:47:42 mid kernel: usb 1-0:1.0: uevent
+May 19 18:47:42 mid kernel: usb usb2: uevent
+May 19 18:47:42 mid kernel: usb 2-0:1.0: uevent
+May 19 18:47:42 mid kernel: usb 2-2: uevent
+May 19 18:47:42 mid kernel: usb 2-2:1.0: uevent
+May 19 18:50:31 mid kernel: On node 0 totalpages: 54784
+May 19 18:50:31 mid kernel: free_area_init_node: node 0, pgdat c05b5f3c, node_mem_map c0696000
+May 19 18:50:31 mid kernel:  Normal zone: 428 pages used for memmap
+May 19 18:50:31 mid kernel:  Normal zone: 0 pages reserved
+May 19 18:50:31 mid kernel:  Normal zone: 54356 pages, LIFO batch:15
+May 19 18:50:31 mid kernel: pci 0000:00:01.0: reg 10 io port: [0xd8008100-0xd8008107]
+May 19 18:50:31 mid kernel: pci 0000:00:01.0: reg 14 io port: [0xd8008144-0xd8008147]
+May 19 18:50:31 mid kernel: pci 0000:00:01.0: reg 20 io port: [0xd8008180-0xd800818f]
+May 19 18:50:31 mid kernel: pci 0000:00:02.0: reg 10 io port: [0xd8004000-0xd80040ff]
+May 19 18:50:31 mid kernel: pci 0000:00:02.0: reg 14 32bit mmio: [0xd8004000-0xd80040ff]
+May 19 18:50:31 mid kernel: pci 0000:00:04.0: reg 10 32bit mmio: [0xd8007900-0xd80079ff]
+May 19 18:50:31 mid kernel: pci 0000:00:05.0: reg 20 io port: [0xd8007b00-0xd8007b1f]
+May 19 18:50:31 mid kernel: pci 0000:00:06.0: reg 20 io port: [0xd8008d00-0xd8008d1f]
+May 19 18:50:31 mid kernel: MTD dev0   size: 0x00d00000   : "filesystem-SF"
+May 19 18:50:31 mid kernel: MTD dev1   size: 0x00280000   : "kernel-SF"
+May 19 18:50:31 mid kernel: MTD dev2   size: 0x00050000   : "u-boot-SF"
+May 19 18:50:31 mid kernel: MTD dev3   size: 0x00010000   : "u-boot env. cfg. 1-SF"
+May 19 18:50:31 mid kernel: MTD dev4   size: 0x00010000   : "u-boot env. cfg. 2-SF"
+May 19 18:50:31 mid kernel: MTD dev5   size: 0x00010000   : "w-load-SF"
+May 19 18:50:31 mid kernel: MTD Dev3 isn't valid
+May 19 18:50:31 mid kernel: Bad block table found at page 524032, version 0x01
+May 19 18:50:31 mid kernel: Bad block table found at page 523904, version 0x01
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x000000400000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x000000500000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x000001000000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x000001100000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x00003b400000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x00003cc00000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x00003cd00000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x000049e00000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x00004ac00000
+May 19 18:50:31 mid kernel: nand_read_bbt: Bad block at 0x00004ae00000
+May 19 18:50:31 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 19 18:50:31 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 19 18:50:31 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 19 18:50:31 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 19 18:50:31 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 19 18:50:31 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 19 18:50:31 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 19 18:50:31 mid kernel: MTD dev0 size: 0x00100000     : "w-load-NAND"
+May 19 18:50:31 mid kernel: MTD dev1 size: 0x00900000     : "u-boot env. cfg. 1-NAND"
+May 19 18:50:31 mid kernel: MTD dev2 size: 0x00900000     : "u-boot-NAND"
+May 19 18:50:31 mid kernel: MTD dev3 size: 0x00800000     : "kernel-NAND"
+May 19 18:50:31 mid kernel: MTD dev4 size: 0x00600000     : "initrd-NAND"
+May 19 18:50:31 mid kernel: MTD dev5 size: 0x20000000     : "filesystem-NAND"
+May 19 18:50:31 mid kernel: MTD dev6 size: 0x00400000     : "u-boot-logo"
+May 19 18:50:31 mid kernel: MTD dev7 size: 0x00400000     : "kernel-logo"
+May 19 18:50:31 mid kernel: drivers/usb/core/inode.c: creating file 'devices'
+May 19 18:50:31 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:05.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:05.0: Performing full reset
+May 19 18:50:31 mid kernel: usb usb1: default language 0x0409
+May 19 18:50:31 mid kernel: usb usb1: udev 1, busnum 1, minor = 0
+May 19 18:50:31 mid kernel: usb usb1: uevent
+May 19 18:50:31 mid kernel: usb usb1: usb_probe_device
+May 19 18:50:31 mid kernel: usb usb1: adding 1-0:1.0 (config #1, interface 0)
+May 19 18:50:31 mid kernel: usb 1-0:1.0: uevent
+May 19 18:50:31 mid kernel: hub 1-0:1.0: usb_probe_interface
+May 19 18:50:31 mid kernel: hub 1-0:1.0: usb_probe_interface - got id
+May 19 18:50:31 mid kernel: hub 1-0:1.0: standalone hub
+May 19 18:50:31 mid kernel: hub 1-0:1.0: no power switching (usb 1.0)
+May 19 18:50:31 mid kernel: hub 1-0:1.0: individual port over-current protection
+May 19 18:50:31 mid kernel: hub 1-0:1.0: power on to power good time: 2ms
+May 19 18:50:31 mid kernel: hub 1-0:1.0: local power source is good
+May 19 18:50:31 mid kernel: hub 1-0:1.0: trying to enable port power on non-switchable hub
+May 19 18:50:31 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 18:50:31 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:06.0: uhci_check_and_reset_hc: cmd = 0x0000
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:06.0: Performing full reset
+May 19 18:50:31 mid kernel: usb usb2: default language 0x0409
+May 19 18:50:31 mid kernel: usb usb2: udev 1, busnum 2, minor = 128
+May 19 18:50:31 mid kernel: usb usb2: uevent
+May 19 18:50:31 mid kernel: usb usb2: usb_probe_device
+May 19 18:50:31 mid kernel: usb usb2: adding 2-0:1.0 (config #1, interface 0)
+May 19 18:50:31 mid kernel: usb 2-0:1.0: uevent
+May 19 18:50:31 mid kernel: hub 2-0:1.0: usb_probe_interface
+May 19 18:50:31 mid kernel: hub 2-0:1.0: usb_probe_interface - got id
+May 19 18:50:31 mid kernel: hub 2-0:1.0: standalone hub
+May 19 18:50:31 mid kernel: hub 2-0:1.0: no power switching (usb 1.0)
+May 19 18:50:31 mid kernel: hub 2-0:1.0: individual port over-current protection
+May 19 18:50:31 mid kernel: hub 2-0:1.0: power on to power good time: 2ms
+May 19 18:50:31 mid kernel: hub 2-0:1.0: local power source is good
+May 19 18:50:31 mid kernel: hub 2-0:1.0: trying to enable port power on non-switchable hub
+May 19 18:50:31 mid kernel: drivers/usb/core/inode.c: creating file '001'
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the open usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:05.0: port 1 portsc 008a,00
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:05.0: port 2 portsc 008a,00
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the close usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_room usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the chars_in_buffer usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the read_bulk_callback usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the write_bulk_callback usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the disconnect usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: drivers/usb/serial/usb-serial.c: Had to override the release usb serial operation with the generic one.
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:06.0: port 1 portsc 008a,00
+May 19 18:50:31 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 008a,00
+May 19 18:50:31 mid kernel: lib80211_crypt: registered algorithm 'NULL'
+May 19 18:50:31 mid kernel: hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 19 18:50:31 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0000
+May 19 18:50:31 mid kernel: usb usb1: suspend_rh (auto-stop)
+May 19 18:50:31 mid kernel: usb usb2: suspend_rh (auto-stop)
+May 19 18:50:31 mid kernel: usb usb1: uevent
+May 19 18:50:31 mid kernel: usb 1-0:1.0: uevent
+May 19 18:50:31 mid kernel: usb usb2: uevent
+May 19 18:50:31 mid kernel: usb 2-0:1.0: uevent
+May 19 18:50:35 mid kernel: usb usb2: wakeup_rh (auto-start)
+May 19 18:50:35 mid kernel: hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0004
+May 19 18:50:35 mid kernel: uhci_hcd 0000:00:06.0: port 2 portsc 0093,00
+May 19 18:50:35 mid kernel: hub 2-0:1.0: port 2, status 0101, change 0001, 12 Mb/s
+May 19 18:50:35 mid kernel: hub 2-0:1.0: debounce: port 2: total 100ms stable 100ms status 0x101
+May 19 18:50:35 mid kernel: usb 2-2: default language 0x0409
+May 19 18:50:35 mid kernel: usb 2-2: udev 2, busnum 2, minor = 129
+May 19 18:50:35 mid kernel: usb 2-2: uevent
+May 19 18:50:35 mid kernel: usb 2-2: usb_probe_device
+May 19 18:50:35 mid kernel: usb 2-2: adding 2-2:1.0 (config #1, interface 0)
+May 19 18:50:35 mid kernel: usb 2-2:1.0: uevent
+May 19 18:50:35 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface
+May 19 18:50:35 mid kernel: usbserial_generic 2-2:1.0: usb_probe_interface - got id
+May 19 18:50:35 mid kernel: drivers/usb/core/inode.c: creating file '002'
+May 19 18:50:36 mid kernel: rt2870 2-2:1.0: usb_probe_interface
+May 19 18:50:36 mid kernel: rt2870 2-2:1.0: usb_probe_interface - got id
+May 19 18:50:36 mid kernel: usb 2-2: uevent
+May 19 18:50:36 mid kernel: usb usb2: uevent
+May 19 18:50:36 mid kernel: usb 2-2: uevent
+May 19 18:50:39 mid kernel: usb usb1: uevent
+May 19 18:50:39 mid kernel: usb 1-0:1.0: uevent
+May 19 18:50:39 mid kernel: usb usb2: uevent
+May 19 18:50:39 mid kernel: usb 2-0:1.0: uevent
+May 19 18:50:39 mid kernel: usb 2-2: uevent
+May 19 18:50:39 mid kernel: usb 2-2:1.0: uevent
+May 19 18:50:54 mid kernel: usb usb1: uevent
+May 19 18:50:54 mid kernel: usb 1-0:1.0: uevent
+May 19 18:50:54 mid kernel: usb usb2: uevent
+May 19 18:50:54 mid kernel: usb 2-0:1.0: uevent
+May 19 18:50:54 mid kernel: usb 2-2: uevent
+May 19 18:50:54 mid kernel: usb 2-2:1.0: uevent
+May 19 18:52:03 mid kernel: usb usb1: uevent
+May 19 18:52:03 mid kernel: usb 1-0:1.0: uevent
+May 19 18:52:03 mid kernel: usb usb2: uevent
+May 19 18:52:03 mid kernel: usb 2-0:1.0: uevent
+May 19 18:52:03 mid kernel: usb 2-2: uevent
+May 19 18:52:03 mid kernel: usb 2-2:1.0: uevent

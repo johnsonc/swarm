@@ -1,0 +1,3453 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="პროქსის თვითკონფიგურაციის URL">
+						<longdesc>URL რომელშიც მოცემულია პროქსის კონფიგურაციის მნიშვნელობები.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCKS პროქსის პორტი">
+						<longdesc>&quot;/system/proxy/socks_host&quot; კოდით განსაზღვრული მანქანური პორტი პროქსისთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS პროქსის ჰოსტის სახელი">
+						<longdesc>მანქანური სახელი პროქსი არხისთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP პროქსის პორტი">
+						<longdesc>&quot;/system/proxy/ftp_host&quot; კოდით განსაზღვრული მანქანური პორტი პროქსისთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP პროქსის ჰოსტის სახელი">
+						<longdesc>პროქსი სერვერის მანქანური სახელი FTP-სთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="უსაფრთხო HTTP პროქსის პორტი">
+						<longdesc>&quot;/system/proxy/secure_host&quot; კოდით განსაზღვრული მანქანური პორტი პროქსისთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="უსაფრთხო HTTP პროქსის ჰოსტის სახელი">
+						<longdesc>პროქსი სერვერის მანქანური სახელი უსაფრთხო HTTP-სთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="პროქსის კონფიგურაციის რეჟიმი">
+						<longdesc>პროქსის კონფიგურაციის რეჟიმის მითითება. შესაძლო მნიშვნელობებია &quot;none&quot; (&quot;არა&quot;), &quot;manual&quot; (&quot;ხელით&quot;), &quot;auto&quot; (&quot;ავტომატური&quot;).</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="არა პროქსი ჰოსტები">
+						<longdesc>ეს კოდი შეიცავს ჰოსტების სიას, რომელიც პირდაპირაა დაკავშირებული და არა პროქსის საშუალებით (თუ აქტიურია). მნიშვნელობები შესაძლოა იყოს ჰოსტის სახელები, დომენები (სპეცსიმბოლოების გამოყენებით, მაგ., *.foo.com), ჰოსტის IP მისამართები (ორივე, IPv4 და IPv6) და ქსელური მისამართები ქსელის თარგით (მაგალითად 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP პროქსის პაროლი">
+						<longdesc>აუთენტიფიკაციის პაროლი HTTP პროქსი სერვერისთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP პროქსის მომხმარებლის სახელი">
+						<longdesc>მომხმარებლის სახელი HTTP პროქსი სერვერისთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="პროქსი სერვერის კავშირების აუთენტიფიკაცია">
+						<longdesc>თუ ჭეშმარიტია, პროქსი სერვერთან კავშირი აუთენტიფიკაციას საჭიროებს. username/password combo მითითებულია &quot;/system/http_proxy/authentication_user&quot; და &quot;/system/http_proxy/authentication_password&quot; საშუალებით.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP პროქსის პორტი">
+						<longdesc>&quot;/system/http_proxy/host&quot; კოდით განსაზღვრული მანქანური პორტი პროქსისთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP პროქსის ჰოსტის სახელი">
+						<longdesc>პროქსი სერვერის მანქანური სახელი HTTP-სთვის.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="HTTP პროქსის გამოყენება">
+						<longdesc>პროქსის პარამეტრების ჩართვა ინტერნეტით HTTP წვდომისას.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB სამუშაო ჯგუფი">
+						<longdesc>Windows ქსელის სამუშაო ჯგუფი ან დომენი რომელშიც მომხმარებელია გაერთიანებული. სამუშაო ჯგუფის შეცვლის ძალაში შესასვლელად აუცილებელია სისტემიდან გამოსვლა და ხელახალი შესვლა.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="დამატებითი დომენები DNS-SD მომსახურების მოსაძებნად">
+						<longdesc>მძიმით გამოყოფილი DNS-SD დომენები, რომლებიც უნდა ჩანდეს &quot;network:///&quot; მისამართზე.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="როგორ იქნება ნაჩვენები ლოკალური DNS-SD მომსახურება">
+						<longdesc>შესაძლო მნიშვნელობებია &quot;merged&quot; (&quot;შერწყმული&quot;), &quot;separate&quot; (&quot;დაყოფილი&quot;) და &quot;disabled&quot; (&quot;ამორთული&quot;).</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="tabs_open_position">
+						<local_schema short_desc="ყოველთვის _ბროუზერის ფანჯარაში გახსნა">
+							<longdesc>თუ მონიშნულია &quot;after_current_tab&quot;, ახალი დაფა მიმდინარე დაფის გვერდზე გამოჩნდება. თუ მონიშნულია &quot;end&quot;, მაშინ ახალი დაფა სიის ბოლოში გამოჩნდება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_backup_files">
+						<local_schema short_desc="სამარქაფო ფაილების ჩვენება არ ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="ფარული ფაილების ჩვენება არ ჩვენება">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<entry name="required_components_list">
+						<local_schema short_desc="სესიისთვის საჭირო კომპონენტები">
+						</local_schema>
+					</entry>
+					<entry name="default_session">
+						<local_schema short_desc="ნაგულისხმევი სესია">
+							<longdesc>რა მიმდევრობით უნდა ჩაირთონ პროგრამები სეანსის გაშვებისას.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="required_components">
+						<entry name="filemanager">
+							<local_schema short_desc="ფაილ მენეჯერი">
+							</local_schema>
+						</entry>
+						<entry name="panel">
+							<local_schema short_desc="პანელი">
+							</local_schema>
+						</entry>
+						<entry name="windowmanager">
+							<local_schema short_desc="ფანჯარათა მმართველი">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="ეკრანის ბლოკირების გამორთვა">
+							<longdesc>არ მისცე მომხმარებელს მისივე ეკრანის დაბლოკვის საშუალება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="მომხმარებლების გადართვის გამორთვა">
+							<longdesc>სხვა ანგარიშზე გადართვის შესაძლებლობის აღმოფხვრა, როდესაც სხვა მომხმარებლის სეანსია აქტიური.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="ბეჭდვის მორგების ამორთვა">
+							<longdesc>მომხმარებლისთვის ბეჭდვის პარამეტრების მითითების აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პროგრამებიდან &quot;ბეჭდვის პარამეტრების&quot; დიალოგის გამოყენების უფლება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="ბეჭდვის გათიშვა">
+							<longdesc>მომხმარებლისთვის ბეჭდვის აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პროგრამებიდან &quot;ბეჭდვის&quot; დიალოგის გამოყენების უფლება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="ფაილიების დისკზე შენახვის ამორთვა">
+							<longdesc>მომხმარებლისთვის ფაილების დისკზე შენახვის აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პროგრამებიდან &quot;შენახვა როგორც&quot; დიალოგის გამოყენების უფლება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="ბრძანების სტრიქონის ამორთვა">
+							<longdesc>მომხმარებლისთვის ტერმინალის ან ბრძანების გამოყენების აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პანელიდან &quot;პროგრამის შესრულების&quot; დიალოგის გამოყენების უფლება.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="მოვლენის გახმოვანება">
+							<longdesc>მოვლენების გახმოვანების გამოყენება</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ESD-ს ჩართვა">
+							<longdesc>დაწყებისას ხმის სერვერის გააქტივება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="მიქსერის ნაგულისხმევი არხები">
+							<longdesc>ნაგულისხმევი მიქშერ მოწყობილობის მიერ გამოყენებული ღილაკ-მალსახმობები.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="ნაგულისხმევი მიქშერის მოწყობილობა">
+							<longdesc>ნაგულისხმევი მიქშერ მოწყობილობის მიერ გამოყენებული ღილაკ-მალსახმობები.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="კურსორის ზომა">
+								<longdesc>კურსორის დამოწმებული ზომა კურსორის თემაში.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="კურსორის თემა">
+								<longdesc>კურსორის თემის სახელი. მხოლოდ Xserver-ებისთვის, რომლებიც Xcursor-ს იყენებენ, როგორიცაა XFree86 4.3 და მომდევნო.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="კურსორის შრიფტი">
+								<longdesc>კურსორის შრიფტის სახელი. თუ ამორთულია, გამოიყენება ნაგულისხმები შრიფტი. ეს მნიშვნელობა გამოსადეგია მხოლოდ X სერვერის თითოეული სეანსის დაწყებისას, ასე რომ, შუა სეანსის შეცვლისას იგი უშედეგო იქნება ახალ შესვლამდე.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="მაჩვენებლის განთავსება">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="ორმაგი დაწკაპვის დრო">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="გდათრევის ზღურბლი">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="მოძრაობის მგრძნობელობა">
+								<longdesc>მანძილი პიქსელებში, რომელიც მაჩვენებელმა უნდა გაიაროს თაგუნას აჩქარებული მოძრაობის გასააქტივებლად. სისტემის ნაგულისხმები მნიშვნელობაა -1.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="ერთმაგი დაწკაპვა">
+								<longdesc>თაგუნას აჩქარების კოეფიციენტი. სისტემის ნაგულისხმები მნიშვნელობაა -1.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="ერთმაგი დაწკაპვა">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="თაგუნას ღილაკის ორიენტაცია">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="NumLock სტატუსის დამახსოვრება">
+								<longdesc>თუ მითითებული &apos;ჭეშმარიტი&apos;, GNOME დაიმახსოვრებს NumLock სტატუსს სეანსებს შორის.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="ხმოვანი ზარის საკუთარი ფაილის სახელი">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>შესაძლო მნიშვნელობებია &quot;ჩართვა&quot;, &quot;ამორთვა&quot;, და &quot;საკუთარი&quot;.</longdesc>
+							</local_schema>
+						</entry>
+						<dir name="indicator">
+							<entry name="enabledPlugins">
+								<local_schema short_desc="კლავიატურის ინდიკატორში აქტიური მოდულების სია">
+									<longdesc>კლავიატურის ინდიკატორში აქტიური მოდულების სია</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="showFlags">
+								<local_schema short_desc="დროშის ჩვენება">
+									<longdesc>განლაგების აღსაღნიშნად ქვეყნის დროშების გამოჩენა</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="secondary">
+								<local_schema short_desc="მეორადი ჯგუფები">
+									<longdesc>მეორადი ჯგუფები</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="preview">
+							<entry name="height">
+								<local_schema short_desc="გადავხედოთ კლავიატურას, სიმაღლე">
+									<longdesc>გადავხედოთ კლავიატურას, სიმაღლე</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="width">
+								<local_schema short_desc="გადავხედოთ კლავიატურას, სიგანე">
+									<longdesc>გადავხედოთ კლავიატურას, სიგანე</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="გადავხედოთ კლავიატურას, Y ღერძზე">
+									<longdesc>გადავხედოთ კლავიატურას, Y ღერძზე</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="გადავხედოთ კლავიატურას, X ღერძზე">
+									<longdesc>გადავხედოთ კლავიატურას, X ღერძზე</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="general">
+							<entry name="disable_sysconfig_changed_warning">
+								<local_schema short_desc="გაფრთხილების შეტყობინება &quot;X სისტემური კონფოგურაცია შეიცვალა&quot; მოშორება">
+									<longdesc>გაფრთხილების შეტყობინება &quot;X სისტემური კონფოგურაცია შეიცვალა&quot; მოშორება</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="layoutNamesAsGroupNames">
+								<local_schema short_desc="ჯგუფის სახელების მაგივრად სახელწოდებების ჩვენება">
+									<longdesc>განლაგებების ჯგუფის სახელების მაგივრად სახელწოდებების ჩვენება (მხოლოდ იმ XFree ვერსიებისთვის, რომელთაც მულტი განლაგებების მხარდაჭერა გააჩნიათ)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="handleIndicators">
+								<local_schema short_desc="ინდიკატორების ჯგუფთან ერთად შენახვა/აღდგენა">
+									<longdesc>ინდიკატორების ჯგუფთან ერთად შენახვა/აღდგენა</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="groupPerWindow">
+								<local_schema short_desc="ფანჯრების მიხედვით, სხვადასხვა ჯგუფების მხარდაჭერა დამახსოვრება">
+									<longdesc>ფანჯრების მიხედვით, სხვადასხვა ჯგუფების მხარდაჭერა დამახსოვრება</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="defaultGroup">
+								<local_schema short_desc="ნაგულისხმევი ჯგუფი, ფანჯრის შექმნისას">
+									<longdesc>ნაგულისხმევი ჯგუფი, ფანჯრის შექმნისას</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="known_file_list">
+								<local_schema short_desc="modmap ფაილების სია">
+									<longdesc>modmap ფაილების სია $HOME დასტაში.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="update_handlers">
+								<local_schema short_desc="კლავიატურის განახლება">
+									<longdesc>სკრიპტების კოლექცია, რომელიც გამოიყენება კლავიატურის ხელახალი გამართვისას. გამოიყენება xmodmap-ში ცვლილების შეტანისას</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="kbd">
+							<entry name="options">
+								<local_schema short_desc="კლავიატურის პარამეტრები">
+									<longdesc>კლავიატურის პარამეტრები</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="layouts">
+								<local_schema short_desc="კლავიატურის განლაგება">
+									<longdesc>კლავიატურის განლაგება</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="model">
+								<local_schema short_desc="კლავიატურის მოდელი">
+									<longdesc>კლავიატურის მოდელი</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="ფერის დაჩრდილვის ტიპი">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="მეორადი ფერი">
+							<longdesc>მარჯვენა ან ქვედა ფერი გრადიენტების ან ერთგვაროვანი ფერით ასახვისას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="პირველადი ფერი">
+							<longdesc>მარცხენა ან ზედა ფერი გრადიენტების ან ერთგვაროვანი ფერით ასახვისას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="ნახატის გაუმჭვირვალობა">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="ნახატის ფაილის სახელი">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="ნახატის პარამეტრები">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="სამუშაო დაფის ფონის ასახვა">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="ფაილის ხატულების თემა">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>ამორთვა ორი კლავიშის ერთდროულად დაჭერისას</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="მინიმალური შუალედი მილიწამებში">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="საწყისი დაყოვნება მილიწამებში">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="აჩქარების ხანგრძლიობა მილიწამებში">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="პიქსელი წამში">
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="მინიმალური შუალედი მილიწამებში">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="საწყისი დამხმარე ტექნოლოგიური პროგრამები">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="webcal">
+						<entry name="need-terminal">
+							<local_schema short_desc="პროგრამის ტერმინალში გაშვება">
+								<longdesc>თუ მონიშნულია, ამ სახის ბმულების &quot;გამხსნელი&quot; პროგრამა ტერმინალში იქნება გაშვებული</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;webcal&quot; ტიპის ბმულების &quot;გამხსნელი&quot;">
+								<longdesc>&quot;webcal&quot; ტიპის ბმულების &quot;გამხსნელი&quot;</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="როგორ მოვექცე &quot;webcal&quot;-ის სახის (URL) ბმულებს">
+								<longdesc>თუ მონიშნულია, &quot;webcal&quot;-ის სახის (URL) ბმულები &quot;command&quot; გასაღებში მითითებული პროგრამით გაიხსნებიან.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;h323&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;h323&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;h323&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;h323&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;callto&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;callto&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;callto&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;callto&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;mailto&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;mailto&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;mailto&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;mailto&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;https&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;https&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;https&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;https&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="cdda">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;http&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;http&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;http&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;http&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;man&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;man&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;man&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;man&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;info&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;info&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;info&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;info&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;ghelp&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;ghelp&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;ghelp&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;ghelp&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ბრძანების ტერმინალში შესრულება">
+								<longdesc>ჭეშმარიტია თუ ბრძანება ამ ტიპის URL-ების დასამუშავებლად ტერმინალში უნდა შესრულდეს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="დამმუშავებელი &quot;trash&quot; URL-ებისთვის">
+								<longdesc>დამუშავების ბრძანება &quot;trash&quot; URL-ებისთვის, თუ ჩართულია.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="დაამუშავებს თუ არა მითითებული ბრძანება &quot;trash&quot; ტიპის URL-ებს">
+								<longdesc>ჭეშმარიტია თუ მითითებული ბრძანება &quot;command&quot; კოდში ამუშავებს &quot;trash&quot; URL-ებს.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="დაიბლოკოს თუ არა კლავიატურა">
+							<longdesc>დაიბლოკოს თუ არა კლავიატურა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="წყვეტის გადადების დაშვება">
+							<longdesc>შეიძლება თუ არა ტეასტის შეტანის წყვეტის ეკრანის გადავადება</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="წყვეტის დრო">
+							<longdesc>ტექსტის შეტანის წყვეტის ხანგრძლივობა წუთებში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="ტექსტის შეტანის ხანგრძლივობა">
+							<longdesc>ტექსტის შეტანის ხანგრძლივობა წუთებში წყვეტის რეჟიმის დაწყებამდე.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="სასურველი დამხმარე ტექნოლოგიის პროგრამის გაშვება">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="სასურველი დამხმარე ტექნოლოგიური პროგრამები">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="ამორჩეული ვიზუალური დამხმარე ტექნოლოგის პროგრამის გაშვება">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="სასურველი მხედველობის დამხმარე ტექნოლოგიური პროგრამა">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="ბრაუზერი აღიქვამს გარე მართვას">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="ბრაუზერი საჭიროებს ტერმინალს">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ნაგულისხმები ბრაუზერი">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="სამუშაო არეთა სახელები (უარყოფილია)">
+								<longdesc>ფანჯრების პირველადი მმართველების სამუშაო არეთა სახელების სია. ეს კლავიში გაუქმდა GNOME 2.12-ის შემდეგ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="სამუშაო არეთა რაოდენობა (უარყოფილია)">
+								<longdesc>ფანჯერბის მმართველის მიერ გამოყენებული სამუშაო არეთა რაოდენობა. ეს კლავიში უარყოფილია GNOME 2.12-ის შემდეგ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="მომხმარებლის ფანჯრების მმართველი (უარყოფილია)">
+								<longdesc>ფანჯრების პირველადი მმართველი. კლავიში უარყოფილია GNOME 2.12-ის შემდეგ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="ფანჯრების სამარაგო მმართველი (გაუქმდა)">
+								<longdesc>ფანჯრების სამარაგო მმართველი თუ მომხმარებლის ფანჯრების მმართველი ვერ მოიძებნა. ეს კლავიში გაუქმდა GNOME 2.12-ის შემდეგ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="კომპონენტების ჩვენების ნაგულისხმები პროგრამა">
+								<longdesc>პროგრამა ამ ფაილის საჩვენებლად საჭიროებს დამატებით კომპონენტს. პარამეტრი %s შეიცვლება ფაილის URI-თ, პარამეტრი %c შეიცვლება კომპონენტის IID-ით.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="&apos;Exec&apos; არგუმენტები">
+								<longdesc>არგუმენტი, რომელსაც პროგრამების ტერმინალში შესრულებისთვის &apos;exec&apos; კლავიში იყენებს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ტერმინალის პროგრამა">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="&apos;უნიკოდის საკონტროლო სიმბოლოების&apos; მენიუს ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="&apos;შეტანის მეთოდების&apos; მენიუს ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="მენიუს ზოლის ამაჩქარებელი">
+							<longdesc>კლავიატურის ბმული მენიუს ზოლის გასახსნელად</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="GtkFileChooser მოდული">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="სტატუსის პანელი მარჯვნივ">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="საკუთარი შრიფტის გამოყენება">
+							<longdesc>გამოვიყენოთ თუ არა საკუთარი შრიფტი gtk+ პროგრამებისთვის.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="მონოსიგანის შრიფტი">
+							<longdesc>მონოსიგანის (ფიქსირებული სიგანის) შრიფტის სახელი ტერმინალში გამოსაყენებლად.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="დოკუმენტის შრიფტი">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM სტატუსის სტილი">
+							<longdesc>GTK+ შეტანის მეთოდის სტატუსის სტილის სახელი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM ესკიზის სტილი">
+							<longdesc>GTK+ შეტანის მეთოდის მზა სტილის სახელი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="ნაგულისხმები შრიფტი">
+							<longdesc>GTK+ ნაგულისხმები შრიფტის სახელი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ თემა">
+							<longdesc>gtk+ ნაგულისხმები თემის ძირითადი სახელი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ თემა">
+							<longdesc>gtk+ ნაგულისხმები თემის ძირითადი სახელი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="პიქტოგრამების თემა">
+							<longdesc>პიქტოგრამების თემა პანელისთვის, ნაუტილუსი და ა.შ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="კურსორის ციმციმის დრო">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="მოციმციმე კურსორი">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="პულტის პიქტოგრამების ზომა">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="პულტი მოხსნადია">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="მენიუს ზოლი მოხსნადია">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="მენიუები პიქტოგრამებითაა">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="პულტის სტილი">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="შესაძლოა ამაჩქარებლების შეცვლა">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="მენიუ წყვეტებით">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="ანიმაციის ჩართვა">
+							<longdesc>გამოჩნდეს თუ არა ანიმაციები. შენიშვნა: ეს გლობალური კლავიშია და ფანჯრების მმართველის, პანელის და ა.შ. თვისებებს ცვლის</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="დამხმარე შესაძლებლობების ჩართვა">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="ყველა გარე მინიატურების ამორთვა">
+							<longdesc>მიუთითეთ &apos;ჭეშმარიტი&apos; ჩართეთ ყველა გარე მინიატურების პროგრამის ამოსართავად, დამოუკიდებელი - მათ დამოუკიდებლად ამორთვა/ჩასართავად.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF დოკუმენტების ესკიზების ბრძანება ">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF დოკუმენტების დაესკიზების ჩართვა">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF დოკუმენტების ესკიზების ბრძანება ">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF დოკუმენტების დაესკიზების ჩართვა">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="PDF დოკუმენტების ესკიზების ბრძანება ">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF დოკუმენტების დაესკიზების ჩართვა">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="netstatus_applet">
+				<entry name="config_tool">
+					<local_schema short_desc="ქსელის კონფიგურაციის ხელსაწყო">
+					</local_schema>
+				</entry>
+				<dir name="prefs">
+					<entry name="interface">
+						<local_schema short_desc="ქსელის ინტერფეისი">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="procman">
+				<entry name="net_out_color">
+					<local_schema short_desc="ნაგულისხმევი ფერი ქსელის გამავალი ტრაფიკის გრაფიკისთვის">
+					</local_schema>
+				</entry>
+				<entry name="net_in_color">
+					<local_schema short_desc="ნაგულისხმევი ფერი ქსელის შემავალი ტრაფიკის გრაფიკისთვის">
+					</local_schema>
+				</entry>
+				<entry name="swap_color">
+					<local_schema short_desc="გრაფიკის ნაგულისხმევი swap მეხსიერების ფონის ფერი">
+					</local_schema>
+				</entry>
+				<entry name="mem_color">
+					<local_schema short_desc="გრაფიკის ნაგულისხმევი მეხსიერების ფონის ფერი">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color3">
+					<local_schema short_desc="გრაფიკის ნაგულისხმევი cpu-ს ფონის ფერი">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color2">
+					<local_schema short_desc="გრაფიკის ნაგულისხმევი cpu-ს ფონის ფერი">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color1">
+					<local_schema short_desc="გრაფიკის ნაგულისხმევი cpu-ს ფონის ფერი">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color0">
+					<local_schema short_desc="გრაფიკის ნაგულისხმევი cpu-ს ფონის ფერი">
+					</local_schema>
+				</entry>
+				<entry name="current_tab">
+					<local_schema short_desc="ინახავს მიმდინარე აქტიურ ჩანართს">
+						<longdesc>0 სისტემის ინფორმაციისთვის, 1 პროცესების სიისთვის, 2 რესურსებისთვის და 3 ტომთა სიისთვის</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="view_as">
+					<local_schema short_desc="განსაზღვრავს თუ რომელი პროცესი აჩვენოს ნაგულისხმევად 0 - ყველა, 1 - მომხმარებელი, 2 - აქტიური">
+					</local_schema>
+				</entry>
+				<entry name="disks_interval">
+					<local_schema short_desc="მოწყობილობათა სიის ჩვენების განახლება მილიწამებში">
+					</local_schema>
+				</entry>
+				<entry name="show_all_fs">
+					<local_schema short_desc="არის თუ არა საჭირო ფაილთა სისტემის შესახებ ინფორმაციის გამოჩენა">
+						<longdesc>ინფორმაციის ჩვენება ფაილთა სისტემების შესახებ (როგორც &apos;autofs&apos; და &apos;procfs&apos;). კარგი იქნება ყველა მონტაჟირებული ფაილ სისტემების ჩვენებაც.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="graph_update_interval">
+					<local_schema short_desc="გრაფიკების განახლების დროის მილიწამებში ჩვენება">
+					</local_schema>
+				</entry>
+				<entry name="update_interval">
+					<local_schema short_desc="პროცესების ხედის განახლების დრო მილიწამებში">
+					</local_schema>
+				</entry>
+				<entry name="kill_dialog">
+					<local_schema short_desc="პროცესების მოკვლისას გაფრთხილების დიალოგის ჩვენება">
+					</local_schema>
+				</entry>
+				<entry name="smooth_refresh">
+					<local_schema short_desc="პირდაპირი განახლების ჩართვა/გამორთვა">
+					</local_schema>
+				</entry>
+				<entry name="solaris_mode">
+					<local_schema short_desc="Solaris რეჟიმი CPU-ს პროცენტული გამოსახვისთვის">
+						<longdesc>If TRUE, system-monitor operates in &apos;Solaris mode&apos; where a task&apos;s cpu usage is divided by the total number of CPUs. Else it operates in &apos;Irix mode&apos;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_tree">
+					<local_schema short_desc="პროცესთა ერთმანეთთან დამოკიდებულება განშტოების სახით ჩვენება">
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="მთავარი ფანჯრის სიმაღლე">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="მთავარი ფანჯრის სიგანე">
+					</local_schema>
+				</entry>
+				<dir name="memmapstree">
+					<entry name="sort_order">
+						<local_schema short_desc="პროცესთა სიის სორტირების მეთოდი">
+						</local_schema>
+					</entry>
+					<entry name="sort_col">
+						<local_schema short_desc="პროცესთა სიის სორტირების სვეტი">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="disktreenew">
+					<entry name="columns_order">
+						<local_schema short_desc="დისკების სვეტების მიმდევრობის ხედი">
+						</local_schema>
+					</entry>
+					<entry name="sort_order">
+						<local_schema short_desc="პროცესთა სიის სორტირების მეთოდი">
+						</local_schema>
+					</entry>
+					<entry name="sort_col">
+						<local_schema short_desc="პროცესთა სიის სორტირების სვეტი">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="proctree">
+					<entry name="col_15_visible">
+						<local_schema short_desc="გაშვებისას &apos;მეხსიერების მოსალოდნელი გამოყენების&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_15_width">
+						<local_schema short_desc="პროცესის &apos;მეხსიერების მოსალოდნელი გამოყენების&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_14_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;არგუმენტების&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_14_width">
+						<local_schema short_desc="პროცესის &apos;არგუმენტების&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_13_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;SELinux security context&apos;-ის სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_13_width">
+						<local_schema short_desc="პროცესის &apos;SELinux security context&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_12_visible">
+						<local_schema short_desc="გაშვებისას პროცესის PID სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_12_width">
+						<local_schema short_desc="პროცესის &apos;PID&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_11_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;პრიორიტეტის&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_11_width">
+						<local_schema short_desc="პროცესის &apos;პრიორიტეტის&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_10_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;გაშვების დრო&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_10_width">
+						<local_schema short_desc="პროცესის &apos;გაშვების დრო&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_9_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;CPU დრო&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_9_width">
+						<local_schema short_desc="პროცესის &apos;CPU-ს დრო&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_8_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;CPU %&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_8_width">
+						<local_schema short_desc="პროცესის &apos;CPU %&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_7_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;X სერვერის მეხსიერების&apos;-ის სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_7_width">
+						<local_schema short_desc="პროცესის &apos;X სერვერის მეხსიერების&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_6_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;გაზიარებული მეხსიერების&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_6_width">
+						<local_schema short_desc="პროცესის &apos;გაზიარებული მეხსიერების&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_5_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;ჩაწერადი მეხსიერების&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_5_width">
+						<local_schema short_desc="პროცესის &apos;ჩაწერადი მეხსიერების&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_4_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;ძირითადი მეხსიერების&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_4_width">
+						<local_schema short_desc="პროცესის &apos;ძირითადი მეხსიერების&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_3_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;ვირტუალური მეხსიერების&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_3_width">
+						<local_schema short_desc="პროცესის &apos;ვირტუალური მეხსიერების&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_2_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;სტატუსის&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_2_width">
+						<local_schema short_desc="პროცესის &apos;სტატუსის&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_1_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;მფლობელის&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_1_width">
+						<local_schema short_desc="პროცესის &apos;მფლობელის&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="col_0_visible">
+						<local_schema short_desc="გაშვებისას პროცესის &apos;სახელის&apos; სვეტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="col_0_width">
+						<local_schema short_desc="პროცესის &apos;სახელის&apos; სვეტის სიგანე">
+						</local_schema>
+					</entry>
+					<entry name="sort_order">
+						<local_schema short_desc="პროცესთა სიის სორტირების მეთოდი">
+						</local_schema>
+					</entry>
+					<entry name="columns_order">
+						<local_schema short_desc="პროცესთა სვეტების თანმიმდევრობა">
+						</local_schema>
+					</entry>
+					<entry name="sort_col">
+						<local_schema short_desc="პროცესთა სიის სორტირების სვეტი">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema short_desc="ტიტრების კოდირებაკოდირება">
+						<longdesc>სუბტიტრების კოდირებაLocale</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="subtitle_font">
+					<local_schema short_desc="ტიტრების ფონტი">
+						<longdesc>ფონტ Pango-ს აღწერილობა ტიტრების რენდერინგისთვის</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="network-buffer-threshold">
+					<local_schema short_desc="ქსელის ბუფერინგის საწყისი წერტილი">
+						<longdesc>ბუფერში შესანახი ინფორმაციის რაოდენობა ქსელური სტრიმინგის დროს (წამებში)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_on_top">
+					<local_schema short_desc="ძირითადი ფანჯრის პირველ პლანზე ყოფნის აგმნიშვნელი">
+						<longdesc>ძირითადი ფანჯრის პირველ პლანზე ყოფნის აგმნიშვნელი სხვა ფანჯარასთან მიმართებაში</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="audio_output_type">
+					<local_schema short_desc="გამოსაყენებელი აუდიო გასასვლელი">
+						<longdesc>გამოსაყენებელი აუდიო გასასვლელი: &quot;0&quot;- სტერეო, &quot;1&quot; - 4 არხიანი გასასვლელი, &quot;2&quot; 5.0 არხიანი გასასვლელი, &quot;3&quot; - 5.1 ტიპის გასასვლელი, &quot;4&quot; AC3-ი.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="ჩართე შეცდომათა გასწორების რეჟიმი">
+					</local_schema>
+				</entry>
+				<entry name="deinterlace">
+					<local_schema short_desc="ჩართე დეინტერლეისი">
+					</local_schema>
+				</entry>
+				<entry name="shuffle">
+					<local_schema short_desc="ალალბედზე დაკვრა">
+					</local_schema>
+				</entry>
+				<entry name="repeat">
+					<local_schema short_desc="გამეორებითი რეჯიმი">
+					</local_schema>
+				</entry>
+				<entry name="auto_resize">
+					<local_schema short_desc="შეცვალე ფანჯრის ზომა ავტომატურად ფაილის გახსნისას">
+					</local_schema>
+				</entry>
+				<entry name="saturation">
+					<local_schema short_desc="ვიდეოს სატურაცია">
+					</local_schema>
+				</entry>
+				<entry name="hue">
+					<local_schema short_desc="ვიდეოს ტონალობა">
+					</local_schema>
+				</entry>
+				<entry name="contrast">
+					<local_schema short_desc="ვიდეოს კონტრასტი">
+					</local_schema>
+				</entry>
+				<entry name="brightness">
+					<local_schema short_desc="ვიდეოს სიკაშკაშე">
+					</local_schema>
+				</entry>
+				<entry name="visual">
+					<local_schema short_desc="ვიზუალისაციის პლაგინების სახელი">
+					</local_schema>
+				</entry>
+				<entry name="show_vfx">
+					<local_schema short_desc="აჩვენე ვიზუალური ეფეკტები ვიდეოს არქონის დროს">
+						<longdesc>აჩვენე ვიზუალური ეფეკტები აუდიო ფაილის დაკვის დროს.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-screensaver">
+				<entry name="user_switch_enabled">
+					<local_schema short_desc="მომხმარებლის გადართვის ნების დართვა">
+						<longdesc>მიენიჭოს მნიშვნელობა TRUE განბლოკვის დიალოგში მომხმარებლის გადართვის ფუნქციისათვის</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="logout_command">
+					<local_schema short_desc="სესიის დახურვის ბრძანება">
+						<longdesc>სესიის დახურვის ღილაკზე დაჭერისას შესასრულებელი ბრძანება. ეს ბრძანება უბრალოდ დახურავს მომხმარებლის სესიას რაიმე დიალოგის გარეშე. გასაღები მოქმედებს, თუ &quot;logout_enable&quot; გასაღების მნიშვნელობა არის TRUE.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="logout_delay">
+					<local_schema short_desc="დრო სესიის დახურვის პუნქტის გამოჩენამდე">
+						<longdesc>ეკრანმზოგის გააქტიურებიდან დროის ხანგრძლივობა წუთებში , რომლის შემდეგ განბლოკვის დიალოგში გამოჩნდება სესიის დახურვის პუნქტი. გასაღები აქტიურია, თუ &quot;logout_enable&quot; გასაღების მნიშვნელობა არის TRUE.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="logout_enabled">
+					<local_schema short_desc="სესიიდან გასვლის ნების დართვა">
+						<longdesc>მიენიჭოს მნიშვნელობა TRUE განბლოკვის დიალოგში დაყოვნების შემდეგ სესიიდან გამოსვლისათვის. დაყოვნების ხანგრძლივობა მიეთითება გასაღებში &quot;logout_delay&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="embedded_keyboard_command">
+					<local_schema short_desc="ჩაკერებული კლავიატურის ბრძანება">
+					</local_schema>
+				</entry>
+				<entry name="lock_delay">
+					<local_schema short_desc="დრო ბლოკირებამდე">
+						<longdesc>ეკრანმზოგის გააქტიურებიდან ეკრანის ბლოკირებამდე დროის ხანგრძლივობა, წთ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="cycle_delay">
+					<local_schema short_desc="დრო თემის შეცვლამდე">
+						<longdesc>დრო, რომლის შემდეგ შეიცვლება ეკრანმზოგის თემა, წთ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="idle_delay">
+					<local_schema>
+						<longdesc>დრო, რომლის შემდეგ სესია გადავა უქმ რეჟიმში, წთ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="themes">
+					<local_schema short_desc="ეკრანმზოგის გაფორმების თემები">
+						<longdesc>გასაღებში მიეთითება ეკრანმზოგის მიერ გამოსაყენებელი თემების სია. იგნორირდება, როცა არჩეულია რეჟიმი &quot;სუფთა ეკრანი&quot;, &quot;ერთი თემის&quot; რეჟიმში უნდა მიეთითოს თემის სახელი, ხოლო &quot;შემთხვევითი თემის&quot; რეჟიმში - თემების სია.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="ეკრანმზოგის თემების არჩევის რეჟიმი">
+						<longdesc>ეკრანმზოგის რეჟიმი: &quot;სუფთა ეკრანი&quot; - როცა ეკრანმზოგი არ იყენებს არცერთ თემას, &quot;ერთი თემა&quot; - როცა გამოიყენება ერთი რომელიმე თემა, მითითებული გასაღებში &quot;თემა&quot;, და &quot;შემთხვევითი თემა&quot; - როცა ეკრანმზოგი თავად ცვლის თემებს შემთხვევითი თანმიმდევრობით.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="lock_enabled">
+					<local_schema short_desc="ეკრანის ბლოკირება">
+						<longdesc>მიენიჭოს მნიშვნელობა TRUE ეკრანის ბლოკირებისათვის როცა გააქტიურებულია ეკრანმზოგი</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="idle_activation_enabled">
+					<local_schema short_desc="გააქტიურება, როცა უქმადაა">
+						<longdesc>თუ მინიჭებულია TRUE მნიშვნელობა, ეკრანმზოგის დაიბლოკება სეანსის უქმ მდგომარეობაში ყოფნის დროს.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-power-manager">
+				<dir name="ui">
+					<entry name="icon_policy">
+						<local_schema short_desc="შეტყობინების ხატულას ჩვენების დრო">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="timeout">
+					<entry name="sleep_display_battery">
+						<local_schema short_desc="ეკრანის გამორთვის დაყოვნება აკუმულატორით კვებისას">
+							<longdesc>დრო (წამებში), რომლის განმავლობაშიც კომპიუტერი, რომელიც ჩართულია ელ. ქსელში, უნდა იყოს არააქტიური, რომ ეკრანი გადავიდეს &quot;ძილის რეჟიმში&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_display_ac">
+						<local_schema short_desc="ეკრანის გამორთვის დაყოვნება ქსელური კვებისას">
+							<longdesc>დრო (წამებში), რომლის შემდეგაც ეკრანი &quot;დაიძინებს&quot;, როცა კომპიუტერი ჩართულია ელ. ქსელში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_computer_ac">
+						<local_schema short_desc="მუშაობის შეჩერების დაყოვნება ქსელური კვებისას">
+							<longdesc>დრო (წამებში), რომლის განმავლობაშიც კომპიუტერი, რომელიც ჩართულია ელ. ქსელში, უნდა იყოს არააქტიური, რომ ის გადავიდეს &quot;ძილის რეჟიმში&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_computer_battery">
+						<local_schema short_desc="მუშაობის შეჩერების დაყოვნება აკუმულატორით კვებისას">
+							<longdesc>დრო (წამებში), რომლის განმავლობაშიც კომპიუტერი, რომელიც იკვებება აკუმულატორიდან, უნდა იყოს არააქტიური, რომ ის გადავიდეს &quot;ძილის რეჟიმში&quot;</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thresholds">
+					<entry name="time_action">
+						<local_schema short_desc="მოქმედებამდე დარჩენილი დრო">
+							<longdesc>აკუმულატორის დარჩენილი დრო (წამებში), სანამ &quot;მოქმედება კრიტიკული მუხტისას&quot; განხორციელდება. ფუნქცია ჩართულია მხოლოდ მაშინ, როცა use_time_for_policy-ის მნიშვნელობა ჭეშმარიტია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="time_critical">
+						<local_schema short_desc="&quot;კრიტიკულ მუხტამდე&quot; დარჩენილი დრო">
+							<longdesc>აკუმულატორის დარჩენილი დრო (წამებში), სანამ მისი მუხტი მიიჩნევა &quot;კრიტიკულად&quot;. ფუნქცია ჩართულია მხოლოდ მაშინ, როცა use_time_for_policy-ის მნიშვნელობა ჭეშმარიტია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="time_low">
+						<local_schema short_desc="&quot;მცირე მუხტამდე&quot; დარჩენილი დრო">
+							<longdesc>აკუმულატორის დარჩენილი დრო (წამებში), სანამ მისი მუხტი მიიჩნევა &quot;მცირედ&quot;. ფუნქცია ჩართულია მხოლოდ მაშინ, როცა use_time_for_policy-ის მნიშვნელობა ჭეშმარიტია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="percentage_action">
+						<local_schema short_desc="მოქმედება სრულდება მუხტის პროცენტობის მიხედვით">
+							<longdesc>აკუმულატორის მუხტის მნიშვნელობა (პროცენტებში), როცა ხორციელდება &quot;მოქმედება მცირე მუხტისას&quot;. ფუნქცია ჩართულია მხოლოდ მაშინ, როცა use_time_for_policy-ის მნიშვნელობა მცდარია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="percentage_critical">
+						<local_schema short_desc="მუხტის პროცენტობა ითვლება კრიტიკულად">
+							<longdesc>აკუმულატორის მუხტის მნიშვნელობა (პროცენტებში), რომელიც მიჩნეულია &quot;კრიტიკულად&quot;. ფუნქცია ჩართულია მხოლოდ მაშინ, როცა use_time_for_policy-ის მნიშვნელობა მცდარია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="percentage_low">
+						<local_schema short_desc="მუხტის პროცენტობა ითვლება მცირედ">
+							<longdesc>აკუმულატორის მუხტის მნიშვნელობა (პროცენტებში), რომელიც მიჩნეულია &quot;მცირედ&quot;. ფუნქცია ჩართულია მხოლოდ მაშინ, როცა use_time_for_policy-ის მნიშვნელობა მცდარია.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="statistics">
+					<entry name="data_max_time">
+						<local_schema short_desc="გრაფიკზე ნაჩვენები დროის მაქსიმალური მნიშვნელობა">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="notify">
+					<entry name="fully_charged">
+						<local_schema short_desc="შემატყობინე, როცა აკუმულატორი სრულადაა დატენილი">
+							<longdesc>შემატყობინე აკუმულატორი სრულად დატენვა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="discharging">
+						<local_schema short_desc="შემატყობინე, როცა ქსელური კვება გამორთულია">
+							<longdesc>შემატყობინე, როცა ქსელური კვება გამორთულია</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="disks">
+					<entry name="spindown_enable_battery">
+						<local_schema short_desc="ნებადართულ იქნას დაბალი ენერგიის რეჟიმი აკუმულატორით კვებისას">
+							<longdesc>ნებადართულ იქნას დაბალი ენერგიის რეჟიმი აკუმულატორით კვების შემთხვევაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="spindown_enable_ac">
+						<local_schema short_desc="ნებადართულ იქნას დაბალი ენერგიის რეჟიმი ქსელური კვებისას.">
+							<longdesc>ნებადართულ იქნას დაბალი ენერგიის რეჟიმი ქსელური კვების შემთხვევაში.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lock">
+					<entry name="hibernate">
+						<local_schema short_desc="ეკრანის დაბლოკვა ძილის რეჟიმში">
+						</local_schema>
+					</entry>
+					<entry name="suspend">
+						<local_schema short_desc="ეკრანის დაბლოკვა ლოდინის რეჟიმში">
+						</local_schema>
+					</entry>
+					<entry name="blank_screen">
+						<local_schema short_desc="ეკრანის დაბლოკვა ცარიელი ეკრანის რეჟიმში">
+						</local_schema>
+					</entry>
+					<entry name="use_screensaver_settings">
+						<local_schema short_desc="გამოიყენე გნომის ეკრანმზოგის დაბლოკვა (gnome-screensaver lock)">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="check_type_cpu">
+						<local_schema short_desc="შეამოწმე პროცესორის დატვირთვა ძილის რეჟიმში გადასვლამდე">
+							<longdesc>უქმე რეჟიმში გადასვლამდე შემოწმდეს პროცესორის დატვირთვა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_time_for_policy">
+						<local_schema short_desc="გამოიყენე დროზე დამყარებული შეტყობინებები">
+							<longdesc>დროზე დაფუძნებული შეტყობინებების გამოყენება. თუ ეს რეჟიმი გამორთულია, მაშინ გამოიყენება პროცენტული ცვლილება, რამაც შესაძლოა გაასწოროს დაზიანებული ACPI BIOS.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="buttons">
+					<entry name="lid_ac">
+						<local_schema short_desc="ლეპტოპის ეკრანის დახურვის მოქმედება ელ. ქსელიდან კვებისას">
+							<longdesc>მოქმედება, რომელიც უნდა შესრულდეს , როცა ლეპტოპი იკვებება ელ. ქსელიდან და ლეპტოპის ეკრანი დახურულია. დასაშვები მნიშვნელობები: &quot;ლოდინის რეჟიმი&quot;, &quot;ძილის რეჟიმი&quot;, &quot;ცარიელი&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="lid_battery">
+						<local_schema short_desc="ლეპტოპის ეკრანის დახურვის მოქმედება აკუმულატორზე">
+							<longdesc>მოქმედება, რომელიც უნდა შესრულდეს , როცა ლეპტოპი იკვებება აკუმულატორიდან და ლეპტოპის ეკრანი დახურულია.დასაშვები მნიშვნელობები: &quot;ძილის რეჟიმი&quot;, &quot;ლოდინის რეჟიმი&quot;, &quot;ცარიელი&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="power">
+						<local_schema short_desc="ჩართვა-გამორთვის ღილაკის მოქმედება">
+							<longdesc>მოქმედება, რომელიც უნდა შესრულდეს სისტემის გამორთვის ღილაკზე თითის დაჭერის შემდეგ. დასაშვები მნიშვნელობები: &quot;ლოდინის რეჟიმი&quot;, &quot;ძილის რეჟიმი&quot;, &quot;ინტერაქტიური&quot;, &quot;გამორთვა&quot; და &quot;გამორთვა&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hibernate">
+						<local_schema short_desc="ძილის რეჟიმის ღილაკის მოქმედება">
+							<longdesc>მოქმედება, რომელიც უნდა შესრულდეს ძილის რეჟიმის ღილაკზე თითის დაჭერის შემდეგ. დასაშვები მნიშვნელობები: &quot;ლოდინის რეჟიმი&quot;, &quot;ძილის რეჟიმი&quot;, &quot;ინტერაქტიური&quot;, &quot;გამორთვა&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="suspend">
+						<local_schema short_desc="ლოდინის ღილაკის მოქმედება">
+							<longdesc>მოქმედება, რომელიც უნდა შესრულდეს ლოდინის რეჟიმის ღილაკზე თითის დაჭერის შემდეგ.დასაშვები მნიშვნელობები: &quot;ლოდინის რეჟიმი&quot;, &quot;ძილის რეჟიმი&quot;, &quot;ინტერაქტიური&quot;, &quot;გამორთვა&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="backlight">
+					<entry name="brightness_ac">
+						<local_schema short_desc="LCD-ს სიკაშკაშე ელ. ქსელით კვებისას">
+							<longdesc>ეკრანის სიკაშკაშე ელ. ქსელით კვებისას. დასაშვები მნიშვნელობებია 0-დან 100-მდე.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="dpms_method_battery">
+						<local_schema short_desc="ეკრანის გაცარიელების მეთოდი აკუმულატორით კვებისას">
+						</local_schema>
+					</entry>
+					<entry name="dpms_method_ac">
+						<local_schema short_desc="ეკრანის გაცარიელების მეთოდი ქსელური კვებისას">
+						</local_schema>
+					</entry>
+					<entry name="idle_brightness">
+						<local_schema short_desc="ეკრანის სიკაშკაშე უქმე რეჟიმში">
+							<longdesc>ეს არის ლეპტოპის ეკრანის სიკაშკაშე, რომელიც გამოიყენება სესიის უქმე დროს. ფუნქცია ჩართულია მხოლოდ მაშინ, როცა use_time_for_policy-ის მნიშვნელობა ჭეშმარიტია.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="actions">
+					<entry name="critical_ups">
+						<local_schema short_desc="მოქმედება - UPS-ის მუხტი კრიტიკულად დაბალია">
+							<longdesc>მოქმედება, რომელიც უნდა შესრულდეს , როცა UPS-ის მდგომარეობა კრიტიკულია. დასაშვები მნიშვნელობები: &quot;ძილის რეჟიმი&quot;, &quot;ლოდინის რეჟიმი&quot;, &quot;გამორთვა&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_type_ac">
+						<local_schema short_desc="გადავიდეს თუ არა სისტემა ძილის ან ლოდინის რეჟიმში, ან არაფერი გააკეთოს, თუ არააქტიურია.">
+							<longdesc>&quot;დაძინების&quot; ტიპი, რომელშიც უნდა გადავიდეს კომპიუტერი არააქტიურობის შემთხვევაში. დასაშვები მნიშვნელობებია: &quot;ძილის რეჟიმი&quot;, &quot;ლოდინის რეჟიმი&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_when_closed_battery">
+						<local_schema short_desc="თავი იჩინოს &quot;აკუმულატორის მოვლენამ&quot;, როცა ლეპტოპის ეკრანი დახურულია და კომპიუტერი გამორთულია ელ. ქსელიდან">
+							<longdesc>უნდა იჩინოს თუ არა თავი ლეპტოპის ეკრანის დახურვის მოვლენამ (მაგ. &quot;ლოდინი რეჟიმი, როცა დახურულია&quot;), როცა ჯერ ლეპტოპის ეკრანი დაიხურა, ელ. კვება კი გამოირთო მოგვიანებით.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="critical_battery">
+						<local_schema short_desc="მოქმედება განგაშზე - ბატარეის კრიტიკული მდგომარეობა">
+							<longdesc>მოქმედება, რომელიც უნდა შესრულდეს , როცა აკუმულატორის მუხტი კრიტიკულად დაბალია. დასაშვები მნიშვნელობები:&quot;ძილის რეჟიმი&quot;, &quot;ლოდინის რეჟიმი&quot;, &quot;გამორთვა&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_type_battery">
+						<local_schema short_desc="გადავიდეს თუ არა სისტემა ძილის ან ლოდინის რეჟიმში, ან არაფერი გააკეთოს, თუ არააქტიურია.">
+							<longdesc>&quot;დაძინების&quot; ტიპი, რომელშიც უნდა გადავიდეს კომპიუტერი არააქტიურობის შემთხვევაში. დასაშვები მნიშვნელობებია: &quot;ძილის რეჟიმი&quot;, &quot;ლოდინის რეჟიმი&quot; და &quot;არაფერი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="diskload_color2">
+						<local_schema short_desc="დისკის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color1">
+						<local_schema short_desc="დისკზე ჩაწერის მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color0">
+						<local_schema short_desc="დისკის კითხვის მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color1">
+						<local_schema short_desc="სისტემის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color0">
+						<local_schema short_desc="საერთო დატვირთვის მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color1">
+						<local_schema short_desc="swap მეხსიერების დაკავებულობის მაჩვენებელი გრაფიკის ფონის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color0">
+						<local_schema short_desc="მომხმარებლის მიერ swap მეხსიერების დაკავების მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color3">
+						<local_schema short_desc="ქსელის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="memload_color4">
+						<local_schema short_desc="მეხსიერების დაკავებულობის მაჩვენებელი გრაფიკის ფონის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="memload_color3">
+						<local_schema short_desc="ქეშირებული მეხსიერების მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="memload_color2">
+						<local_schema short_desc="ბუფერული მეხსიერების მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="memload_color1">
+						<local_schema short_desc="საზიარო მეხსიერების მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="memload_color0">
+						<local_schema short_desc="მომხმარებლის მიერ მეხსიერების დაკავების მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color4">
+						<local_schema short_desc="პროცესორის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color3">
+						<local_schema short_desc="iowait-ის გათვალისწინებით პროცესორის აქტივობის მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color2">
+						<local_schema short_desc="პრიორიტეტის გათვალისწინებით პროცესორის დატვირთვის მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color1">
+						<local_schema short_desc="პროცესორის სისტემური დატვირთვის მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color0">
+						<local_schema short_desc="მომხმარებლის მიერ პროცესორის დატვირთვის მაჩვენებელი გრაფიკის ფერი">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="გრაფიკის ზომა">
+							<longdesc>ჰორიზონტალური პანელისთვის - გრაფიკის სიგანე პიქსელებში. ვერტიკალური პანელებისთვის ეს არის გრაფიკის სიმაღლე.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="აპლეტი განახლების სიხშირე მილიწამებში">
+						</local_schema>
+					</entry>
+					<entry name="view_diskload">
+						<local_schema short_desc="დისკის დატვირთვის გრაფიკის ჩართვა">
+						</local_schema>
+					</entry>
+					<entry name="view_loadavg">
+						<local_schema short_desc="საერთო დატვირთვის გრაფიკის ჩართვა">
+						</local_schema>
+					</entry>
+					<entry name="view_swapload">
+						<local_schema short_desc="Swap მეხსიერების დატვირთვის ჩართვა">
+						</local_schema>
+					</entry>
+					<entry name="view_netload">
+						<local_schema short_desc="ქსელის დატვირთვის გრაფიკის ჩართვა">
+						</local_schema>
+					</entry>
+					<entry name="view_memload">
+						<local_schema short_desc="მეხსიერების დატვირთვის გრაფიკის ჩართვა">
+						</local_schema>
+					</entry>
+					<entry name="view_cpuload">
+						<local_schema short_desc="პროცესორის დატვირთვის გრაფიკის ჩართვა">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="yelp">
+				<entry name="fixed_font">
+					<local_schema short_desc="ფიქსირებული ტექსტის ფონტი">
+						<longdesc>ფიქსირებული სიგანის ტექსტის ფონტი</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="variable_font">
+					<local_schema short_desc="ტექსტის ფონტი">
+						<longdesc>ცვლადი სიგანის ტექსტის ფონტი</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="სისტემური ფონტით">
+						<longdesc>ნაგულისხმები.ფონტის გამოყენება სისტემისათვის</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_caret">
+					<local_schema short_desc="კურსორის გამოყენება">
+						<longdesc>დათვალიერებისას გამოიყენეთ კლავიატურით-მართვადი კურსორის ადგილსამყოფელის მიმანიშნებელი მოციმციმე ხაზი.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="geyes">
+				<dir name="prefs">
+					<entry name="theme_path">
+						<local_schema short_desc="საქაღალდე, სადაც გაფორმების თემები ინახება">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_text">
+						<local_schema short_desc="ანახე დროის/პროცენტის წარწერა">
+						</local_schema>
+					</entry>
+					<entry name="show_battery">
+						<local_schema short_desc="ჰორიზონტალური კვების ელემენტის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="show_status">
+						<local_schema short_desc="ვერტიკალური (პატარა ზომის) კვების ელემენტი">
+						</local_schema>
+					</entry>
+					<entry name="drain_from_top">
+						<local_schema short_desc="პატარავდება ზემოდან">
+							<longdesc>კვების ელემენტის მდგომარეობის ჩვენება, მუხტის დონე ზევიდან ქვემოთ ჩადის ელემენტის განმუხტვის ანუ დაცლის დროს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="ხმოვანი შეტყობინება გაფრთხილებისას">
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="შეტყობინება - ბოლომდე დატენვის შემთხვევაში">
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="შეტყობინება დაცლილი კვების ელემენტის შესახებ">
+						</local_schema>
+					</entry>
+					<entry name="red_value_is_time">
+						<local_schema short_desc="შეტყობინება, ცოტა მუშაობის დროის დარჩენის შემთხვევაში">
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="მუხტის დონე წითელი ფერისთვის">
+							<longdesc>კვების ელემენტის მუხტის დაბალი დონე, რომლის გადაცილების შემდეგ ელემენტი ნარინჟის ფერი ხდება და გამოდის შესაბამისი შეტყობინება.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="mixer_applet">
+				<dir name="prefs">
+					<entry name="vol">
+						<local_schema short_desc="ხმის პარამეტრების შენახვა მომავალი ჩართვისთვის">
+						</local_schema>
+					</entry>
+					<entry name="mute">
+						<local_schema short_desc="გამოთიშული ხმის მდგომარეობა">
+						</local_schema>
+					</entry>
+					<entry name="channel">
+						<local_schema short_desc="აპლეტის მიერ კონტროლირებადი არხი. მხოლოდ OSS რეგულაციისთვის">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema short_desc="დამონტაჟის წერტილის მდგომარეობის შემოწმების დროის ინტერვალი">
+							<longdesc>მდგომარეობის განსაზღვრის დრო წამებში</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="არსებული პალიტრების სია">
+						</local_schema>
+					</entry>
+					<entry name="current_list">
+						<local_schema short_desc="ასოები რომლებიც პროგრამის გაშვებისთანავე უნდა გამოჩნდნენ">
+							<longdesc>აპლეტის ბოლოს გამოყენების დროს შერჩეული სტრიქონი. გამოჩნდება როდესაც მომხმარებელი ჩართავს აპლეტს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_list">
+						<local_schema short_desc="არ არის სასურველი - სიმბოლოები რომლებიც აპლეტის ჩართვისთანავე ჩნდებიან">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="show_text_mode">
+						<local_schema short_desc="საჩვენებელი ტექსტის ტიპი (თუ ტექსტი ჩართულია).">
+							<longdesc>0 - პროცესორის სიხშირის ჩვენება, 1 - სიხშირის და ერთეულის ჩვენება, 2- სიხშირის მაგივრად პროცენტების ჩვენება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_mode">
+						<local_schema short_desc="გადატვირთული CPU ნახვის რეჟიმი">
+							<longdesc>0 - აჩვენებს აპლეტს გრაფიკულ რეჟიმში (მხოლოდ გამოსახულებას), 1 - ტექსტური რეჟიმი (არავითარი გამოსახულება), 2 - აჩვენებს გამოსახულებასა და ტექსტს ერთდროულად.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cpu">
+						<local_schema short_desc="CPU მონიტორი">
+							<longdesc>აჯგუფებს პროცესორს მონიტორთან, მონო პროცესორის შემთხვევაში არ საჭიროებს შეცვლას.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="settings">
+					<entry name="confirm_deletion">
+						<local_schema short_desc="კითხვის დასმა შენიშვნის წაშლის სურვილის შემთხვევაში">
+						</local_schema>
+					</entry>
+					<entry name="force_default">
+						<local_schema short_desc="ნაგულისხმევი ფერის და შრიფტის გამოყენება ყველა შენიშვნებისთვის">
+							<longdesc>თუ მოცემული გასაღები ჩართულია, მომხმარებლის მიერ ამორჩეული ფერი და შრიფტი დაიგნორირდებიან და არ იქნებიან გამოყენებული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_font">
+						<local_schema short_desc="ნაგულისხმევი სისტემური შრიფტის გამოყენება">
+							<longdesc>თუ მოცემული გასაღები ამორთულია, მომხმარებლის მიერ ამორჩეული შრიფტი შეიძლება იქნას გამოყენებული ყველა წებოვანი შენიშვნებისთვის.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_color">
+						<local_schema short_desc="ნაგულისხმევი სისტემის ფერის გამოყენება">
+							<longdesc>თუ მოცემული გასაღები ამორთულია, მომხმარებლის მიერ შეყვანილი ფერი შეიძლება იქნას გამოყენებული ყველა წებოვანი შენიშვნებისთვის.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="შენიშვნების სათაურში თარიღის ფორმატი">
+							<longdesc>ნაგულისხმევია ის რომ, შენიშვნები მათი შექმნისთანავე თარიღდებიან და გამოიყენება strftime() ფუნქცია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="მიმაგრებული წებოვანი შენიშვნების მდგომარეობა">
+							<longdesc>მიუთითებს თუ სად იქნება მიმაგრებული (არ არის რედაქტირებადი) წებოვანი შენიშვნა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sticky">
+						<local_schema short_desc="შენიშვნების სამუშაო გარემოებებში წებოვანება">
+							<longdesc>მიუთითებს,იყონ თუ არა ხილულ მდგომარეობაში წებოვანი შენიშვნები ყველა სამუშაო გარემოში.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="defaults">
+					<entry name="font">
+						<local_schema short_desc="ნაგულისხმევი შრიფტი ახალი შენიშვნებებისთვის">
+						</local_schema>
+					</entry>
+					<entry name="font_color">
+						<local_schema short_desc="ნაგულისხმევი ფერი შრიფტისათვის">
+							<longdesc>ნაგულისხმევი ფერი ახალი შენიშვნებისათვის. ფერი უნდა შეესაბამებოდეს html-ის თექვსმეტობით სპეციფიკაციას, მაგალითად &quot;#000000&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="color">
+						<local_schema short_desc="ნაგულისხმევი ფერი ახალი შენიშვნებისათვის">
+							<longdesc>ნაგულისხმევი ფერი ახალი შენიშვნებისათვის. ფერი უნდა შეესაბამებოდეს html-ის თექვსმეტობით სპეციფიკაციას, მაგალითად &quot;#30FF50&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="height">
+						<local_schema short_desc="ნაგულისხმევი სიმაღლე ახალი შენიშვნებებისთვის">
+							<longdesc>ნაგულისხმევი სიმაღლე ახალი წებოვანი შენიშვნებებისთვის პიქსელებში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="ნაგულისხმევი სიგანე ახალი შენიშვნებებისთვის">
+							<longdesc>ნაგულისხმევი სიგანე ახალი წებოვანი შენიშვნებებისთვის პიქსელებში.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="text_ellipsis_limit">
+						<local_schema short_desc="ტექსტის ელიფსის ლიმიტი">
+						</local_schema>
+					</entry>
+					<entry name="network_icon_name">
+						<local_schema short_desc="ქსელის სერვერების პირტოგრამის სახელი">
+							<longdesc>შესაძლებელია &quot;ქსელის სერვერები&quot;.პიქტოგრამის სახელწოდების შეცვლა და სამუშაო მაგიდაზე გამოჩენა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_name">
+						<local_schema short_desc="სამუშაო მაგიდაზე &quot;სანაგვე ყუთი&quot; პიქტოგრამის დასახელება">
+							<longdesc>მოცემული სახელწოდების შეცვლა შესაძლებელია, თუ გნებავთ &quot;სანაგვე ყუთის&quot; ხატულასთვის ალტერნატიული სახელწოდების მინიჭება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="სამუშაო მაგიდაზე &quot;სახლის დასტა&quot; პიქტოგრამის დასახელება">
+							<longdesc>შესაძლებელია სახელწოდების მინიჭება, თუ გნებავთ პიქტოგრამა &quot;სახლი&quot;-ს სახელწოდების შეცვლა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="სამუშაო მაგიდაზე &quot;კომპიუტერი&quot;-ის პიქტოგრამის სახელი">
+							<longdesc>შესაძლებელია სახელწოდების მინიჭება, თუ გნებავთ პიქტოგრამა &quot;კომპიუტერი&quot;-ს სახელწოდების შეცვლა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="network_icon_visible">
+						<local_schema short_desc="პიქტოგრამა &quot;ქსელის სერვერები&quot; სამუშაო მაგიდაზეა">
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="სამუშაო მაგიდაზე მიერთებული ტომების ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="ნაგვის ყუთის სამუშაო მაგიდაზე ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="ხატულა &quot;კომპიუტერი&quot;-ის სამუშაო მაგიდაზე გამოჩენა">
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="სახლის პიქტოგრამის მაგიდაზე ჩვენება">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema short_desc="გვერდითა პანელში მხოლოდ დასტების განშტოების ჩვენება">
+								<longdesc>მონიშნულის შემთხვევაში, ნაუტილუსი გვერდითა პანელზე მხოლოდ დასტებს აჩვენებს, სხვაგვარად დასტებსაც და ფაილებსაც.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="სვეტის ნაგულისხმევი მიმდევრობა სიურ ხედში">
+							<longdesc>ფაილთა სიის სვეტების მიმდევრობა სიური ხედის დროს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="ნაგულისხმევი სვეტების სია &quot;სიის სახით ჩვენების&quot; დროს">
+							<longdesc>ნაგულისხმევი სვეტების სია &quot;სიის სახით ჩვენების&quot; დროს</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="ნაგულისხმები სიის მაშტაბი">
+							<longdesc>ნაგულისხმევი მაშტაბი &quot;სიის სახით ჩვენების&quot; დროს</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="ახალ ფანჯარაში დახარისხების მიმდევრობის შებრუნებაშებრუნება">
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="ნაგულისხმევი დახარისხების მიმდევრობა">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="compact_view">
+					<entry name="all_columns_have_same_width">
+						<local_schema short_desc="ყველა ერთნაირი სიგანის მქონე სვეტი">
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="ნაგულისხმევი პიქტოგრამული ხედის მაშტაბი">
+							<longdesc>კომპაქტური ხედის ნაგულისხმები მაშტაბი.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="text_ellipsis_limit">
+						<local_schema short_desc="ტექსტის ელიფსის ლიმიტი">
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_size">
+						<local_schema short_desc="მინიატურული პიქტოგრამების ნაგულისხმევი ზომა">
+							<longdesc>ხატულას ნაგულისხმევი ზომა &quot;პიქტოგრამული ხედის&quot; დროს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="ნაგულისხმევი პიქტოგრამული ხედის დონე">
+							<longdesc>ნაგულისხმები მაშტაბი &quot;პიქტოგრამული ხედი&quot; დროს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="ახალ ფანჯრებში პიქტოგრამების მანუალური განლაგება">
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="იარლიყების პიქტოგრამის გვერდზე მოთავსება">
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="ახალ ფანჯრებში პიქტოგრამების კომპაქტური განლაგების გამოყენება">
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="ახალ ფანჯარაში დახარისხების მიმდევრობის შებრუნებაშებრუნება">
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="ნაგულისხმევი დახარისხების მიმდევრობა">
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="ხატულებზე მისამაგრი შესაძლო წარწერების სია">
+							<longdesc>ხატულების და სამუშაო მაგიდის წარწერათა შესაძლებელი სია. ამ წარწერათა რაოდენობა პიქტოგრამის ზომაზეა დამოკიდებული. შესაძლებელი მნიშვნელობებია: &quot;size&quot;, &quot;type&quot;, &quot;date_modified&quot;, &quot;date_changed&quot;, &quot;date_accessed&quot;, &quot;owner&quot;, &quot;group&quot;, &quot;permissions&quot;, &quot;octal_permissions&quot; და &quot;mime_type&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="გვერდითა პანელის ხედი">
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="ახალ ფანჯრებში გვერდითა პანელის ჩვენება">
+							<longdesc>თუ მონიშნულია, ახლად გახსნილ ფანჯრებს ექნებათ ხილული გვერდითა პანელი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="ახალ ფანჯრებში მდგომარეობის ზოლის ჩვენება">
+							<longdesc>თუ მონიშნულია, ახლად გახსნილ ფანჯრებს ექნებათ ხილული სტატუს ზოლი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="ახალ ფანჯრებში მდებარეობის ზოლის ჩვენება">
+							<longdesc>თუ მონიშნულია, ახლად გახსნილ ფანჯრებს ექნებათ ხილული მდებარეობის ზოლი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="ახალ ფანჯრებში ხელსაწყოთა ზოლის ჩვენება">
+							<longdesc>თუ მონიშნულია, ახლად გახსნილ ფანჯრებს ექნებათ ხილული ხელსაწყოთა ველი</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="გვერდითა პანელის სიგანე">
+							<longdesc>ახალ ფანჯრებში გვერდითა პანელის ნაგულისხმევი სიგანე.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="თარიღის ფორმატი">
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="დასტის ნაგულისხმევი მნახველი">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="გვერდითა პანელის ნაგულისხმევი ფონის ფაილის სახელი">
+							<longdesc>გვერდითა პანელის ნაგულისხმევი ფონური ტიპის პიქტოგრამის დასახელება. გამოიყენება თუ side_pane_background_set მართებულზეა დაყენებული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="გვერდითა პანელის ნაგულისხმევი ფონის ფერი">
+							<longdesc>გვერდითა პანელის ნაგულისხმევი ფონური ტიპის პიქტოგრამის დასახელება. გამოიყენება თუ side_pane_background_set მართებულზეა დაყენებული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="პერსონალური გვერდითა პანელის ფონი">
+							<longdesc>ნაგულისხმევად დაყენებულია თუ არა მომხმარებლის ფონი გვერდითა პანელისთვის.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="ნაგულისხმევი ფონის ფაილის სახელი">
+							<longdesc>დასტის ნაგულისხმევი ფონური ტიპის პიქტოგრამის დასახელება. გამოიყენება თუ background_set მართებულზეა დაყენებული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="ფონის ნაგულისხმევი ფერი">
+							<longdesc>ნაგულისხმევი დასტის ფონის ფერი. გამოიყენება მხოლოდ როცა background_set არის მონიშნული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema short_desc="პერსონალური ფონი">
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="ძებნის ზოლის ძიების კრიტერიუმი">
+							<longdesc>ძიების კრიტერიუმი, როდესაც ძებნა ტარდება ძებნის ზოლის გამოყენებით. &quot;search_by_text&quot;-ის მონიშვნის შემთხვევაში, ნაუტილუსი ფაილებს სახელწოდების მიხედვით მოძებნის. თუ მონიშნულია &quot;search_by_text_and_properties&quot;, ნაუტილუსი ფაილებს სახელწოდების და პარამეტრების მიხედვით მოძებნის.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="ნაუტილუსი მომხმარებლის &quot;სახლის დასტა&quot;-ს, სამუშაო მაგიდის სახით მოიხმარს">
+							<longdesc>თუ მონიშნულია, ნაუტილუსი მოიხმარს &quot;სახლი&quot;-ის დასტას &apos;/home/სახელი&apos; როგორც სამუშაო მაგიდას, სხვა შემთხვევაში ~/Desktop გამოყენებულ იქნება როგორც სამუშაო მაგიდა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="სამუშაო მაგიდის შრიფტი">
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema>
+							<longdesc>თუ მონიშნულია, ნაუტილუსი გამოაჩენს ხატულებს სამუშაო მაგიდაზე.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="პირველ რიგში დასტების ჩვენება">
+							<longdesc>თუ მონიშნულია,&quot;პიქტოგრამული ხედი&quot; რეჟიმის შემთხვევაში, ნაუტილუსი ასახავს პირველ რიგში დასტებს და შემდგომ ფაილებს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_advanced_permissions">
+						<local_schema short_desc="ფაილის თვისებების დიალოგში წვდომის უფლებათა გაფართოებული ჩვენება">
+							<longdesc>თუ მონიშნულია, შესაძლებელი გახდება ნაუტილუსის მიერ ზოგიერთი &quot;ეზოთერიულ&quot; პარამეტრებზე წვდომა, ამის გარდა Unix სისტემების მაგვარად ფაილთა უფლებების რედაქტირება ან დათვალიერება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="გაიჟღერს ხმა პიქტოგრამაზე თაგვის გადატარებით">
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="დასტაში მყოფი დასამუშავებელი ფაილების მაქსიმალური რაოდენობა">
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="გენერირებადი ესკიზების მაქსიმალური ზომა.">
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="სურათების პიქტოგრამების ჩვენება არ ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ნაუტილუსის მიმდინარე თემა (მოძველებული)">
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="თუ რა ჩატარდეს გაშვებადი ტექსტის ტიპის ფაილების აქტივაციისას">
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="დაწკაპუნების ტიპი, გამოიყენება ფაილთა გაშვება/გახსნისათვის">
+							<longdesc>შესაძლებელი მნიშვნელობებია &quot;ერთმაგი&quot;: ერთმაგი წკაპით ფაილების გაშვება, ან &quot;ორმაგი&quot;: ორმაგი წკაპით ფაილების გაშვება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="დასტაში მყოფი ელემენტების რაოდენობის ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="ხატულების ტექსტის ჩვენება არ ჩვენება">
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="ფაილების მყისი წაშლა არ წაშლა">
+							<longdesc>თუ მონიშნულია, შესაძლებელი გახდება ფაილების ნაგვის ყუთში გადატანის გარეშე წაშლა. ამ ოპერაციის ჩატარება სახიფათოა, საჭიროებს თქვენს დამატებით ყურადღებას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_trash">
+						<local_schema short_desc="ფაილების წაშლის ან სანაგვე ყუთის დაცარიელებაზე თანხმობის დამტკიცება">
+							<longdesc>თუ მონიშნულია, ნაუტილუსი მოითხოვს დასტურს სანაგვე ყუთის დაცარიელების ან ფაილების წაშლის შემთხვევაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_x_content_ignore">
+						<local_schema short_desc="x-content/* ტიპი დაყენებულია &quot;არაფრის კეთება&quot; რეჟიმზე">
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_never">
+						<local_schema short_desc="თუ მონიშნულია, ნაუტილუსი აღარ მოითხოვს კომპაქტ დისკიდან ავტო-გაშვებად პროგრამების გაშვებას.">
+							<longdesc>თუ მონიშნულია, ნაუტილუსი აღარ მოგთხოვთ კომპაქტ დისკიდან ავტო-გაშვებად პროგრამების ჩართვას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_automount_open">
+						<local_schema short_desc="გაიხსნას თუ არა ახლად მიერთებული მოწყობილობის დასტა">
+							<longdesc>თუ მონიშნულია, მოწყობილობის ავტომონტაჟისას გაიხსნება დასტა ნაუტილუსში. ეს ხდება მხოლოდ იმ მოწყობილობებში, რომლებშიც არ იქნა ამოცნობილი x-content/*ტიპი. x-content/*-ის ამოცნობის შემთხვევაში ჩატარდება მომხმარებლის მიერ ამორჩეული ქმედება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_automount">
+						<local_schema short_desc="გარე მედიის ავტო მიერთების შესაძლებლობა">
+							<longdesc>თუ მონიშნულია, ნაუტილუსი ავტომატურად მიაერთებს მოწყობილობებს, როგორიცაა გარე მყარი დისკი ან ავტომატურად გაუშვებს შეყვანილ მედიას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_location_entry">
+						<local_schema short_desc="გეზის ზოლის ნაცვლად, ყოველთვის მისამართის ზოლის გამოყენება">
+							<longdesc>თუ მონიშნულია, ნაუტილუსი გეზის ზოლის მაგივრად, ტექსტის შეყვანის შესაძლებლობის მქონე მისამართის ზოლს გამოიყენებს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="ააქტიურებს ნაუტილუსის კლასიკურ რეჟიმს, როცა ყველა ფანჯარა ბრაუზერია">
+							<longdesc>თუ მონიშნულია, ნაუტილუსში ყოველი ახალი მდებარეობა გაიხსნება ახალ ფანჯარაში. ასე იქცეოდა ნაუტილუსი 2.6 ვერსიამდე და ზოგიერთებს ურჩევნიათ ამ ტიპის მოქმედება.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="speed_unit">
+						<local_schema short_desc="სიჩქარის ერთეული">
+							<longdesc>ქარის სიჩქარისთვის აღმნიშვნელი გამოსაყენებელი ერთეული</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="ტემპერატურის ერთეული">
+							<longdesc>ტემპერატურის აღმნიშვნელი გამოსაყენებელი ერთეული </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cities">
+						<local_schema short_desc="მდებარეობების სია">
+							<longdesc>მდებარეობების სია, კალენდრის ფანჯარაში გამოსაჩენათ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="internet_time">
+						<local_schema short_desc="ინტერნეტ დროის გამოყენება">
+							<longdesc>GNOME 2.6 ვერსიიდან მოყოლებული, კლავიატურის ღილაკთა ეს კომბინაცია გაუქმებულია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="UNIX დროის გამოყენება">
+							<longdesc>GNOME 2.6 ვერსიიდან მოყოლებული, კლავიატურის ღილაკთა ეს კომბინაცია გაუქმებულია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="დროის ფორმატი">
+							<longdesc>GNOME 2.6 ვერსიიდან მოყოლებული, კლავიატურის ღილაკთა ეს კომბინაცია გაუქმებულია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_locations">
+						<local_schema short_desc="მდებარეობების სიის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს მდებარეობებს კალენდრის ფანჯარაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_weather">
+						<local_schema short_desc="ამინდის შესახებ ინფორმაციის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს პროგნოზს კალენდრის ფანჯარაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_tasks">
+						<local_schema short_desc="დავალებათა სიის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს დავალებებს კალენდრის ფანჯარაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_birthdays">
+						<local_schema short_desc="დაბადების დღეების სიის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს დაბადების დღეებს კალენდის ფანჯარაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_appointments">
+						<local_schema short_desc="შეხვედრების სიის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს შეხვედრებს კალენდრის ფანჯარაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="კვირის რიცხვის კალენდარში ჩვენება">
+							<longdesc>თუ მონიშნულია, გამოსახე კვირათა რიცხვი კალენდარში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="დროის მარეგულირებელი ხელსაწყო">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="UTC გრინვიჩის დროის გამოყენება">
+						</local_schema>
+					</entry>
+					<entry name="show_temperature">
+						<local_schema short_desc="საათში ტემპერატურის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს ტემპერატურას ამინდის ხატულას გვერდით.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_weather">
+						<local_schema short_desc="საათში ამინდის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს ამინდის აღმნიშვნელ ხატულას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="კარნახში თარიღის ჩვენება">
+							<longdesc>თუ მონიშნულია, გამოსახე თარიღი კარნახის ფანჯარაში,როდესაც მიმთითებელი საათს ზევითაა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="საათში თარიღის ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს თარიღს საათთან ერთად.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="დროის წამებით ჩვენება">
+							<longdesc>თუ მონიშნულია, აჩვენებს წამებს საათთან ერთად.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="საათის ინდივიდუალური ფორმატი">
+							<longdesc>მოცემული გასაღები ადგენს საათის აპლეტის ფორმატს,მხოლოდ როცა დრო &quot;custom&quot;  ინდივიდუალურ ფორმატშია მოცემული. საათის ფორმატის შეცვლა შესაძლებელია ფუნქცია strftime()-ით. დამატებითი ინფორმაციისთვის იხილეთ strftime()-ის დოკუმენტაცია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="დროის ფორმატი">
+							<longdesc>ეს ღილაკი განსაზღვრავს საათის აპლეტით განსაზღვრულ დროის ფორმატს. მოცემული სახეობებია: “12–საათი“,“24–საათი“,“ინტერნეტი“,“UNIX“ და “სამომხმარებლო“. თუ საათი დაყენებულია “ინტერნეტ“–ზე, აჩვენებს ინტერნეტის დროს.  ინტერნეტ დროის სისტემა დღე–ღამეს ყოფს 1000 ბიტად &quot;.beats&quot;. ამ შემთხვევაში არ არსებობს არანაირი დროის სარტყელი და მტელს მსოფლიოში ერტი დროა. თუ ჩართულია “UNIX“ დრო, საათი აჩვენებს წამებს, რომელიც სათავეს იღებს “UNIX“–ის ეპოქაში, ანუ 1970.01.01. თუ საათი დაყენებულია  “სამომხარებლო“, ტრადიციულ ფორმატში. იგი აჩვენებს დროს, რომელიც განისაზღვრება სამომხმარებლო დროის სარტყელით.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="plugins">
+					<entry name="active-plugins">
+						<local_schema short_desc="აქტიური პლაგინები">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="page">
+							<entry name="print_line_numbers">
+								<local_schema short_desc="დაბეჭდე სტრიქონის ნომრები">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="აჩვენე სტრიქონის ნომრები">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="რედაქტორის შრიფტი">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="ფანჯრის ჰორიზონტალურად გაშლა">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="ფანჯრის ვერტიკალურად გაშლა">
+						</local_schema>
+					</entry>
+					<entry name="begin_resize">
+						<local_schema short_desc="ფანჯრის ზომის შეცვლა">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="ფანჯრის გადაადგილება">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="ფანჯრის დახურვა">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="ფანჯრის ჩაკეცვა">
+						</local_schema>
+					</entry>
+					<entry name="toggle_shaded">
+						<local_schema short_desc="დაჩრდილულ რეჟიმზე გადასვლა">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="ფანჯრის გადიდება">
+						</local_schema>
+					</entry>
+					<entry name="toggle_maximized">
+						<local_schema short_desc="მთელს ეკრანზე გაშლის რეჟიმი">
+						</local_schema>
+					</entry>
+					<entry name="toggle_fullscreen">
+						<local_schema short_desc="სრული ეკრანის რეჟიმზე გადასვლა">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybinding_commands">
+					<entry name="command_window_screenshot">
+						<local_schema short_desc="ფანჯარის ანაბეჭდის გადასაღები ბრძანება">
+						</local_schema>
+					</entry>
+					<entry name="command_screenshot">
+						<local_schema short_desc="ეკრანის ანაბეჭდის მისაღები ბრძანება">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_terminal">
+						<local_schema short_desc="ტერმინალის გაშვება">
+						</local_schema>
+					</entry>
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="ფანჯრის ანაბეჭდის გადაღება">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="ეკრანის ანაბეჭდის გადაღება">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="სამუშაო გარემო 12 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="სამუშაო გარემო 11 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="სამუშაო გარემო 10 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="სამუშაო გარემო 9 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="სამუშაო გარემო 8 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="სამუშაო გარემო 7 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="სამუშაო გარემო 2 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="სამუშაო გარემო 5 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="სამუშაო გარემო 4 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="სამუშაო გარემო 3 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="სამუშაო გარემო 2 გადართვა">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="გადადი გარემო 1">
+						</local_schema>
+					</entry>
+					<entry name="run_command">
+						<local_schema short_desc="განსაზღვრული პროგრამის გაშვება">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="სამუშაო გარემოს სახელი">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="visual_bell_type">
+						<local_schema short_desc="ვიზუალური სიგნალის ტიპი">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Visual Bell-ის ჩართვა">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="სამუშაო გარემოებების რაოდენობა">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_font">
+						<local_schema short_desc="ფანჯარის სათაურის შრიფტი">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_uses_system_font">
+						<local_schema short_desc="ფანჯრის სათაურში სისტემის შრიფტის გამოყენება">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="ფანჯრის სათაურის ზოლზე ორმაგი წკაპის მოქმედება">
+						</local_schema>
+					</entry>
+					<entry name="focus_mode">
+						<local_schema short_desc="ფანჯრის აქტივირების რეჟიმი">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="რიგთა რაოდენობა სივრცეთა ამომრჩევში">
+							<longdesc>მოცემული გასაღები მიანიშნებს თუ რამდენ რიგად (ჰორიზონტალურად) ან სვეტად (ვერტიკალურად) გადამრთველი გამოსახავს სამუშაო გარემოებს. აქვს აზრი თუ ამორთულია display_all_workspaces გასაღები.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="ანახე ყველა სამუშაო სივრცე">
+							<longdesc>თუ მონიშნულია, გადამრთველი გამოსახავს არა მხოლოდ მიმდინარე გარემოს არამედ, ყველა არსებულს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="ანახე სივრცეთა სახელები">
+							<longdesc>თუ მონიშნულია, გადამრთველი გამოსახავს სამუშაო გარემოებების სახელწოდებებს, სხვაგვარად, სამუშაო გარემოებებში მხოლოდ ფანჯრები გამოისახება. ყოველი ეს მუშაობს Metacity ფანჯრების მმართველის გამოყენების შემთხვევაში.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="ფანჯარათა სიის მაქსიმალური ზომა">
+							<longdesc>გირჩევთ არ გამოიყენოთ ეს გასაღები GNOME 2.20-დან მოყოლებულ ვერსიებში. მოცემული გასაღები ძველ ვერსიებთან თავსევადობის უზრუნველყოფისთვისაა შემორჩენილი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="ფანჯარათა სიის მინიმალური ზომა">
+							<longdesc>გირჩევთ არ გამოიყენოთ ეს გასაღები GNOME 2.20-დან მოყოლებულ ვერსიებში. მოცემული გასაღები ძველ ვერსიებთან თავსევადობის უზრუნველყოფისთვისაა შემორჩენილი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="გადაიტანე ფანჯარა ახალ სამუშაო გარემოში დაკეცვისას">
+							<longdesc>თუ მონიშნულია, ფანჯარა გაიხსნება მიმდინარე სამუშაო გარემოში და არა იმ გარემოში სადაც ის პირველად გაიხსნა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="ფანჯრების დაჯგუფება">
+							<longdesc>წყვეტს დააჯგუფოს თუ არა ერთი და იმავე პროგრამიდან წარმოშობილი ფანჯრები. შესაძლებელი მნიშვნელობებია &quot;არასდროს&quot;, &quot;ავტო&quot; და &quot;ყოველთვის&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="ფანჯრების ყველა სამუშაო გარემოდან ჩვენება">
+							<longdesc>თუ მონიშნულია, ფანჯრების სია აჩვენებს არამარტო მიმდინარე გარემოში გახსნილ ფანჯრებს, არამედ ყველა ფანჯრებს სისტემაში არსებული გარემოებებიდან.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="ნაძალადევი გასვლის დეაქტივირება">
+							<longdesc>თუ მონიშნულია, პანელი აუკრძალავს მომხმარებელს პროგრამის ძალდატანებით გამორთვას. ძალდატანების ღილაკი ამოირთვება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="სისტემიდან გასვლის დაბლოკვა">
+							<longdesc>თუ მონიშნულია, პანელი აკრძალავს მომხმარებლის მიერ სეანსის დასრულებას. სეანსიდან გამოსვლის ღილაკი ამოირთვება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="აკრძალული აპლეტების (IID) იდენტიფიკატორები">
+							<longdesc>პანელების აპლეტების (IID) იდენტიფიკატორების სია, რომლებსაც პანელი დააიგნორირებს. ამდაგვარად შესაძლებელი გახდება ზოგიერთი აპლეტის ჩატვირთვის აკრძალვა. მაგალითად, მინი ბრძანების სტრიქონის ამორთვისთვის საჭიროა დავამატოთ &quot;OAFIID:GNOME_MiniCommanderApplet&quot; სტრიქონი მოცემულ სიაში. ცვლილებაში დარწმუნებისათვის საჭიროა პანელის ხელახალი ჩართვა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="პანელი სრული ბლოკირება">
+							<longdesc>თუ მონიშნულია, პანელი აკრძალავს პანელისვე კონფიგურაციის შეცვლის შესაძლებლობას. თუმცა შესაძლოა რომ ზოგიერთ აპლეტს ინდივიდუალური ამორთვა დასჭირდეს. ეფექტურობისთვის საჭიროა აპლეტის გადატვირთვა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="ღილაკების ციმციმი თაგვის ზემოდან გადატარებისას">
+							<longdesc>თუ მონიშნულია, ღილაკი ამონათდება თაგვით ზემოდან გადატარებისას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="პანელის წაშლას ესაჭიროება დამტკიცება">
+							<longdesc>თუ მონიშნულია, პანელის მოშორება დამტკიცებას საჭიროებს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="უჯრის ავტო დახურვა">
+							<longdesc>თუ მონიშნულია, უჯრაში მყოფ ღილაკებზე დაწკაპვისას უჯრა მყისვე დაიკეტება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="ანიმაციების ჩართვა">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="უმნიშვნელო">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="კარნახის ჩართვა">
+							<longdesc>თუ მონიშნულია, პანელის ობიექტების გასწვრივ კარნახი გამოჩნდება.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="სამოქმედო ღილაკის ტიპი">
+							<longdesc>მოქმედების ტიპი, ღილაკის შესაძლებლობები. მიღებული მნიშვნელობები &quot;lock&quot;, &quot;logout&quot;, &quot;run&quot;, &quot;search&quot; და &quot;screenshot&quot;. ამ პარამეტრს აქვს აზრი მხოლოდ და მხოლოდ როცა object_type გასაღები შეიცავს &quot;action-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="გამშვების ადგილმდებარეობა">
+							<longdesc>ფაილ .desktop-ის მდებარეობა, რომელიც შეიცავს ღილაკის აღწერის ტექსტს. ამ პარამეტრს აქვს აზრი როდესაც (object_type) გასაღები შეიცავს &quot;launcher-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="გეზი მენიუს შემცველობისაკენ">
+							<longdesc>გეზი, რომლიდანაც აიგება შინაარსობრივი მენუ. ამ გასაღებს აქვს მნიშვნელობა, მხოლოდ მაშინ, როცა გასაღები use_menu_path მონიშნულია და გასაღებ object_type-ს აქვს &quot;menu-object&quot; მნიშვნელობა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="მენუს შემცველობისკენ სხვა გზის მითითება ">
+							<longdesc>თუ მონიშნულია, menu_path-ის მნიშვნელობა გამოიყენება როგორც მდებარეობა, რომლისგანაც იგება მენუ. თუ მონიშნული არ არის, მაშინ menu_path-ის მნიშვნელობა ინგორირებულ იქნება. ამ პარამეტრს აქვს მნიშვნელობა თუ გასაღები object_type შეიცავს &quot;menu-object&quot;-ს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="ობიექტთა გამომსახველი ხატულა">
+							<longdesc>ობიექტის ღილაკის პიქტოგრამის/ნახატის მდებარეობა.ამ გასაღებს აქვს აზრი მხოლოდ და მხოლოდ როცა object_type გასაღები შეიცავს &quot;drawer-applet&quot; ან &quot;menu-object&quot; და use_custom_icon გასაღები მონიშნულია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="ინდივიდუალური ხატულას გამოყენება ობიექტის ღილაკისათვის">
+							<longdesc>თუ მონიშნულია, მაშინ გასაღები custom_icon გამოყენებულ იქნება როგორც მომხმარებლის ინდივიდუალურად ამორჩეული ღილაკი. თუ გასაღები მონიშნული არ არის, მაშინ custom_icon გასაღები ინგორირებულია. ამ გასაღებს აქვს მხოლოდ და მხოლოდ მნიშვნელობა როცა object_type-ის მნიშვნელობა &quot;menu-object&quot; ან &quot;drawer-object&quot;-ია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="კარნახი უჯრის ან მენუს მიხედვით">
+							<longdesc>ტექსტი რომელიც გამოიყენება როგორც კარნახი მოცემული უჯრისთვის. ამ პარამეტრს აქვს აზრი თუ object_type გასაღები შეიცავს &quot;drawer-object&quot;-ს ან &quot;menu-object&quot;-ს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="უჯრასთან მიერთებული პანელი">
+							<longdesc>პანელის იდენტიფიკატორი, მოცემულ უჯრასთან მიერთებული. ამ პარამეტრს აქვს აზრი მხოლოდ და მხოლოდ როცა object_type გასაღები შეიცავს &quot;drawer-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Bonobo IID აპლეტი">
+							<longdesc>The Bonobo implementation ID of the applet - e.g. &quot;OAFIID:GNOME_ClockApplet&quot;. This key is only relevant if the object_type key is &quot;bonobo-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="დაამაგრე პანელზე">
+							<longdesc>თუ მონიშნულია, მომხმარებელს არ შეუძლია აპლეტის პანელზე გადაადგილება, მანამ სანამ არ გაუშვებს&quot;ბლოკის მოხსნა&quot; ბრძანებას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="პოზიციის ინტერპრეტაცია ქვედა/მარჯვენა გვერდის მიმართ">
+							<longdesc>თუ მონიშნულია, მაშინ ობიექტის ადგილმდებარეობა განისაზღვრება პანელის მარჯვენა(ან ქვედა, ვერტიკალური პანელების შემთხვევაში) ნაპირიდან.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="ობიექტის პანელზე ადგილმდებარეობა">
+							<longdesc>პანელზე ობიექტის მდებარეობა. პოზიცია განისაზღვრება მარცხენა პანელის გვერდამდე (ან ზედა პანელის, ვერტიკალური პანელების შემთხვევაში) პიქსელების რაოდენობით.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="ობიექტის მქონე ზედა-დონის პანელი">
+							<longdesc>ზედა პანელის იდენტიფიკატორი, რომელიც შეიცავს მოცემულ ობიექტს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="პანელისმაგვარი ობიექტის ტიპი">
+							<longdesc>პანელის ობიექტის ტიპი. მიღებული მნიშვნელობებია: &quot;drawer-object&quot;, &quot;menu-object&quot;, &quot;launcher-object&quot;, &quot;bonobo-applet&quot;, &quot;action-applet&quot; და &quot;menu-bar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="ძველი პროფილების დამახსოვრებული კონფიგურაცია">
+							<longdesc>ლოგიკური ოპერატორი boolean მიუთითებს გადაიტანოს თუ არა მომხმარებლის კონფიგურაცია /apps/panel/profiles/default-დან ახალ მდებარეობა /apps-ში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="პანელის ობიექტა ID სია">
+							<longdesc>პანელის ობიექტების იდენტიფიკატორების (ID) სია. ყოველი იდენტიფიკატორი წარმოადგენს პანელის ცალკეულ ობიექტს(მაგალითად,გაშვების ღილაკი,ბრძანების ღილაკი ან მენუს ღილაკი). ამ ობიექტების ცალკეული პარამეტრი /apps/panel/objects/$(id)-ში ინახება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="პანელ აპლეტის ID სია">
+							<longdesc>პანელის აპლეტების იდენტიფიკატორების სია. ყოველი იდენტიფიკატორი წარმოადგენს პანელის ცალკეულ აპლეტს. ამ აპლეტების ცალკეული პარამეტრი /apps/panel/applets/$(id) -ში ინახება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="პანელის ID სია">
+							<longdesc>პანელების იდენტიფიკატორების სია. ყოველი იდენტიფიკატორი წარმოადგენს ზემო დონის პანელს. ამ პანელების ცალკეული პარამეტრი /apps/panel/toplevels/$(id)-ში ინახება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="ბრძანების ავტოაკრეფვის ჩართვა &quot;პროგრამის გაშვება&quot; დიალოგ ფანჯარაში">
+							<longdesc>თუ მონიშნულია, &quot;Run Application&quot; დიალოგ ფანჯარაში ავტოაკრეფვა იმუშავებს.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="პროგრამების სიის ფართო ჩვენება &quot;პროგრამის გაშვება&quot; დიალოგ ფანჯარაში">
+							<longdesc>თუ მონიშნულია, &quot;ნაცნობი პროგრამები&quot;-ს სია &quot;პროგრამების გაშვება&quot;-ის დიალოგ ფანჯარაში გაშლილი სახით გამოჩნდება.ყოველივე ამას აქვს აზრი თუ მომიშნულია პარამეტრი enable_program_list.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="პროგრამების სიის ჩვენება &quot;პროგრამის გაშვება&quot; დიალოგ ფანჯრაში">
+							<longdesc>თუ მონიშნულია, &quot;ნაცნობი პროგრამები&quot;-ს სია გამოჩნდება &quot;პროგრამების გაშვება&quot;-ის დიალოგ ფანჯარაში. მის გაშლა/შეკეცვას განაპირობებს show_program_list გასაღები.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="ანიმაციის სიჩქარე">
+							<longdesc>ანიმაციის სიჩქარე. მისაღები მნიშვნალობებია: &quot;slow&quot;, &quot;medium&quot; და &quot;fast&quot;. ამ გასაღებს გააჩნია მნიშვნელობა თუ enable_animations გასაღები მონიშნულია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="ხილული პიქსელების რაოდენობა პანელის დამალულ სტადიაში">
+							<longdesc>განსაზღვრავს პანელის გამოჩენის რაოდენობას პიფსელებში როდესაც იგი ეკრანის მიღმაა დამალული. ამ გასაღებს აქვს აზრი თუ მონიშნულია auto_hide გასაღები.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="პანელის ავტოგამოჩენის შეყოვნება">
+							<longdesc>განსაზღვრავს პანელის გამოჩენის დროს მილიწამებში მის არეში კურსორის გამოჩენისას. ამ გასაღებს აქვს აზრი თუ მონიშნულია auto_hide გასაღები.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="პანელის ავტო გაქრობის შეყოვნება">
+							<longdesc>განსაზღვრავს პანელის დამალვის დროს მილიწამებში მის არედან კურსორის გადასვლისას. ამ გასაღებს აქვს აზრი თუ მონიშნულია auto_hide გასაღები.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="დამალვა/გამოჩენის ღილაკებზე ისრების დაშვება">
+							<longdesc>თუ მონიშნულია, დამალვა/გამოჩენის ღილაკებზე გამოჩნდებიან მიმანიშნებელი იზრები. ამ გასაღებს აქვს მნიშვნელობა თუ გასაღები enable_buttons მონიშნულია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="ფარულ ღილაკთა აქტივირება">
+							<longdesc>თუ მონიშნულია, პანელზე გამოჩნდება ჩვენება/დამალვის ღილაკები. ეს ღილაკები გამოიყენება პანელის ეკრანის არედან გარეთ გატანისთვის, ისე რომ მხოლოდ ღილაკის ხილვა ხდება შესაძლებელი, ამავე ღილაკების მეშვეობით შესაძლებელია პანელის უკან დაბრუნება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="ანიმაციების ჩართვა">
+							<longdesc>თუ მონიშნულია, პანელის გამოჩენა/დამალვა ანიმაციის სახით გამოჩნდება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="პანელის კუთხეში ავრომატური დამალვა">
+							<longdesc>თუ მონიშნულია, პანელი ავტომატურად იმალება ეკრანის კუთხეში როდესაც კურსორი მის არეში აღარ იმყოფება. კურსორის კუთხეში გადატარებით პანელი ისევ ხილვადია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="პანელის y ღერძთან გასწორება">
+							<longdesc>თუ მონიშნულია, y-ის კოორდინატები იგნორირებულია და ათვლის წერტილი ეკრანის ცენტრი ხდება. თუ პანელის ზომა იცვლება იგი მაინც არ იცვლის ადგილმდებარეობას (ანუ ფართოვდება ორივე მხარეს). თუ გასაღები არ არის მონიშნული, y-ის კოორდინატები საზღვრავენ პანელის ადგილმდებარეობას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="პანელის x ღერძთან გასწორება">
+							<longdesc>თუ მონიშნულია, x-ის კოორდინატები იგნორირებულია და ათვლის წერტილი ეკრანის ცენტრი ხდება. თუ პანელის ზომა იცვლება იგი მაინც არ იცვლის ადგილმდებარეობას (ანუ ფართოვდება ორივე მხარეს). თუ გასაღები არ არის მონიშნული, x-ის კოორდინატები საზღვრავენ პანელის ადგილმდებარეობას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_bottom">
+						<local_schema short_desc="პანელის Y კოორდინატი, ეკრანის ქვემო ბოლოდან">
+							<longdesc>პანელის მდებარეობა y ღერძის გასწვრივ, ეკრანის ქვემოდან. თუ გასაღების მნიშვნელობა 1-ია, მაშინ ის იგნორირებულია და გამოყენებულ იქნება y-ის მნიშვნელობა. თუ გასაღების მნიშვნელობა 0-ზე მეტია, მაშინ y-ის მნიშნველობა იგნორირდება. მოცემული გასაღები მნიშვნელოვანია მხოლოდ გაუშლელ მდგომარეობაში. გაშლილ მდგომარეობაში მოცემული გასაღები იგნორირებულია და პანელი თავსდება ეკრანის ნაპირზე, მისი მდებარეობა ორიენტაციის მნიშვნელობებით განისაზღვრება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x_right">
+						<local_schema short_desc="X პანელის ორდინატა, იწყება ეკრანის მარჯვენა მხრიდან">
+							<longdesc>პანელის მდებარეობა x ღერძის გასწვრივ, ეკრანის მარჯვენა მხრიდან. თუ გასაღების მნიშვნელობა 1-ია, მაშინ ის იგნორირებულია და გამოყენებულ იქნება x-ის მნიშვნელობა. თუ გასაღების მნიშვნელობა 0-ზე მეტია, მაშინ x-ის მნიშნველობა იგნორირდება. მოცემული გასაღები მნიშვნელოვანია მხოლოდ გაუშლელ მდგომარეობაში. გაშლილ მდგომარეობაში მოცემული გასაღები იგნორირებულია და პანელი თავსდება ეკრანის ნაპირზე, მისი მდებარეობა ორიენტაციის მნიშვნელობებით განისაზღვრება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="პანელის Y კოორდინატი">
+							<longdesc>პანელის მდებარეობა y ღერძის მიმართ. ამ გასაღებს აქვს მნიშვნელობა მხოლოდ ჩაკეცილ რეჟიმში. გაშლილ რეჟიმში მოცემული გასაღები ოგნორირებულია და პანელი მოთავსდება ეკრანის ნაპირას, ორიენტაციის გასაღების მიხედვით.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="პანელის X კოორდინატი">
+							<longdesc>პანელის მდებარეობა x ღერძის მიმართ. ამ გასაღებს აქვს მნიშვნელობა მხოლოდ ჩაკეცილ რეჟიმში. გაშლილ რეჟიმში მოცემული გასაღები ოგნორირებულია და პანელი მოთავსდება ეკრანის ნაპირას, ორიენტაციის გასაღების მიხედვით.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="პანელის ზომა">
+							<longdesc>პანელის სიმაღლე (ან სიგანე ვერტიკალური პანელების შემთხვევაში). პანელი განსაზღვრავს მინიმალურად დასაშვებ ზომას, შრიფტის და პანელზე მყოფი ელემენტების ზომიდან გამომდინარე. მაქსიმალური ზომა არ აღემატება ეკრანის 1/4-ურ დაფარვას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="პანელის ორიენტაცია">
+							<longdesc>პანელის ორიენტაცია.შესაძლებელი მნიშვნელობებია &quot;top&quot;, &quot;bottom&quot;, &quot;left&quot;, &quot;right&quot;. გაშლილ რეჟიმში ეს მნიშვნელობები აღნიშნავენ თუ ეკრანი რომელ გვერდთან განლაგდება პანელი. გაშლილ რეჟიმში &quot;top&quot; და &quot;bottom&quot; პარამეტრებს არ აქვთ დიდი მნიშვნელობა. აგალითად &quot;top&quot;-ის დროს მენუ გაიშლება ქვემოთ ხოლო &quot;bottom&quot;-ისთვის გაიშლება ზემოთ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="ეკრანის მთელს პანელის გაშლა">
+							<longdesc>თუ მონიშნულია, პანელი დაიკავებს ეკრანის მთელს სიგანეს (ან სიმაღლეს ვერტიკალური პანელის შემთხვევაში). ამგვარი პანელები ეკრანის გვერდებზე თავსდებიან. თუ გასაღები არ არის მონიშნული, პანელის სირძეს განსაზღვრავს მასზე მყოფი აპლეტების, ღილაკების ან მენუს რაოდენობა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="მონიტორი Xineramas-ს მხარდაჭერით, სადაც უნდა გამოჩნდეს პანელი">
+							<longdesc>Xinerama (ორ მონიტორიანი სისტემა) სისტემის გამოყენებისას, პანელების განლაგება ინდივიდუალურ მონიტორებზეა შესაძლებელი. მიმდინარე გასაღები წარმოადგენს მონიტორს რომელზედაც პანელია მოთავსებული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="X ეკრანი სადაც პანელი გამოჩნდება">
+							<longdesc>რამოდენიმე ეკრანის ქონის დროს, პანელის სხვადასხვა ეკრანებზე გადატანა ხდება შესაძლებელი, მოცემული გასაღები აღნიშვნავს მიმდინარე ეკრანს, რომელზედაც პანელი არის განთავსებული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="პანელის სახელი">
+							<longdesc>ადამიანისთვის გასაგებ ენაზე დაწერილი პანელის სახელი. მთავარი მნიშვნელობა პანელის დასათაურებაა, რაც პანელებს შორის გადართვაში გეხმარებათ.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="ნახატის ამოყირავება ვერტიკალურ პანელებზე">
+								<longdesc>თუ მონიშნულია, ფონური გრაფიკული გამოსახულება გადმოტრიალდება თუ პანელი ვერტიკალურ მდგომარეობას მიიღებს.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="ნახატის პანელზე გაჭიმვა">
+								<longdesc>თუ მონიშნულია, გრაფიკული გამოსახულება პანელის ზომას მიიღებს. მაგრამ ამავე დროს დაირღვევა პიქტოგრამის პროპორციები.თუ მონიშნულია,</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="გამოსახულების პანელზე მორგება">
+								<longdesc>თუ მონიშნულია, ფონური გამოსახულება განიცდის მაშტაბირებას (ანუ არ კარგავს სიმაღლე/სიგანეს) პანელის მაქსიმალურ სიმაღლემდე.(თუ პანელს ჰორიზონტალური ფორმა აქვს).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="საფონე ნახატი">
+								<longdesc>მიუთითებს ფაილს რომელიც გამოყენებულ იქნება ფონის სახით.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="ფონის ფერის გამჭვირვალობა">
+								<longdesc>განსაზღვრავს ფონური ნახატის გამჭვირვალებას. თუ ფერს არ არის ბოლომდე გამჭვირვალე (მისი მნიშვნელობა 65535 ნაკლებია), იგი შეირწყმება სამუშაო მაგიდის გრაფიკულ გამოსახულებასთან.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="ფონის ფერი">
+								<longdesc>მიუთითებს პანელის ფონის ფერს (#RGB ფორმატში)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="ფონის ტიპი">
+								<longdesc>თუ როგორი ფონის ტიპი უნდა გამოიყენოს პანელისთვის. მისაღები მნიშვნელობებია: &quot;gtk&quot; (გამოყენებულ იქნება GTK+ სტანდარტული ფონი), &quot;color&quot; (ფონი თქვენს მიერ არჩეული ფერს მიიღებს) და &quot;image&quot; (გამოყენებულ იქნება თვენს მიერ ამორჩეული გრაფიკული გამოსახულება).</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="ამოტრიალება ვერტიკალური პანელის შემთხვევაში">
+							<longdesc>მონიშვნის შემთხვევაში, თევზის ანიმაცია 90%ით ამოტრიალდება პანელის მიმართ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="კადრის შეჩერება">
+							<longdesc>ეს გასაღები წარმოადგენს პიქტოგრამის შეყოვნების წამების რაოდენობას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="პიქტოგრამები თევზის ანიმაციაში">
+							<longdesc>ეს პარამეტრი წარმოადგენს პიქტოგრამების რაოდენობას თევზის ანიმაციაში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="ბრძანება შესრულდება დაჭერისას">
+							<longdesc>ეს პარამეტრი წარმოადგენს ბრძანებას რომელიც თევზზე დაწკაპვის შედეგად ჩაირთვება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="თევზის ანიმაციის პიქტოგრამა">
+							<longdesc>ეს პარამეტრი წარმოადგენს პიქტოგრამის ფაილის სახელს რომელიც გამოყენებულ იქნება ანიმაციის ადგილას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="თევზის სახელი">
+							<longdesc>თევზი სახელის გარეშე, მართლაც რომ საცოდავი არსებაა. არ გაანაწყენოთ იგი, დაარქვით სახელი.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="მისალმების ეკრანის პირადი გრაფიკული გამოსახულების შერჩევა">
+							<longdesc>This is a relative path value based off the $datadir/pixmaps/ directory. Sub-directories and image names are valid values. ამ მნიშვნელობის შეცვლა დამტკიცდება გადატვირთვის მერე.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="დასტურის მოთხოვნის რეჟიმი">
+							<longdesc>თუ მონიშნულია,gnome-session შეეკითხება მომხმარებელს სესიის დასრულებამდე</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="სესიების შენახვა">
+							<longdesc>თუ მონიშნულია,gnome-session შეინახავს სესიას ავტომატურად.თუ არა გასვლის დიალოგს ექნება სესიის შენახვის პარამეტრი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="მისალმების ფანჯრის ჩვენება">
+							<longdesc>მისალმების ფანჯრის ჩვენება სესიის დაწყების წინ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-search-tool">
+				<entry name="default_window_maximized">
+					<local_schema short_desc="ფანჯრის·ნაგულისხმევი·მაქსიმიზება">
+						<longdesc>ეს გასაღები ადგენს,·მაქსიმიზებულ·ფანჯარაში·გაიხსნას·თუ·არა ძებნის·ინსტრუმენტი.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_window_height">
+					<local_schema short_desc="ფანჯრის ნაგულისხმევი სიმაღლე">
+						<longdesc>ეს გასაღები აყენებს ფანჯარის სიმაღლეს და გამოიყენება სესიებს შორის ძებნის·ფანჯრის ზომების დასამახსოვრებლად. თუ მითითებული იქნება 1, აღებული·იქნება·ნაგულისხმები·სიმაღლე.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_window_width">
+					<local_schema short_desc="ფანჯრის ნაგულისხმევი სიგანე">
+						<longdesc>ეს·გასაღები·აყენებს·ფანჯარის·სიგანეს·და·გამოიყენება·სესიებს·შორის·ძებნის ფანჯრის·ზომების·დასამახსოვრებლად.·თუ·მითითებული·იქნება·1,·აღებული იქნება ნაგულისხმები სიგანე.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="columns_order">
+					<local_schema short_desc="სვეტების თანმიმდევრობა ძებნის შედეგებში">
+						<longdesc>ეს გასაღები განსაზღვრავს ძებნის შედეგებში სვეტების თანმიმდევრობას. ის ვერ შეიცვლება მომხმარებლის მიერ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="quick_search_second_scan_excluded_paths">
+					<local_schema short_desc="სწრაფი ძებნის მეორადი სკანირებისას გამოსატოვებელი გეზები">
+						<longdesc>ეს·გასაღები·განსაზღვრავს·სწრაფი ძებნისას მეორადი სკანირების მიერ გამოსატოვებელ გეზებს. ·მეორადი·სკანირება იყენებს ძებნის კომანდას არაინდექსირებული ფაილების მოსაძებნად. დასაშვებია·შაბლონები·&quot;*&quot;·და·*?*.·ნაგულისხმები·გეზებია·/</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable_quick_search_second_scan">
+					<local_schema short_desc="სწრაფი ძებნისას მეორადი სკანირების გამორთვა">
+						<longdesc>ეს გასაღები სწრაფი ძიების შესრულების შემდეგ გამორთავს find ბრძანებას.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="quick_search_excluded_paths">
+					<local_schema short_desc="სწრაფი ძებნისას გამოსატოვებელი გეზები">
+						<longdesc>ეს·გასაღები·განსაზღვრავს გეზებს, რომლებსაც არ მოიცავს სწრაფი ძებნის პროცესი.·დასაშვებია შაბლონები &quot;*&quot; და *?*. ნაგულისხმები გეზებია /mnt/*,·/media/*,·/dev/*,·/tmp/*,·/proc/*,·და·/var/*.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable_quick_search">
+					<local_schema short_desc="სწრაფი ძებნის გამორთვა">
+						<longdesc>ეს გასაღები სწრაფი ძიების შესრულების შემდეგ გამორთავს locate ბრძანებას.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_additional_options">
+					<local_schema short_desc="დამატებითი პირობები">
+						<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა დამატებითი პირობებით.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="select">
+					<entry name="follow_symbolic_links">
+						<local_schema short_desc="ძებნა პირობით: &quot;სიმბოლურ ბმულზე მიყოლა&quot;">
+							<longdesc>ეს·გასაღები·ძებნის·დაწყებამდე·ადგენს,·არის·თუ·არა·გამოყენებული·ძებნა·პირობით·&quot;სიმბოლურ ბმულზე მიყოლა&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files_and_folders">
+						<local_schema short_desc="ძებნა პირობით: &quot;დაფარული ფაილების და დასტების ჩვენება&quot;">
+							<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა პირობით &quot;დაფარული ფაილების და დასტების ჩვენება&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name_matches_regular_expression">
+						<local_schema short_desc="ამოირჩიეთ პარამეტრი „ძიება რეგულარული გამოსახულებით&quot;">
+							<longdesc>ეს გასაღები, ძიების ხელსაწყოს გამოძახებისას, განსაზღვრავს აქტივირებულია თუ არა პარამეტრი „ძიება რეგულარული გამოსახულებით&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name_does_not_contain">
+						<local_schema short_desc="ძებნა პირობით: &quot;სახელი არ შეიცავს&quot;">
+							<longdesc>ეს·გასაღები·ძებნის·დაწყებამდე·ადგენს,·არის·თუ·არა·გამოყენებული·ძებნა·პირობით·&quot;სახელი არ შეიცავს&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="owner_is_unrecognized">
+						<local_schema short_desc="ძებნა პირობით: &quot;მფლობელი უცნობია&quot;">
+							<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა პირობით &quot;მფლობელი·უცნობია&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="owned_by_group">
+						<local_schema short_desc="ძებნა·პირობით:·&quot;მფლობელი - ჯგუფი&quot;">
+							<longdesc>ეს·გასაღები·ძებნის·დაწყებამდე·ადგენს,·არის·თუ·არა·გამოყენებული·ძებნა·პირობით·&quot;მფლობელი - ჯგუფი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="owned_by_user">
+						<local_schema short_desc="ძებნა პირობით: &quot;მფლობელი·-·მომხმარებელი&quot;">
+							<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა პირობით &quot;მფლობელი·-·მომხმარებელი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_is_empty">
+						<local_schema short_desc="ძებნა პირობით: &quot;ცარიელი ფაილი&quot;">
+							<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა პირობით &quot;ცარიელი ფაილი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size_at_most">
+						<local_schema short_desc="ძებნა·პირობით:·&quot;ზომა·არაუმეტეს&quot;">
+							<longdesc>ეს·გასაღები·ძებნის·დაწყებამდე·ადგენს,·არის·თუ·არა·გამოყენებული·ძებნა·პირობით·&quot;ზომა·არაუმეტეს&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size_at_least">
+						<local_schema short_desc="ძებნა პირობით: &quot;ზომა არანაკლებ&quot;">
+							<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა პირობით &quot;ზომა არანაკლებ&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_modified_more_than">
+						<local_schema short_desc="ძებნა პირობით: &quot;შეცვლის თარიღი მეტია ვიდრე&quot;">
+							<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა პირობით &quot;შეცვლის·თარიღი·მეტია·ვიდრე&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_modified_less_than">
+						<local_schema short_desc="ძებნა·პირობით:·&quot;შეცვლის თარიღი ნაკლებია ვიდრე&quot;">
+							<longdesc>ეს·გასაღები·ძებნის·დაწყებამდე·ადგენს,·არის·თუ·არა·გამოყენებული·ძებნა·პირობით·&quot;შეცვლის თარიღი ნაკლებია ვიდრე&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="contains_the_text">
+						<local_schema short_desc="ძებნა პირობით: &quot;შეიცავს ტექსტს&quot;">
+							<longdesc>ეს გასაღები ძებნის დაწყებამდე ადგენს, არის თუ არა გამოყენებული ძებნა პირობით &quot;შეიცავს ტექსტს&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-screenshot">
+				<entry name="border_effect">
+					<local_schema short_desc="ჩარჩოს ეფექტი">
+					</local_schema>
+				</entry>
+				<entry name="include_border">
+					<local_schema short_desc="ჩარჩოს ჩათვლით">
+						<longdesc>ფანჯრების მენეჯერის ჩარჩოს ჩართვა ეკრანის ასლში</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="last_save_directory">
+					<local_schema short_desc="დასტა ეკრანის ასლისათვის">
+						<longdesc>დასტა, სადაც შენახულია ეკრანის ბოლო ასლი.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="დოკუმენტის შეზღუდვების უგულვებელყოფა">
+						<longdesc>დოკუმენტის შეზღუდვების უგულებელყოფა, მაგალითად ბეჭდვის აკრძალვის.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_quit">
+						<local_schema short_desc="ვერ ვახერხებ Epiphany-ს გამორთვას">
+							<longdesc>მომხმარებელი არაა Epiphany-ს დასრულებაზე უფლებამოსილი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fullscreen">
+						<local_schema short_desc="გაამყარე მთელს ეკრანზე გაშლილი რეჟიმი">
+							<longdesc>გაამყარე  Epiphany-ს მთელს ეკრანზე გაშლის რეჟიმი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_history">
+						<local_schema short_desc="არქივის ამორთვა">
+							<longdesc>გათიშე მთელი საარქივო ინფორმაცია, წინ და უკან ნავიგაციის გაუქმებით. არ დართოთ ნება არქივს, დამალოს ხშირად გამოყენებული ნიშნულების ნუსხა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_toolbar_editing">
+						<local_schema short_desc="გამორთე ინსტრუმენტების ველის რედაქტორი">
+							<longdesc>გამორთე მომხმარებლის მიერ ინსტრუმენტების ველთა რედაქტირების საშუალება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_bookmark_editing">
+						<local_schema short_desc="გამორთე ნიშნულების რედაქტირება">
+							<longdesc>გამორთე მომხმარებლის მიერ სანიშნეების დამატების ან რედაქტირების საშუალება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_arbitrary_url">
+						<local_schema short_desc="გამორთე შემთხვევითი ვებ მისამართები">
+							<longdesc>გათიშე მომხმარებლისთვის Epiphany-ში ვებ მისამართის ჩაბეჭდვის საშუალება.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="additional_safe_protocols">
+						<local_schema short_desc="უსაფრთხოების დამატებითი ზომები">
+							<longdesc>პროტოკოლების სია, რომლებიც დამატებულია საწყისზე, უსაფრთხოდ ითვლება როცა &quot;disable_unsafe_protocols&quot; არის დაყენებული</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_unsafe_protocols">
+						<local_schema short_desc="გამორთე არასაიმედო პროტოკოლები">
+							<longdesc>გამორთე საფრთხის შემცველი პროტოკოლების ჩატვირთვის საშუალება. უსაფრთხო პროტოკოლებია  http და https.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_menubar">
+						<local_schema short_desc="დამალე მენიუს ველი სტანდარტულად">
+							<longdesc>მენიუს ველის ნაგულისხმევად დამალვა</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_javascript_chrome">
+						<local_schema short_desc="გათიშე JavaScript&apos;ის ქრომით მართვის საშუალება">
+							<longdesc>გათიშე  JavaScript&apos;ის ფანჯრის ქრომით მართვის საშუალება.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="directories">
+					<entry name="downloads_folder">
+						<local_schema short_desc="ჩამოსატვირთი ფაილების დასტა">
+							<longdesc>გზა საქაღალდისაკენ, რომელშიც შესაძლებელი იქნება ფაილების სენახვა; ან &quot;Downloads&quot; რათა გამოვიყენოთ ჩამოტვირთვებისათვის განკუთვნილი სტანდარტული დასტა; ან  &quot;Desktop&quot; რათა გამოვიყენოთ სამუშაო მაგიდა.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="inspector_enabled">
+						<local_schema short_desc="ვებ ინპექტორის გამოყენება">
+						</local_schema>
+					</entry>
+					<entry name="browse_with_caret">
+						<local_schema short_desc="დათვალიერება კურსორის დახმარებით">
+						</local_schema>
+					</entry>
+					<entry name="javascript_enabled">
+						<local_schema short_desc="გაააქტიურე  JavaScript">
+						</local_schema>
+					</entry>
+					<entry name="plugins_enabled">
+						<local_schema short_desc="ჩანართების გამოყენება">
+						</local_schema>
+					</entry>
+					<entry name="allow_popups">
+						<local_schema short_desc="დაუშვი დამატებითი (Popup) პანჯრების გამოსვლა">
+							<longdesc>დაუშვი JavaScript-ის გამოყენებით საიტების ახალ ფანჯარაში გახსნის საშუალება, თუ JavaScript-ი ჩართულია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image_animation">
+						<local_schema short_desc="სურათებისს ანიმაციური რეჟიმი">
+							<longdesc>როგორ წარმოვადგინო ანიმაციური სურათები. შესაძლო ვარიანტებია  &quot;ნორმალური&quot;, &quot;ერთჯერადი&quot; და &quot;უძრავი&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cookie_accept">
+						<local_schema short_desc="კუკიების მიღება">
+							<longdesc>საიდან ავიღო კუკიები. შესაძლო ვარიანტებია  &quot;ყველგან&quot;, &quot;მიმდინარე საიტიდან&quot; და &quot;არსაიდან&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="ენები">
+							<longdesc>ორი გვერდის კოდირების პრივილეგირებული ენა</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cache_size">
+						<local_schema short_desc="დისკის კეშის ზომა">
+							<longdesc>დისკის კეშის ზომა მეგაბაიტებში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_font_type">
+						<local_schema short_desc="სტანდარტული შტიფტის ტიპი">
+							<longdesc>სტანდარტული შრიფტის ტიპი. შესაძლო სახეობებია: &quot;serif&quot; და &quot;sans-serif&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema short_desc="სტანდარტული კოდირება">
+							<longdesc>სტანდარტული კოდირება. მიღებული მნიშვნელობებია: &quot;armscii-8&quot;, &quot;Big5&quot;, &quot;Big5-HKSCS&quot;, &quot;EUC-JP&quot;, &quot;EUC-KR&quot;, &quot;gb18030&quot;, &quot;GB2312&quot;, &quot;geostd8&quot;, &quot;HZ-GB-2312&quot;, &quot;IBM850&quot;, &quot;IBM852&quot;, &quot;IBM855&quot;, &quot;IBM857&quot;, &quot;IBM862&quot;, &quot;IBM864&quot;, &quot;IBM866&quot;, &quot;ISO-2022-CN&quot;, &quot;ISO-2022-JP&quot;, &quot;ISO-2022-KR&quot;, &quot;ISO-8859-1&quot;, &quot;ISO-8859-2&quot;, &quot;ISO-8859-3&quot;, &quot;ISO-8859-4&quot;, &quot;ISO-8859-5&quot;, &quot;ISO-8859-6&quot;, &quot;ISO-8859-7&quot;, &quot;ISO-8859-8&quot;, &quot;ISO-8859-8-I&quot;, &quot;ISO-8859-9&quot;, &quot;ISO-8859-10&quot;, &quot;ISO-8859-11&quot;, &quot;ISO-8859-13&quot;, &quot;ISO-8859-14&quot;, &quot;ISO-8859-15&quot;, &quot;ISO-8859-16&quot;, &quot;ISO-IR-111&quot;, &quot;KOI8-R&quot;, &quot;KOI8-U&quot;, &quot;Shift_JIS&quot;, &quot;TIS-620&quot;, &quot;UTF-7&quot;, &quot;UTF-8&quot;, &quot;VISCII&quot;, &quot;windows-874&quot;, &quot;windows-1250&quot;, &quot;windows-1251&quot;, &quot;windows-1252&quot;, &quot;windows-1253&quot;, &quot;windows-1254&quot;, &quot;windows-1255&quot;, &quot;windows-1256&quot;, &quot;windows-1257&quot;, &quot;windows-1258&quot;, &quot;x-euc-tw&quot;, &quot;x-gbk&quot;, &quot;x-johab&quot;, &quot;x-mac-arabic&quot;, &quot;x-mac-ce&quot;, &quot;x-mac-croatian&quot;, &quot;x-mac-cyrillic&quot;, &quot;x-mac-devanagari&quot;, &quot;x-mac-farsi&quot;, &quot;x-mac-greek&quot;, &quot;x-mac-gujarati&quot;, &quot;x-mac-gurmukhi&quot;, &quot;x-mac-hebrew&quot;, &quot;x-mac-icelandic&quot;, &quot;x-mac-roman&quot;, &quot;x-mac-romanian&quot;, &quot;x-mac-turkish&quot;, &quot;x-mac-ukrainian&quot;, &quot;x-user-defined&quot;, &quot;x-viet-tcvn5712&quot;, &quot;x-viet-vps&quot; and &quot;x-windows-949&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="საკუთარი შრიფტის გამოყენება">
+							<longdesc>გვერდის მიერ გამოყენებული შრიფტის ნაცვლად საკუთარი შრიფტის გამოყენება</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="საკუთარი ფერების გამოყენება">
+							<longdesc>გამოიყენეთ თქვენი ფერები ნაცვლად გვერდში გამოყენებული ფერებისა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimum_font_size">
+						<local_schema short_desc="შრიფტის მინიმალური ზომა">
+						</local_schema>
+					</entry>
+					<entry name="smooth_scroll">
+						<local_schema short_desc="რბილი გადახვევის გამოყენება">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="downloads_hidden">
+						<local_schema short_desc="გადმოტვირთვების ფანჯრის ხილვადობა">
+							<longdesc>გადმოტვირთვების ფანჯრის ჩვენება ან დამალვა. როცა დამალულია, სისტემა შეგატყობინებთ ახალი გადმოტვირთვების დამატებისას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print_frames">
+						<local_schema short_desc="როგორ უნდა დაიბეჭდოს ჩარჩოები">
+							<longdesc>თუ როგორ დაიბეჭდოს ჩარჩოს შემცველი გვერდი. მისაღები მნიშვნელობებია &quot;normal&quot; (ნაგულისხმევი), &quot;separately&quot; (ცალცალკედ) და &quot;selected&quot; (რჩეული).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print_page_numbers">
+						<local_schema short_desc="დაიბეჭდოს გვერდის ნომერი (x მთლიანი რაოდენობა) ფურცლის ქვედა ნაწილში">
+						</local_schema>
+					</entry>
+					<entry name="print_background_images">
+						<local_schema short_desc="ფონის სურათის ბეჭდვა არ ბეჭდვა">
+						</local_schema>
+					</entry>
+					<entry name="print_background_colors">
+						<local_schema short_desc="ფონის ფერის ბეჭდვა არ ბეჭდვა">
+						</local_schema>
+					</entry>
+					<entry name="print_date">
+						<local_schema short_desc="დაიბეჭდოს თარიღი ფურცლის ქვედა ნაწილში ">
+						</local_schema>
+					</entry>
+					<entry name="print_page_url">
+						<local_schema short_desc="დაიბეჭდოს გვერდის მისამართი ფურცლის თავზე">
+						</local_schema>
+					</entry>
+					<entry name="print_page_title">
+						<local_schema short_desc="დაიბეჭდოს გვერდის სათაური ფურცლის თავში">
+						</local_schema>
+					</entry>
+					<entry name="preferences_font_language">
+						<local_schema short_desc="მონიშნული შრიფტის ენა">
+							<longdesc>მონიშნული მიმდინარე შრიფტის ენა. მიებული მნიშვნელობებია &quot;ar&quot; (არაბული), &quot;x-baltic&quot; (ბალტიისპირეთის ენები), &quot;x-central-euro&quot; (ცენტრალური ევროპის ენები), &quot;x-cyrillic&quot; (ენები რომელთა დამწერლობაა კირილიცა), &quot;el&quot; (ბერძნული), &quot;he&quot; (ებრაული), &quot;ja&quot; (იაპონური), &quot;ko&quot; (კორეული), &quot;zh-CN&quot; (არატრადიციული ჩინური), &quot;th&quot; (ტაილანდური), &quot;zh-TW&quot; (ტრადიციული ჩინური), &quot;tr&quot; (თურქული), &quot;x-unicode&quot; (სხვა ენები), &quot;x-western&quot; (ენები რომლებიც იყენებენ ლათინურ დამწერლობას), &quot;x-tamil&quot; (თამილი) და &quot;x-devanagari&quot; (დავანაგარი).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="history_view_details">
+						<local_schema short_desc="გვერდის ინფორმაცია მოცემულია არქივის სახით">
+							<longdesc>გვერდის ინფორმაცია მოცემულია არქივის ფანჯარაში. მისაღები მნიშვნელობებია ამ სიაში «ViewTitle», «ViewAddress» და «ViewDateTime».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bookmarks_view_details">
+						<local_schema short_desc="ნიშნულების ინფორმაცია მოცემულია რედაქტირების შესაძლებლობით">
+							<longdesc>ნიშნულების ინფორმაცია მოცემულია რედაქტირების შესაძლებლობით. ჩამონათვალის მთავარი მონაცემებია &quot;მისამართი&quot; და &quot;სათაური&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="history_date_filter">
+						<local_schema short_desc="საარქივო გვერდების სიძველის ერთეული">
+							<longdesc>აჩვენე დაარქივებული გვერდები რომელსაც &quot;ოდესმე&quot;, &quot;ორი_დღის_მანძილზე&quot;, &quot;სამი_დღის_მანძილზე&quot;, &quot;დღეს&quot; ვსტუმრობდი.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="managed_network">
+						<local_schema short_desc="ავრომატურად მართე offline სტატუსი ქსელური მენეჯერის საშუალებით.">
+						</local_schema>
+					</entry>
+					<entry name="remember_passwords">
+						<local_schema short_desc="პაროლების შენახვა">
+							<longdesc>შენახული და წინასწარ შეტანილი იქნას თუ არა პაროლები ვებ-საიტებზე.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active_extensions">
+						<local_schema short_desc="აქტიური გაფართოებები (extensions)">
+							<longdesc>აქტიური გაფართოებების ნუსხა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_statusbar">
+						<local_schema short_desc="აჩვენე სტატუსის ველი სტანდარტულად">
+						</local_schema>
+					</entry>
+					<entry name="show_bookmarks_bar">
+						<local_schema short_desc="აჩვენე ნიშნულების ველი სტანდარტულად">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbars">
+						<local_schema short_desc="გამოიტანე სტანდარტული ინსტრუმენტების ველები.">
+						</local_schema>
+					</entry>
+					<entry name="open_new_windows_in_tab">
+						<local_schema short_desc="ახალ ფანჯრებს მაგივრად, ხსნის გვერდებს ახალ დაფებში">
+							<longdesc>ახალი ფანჯრის გახსნის თხოვნები ყოველთვის ახალ დაფაში გახსნა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="ხელსაწყოთა ველის სტილი">
+							<longdesc>ინსტრუმენტთა ველის სტილი. ხელმისაწვდომი მნიშვნელობებია:  &quot;&quot; (გამოიყენე GNOME-ს სტანდარტული სტილი), &quot;both&quot; (ტექსტი და პიქტოგრამები), &quot;both-horiz&quot; (text besides icons), &quot;პიქტოგრამები&quot;, და  &quot;ტექსტი&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="middle_click_open_url">
+						<local_schema short_desc="მონიშნული ტექსტით ვებ გვერდის გახსნა ">
+							<longdesc>ფანჯრის მთავარ არეზე დაწკაპუნებით გაიხსნება ვებ გვერდი, რომელიც მითითებულია მონიშნულ ტექსტში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="automatic_downloads">
+						<local_schema short_desc="ავტომატური ჩამოტვირთვები">
+							<longdesc>თუ ფაილი არ იხსნება ბრაუზერის მეშვეობით, მისი ჩამოტვირთვა ავტომატურად ხდება ჩამოტვირთვისთვის განკუთვნილ დასტაში, რათა შესაძლებელი გახდეს მოცემული ფაილის გახსნა შესაბამისი პროგრამით.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="ყოველთვის აჩვენე ჩანართების ველი">
+							<longdesc>აჩვენე ჩანართების ველი. მაშინაც კი როცა ჩართულია თუნდაც ერთი ჩანართი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="user_agent">
+						<local_schema short_desc="ბრაუზერის იდენტიფიკატორი">
+							<longdesc>სტრიქონი რომელიც &quot;user agent&quot;-ად იქნება გამოყენბული, რათა გაადვილდეს ბროუზერის იდენტიფიკაცია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="url_search">
+						<local_schema short_desc="URL ძიება">
+							<longdesc>მისამართების სტრიქონში შეყვანილი საძიებელი წინადადების საკვანძო სიტყვები.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="თავფურცელი">
+							<longdesc>მომხმარებლის ვებ გვერდის მისამართი.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="full_screen">
+					<entry name="seconds">
+						<local_schema short_desc="წამობრივი დაყოვნება მომდევნო გამოსახულების გამოსვლამდე.">
+							<longdesc>ნულზე მეტი რიცხვი აღნიშნავს წამებს,  თუ რამდენ ხანს დარჩება გამოსახულება ეკრანზე, სანამ მას მომდევნო არ შეცვლის. ციფრი 0 თიშავს ავტომატური ჩვენების შესაძლებლობას.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="upscale">
+						<local_schema short_desc="გაადიდე 100%-მდე">
+							<longdesc>თე ეს მონაცემი მცდარია, პატარა გრაფიკული გამოსახულებები არ გაიჭიმება ეკრანზე.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="loop">
+						<local_schema short_desc="განსაზღვრე გრაფიკულ გამოსახულებათა თანმიმდევრობა">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="გამჭვირვალეირვალობის ფერი">
+							<longdesc>თუ გამჭვირვალობის გასაღებს მინიჭებული აქვს ფერი, მაშინ ეს გასაები განსაზღვრავს ფერს, რომელიც გამოიყენება გამჭვირვალობისათვის.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="გამჭირვალობის ინდიკატორი">
+							<longdesc>განსაზღვრავს გამჭვირვალობის ხარისხს. მოცემული პირობებია გამჭვირვალობის სიმკვეთრე, ფერი ფა არაფერი. თუ არჩეულია ფერი, იგი განსაზღვრავს გამოსაყენებელ ფერს. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="გრაფიკული გამოსახულების ინტერპოლირება">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome_settings_daemon">
+				<entry name="volume_step">
+					<local_schema short_desc="ხმის რეგულაციის ბიჯი">
+						<longdesc>ხმის ცვლის პროცენტების სახით.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="keybindings">
+					<entry name="play">
+						<local_schema short_desc="დაკვრა (ან დაკვრა/პაუზა)">
+						</local_schema>
+					</entry>
+					<entry name="www">
+						<local_schema short_desc="ვებ ბროუზერის გაშვება">
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="დახმარების ბროუზერის გაშვება">
+						</local_schema>
+					</entry>
+					<entry name="screensaver">
+						<local_schema short_desc="ეკრანის ბლოკირება">
+						</local_schema>
+					</entry>
+					<entry name="search">
+						<local_schema short_desc="ძებნა">
+						</local_schema>
+					</entry>
+					<entry name="home">
+						<local_schema short_desc="სახლის დასტა">
+						</local_schema>
+					</entry>
+					<entry name="eject">
+						<local_schema short_desc="მოხსნა">
+						</local_schema>
+					</entry>
+					<entry name="power">
+						<local_schema short_desc="გასვლა">
+						</local_schema>
+					</entry>
+					<entry name="volume_up">
+						<local_schema short_desc="ხმის აწევა">
+						</local_schema>
+					</entry>
+					<entry name="volume_down">
+						<local_schema short_desc="ხმის ჩაწევა">
+						</local_schema>
+					</entry>
+					<entry name="volume_mute">
+						<local_schema short_desc="ხმის გათიშვა">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_exit_shell_on_static_action">
+					<local_schema short_desc="მართვის ცენტრის დახურვა, ამოცანის აქტივირებისას">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="radar">
+						<local_schema short_desc="რადარული რუქის მისამართი">
+							<longdesc>საკუთარი მისამართი საიდანაც რადარის რუქის მიღებაა შესაძლებელი.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_radar_url">
+						<local_schema short_desc="რადარული რუქისთვის საკუთარი მისამართის გამოყენება">
+							<longdesc>თუ ჩართულია, რადარის რუქის მიღება განხორციელდება გასაღებ &quot;radar&quot;-ის მიხედვით.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="coordinates">
+						<local_schema short_desc="მდებარეობის კოორდინატები">
+							<longdesc>თქვენი მდებარეობის განედი და გრძედი წარმოდგენილია DD-MM-SS[NS] DD-MM-SS[EW] ფორმატში.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema short_desc="ქალაქის ამინდი">
+							<longdesc>ქალაქი რომლისთვისაც gweather-ი ინფორმაციას აჩვენებს</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema short_desc="რადარის მდებარეობა">
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema short_desc="ზონის მდებარეობა">
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema short_desc="ახლომდებარე ქალაქი">
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema short_desc="ადგილმდებაეობის ამინდის შესახებ ინფორმაცია">
+							<longdesc>ადგილმდებაეობის ამინდის შესახებ ინფორმაცია.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_radar_map">
+						<local_schema short_desc="რადარული რუქის ჩვენება">
+							<longdesc>ყოველი განახლებისას რადარული რუქის შეცვლა.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_detailed_forecast">
+						<local_schema short_desc="აღარ გამოიყენება">
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="ტემპერატურის ერთეული">
+							<longdesc>ტემპერატურის განმსაზღვრელი ერთეული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed_unit">
+						<local_schema short_desc="სიჩქარის ერთეული">
+							<longdesc>ქარის სიჩქარის განმსაზღვრელი ერთეული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="pressure_unit">
+						<local_schema short_desc="წნევის ერთეული">
+							<longdesc>წნევის განმსაზღვრელი ერთეული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="distance_unit">
+						<local_schema short_desc="მანძილის ერთეული">
+							<longdesc>ხილვადობის განმსაზღვრელი ერთეული.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_metric">
+						<local_schema short_desc="მეტრული სისტემის გამოყენება">
+							<longdesc>ინგლისური ერთეულების მაგივრად მეტრული სისტემის გამოყენება</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update_interval">
+						<local_schema short_desc="განახლების ინტერვალი">
+							<longdesc>ინტერვალი (წამებში) ავტომატურ განახლებებს შორის.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update">
+						<local_schema short_desc="მონაცემების ავტომატური განახლება">
+							<longdesc>ქალაქის მიხედვით ინფორმაციის ავტომატური განსაზღვრა.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="evolution">
+				<entry name="version">
+					<local_schema short_desc="კონფიგურაციის ვერსია">
+					</local_schema>
+				</entry>
+				<dir name="calendar">
+					<dir name="display">
+						<entry name="working_days">
+							<local_schema short_desc="სამუშაო დღეები">
+							</local_schema>
+						</entry>
+						<entry name="timezone">
+							<local_schema short_desc="დროის ზონა">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="mail">
+					<entry name="default_account">
+						<local_schema short_desc="ნაგულისხმევი ანგარიშის UID სტრიქონი.">
+							<longdesc>ნაგულისხმევი ანგარიშის UID სტრიქონი.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="prompts">
+						<entry name="mark_all_read">
+							<local_schema short_desc="გაფრთხილება რამოდენიმე შეტყობინების მონიშვნის შემთხვევაში">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="mark_seen">
+							<local_schema short_desc="მონიშნე როგორც ნანახი დადგენილი დროის გასვლის მერე">
+								<longdesc>მონიშნე როგორც ნანახი დადგენილი დროის გასვლის მერე.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

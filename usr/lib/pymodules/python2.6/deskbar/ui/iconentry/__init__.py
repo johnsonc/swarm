@@ -1,0 +1,1 @@
+/usr/share/pyshared/deskbar/ui/iconentry/__init__.py

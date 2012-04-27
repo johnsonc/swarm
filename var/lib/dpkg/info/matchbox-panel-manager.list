@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/bin
+/usr/bin/matchbox-panel-manager
+/usr/share
+/usr/share/applications
+/usr/share/applications/mb-panel-manager.desktop
+/usr/share/pixmaps
+/usr/share/pixmaps/mbpanelmgr.png
+/usr/share/doc
+/usr/share/doc/matchbox-panel-manager
+/usr/share/doc/matchbox-panel-manager/copyright
+/usr/share/doc/matchbox-panel-manager/changelog.Debian.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/matchbox-panel-manager.1.gz

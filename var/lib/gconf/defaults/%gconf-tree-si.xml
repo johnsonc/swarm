@@ -1,0 +1,1387 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="පැතිකඩ ලැයිස්තුව">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="කවුළු කළමණාකරු">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<dir name="indicator">
+							<entry name="enabledPlugins">
+								<local_schema short_desc="සක්‍රිය යතුරු පුවරුව දර්ශක ප්ලගින්ස් ලැයිස්තුව">
+									<longdesc>සක්‍රිය යතුරු පුවරුව දර්ශක ප්ලගින්ස් ලැයිස්තුව</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="showFlags">
+								<local_schema short_desc="ඇප්ලට් එක තුල සංඥාවන් දක්වන්න">
+									<longdesc>දැනට ඇති සැලසුම දැක්විමට ඇප්ලට් එක තුල සංඥාවන් දක්වන්න</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="secondary">
+								<local_schema short_desc="ද්විතීක සමුහ">
+									<longdesc>ද්විතීක සමුහ</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="preview">
+							<entry name="height">
+								<local_schema short_desc="යතුරු පුවරුවෙ පෙර දැක්ම, උස">
+									<longdesc>යතුරු පුවරුවෙ පෙර දැක්ම, උස</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="width">
+								<local_schema short_desc="යතුරු පුවරුවෙ පෙර දැක්ම, පළල">
+									<longdesc>යතුරු පුවරුවෙ පෙර දැක්ම, පළල</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="යතුරු පුවරුවෙ පෙර දැක්ම, Y සමතල">
+									<longdesc>යතුරු පුවරුවෙ පෙර දැක්ම, Y සමතල</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="යතුරු පුවරුවෙ පෙර දැක්ම,  X සමතල">
+									<longdesc>යතුරු පුවරුවෙ පෙර දැක්ම,  X සමතල</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="general">
+							<entry name="disable_sysconfig_changed_warning">
+								<local_schema short_desc="&quot;X sysconfig වෙනස්විය&quot; අවවාදාත්මක පනිවිඩය යටපත් කරන්න">
+									<longdesc>&quot;X sysconfig වෙනස්විය&quot; අවවාදාත්මක පනිවිඩය යටපත් කරන්න</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="layoutNamesAsGroupNames">
+								<local_schema short_desc="සමුහ නම් වෙනුවට සැලසුම් නම් පෙන්වන්න">
+									<longdesc>සමුහ නම් වෙනුවට සැලසුම් නම් පෙන්වන්න (බහු සැලසුම් සහය ලබාදෙන XFree වෙළුම් සඳහා පමණි)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="handleIndicators">
+								<local_schema short_desc="සැලසුම් සමුහ සමඟ දර්ශක සුරකින්න/නැවත පිහිටුවන්න">
+									<longdesc>සැලසුම් සමුහ සමඟ දර්ශක සුරකින්න/නැවත පිහිටුවන්න</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="groupPerWindow">
+								<local_schema short_desc="එක් කවුළුවකට වෙන් වු සමුහය බැගින් තබාන්න සහ පාලනය කරන්න">
+									<longdesc>එක් කවුළුවකට වෙන් වු සමුහය බැගින් තබාන්න සහ පාලනය කරන්න</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="defaultGroup">
+								<local_schema short_desc="කවුළුව නිර්මාණය විමෙදි, සාමාන්‍ය සමුහය යොමුකරන්න">
+									<longdesc>කවුළුව නිර්මාණය විමෙදි, සාමාන්‍ය සමුහය යොමුකරන්න</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="known_file_list">
+								<local_schema short_desc="modmap ගොනු ලැයිස්තුව">
+									<longdesc>$HOME නාමාවලිය තුල ඇති modmap ගොනු ලැයිස්තුව.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="update_handlers">
+								<local_schema short_desc="යතුරු පුවරුවෙ නවීකරණය පාලනයන්">
+									<longdesc>යතුරු පුවරුවෙ ස්වභාවය කිනම් හො අවස්තාවක ප්‍රථියෙදුනා,වුවිට ක්‍රියාත්මක වන ඛෙත එකතුවක්. xmodmap මත පදනම්වු වෙනස්කිරිම් නැවත යෙදිම සඳහා ප්‍රයොජනවත්වෙයි</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="kbd">
+							<entry name="options">
+								<local_schema short_desc="යතුරු පුවරුවෙ විකල්ප">
+									<longdesc>යතුරු පුවරුවෙ විකල්ප</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="layouts">
+								<local_schema short_desc="යතුරු පුවරුවෙ සැලසුම">
+									<longdesc>යතුරු පුවරුවෙ සැලසුම</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="model">
+								<local_schema short_desc="යතුරු පුවරුවෙ ආකෘතිය">
+									<longdesc>යතුරු පුවරුවෙ ආකෘතිය</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="webcal">
+						<entry name="need-terminal">
+							<local_schema short_desc="ක්‍රමලේඛනය ටර්මිනලයේ ක්‍රියාත්මක කරන්න">
+								<longdesc>මෙම URL හසුරුවන ක්‍රමලේඛය ටර්මිනලයක් තුළ ක්‍රියාත්මක වුවහොත් සත්‍ය වේ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="webcal ඒකීය සම්පත් දර්ශක සඳහා URL හසුරුවන්නා">
+								<longdesc>webcal ඒකීය සම්පත් දර්ශක සඳහා URL හසුරුවන්නා</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="webcal URLs හසුරුවන්නේ කෙසේද">
+								<longdesc>webcal URLs හසුරුවන විධානයේ දක්වා ඇති ක්‍රමලේඛය ලබා ගැනීමට සත්‍ය අගයට සකසන්න</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="toolbar_style">
+						<local_schema short_desc="මෙවලම් පුවරු ශෛලිය">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="procman">
+				<entry name="swap_color">
+					<local_schema short_desc="ප්‍රස්තාරයේ හුවමාරු(swap) සඳහා පෙරනිමි වර්‍ණය">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color3">
+					<local_schema short_desc="ප්‍රස්තාරයේ CPU සඳහා පෙරනිමි වර්‍ණය">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color2">
+					<local_schema short_desc="ප්‍රස්තාරයේ CPU සඳහා පෙරනිමි වර්‍ණය">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color1">
+					<local_schema short_desc="ප්‍රස්තාරයේ CPU සඳහා පෙරනිමි වර්‍ණය">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color0">
+					<local_schema short_desc="ප්‍රස්තාරයේ CPU සඳහා පෙරනිමි වර්‍ණය">
+					</local_schema>
+				</entry>
+				<entry name="smooth_refresh">
+					<local_schema short_desc="මෘදු නැවුම් කරනයන් සක්‍රීය/අක්‍රීය කරන්න">
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="ප්‍රධාන කවුළුවේ උස">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="ප්‍රධාන කවුළුවේ පළල">
+					</local_schema>
+				</entry>
+				<dir name="disktreenew">
+					<entry name="columns_order">
+						<local_schema short_desc="තැටි දසුන් තීරු පිළිවෙල">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="proctree">
+					<entry name="columns_order">
+						<local_schema short_desc="සැකසුම් දසුනේ තීරු පිළිවෙල">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema short_desc="උපශීර්ෂය කේතනය කිරීම">
+						<longdesc>උපශීර්ෂ සදහා අනුලකුණු කුලකය කේතනය කිරීම</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="subtitle_font">
+					<local_schema short_desc="උපශීර්ෂ ෆොන්ටය">
+						<longdesc>උපශීර්ෂ විදැහුම සදහා Pango ෆොන්ට විස්තරය</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="network-buffer-threshold">
+					<local_schema short_desc="ජාල බෆර්වීමේ සීමකය">
+						<longdesc>දහර පෙන්වීම පටන්ගැනීමට පෙර ජාල දහරදහරයන්ගෙන් බෆරයට ආ දත්ත සංඛ්‍යාව (තත්පර වලින්)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="audio_output_type">
+					<local_schema short_desc="භාවිතා කරන ශ්‍රව්‍ය ප්‍රතිදාන වර්ගය">
+						<longdesc>භාවිතා කරන ශ්‍රව්‍ය ප්‍රතිදාන වර්ගය: &quot;0&quot; ත්‍රිමාණ සදහා , &quot;1&quot; නාලිකා 4 ප්‍රතිදාන  සදහා , &quot;2&quot; නාලිකා 5.0 ප්‍රතිදාන  සදහා, &quot;3&quot; නාලිකා 5.1 ප්‍රතිදාන  සදහා, &quot;4&quot;  AC3 පසුකර යන්නන් සදහා.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="shuffle">
+					<local_schema short_desc="කළවම් කිරීමේ ප්‍රකාරය">
+					</local_schema>
+				</entry>
+				<entry name="repeat">
+					<local_schema short_desc="පුනරාවර්ථන ප්‍රකාරය">
+					</local_schema>
+				</entry>
+				<entry name="saturation">
+					<local_schema short_desc="වීඩියෝවේ පරිපූරණය">
+					</local_schema>
+				</entry>
+				<entry name="hue">
+					<local_schema short_desc="වීඩියෝවේ පාට">
+					</local_schema>
+				</entry>
+				<entry name="contrast">
+					<local_schema short_desc="වීඩියෝවේ ප්‍රභේදනය">
+					</local_schema>
+				</entry>
+				<entry name="brightness">
+					<local_schema short_desc="වීඩියෝවේ දීප්තිය">
+					</local_schema>
+				</entry>
+				<entry name="visual">
+					<local_schema short_desc="දෘෂය විලාස පේනු මෘදුකාංගයන්ගේ නම">
+					</local_schema>
+				</entry>
+				<entry name="show_vfx">
+					<local_schema short_desc="වීඩියෝව නොපෙන්වයිනම් දෘෂය විලාස පෙන්වන්න">
+						<longdesc>ශ්‍රව්‍ය ගොනුවක් ධාවනය වේ නම් පමණක් දෘෂය විලාස පෙන්වන්න</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-screensaver">
+				<entry name="lock_dialog_theme">
+					<local_schema short_desc="අගුලු සංවාද කොටුව සඳහා තේමාව">
+						<longdesc>අගුලු සංවාද කොටුව සඳහා බාවිතා කලයුතු තේමාව.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="user_switch_enabled">
+					<local_schema short_desc="පරිශිලක හුවමාරුවට ඉඩ දෙන්න ">
+					</local_schema>
+				</entry>
+				<entry name="logout_command">
+					<local_schema short_desc="ඉවත් වීමෙ විධානය">
+					</local_schema>
+				</entry>
+				<entry name="logout_delay">
+					<local_schema short_desc="ඉවත් වීමේ විකල්පයට පෙර කාළය">
+					</local_schema>
+				</entry>
+				<entry name="logout_enabled">
+					<local_schema short_desc="ඉවත්විමට ඉඩ දෙන්න">
+						<longdesc>මදක් ප්‍රමාදවි පිවිසීමම සඳහා අගුලු-අරින සංවාද කොටුවේ විකල්පයක් ලබා දීමට මෙය සත්‍ය අගයට සකසන්න ප්‍රමාදය &quot;logout_delay&quot; යතුරෙහි විශේෂිතව දක්වා ඇත..</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="embedded_keyboard_command">
+					<local_schema short_desc="කාවැදුනු යතුරු පුවරු විධානය">
+					</local_schema>
+				</entry>
+				<entry name="lock_delay">
+					<local_schema short_desc="අගුලුලෑමට පෙර කාලය">
+						<longdesc>තිරආවරකය ක්‍රියාත්මකවු පසු තිරය අගුලු ලැමට ගතවන මිනිත්තු ගණන.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="cycle_delay">
+					<local_schema short_desc="තේමාව වෙනස් වීමට පෙර කාළය">
+						<longdesc>තිරආවරක තේමාව වෙනස් වීමට පෙර ක්‍රියාත්මක වියයුතු මිනිත්තු ගණන.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="power_management_delay">
+					<local_schema>
+						<longdesc>ශක්ති-කළමණාකරනයට සංඥා කිරිමට ප්‍රථම අක්‍රිය වන තත්පර ගණන.සැසි ශක්ති-කළමණාකරනය නියොජිතයා මෙම යතුර සැකසීම සහ නඩත්තු කටයුතු සිදු කරයි.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="idle_delay">
+					<local_schema short_desc="සැසිය අභාවිත ලෙස සැලකීමට පෙර කාළය">
+						<longdesc>සැසිය අභාවිත ලෙස සැලකීමට පෙර කාළය අක්‍රියව පවතින මිනිත්තු ගණන.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="themes">
+					<local_schema short_desc="තිරආවරකයේ තේමා">
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="තිරආවරකයේ තේමාව තොරා ගැනිමේ ආකාරය">
+					</local_schema>
+				</entry>
+				<entry name="lock_enabled">
+					<local_schema short_desc="සක්‍රිය විටදි අගුලු දමන්න">
+						<longdesc>තිරආවරකය සක්‍රිය වීමේදි තිරය අගුලුලෑමට මෙය සත්‍ය අගයට සකසන්න.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="idle_activation_enabled">
+					<local_schema short_desc="අභාවිත විට සක්‍රිය කරන්න">
+						<longdesc>සැසිය අභාවිත විටදී තිරආවරකය සක්‍රිය වීමට මෙය සත්‍ය අගයට සකසන්න.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_text">
+						<local_schema short_desc="වේලා/ප්රතිශත ලේබලය පෙන්වන්න">
+						</local_schema>
+					</entry>
+					<entry name="show_battery">
+						<local_schema short_desc="තිරස් වියළි කෝෂය පෙන්වන්න">
+						</local_schema>
+					</entry>
+					<entry name="show_status">
+						<local_schema short_desc="සෘජු (කුඩා) විදුලිකෝෂය">
+						</local_schema>
+					</entry>
+					<entry name="drain_from_top">
+						<local_schema short_desc="ඉහළ සිට අඩුවෙන්න">
+							<longdesc>විදුලිකෝෂ දර්ශකයේ අඩුවීම විදුලිකෝෂයේ ඉහළ සිට පෙන්වන්න. සාම්ප්‍රදායික විදුලිකෝෂ දර්ශකය සඳහා පමණක් ක්‍රියාත්මකයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="අවවාදය සඳහා බියිප් හඬ">
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="වියළි කෝෂය සම්පූර්ණ බව දැනුම්දීමයි">
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="වියළි කෝෂයේ බලය අඩු බව දැනුම්දීමයි">
+						</local_schema>
+					</entry>
+					<entry name="red_value_is_time">
+						<local_schema short_desc="ප්රතිශතය අඩුවීමට වඩා කාලය අඩුවීම ගැන අනතුරු හඟවන්න">
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="ධාවන මට්ටම් අගය">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema>
+							<longdesc>තත්ව යාවත්කාල කිරීම් අතර කාලය තත්පර වලින්</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="show_mode">
+						<local_schema short_desc="CPU භාවිතාව පෙන්වන ප්‍රකාරය">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="defaults">
+					<entry name="height">
+						<local_schema short_desc="නව සටහන් සඳහා පෙරනිමි උස">
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="නව සටහන් සඳහා පෙරනිමි පළල">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="network_icon_visible">
+						<local_schema short_desc="ජාල සේවාදායක අයිකනය මූලිකතිරය මත දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="ස්ථාපිත පරිමාව මූලිකතිරය මත දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="ඉවනලන අයිකනය මූලිකතිරය ඔත දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="මූලික තිරය මත දිස්වන පරිගණක සංකේතය">
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="නිවාස සංකේතය මූලික තිරය මත දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="ලැයිස්තු දසුනේ පෙරනිමි තීරු පිළිවෙල">
+							<longdesc>ලැයිස්තු දසුනේ පෙරනිමි තීරු පිළිවෙල.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="පෙරනිමි ලැයිස්තු විශාලණය">
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="පෙරනිමි වර්‍ග පිළිවෙළ">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="thumbnail_size">
+						<local_schema short_desc="පෙරනිමි සිඟිති රූ අයිකන ප්‍රමාණය">
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="සංකේත විශාලනයේ පෙරනිමි මට්ටම">
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="පෙරනිමි වර්‍ග පිළිවෙළ">
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema>
+							<longdesc>අයිකන දසුනේ සහ මූලික තිරය තුළ අයිකනයක සිරස්තල ලැයිස්තුව පහත දැක්වේ. දර්ශනය වියහැකි සිරස්තල ගණන විශාලන මට්ටම මත පදනම් වේ. තිබියහැකි අගයන් වනුයේ: &quot;ප්‍රමාණය&quot;, &quot;වර්‍ගය&quot;, &quot;සකස් කළ දිනය (_m)&quot;, &quot;වෙනස් කළ දිනය (_c)&quot;, &quot;භාවිතා කළ දිනය (_a)&quot;, &quot;හිමිකරු&quot;, &quot;සමුහය&quot;, &quot;අවසර&quot;, &quot;octal_permissions&quot; සහ &quot;mime වර්‍ගය (_t)&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="පැති කවුළු දසුන">
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="පැති කවුළු නව කවුළුව තුළ දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="තත්ව පුවරුව නව කවුළුව තුළ දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="පිහිටීම් පුවරුව නව කවුළුව තුළ දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="මෙවලම් පුවරුව නව කවුළුව තුළ දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="පැතිපුවරුවේ පළල">
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="දිනයේ සංයුතිය">
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="පෙරනිමි බහලුම් දසුන">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="පෙරනිමි පැති පුවරු පසුතල ගොනු නාමය">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="පෙරනිමි වෙනස් කළ පැති පුවරු පසුතල වර්‍ණය">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="වෙනස් කළ පැති පුවරු පසුතලය සකසන ලදි">
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="පෙරනිමි පසුතල ගොනු නාමය">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="පෙරනිමි පසුතල වර්‍ණය">
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="සෙවීමෙ පුවරුව තුළ සෙවීමට ක්‍රමවේදය">
+							<longdesc>ක්‍රමවේදය සමඟ ගැලපුනු ගොනු  සෙවීමෙ පුවරුව තුළ පිහිටයි. &quot;search_by_text&quot; ලෙස සැකසු විට Nautilus විසින් ගොනුවෙ නමින් ගොනු සෙවීම සිදු කරයි. &quot;search_by_text_and_properties&quot; ලෙස සැකසු විට Nautilus විසින් ගොනුවෙ නම සහ වත්කම් මඟින් සෙවීම සිදුකරයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="කවුළු තුල බහලිම් පළමුව පෙන්වන්න">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="දැනට ඇති Nautilus තේමාව (විරුද්ධ විය)">
+						</local_schema>
+					</entry>
+					<entry name="always_use_location_entry">
+						<local_schema short_desc="මාර්‍ග පුවරුව වෙනුවට පිහිටීම් ඇතුළත් කිරීම සැම විටම භාවිතා කරන්න">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="internet_time">
+						<local_schema short_desc="Internet වේලාව භාවිතා කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="UNIX වේලාව භාවිතා කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="පැය සංයුතිය">
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="සති අංකය දින දර්ශනය තුළ දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="වේලා සුසර කිරරීමේ මෙවලම">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="UTC භාවිතා කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="මෙවලම් ඉගි මත දිනය දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="ඔරලෝසුව මත දිනය දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="තත්පර සමඟ වේලාවය දර්ශනය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="ඔරලෝසුවෙ රිසිකළ සංයුත්තිය">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="පැය සංයුතිය">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="plugins">
+					<entry name="active-plugins">
+						<local_schema short_desc="සක්‍රීය ප්ලගීන">
+						</local_schema>
+					</entry>
+					<dir name="filebrowser">
+						<dir name="on_load">
+							<entry name="tree_view">
+								<local_schema short_desc="රුක් දසුන සමඟ විවෘත කරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="preferences">
+					<dir name="syntax_highlighting">
+						<entry name="enable">
+							<local_schema short_desc="වාග් රීති උද්දීපනය සක්‍රීය කරන්න">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="page">
+							<entry name="print_line_numbers">
+								<local_schema short_desc="පෙළ අංක මුද්‍රණය කරන්න">
+								</local_schema>
+							</entry>
+							<entry name="print_header">
+								<local_schema short_desc="මුද්‍රණ ශිර්ෂකය">
+								</local_schema>
+							</entry>
+							<entry name="print_syntax_highlighting">
+								<local_schema short_desc="වාග් රීති උද්දීපන මුද්‍රණයකරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="ui">
+						<dir name="recents">
+							<entry name="max_recents">
+								<local_schema short_desc="උපරිම මෑතකදි භාවිතා කළ ගොනු">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="bottom_panel">
+							<entry name="bottom_panel_visible">
+								<local_schema short_desc="පහළ තීරුව දර්ශනය කරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="side_pane">
+							<entry name="side_pane_visible">
+								<local_schema short_desc="පැතිපුවරුව දෘශ්‍ය වේ">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="statusbar">
+							<entry name="statusbar_visible">
+								<local_schema short_desc="තත්ව තිරුපැතිපුවරුව දෘශ්‍ය වේ">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbar">
+							<entry name="toolbar_buttons_style">
+								<local_schema short_desc="මෙවලම්තීරු බොත්තම් රටාව">
+								</local_schema>
+							</entry>
+							<entry name="toolbar_visible">
+								<local_schema short_desc="මෙවලම්තීරුව දෘශ්‍ය වේ">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="search_highlighting">
+							<entry name="enable">
+								<local_schema short_desc="සෙවීම් උද්දීපනය සක්‍රීය කරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="right_margin">
+							<entry name="right_margin_position">
+								<local_schema short_desc="දකුණු මායිමේ පිහිටීම">
+								</local_schema>
+							</entry>
+							<entry name="display_right_margin">
+								<local_schema short_desc="දකුණු මායිම දර්ශනය කරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="current_line">
+							<entry name="highlight_current_line">
+								<local_schema short_desc="දැනට ඇති රේඛාව උද්දීපනය කරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="පෙළ අංක දර්ශනය කරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="tabs">
+							<entry name="tabs_size">
+								<local_schema short_desc="පටිත්තේ ප්‍රමාණය">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="අක්‍ෂර සකසනය">
+								</local_schema>
+							</entry>
+							<entry name="use_default_font">
+								<local_schema short_desc="පෙරනිමි අක්‍ෂර භාවිතා කරන්න">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="close">
+						<local_schema short_desc="කවුළුව වසන්න">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="theme">
+						<local_schema short_desc="දැනට ඇති තේමාව">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="keybindings">
+					<entry name="zoom_normal">
+						<local_schema short_desc="අක්‍ෂර ප්‍රමාණය සාමාන්‍ය කිරීමට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="zoom_out">
+						<local_schema short_desc="අක්‍ෂර ප්‍රමාණය කුඩා කිරීමට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="zoom_in">
+						<local_schema short_desc="අක්‍ෂර ප්‍රමාණය විශාල කිරීමට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="සහාය ඇරඹුම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_12">
+						<local_schema short_desc="12 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_11">
+						<local_schema short_desc="11 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_10">
+						<local_schema short_desc="10 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_9">
+						<local_schema short_desc="9 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_8">
+						<local_schema short_desc="8 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_7">
+						<local_schema short_desc="7 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_6">
+						<local_schema short_desc="6 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_5">
+						<local_schema short_desc="5 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_4">
+						<local_schema short_desc="4 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_3">
+						<local_schema short_desc="3 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_2">
+						<local_schema short_desc="2 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_1">
+						<local_schema short_desc="1 වන පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="next_tab">
+						<local_schema short_desc="මිලඟට ඇති පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="prev_tab">
+						<local_schema short_desc="පෙර සිටී පටිත්තට මාරුවීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="reset_and_clear">
+						<local_schema short_desc="අග්‍රය ප්‍රකෘති තත්වයට පත්කිරීමට සහ පැහැදිලි කිරීමට  යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="reset">
+						<local_schema short_desc="අග්‍රය ප්‍රකෘති තත්වයට පත්කිරීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="set_terminal_title">
+						<local_schema short_desc="අග්‍රයේ සිරස්තලය සැකසීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="paste">
+						<local_schema short_desc="පෙළ ඇලවීරීමට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="copy">
+						<local_schema short_desc="පෙළ පිටපත් කිරීමට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="close_window">
+						<local_schema short_desc="කවුළුවක් වැසීමට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="close_tab">
+						<local_schema short_desc="පටිත්ත වසා දැමීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="new_profile">
+						<local_schema short_desc="නව පැතිකඩක් නිර්මාණයට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="new_window">
+						<local_schema short_desc="නව කවුඛුවක් විවෘත කිරීමට යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="new_tab">
+						<local_schema short_desc="නව පටිත්තක් විවෘත කිරීම සඳහා යතුරු පුවරු කෙටි මාර්‍ගය">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="delete_binding">
+							<local_schema short_desc="Delete යතුරේ බලපෑම">
+							</local_schema>
+						</entry>
+						<entry name="backspace_binding">
+							<local_schema short_desc="Backspace යතුරේ බලපෑම">
+							</local_schema>
+						</entry>
+						<entry name="background_darkness">
+							<local_schema short_desc="පසුබිම් පිළිඹිබුව කොපමණ අදුරු කළ යුතුඳ">
+							</local_schema>
+						</entry>
+						<entry name="background_image">
+							<local_schema short_desc="පසුබිම් පිළිඹිබුව">
+								<longdesc>පසුබිම් පිළිඹිබුවේ ගොනු නාමය.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_type">
+							<local_schema short_desc="පසුබිම් වර්‍ගය">
+							</local_schema>
+						</entry>
+						<entry name="font">
+							<local_schema short_desc="අක්‍ෂර">
+							</local_schema>
+						</entry>
+						<entry name="palette">
+							<local_schema short_desc="අග්‍ර යෙදුම් සඳහා වර්‍ණාවලිය">
+							</local_schema>
+						</entry>
+						<entry name="icon">
+							<local_schema short_desc="අග්‍රේ කවළුව සඳහාඅයිකනය ">
+							</local_schema>
+						</entry>
+						<entry name="scrollbar_position">
+							<local_schema short_desc="ස්ක්‍රෝල්බාරයේ පිහිටුම">
+							</local_schema>
+						</entry>
+						<entry name="title">
+							<local_schema short_desc="අග්‍රය සඳහා සිරස්තලය">
+							</local_schema>
+						</entry>
+						<entry name="background_color">
+							<local_schema short_desc="අග්‍රයේ පසුබිම සඳහා පෙරනිමි වර්‍ණය">
+							</local_schema>
+						</entry>
+						<entry name="foreground_color">
+							<local_schema short_desc="අග්‍රයේ පසුබිම සඳහා පෙරනිමි වර්‍ණය">
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema short_desc="පැතිකඩෙහි මිනිසෙකුට කියවිය හැකි නම">
+								<longdesc>පැතිකඩෙහි මිනිසෙකුට කියවිය හැකි නම.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema short_desc="භාවිතයට ඇති කේතාංකන ලැයිස්තුව">
+						</local_schema>
+					</entry>
+					<entry name="profile_list">
+						<local_schema short_desc="පැතිකඩ ලැයිස්තුව">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="උපරිම කවුළු ලැයිස්තු  ප්‍රමාණය">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_log_out">
+						<local_schema short_desc="ඉවත් වීම අක්‍රීය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="සම්පූර්ණ පුවරුවම අබුලු දමන්න">
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="ලාච්චුව ස්වයංක්‍රීයව වසන්න">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="සජීවීකරණ සක්‍රීය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="මෙවලමෙ ඉගී සක්‍රීය කරන්න">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="ක්‍රියාකරි බොත්තම් වර්‍ගය">
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="ඇරඹුමේ පිහිටීම">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="object_id_list">
+						<local_schema short_desc="පුවරු වස්තු අංක ලැයිස්තුව">
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="පුවරු ඇප්ලට්ටු අංක ලැයිස්තුව">
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="පුවරු අංක ලැයිස්තුව">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="unhide_delay">
+						<local_schema short_desc="පුවරුව ස්වයංක්‍රීයව සැග නොවීමෙ පමාව">
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="පුවරුව ස්වයංක්‍රීයව සැගවීමෙ පමාව">
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="සැඟවුණු බොත්තම් සක්‍රීය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="සජීවීකරණ සක්‍රීය කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="පුවරුවේ Y ඛණ්ඩාංක">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="පුවරුවේ X ඛණ්ඩාංක">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="පුවරුවේ ප්‍රමාණය">
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="පුවරුවේ දිශානතිය">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="පුවරුව හදුනා ගැනීමට නමක්">
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="fit">
+							<local_schema short_desc="පිළිඹිබුව පුවරුව මතට සකසන්න">
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="පසුබිම් පිළිඹිබුව">
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="පසුබිම් වර්‍ණයේ පාරාන්ධතාව">
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="පසුබිම් වර්‍ණය">
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="පසුබිම් වර්‍ගය">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="frames">
+						<local_schema short_desc="මාලුවාගේ සජීවීකරණයේ රාමු ගණන">
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="ක්ලික් කළ විට ක්‍රියාත්මක විය යුතු විධානය">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="මාලුවාගේ නම">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="පිවිසිමේදි දිගහැරෙන තිරය සඳහා යෙදිමට කැමතිම පිළිඹිබුව">
+							<longdesc>මෙය $datadir/pixmaps/ directory මත පදනම් නොවු සාපේක්‍ෂ මාර්‍ග ‍ග අගයකි. උප-බහලුම් සහ පිළිඹිබුව නම් නිවැරදි අගයන් වේ. මෙම අගය වෙනස් කිරිම මීළග සැසිය සඳහා බලපානු ඇත.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="ඉවත්විමේ මතක් කිරිම">
+							<longdesc>සක්‍රිය කලහොත්, gnome-session සැසිය අවසන් වීමට පෙර පරිශිලක වෙත මතක් කරනු ඇත. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="සැසියන් සුරකින්න">
+							<longdesc>සක්‍රිය කලහොත් gnome-session ස්වයංක්‍රියව සැසිය සුරක්‍ෂිත කරනු ඇත. එසේ නැතිනම් ඉවත්වීමේ සංවාද කොටුව මඟින් සැසිය සුරකීම සඳහා විකල්පයක් දක්වනු ඇති.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="දිගහැරෙන තිරය පෙන්වන්න">
+							<longdesc>සැසිය ඇරබීමෙදි දිගහැරෙන තිරය පෙන්වන්න</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-search-tool">
+				<entry name="default_window_height">
+					<local_schema short_desc="කවුළුවේ පෙරනිමි උස">
+					</local_schema>
+				</entry>
+				<entry name="default_window_width">
+					<local_schema short_desc="කවුළුවේ පෙරනිමි පළල">
+					</local_schema>
+				</entry>
+				<entry name="columns_order">
+					<local_schema short_desc="සෙවුම් ප්‍රතිළඵලයේ තීරු අනුපිළිවෙල">
+					</local_schema>
+				</entry>
+				<entry name="disable_quick_search_second_scan">
+					<local_schema short_desc="ක්ෂණික සෙවුමේ දෙවන පරිලෝකණය අක්‍රීය කරන්න">
+					</local_schema>
+				</entry>
+				<entry name="disable_quick_search">
+					<local_schema short_desc="ක්ෂණික සෙවුම අක්‍රීය කරන්න">
+					</local_schema>
+				</entry>
+				<entry name="show_additional_options">
+					<local_schema short_desc="අතිරේඛ විකල්ප පෙන්වන්න">
+						<longdesc>‍‍‍‍&quot; තව විකල්ප තෝරන්න &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="select">
+					<entry name="follow_symbolic_links">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; සංකේතාත්මක සබැදිය අනුගමනය කරන්න &quot;">
+							<longdesc>‍‍‍‍&quot; සංකේතාත්මක සබැදිය අනුගමනය කරන්න &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files_and_folders">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; සගවා ඇති ගොනු සහ බහාළුම් පෙන්වන්න &quot;">
+							<longdesc>‍‍‍‍&quot; සගවා ඇති ගොනු සහ බහාළුම් පෙන්වන්න &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name_does_not_contain">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; නම අඩංගු නොවන  &quot;">
+							<longdesc>‍‍‍‍&quot; නම අඩංගු නොවන &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="owner_is_unrecognized">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; හිමිකරු නොහදුනන &quot;">
+							<longdesc>‍‍‍‍&quot; හිමිකරු නොහදුනන &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="owned_by_group">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; හිමිකාරීත්වය සමූහය සතු &quot;">
+							<longdesc>‍‍‍‍&quot; හිමිකාරීත්වය සමූහය සතු &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="owned_by_user">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; හිමිකාරීත්වය පරිශීලක සතු &quot;">
+							<longdesc>‍‍‍‍&quot; හිමිකාරීත්වය පරිශීලක සතු &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_is_empty">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; හිස් ගොනු &quot;">
+							<longdesc>‍‍‍‍&quot; හිස් ගොනු &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size_at_most">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; ප්‍රමාණයෙන් වැඩිමලෙස &quot;">
+							<longdesc>‍‍‍‍&quot; ප්‍රමාණයෙන් වැඩිමලෙස &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size_at_least">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; ප්‍රමාණයෙන් අඩුමලෙස &quot;">
+							<longdesc>‍‍‍‍&quot; ප්‍රමාණයෙන් අඩුමලෙස &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_modified_more_than">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; වෙනස්කල දිනය වැඩියි &quot;">
+							<longdesc>‍‍‍‍&quot; වෙනස්කල දිනය වැඩියි&quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_modified_less_than">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; වෙනස්කල දිනය අඩුයි &quot;">
+							<longdesc>‍‍‍‍&quot; වෙනස්කල දිනය අඩුයි &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="contains_the_text">
+						<local_schema short_desc="සෙවීමේ විකල්පය තෝරන්න‍‍ ‍‍‍‍&quot; පෙළෙහි ඇතුලත් &quot;">
+							<longdesc>‍‍‍‍&quot; පෙළෙහි ඇතුලත් &quot; සෙවීමේ විකල්පය තේරීමෙන් මෙම යතුර තීරණය කර ඇත. සෙවීමේ මෙවලම ආරම්භයි.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-screenshot">
+				<entry name="border_effect">
+					<local_schema short_desc="දාරයේ විලාසය">
+					</local_schema>
+				</entry>
+				<entry name="include_border">
+					<local_schema short_desc="දාරය ඇතුලත් කරන්න">
+					</local_schema>
+				</entry>
+				<entry name="last_save_directory">
+					<local_schema short_desc="තිරපිටපත් ඩිරෙක්ටරිය">
+						<longdesc>අවසාන තිරපිටපත සුරැකූ ඩිරෙක්ටරිය</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="epiphany">
+				<dir name="web">
+					<entry name="language">
+						<local_schema short_desc="භාෂා">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="toolbar_style">
+						<local_schema short_desc="මෙවලම් පුවරු ශෛලිය">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="විනිවිදයන වර්‍ණ">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome_settings_daemon">
+				<dir name="keybindings">
+					<entry name="search">
+						<local_schema short_desc="සොයන්න">
+						</local_schema>
+					</entry>
+					<entry name="eject">
+						<local_schema short_desc="ඉවත් කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="power">
+						<local_schema short_desc="ඉවත් වීම">
+						</local_schema>
+					</entry>
+					<entry name="volume_up">
+						<local_schema short_desc="හඬ වැඩි කරන්න">
+						</local_schema>
+					</entry>
+					<entry name="volume_down">
+						<local_schema short_desc="හඬ අඩු කරන්න">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="radar">
+						<local_schema short_desc="රේඩාර් සිතියම සඳහා Url">
+						</local_schema>
+					</entry>
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema short_desc="නගරයක් සඳහා කාළගුණය">
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema short_desc="රේඩාර් ස්ථානය">
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema short_desc="කලාප ස්ථාන">
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema short_desc="ලගම නගරය">
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema short_desc="කාළගුණ ස්ථාන තොරතුරු">
+							<longdesc>කාළගුණ ස්ථාන තොරතුරු.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_radar_map">
+						<local_schema short_desc="රේඩාර් සිතියම දක්වන්න">
+						</local_schema>
+					</entry>
+					<entry name="enable_detailed_forecast">
+						<local_schema short_desc="තවදුරටත් භාවිතා නොකරයි">
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="උෂ්ණත්ව ඒකකය">
+							<longdesc>උෂ්ණත්වය සඳහා භාවිතා කරන ඒකකය.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed_unit">
+						<local_schema short_desc="වේග ඒකකය">
+							<longdesc>සුළං වේගය සඳහා භාවිතා කරන ඒකකය.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="pressure_unit">
+						<local_schema short_desc="පීඩන ඒකකය">
+							<longdesc>පීඩනය සඳහා භාවිතා කරන ඒකකය.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="distance_unit">
+						<local_schema short_desc="දුර ඒකකය">
+							<longdesc>දෘෂෘතාවය සඳහා භාවිතා කරන ඒකකය.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_metric">
+						<local_schema short_desc="මෙට්‍රික් ඒකක භාවිතා කරන්න">
+							<longdesc>ඉංග්‍රීසි ඒකක වෙනුවට මෙට්‍රික් ඒකක භාවිතා කරන්න.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update_interval">
+						<local_schema short_desc="යාවත්කාල විරාමය">
+						</local_schema>
+					</entry>
+					<entry name="auto_update">
+						<local_schema short_desc="දත්ත ස්වයංක්‍රීයව යාවත්කාල කරන්න">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="evolution">
+				<entry name="version">
+					<local_schema short_desc="මානකරණ වෙළුම">
+					</local_schema>
+				</entry>
+				<dir name="addressbook">
+					<dir name="display">
+						<entry name="show_preview">
+							<local_schema short_desc="පූර්‍වදසුන් පුවරුව පෙන්වන්න">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="calendar">
+					<dir name="notify">
+						<entry name="programs">
+							<local_schema short_desc="සංඥා වැඩසටහන්">
+							</local_schema>
+						</entry>
+						<entry name="last_notification_time">
+							<local_schema short_desc="අවසාන සංඥාවක් වේලාව">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="other">
+						<entry name="default_reminder_units">
+							<local_schema short_desc="පෙරනිමි සිහිගැන්වීම් ඒකක">
+							</local_schema>
+						</entry>
+						<entry name="default_reminder_interval">
+							<local_schema short_desc="පෙරනිමි සිහිගැන්වීම් අගය">
+							</local_schema>
+						</entry>
+						<entry name="use_default_reminder">
+							<local_schema short_desc="පෙරනිමි හමුවීම් සිහිගැන්වීම">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="working_days">
+							<local_schema short_desc="වැඩ කරන දින">
+							</local_schema>
+						</entry>
+						<entry name="week_start_day">
+							<local_schema short_desc="සතියේ ඇරඹුම">
+							</local_schema>
+						</entry>
+						<entry name="timezone">
+							<local_schema short_desc="වේලා කළාපය">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="mail">
+					<entry name="save_dir">
+						<local_schema short_desc="බහලුම සුරකින්න">
+						</local_schema>
+					</entry>
+					<entry name="accounts">
+						<local_schema short_desc="ගිණුම් ලැයිස්තුව">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

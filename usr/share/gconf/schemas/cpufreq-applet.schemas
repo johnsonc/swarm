@@ -1,0 +1,1482 @@
+<gconfschemafile>
+<schemalist>
+
+<schema>
+	<key>/schemas/apps/cpufreq-applet/prefs/cpu</key>
+	<owner>cpufreq-applet</owner>
+	<type>int</type>
+	<default>0</default>
+	<locale name="C">
+		<short>CPU to Monitor</short>
+		<long>Set the CPU to monitor. In a single processor system you don't have to change it.</long>
+	</locale>
+
+	<locale name="af">
+		<short>Verwerker om te monitor</short>
+		<long>Stel die verwerker om te monitor. In &apos;n enkelverwerkerstelsel hoef u dit nie te verander nie.</long>
+	</locale>
+
+	<locale name="ar">
+		<short>المعالج المُراقب</short>
+		<long>حدد المعالج المراقب. في النظام أحادي المعالج ليست بحاجة إلى تغييره.</long>
+	</locale>
+
+	<locale name="as">
+		<short>নিৰীক্ষণৰ উদ্দেশ্যে চিহ্নিত CPU</short>
+		<long>a.</long>
+	</locale>
+
+	<locale name="ast">
+		<short>CPU que quier monitorizar</short>
+		<long>Escoyer la CPU que quier monitorizar. Nun sistema d&apos;un monoprocesador nun ties que camudar esto.</long>
+	</locale>
+
+	<locale name="be">
+		<short>Назіраць за працэсарам</short>
+		<long>Вызначыць працэсар для назіральніка. У аднапрацэсарнай сыстэме вам ня трэба зьмяняць гэты парамэтар.</long>
+	</locale>
+
+	<locale name="be@latin">
+		<short>Jaki pracesar adsočvać</short>
+		<long>Abiraje pracesar dziela adsočvańnia. U adnapracesarnych systemach niama patreby heta źmianiać.</long>
+	</locale>
+
+	<locale name="bg">
+		<short>Процесор, който да се наблюдава</short>
+		<long>Задаване на процесора, който да се наблюдава. За машините с един процесор няма необходимост да се променя.</long>
+	</locale>
+
+	<locale name="bn">
+		<short>নিরীক্ষণের উদ্দেশ্যে চিহ্নিত CPU</short>
+		<long>নিরীক্ষণের জন্য চিহ্নিত CPU নির্ধারণ করুন। একটি প্রসেসর বিশিষ্ট সিস্টেমে এই মান পরিবর্তন করার প্রয়োজন নেই।</long>
+	</locale>
+
+	<locale name="bn_IN">
+		<short>নিরীক্ষণের উদ্দেশ্যে চিহ্নিত CPU</short>
+		<long>নিরীক্ষণের জন্য চিহ্নিত CPU নির্ধারণ করুন। একটি প্রসেসর বিশিষ্ট সিস্টেমে এই মান পরিবর্তন করার প্রয়োজন নেই।</long>
+	</locale>
+
+	<locale name="br">
+		<short>Kewerier da heuliañ</short>
+		<long>Arventenniñ ar c&apos;hewerier da heuliañ. N&apos;hoc&apos;h eus ket netra da kemmañ war ur reizhiad gant ur c&apos;hewerier nemetañ.</long>
+	</locale>
+
+	<locale name="ca">
+		<short>CPU del qual s&apos;ha de fer el seguiment</short>
+		<long>Estableix la CPU de la qual s&apos;ha de fer el seguiment. En un sistema amb un processador no heu de canviar-ho.</long>
+	</locale>
+
+	<locale name="ca@valencia">
+		<short>CPU del qual s&apos;ha de fer el seguiment</short>
+		<long>Estableix la CPU  de la qual s&apos;ha de fer el seguiment. En un sistema amb un processador no heu de canviar-ho.</long>
+	</locale>
+
+	<locale name="crh">
+		<short>İzlenecek İşlemci</short>
+		<long>İzlenecek işlemciyi belirle. Tek işlemcili bir sistemde değiştirmenize gerek yoktur.</long>
+	</locale>
+
+	<locale name="cs">
+		<short>CPU určené ke sledování</short>
+		<long>Nastavit CPU, kterou sledovat. V jednoprocesorovém systému není nutné měnit.</long>
+	</locale>
+
+	<locale name="cy">
+		<short>CPU i&apos;w fonitro</short>
+		<long>Dewis y CPU i&apos;w fonitro. Mewn system un prosesydd, does dim rhaid ei newid.</long>
+	</locale>
+
+	<locale name="da">
+		<short>CPU der skal overvåges</short>
+		<long>Sæt CPU for overvågning. I et system med en enkelt processor, behøver du ikke at ændre noget.</long>
+	</locale>
+
+	<locale name="de">
+		<short>Zu überwachender Prozessor</short>
+		<long>Den zu überwachenden Prozessor festlegen. In einem Ein-Prozessorsystem kann dieser Wert nicht geändert werden.</long>
+	</locale>
+
+	<locale name="dz">
+		<short>ལས་སྦྱོར་ལྟེ་བ་ལས་ ལྟ་རྟོག་པ་ལུ།</short>
+		<long>ལས་སྦྱོར་ལྟེ་བ་དེ་ ལྟ་རྟོག་་ལུ་ གཞི་སྒྲིག་འབད། ལས་སྦྱོར་གློག་འཕྲུལ་རྐྱང་པའི་རིམ་ལུགས་སྐབས་ བསྒྱུར་བཅོས་འབད་མི་དགོ</long>
+	</locale>
+
+	<locale name="el">
+		<short>CPU για Παρακολούθηση</short>
+		<long>Ορισμός της CPU για παρακολούθηση, Σε σύστημα με ένα επεξεργαστή δε χρειάζεται να την αλλάξετε.</long>
+	</locale>
+
+	<locale name="en@shaw">
+		<short>CPU 𐑑 𐑥𐑪𐑯𐑦𐑑𐑼</short>
+		<long>𐑕𐑧𐑑 𐑞 CPU 𐑑 𐑥𐑪𐑯𐑦𐑑𐑼. 𐑦𐑯 𐑩 𐑕𐑦𐑙𐑜𐑩𐑤 𐑐𐑮𐑭𐑕𐑧𐑕𐑻 𐑕𐑦𐑕𐑑𐑩𐑥 𐑿 𐑛𐑴𐑯𐑑 𐑣𐑨𐑝 𐑑 𐑗𐑱𐑯𐑡 𐑦𐑑.</long>
+	</locale>
+
+	<locale name="en_CA">
+		<short>CPU to Monitor</short>
+		<long>Set the CPU to monitor. In a single processor system you don&apos;t have to change it.</long>
+	</locale>
+
+	<locale name="en_GB">
+		<short>CPU to Monitor</short>
+		<long>Set the CPU to monitor. In a single processor system you don&apos;t have to change it.</long>
+	</locale>
+
+	<locale name="es">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_AR">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_CL">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_CO">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_CR">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_DO">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_EC">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_ES">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_GT">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_HN">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_MX">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_NI">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_PA">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_PE">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_PR">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_SV">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_UY">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="es_VE">
+		<short>CPU que monitorizar</short>
+		<long>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</long>
+	</locale>
+
+	<locale name="et">
+		<short>Jälgitav CPU</short>
+		<long>CPU monitori määramine. Ühe protsessoriga süsteemis pole sul seda vaja muuta.</long>
+	</locale>
+
+	<locale name="eu">
+		<short>PUZaren monitorea</short>
+		<long>Ezarri PUZa monitorean. Prozesadore bakarreko sistemetan ez duzu aldatu beharrik.</long>
+	</locale>
+
+	<locale name="fa">
+		<short>واحد پردازش مرکزی‌ای که پایش شود</short>
+		<long>تعیین کنید کدام واحد پردازش مرکزی پایش شود. در دستگاه‌های تک‌پردازنده لازم نیست این را تغییر دهید.</long>
+	</locale>
+
+	<locale name="fi">
+		<short>Tarkkailtava prosessori</short>
+		<long>Valitse tarkkailtava prosessori. Yhden prosessorin laitteissa tätä ei tarvitse muuttaa.</long>
+	</locale>
+
+	<locale name="fr">
+		<short>Processeur à surveiller</short>
+		<long>Définit le processeur à surveiller. Sur un système mono-processeur vous n&apos;avez pas à le modifier.</long>
+	</locale>
+
+	<locale name="ga">
+		<short>LAP le hAghaidh Monatóireachta</short>
+		
+	</locale>
+
+	<locale name="gl">
+		<short>CPU para monitorizar</short>
+		<long>Estabeleza a CPU que se vai monitorizar. Nun sistema cun só procesador non precisa cambialo.</long>
+	</locale>
+
+	<locale name="gu">
+		<short>CPU થી મોનિટર</short>
+		<long>CPU ને મોનિટરમાં સુયોજિત કરો. એક પ્રોસેસર સિસ્ટમમાં તમારે એને બદલવું જોઈએ નહિં.</long>
+	</locale>
+
+	<locale name="he">
+		<short>CPU to Monitor</short>
+		<long>Set the CPU to monitor. In a single processor system you don&apos;t have to change it.</long>
+	</locale>
+
+	<locale name="hi">
+		<short>सीपीयू से मॉनीटर</short>
+		<long>CPU मॉनीटर में सेट करें. एकल प्रोसेसर सिस्टम में आपको इसे बदलने की जरूरत नहीं है.</long>
+	</locale>
+
+	<locale name="hr">
+		<short>Koji procesor želite nadzirati</short>
+		<long>Izaberite procesor za nadziranje. U jednoprocesorskom sustavu ne morate ništa mijenjati.</long>
+	</locale>
+
+	<locale name="hu">
+		<short>Figyelendő CPU</short>
+		<long>Beállítja a megfigyelendő CPU-t. Egyprocesszoros rendszereken nem kell megváltoztatni.</long>
+	</locale>
+
+	<locale name="hy">
+		<short>Վերահսկվող պրոցեսոր</short>
+		<long>Ընտրել վերահսկվող պրոցեսորը։ Մեկ պրոցեսորային համակարգիչներում փոփոխություն պետք չէ</long>
+	</locale>
+
+	<locale name="id">
+		<short>CPU yang Dipantau</short>
+		<long>Tetapkan CPU yang akan dipantau, tidak berlaku pada sistem prosesor tunggal</long>
+	</locale>
+
+	<locale name="is">
+		<short>Örgjörvi sem vakta á</short>
+		<long>Velja hvaða örgjörva skal fylgst með. Ef tölvan hefur aðeins einn örgjörva þá er óþarfi að breyta þessu.</long>
+	</locale>
+
+	<locale name="it">
+		<short>CPU da monitorare</short>
+		<long>Imposta la CPU da monitorare. In un sistema a processore singolo non è necessario cambiare questo valore.</long>
+	</locale>
+
+	<locale name="ja">
+		<short>モニターする CPU</short>
+		<long>モニターする CPU を指定して下さい。単一の CPU をお使いの場合は変更する必要はありません。</long>
+	</locale>
+
+	<locale name="ka">
+		<short>CPU მონიტორი</short>
+		<long>აჯგუფებს პროცესორს მონიტორთან, მონო პროცესორის შემთხვევაში არ საჭიროებს შეცვლას.</long>
+	</locale>
+
+	<locale name="kn">
+		<short>ಮೇಲ್ವಿಚಾರಣೆ ನೋಡಿಕೊಳ್ಳಬೇಕಾದ CPU</short>
+		<long>CPU ಅನ್ನು ಮೇಲ್ವಿಚಾರಣೆಗೆ ಹೊಂದಿಸಿ. ಒಂದೆ ಸಂಸ್ಕಾರಕವನ್ನು ಹೊಂದಿರುವ ಗಣಕದಲ್ಲಿ ನೀವು ಅದನ್ನು ಬದಲಾಯಿಸುವ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ.</long>
+	</locale>
+
+	<locale name="ko">
+		<short>살펴 볼 CPU</short>
+		<long>살펴 볼 CPU 설정. CPU가 한 개일 경우 설정할 필요가 없습니다.</long>
+	</locale>
+
+	<locale name="ku">
+		<short>Xebatkera divê were şopandin</short>
+		<long>Kirariya ku divê were şopandin diyar bike. Di pergalên ku tenê kirarek hebe ne hewce ye ku tu biguherîne.</long>
+	</locale>
+
+	<locale name="ky">
+		<short>Байкалуучу процессор</short>
+		
+	</locale>
+
+	<locale name="lt">
+		<short>Stebimas CPU</short>
+		<long>Nurodykite stebimą CPU. Vieno procesoriaus sistemoje, jums jo keisti nereikia.</long>
+	</locale>
+
+	<locale name="lv">
+		<short>CPU, kuru pārraudzīt</short>
+		<long>Iestatiet pārraugāmo CPU. Ja jums ir vienprocesora sistēma, jums tas nav jāmaina.</long>
+	</locale>
+
+	<locale name="mai">
+		<short>CPU सँ मॉनीटर</short>
+		<long>CPU सँ मॉनीटरमे सेट करू. एकल प्रोसेसर सिस्टममे अहाँक एकरा बदलब क&apos; जरूरत नहि अछि.</long>
+	</locale>
+
+	<locale name="mg">
+		<short>Ny processeur harahana maso</short>
+		<long>Mamaritra ilay processeur harahi-maso. Tsy ilaina ovaina io amina solosaina tsy mampiasa afa-tsy processeur tokana.</long>
+	</locale>
+
+	<locale name="mk">
+		<short>Процесор за надгледување</short>
+		<long>Поставете го процесорот да надгледува. Во систем со само еден процесор не мора да го менувате.</long>
+	</locale>
+
+	<locale name="ml">
+		<short>സി.പി.യു നിരീക്ഷിക്കുക</short>
+		<long>നിരീക്ഷിയ്ക്കേണ്ട സിപിയു സജ്ജീകരിയ്ക്കുക. ഒരൊറ്റ പ്രൊസസ്സര്‍ സിസ്റ്റത്തില്‍ നിങ്ങള്‍ക്കിതു് മാറ്റേണ്ടതില്ല.</long>
+	</locale>
+
+	<locale name="mr">
+		<short>मॉनिटर करावयाचा CPU</short>
+		<long>CPU ला मॉनिटरशी निर्धारित करा. एकमेव प्रोसेसर प्रणालीमध्ये तुम्हांस हे बदलावे लागत नाही.</long>
+	</locale>
+
+	<locale name="nb">
+		<short>CPU som skal overvåkes</short>
+		<long>Sett CPU som skall overvåkes. Du trenger ikke å endre dette hvis du bare har en CPU.</long>
+	</locale>
+
+	<locale name="ne">
+		<short>CPU देखि मनिटर</short>
+		<long>CPU लाई मनिटरमा सेट गर्नुहोस् । एकल प्रोसेसर प्रणालीमा तपाईँले परिवर्तन गर्नु पर्दैन ।</long>
+	</locale>
+
+	<locale name="nl">
+		<short>De te beheren processor</short>
+		<long>Stel de te beheren processor in. In een systeem met een enkele processorhoeft dit niet veranderd te worden.	</long>
+	</locale>
+
+	<locale name="nn">
+		<short>CPU som skal overvakast</short>
+		<long>Vel CPU å overvaka. På ein maskin med ein CPU er det ikkje nødvendig å gjera noko her.</long>
+	</locale>
+
+	<locale name="oc">
+		<short>UCP de gerir</short>
+		<long>Règla l&apos;UCP de manejar. Dins un sistèma d&apos;un sol processor, o debètz pas cambiar.</long>
+	</locale>
+
+	<locale name="or">
+		<short>ସି.ପି.ୟୁ. ରୁ ମନିଟର କୁ</short>
+		<long> CPU କୁ ମନିଟର ସହିତ ସେଟ କର ୤ ଗୋଟିଏ ଏକମାତ୍ର ପ୍ରୋସେସର ସିଷ୍ଟମରେ ଆପଣଙ୍କୁ େହାକୁ ପରିବର୍ତ୍ତନ କରିବାକୁ ପଡିବ ନାହିଁ ୤</long>
+	</locale>
+
+	<locale name="pa">
+		<short>CPU ਲਈ ਮਾਨੀਟਰ</short>
+		<long>CPU ਲਈ ਮਾਨੀਟਰ ਸੈੱਟ ਕਰੋ। ਇੱਕ ਇੱਕਲੇ ਪਰੋਸੈਸਰ ਸਿਸਟਮ ਵਿੱਚ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਤਬਦੀਲ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।</long>
+	</locale>
+
+	<locale name="pl">
+		<short>Monitorowany procesor</short>
+		<long>Ustawia procesor do śledzenia. W systemach jednoprocesorowych, nie ma potrzeby zmieniania tego.</long>
+	</locale>
+
+	<locale name="pt">
+		<short>CPU a Monitorizar</short>
+		<long>Defina o CPU a monitorizar. Num sistema com apenas um processador não necessita de alterar este valor.</long>
+	</locale>
+
+	<locale name="pt_BR">
+		<short>CPU para monitorar</short>
+		<long>Define a CPU para monitorar. Em um sistema com um único processador você não precisa alterar isto.</long>
+	</locale>
+
+	<locale name="ro">
+		<short>CPU monitorizat</short>
+		<long>Setează CPU pentru monitorizare. Într-un sistem cu un singur procesor, nu este nevoie să modificați această valoare.</long>
+	</locale>
+
+	<locale name="ru">
+		<short>Отслеживаемый процессор</short>
+		<long>Устанавливает отслеживаемый процессор. На однопроцессорной системе изменять не надо.</long>
+	</locale>
+
+	<locale name="sk">
+		<short>Ktorý procesor sledovať</short>
+		<long>Nastaviť, ktorý procesor sledovať. Ak máte v počítači 1 procesor, nemusíte nič meniť.</long>
+	</locale>
+
+	<locale name="sl">
+		<short>Iz procesorja na monitor</short>
+		<long>Nastavi številko procesorja, ki naj se nadzoruje. V sistemih z enim procesorjem vam tega ni treba spreminjati.</long>
+	</locale>
+
+	<locale name="sq">
+		<short>CPU për tu Mbikqyrur</short>
+		<long>Cakto CPU për tu mbikqyrur. Në një sistem me proçesor të vetëm nuk ke pse e ndryshon këtë.</long>
+	</locale>
+
+	<locale name="sr">
+		<short>Прати процесор</short>
+		<long>Изаберите процесор да пратите. Нема потребе да мењате на једнопроцесорском систему.</long>
+	</locale>
+
+	<locale name="sr@latin">
+		<short>Prati procesor</short>
+		<long>Izaberite procesor da pratite. Nema potrebe da menjate na jednoprocesorskom sistemu.</long>
+	</locale>
+
+	<locale name="sv">
+		<short>Processor att övervaka</short>
+		<long>Ställ in den processor som ska övervakas. I ett system med bara en processor behöver du inte ändra detta.</long>
+	</locale>
+
+	<locale name="ta">
+		<short>கண்காணிக்க வேண்டிய ஸிபியு </short>
+		<long>கண்காணிக்க வேண்டிய ஸிபியு ஐ அமை. தனி செயலகமானால் எதையும் மாற்ற தேவையில்லை.</long>
+	</locale>
+
+	<locale name="te">
+		<short>CPU నుంచి దర్శినికి</short>
+		<long>CPUను దర్శనికి అమర్చుము. ఒక ఏక క్రమణిక వ్యవస్థలో మీరు దానిని మార్చవలసి లేదు</long>
+	</locale>
+
+	<locale name="th">
+		<short>ซีพียูที่จะติดตาม</short>
+		<long>ตั้งซีพียูที่จะติดตาม ถ้าระบบของคุณมีซีพียูตัวเดียว คุณก็ไม่ต้องตั้งอะไร</long>
+	</locale>
+
+	<locale name="tr">
+		<short>İzlenecek İşlemci</short>
+		<long>İzlenecek işlemciyi belirle. Tek işlemcili bir sistemde değiştirmenize gerek yoktur.</long>
+	</locale>
+
+	<locale name="uk">
+		<short>Процесор, що відслідковується</short>
+		<long>Встановлює центральний процесор. На однопроцесорній системі змінювати не треба.</long>
+	</locale>
+
+	<locale name="vi">
+		<short>CPU cần theo dõi</short>
+		<long>Lập CPU cần theo dõi. Trong hệ thống chỉ có một bộ xử lý thì không cần thay đổi điều này.</long>
+	</locale>
+
+	<locale name="xh">
+		<short>iMonitha ye-CPU</short>
+		<long>Misela imonitha ye-CPU. Kwinkqubo enesixhobo esisodwa sokusebenza awunakude uyitshintshe.</long>
+	</locale>
+
+	<locale name="zh_CN">
+		<short>CPU 到监视器</short>
+		<long>设置要监视的 CPU。在单处理器系统中，您无需进行更改。</long>
+	</locale>
+
+	<locale name="zh_HK">
+		<short>要監控的 CPU</short>
+		<long>設定監控的 CPU。在單一處理器的系統上無需更改它。</long>
+	</locale>
+
+	<locale name="zh_TW">
+		<short>要監控的 CPU</short>
+		<long>設定監控的 CPU。在單一處理器的系統上無需變更它。</long>
+	</locale>
+</schema>
+<schema>
+	<key>/schemas/apps/cpufreq-applet/prefs/show_mode</key>
+	<owner>cpufreq-applet</owner>
+	<type>int</type>
+	<default>2</default>
+	<locale name="C">
+		<short>Mode to show cpu usage</short>
+		<long>A 0 value means to show the applet in graphic mode (pixmap only), 1 to show the applet in text mode (not to show the pixmap) and 2 to show the applet in graphic and text mode.</long>
+	</locale>
+
+	<locale name="af">
+		<short>Modus om verwerkergebruik te vertoon</short>
+		<long>&apos;n 0-waarde beteken om die miniprogram in grafiese modus (slegs pixmap) te vertoon, 1 om die miniprogram in teksmodus te vertoon (om nie die pixmap te vertoon nie), en 2 om die miniprogram in grafiese en teksmodus te vertoon.</long>
+	</locale>
+
+	<locale name="ar">
+		<short>طريقة عرض استعمال المعالج</short>
+		<long>القيمة 0 تعني اعرض البريمج في النمط الرسومي، 1 لعرضه في النمط النصّي (لا تظهر بكسمابالصورة) و 2 لإظهار البريمج في النمط النصي والرسومي.</long>
+	</locale>
+
+	<locale name="as">
+		<short>cpu ব্যৱহাৰৰ মাত্ৰা প্ৰদৰ্শনেৰ মোড</short>
+		<long>মান ০ হলে এপ্লেট চিত্ৰাঙ্কিত ধৰণে প্ৰদৰ্শিত হ&apos;ব (অকল পিক্সমেপ), ১ হলে এপ্লেট আখৰৰ ধৰণে প্ৰদৰ্শিত হ&apos;ব (পিক্সম্যাপ প্ৰদৰ্শিত হ&apos;ব না) এবং 2(২) হলে গ্ৰাফিক আৰু টেক্সট মোডে এপ্লেট প্ৰদৰ্শিত হ&apos;ব ।</long>
+	</locale>
+
+	<locale name="ast">
+		<short>Como s&apos;amosará l&apos;usu de la CPU</short>
+		<long>Un valor de 0 significa amosar la miniaplicación en mou gráficu (namái pixmap), 1 amosar la miniaplicación en mou testu (non amosar el pixmap) y 2 amosar la miniaplicación en mou gráficu y testu.</long>
+	</locale>
+
+	<locale name="be">
+		<short>Як паказваць выкарыстаньне працэсара</short>
+		<long>Значэньне 0 - паказваць аплет у графічным рэжыме (толькі малюнак), 1 - паказваць аплет у тэкставым рэжыме (не паказваць малюнак) і 2 - паказваць аплет у графічна-тэкставым рэжыме.</long>
+	</locale>
+
+	<locale name="be@latin">
+		<short>Režym pakazu vykarystańnia pracesara</short>
+		<long>Vartaść 0 aznačaje, što pakazvajuć aplet u hrafičnym režymie (tolki piksmapu), 1 pakazvajuć aplet u tekstavym režymie (biez piksmapy), 2 – pakazvajuć hrafiku j tekst.</long>
+	</locale>
+
+	<locale name="bg">
+		<short>Начин на показване на натоварването на процесора</short>
+		<long>Стойност „0“ означава да се показва графично (само графика), „1“ — да се показва само текстово (без графика), а „2“ — комбинирано — и графика, и текст.</long>
+	</locale>
+
+	<locale name="bn">
+		<short>cpu ব্যবহারের মাত্রা প্রদর্শনের মোড</short>
+		<long>মান 0(০) হলে অ্যাপ্লেট গ্রাফিক মোডে প্রদর্শিত হবে (শুধুমাত্র পিক্সম্যাপ), 1(১) হলে অ্যাপ্লেট টেক্সট মোডে প্রদর্শিত হবে (পিক্সম্যাপ প্রদর্শিত হবে না) এবং 2(২) হলে গ্রাফিক ও টেক্সট মোডে অ্যাপ্লেট প্রদর্শিত হবে।</long>
+	</locale>
+
+	<locale name="bn_IN">
+		<short>cpu ব্যবহারের মাত্রা প্রদর্শনের মোড</short>
+		<long>মান 0(০) হলে অ্যাপ্লেট গ্রাফিক মোডে প্রদর্শিত হবে (শুধুমাত্র পিক্সম্যাপ), 1(১) হলে অ্যাপ্লেট টেক্সট মোডে প্রদর্শিত হবে (পিক্সম্যাপ প্রদর্শিত হবে না) এবং 2(২) হলে গ্রাফিক ও টেক্সট মোডে অ্যাপ্লেট প্রদর্শিত হবে।</long>
+	</locale>
+
+	<locale name="br">
+		<short>Doare da ziskouez implij ar cpu</short>
+		<long>Ar werzh 0 a dalvez eo ret da ziskouez ar programmig en ur mod grafek (skeudenn hepken), 1 evit diskouez ar programmig en ur mod testenn ha 2 evit diskouez ar programmig en ur mod testenn ha grafek.</long>
+	</locale>
+
+	<locale name="ca">
+		<short>Mode per mostrar l&apos;ús de la CPU</short>
+		<long>El valor 0 significa que mostri la miniaplicació en mode gràfic (només el mapa de píxels), el valor 1 que la mostri en mode text (sense mostrar el mapa de píxels), i el valor 2 que la mostri en mode text i gràfic.</long>
+	</locale>
+
+	<locale name="ca@valencia">
+		<short>Mode per a mostrar l&apos;ús de la CPU</short>
+		<long>El valor 0 significa que mostre la miniaplicació en mode gràfic (només el mapa de píxels), el valor 1 que la mostre en mode text (sense mostrar el mapa de píxels), i el valor 2 que la mostre en mode text i gràfic.</long>
+	</locale>
+
+	<locale name="crh">
+		<short>İşlemci kullanımını gösteren kip</short>
+		<long>Bir 0 degeri uyğulamaçıqnıñ grafik tarzında kösterilecegi (sadece piks-haritası (pixmap)), 1 degeri uyğulamaçıqnıñ metin tarzında kösterilecegi (piks-haritasını köstermemek üzre) ve 2 degeri uyğulamaçıqnıñ em grafik em metin tarzında kösterilecegi manasına kelir.</long>
+	</locale>
+
+	<locale name="cs">
+		<short>Režim zobrazování využití CPU</short>
+		<long>Hodnota &quot;0&quot; znamená zobrazovat applet v grafickém režimu (jen obrázek), hodnota &quot;1&quot; zobrazovat applet v textovém režimu (nezobrazovat obrázek) a hodnota &quot;2&quot; zobrazovat applet v grafickém a textovém režimu.</long>
+	</locale>
+
+	<locale name="cy">
+		<short>Modd i ddangos defnydd y CPU</short>
+		<long>Gwerth o 0 er mwyn dangos y rhaglennig mewn modd graffig (pixmap yn unig), 1 i ddangos y rhaglennig mewn modd testun (peidio â dangos y pixmap) a 2 i ddangos y rhaglennig mewn modd testun a graffig.</long>
+	</locale>
+
+	<locale name="da">
+		<short>Den viste tilstand for CPU-brug</short>
+		<long>En værdi på 0 betyder vis panelprogrammet i grafisk-tilstand (kun-pixmap), 1 betyder vis panelprogrammet i tekst-tilstand (vis ikke pixmap&apos;en), og 2 betyder vis panelprogrammet i grafisk- og tekst-tilstand.</long>
+	</locale>
+
+	<locale name="de">
+		<short>Modus zur Anzeige der Prozessorlast</short>
+		<long>Der Wert 0 bedeutet, dass das Applet im Grafikmodus (nur Bilder), der Wert 1 dass das Applet im Textmodus (ohne Grafiken) und der Wert 2 dass das Applet im Grafik- und Textmodus angezeigt wird.</long>
+	</locale>
+
+	<locale name="dz">
+		<short>ཐབས་ལམ་གྱིས་ ལས་སྦྱོར་ལྟེ་བའི་ ལག་ལེན་སྟོན་དགོཔ།</short>
+		<long>བེ་ལུ་༠ གིས་ ཚད་རིས་ཐབས་ལམ་(པར་ཁྲ་རྐྱངམ)ནང་ ཨེཔ་ལེཊི་སྟོནམ་ཨིན། ༡ གིས་ ཚིག་ཡིག་ཐབས་ལམ་ནང་(པར་ཁྲ་སྟོན་ནི་མེན་པར) ཨེཔ་ལེཊི་སྟོནམ་ཨིན། དེ་ལས་ ༢ ཀྱིས་ ཚད་རིས་དང་ ཚིག་ཡིག་ཐབས་ལམ་ནང་ ཨེཔ་ལེཊི་སྟོནམ་ཨིན།</long>
+	</locale>
+
+	<locale name="el">
+		<short>Λειτουργία για εμφάνιση χρήσης cpu</short>
+		<long>Μια τιμή του 0 δείχνει τη μικροεφαρμογή σε γραφική λειτουργία, του 1 σε λειτουργία κειμένου (δεν εμφανίζεται γραφικό) και του 2  και σε γραφική και σε λειτουργία κειμένου.</long>
+	</locale>
+
+	<locale name="en@shaw">
+		<short>𐑥𐑴𐑛 𐑑 𐑖𐑴 CPU 𐑿𐑕𐑦𐑡</short>
+		
+	</locale>
+
+	<locale name="en_CA">
+		<short>Mode to show CPU usage</short>
+		<long>A 0 value means to show the applet in graphic mode (pixmap only), 1 to show the applet in text mode (not to show the pixmap), and 2 to show the applet in graphic and text mode.</long>
+	</locale>
+
+	<locale name="en_GB">
+		<short>Mode to show cpu usage</short>
+		<long>A 0 value means to show the applet in graphic mode (pixmap only), 1 to show the applet in text mode (not to show the pixmap) and 2 to show the applet in graphic and text mode.</long>
+	</locale>
+
+	<locale name="es">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_AR">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_CL">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_CO">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_CR">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_DO">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_EC">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_ES">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_GT">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_HN">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_MX">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_NI">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_PA">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_PE">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_PR">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_SV">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_UY">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="es_VE">
+		<short>Modo para mostrar el uso de la CPU</short>
+		<long>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</long>
+	</locale>
+
+	<locale name="et">
+		<short>Meetod protsessorikasutuse näitamiseks</short>
+		<long>Väärtus 0 tähendab, et rakendit näidatakse graafilises režiimis (ainult pilt), 1 tähendab tekstirežiimi (ainult tekst) ja väärtus 2 tähendab nii graafilist kui tekstirežiimi.</long>
+	</locale>
+
+	<locale name="eu">
+		<short>Modua PUZen erabilpena erakusteko</short>
+		<long>Erabili 0 balioa miniaplikazioa modu grafikoan erakusteko, 1 testu eran erakusteko, eta 2 bai grafikoki bai testu eran erakusteko.</long>
+	</locale>
+
+	<locale name="fa">
+		<short>حالتی که کارکرد واحد پردازش مرکزی را نشان می‌دهد</short>
+		<long>مقدار ۰ یعنی نمایش برنامک در حالت گرافیکی (فقط نقشه‌نقطه‌ای)، ۱ یعنی نمایش برنامک در حالت متنی (یعنی بدون نمایش نقشه‌نقطه‌ای)، و ۲ یعنی نمایش برنامک در حالت گرافیکی و متنی.</long>
+	</locale>
+
+	<locale name="fi">
+		<short>Prosessorin käytön näyttötila</short>
+		<long>Arvo 0 näyttää sovelman graafisessa tilassa (vain pixmap), 1 näyttää tekstitilassa (ei näytetä pixmappia) ja 2 näyttää sovelman sekä graafisessa että tekstitilassa.</long>
+	</locale>
+
+	<locale name="fr">
+		<short>Mode d&apos;affichage de l&apos;utilisation du processeur</short>
+		<long>La valeur 0 signifie qu&apos;il faut afficher l&apos;applet en mode graphique (seulement l&apos;image), 1 affiche l&apos;applet en mode texte (n&apos;affiche pas l&apos;image) et 2 affiche l&apos;applet en mode texte et graphique.</long>
+	</locale>
+
+	<locale name="gl">
+		<short>Modo no que mostrar o uso da CPU</short>
+		<long>Un valor 0 significa mostrar o miniaplicativo no modo imaxe (só o mapa de píxeles); 1 mostrar o miniaplicativo no modo texto (non mostrar o mapa de píxeles) e 2 mostrar a miniaplicativo no modo imaxe e texto.</long>
+	</locale>
+
+	<locale name="gu">
+		<short>cpu વપરાશ જોવા માટેની સ્થિતિ</short>
+		<long>કિંમત ૦ એટલે કે એપ્લેટને ગ્રાફિક સ્થિતિમાં (માત્ર pixmap) બતાવવી, ૧ એટલે એપ્લેટને લખાણ સ્થિતિમાં (pixmap બતાવવા નહિં) બતાવવી અને ૨ એટલે એપ્લેટને ગ્રાફિક અને લખાણ સ્થિતિમાં બતાવવી.</long>
+	</locale>
+
+	<locale name="he">
+		<short>Mode to show cpu usage</short>
+		<long>A 0 value means to show the applet in graphic mode (pixmap only), 1 to show the applet in text mode (not to show the pixmap) and 2 to show the applet in graphic and text mode.</long>
+	</locale>
+
+	<locale name="hi">
+		<short>cpu प्रयोग दिखाने का मोड</short>
+		<long>0 मान आलेखीय मोड में एप्प्लेट दिखाने के लिये है (pixmap सिर्फ), 1 एप्प्लेट को पाठ मोड मे दिखाने के लिये (pixmap नहीं दिखाने के लिये) और 2 एप्प्लेट को आलेखीय व पाठ मोड में दिखाने के लिये.</long>
+	</locale>
+
+	<locale name="hr">
+		<short>Način za prikaz opterećenja procesora</short>
+		<long>Vrijednost 0 prikazuje program u grafičkom modu (samo ikona), 1 prikazuje program u tekstualnom modu (bez ikone) i 2 prikazuje program u grafičkom i tekstualnom modu</long>
+	</locale>
+
+	<locale name="hu">
+		<short>A CPU használat megjelenítésének módja</short>
+		<long>A 0 érték hatására a kisalkalmazás grafikus módban jelenik meg (csak kép), 1 hatására csak szöveg jelenik meg (a kép nem), 2 hatására pedig mind szöveges, mind grafikus módban megjelenik.</long>
+	</locale>
+
+	<locale name="hy">
+		<short>Պրոցեսորի օգտագործումը ցույց տալու ռեժիմ</short>
+		
+	</locale>
+
+	<locale name="id">
+		<short>Mode untuk menampilkan penggunaan cpu</short>
+		<long>Nilai 0 berarti menampilkan applet dalam model grafis (hanya pixmap), 1 menampilkan applet pada mode teks (tidak menampilkan pixmap) dan 2 menampilkan applet dalam mode grafis dan teks.</long>
+	</locale>
+
+	<locale name="is">
+		<short>Hamur til að sýna örgjörvanotkun</short>
+		<long>Gildið 0 þýðir að sýna skuli forritið í grafískum ham (aðeins myndir), 1 að sýna skuli forritð í textaham (engar myndir) og 2 að sýna skuli forrtið í bæði grafískum og textaham.</long>
+	</locale>
+
+	<locale name="it">
+		<short>Modalità visualizzazione utilizzo CPU</short>
+		<long>Un valore pari a 0 indica di mostrare l&apos;applet nella modalità grafica (solo pixmap), a 1 nella modalità testuale (non mostra la pixmap), a 2 nella modalità grafica e testuale.</long>
+	</locale>
+
+	<locale name="ja">
+		<short>CPU 使用率の表示モード</short>
+		<long>値を 0 にするとアプレットをグラフィックス・モード (画像のみ) で表示し、1 にするとテキスト・モード (画像を表示しない) で表示し、2 にするとグラフィックスとテキストの両方のモードで表示します。</long>
+	</locale>
+
+	<locale name="ka">
+		<short>გადატვირთული CPU ნახვის რეჟიმი</short>
+		<long>0 - აჩვენებს აპლეტს გრაფიკულ რეჟიმში (მხოლოდ გამოსახულებას), 1 - ტექსტური რეჟიმი (არავითარი გამოსახულება), 2 - აჩვენებს გამოსახულებასა და ტექსტს ერთდროულად.</long>
+	</locale>
+
+	<locale name="kn">
+		<short>cpu ಬಳಕೆಯನ್ನು ತೋರಿಸುವ ಸ್ಥಿತಿಗೆ</short>
+		<long>0 ಮೌಲ್ಯವೆಂದರೆ ಅಪ್ಲೆಟ್‌ ಅನ್ನು ಒಂದು ಚಿತ್ರಾತ್ಮಕ ಕ್ರಮದಲ್ಲಿ(ಪಿಕ್ಸ್‌ಮ್ಯಾಪ್ ಮಾತ್ರ), 1 ಎಂದರೆ ಪಠ್ಯ ಕ್ರಮದಲ್ಲಿ (ಪಿಕ್ಸ್‌ಮ್ಯಾಪ್ ಅನ್ನು ತೋರಿಸದೆ ಇರಲು) ಹಾಗು 2 ಎಂದರೆ ಅಪ್ಲೆಟ್ ಅನ್ನು ಚಿತ್ರಾತ್ಮಕ ಹಾಗು ಪಠ್ಯ ಕ್ರಮದಲ್ಲಿ ತೋರಿಸು ಎಂದರ್ಥ.</long>
+	</locale>
+
+	<locale name="ko">
+		<short>CPU 사용량을 볼 모드</short>
+		<long>값이 0이면 애플릿을 그래픽 모드로 표시하고 (픽스맵만), 1이면 애플릿을 텍스트 모드로 표시하고 (픽스맵 표시 안 함), 2이면 애플릿을 그래픽 및 텍스트 모드로 표시합니다.</long>
+	</locale>
+
+	<locale name="ku">
+		<short>Kip a bikaranîna CPU nîşan dide</short>
+		<long>Nirxa 0 tê mahneya sepanok wê di moda grafîkê de were nîşandan, nirxa 1 tê mahneya wê sepanok di moda tekstê de were nîşandan û nirxa 2 jî tê mahneya ku sepanok him di moda grafîkê de û him jî di moda tekstê de were nîşandan.</long>
+	</locale>
+
+	<locale name="lt">
+		<short>CPU apkrovos rodymo režimas</short>
+		<long>0-inė vertė reiškia, kad įtaisas rodomas grafiniame režime (tik paveikslėlis), 1 - kad įtaisas rodomas tekstiniame režime (paveikslėlis nerodomas) ir 2 - kad įtaisas rodomas ir grafiniame, ir tekstiniame režime.</long>
+	</locale>
+
+	<locale name="lv">
+		<short>Režīms, lai parādītu CPU lietošanu</short>
+		<long>Vērtība 0 nozīmē rādīt apletu grafiskajā režīmā (tikai pikseļkarte), 1 nozīmē rādīt apletu teksta režīmā (nerādot pikseļkarti), un 2 nozīmē rādīt apletu grafiskajā un tekstuālajā režīmā.</long>
+	</locale>
+
+	<locale name="mai">
+		<short>cpu प्रयोग देखाबै क&apos; मोड</short>
+		<long>0 मान आलेखीय मोडमे एप्प्लेट देखाबै क&apos;लेल अछि (pixmap सिर्फ), 1 एप्प्लेटकेँ पाठ मोडमे देखाबै क&apos;लेल (pixmap नहि देखाबै क&apos;लेल ) आओर 2 एप्प्लेटकेँ आलेखीय आ पाठ मोडमे देखाबै क&apos; लेल.</long>
+	</locale>
+
+	<locale name="mg">
+		<short>Ny fomba hanehoana ny fampiasa ny processeur</short>
+		<long>Ny sanda 0 dia midika hoe aseho an-tsary (pixmap ihany) ilay applet, ny 1 hoe aseho an-tsoratra (tsy aseho ny pixmap) ilay applet, ary ny 2 hoe aseho an-tsary sy soratra ilay applet.</long>
+	</locale>
+
+	<locale name="mk">
+		<short>Режим за приказ на искористеноста на процесорот</short>
+		<long>Вредноста 0 значи да се аплетот да биде прикажан во графички режим, 1 значи аплетот да биде прикажан во текстуален режим (без сликичката) и 2 значи аплетот да биде покажан во и графички и текстуален режим.</long>
+	</locale>
+
+	<locale name="ml">
+		<short>സി.പി.യു ഉപയോഗം കാണിക്കേണ്ട രീതി</short>
+		<long>0 എന്ന വിലയുടെ അര്‍ത്ഥം ലഘുപ്രയോഗത്തെ ഗ്രാഫിക് ദശയില്‍ (പിക്സ്‌മാപ്പ് മാത്രം) കാണിയ്ക്കണമെന്നാണു്, 1 പദാവലി ദശയില്‍ (പിക്സ്‌മാപ്പ് കാണിയ്ക്കരുതു്) കാണിയ്ക്കാനും 2 ലഘുപ്രയോഗം ഗ്രാഫിക് പദാവലി ദശകളില്‍ കാണിയ്ക്കാനുമാണു്.</long>
+	</locale>
+
+	<locale name="mr">
+		<short>cpu वापर दाखवण्याची रीत</short>
+		<long>0 मूल्य म्हणजे एप्लेट आलेखीय रितीमध्ये दाखवणे(फक्त pixmap), 1 एप्लेट पाठ्य रितीमध्ये दाखवणे (pixmap न दाखवणे) आणि 2 एप्लेट आलेखीय व पाठ्य रितीमध्ये दाखवणे.</long>
+	</locale>
+
+	<locale name="nb">
+		<short>Modus for visning av cpu-bruk</short>
+		<long>Bruk verdien 0 for å vise panelprogrammet i grafisk modus (kun bilde), 1 for å vise programmet i tekstmodus (ikke vis bildet) og 2 for å vise både grafikk og tekst.</long>
+	</locale>
+
+	<locale name="ne">
+		<short>सी पि यु प्रयोग देखाउनलाई मोड</short>
+		<long>एउटा ० मानको अर्थ एप्लेट ग्राफिक मोडमा (पिक्सम्याप मात्र) देखाउन, १ एप्लेट पाठ मोडमा देखाउन (पिक्सम्याप नदेखाउन) र २ एप्लेट ग्राफिक र पाठ मोद देखाउनका लागि हो ।</long>
+	</locale>
+
+	<locale name="nl">
+		<short>Mode om processorgebruik te laten zien</short>
+		<long>De waarde 0 toont het applet enkel als afbeelding, de waarde 1 enkel als tekst. De waarde 2 toont zowel een afbeelding als tekst.</long>
+	</locale>
+
+	<locale name="nn">
+		<short>Måte å overvaka CPU-bruk på</short>
+		<long>0 tyder å visa programmet i grafisk modus (berre bilete), 1 å visa i tekstmodus (ikkje bilete) og 2 å visa både tekst og bilete.</long>
+	</locale>
+
+	<locale name="oc">
+		
+		<long>La valor 0 indica de visualizar l&apos;applet en mòde grafic (sonque la mapa de pixèls), 1 de visualizar l&apos;applet en mòde tèxt (sens visualizar la mapa de pixèls), e la valor 2 de visualizar en mòde grafic e tèxt.</long>
+	</locale>
+
+	<locale name="or">
+		<short>ସି.ପି.ୟୁ. ବ୍ଯବହାର ବିଧିକୁ ଦେଖାଇବା ଧାରା</short>
+		<long>ଗୋଟିଏ 0 ମୂଲ୍ଯର ଅର୍ଥ ହେଉଛି ଗ୍ରାଫିକ୍ସ ମୋଡରେ ଆପଲେଟକୁ ଦର୍ଶାଇବା (କେବଳ ପିକ୍ସମ୍ଯାପ), ଟେକ୍ସଟ ମୋଡରେ ଆପଲେଟକୁ ଦର୍ଶାଇବା ପାଇଁ 1  (ପିକ୍ସମ୍ଯାପ ନ ଦେଖାଇବା ପାଇଁ ) ଏବଂ ଆପଲେଟକୁ ଗ୍ରାଫିକ୍ସ ଏବଂ ଟେକ୍ସଟ ମୋଡରେ ଦର୍ଶାଇବା ପାଇଁ  2 ୤</long>
+	</locale>
+
+	<locale name="pa">
+		<short>cpu ਵਰਤੋਂ ਵੇਖਾਉਣ ਲਈ ਮੋਡ</short>
+		<long>0 ਮੁੱਲ ਦਾ ਅਰਥ ਹੈ ਕਿ ਐਪਲਿਟ ਗਰਾਫਿਕਸ ਢੰਗ (ਪਿਕਸਮੈਪ ਹੀ) ਵੇਖਾਇਆ ਜਾਵੇਗਾ, 1 ਨਾਲ ਐਪਲਿਟ ਪਾਠ ਢੰਗ ਨਾਲ ਵੇਖਾਇਆ ਜਾਵੇਗਾ (ਪਿਕਸਮੈਪ ਨਹੀ ਵੇਖਾਇਆ ਜਾਵੇਗਾ) ਅਤੇ 2 ਨਾਲ ਐਪਲਿਟ ਗਰਾਫਿਕਸ ਅਤੇ ਪਾਠ ਢੰਗ ਨਾਲ ਵੇਖਾਇਆ ਜਾਵੇਗਾ।</long>
+	</locale>
+
+	<locale name="pl">
+		<short>Tryb wyświetlania zużycia procesora</short>
+		<long>Wartość 0 oznacza wyświetlanie apletu w trybie graficznym (sama piksmapa), 1 wyświetlenie apletu w trybie tekstowym (bez wyświetlania piksmapy), 2 wyświetlenie grafiki i tekstu.</long>
+	</locale>
+
+	<locale name="pt">
+		<short>Modo em que apresentar a utilização do cpu</short>
+		<long>Um valor 0 significa apresentar a applet em modo gráfico (apenas o pixmap), 1 apresentar a applet em modo de texto (não apresentar o pixmap) e 2 apresentar a applet em modo gráfico e de texto.</long>
+	</locale>
+
+	<locale name="pt_BR">
+		<short>Modo para mostrar o uso da CPU</short>
+		<long>Um valor 0 significa mostrar o miniaplicativo em modo gráfico (apenas pixmap), 1 mostrar o miniaplicativo em modo texto (não mostrar o pixmap) e 2 mostrar o miniaplicativo em modo gráfico e texto.</long>
+	</locale>
+
+	<locale name="ro">
+		<short>Modul pentru afișarea încărcării cpu</short>
+		<long>O valoare de 0 înseamnă afișarea miniaplicației în mod grafic (doar pixmap), 1 pentru afișarea miniaplicației în mod text (fără afișarea pixmap-ului) și 2 pentru afișarea miniaplicației în mod grafic și text.</long>
+	</locale>
+
+	<locale name="ru">
+		<short>Режим показа использования ЦП</short>
+		<long>0 - показывать апплет в графическом режиме (только изображение), 1 - текстовый режим (не показывать изображение), 2 - показывать и текст, и изображение.</long>
+	</locale>
+
+	<locale name="si">
+		<short>CPU භාවිතාව පෙන්වන ප්‍රකාරය</short>
+		
+	</locale>
+
+	<locale name="sk">
+		<short>Režim zobrazovania využitia procesora</short>
+		<long>Hodnota 0 znamená zobrazovanie apletu v grafickom režime (iba pixmap), 1 zobrazovanie v textovom režime (nezobrazovať pixmap) a 2 zobrazovanie apletu v grafickom aj textovom režime.</long>
+	</locale>
+
+	<locale name="sl">
+		<short>Način kako naj se pokaže zasedenost procesorja</short>
+		<long>Vrednost 0 pomeni prikaz vstavka v grafičnem načinu (samo sličice), 1 pomeni prikaz vstavka v tekstovnem načinu (brez sličic) in 2 pomeni prikaz vstavka v grafičnem in tekstovnem načinu.</long>
+	</locale>
+
+	<locale name="sq">
+		<short>Mënyra e shfaqjes së përdorimit të cpu-së</short>
+		<long>Një vlerë 0 nënkupton shfaqjen në mëyrë grafike (vetëm pixmap), 1 shfaqjen në mënyrë tekstuale (pa grafik) dhe 2 shfaqjen në të dyja mëyrat, grafike dhe tekstuale.</long>
+	</locale>
+
+	<locale name="sr">
+		<short>Режим за приказ искоришћења процесора</short>
+		<long>Вредност 0 означава приказ програмчета са графиком (само слика), 1 приказ са текстом (без слике) а 2 приказ и графика и текста.</long>
+	</locale>
+
+	<locale name="sr@latin">
+		<short>Režim za prikaz iskorišćenja procesora</short>
+		<long>Vrednost 0 označava prikaz programčeta sa grafikom (samo slika), 1 prikaz sa tekstom (bez slike) a 2 prikaz i grafika i teksta.</long>
+	</locale>
+
+	<locale name="sv">
+		<short>Läge att visa processoranvändning</short>
+		<long>Värdet 0 betyder att panelprogrammet ska visas i grafiskt läge (endast bild), 1 att panelprogrammet ska visas i textläge (bilden ska inte visas), och 2 att panelprogrammet ska visas i grafiskt läge och textläge.</long>
+	</locale>
+
+	<locale name="ta">
+		<short>ஸிபியு உபயோகத்தை காட்டும் வகை</short>
+		<long>0 மதிப்பு குறு நிரலை வரைகலையாக (பிக்ஸ்மாப் மட்டும்) காட்டு,1 மதிப்பு குறு நிரலை உரை பாணியில் காட்டு (பிக்ஸ்மாப் அல்ல) மற்றும் 2 மதிப்பு இரண்டு பாணியிலும்.காட்டு.</long>
+	</locale>
+
+	<locale name="te">
+		<short>cpu ఉపయోగమును చూపుటకు విధము</short>
+		<long>0 అనగా చిత్రరూప విధములో ఆప్లెట్ ను చూపుటకు(కేవలము పిక్సెల్ పటము మాత్రమే), 1 ఆప్లెట్ ను పాఠ విధములో చూపుటకు(పిక్సెల్ పటమును చూపుటకు కాదు) మరియు 2 ఆప్లెట్ ను చిత్రరూప మరియు పాఠ రూపములో చూపుటకు.</long>
+	</locale>
+
+	<locale name="th">
+		<short>รูปแบบการแสดงความถี่ซีพียู</short>
+		<long>ค่า 0 หมายถึงแสดงแอพเพล็ตในแบบรูปภาพเท่านั้น, 1 หมายถึงแสดงเฉพาะข้อความเท่านั้น (ไม่แสดงรูปภาพ) และ 2 หมายถึงแสดงทั้งรูปภาพและข้อความ</long>
+	</locale>
+
+	<locale name="tr">
+		<short>İşlemci kullanımını gösteren kip</short>
+		<long>0 değeri uygulamacığın grafik kipinde (sadece piksel eşlem) gösterileceği, 1 değeri uygulamacığın metin kipinde gösterileceğini ve 2 değeri uygulamacığın hem grafik hem metin kipinde gösterileceği anlamına gelir.</long>
+	</locale>
+
+	<locale name="uk">
+		<short>Режим показу використання ЦП</short>
+		<long>0 - відображати аплет у графічному режимі (лише зображення), 1 - текстовий режим (не відображати зображення), 2 - показувати текст та зображення.</long>
+	</locale>
+
+	<locale name="vi">
+		<short>Chế độ cần hiển thị cách dùng CPU</short>
+		<long>Giá trị:
+ • 0 — hiển thi tiểu dụng trong chế độ đồ họa (chỉ ảnh bằng điểm)
+ • 1 — hiển thị tiểu dung trong chế độ chữ (không hiển thị ảnh bằng điểm)
+ • 2 — hiển thị tiểu dụng trong cả hai chế độ đồ họa và chữ đều.</long>
+	</locale>
+
+	<locale name="xh">
+		<short>Inkqubo yokubonisa ukusetyenziswa kwe-cpu</short>
+		
+	</locale>
+
+	<locale name="zh_CN">
+		<short>显示 CPU 的模式</short>
+		<long>0 值意味着以图形方式显示小程序，1 意味着以文字方式显示小程序，2 意味着同时显示图形和文本。</long>
+	</locale>
+
+	<locale name="zh_HK">
+		<short>顯示 CPU 用量的模式</short>
+		<long>數值 0 代表面板程式以圖形模式顯示（只顯示 pixmap），1 代表以文字模式顯示（不顯示 pixmap），2 代表以文字及圖形模式顯示。</long>
+	</locale>
+
+	<locale name="zh_TW">
+		<short>顯示 CPU 用量的模式</short>
+		<long>數值 0 代表面板程式以圖形模式顯示（只顯示 pixmap），1 代表以文字模式顯示（不顯示 pixmap），2 代表以文字及圖形模式顯示。</long>
+	</locale>
+</schema>
+<schema>
+	<key>/schemas/apps/cpufreq-applet/prefs/show_text_mode</key>
+	<owner>cpufreq-applet</owner>
+	<type>int</type>
+	<default>1</default>
+	<locale name="C">
+		<short>The type of text to display (if the text is enabled).</short>
+		<long>A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 to show percentage instead of frequency.</long>
+	</locale>
+
+	<locale name="af">
+		<short>Die soort teks om te vertoon (as die teks geaktiveer is).</short>
+		<long>&apos;n 0-waarde beteken om verwerkerfrekwensie te vertoon, 1 om frekwensie en eenhede te vertoon, en 2 om die persentasie in plaas van frekwensie te vertoon.</long>
+	</locale>
+
+	<locale name="ar">
+		<short>نوع النص الذي سيعرض (إذا فعّل النص).</short>
+		<long>القيمة 0 تعني اعرض سرعة المعالج، 1 اعرض السرعة والوحدات، و 2 لتظهر النسبة المئوية بدلا من السرعة</long>
+	</locale>
+
+	<locale name="as">
+		<short>প্ৰদৰ্শনযোগ্য টেক্সটেৰ প্ৰকৃতি (টেক্সট বৈশিষ্ট্য সক্ৰিয় হলে) ।</short>
+		<long>মান ০ cpu&apos;ৰ চলাঙ্ক দেখুৱাৰ বাবে, চলাঙ্ক আৰু একক প্ৰদৰ্শনৰ বাবে ১, আৰু চলাঙ্কৰ পৰিবৰ্তে শতাংশ দেখুৱাবলৈ মান ২ ।</long>
+	</locale>
+
+	<locale name="ast">
+		<short>El tipu de testu a amosar (si el testu ta activáu).</short>
+		<long>Un valor 0 significa amosar la frecuencia de la CPU, 1 amosar la frecuencia y les unidaes y 2 amosar un porcentax n&apos;arróu de la frecuencia.</long>
+	</locale>
+
+	<locale name="be">
+		<short>Тып тэксту (калі ўключаны паказ тэксту).</short>
+		<long>Значэньне 0 - паказваць частату працэсара, 1 - паказваць частату і ў адзінках і 2 - паказваць адсоткі замест частаты.</long>
+	</locale>
+
+	<locale name="be@latin">
+		<short>Typ pakazvanaha tekstu (kali tekst uklučany).</short>
+		<long>Vartaść 0 aznačaje, što pakazvajuć častatu pracesara, 1 – častatu i adzinki, 2 – pracenty zamiest častaty.</long>
+	</locale>
+
+	<locale name="bg">
+		<short>Видът на текста, който да се показва (ако текстът е включен)</short>
+		<long>Стойност „0“ означава да се показва честотата, „1“ — честотата и мерната единица, а „2“ — процент вместо честотата.</long>
+	</locale>
+
+	<locale name="bn">
+		<short>প্রদর্শনযোগ্য টেক্সটের প্রকৃতি (টেক্সট বৈশিষ্ট্য সক্রিয় হলে)।</short>
+		<long>মান 0 ( ০) অর্থাৎ cpu&apos;র ফ্রিকোয়েন্সি ধীর, ফ্রিকোয়েন্সি ও একক প্রদর্শনের জন্য 1(১) এবং ফ্রিকোয়েন্সির পরিবর্তে শতাংশ দেখতে মান 2 (২)।</long>
+	</locale>
+
+	<locale name="bn_IN">
+		<short>প্রদর্শনযোগ্য টেক্সটের প্রকৃতি (টেক্সট বৈশিষ্ট্য সক্রিয় হলে)।</short>
+		<long>মান 0 ( ০) অর্থাৎ cpu&apos;র ফ্রিকোয়েন্সি ধীর, ফ্রিকোয়েন্সি ও একক প্রদর্শনের জন্য 1(১) এবং ফ্রিকোয়েন্সির পরিবর্তে শতাংশ দেখতে মান 2 (২)।</long>
+	</locale>
+
+	<locale name="br">
+		<short>Rizh an destenn da skrammañ (Ma weredekaet an destenn).</short>
+		<long>Ar werzh 0 a dalvez e ziskouez talm ar c&apos;hewerier. 1 a ziskouez talm hag an unanenn ha 2 a ziskouez dregantad e-lec&apos;h talm.</long>
+	</locale>
+
+	<locale name="ca">
+		<short>El tipus de text a visualitzar (si el text està habilitat).</short>
+		<long>El valor 0 significa que mostri la freqüència de la CPU, el valor 1 que mostri la freqüència i les unitats, i el valor 2 que mostri el percentatge en comptes de la freqüència.</long>
+	</locale>
+
+	<locale name="ca@valencia">
+		<short>El tipus de text a visualitzar (si el text està habilitat).</short>
+		<long>El valor 0 significa que mostre la freqüència de la CPU, el valor 1 que mostre la freqüència i les unitats, i el valor 2 que mostre el percentatge en comptes de la freqüència.</long>
+	</locale>
+
+	<locale name="crh">
+		<short>Gösterilecek metnin türü (eğer metin etkin ise).</short>
+		<long>0 değeri işlemci frekansını göster; 1 değeri frekansı ve birimleri göster 2 değeri de frekans yerine yüzde olarak göster anlamına gelir.</long>
+	</locale>
+
+	<locale name="cs">
+		<short>Typ textu určený k zobrazení (pokud je text povolen).</short>
+		<long>Hodnota &quot;0&quot; znamená zobrazovat frekvenci CPU, hodnota &quot;1&quot; zobrazovat frekvenci a jednotky a hodnota &quot;2&quot; zobrazovat procenta místo frekvence.</long>
+	</locale>
+
+	<locale name="cy">
+		<short>Y math o destun i&apos;w ddangos (os yw&apos;r testun wedi ei alluogi).</short>
+		<long>Gwerth o 0 er mwyn dangos amledd y cpu, 1 i ddangos amledd a&apos;r unedau, a 2 i ddangos canran yn lle amledd.</long>
+	</locale>
+
+	<locale name="da">
+		<short>Typen af tekst der skal vises (hvis teksten er slået til).</short>
+		<long>En værdi på 0 betyder vis CPU-frekvens, 1 betyder vis frekvens og enheder, og 2 betyder vis procent istedet for frekvens.</long>
+	</locale>
+
+	<locale name="de">
+		<short>Die Art des anzuzeigenden Textes (falls der Text aktiviert ist).</short>
+		<long>Der Wert 0 bedeutet, dass der Prozessortakt angezeigt wird, der Wert 1 dass der Takt und die Einheiten angezeigt und der Wert 2 dass ein Prozentwert anstatt des Taktes angezeigt wird.</long>
+	</locale>
+
+	<locale name="dz">
+		<short>བཀྲམ་སྟོན་འབད་ནིའི་ ཚིག་ཡིག་གི་དབྱེ་བ། (ཚིག་ཡིག་དེ་ལྕོགས་ཅན་ཨིན་པ་ཅིན)</short>
+		<long>བེ་ལུ་ ༠ ཅིག་གིས་ ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་སྟོནམ་ཨིན། ༡ གིས་ འབྱུང་ཐེངས་དང་ཆ་ཕྲན་ཚུ་སྟོནམ་ཨིན། ༢ ཀྱིས་འབྱུང་ཐེངས་ཀྱི་ཚབ་ལུ་ བརྒྱ་ཆ་སྟོནམ་ཨིན།</long>
+	</locale>
+
+	<locale name="el">
+		<short>Ο τύπος του κειμένου που θα προβληθεί (αν είναι ενεργοποιημένο το κείμενο)</short>
+		<long>Μια τιμή του 0 δείχνει τη συχνότητα cpu, του 1 τη συχνότητα και μονάδες και του 2 ποσοστό αντί για συχνότητα.</long>
+	</locale>
+
+	<locale name="en@shaw">
+		<short>𐑞 𐑑𐑲𐑐 𐑝 𐑑𐑧𐑒𐑕𐑑 𐑑 𐑛𐑦𐑕𐑐𐑤𐑱 (𐑦𐑓 𐑞 𐑑𐑧𐑒𐑕𐑑 𐑦𐑟 𐑦𐑯𐑱𐑚𐑩𐑤𐑛).</short>
+		<long>𐑩 0 𐑝𐑨𐑤𐑿 𐑥𐑰𐑯𐑟 𐑑 𐑖𐑴 CPU 𐑓𐑮𐑰𐑒𐑢𐑩𐑯𐑕𐑰, 1 𐑑 𐑖𐑴 𐑓𐑮𐑰𐑒𐑢𐑩𐑯𐑕𐑰 𐑯 𐑿𐑯𐑦𐑑𐑕, 𐑯 2 𐑑 𐑖𐑴 𐑐𐑼𐑕𐑧𐑯𐑑𐑦𐑡 𐑦𐑯𐑕𐑑𐑧𐑛 𐑝 𐑓𐑮𐑰𐑒𐑢𐑩𐑯𐑕𐑰.</long>
+	</locale>
+
+	<locale name="en_CA">
+		<short>The type of text to display (if the text is enabled).</short>
+		<long>A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 to show percentage instead of frequency.</long>
+	</locale>
+
+	<locale name="en_GB">
+		<short>The type of text to display (if the text is enabled).</short>
+		<long>A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 to show percentage instead of frequency.</long>
+	</locale>
+
+	<locale name="es">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_AR">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_CL">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_CO">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_CR">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_DO">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_EC">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_ES">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_GT">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_HN">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_MX">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_NI">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_PA">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_PE">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_PR">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_SV">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_UY">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="es_VE">
+		<short>El tipo de texto a mostrar (si el texto está activado).</short>
+		<long>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</long>
+	</locale>
+
+	<locale name="et">
+		<short>Kuvatava teksti tüüp (kui teksti on lubatud).</short>
+		<long>Väärtus 0 tähendab, et näidatakse protsessori sagedust. 1 puhul näidatakse sagedust ja ühikuid ning 2 puhul näidatakse sageduse asemel protsenti.</long>
+	</locale>
+
+	<locale name="eu">
+		<short>Testu-mota erakusteko (testua gaituta balego).</short>
+		<long>Erabili 0 balioak PUZen maiztasuna erakusteko, 1 maiztasuna eta unitateak erakusteko, eta 2 ehunekotan erakusteko maiztasunean ordez.</long>
+	</locale>
+
+	<locale name="fa">
+		<short>نوع متنی که نمایش داده شود (اگر متن به کار انداخته شده باشد)</short>
+		<long>مقدار ۰ یعنی نمایش بسامد واحد پردازش مرکزی، ۱ یعنی نمایش بسامد و واحدها، و ۲ به معنی نمایش درصد به‌جای بسامد است.</long>
+	</locale>
+
+	<locale name="fi">
+		<short>Näytettävän tekstin tyyppi (jos tekstin näyttö on käytössä)</short>
+		<long>Arvo 0 näyttää kellotaajuuden, 1 näyttää kellotaajuuden ja yksiköt ja 2 näyttää prosentteja taajuuden sijasta.</long>
+	</locale>
+
+	<locale name="fr">
+		<short>Le type de texte à afficher (si le texte est activé).</short>
+		<long>La valeur 0 signifie que l&apos;applet doit afficher la fréquence du processeur. 1 affiche la fréquence et l&apos;unité et 2 affiche un pourcentage au lieu de la fréquence.</long>
+	</locale>
+
+	<locale name="gl">
+		<short>O tipo de texto para mostrar (se o texto está activado).</short>
+		<long>Un valor 0 significa mostrar a frecuencia da CPU; 1 mostrar a frecuencia e as unidades e 2 mostrar a porcentaxe no lugar da frecuencia.</long>
+	</locale>
+
+	<locale name="gu">
+		<short>દર્શાવવા માટેના લખાણનો પ્રકાર (જો લખાણ સક્રિય કરેલ હોય).</short>
+		<long>કિંમત ૦ એટલો cpu આવૃત્તિ બતાવવી, ૧ એટલે આવૃત્તિ અને એકમો બતાવવા, અને ૨ એટલે આવૃત્તિની જગ્યાએ ટકા બતાવવા.</long>
+	</locale>
+
+	<locale name="he">
+		<short>The type of text to display (if the text is enabled).</short>
+		<long>A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 to show percentage instead of frequency.</long>
+	</locale>
+
+	<locale name="hi">
+		<short>प्रदर्शन के लिये पाठ का प्रकार (अगर पाठ सक्रिय है).</short>
+		<long>0 मान cpu आवृत्ति दिखाने के लिये है, 1 आवृत्ति व इकाई के लिये, और 2 आवृत्ति के बजाय प्रतिशत के लिये.</long>
+	</locale>
+
+	<locale name="hr">
+		<short>Tip teksta za prikaz (ako je prikaz teksta uključen).</short>
+		<long>Vrijednost 0 je predviđena za prikaz frekvencije procesora, 1 za prikaz frekvencije i mjerne jedinice, 2 za prikaz postotka umjesto frekvencije.</long>
+	</locale>
+
+	<locale name="hu">
+		<short>A megjelenítendő szöveg típusa (ha a szöveg engedélyezve van).</short>
+		<long>A 0 érték a CPU órajelének, az 1 az órajel és az egységek, a 2 pedig a százalékos arány megjelenítését jelenti.</long>
+	</locale>
+
+	<locale name="hy">
+		<short>Պատկերվող տեքստի տիպը (եթե տեքստը միացված է)</short>
+		
+	</locale>
+
+	<locale name="id">
+		<short>Jenis teks untuk ditampilkan (jika teks diaktifkan).</short>
+		<long>Nilai 0 berarti menampilkan frekuensi cpu, 1 untuk menampilkan frekuensi serta unit dan 2 untuk menampilkan persentasi daripada frekuensi.</long>
+	</locale>
+
+	<locale name="is">
+		<short>Hverskonar texta á að sýna (ef textahamur er virkjaður).</short>
+		<long>Gildið 0 merkir að sýna skuli tíðni örgjörva, 1 að sýna skuli tíðni og einingar, og 2 að sýna skuli prósentur í stað tíðni.</long>
+	</locale>
+
+	<locale name="it">
+		<short>Il tipo di testo da mostrare (se il testo è abilitato).</short>
+		<long>Un valore pari a 0 indica di mostrare la frequenza della CPU, a 1 la frequenza e le unità, a 2 la percentuale invece della frequenza.</long>
+	</locale>
+
+	<locale name="ja">
+		<short>表示するラベルの種類 (ラベルが使用可能ならば)</short>
+		<long>値を 0 にすると CPU の周波数を表示し、1 にすると周波数と単位を表示し、2 にすると周波数の代わりに CPU 使用率を表示します。</long>
+	</locale>
+
+	<locale name="ka">
+		<short>საჩვენებელი ტექსტის ტიპი (თუ ტექსტი ჩართულია).</short>
+		<long>0 - პროცესორის სიხშირის ჩვენება, 1 - სიხშირის და ერთეულის ჩვენება, 2- სიხშირის მაგივრად პროცენტების ჩვენება.</long>
+	</locale>
+
+	<locale name="kn">
+		<short>ಪ್ರದರ್ಶಿಸಲು ಪಠ್ಯದ ಬಗೆ (ಪಠ್ಯವು ಶಕ್ತಗೊಂಡಿದ್ದಲ್ಲಿ).</short>
+		<long>0 ಮೌಲ್ಯವೆಂದರೆ cpu ಫ್ರೀಕ್ವೆನ್ಸಿಯನ್ನು, 1 ಎಂದರೆ ಫ್ರೀಕ್ವೆನ್ಸಿ ಹಾಗು ಘಟಕಗಳನ್ನು, ಹಾಗು 2 ಎಂದರೆ ಫ್ರೀಕ್ವೆನ್ಸಿಯ ಬದಲಿಗೆ ಪ್ರತಿಶತವನ್ನು ತೋರಿಸಲಾಗುವುದು.</long>
+	</locale>
+
+	<locale name="ko">
+		<short>표시할 텍스트의 종류 (텍스트를 사용하는 경우).</short>
+		<long>값이 0이면 CPU 주파수를 표시하고, 1이면 주파수와 단위를 표시하고, 2이면 주파수 대신에 퍼센트를 표시합니다.</long>
+	</locale>
+
+	<locale name="ku">
+		<short>Cureyê nivîsa ku dê were xuyakirin (heke ku nivîs hebe).</short>
+		<long>Nirxa 0 tê mahneya frekansa xebatkerê nîşan bide; nirxa 1 tê mahneya frekansê û yekeyê nîşan bide, nirxa 2 jî tê mahneya dêvila frekansê weke % nîşan bide.</long>
+	</locale>
+
+	<locale name="ky">
+		
+		<long>0 - БП жыштыгын көрсөтүү, 1 - жыштыгын жана бирдигин көрсөтүү, жана 2 - жыштыктын ордуна процентин көрсөтүү.</long>
+	</locale>
+
+	<locale name="lt">
+		<short>Rodomo teksto tipas (jei tekstas įjungtas).</short>
+		<long>0-inė reikšmė reiškia, kad rodomas cpu dažnis, 1 - kad rodomas dažnis ir vienetai, 2 - kad vietoje dažnio rodomi procentai.</long>
+	</locale>
+
+	<locale name="lv">
+		<short>Teksta tips, kuru parādīt (ja teksts ir ieslēgts).</short>
+		<long>Vērtība 0 nozīmē parādīt CPU frekvenci, 1 nozīmē parādīt frekvenci un vienības, un 2 nozīmē rādīt procentus frekvences vietā.</long>
+	</locale>
+
+	<locale name="mai">
+		<short>प्रदर्शन क&apos;लेल पाठ क&apos; प्रकार (जँ पाठ सक्रिय अछि).</short>
+		<long>0 मान cpu आवृत्ति देखाबै क&apos;लेल अछि 1 आवृत्ति आ एकाइ क&apos;लेल , आओर 2 आवृत्ति क&apos; बजाय प्रतिशत क&apos;लेल .</long>
+	</locale>
+
+	<locale name="mg">
+		<short>Ny karazan&apos;ny lahabolana haseho (raha toa ka nalefa ny lahabolana).</short>
+		<long>Ny sanda 0 dia midika hoe aseho ny fatetiky ny processeur, ny 1 hoe aseho ny fatetika sy ny venty, ary ny 2 hoe aseho ny isan-jato fa tsy ny fatetika.</long>
+	</locale>
+
+	<locale name="mk">
+		<short>Тип на текст за приказ (ако е вклучен текстот).</short>
+		<long>Вредноста 0 значи да се покажува фрекфенцијата на процесорот, вредноста 1 да се покажува фрекфенцијата и единиците и вредност 2 да се покажуваат процентите и фрекфенцијата,</long>
+	</locale>
+
+	<locale name="ml">
+		<short>പ്രദര്‍ശിപ്പിക്കുന്നതിനുളള വാചകത്തിന്റെ ശൈലി</short>
+		<long>0 സിപിയു ആവൃത്തി കാണിയ്ക്കാനും, 1 ആവൃത്തിയും ഏകകങ്ങളും കാണിയ്ക്കാനും 2 ആവൃത്തിയ്ക്കു് പകരം ശതമാനം കാണിയ്ക്കാനും ഉദ്ദേശിയ്ക്കുന്നു.</long>
+	</locale>
+
+	<locale name="mr">
+		<short>दर्शवल्या जाणाऱ्या पाठाचा प्रकार (जर पाठ कार्यान्वीत असेल).</short>
+		<long>0 मूल्य म्हणजे cpu वारंवारता दाखवणे, 1 वारंवारता आणि एकके दाखवणे, आणि 2 वारंवारतेऐवजी टक्केवारी दाखवणे.</long>
+	</locale>
+
+	<locale name="nb">
+		<short>Type tekst som skal vises (hvis tekst er aktivert).</short>
+		<long>Bruk verdien for å vise cpu-frekvens, 1 vises frekvens og enheter og 2 for å vise prosent i stedet for frekvens.</long>
+	</locale>
+
+	<locale name="ne">
+		<short>( पाठ सक्षम पारिन्छ भने) प्रदर्शन गर्नका लागि पाठको प्रकार ।</short>
+		<long>एउटा ० मानको अर्थ cpu आवृति देखाउन, १ आवृति र एकाईहरू देखाउन, र २ आवृतिको सट्टामा प्रतिशत देखाउनका लागि हो ।</long>
+	</locale>
+
+	<locale name="nl">
+		<short>Het type tekst om weer te geven (indien tekst ingeschakeld is)</short>
+		<long>De waarde 0 betekent dat de cpu-frequentie wordt getoond, de waarde 1dat zowel frequentie als eenheden worden getoond en de waarde 2 dat het percentage in plaats van de frequentie wordt getoond.</long>
+	</locale>
+
+	<locale name="nn">
+		<short>Typen tekst å visa (dersom tekst er slått på).</short>
+		<long>Verdien 0 tyder å visa CPU-frekvensen, 1 å visa frekvensen og eininga, og 2 å visa prosent i staden for frekvens.</long>
+	</locale>
+
+	<locale name="oc">
+		<short>La mena de tèxt de visualizar (se lo tèxt es activat).</short>
+		<long>La valor 0 indica de visualizar la frequéncia UCP, la valor 1 de visualizar la frequéncia e las unitats, e la valor 2 de visualizar lo percentatge puslèu que la frequéncia.</long>
+	</locale>
+
+	<locale name="or">
+		<short>ପ୍ରଦର୍ଶନ କରିବା ପାଇଁ ଟେକ୍ସଟର ପ୍ରକାର (ୟଦି ଟେକ୍ସଟ ସକ୍ଷମ ହୋଇଥାଏ) ୤</short>
+		<long>ଗୋଟିଏ  0 ମୂଲ୍ଯର ଅର୍ଥ ହୋଉଛି cpu ଫ୍ଲିକ୍ବେନସି, ଯୁନିଟ ଏବଂ ଫ୍ରିକ୍ବେନସିକୁ ଦେଖାଇବା ପାଇଁ 1 , ଫ୍ରିକ୍ବେନସି ପରିବର୍ତ୍ତେ ଶତକଡା ଦର୍ଶାଇବା ପାଇଁ 2 ୤</long>
+	</locale>
+
+	<locale name="pa">
+		<short>ਵੇਖਾਉਣ ਲਈ ਟੈਕਸਟ ਦੀ ਟਾਈਪ (ਜੇਕਰ ਟੈਕਸਟ ਯੋਗ ਹੋਵੇ)</short>
+		<long>0 ਮੁੱਲ ਦਾ ਅਰਥ ਹੈ ਕਿ CPU ਫਰੀਕਿਊਂਸੀ ਵੇਖਾਈ ਜਾਵੇਗੀ, 1 ਨਾਲ ਫਰੀਕਿਊਂਸੀ ਅਤੇ ਇਕਾਈ ਵੇਖਾਈ ਜਾਵੇਗੀ ਅਤੇ 2 ਦਾ ਅਰਥ ਹੈ ਕਿ ਫਰੀਕਿਊਂਸੀ ਦੀ ਬਜਾਏ ਫ਼ੀ-ਸਦੀ ਵੇਖਾਈ ਜਾਵੇਗੀ।</long>
+	</locale>
+
+	<locale name="pl">
+		<short>Rodzaj wyświetlanego tekstu (jeżeli tekst jest włączony).</short>
+		<long>Wartość 0 oznacza wyświetlanie częstotliwości procesora, 1 częstotliwości i jednostek, 2 procentów zamiast częstotliwości.</long>
+	</locale>
+
+	<locale name="pt">
+		<short>O tipo de texto a apresentar (se o texto estiver activo).</short>
+		<long>Um valor 0 significa apresentar a frequência do cpu, 1 apresentar a frequência e unidades e 2 apresentar a percentagem em vez de frequência.</long>
+	</locale>
+
+	<locale name="pt_BR">
+		<short>O tipo de texto para exibir (se o texto estiver habilitado).</short>
+		<long>Um valor 0 significa mostrar a freqüência da CPU, 1 mostrar a freqüência e as unidades e 2 mostrar o percentual em vez da freqüência.</long>
+	</locale>
+
+	<locale name="ro">
+		<short>Tipul de text pentru afișare (dacă textul este activat).</short>
+		<long>O valoare de 0 înseamnă să afișeze frecvența cpu, 1 să afișeze frecvențe și unități și 2 pentru a afișa procente în loc de frecvențe.</long>
+	</locale>
+
+	<locale name="ru">
+		<short>Тип отображаемого текста (если текст разрешён).</short>
+		<long>0 - показывать частоту ЦП, 1 - частоту и единицы, 2 - проценты вместо частоты.</long>
+	</locale>
+
+	<locale name="sk">
+		<short>Typ textu, ktorý sa má zobraziť (ak je text zapnutý).</short>
+		<long>Hodnota 0 znamená zobrazovanie frekvencie procesora, 1 zobrazovanie frekvencie a jednotiek, 2 zobrazovanie percenta namiesto frekvencie.</long>
+	</locale>
+
+	<locale name="sl">
+		<short>Vrsta besedila izbrana za prikaz (če je besedilo vključeno).</short>
+		<long>Vrednost 0 pomeni prikaz frekvence procesorja, 1 pomeni prikaz frekvence z enoto in 2 pomeni prikaz odstotkov namesto frekvence.</long>
+	</locale>
+
+	<locale name="sq">
+		<short>Lloji i tekstit të shfaqur (nëse teksti është i aktivizuar).</short>
+		<long>Një vlerë 0 nënkupton shfaqjen e frekuencës, 1 shfaqjen e frekuencës dhe njësive kurse 2 shfaqjen e përqindjes në vend të frekuencës.</long>
+	</locale>
+
+	<locale name="sr">
+		<short>Врста текста ѕа приказ (ако је текст укључен).</short>
+		<long>Вредност 0 означава приказ фреквенције процесора, 1 приказ фреквенције и јединица, а 2 постотак уместо фреквенције.</long>
+	</locale>
+
+	<locale name="sr@latin">
+		<short>Vrsta teksta ѕa prikaz (ako je tekst uključen).</short>
+		<long>Vrednost 0 označava prikaz frekvencije procesora, 1 prikaz frekvencije i jedinica, a 2 postotak umesto frekvencije.</long>
+	</locale>
+
+	<locale name="sv">
+		<short>Typen av text att visa (om texten är aktiverad).</short>
+		<long>Värdet 0 betyder att processorfrekvensen ska visas, 1 att frekvensen och enhet ska visas, och 2 att procentandel ska visas istället för frekvensen.</long>
+	</locale>
+
+	<locale name="ta">
+		<short>காட்ட வேண்டிய உரை வகை (உரையை செயற்படுத்தியிருந்தால்)</short>
+		<long>0 மதிப்பு ஸிபியு அதிர்வெண்ணை காட்டு,1 மதிப்பு அதிர்வெண் மற்றும் அலகை காட்டு மற்றும் 2 மதிப்பு அதிர்வெண்ணுக்கு பதில் சதவிகிதத்தை காட்டு</long>
+	</locale>
+
+	<locale name="te">
+		<short>ప్రదర్శించవలసిన పాఠ రకము (పాఠము క్రియాశీలకమైతే).</short>
+		<long>0 విలువ అనగా cpu పౌనఃపున్యమును చూపుట, 1 పౌనఃపున్యమును మరియు ప్రమాణములను చూపుటకు, మరియు 2 పౌనఃపున్యమునకు బదులు శాతమును చూపుటకు.</long>
+	</locale>
+
+	<locale name="th">
+		<short>ชนิดของข้อความที่จะแสดง (ถ้าเปิดใช้การแสดงข้อความ)</short>
+		<long>ค่า 0 หมายถึงแสดงความถี่ซีพียู, 1 จะแสดงความถี่พร้อมหน่วยและ 2 จะแสดงความถี่เป็นเปอร์เซ็นต์แทนค่าจริง</long>
+	</locale>
+
+	<locale name="tr">
+		<short>Gösterilecek metnin türü (eğer metin etkin ise).</short>
+		<long>0 değeri işlemci frekansını göster; 1 değeri frekansı ve birimleri göster 2 değeri de frekans yerine yüzde olarak göster anlamına gelir.</long>
+	</locale>
+
+	<locale name="uk">
+		<short>Введіть текст для відображення (якщо текст увімкнено).</short>
+		<long>0 - відображати частоту ЦП, 1 - частоту та одиниці, 2 - відсотки замість частоти.</long>
+	</locale>
+
+	<locale name="vi">
+		<short>Kiểu chữ cần hiển thị (nếu chữ được bật).</short>
+		<long>Giá trị:
+ • 0 — hiển thị tần số CPU
+ • 1 — hiển thị tần số và đơn vi đều
+ • 2 — hiển thị phần trăm thay thế tần số.</long>
+	</locale>
+
+	<locale name="zh_CN">
+		<short>要显示的文本类型(若启用了文本的话)。</short>
+		<long>0 值意味着显示 CPU 频率，1 意味着显示频率和单位，2 意味着显示为百分比而非频率。</long>
+	</locale>
+
+	<locale name="zh_HK">
+		<short>文字的顯示類型（如已啟用文字）。</short>
+		<long>數值‘0’代表顯示處理器頻率，‘1’代表顯示頻率及單位，‘2’代表顯以百份比取代頻率顯示。</long>
+	</locale>
+
+	<locale name="zh_TW">
+		<short>文字的顯示類型（如已啟用文字）。</short>
+		<long>數值‘0’代表顯示處理器頻率，‘1’代表顯示頻率及單位，‘2’代表顯以百份比取代頻率顯示。</long>
+	</locale>
+</schema>
+
+</schemalist>
+</gconfschemafile>

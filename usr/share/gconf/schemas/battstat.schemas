@@ -1,0 +1,4551 @@
+<gconfschemafile>
+    <schemalist>    
+
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/red_value</key>
+        <owner>battstat-applet</owner>
+        <type>int</type>
+        <default>15</default>
+        <locale name="C">
+          <short>Red value level</short>
+          <long>The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed.</long>
+        </locale>
+
+        <locale name="af">
+          <short>Rooiwaardevlak</short>
+          <long>Die batteryvlak waaronder die battery in rooi sal vertoon. Ook die waarde waarby die waarskuwing vir lae battery vertoon word.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>مستوى القيمة الحمراء</short>
+          <long>مستوى البطارية الذي تحته تعرض البطارية بلون برتقالي. أيضا القيمة التي يتم عندها عرض تنبيه.</long>
+        </locale>
+
+        <locale name="as">
+          <short>ৰঙা ৰংৰ মাত্ৰা</short>
+          <long>চিহ্নিত মাত্ৰাৰ তলত বেটাৰি&apos;ৰ ক্ষমতা হ্ৰাস হ&apos;লে ৰঙা ৰংৰ দ্বাৰা চিহ্নিত হ&apos;ব । ইয়াৰ উপৰিওবেটাৰি&apos;ৰ মাত্ৰা কম হোৱাৰ সূচনা যি পৰিমাপত প্ৰদৰ্শিত হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Nivel de valor collorau</short>
+          <long>El nivel de batería per baxo del que ésta s&apos;amuesa en bermeyu. Tamién el valor nel que s&apos;amuesa l&apos;alvertencia de batería baxa.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Qırmızı qiymət səviyyəsi</short>
+          
+        </locale>
+
+        <locale name="be">
+          <short>Узровень чырвонага колеру</short>
+          <long>Узровень зараду батарэі, ніжэй за які батарэя становіцца чырвоная. Таксама значэньне, пасьля якога паказваецца нагадваньне пра нізкі зарад батарэі.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Vartaść čyrvonaha ŭzroŭniu</short>
+          <long>Uzrovień zaradki akumulatara, nižej za jaki symbal pakazvać čyrvonym koleram. Taksama vartaść, pry jakoj pakazvać aściarohu ab razradcy.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Стойността за червеното ниво</short>
+          <long>Нивото на батерията, под което батерията ще се изобразява червена. Това е и нивото, при което ще се появи предупреждение за ниското ниво на заряда на батерията.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>লাল রং দ্বারা চিহ্নিত মাত্রা</short>
+          <long>চিহ্নিত মাত্রার নীচে ব্যাটারি&apos;র ক্ষমতা হ্রাস করে লাল রং দ্বারা চিহ্নিত হবে। উপরন্তু ব্যাটারি&apos;র মাত্রা কম হওয়ার সূচনা যে পরিমাপে প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>লাল রং দ্বারা চিহ্নিত মাত্রা</short>
+          <long>চিহ্নিত মাত্রার নীচে ব্যাটারি&apos;র ক্ষমতা হ্রাস করে লাল রং দ্বারা চিহ্নিত হবে। উপরন্তু ব্যাটারি&apos;র মাত্রা কম হওয়ার সূচনা যে পরিমাপে প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Live ar werzh ruz</short>
+          <long>Diskouezet e ruz ar batiri a-us al live batiri. Hag ar werzh eo bet diskouezet ur gemenn batiri izel ivez.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Nivo crvene vrijednosti</short>
+          
+        </locale>
+
+        <locale name="ca">
+          <short>Nivell del valor roig</short>
+          <long>El nivell de bateria per sota del qual la bateria es mostra de color vermell. També el valor al qual es mostra l&apos;avís de bateria.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Nivell del valor roig</short>
+          <long>El nivell de bateria per sota del qual la bateria es mostra de color roig. També el valor al qual es mostra l&apos;avís de bateria.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Kırmızı değer uyarısı</short>
+          <long>Pilin kırmızı gösterilmesi için en düşük seviye. Ayrıca piluyarısının gösterileceği seviyedir.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Úroveň červené</short>
+          <long>Úroveň nabití baterie, pod kterou je baterie zobrazována červeně. Také hodnota, při které se zobrazuje varování o vybité baterii.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Lefel gwerth Coch</short>
+          <long>Os yw lefel y batri islaw&apos;r lefel hwn, dangosir y batri yn goch. Dyma hefyd y gwerth pan ddechreuir dangos y rhybudd batri isel.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Rødt niveau</short>
+          <long>Batteriniveau hvorunder batteriet vises som rød. Er også værdien hvor en batteriadvarsel vises.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Rotwertniveau</short>
+          <long>Das Akkuladeniveau, unterhalb dessen der Akku rot eingefärbt wird. Außerdem der Wert, bei dem die Warnung über geringe Akkuleistung angezeigt wird.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>དམརཔོ་གི་བེ་ལུའི་ གནས་རིམ།</short>
+          <long>དམརཔོ་གི་ཚད་ཀྱི་འོག་ལུ་ བཀྲམ་སྟོན་འབད་མི་ འཕྲུལ་ལྟོའི་གནས་རིམ། འཕྲུལ་ལྟོ་དམའ་བའི་ཉེན་བརྡ་ བཀྲམ་སྟོན་འབད་ཡོད་པའི་བེ་ལུ།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Κόκκινο επίπεδο τιμής</short>
+          <long>Το επίπεδο της μπαταρίας κάτω από το οποίο η μπαταρία εμφανίζεται με κόκκινο. Ακόμα η τιμή κάτω από την οποία θα εμφανίζεται η προειδοποίηση μπαταρίας.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑮𐑧𐑛 𐑝𐑨𐑤𐑿 𐑤𐑧𐑝𐑩𐑤</short>
+          <long>𐑞 𐑚𐑨𐑑𐑼𐑦 𐑤𐑧𐑝𐑩𐑤 𐑚𐑩𐑤𐑴 𐑢𐑦𐑗 𐑞 𐑚𐑨𐑑𐑼𐑦 𐑦𐑟 𐑛𐑩𐑕𐑐𐑤𐑱𐑛 𐑨𐑟 𐑮𐑧𐑛. 𐑷𐑤𐑕𐑴 𐑞 𐑝𐑨𐑤𐑿 𐑨𐑑 𐑢𐑦𐑗 𐑞 𐑤𐑴 𐑚𐑨𐑑𐑼𐑦 𐑢𐑹𐑯𐑦𐑙 𐑦𐑟 𐑛𐑩𐑕𐑐𐑤𐑱𐑛.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Red value level</short>
+          <long>The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Red value level</short>
+          <long>The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual ésta se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_AR">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_CL">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_CO">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_CR">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_DO">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_EC">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_ES">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual ésta se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_GT">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_HN">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_MX">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_NI">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_PA">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_PE">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_PR">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_SV">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_UY">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="es_VE">
+          <short>Nivel de valor rojo</short>
+          <long>El nivel de batería por debajo del cual se muestra de color rojo. También el valor en el cual se muestra la advertencia de batería baja.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Punane tase</short>
+          <long>Aku täituvus, millest allapoole kuvatakse akut punasena. Selle taseme juures kuvatakse samuti hoiatust aku madala täituvuse kohta.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Gorriaren balio-maila</short>
+          <long>Maila honetatik behera, gorri-kolorez ikusiko da bateria. Bateria baxuaren balioarekin abisua bistaratuko da.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>سطح مقدار قرمز</short>
+          <long>سطحی از باتری که پایین‌تر از آن باتری قرمز نمایش داده می‌شود. همچنین مقداری که در آن اخطار کم شدن باتری نشان داده می‌شود.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Punaisen arvon raja</short>
+          <long>Akun lataustila jonka jälkeen akku näytetään punaisena. Arvo on samalla se, jonka jälkeen matalan lataustason varoitus näytetään.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Valeur du niveau rouge</short>
+          <long>Le niveau de la batterie au-dessous duquel la batterie est affichée en rouge. Ainsi que la valeur à laquelle un avertissement de batterie faible est affiché.</long>
+        </locale>
+
+        <locale name="gl">
+          <short>Nivel de valor vermello</short>
+          <long>O nivel por debaixo do cal a batería se mostra de cor vermella. Tamén o valor no cal se mostra o aviso de batería baixa.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>લાલ કિંમતનું સ્તર</short>
+          <long>વીજકોષ સ્તર કે જેના નીચે વીજકોષ લાલ તરીકે દર્શાવાયેલ છે. અને કિંમત કે જે માપે નીચા વીજકોષની ચેતવણી દર્શાવાય છે.</long>
+        </locale>
+
+        <locale name="he">
+          <short>Red value level</short>
+          <long>The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>लाल मान स्तर</short>
+          <long>बैटरी स्तर जिसके नीचे बैटरी को लाल रंग दिखाया जाए. साथ ही मान जिसपर कम बैटरी चैतावनी दिखाया जाता है.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Vrijednost za crveno</short>
+          <long>Razina napunjenosti baterije ispod kojega se baterija prikazuje u crvenoj boji. Ujedno i vrijednost kod koje se prikazuje upozorenje o niskoj razini napunjenosti.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Piros szín szintje</short>
+          <long>Az az akkumulátorszint, ami alatt az elem narancssárga színnel lesz megjelenítve. Egyben az az érték, amelynél a „Gyenge akkumulátor” figyelmeztetés megjelenik.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Կարմիր արժեքի մակարդակ</short>
+          <long>Մարտկոցի լիցքավորման չափը, որից ցածր մարտկոցը պատկերվում է կարմիր գույնով, ինչպես նաև այն մակրդակը, որի դեպքում նախազգուշացնում է մարտկոցի լիցքաթափման մասին</long>
+        </locale>
+
+        <locale name="id">
+          <short>Tingkat merah</short>
+          <long>Tingkatan baterai lemah ketika baterai ditampilkan dengan warna Merah. Juga nilai ketika peringatan baterai lemah ditampilkan.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Rautt ástand</short>
+          <long>Staða rafhlöðunnar þar sem hún verður rauð. Einnig það gildi þar sem viðvörun um lága hleðslu rafhlöðu birtist.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Valore del livello rosso</short>
+          <long>Il livello della batteria al di sotto del quale questa viene mostrata in rosso.Rappresenta anche il valore che attiva la visualizzazione dell&apos;avviso di batteria quasi scarica.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>赤色の割合</short>
+          <long>バッテリ・レベルをバッテリの下部に赤色で表示します。さらに、レベルが低くなったら警告を表示します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>მუხტის დონე წითელი ფერისთვის</short>
+          <long>კვების ელემენტის მუხტის დაბალი დონე, რომლის გადაცილების შემდეგ ელემენტი ნარინჟის ფერი ხდება და გამოდის შესაბამისი შეტყობინება.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಕೆಂಪು ಮೌಲ್ಯದ ಮಟ್ಟ</short>
+          <long>ಬ್ಯಾಟರಿಯ ಮಟ್ಟವು ಇದಕ್ಕಿಂತ ಕೆಳಕ್ಕಿದ್ದಲ್ಲಿ ಕೆಂಪಗೆ ತೋರಿಸುತ್ತದೆ. ಅಲ್ಲದೆ ಈ ಬ್ಯಾಟರಿಯ ಮಟ್ಟದಲ್ಲಿ ಬ್ಯಾಟರಿ ಕಡಿಮೆ ಇದೆ ಎಂಬ ಎಚ್ಚರಿಕೆಯನ್ನು ಸೂಚಿಸಲಾಗುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>빨간색 값 단계</short>
+          <long>이보다 낮으면 배터리를 붉은 색으로 표시합니다. 또 이 값에서 배터리 충전량이 낮다는 경고를 표시합니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Hişyariya nirxa sor</short>
+          <long>Ji bo batarya sor nîşan bide asta herî kêm. Her wisa ew ast e ku dê hişyariya qelsiya bataryayê jî bide.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Кызыл түстүн деңгээли</short>
+          <long>Бул мааниден азайган учурда кызыл түс менен чагылдырылуучу батарея деңгээли. Ошондой эле, батарея зарядынын деңгээли төмөн жөнүндөгү эскертүү берүү мааниси.</long>
+        </locale>
+
+        <locale name="lt">
+          <short>Raudonos vertės lygis</short>
+          <long>Baterijos lygis žemiau kurio baterija yra raudonos spalvos, tai taip pat yra reikšmė, esant kuriai yra parodomas perspėjimas apie baterijos išsikrovimą.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Sarkanās vērtības līmenis</short>
+          <long>Baterijas līmenis, zem kura baterija tiks attēlota kā sarkana. Tā ir arī vērtība pie kuras tiek parādīts brīdinājums par zemu baterijas uzlādi.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>लाल मान स्तर</short>
+          <long>बैटरी स्तर जकरा नीच्चाँ बैटरीकेँ लाल रँग देखाओल जाए. सँगे मान जकरा पर कम बैटरी चेतावनी देखाओल जाएत अछि.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Tantan&apos;ny sandan&apos;ny loko mena</short>
+          <long>Ny fari-pandrefesan&apos;aratra hivadihan&apos;ilay vaton&apos;aratra ho mena. Io koa no sandan&apos;ny fotoana anehoana ny fampilazan&apos;ny vaton&apos;aratra lefy.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Ниво на црвената вредност</short>
+          <long>Нивото на батеријата подолу каде што батеријата е прикажана со црвена боја е вредноста на која што се појавува предупредувањето за истрошена енергија на батеријата.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ചുവപ്പ് നിറം തുടങ്ങേണ്ട ബാറ്ററി ചാര്‍ജ്ജിന്റെ അളവ്(മൂല്ല്യം എത്ര)</short>
+          <long>ബാറ്ററിയുടെ നിറം ചുവപ്പ് നിറമാകുന്ന ബാറ്ററിയുടെ അവസ്ഥ. കൂടാതെ, ബാറ്ററിയുടെ ചാര്‍ജ് കുറഞ്ഞ് എന്ന മുന്നറിയിപ്പ് നല്‍കുന്ന മൂല്ല്യം.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Улаан түвшин</short>
+          
+        </locale>
+
+        <locale name="mr">
+          <short>लाल मूल्य स्तर</short>
+          <long>बॅटरी स्तर ज्याखाली बॅटरी आहे ती लाल दर्शवली आहे. तसेच मूल्य ज्यावर बॅटरी कमी असल्याची सुचना दर्शवली जाते.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Aras nilai merah</short>
+          
+        </locale>
+
+        <locale name="nb">
+          <short>Verdinivå for rød</short>
+          <long>Batterinivå hvor batteriet vises som rødt. Dette er også verdien som utløser visning av varsel for lavt batterinivå.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>रातो मान स्तर</short>
+          <long>ब्याट्रीको तह जसको मुनि ब्याट्री रातो रङ्गमा प्रदर्शन भएको छ । मान पनि जहाँ कम ब्याट्री चेतावनीप्रदर्शित भएको छ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Rode waarde niveau</short>
+          <long>Het niveau waaronder de accu rood getoond wordt. Dit is tevens de de waarde waarbij de waarschuwing voor een lege accu wordt tonen.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Nivå for raud farge</short>
+          <long>Grense for raud farge: Batterinivå under dette vert vist med raudt. Også nivået der varsel om lite batteri vert vist.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Valor del nivèl roge</short>
+          <long>En dejós qu&apos;aquest nivèl, la batariá serà roja e se visualiazarà una alèrta de batariá febla.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ଲାଲ ମୂଲ୍ଯ ସ୍ତର</short>
+          <long>ବ୍ଯାଟେରୀ ର ଏକ ସ୍ତର ପରେ ବ୍ଯାଟେରୀ କୁ ଲାଲ ରଙ୍ଗରେ ପ୍ରଦର୍ଶନ କରାୟାଏ ୤ ଆଉ ମଧ୍ଯ ଏକ ମୂଲ୍ଯ ପରେ କମ ବ୍ଯାଟେରୀ  ସ୍ତରର ଚେତାବନୀ ପ୍ରଦର୍ଶିତ ହୁଏ ୤</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਲਾਲ ਮੁੱਲ ਲੈਵਲ</short>
+          <long>ਬੈਟਰੀ ਲੈਵਲ, ਜਿਸ ਤੋਂ ਹੇਠਾਂ ਬੈਟਰੀ ਸੰਤਰੀ ਰੰਗ ਦੀ ਵੇਖਾਈ ਦੇਵੇਗੀ। ਮੁੱਲ, ਜਿਸ ਲਈ ਬੈਟਰੀ ਘੱਟ ਹੋਣ ਦੀ ਚੇਤਾਵਨੀ ਵਿਖਾਈ ਜਾਵੇਗੀ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Wartość poziomu czerwonego</short>
+          <long>Poziom naładowania akumulatora, poniżej którego jego symbol jest wyświetlany na czerwono. Również wartość przy której jest wyświetlanie ostrzeżenie o rozładowaniu.</long>
+        </locale>
+
+        <locale name="pt">
+          <short>Nível de valor vermelho</short>
+          <long>O nível de bateria abaixo do qual a bateria é apresentada como vermelha. Também o valor abaixo do qual é apresentado o aviso de bateria fraca.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Nível do valor vermelho</short>
+          <long>O nível da bateria abaixo do qual a bateria é mostrada na cor vermelha. Também o valor no qual o aviso de bateria fraca será mostrado.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Valoare nivel roșu</short>
+          <long>Nivelul limită sub care acumulatorul va fi afișat ca roșu. Este de asemenea valoarea la care avertismentul pentru acumulator descărcat este afișat.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Уровень для красного цвета</short>
+          <long>Уровень заряда, ниже которого батарея отображается оранжевым цветом. Также значение, при котором выводится предупреждение о низком уровне батареи.</long>
+        </locale>
+
+        <locale name="si">
+          <short>ධාවන මට්ටම් අගය</short>
+          
+        </locale>
+
+        <locale name="sk">
+          <short>Hodnota červenej úrovne</short>
+          <long>Úroveň batérie pod touto hodnotou sa zobrazuje oranžovou farbou, spolu s hodnotou, pri ktorej sa má zobraziť upozornenie o slabej batérii.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Raven rdeče vrednosti</short>
+          <long>Nivo baterije, pod katerim je baterija prikazana rdeče. To je tudi vrednosti, pri kateri se prikaže opozorilo o nizki napolnjenosti baterije.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Niveli i vlerës së kuqe</short>
+          <long>Niveli i baterisë poshtë të cilit bateria paraqitet i kuq. Gjithashtu shfaqet dhe vlera kur paralajmërohet bateria e shkarkuar.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Вредност за црвено</short>
+          <long>Стање батерије испод којег се батерија приказује у црвеној боји. Такође вредност за коју се приказује упозорење о попуњености батерије.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Vrednost za crveno</short>
+          <long>Stanje baterije ispod kojeg se baterija prikazuje u crvenoj boji. Takođe vrednost za koju se prikazuje upozorenje o popunjenosti baterije.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Röd värdenivå</short>
+          <long>Den batterinivå under vilken batteriet visas i rött. Även det värde vid vilket varningen för låg batterispänning visas.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>சிகப்பு மதிப்பு நிலை</short>
+          <long>மின்கலம் சிவப்பாக காட்டப் பட வேண்டிய மின்கலத்தின் மின்நிலை. தாழ்ந்த மின்நிலையாக எச்சரிக்கை காண்பிக்கப்பட வேண்டிய அளவு.</long>
+        </locale>
+
+        <locale name="te">
+          <short>ఎరుపు విలువ స్థాయి</short>
+          <long>బాటరీ ఎరుపు చూపిన దాని కంటే తక్కువ బాటరీ స్థాయి, తక్కువ బాటరీ హెచ్చరిక ప్రదర్శించు విలువ కూడా</long>
+        </locale>
+
+        <locale name="th">
+          <short>ระดับค่าสีแดง</short>
+          <long>ระดับพลังงานซึ่งถ้าต่ำกว่านี้จะแสดงแบตเตอรี่เป็นสีแดง และจะแสดงค่าขีดระดับพลังงานที่จะแจ้งเตือนแบตเตอรี่อ่อนด้วย</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Kırmızı değer uyarısı</short>
+          <long>Pilin kırmızı gösterilmesi için en düşük seviye. Ayrıca piluyarısının gösterileceği seviyedir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Рівень червоного кольору</short>
+          <long>Рівень зарядження, нижче якого батарея зображується червоною. Також значення, при якому виводиться попередження про низький заряд.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Cấp giá trị Đỏ</short>
+          <long>Cấp pin dưới đó pin hiển thị màu đỏ. Cũng là giá trị tại đó hiển thị cảnh báo pin thấp.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Inqanam lexabiso elibomvu</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+          <short>红色值级别</short>
+          <long>当电量低于此级别时，电池显示为红色，同时也会显示低电量警告。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>紅色表示電量</short>
+          <long>電池電量低於這個數值時會顯示為紅色。同樣低於這個數值時會發出警告。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>紅色表示電量</short>
+          <long>電池電量低於這個數值時會顯示為紅色。同樣低於這個數值時會發出警告。</long>
+        </locale>
+      </schema>
+      
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/red_value_is_time</key>
+	<owner>battstat-applet</owner>
+	<type>bool</type>
+	<locale name="C">
+	  <short>Warn on low time rather than low percentage</short>
+	  <long>Use the value defined in red_value as a time remaining to show the warning dialog rather than a percentage.</long>
+	</locale>
+
+	<locale name="af">
+	  <short>Waarsku op min tyd eerder as lae persentasie</short>
+	  <long>Gebruik die waarde gedefinieer in red_value as die oorblywende tyd om die waarskuwingdialoog te wys in plaas van &apos;n persentasie.</long>
+	</locale>
+
+	<locale name="ar">
+	  <short>تنبيه عند انخفاض الوقت المتبقي بدلا من انخفاض النسبة المئويه</short>
+	  <long>استخدم القيمة المحددة في red_value كوقت متبقٍ بدلا من النسبة المئوية لعرض حوار التحذير.</long>
+	</locale>
+
+	<locale name="as">
+	  <short>নিম্ন শতাংশৰ পৰিবৰ্তে নিম্ন সময়ৰ সতৰ্কবাৰ্তা প্ৰদৰ্শিত হ&apos;ব</short>
+	  <long>red_value দ্বাৰা চিহ্নিত মান শতাংশেৰ পৰিবৰ্তে সূচনাবাৰ্তাৰ ডায়লগ প্ৰদৰ্শনেৰ পূৰ্ববৰ্তী সময় চিহ্নিত কৰিবলৈ ব্যৱহৃত হ&apos;ব ।</long>
+	</locale>
+
+	<locale name="ast">
+	  <short>Avisar cuando quede pocu tiempu n&apos;arróu de baxu porcentax</short>
+	  <long>Usar el valor definíu en red_value como&apos;l tiempu que queda p&apos;amosar el diálogo d&apos;alvertencia n&apos;arróu d&apos;un porcentax.</long>
+	</locale>
+
+	<locale name="be">
+	  <short>Папярэджваць пра малы час, а не пра малыя адсоткі</short>
+	  <long>Выкарыстоўваць значэньне, вызначанае ў red_value, як астатні час для паказу нагадваньня, замест адсоткаў.</long>
+	</locale>
+
+	<locale name="be@latin">
+	  <short>Aściaroha ab časie, jaki zastaŭsia, zamiest pracentaŭ</short>
+	  <long>Užyćcio vartaści, akreślenaj u &quot;red_value&quot;, jak času, jaki zastaŭsia da pakazu vakna z aściarohaj zamiest pracentaŭ.</long>
+	</locale>
+
+	<locale name="bg">
+	  <short>Предупреждение при малко оставащо време, а не при нисък процент</short>
+	  <long>Използване на стойността указана в „red_value“ като оставащо време, което да се покаже в предупреждаващия диалог, а не като процент.</long>
+	</locale>
+
+	<locale name="bn">
+	  <short>নিম্ন শতংশের পরিবর্তে নিম্ন সময়ের সতর্কবার্তা প্রদর্শিত হবে</short>
+	  <long>সঙ্কেত ডায়ালগ প্রদর্শনকালে অবশিষ্ট সময় নির্দেশ করতে শতাংশের পরিবর্তে লাল রঙে নির্ধারিত মান ব্যবহার করুন। (_v)</long>
+	</locale>
+
+	<locale name="bn_IN">
+	  <short>নিম্ন শতংশের পরিবর্তে নিম্ন সময়ের সতর্কবার্তা প্রদর্শিত হবে</short>
+	  <long>red_value দ্বারা চিহ্নিত মান শতাংশের পরিবর্তে সূচনাবার্তার ডায়লগ প্রদর্শনের পূর্ববর্তী সময় চিহ্নিত করতে ব্যবহৃত হবে।</long>
+	</locale>
+
+	<locale name="br">
+	  <short>Kelaouiñ evit ur badelezh verr kentoc&apos;h eget un dregantad izel</short>
+	  <long>Arverañ ar werzh despizet er red_value e-giz amzer a chom a-raok diskouez ur gemenn kentoc&apos;h kregantad.</long>
+	</locale>
+
+	<locale name="ca">
+	  <short>Avisa quan quedi poc temps en comptes de quan quedi poca bateria</short>
+	  <long>Usa el valor definit a «red_value» com a temps restant per mostrar el diàleg d&apos;avís en comptes del percentatge.</long>
+	</locale>
+
+	<locale name="ca@valencia">
+	  <short>Avisa quan quede poc temps en comptes de quan quede poca bateria</short>
+	  <long>Usa el valor definit a «red_value» com a temps restant per mostrar el diàleg d&apos;avís en comptes del percentatge.</long>
+	</locale>
+
+	<locale name="crh">
+	  <short>Düşük yüzde yerine düşük zaman için uyar</short>
+	  <long>red_value içinde tanımlanmış değeri uyarı penceresini çıkarmak için kalan yüzde yerine kalan süre olarak kullan.</long>
+	</locale>
+
+	<locale name="cs">
+	  <short>Varovat při malém množství času, nikoliv při nízkých procentuálních hodnotách</short>
+	  <long>Používat hodnotu definovanou v &quot;red_value&quot; jako zbývající čas do zobrazení varovného dialogu - namísto procent.</long>
+	</locale>
+
+	<locale name="cy">
+	  <short>Rhybuddio pan mae&apos;r amser, yn hytrach na&apos;r canran, yn isel</short>
+	  
+	</locale>
+
+	<locale name="da">
+	  <short>Advar om kort tid tilbage i stedet for lille procentdel tilbage</short>
+	  <long>Brug værdien defineret i red_value som tilbageværende tid hvori advarselsvinduet vises i stedet for en procentdel.</long>
+	</locale>
+
+	<locale name="de">
+	  <short>Eher bei geringer Zeit, als bei kleinem Prozentwert warnen</short>
+	  <long>Den Wert von »red_value« als verbleibende Zeit bis zum Anzeigen des Warnhinweises statt des Prozentwertes verwenden.</long>
+	</locale>
+
+	<locale name="dz">
+	  <short>བརྒྱ་ཆ་དམའ་བའི་ཚབ་ལུ་ དུས་ཚོད་དམའ་བའི་ ཉེན་བརྡ་སྟོན།</short>
+	  <long>བརྒྱ་ཆའི་ཚབ་ལུ་ ཉེན་བརྡའི་ཌའི་ལོག་སྟོན་ནིའི་དོན་ལུ་ རེཌི་བེ་ལུ་ནང་ ངེས་འཛིན་འབད་མི་བེ་ལུ་དེ་ དུས་ཚོད་ལྷག་ལུས་བཟུམ་ཅིག་སྦེ་ ལག་ལེན་འཐབ།</long>
+	</locale>
+
+	<locale name="el">
+	  <short>Προειδοποίηση όταν απομένει λίγος χρόνος αντί για χαμηλό χαμηλό</short>
+	  <long>Χρήση της τιμής που καθορίζεται στη red_value ως το χρόνο που απομένει για την εμφάνιση του διαλόγου προειδοποίησης αντί για ποσοστού.</long>
+	</locale>
+
+	<locale name="en@shaw">
+	  <short>𐑢𐑹𐑯 𐑪𐑯 𐑤𐑴 𐑑𐑲𐑥 𐑮𐑭𐑞𐑼 𐑞𐑨𐑯 𐑤𐑴 𐑐𐑼𐑕𐑧𐑯𐑑𐑦𐑡</short>
+	  <long>𐑿𐑟 𐑞 𐑝𐑨𐑤𐑿 𐑛𐑦𐑓𐑲𐑯𐑛 𐑦𐑯 red_value 𐑨𐑟 𐑩 𐑑𐑲𐑥 𐑮𐑦𐑥𐑱𐑯𐑦𐑙 𐑑 𐑖𐑴 𐑞 𐑢𐑹𐑯𐑦𐑙 𐑛𐑲𐑩𐑤𐑪𐑜 𐑮𐑭𐑞𐑼 𐑞𐑨𐑯 𐑩 𐑐𐑼𐑕𐑧𐑯𐑑𐑦𐑡.</long>
+	</locale>
+
+	<locale name="en_CA">
+	  <short>Warn on low time rather than low percentage</short>
+	  
+	</locale>
+
+	<locale name="en_GB">
+	  <short>Warn on low time rather than low percentage</short>
+	  <long>Use the value defined in red_value as a time remaining to show the warning dialogue rather than a percentage.</long>
+	</locale>
+
+	<locale name="es">
+	  <short>Advertir cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  <long>Usar el valor definido en red_value como el tiempo que queda para mostrar el diálogo de advertencia en vez de un porcentaje.</long>
+	</locale>
+
+	<locale name="es_AR">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_CL">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_CO">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_CR">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_DO">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_EC">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_ES">
+	  <short>Advertir cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  <long>Usar el valor definido en red_value como el tiempo que queda para mostrar el diálogo de advertencia en vez de un porcentaje.</long>
+	</locale>
+
+	<locale name="es_GT">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_HN">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_MX">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_NI">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_PA">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_PE">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_PR">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_SV">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_UY">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="es_VE">
+	  <short>Avisar cuando quede poco tiempo en vez de bajo porcentaje</short>
+	  
+	</locale>
+
+	<locale name="et">
+	  <short>Hoiatus pigem lühikese aja, mitte madala akuprotsendi puhul</short>
+	  <long>Protsendikuva asemel hoiatusdialoogi kuvamine vastavalt red_value võtmes kirjeldatud väärtusele.</long>
+	</locale>
+
+	<locale name="eu">
+	  <short>Abisatu denboran ehunekotan izan beharrean</short>
+	  <long>Erabili gorri-balioan definitutako balioa abisuaren elkarrizketa-koadroa erakusteko falta den denbora gisa, ehunekotan ordez.</long>
+	</locale>
+
+	<locale name="fa">
+	  <short>اخطار بر اساس زمان کم نه درصد کم</short>
+	  
+	</locale>
+
+	<locale name="fi">
+	  <short>Varoita vähäisestä käyttöajasta matalan latausprosentin sijaan</short>
+	  <long>Käytä kohdassa red_value määriteltyä arvoa jäljellä olevan ajan näyttämiseen varoitusikkuna aikana prosenttiluvun sijasta.</long>
+	</locale>
+
+	<locale name="fr">
+	  <short>Avertir sur un temps faible plutôt que sur un pourcentage faible</short>
+	  <long>Utilise la valeur définie dans red_value comme temps restant avant d&apos;afficher un avertissement plutôt qu&apos;un pourcentage.</long>
+	</locale>
+
+	<locale name="gl">
+	  <short>Avisar sobre o baixo tempo restante en vez de sobre a porcentaxe reducida</short>
+	  <long>Usar o valor definido en red_value como tempo restante para mostrar o diálogo de aviso en vez da porcentaxe.</long>
+	</locale>
+
+	<locale name="gu">
+	  <short>નીચા ટકાની જગ્યાએ નીચા સમય પર ચેતવો</short>
+	  <long>ટકા બતાવવાની જગ્યાએ ચેતવણી સંવાદ બતાવવા માટે red_value માં બાકી રહેલ સમય વ્યાખ્યાયિત કરતી કિંમત વાપરો.</long>
+	</locale>
+
+	<locale name="he">
+	  <short>Warn on low time rather than low percentage</short>
+	  <long>Use the value defined in red_value as a time remaining to show the warning dialog rather than a percentage.</long>
+	</locale>
+
+	<locale name="hi">
+	  <short>कम प्रतिशत के बजाय कम समय के लिये चेतावनी दें</short>
+	  <long>red_value में परिभाषित मान का प्रतिशत की बजाय चेतावनी बचे समय के लिये संवाद दिखाने के लिये प्रयोग करें.</long>
+	</locale>
+
+	<locale name="hr">
+	  <short>Koristi upozorenje bazirano na preostalom vremenu umjesto na postotku</short>
+	  
+	</locale>
+
+	<locale name="hu">
+	  <short>Akkor figyelmeztessen, ha kevés idő van hátra, és ne akkor, ha a töltöttség százalékosan alacsony</short>
+	  <long>A red_value kulcsban megadott, és nem a százalékos érték használata hátralévő időként a figyelmeztető ablak megjelenítéséhez.</long>
+	</locale>
+
+	<locale name="id">
+	  <short>Peringatkan dengan waktu menipis dari pada persentasi rendah</short>
+	  
+	</locale>
+
+	<locale name="is">
+	  <short>Vara við litlum tíma, frekar en lágu prósentugildi</short>
+	  <long>Nota gildið sem er skilgrient í rautt_gildi sem tíma þar til lokið til þess að sýna varúðarsvarglugga frekar en prósentu.</long>
+	</locale>
+
+	<locale name="it">
+	  <short>Avvisa per tempo limitato invece che percentuale bassa</short>
+	  <long>Usa il valore definito nella chiave &quot;red_value&quot; come tempo rimanente, invece che percentuale rimanente, per il quale mostrare il dialogo di avviso.</long>
+	</locale>
+
+	<locale name="ja">
+	  <short>残量は百分率ではなく時間で警告する</short>
+	  <long>警告ダイアログでは充電率の表記ではなく残り時間の表記に red_value で定義した色を使います。</long>
+	</locale>
+
+	<locale name="ka">
+	  <short>შეტყობინება, ცოტა მუშაობის დროის დარჩენის შემთხვევაში</short>
+	  
+	</locale>
+
+	<locale name="kn">
+	  <short>ಕಡಿಮೆ ಪ್ರತಿಶತದ ಬದಲಿಗೆ ಕಡಿಮೆ ಸಮಯಕ್ಕಾಗಿ ಎಚ್ಚರಿಕೆ ನೀಡು</short>
+	  <long>ಎಚ್ಚರಿಕೆ ಸಂವಾದವನ್ನು ತೋರಿಸಲು ಪ್ರತಿಶತದ ಬದಲು red_value ನಲ್ಲಿ ಸೂಚಿಸಲಾದ ಮೌಲ್ಯವನ್ನು ಉಪಯೋಗಿಸಿ.</long>
+	</locale>
+
+	<locale name="ko">
+	  <short>퍼센트가 낮을 때가 아니라 시간이 작을 때 경고</short>
+	  <long>red_value에 지정한 값을 퍼센트가 아니라 남은 시간으로 보고 경고 대화 상자를 표시합니다.</long>
+	</locale>
+
+	<locale name="ku">
+	  <short>Li şûna hişyariya sedaneya kêm hişyariya dema kêm bike</short>
+	  
+	</locale>
+
+	<locale name="ky">
+	  <short>Аз калган процент эмес, аз калган убакыт жөнүндө эскертүү</short>
+	  
+	</locale>
+
+	<locale name="lt">
+	  <short>Įspėti, kai lieka mažai laiko, o ne procentų</short>
+	  <long>Vietoje procentų naudoti reikšmę, nurodytą red_value rakte, kaip laiką, likusį iki perspėjimo parodymo.</long>
+	</locale>
+
+	<locale name="lv">
+	  <short>Brīdināt par atlikušo laiku, nevis zemiem uzlādes procentiem</short>
+	  <long>Lietot vērtību, kas definēta red_value, kā atlikušo laiku, pēc kura rādīt zemās uzlādes brīdinājumu, nevis kā uzlādes procentus.</long>
+	</locale>
+
+	<locale name="mai">
+	  <short>कम प्रतिशत क&apos; बजाय कम समय क&apos;लेल चेतावनी दिअ&apos;</short>
+	  
+	</locale>
+
+	<locale name="mg">
+	  <short>Mampilazà rehefa kely ny fotoana fa tsy ny isan-jato tavela </short>
+	  
+	</locale>
+
+	<locale name="mk">
+	  <short>Предупредувај на преостанато време наместо за проценти</short>
+	  <long>Користи ја вредноста дефинирана со _црвено како преостанато време за прикажување на предупредувањето.</long>
+	</locale>
+
+	<locale name="ml">
+	  <short>ചെറിയ ശതമാനത്തിന് പകരം സമയം കുറച്ചുളളപ്പോള്‍ മുന്നറിയിപ്പ് നല്‍കുക</short>
+	  <long>red_value വില്‍ നിര്‍വ്വചിച്ചിരിയ്ക്കുന്ന വില ശതമാനത്തിനു് പകരം മുന്നറിയിപ്പു് കാണിയ്ക്കുന്നതിനു് ബാക്കിയുള്ള സമയമായി എടുക്കുക.</long>
+	</locale>
+
+	<locale name="mr">
+	  <short>कमी टक्केवारीऐवजी कमी मूल्यावर सुचित करा</short>
+	  <long>सुचना संवादामध्ये दर्शवण्यासाठी टक्केवारीऐवजी red_value मध्ये व्याख्यीत उर्वरित वेळेचे मूल्य वापरा.</long>
+	</locale>
+
+	<locale name="nb">
+	  <short>Advar ved kort gjenstående tid i stedet for prosent</short>
+	  <long>Bruk verdien som er definert i red_value som tid før advarsel vises i stedet for prosent</long>
+	</locale>
+
+	<locale name="ne">
+	  <short>न्यून प्रतिशत भन्दा न्यून समयमा चेतावनी दिनुहोस्</short>
+	  
+	</locale>
+
+	<locale name="nl">
+	  <short>Bij weinig tijd (in plaats van een laag percentage) waarschuwen</short>
+	  <long>Gebruik de waarde gedefiniëerd in ‘red_value’ als resterende tijd om te tonen in het waarschuwingsdialoog in plaats van een percentage.</long>
+	</locale>
+
+	<locale name="nn">
+	  <short>Varsla ved lite tid i staden for låg ladingsgrad</short>
+	  
+	</locale>
+
+	<locale name="oc">
+	  <short>Alertar quand lo temps restant es pichòt</short>
+	  <long>Utilizar la valor definida dins red_value coma temps restant abans de visualizar una alèrta en plaça d&apos;un percentatge.</long>
+	</locale>
+
+	<locale name="or">
+	  <short>କମ ଶତକଡା ପରିବର୍ତ୍ତେ କମ ସମଯ ବାକି ରହିଥିବାରେ ଚେତାବନୀ ଦିଅନ୍ତୁ</short>
+	  <long>ଶତକଡ଼ା ବଦଳରେ ଚେତାବନୀ ସଂଳାପକୁ ଦର୍ଶାଇବା ପାଇଁ red_value ରେ ବ୍ୟାଖ୍ୟା କରାଯାଇଥିବା ବଳକା ସମୟକୁ ବ୍ୟବହାର କରନ୍ତୁ। </long>
+	</locale>
+
+	<locale name="pa">
+	  <short>ਘੱਟ ਫ਼ੀ-ਸਦੀ ਦੀ ਬਜਾਏ ਘੱਟ ਸਮੇਂ ਬਾਰੇ ਚੇਤਾਵਨੀ ਦਿਓ</short>
+	  <long>ਦਿੱਤੇ ਲਾਲ ਰੰਗ ਨੂੰ ਫ਼ੀ-ਸਦੀ ਦੀ ਬਜਾਏ ਬਾਕੀ ਰਹਿੰਦੇ ਸਮੇਂ ਦੇ ਅਧਾਰ &apos;ਤੇ ਚੇਤਾਵਨੀ ਵਿਖਾਉਣ ਲਈ ਵਰਤੋਂ(_v)</long>
+	</locale>
+
+	<locale name="pl">
+	  <short>Ostrzeżenie o pozostałym czasie zamiast procentach</short>
+	  <long>Użycie wartości zdefiniowanej w red_value jako pozostałego czasu do wyświetlenia okna dialogowego zamiast procentów.</long>
+	</locale>
+
+	<locale name="pt">
+	  <short>Avisar em tempo remanescente reduzido em vez de percentagem reduzida</short>
+	  <long>Utilizar o valor definido em red_value como o tempo, em vez de uma percentagem, remanescente para apresentar o diálogo de aviso.</long>
+	</locale>
+
+	<locale name="pt_BR">
+	  <short>Avisar sobre pouco tempo, em vez de baixo percentual</short>
+	  <long>Usar o valor definido em red_value como um tempo restante para mostrar a caixa de diálogo de aviso, em vez do percentual.</long>
+	</locale>
+
+	<locale name="ro">
+	  <short>Avertizează la micșorarea timpului mai degrabă decât cea a procentajului</short>
+	  <long>Folosește valoarea definită de red_value ca durată rămasă pentru afișarea dialogului de atenționare în loc de procente.</long>
+	</locale>
+
+	<locale name="ru">
+	  <short>Предупреждать о малом оставшемся времени, а не о малом проценте заряда</short>
+	  <long>Использовать значение, определенное параметром red_value, как оставшееся время для отображения предупреждения, вместо процентов.</long>
+	</locale>
+
+	<locale name="si">
+	  <short>ප්රතිශතය අඩුවීමට වඩා කාලය අඩුවීම ගැන අනතුරු හඟවන්න</short>
+	  
+	</locale>
+
+	<locale name="sk">
+	  <short>Upozorniť na slabú batériu radšej podľa času než podľa percenta</short>
+	  <long>Používať hodnotu, uvedenú v red_value, ako zostávajúci čas do zobrazenia varovného okna, a nie ako percento.</long>
+	</locale>
+
+	<locale name="sl">
+	  <short>Opozori, ko bo začelo zmanjkovati časa, namesto pri nizkih procentih.</short>
+	  <long>Uporabi vrednosti določene z rdečo kot čas, ki je preostal za prikaz opozorilnega pogovornega okna, namesto odstotkov.</long>
+	</locale>
+
+	<locale name="sq">
+	  <short>Paralajmëro për kohë të shkurtra sesa për përqindje të ulëta</short>
+	  <long>Përdor vlerën e përcaktuar në red_value si kohë e mbetur për të shfaqur dialogun paralajmërues në vend të përqindjes.</long>
+	</locale>
+
+	<locale name="sr">
+	  <short>Упозори када преостане мало времена уместо малог постотка</short>
+	  <long>Користи вредност одређену са red_value као преостало време за приказ упозорења уместо постотка.</long>
+	</locale>
+
+	<locale name="sr@latin">
+	  <short>Upozori kada preostane malo vremena umesto malog postotka</short>
+	  <long>Koristi vrednost određenu sa red_value kao preostalo vreme za prikaz upozorenja umesto postotka.</long>
+	</locale>
+
+	<locale name="sv">
+	  <short>Varna vid låg tid snarare än låg procentandel</short>
+	  <long>Använd tiden som är definierad i red_value som en återstående tid för visning av varningsdialogen snarare än en procentandel.</long>
+	</locale>
+
+	<locale name="ta">
+	  <short>சதவிகிதம் குறைவு என்பதைவிட இருப்பு நேரம் குறைவு என்று எச்சரி.</short>
+	  <long>red_value இல் வரையறுத்த மதிப்பை எச்சரிக்கை உரையாடலை காட்ட இருப்பு நேரமாக பயன்படுத்து; சதவிகிதமாக அல்ல.</long>
+	</locale>
+
+	<locale name="te">
+	  <short>తక్కువ శాతము కంటే తక్కువ సమయమున్నపుడు హెచ్చరించుము</short>
+	  <long>శాతము కంటే హెచ్చరికను చూపుటకు మిగిలివున్న సమయము వలె red_value లో నిర్వచించిన విలువను ఉపయోగించుము</long>
+	</locale>
+
+	<locale name="th">
+	  <short>เตือนเมื่อเวลาเหลือน้อย แทนเปอร์เซ็นต์ประจุเหลือน้อย</short>
+	  <long>ใช้ค่าที่กำหนดใน red_value เป็นเวลาที่เหลือที่จะแสดงกล่องโต้ตอบคำเตือน แทนที่จะใช้ค่าเปอร์เซ็นต์ประจุ</long>
+	</locale>
+
+	<locale name="tr">
+	  <short>Düşük yüzde yerine düşük zaman için uyar</short>
+	  <long>red_value içinde tanımlanmış değeri uyarı penceresini çıkarmak için kalan yüzde yerine kalan süre olarak kullan.</long>
+	</locale>
+
+	<locale name="uk">
+	  <short>Попереджувати при маленькому часі, а не при низькому відсотки</short>
+	  <long>Встановлене у параметрі red_value значення є часом, що залишився до показу діалогу попередження, а не відсотком заряду</long>
+	</locale>
+
+	<locale name="vi">
+	  <short>Cảnh báo về thời gian ít, hơn là phần trăm thấp.</short>
+	  <long>Dùng giá trị được định nghĩa trong « red_value » (giá trị màu đỏ) làm thời gian còn lại cần hiển thị trong hộp thoại cảnh báo hơn là phần trăm.</long>
+	</locale>
+
+	<locale name="zh_CN">
+	  <short>根据剩余时间而非剩余百分比给出警告</short>
+	  <long>使用 red_value 中定义的值作为显示警告对话框的剩余时间，而非剩余百分比</long>
+	</locale>
+
+	<locale name="zh_HK">
+	  <short>以低剩餘時間發出警告，而非以電量的低百份比</short>
+	  <long>使用 red_value 定義的數值作為剩餘時間顯示警告對話方塊，而非以電量的百份比。</long>
+	</locale>
+
+	<locale name="zh_TW">
+	  <short>以低剩餘時間發出警告，而非以電量的低百份比</short>
+	  <long>使用 red_value 定義的數值作為剩餘時間顯示警告對話方塊，而非以電量的百份比。</long>
+	</locale>
+      </schema>
+
+       <schema>
+        <key>/schemas/apps/battstat-applet/prefs/low_battery_notification</key>
+        <owner>battstat-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <locale name="C">
+	  <short>Low Battery Notification</short>
+          <long>Notify user when the battery is low.</long>
+        </locale>
+
+        <locale name="af">
+	  <short>Kennisgewing vir lae battery</short>
+          <long>Stel die gebruiker in kennis wanneer die battery naby aan leeg is.</long>
+        </locale>
+
+        <locale name="ar">
+	  <short>تبليغ فراغ البطارية</short>
+          <long>بلِّغ المستخدم عندما تكون البطارية فارغة.</long>
+        </locale>
+
+        <locale name="as">
+	  <short>বেটাৰি&apos;ৰ চাৰ্জ হ্ৰাস হোৱাৰ সূচনা</short>
+          <long>ব্যাটাৰি&apos;ৰ চাৰ্জ হ্ৰাস হলে ব্যৱহাৰকৰ্তাকে সূচিত কৰা হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+	  <short>Alvertencia de batería baxa</short>
+          <long>Notificar al usuariu cuando la batería tea baxa.</long>
+        </locale>
+
+        <locale name="az">
+	  <short>Alçaq Batareya Xəbərdarlığı</short>
+          
+        </locale>
+
+        <locale name="be">
+	  <short>Нагадваць пра нізкі зарад батарэі</short>
+          <long>Інфармаваць карыстальніка, калі батарэя амаль цалкам разраджана.</long>
+        </locale>
+
+        <locale name="be@latin">
+	  <short>Infarmavańnie, što akumulatar razradžany</short>
+          <long>Infarmavańnie karystalnika, što akumulatar amal razradžany.</long>
+        </locale>
+
+        <locale name="bg">
+	  <short>Известяване при нисък заряд на батерията</short>
+          <long>Известяване, когато батерията е с нисък заряд.</long>
+        </locale>
+
+        <locale name="bn">
+	  <short>ব্যাটারি&apos;র চার্জ হ্রাস হওয়ার সূচনা</short>
+          <long>ব্যাটারি&apos;র চার্জ হ্রাস পেলে ব্যবহারকারীকে জানানো হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+	  <short>ব্যাটারি&apos;র চার্জ হ্রাস হওয়ার সূচনা</short>
+          <long>ব্যাটারি&apos;র চার্জ হ্রাস হলে ব্যবহারকারীকে সূচিত করা হবে।</long>
+        </locale>
+
+        <locale name="br">
+	  <short>Rebuziñ evit ur pod-tredan damc&apos;houllo</short>
+          <long>Diskouez evit an arveriad pa &apos;z eo diskarget ar batiri.</long>
+        </locale>
+
+        <locale name="bs">
+	  <short>Obavještenje o skoro ispražnjenoj bateriji</short>
+          
+        </locale>
+
+        <locale name="ca">
+	  <short>Notificació de bateria baixa</short>
+          <long>Notifica a l&apos;usuari quan la bateria està baixa.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+	  <short>Notificació de bateria baixa</short>
+          <long>Notifica a l&apos;usuari quan la bateria està baixa.</long>
+        </locale>
+
+        <locale name="crh">
+	  <short>Düşük Pil Uyarısı</short>
+          <long>Pil az kaldığında kullanıcıyı uyar.</long>
+        </locale>
+
+        <locale name="cs">
+	  <short>Upozornění na málo nabitou baterii</short>
+          <long>Upozornit uživatele, když je nabití baterie nízké.</long>
+        </locale>
+
+        <locale name="cy">
+	  <short>Hysbysiad Batri Isel</short>
+          
+        </locale>
+
+        <locale name="da">
+	  <short>Lav ladning-annoncering</short>
+          <long>Annoncér til brugeren når batteriniveauet er lavt.</long>
+        </locale>
+
+        <locale name="de">
+	  <short>Akkubenachrichtigung »leer«</short>
+          <long>Benutzer benachrichtigen, falls der Akkustand niedrig ist</long>
+        </locale>
+
+        <locale name="dz">
+	  <short>འཕྲུལ་ལྟོའི་ནུས་ཤུགས་དམའ་བའི་བརྡ་བསྐུལ།</short>
+          <long>འཕྲུལ་ལྟོའི་ ནུས་ཤུགས་དམའ་བའི་སྐབས་ ལག་ལེན་པ་ལུ་ བརྡ་བསྐུལ་འབད།</long>
+        </locale>
+
+        <locale name="el">
+	  <short>Ειδοποίηση χαμηλής μπαταρίας</short>
+          <long>Ειδοποίηση του χρήστη όταν το φορτίο της μπαταρίας είναι χαμηλό.</long>
+        </locale>
+
+        <locale name="en@shaw">
+	  <short>𐑤𐑴 𐑚𐑨𐑑𐑼𐑦 𐑯𐑴𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯</short>
+          <long>𐑯𐑴𐑑𐑦𐑓𐑲 𐑿𐑟𐑼 𐑢𐑧𐑯 𐑞 𐑚𐑨𐑑𐑼𐑦 𐑦𐑟 𐑤𐑴.</long>
+        </locale>
+
+        <locale name="en_CA">
+	  <short>Low Battery Notification</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+	  <short>Low Battery Notification</short>
+          <long>Notify user when the battery is low.</long>
+        </locale>
+
+        <locale name="es">
+	  <short>Notificación de batería baja</short>
+          <long>Notificar al usuario cuando la batería esté baja.</long>
+        </locale>
+
+        <locale name="es_AR">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+	  <short>Notificación de batería baja</short>
+          <long>Notificar al usuario cuando la batería esté baja.</long>
+        </locale>
+
+        <locale name="es_GT">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+	  <short>Notificación de batería baja</short>
+          
+        </locale>
+
+        <locale name="et">
+	  <short>Aku tühjenemise märguanne</short>
+          <long>Kasutaja teavitamine aku tühjenemisest.</long>
+        </locale>
+
+        <locale name="eu">
+	  <short>Bateria gutxi dagoeneko jakinarazpena</short>
+          <long>Jakinarazi erabiltzaileari bateria gutxi dagoenean.</long>
+        </locale>
+
+        <locale name="fa">
+	  <short>اطلاع کم بودن باتری</short>
+          
+        </locale>
+
+        <locale name="fi">
+	  <short>Huomautus matalasta akun latauksesta</short>
+          <long>Huomauta akun ollessa lähes tyhjä.</long>
+        </locale>
+
+        <locale name="fr">
+	  <short>Notification de batterie faible</short>
+          <long>Avertit l&apos;utilisateur lorsque la batterie est faible.</long>
+        </locale>
+
+        <locale name="gl">
+	  <short>Notificación de batería baixa</short>
+          <long>Avisar ao usuario cando a batería estea baixa.</long>
+        </locale>
+
+        <locale name="gu">
+	  <short>નીચા વીજકોષની નોંધણી</short>
+          <long>જ્યારે બેટરી નીચે હોય ત્યારે વપરાશકર્તાને સૂચવો.</long>
+        </locale>
+
+        <locale name="he">
+	  <short>Low Battery Notification</short>
+          <long>Notify user when the battery is low.</long>
+        </locale>
+
+        <locale name="hi">
+	  <short>कम बैटरी सूचना</short>
+          <long>बैटरी चार्ज कम होने पर सूचित करें.</long>
+        </locale>
+
+        <locale name="hr">
+	  <short>Obavijest o slaboj bateriji</short>
+          <long>Obavijesti korisnika kada je baterija skoro prazna.</long>
+        </locale>
+
+        <locale name="hu">
+	  <short>Gyenge akkumulátor értesítés</short>
+          <long>Értesítsen, ha az akkumulátor töltöttsége alacsony.</long>
+        </locale>
+
+        <locale name="hy">
+	  <short>Լիվքաթափված Մարտկոցի Տեղեկացում</short>
+          
+        </locale>
+
+        <locale name="id">
+	  <short>Baterai Akan Habis</short>
+          
+        </locale>
+
+        <locale name="is">
+	  <short>Tilkynning um litla hleðslu</short>
+          <long>Láta notanda vita þegar rafhlaða er næstum því tóm.</long>
+        </locale>
+
+        <locale name="it">
+	  <short>Notifica batteria quasi scarica</short>
+          <long>Notificare all&apos;utente quando la batteria è quasi scarica.</long>
+        </locale>
+
+        <locale name="ja">
+	  <short>バッテリが少なくなってきた際の通知</short>
+          <long>バッテリが少なくなってきたらユーザに通知する</long>
+        </locale>
+
+        <locale name="ka">
+	  <short>შეტყობინება დაცლილი კვების ელემენტის შესახებ</short>
+          
+        </locale>
+
+        <locale name="kn">
+	  <short>ಬ್ಯಾಟರಿ ಕಡಿಮೆಗೊಂಡಿರುವ ಸೂಚನೆ</short>
+          <long>ಬ್ಯಾಟರಿ ಕಡಿಮೆ ಇದ್ದಾಗ ಬಳಕೆದಾರರಿಗೆ ಸೂಚಿಸು.</long>
+        </locale>
+
+        <locale name="ko">
+	  <short>배터리 부족하면 알림</short>
+          <long>배터리 충전량이 부족하면 알립니다.</long>
+        </locale>
+
+        <locale name="ku">
+	  <short>Hişyariya bataryaya qels</short>
+          
+        </locale>
+
+        <locale name="ky">
+	  <short>Заряддын аздыгын билдирүү</short>
+          
+        </locale>
+
+        <locale name="lt">
+	  <short>Įspėjimas baterijai išsikraunant</short>
+          <long>Pranešti, kai baterija beveik išsikrovusi.</long>
+        </locale>
+
+        <locale name="lv">
+	  <short>Paziņojums par zemu uzlādes līmeni baterijā</short>
+          <long>Paziņot lietotājam, kad baterijas enerģijas līmenis ir zems.</long>
+        </locale>
+
+        <locale name="mai">
+	  <short>कम बैटरी सूचना</short>
+          
+        </locale>
+
+        <locale name="mg">
+	  <short>Fampahafantarana vaton&apos;aratra lefy</short>
+          
+        </locale>
+
+        <locale name="mk">
+	  <short>Известување за слаба батерија</short>
+          <long>Извести го корисникот кога батеријата е слаба.</long>
+        </locale>
+
+        <locale name="ml">
+	  <short>ബാറ്ററിയില്‍ ചാര്‍ജ്ജ് വളരെ കുറവാണെന്നുളള അറിയിപ്പ്</short>
+          <long>ബാറ്ററിയില്‍ ചാര്‍ജ്ജ് കുറയുമ്പോള്‍ ഉപയോക്താവിനെ അറിയിയ്ക്കുക.</long>
+        </locale>
+
+        <locale name="mn">
+	  <short>Зай хоосорсон гэсэн Тэмдэглэгээ</short>
+          
+        </locale>
+
+        <locale name="mr">
+	  <short>कमी बॅटरी सुचना</short>
+          <long>बॅटरी कमी असल्यास उपयोक्त्यास सूचित करा.</long>
+        </locale>
+
+        <locale name="ms">
+	  <short>Pemakluman Kuasa Bateri Rendah</short>
+          
+        </locale>
+
+        <locale name="nb">
+	  <short>Varsling ved nær utladet batteri</short>
+          <long>Gi beskjed til brukeren når strømstyrken er lav</long>
+        </locale>
+
+        <locale name="ne">
+	  <short>न्यून ब्याट्री सूचना</short>
+          
+        </locale>
+
+        <locale name="nl">
+	  <short>Melding bij lege accu</short>
+          <long>Gebruiker attenderen als de accu bijna leeg is.</long>
+        </locale>
+
+        <locale name="nn">
+	  <short>Sei i frå når betteriet er nær utlada</short>
+          
+        </locale>
+
+        <locale name="oc">
+	  <short>Notificacion de carga minimala</short>
+          <long>Avisar l&apos;utilizaire que la batariá es febla.</long>
+        </locale>
+
+        <locale name="or">
+	  <short>କମ ବ୍ଯାଟେରୀ  ବିଜ୍ଞାପ୍ତି</short>
+          <long>ବ୍ୟାଟେରୀ କମ ଥିବା ସମୟରେ ଚାଳକକୁ ସୂଚିତ କରନ୍ତୁ।</long>
+        </locale>
+
+        <locale name="pa">
+	  <short>ਘੱਟ ਬੈਟਰੀ ਨੋਟੀਫਿਕੇਸ਼ਨ</short>
+          <long>ਬੈਟਰੀ ਘੱਟ ਹੋਣ ਦੀ ਹਾਲਤ ਵਿੱਚ ਯੂਜ਼ਰ ਨੂੰ ਸੂਚਨਾ ਦਿਓ</long>
+        </locale>
+
+        <locale name="pl">
+	  <short>Powiadomienie o wyczerpanym akumulatorze</short>
+          <long>Powiadomienie użytkownika o niskim poziomie naładowania akumulatora.</long>
+        </locale>
+
+        <locale name="pt">
+	  <short>Notificação de Bateria Fraca</short>
+          <long>Notificar o utilizador quando a bateria estiver fraca.</long>
+        </locale>
+
+        <locale name="pt_BR">
+	  <short>Notificação de bateria fraca</short>
+          <long>Notifica o usuário quando a bateria estiver fraca.</long>
+        </locale>
+
+        <locale name="ro">
+	  <short>Notificare acumulator descărcat</short>
+          <long>Se notifică utilizatorul când acumulatorul este descărcat.</long>
+        </locale>
+
+        <locale name="ru">
+	  <short>Уведомление о низком уровне заряда</short>
+          <long>Уведомлять о низком уровне заряда батареи.</long>
+        </locale>
+
+        <locale name="si">
+	  <short>වියළි කෝෂයේ බලය අඩු බව දැනුම්දීමයි</short>
+          
+        </locale>
+
+        <locale name="sk">
+	  <short>Upozornenie na slabú batériu</short>
+          <long>Upozorniť, keď bude batéria slabá.</long>
+        </locale>
+
+        <locale name="sl">
+	  <short>Opozorilo o nizki napolnjenosti baterije</short>
+          <long>Opozori uporabnika, ko je baterije prazna.</long>
+        </locale>
+
+        <locale name="sq">
+	  <short>Lajmërimi kur Bateria është e shkarkuar</short>
+          <long>Lajmëro përdoruesin kur bateria është e shkarkuar.</long>
+        </locale>
+
+        <locale name="sr">
+	  <short>Обавештење о слабој батерији</short>
+          <long>Обавести корисника када је батерија слаба.</long>
+        </locale>
+
+        <locale name="sr@latin">
+	  <short>Obaveštenje o slaboj bateriji</short>
+          <long>Obavesti korisnika kada je baterija slaba.</long>
+        </locale>
+
+        <locale name="sv">
+	  <short>Meddelande om låg batteriladdning</short>
+          <long>Informera användaren när batterinivån är låg.</long>
+        </locale>
+
+        <locale name="ta">
+	  <short>குறைந்த மின்கலத்தின் அறிக்கை</short>
+          <long>மின்கல பலம் இதற்கு கீழ் குறைந்தால் குறிப்பிடவும்.</long>
+        </locale>
+
+        <locale name="te">
+	  <short>తక్కువ మొత్తంలోని బాటరీ ప్రకటన</short>
+          <long>బాటరీ తక్కువగా ఉన్నపుడు వినియోగదారునకు ప్రకటించుము</long>
+        </locale>
+
+        <locale name="th">
+	  <short>แจ้งแบตเตอรี่ใกล้หมด</short>
+          <long>แจ้งผู้ใช้เมื่อแบตเตอรี่ใกล้หมด</long>
+        </locale>
+
+        <locale name="tr">
+	  <short>Düşük Pil Uyarısı</short>
+          <long>Pil az kaldığında kullanıcıyı uyar.</long>
+        </locale>
+
+        <locale name="uk">
+	  <short>Сповіщення про низький рівень заряду</short>
+          <long>Сповіщати про низький рівень заряду акумулятора.</long>
+        </locale>
+
+        <locale name="vi">
+	  <short>Thông báo pin yếu</short>
+          <long>Báo cho người dùng khi pin yếu.</long>
+        </locale>
+
+        <locale name="xh">
+	  <short>Isaziso sebhetri esezantsi</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+	  <short>低电量通知</short>
+          <long>当电池电量低时通知用户</long>
+        </locale>
+
+        <locale name="zh_HK">
+	  <short>電量太低時發出通知</short>
+          <long>當電量太低時通知使用者。</long>
+        </locale>
+
+        <locale name="zh_TW">
+	  <short>電量太低時發出通知</short>
+          <long>當電量太低時通知使用者。</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/full_battery_notification</key>
+        <owner>battstat-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+	  <short>Full Battery Notification</short>
+          <long>Notify user when the battery is full.</long>
+        </locale>
+
+        <locale name="af">
+	  <short>Kennisgewing vir vol battery</short>
+          <long>Stel die gebruiker in kennis wanneer die battery vol is.</long>
+        </locale>
+
+        <locale name="ar">
+	  <short>تبليغ تمام شحن البطارية</short>
+          <long>بلِّغ المستخدم عندما تكون البطارية تامة الشحن.</long>
+        </locale>
+
+        <locale name="as">
+	  <short>বেটাৰি&apos;ৰ চাৰ্জ সম্পূৰ্ণ হোৱাৰ সূচনা</short>
+          <long>ব্যাটাৰি&apos;ৰ চাৰ্জ সম্পূৰ্ণ হলে ব্যৱহাৰকৰ্তাকে সূচিত কৰা হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+	  <short>Alvertencia de batería llena</short>
+          <long>Notificar al usuariu cuando la batería tea enllena.</long>
+        </locale>
+
+        <locale name="az">
+	  <short>Dolu Batareya Xəbərdarlığı</short>
+          
+        </locale>
+
+        <locale name="be">
+	  <short>Нагадваць пра поўны зарад батарэі</short>
+          <long>Інфармаваць карыстальніка, калі батарэя цалкам зараджана.</long>
+        </locale>
+
+        <locale name="be@latin">
+	  <short>Infarmavańnie, što akumulatar zaradžany</short>
+          <long>Infarmavańnie karystalnika, što akumulatar zaradžany da kanca.</long>
+        </locale>
+
+        <locale name="bg">
+	  <short>Известяване за пълна батерия</short>
+          <long>Известяване, когато батерията е заредена.</long>
+        </locale>
+
+        <locale name="bn">
+	  <short>ব্যাটারি&apos;র চার্জ সম্পূর্ণ হওয়ার সূচনা</short>
+          <long>ব্যাটারি&apos;র চার্জ সম্পূর্ণ হলে ব্যবহারকারীকে জানানো হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+	  <short>ব্যাটারি&apos;র চার্জ সম্পূর্ণ হওয়ার সূচনা</short>
+          <long>ব্যাটারি&apos;র চার্জ সম্পূর্ণ হলে ব্যবহারকারীকে সূচিত করা হবে।</long>
+        </locale>
+
+        <locale name="br">
+	  <short>Rebuziñ evit ur pod-tredan leun</short>
+          <long>Diskouez evit an arveriad pa &apos;z eo karget ar batiri.</long>
+        </locale>
+
+        <locale name="bs">
+	  <short>Obavještenje o punoj bateriji</short>
+          
+        </locale>
+
+        <locale name="ca">
+	  <short>Notificació de càrrega completa</short>
+          <long>Notifica a l&apos;usuari quan la bateria està plena.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+	  <short>Notificació de càrrega completa</short>
+          <long>Notifica a l&apos;usuari quan la bateria està plena.</long>
+        </locale>
+
+        <locale name="crh">
+	  <short>Tam Pil Uyarısı</short>
+          <long>Pil tam dolduğunda kullanıcıyı uyar.</long>
+        </locale>
+
+        <locale name="cs">
+	  <short>Upozornění na nabitou baterii</short>
+          <long>Upozornit uživatele, když je baterie nabitá.</long>
+        </locale>
+
+        <locale name="cy">
+	  <short>Hysbysiad Batri Llawn</short>
+          
+        </locale>
+
+        <locale name="da">
+	  <short>Fuldt opladet-annoncering</short>
+          <long>Annoncér til brugeren når batteriet er fuldt.</long>
+        </locale>
+
+        <locale name="de">
+	  <short>Akkubenachrichtigung »voll«</short>
+          <long>Benutzer benachrichtigen, falls der Akku geladen ist.</long>
+        </locale>
+
+        <locale name="dz">
+	  <short>འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གང་བའི་བརྡ་བསྐུལ།</short>
+          <long>འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གང་པའི་སྐབས་ ལག་ལེན་པ་ལུ་ བརྡ་བསྐུལ་འབད།</long>
+        </locale>
+
+        <locale name="el">
+	  <short>Ειδοποίηση γεμάτης μπαταρίας</short>
+          <long>Ειδοποίηση του χρήστη όταν η μπαταρία είναι γεμάτη.</long>
+        </locale>
+
+        <locale name="en@shaw">
+	  <short>𐑓𐑫𐑤 𐑚𐑨𐑑𐑼𐑦 𐑯𐑴𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯</short>
+          <long>𐑯𐑴𐑑𐑦𐑓𐑲 𐑿𐑟𐑼 𐑢𐑧𐑯 𐑞 𐑚𐑨𐑑𐑼𐑦 𐑦𐑟 𐑓𐑫𐑤.</long>
+        </locale>
+
+        <locale name="en_CA">
+	  <short>Full Battery Notification</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+	  <short>Full Battery Notification</short>
+          <long>Notify user when the battery is full.</long>
+        </locale>
+
+        <locale name="es">
+	  <short>Notificación de batería cargada</short>
+          <long>Notificar al usuario cuando la batería esté cargada.</long>
+        </locale>
+
+        <locale name="es_AR">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+	  <short>Notificación de batería cargada</short>
+          <long>Notificar al usuario cuando la batería esté cargada.</long>
+        </locale>
+
+        <locale name="es_GT">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+	  <short>Notificación de batería cargada</short>
+          
+        </locale>
+
+        <locale name="et">
+	  <short>Aku täislaadimise märguanne</short>
+          <long>Kasutaja teavitamine aku täislaadimisest.</long>
+        </locale>
+
+        <locale name="eu">
+	  <short>Bateria betearen jakinarazpena</short>
+          <long>Jakinarazi erabiltzaileari bateria beteta dagoenean.</long>
+        </locale>
+
+        <locale name="fa">
+	  <short>اطلاع پر بودن باتری</short>
+          
+        </locale>
+
+        <locale name="fi">
+	  <short>Huomautus täydestä akusta</short>
+          <long>Huomauta akun ollessa täysi.</long>
+        </locale>
+
+        <locale name="fr">
+	  <short>Notification de batterie chargée</short>
+          <long>Avertit l&apos;utilisateur lorsque la batterie est chargée.</long>
+        </locale>
+
+        <locale name="gl">
+	  <short>Notificación de batería cargada</short>
+          <long>Avisar ao usuario cando a batería estea cargada.</long>
+        </locale>
+
+        <locale name="gu">
+	  <short>પૂરા વીજકોષની નોંધણી</short>
+          <long>જ્યારે બેટરી ભરેલી હોય ત્યારે વપરાશકર્તાને સૂચવો.</long>
+        </locale>
+
+        <locale name="he">
+	  <short>Full Battery Notification</short>
+          <long>Notify user when the battery is full.</long>
+        </locale>
+
+        <locale name="hi">
+	  <short>पूरी बैटरी सूचना</short>
+          <long>बैटरी पूर्णतः चार्ज होने पर सूचित करें.</long>
+        </locale>
+
+        <locale name="hr">
+	  <short>Obavijest o punoj bateriji</short>
+          <long>Obavijesti korisnika kada je baterija puna.</long>
+        </locale>
+
+        <locale name="hu">
+	  <short>Teli akkumulátor értesítés</short>
+          <long>Értesítsen, ha az akkumulátor teljesen fel van töltve.</long>
+        </locale>
+
+        <locale name="hy">
+	  <short>Լիցքավորված Մարտկոցի Տեղեկացում</short>
+          
+        </locale>
+
+        <locale name="id">
+	  <short>Notifikasi Baterai Penuh</short>
+          
+        </locale>
+
+        <locale name="is">
+	  <short>Tilkynning um fulla hleðslu</short>
+          <long>Láta notanda vita þegar rafhlaða er fullhlaðin.</long>
+        </locale>
+
+        <locale name="it">
+	  <short>Notifica batteria carica</short>
+          <long>Notificare all&apos;utente quando la batteria è carica.</long>
+        </locale>
+
+        <locale name="ja">
+	  <short>充電が完了した際の通知</short>
+          <long>バッテリの充電が完了したらユーザに通知する</long>
+        </locale>
+
+        <locale name="ka">
+	  <short>შეტყობინება - ბოლომდე დატენვის შემთხვევაში</short>
+          
+        </locale>
+
+        <locale name="kn">
+	  <short>ಬ್ಯಾಟರಿ ಪೂರ್ಣಗೊಂಡಿರುವ ಸೂಚನೆ</short>
+          <long>ಬ್ಯಾಟರಿ ಪೂರ್ಣ ತುಂಬಿದ್ದಾಗ ಬಳಕೆದಾರನಿಗೆ ಸೂಚಿಸು.</long>
+        </locale>
+
+        <locale name="ko">
+	  <short>배터리 충전되면 알림</short>
+          <long>배터리가 완전히 충전되었을 때 알립니다.</long>
+        </locale>
+
+        <locale name="ku">
+	  <short>Hişyariya bataryayê ya tam</short>
+          
+        </locale>
+
+        <locale name="ky">
+	  <short>Заряддын толуктугун билдирүү</short>
+          
+        </locale>
+
+        <locale name="lt">
+	  <short>Įspėjimas esant pilnai baterijai</short>
+          <long>Pranešti, kai baterija pilna.</long>
+        </locale>
+
+        <locale name="lv">
+	  <short>Paziņojums par uzlādētu bateriju</short>
+          <long>Paziņot lietotājam, kad baterija ir pilnībā uzlādēta.</long>
+        </locale>
+
+        <locale name="mai">
+	  <short>भरल बैटरी सूचना</short>
+          
+        </locale>
+
+        <locale name="mg">
+	  <short>Fampahafantarana vaton&apos;aratra feno</short>
+          
+        </locale>
+
+        <locale name="mk">
+	  <short>Известување за полна батерија</short>
+          <long>Извести го корисникот кога батеријата е полна.</long>
+        </locale>
+
+        <locale name="ml">
+	  <short>ബാറ്ററിയില്‍ മുഴുവന്‍ ചാര്‍ജ്ജും ഉണ്ടെന്ന അറിയിപ്പ്</short>
+          <long>ബാറ്ററിയില്‍ ചാര്‍ജ്ജ് പൂര്‍ണ്ണമാകുമ്പോള്‍ ഉപയോക്താവിനെ അറിയിക്കുക.</long>
+        </locale>
+
+        <locale name="mn">
+	  <short>Зай бүрэн гэсэн Тэмдэглэгээ</short>
+          
+        </locale>
+
+        <locale name="mr">
+	  <short>पूर्ण बॅटरी सूचना</short>
+          <long>बॅटरी पुर्ण झाल्यावर सुचना द्या.</long>
+        </locale>
+
+        <locale name="ms">
+	  <short>Pemakluman Bateri Penuh</short>
+          
+        </locale>
+
+        <locale name="nb">
+	  <short>Varsling ved fullt batteri</short>
+          <long>Gi brukeren beskjed når batteriet er fullt oppladet</long>
+        </locale>
+
+        <locale name="ne">
+	  <short>पूरा ब्याट्री सूचना</short>
+          
+        </locale>
+
+        <locale name="nl">
+	  <short>Melding bij volle accu</short>
+          <long>Gebruiker attenderen als de accu volledig opgeladen is.</long>
+        </locale>
+
+        <locale name="nn">
+	  <short>Sei i frå når betteriet er fullada</short>
+          
+        </locale>
+
+        <locale name="oc">
+	  <short>Notificacion de carga maximala</short>
+          <long>Avisar l&apos;utilizaire que la batariá es plena.</long>
+        </locale>
+
+        <locale name="or">
+	  <short>ପୂର୍ଣ୍ଣ ବ୍ଯାଟେରୀ ବିଜ୍ଞାପ୍ତି</short>
+          <long>ବ୍ୟାଟେରୀ ସମ୍ପୂର୍ଣ୍ଣ ଥିବା ସମୟରେ ଚାଳକକୁ ସୂଚିତ କରନ୍ତୁ।</long>
+        </locale>
+
+        <locale name="pa">
+	  <short>ਪੂਰੀ ਬੈਟਰੀ ਨੋਟੀਫਿਕੇਸਨ</short>
+          <long>ਬੈਟਰੀ ਪੂਰੀ ਤਰਾਂ ਚਾਰਜ ਹੋਣ ਉੱਤੇ ਯੂਜ਼ਰ ਨੂੰ ਸੂਚਨਾ ਦਿਓ</long>
+        </locale>
+
+        <locale name="pl">
+	  <short>Powiadomienie o naładowanym akumulatorze</short>
+          <long>Powiadomienie użytkownika o pełnym naładowaniu akumulatora.</long>
+        </locale>
+
+        <locale name="pt">
+	  <short>Notificação de Bateria Carregada</short>
+          <long>Notificar o utilizador quando a bateria estiver cheia.</long>
+        </locale>
+
+        <locale name="pt_BR">
+	  <short>Notificação de bateria completamente carregada</short>
+          <long>Notifica o usuário quando a bateria estiver completamente carregada.</long>
+        </locale>
+
+        <locale name="ro">
+	  <short>Notificare acumulator încărcat</short>
+          <long>Notifică utilizatorul când acumulatorul este încărcat.</long>
+        </locale>
+
+        <locale name="ru">
+	  <short>Уведомление о полном заряде</short>
+          <long>Уведомлять о полном заряде батареи.</long>
+        </locale>
+
+        <locale name="si">
+	  <short>වියළි කෝෂය සම්පූර්ණ බව දැනුම්දීමයි</short>
+          
+        </locale>
+
+        <locale name="sk">
+	  <short>Upozornenie na plnú batériu</short>
+          <long>Upozorniť, keď bude batéria plne nabitá</long>
+        </locale>
+
+        <locale name="sl">
+	  <short>Opozorilo o polnosti baterije</short>
+          <long>Opozori uporabnika, ko je baterija polna.</long>
+        </locale>
+
+        <locale name="sq">
+	  <short>Lajmërim kur Bateria është Plot</short>
+          <long>Lajmëro përdoruesin kur bateria është plot.</long>
+        </locale>
+
+        <locale name="sr">
+	  <short>Обавештење о пуној батерији</short>
+          <long>Обавести корисника када се напуни батерија.</long>
+        </locale>
+
+        <locale name="sr@latin">
+	  <short>Obaveštenje o punoj bateriji</short>
+          <long>Obavesti korisnika kada se napuni baterija.</long>
+        </locale>
+
+        <locale name="sv">
+	  <short>Meddelande om full laddning</short>
+          <long>Informera användaren när batteriet är helt uppladdat.</long>
+        </locale>
+
+        <locale name="ta">
+	  <short>முழு மின்கலத்தின் அறிக்கை</short>
+          <long>மின்கலம் முழுமையாக ஏற்றப்பட்டுள்ளது என்பதை பயனருக்கு அறிவி.</long>
+        </locale>
+
+        <locale name="te">
+	  <short>సంతృప్త బాటరీ ప్రకటన</short>
+          <long>బాటరీ నిండినపుడు వినియోగదారునకు ప్రకటించుము</long>
+        </locale>
+
+        <locale name="th">
+	  <short>แจ้งแบตเตอรี่เต็ม</short>
+          <long>แจ้งผู้ใช้เมื่อแบตเตอรี่เต็ม</long>
+        </locale>
+
+        <locale name="tr">
+	  <short>Tam Pil Uyarısı</short>
+          <long>Pil tam dolduğunda kullanıcıyı uyar.</long>
+        </locale>
+
+        <locale name="uk">
+	  <short>Сповіщення про повний заряд</short>
+          <long>Сповіщати про повний рівень заряду акумулятора.</long>
+        </locale>
+
+        <locale name="vi">
+	  <short>Thông báo pin đầy</short>
+          <long>Báo cho người dùng khi pin đầy.</long>
+        </locale>
+
+        <locale name="xh">
+	  <short>Isaziso sebhetri egcweleyo</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+	  <short>满电量通知</short>
+          <long>当电池充满电时通知用户</long>
+        </locale>
+
+        <locale name="zh_HK">
+	  <short>電量全滿時發出通知</short>
+          <long>當充電完成後通知使用者。</long>
+        </locale>
+
+        <locale name="zh_TW">
+	  <short>電量全滿時發出通知</short>
+          <long>當充電完成後通知使用者。</long>
+        </locale>
+      </schema>      
+
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/beep</key>
+        <owner>battstat-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+	  <short>Beep for warnings</short>
+          <long>Beep when displaying a warning.</long>
+        </locale>
+
+        <locale name="af">
+	  <short>Biep vir waarskuwings</short>
+          <long>Biep wanneer &apos;n waarskuwing vertoon word.</long>
+        </locale>
+
+        <locale name="ar">
+	  <short>صفّر للتنبيه</short>
+          <long>صفّر عند عرض تنبيه.</long>
+        </locale>
+
+        <locale name="as">
+	  <short>সতৰ্কতাৰ বাবে বিপ শব্দ কৰা হ&apos;ব</short>
+          <long>সতৰ্কবাৰ্তা প্ৰদৰ্শনেৰ সময় বিপ শব্দ কৰা হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+	  <short>Sones pa les alvertencies</short>
+          <long>Pitar al amosar una alvertencia.</long>
+        </locale>
+
+        <locale name="az">
+	  <short>Xəbərdarlıqlarda səs çixart</short>
+          
+        </locale>
+
+        <locale name="be">
+	  <short>Сыгнал для папярэджваньняў</short>
+          <long>Гудок падчас адлюстраваньня папярэданьня</long>
+        </locale>
+
+        <locale name="be@latin">
+	  <short>Huk pry aściarohach</short>
+          <long>Hukavy syhnał padčas demanstracyi aściarohi.</long>
+        </locale>
+
+        <locale name="bg">
+	  <short>Звук при предупреждения</short>
+          <long>Звук при изобразяването на предупреждение.</long>
+        </locale>
+
+        <locale name="bn">
+	  <short>সতর্কতার জন্য বিপ শব্দ করা হবে</short>
+          <long>সতর্কবার্তা প্রদর্শনের সময় বিপ শব্দ করা হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+	  <short>সতর্কতার জন্য বিপ শব্দ করা হবে</short>
+          <long>সতর্কবার্তা প্রদর্শনের সময় বিপ শব্দ করা হবে।</long>
+        </locale>
+
+        <locale name="br">
+	  <short>Bipoù kelaouiñ</short>
+          <long>Bip pa vez diskouezet ur gemenn.</long>
+        </locale>
+
+        <locale name="bs">
+	  <short>Zvučna upozorenja</short>
+          
+        </locale>
+
+        <locale name="ca">
+	  <short>Avisa amb un so</short>
+          <long>Fes «beep» quan es mostri un avís.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+	  <short>Avisa amb un so</short>
+          <long>Fes «beep» quan es mostre un avís.</long>
+        </locale>
+
+        <locale name="crh">
+	  <short>Uyarılarda biple</short>
+          <long>Bir uyarı görüntülendiğinde biple.</long>
+        </locale>
+
+        <locale name="cs">
+	  <short>Pípnout při varování</short>
+          <long>Pípnout při zobrazování varování.</long>
+        </locale>
+
+        <locale name="cy">
+	  <short>Bipio ar gyfer rhybuddion</short>
+          
+        </locale>
+
+        <locale name="da">
+	  <short>Bip ved advarsler</short>
+          <long>Bip når en advarsel vises.</long>
+        </locale>
+
+        <locale name="de">
+	  <short>Bei Warnungen Signalton ausgeben</short>
+          <long>Beim Anzeigen einer Warnung einen Signalton ausgeben.</long>
+        </locale>
+
+        <locale name="dz">
+	  <short>ཉེན་བརྡའི་དོན་ལུ་ བརྡ་སྐད་སྟོན།</short>
+          <long>ཉེན་བརྡ་ བཀྲམ་སྟོན་འབད་བའི་སྐབས་ བརྡ་སྐད་སྟོན།</long>
+        </locale>
+
+        <locale name="el">
+	  <short>Ήχος μπιπ για προειδοποιήσεις</short>
+          <long>Ήχος μπιπ κατά την προβολή ειδοποίησης</long>
+        </locale>
+
+        <locale name="en@shaw">
+	  <short>𐑚𐑰𐑐 𐑓𐑹 𐑢𐑪𐑮𐑯𐑦𐑙𐑟</short>
+          <long>𐑚𐑰𐑐 𐑢𐑧𐑯 𐑛𐑦𐑕𐑐𐑤𐑱𐑦𐑙 𐑩 𐑢𐑹𐑯𐑦𐑙.</long>
+        </locale>
+
+        <locale name="en_CA">
+	  <short>Beep for warnings</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+	  <short>Beep for warnings</short>
+          <long>Beep when displaying a warning.</long>
+        </locale>
+
+        <locale name="es">
+	  <short>Pitar para los avisos</short>
+          <long>Pitar al mostrar un aviso</long>
+        </locale>
+
+        <locale name="es_AR">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+	  <short>Pitar para los avisos</short>
+          <long>Pitar al mostrar un aviso</long>
+        </locale>
+
+        <locale name="es_GT">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+	  <short>Pitar para las advertencias</short>
+          
+        </locale>
+
+        <locale name="et">
+	  <short>Hoiatuste puhul tehakse piiksu</short>
+          <long>Hoiatuse kuvamisel tehakse piiksu.</long>
+        </locale>
+
+        <locale name="eu">
+	  <short>Jo soinua abisuetan</short>
+          <long>Jo soinua abisuak bistaratzean.</long>
+        </locale>
+
+        <locale name="fa">
+	  <short>بوق برای هشدار</short>
+          
+        </locale>
+
+        <locale name="fi">
+	  <short>Anna äänimerkki varoitettaessa</short>
+          <long>Piippaa näytettäessä varoitus.</long>
+        </locale>
+
+        <locale name="fr">
+	  <short>Bip pour les avertissements</short>
+          <long>Bip lors de l&apos;affichage d&apos;un avertissement.</long>
+        </locale>
+
+        <locale name="gl">
+	  <short>Emitir un ton para os avisos</short>
+          <long>Emitir un ton cando se mostre un aviso.</long>
+        </locale>
+
+        <locale name="gu">
+	  <short>ચેતવણીઓ માટે બીપ વગાડો</short>
+          <long>જ્યારે ચેતવણી દર્શાવી રહ્યા હોય ત્યારે બીપ વગાડો.</long>
+        </locale>
+
+        <locale name="he">
+	  <short>Beep for warnings</short>
+          <long>Beep when displaying a warning.</long>
+        </locale>
+
+        <locale name="hi">
+	  <short>चेतावनी हेतु बीप करें</short>
+          <long>चेतावनी दिखाते समय बीप करें</long>
+        </locale>
+
+        <locale name="hr">
+	  <short>Oglasi se pri upozorenjima</short>
+          
+        </locale>
+
+        <locale name="hu">
+	  <short>Hangjelzés figyelmeztetéskor</short>
+          <long>Hangjelzés figyelmeztetés megjelenítésekor.</long>
+        </locale>
+
+        <locale name="hy">
+	  <short>Ազդանշանել նախազգուշացումների դեպքում</short>
+          
+        </locale>
+
+        <locale name="id">
+	  <short>Bunyikan suara peringatan</short>
+          
+        </locale>
+
+        <locale name="is">
+	  <short>Bípa fyrir viðvaranir</short>
+          <long>Gefa hljóðmerki þegar varúðartilkynning er birt.</long>
+        </locale>
+
+        <locale name="it">
+	  <short>Avviso sonoro per avvertimenti</short>
+          <long>Avviso sonoro quando è mostrato un avvertimento.</long>
+        </locale>
+
+        <locale name="ja">
+	  <short>警告する際のビープ音</short>
+          <long>警告メッセージを表示する際にビープ音を鳴らす</long>
+        </locale>
+
+        <locale name="ka">
+	  <short>ხმოვანი შეტყობინება გაფრთხილებისას</short>
+          
+        </locale>
+
+        <locale name="kn">
+	  <short>ಎಚ್ಚರಿಕೆಗಾಗಿ ಬೀಪ್ ಶಬ್ದ ಮಾಡು</short>
+          <long>ಒಂದು ಎಚ್ಚರಿಕೆಯನ್ನು ತೋರಿಸುವಾಗ ಬೀಪ್ ಶಬ್ಧ ಮಾಡು.</long>
+        </locale>
+
+        <locale name="ko">
+	  <short>경고할 때 삑소리</short>
+          <long>경고를 보여줄 때 삑소리를 냅니다.</long>
+        </locale>
+
+        <locale name="ku">
+	  <short>Di hişyariyan de bike tûtût</short>
+          
+        </locale>
+
+        <locale name="ky">
+	  <short>Үн сигналы менен эскертүү</short>
+          
+        </locale>
+
+        <locale name="lt">
+	  <short>Pyptelti esant įspėjimams</short>
+          <long>Pyptelti, kai rodomas įspėjimas.</long>
+        </locale>
+
+        <locale name="lv">
+	  <short>Pīkstēt pie brīdinājuma</short>
+          <long>Pīkstēt parādot brīdinājumu.</long>
+        </locale>
+
+        <locale name="mai">
+	  <short>चेतावनी लेल बीप करू</short>
+          
+        </locale>
+
+        <locale name="mg">
+	  <short>Feo fampilazana</short>
+          
+        </locale>
+
+        <locale name="mk">
+	  <short>Свирни на предупредувања</short>
+          <long>Свирни кога се прикажува предупредување.</long>
+        </locale>
+
+        <locale name="ml">
+	  <short>മുന്നറിയിപ്പുകള്‍ ശബ്ദമുണ്ടാക്കി അറിയിക്കുക</short>
+          <long>മുന്നറിയിപ്പ് കാണിക്കുമ്പോള്‍ ശബ്ദമുണ്ടാക്കുക</long>
+        </locale>
+
+        <locale name="mn">
+	  <short>Анхааруулах Бүрээ</short>
+          
+        </locale>
+
+        <locale name="mr">
+	  <short>सुचनांसाठी बीप वाजवा</short>
+          <long>सुचना दाखवताना बीप करा.</long>
+        </locale>
+
+        <locale name="ms">
+	  <short>Bip untuk amaran</short>
+          
+        </locale>
+
+        <locale name="nb">
+	  <short>Pip for advarsler</short>
+          <long>Pip når en advarsel vises</long>
+        </locale>
+
+        <locale name="ne">
+	  <short>चेतावनीहरूका लागि बिप</short>
+          
+        </locale>
+
+        <locale name="nl">
+	  <short>Piepen bij waarschuwingen</short>
+          <long>Piepen bij weergave van een waarschuwing</long>
+        </locale>
+
+        <locale name="nn">
+	  <short>Pip ved åtvaringar</short>
+          
+        </locale>
+
+        <locale name="oc">
+	  <short>Bip per alèrtas</short>
+          <long>Bip quand s&apos;aficha una alèrta.</long>
+        </locale>
+
+        <locale name="or">
+	  <short>ଚେତାବନୀ ପାଇଁ ମିଟିମିଟି କରିଥାଏ</short>
+          <long>ଚେତାବନୀ ଦେବା ସମୟରେ ମିଟିମିଟି କରିଥାଏ।</long>
+        </locale>
+
+        <locale name="pa">
+	  <short>ਚੇਤਾਵਨੀ ਲਈ ਬੀਪ</short>
+          <long>ਚੇਤਾਵਨੀ ਦੇਣ ਸਮੇਂ ਬੀਪ ਦਿਓ।</long>
+        </locale>
+
+        <locale name="pl">
+	  <short>Dźwięk przy ostrzeżeniach</short>
+          <long>Sygnał dźwiękowy podczas wyświetlania ostrzeżenia.</long>
+        </locale>
+
+        <locale name="pt">
+	  <short>Emitir &quot;beep&quot; para avisos</short>
+          <long>Emitir &quot;beep&quot; ao apresentar um aviso.</long>
+        </locale>
+
+        <locale name="pt_BR">
+	  <short>Emitir alarme sonoro para avisos</short>
+          <long>Emitir alarme sonoro ao exibir um aviso.</long>
+        </locale>
+
+        <locale name="ro">
+	  <short>Bip la avertismente</short>
+          <long>Se va reda un sunet când există vreo atenționare</long>
+        </locale>
+
+        <locale name="ru">
+	  <short>Предупреждать звуковым сигналом</short>
+          <long>Сопровождать вывод предупреждений звуковым сигналом.</long>
+        </locale>
+
+        <locale name="si">
+	  <short>අවවාදය සඳහා බියිප් හඬ</short>
+          
+        </locale>
+
+        <locale name="sk">
+	  <short>Varovať pomocou pípnutia</short>
+          <long>Pípnuť pri zobrazení varovania.</long>
+        </locale>
+
+        <locale name="sl">
+	  <short>Piskaj ob opozorilih</short>
+          <long>Zapiskaj ob prikazu opozorila.</long>
+        </locale>
+
+        <locale name="sq">
+	  <short>Paralajmëro me beep</short>
+          <long>Beep kur shfaq një paralajmërim.</long>
+        </locale>
+
+        <locale name="sr">
+	  <short>Свирај ради упозорења</short>
+          <long>Свирај при приказивању упозорења.</long>
+        </locale>
+
+        <locale name="sr@latin">
+	  <short>Sviraj radi upozorenja</short>
+          <long>Sviraj pri prikazivanju upozorenja.</long>
+        </locale>
+
+        <locale name="sv">
+	  <short>Pip för varningar</short>
+          <long>Pip när en varning visas.</long>
+        </locale>
+
+        <locale name="ta">
+	  <short>எச்சரிக்கைக்கான பீப் ஒலி</short>
+          <long>எச்சரிக்கையை காண்பிக்கும் போது ஒலி. </long>
+        </locale>
+
+        <locale name="te">
+	  <short>హెచ్చరికల కొరకు బీప్ శబ్దము</short>
+          <long>హెచ్చరికను ప్రదర్శించునపుడు బీప్</long>
+        </locale>
+
+        <locale name="th">
+	  <short>บี๊ปเมื่อเตือน</short>
+          <long>ออกเสียงบี๊ปเมื่อแสงคำเตือน</long>
+        </locale>
+
+        <locale name="tr">
+	  <short>Uyarılarda biple</short>
+          <long>Bir uyarı görüntülendiğinde biple.</long>
+        </locale>
+
+        <locale name="uk">
+	  <short>Попередження звуковим сигналом</short>
+          <long>Супроводжувати вивід попереджень звуковим сигналом.</long>
+        </locale>
+
+        <locale name="vi">
+	  <short>Kêu bíp khi cảnh báo</short>
+          <long>Kêu bíp khi hiển thị cảnh báo.</long>
+        </locale>
+
+        <locale name="xh">
+	  <short>Yenza isandi ukulumkisa</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+	  <short>警告响铃</short>
+          <long>显示警告时响铃</long>
+        </locale>
+
+        <locale name="zh_HK">
+	  <short>顯示訊息時發出聲響</short>
+          <long>顯示訊息時同時發出聲響。</long>
+        </locale>
+
+        <locale name="zh_TW">
+	  <short>顯示訊息時發出聲響</short>
+          <long>顯示訊息時同時發出聲響。</long>
+        </locale>
+      </schema>      
+                      
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/drain_from_top</key>
+        <owner>battstat-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+	  <short>Drain from top</short>
+          <long>Show the battery meter draining from the top of the battery. Only implemented for traditional battery view.</long>
+        </locale>
+
+        <locale name="af">
+	  <short>Dreineer van bo af</short>
+          <long>Vertoon die leegword van die batterymeter van die bokant van die battery af. Slegs geïmplimenteer vir tradisionele aansig.</long>
+        </locale>
+
+        <locale name="ar">
+	  <short>أفرغ من أعلى</short>
+          <long>اعرض مسطرة البطارية وهي تفرغ من أعلى البطارية. موجود فقط في عرض البطارية التقليدي.</long>
+        </locale>
+
+        <locale name="as">
+	  <short>উপৰৰ পৰ নিঃশেষ কৰা হ&apos;ব</short>
+          <long>বেটাৰি&apos;ৰ ক্ষমতা হ্ৰাসৰ মাত্ৰা উপৰৰ পৰা নিঃশেষ কৰোঁতে প্ৰদৰ্শন কৰা হ&apos;ব । অকলপাৰম্পৰিক বেটাৰি প্ৰদৰ্শনৰ ক্ষেত্ৰত প্ৰযোজ্য ।</long>
+        </locale>
+
+        <locale name="ast">
+	  <short>Vaciar dende arriba</short>
+          <long>Amosar el mididor de batería vaciándose dende la so parte superior. Implementáu namái na vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="az">
+	  <short>Yuxarıdan boşalt</short>
+          
+        </locale>
+
+        <locale name="be">
+	  <short>Памяншацца зьверху</short>
+          <long>Памяншаць індыкатар зараду зьверху ўніз. Зроблена толькі для традыцыйнага выгляду батарэі.</long>
+        </locale>
+
+        <locale name="be@latin">
+	  <short>Razradka źvierchu ŭniz</short>
+          <long>Pakazvaj źmianšeńnie ŭzroŭniu zaradki akumulatara. Implementavana tolki dla tradycyjnaha vyhladu akumulatara.</long>
+        </locale>
+
+        <locale name="bg">
+	  <short>Изразходване отгоре</short>
+          <long>Датчикът за батерията да се изразходва от върха на батерията. Изгледът е приложим за традиционния изглед на батерията.</long>
+        </locale>
+
+        <locale name="bn">
+	  <short>উপর থেকে নিঃশেষ করা হবে</short>
+          <long>ব্যাটারি&apos;র ক্ষমতা হ্রাসের মাত্রা উপর থেকে নিঃশেষ করতে প্রদর্শন করা হবে। শুধুমাত্র পারম্পরিত ব্যাটারি প্রদর্শনের ক্ষেত্রে প্রযোজ্য।</long>
+        </locale>
+
+        <locale name="bn_IN">
+	  <short>উপর থেকে নিঃশেষ করা হবে</short>
+          <long>ব্যাটারি&apos;র ক্ষমতা হ্রাসের মাত্রা উপর থেকে নিঃশেষ করতে প্রদর্শন করা হবে। শুধুমাত্র পারম্পরিত ব্যাটারি প্রদর্শনের ক্ষেত্রে প্রযোজ্য।</long>
+        </locale>
+
+        <locale name="br">
+	  <short>Goulledonriñ adalek uhel</short>
+          <long>Diskouez konter ar batiri adalek uhel ar batiri. Kefloueret evit ar wel hengounel batiri hepken.</long>
+        </locale>
+
+        <locale name="bs">
+	  <short>Istječe od vrha</short>
+          
+        </locale>
+
+        <locale name="ca">
+	  <short>Buida des de la part superior</short>
+          <long>Mostra el mesurador de bateria buidant-se des de la part superior de la bateria. Només es troba disponible des de la visualització de bateria tradicional.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+	  <short>Buida des de la part superior</short>
+          <long>Mostra el mesurador de bateria buidant-se des de la part superior de la bateria. Només es troba disponible des de la visualització de bateria tradicional.</long>
+        </locale>
+
+        <locale name="crh">
+	  <short>Yukarıdan boşalt</short>
+          <long>Pil ölçüsünü pilin yukarısından boşalır şekilde göster. Sadece geleneksel pil görünümü için uygulanmıştır.</long>
+        </locale>
+
+        <locale name="cs">
+	  <short>Vybíjet shora</short>
+          <long>Zobrazovat ve sledování baterie vybíjení z horní strany baterie. Implementováno jen pro tradiční zobrazení baterie.</long>
+        </locale>
+
+        <locale name="cy">
+	  <short>Gwagu o&apos;r pen</short>
+          <long>Dangos y mesur batri yn gwacáu o ben y batri. Dim ond ar gael ar gyfer yr olwg batri traddodiadol.</long>
+        </locale>
+
+        <locale name="da">
+	  <short>Tøm fra top</short>
+          <long>Lad batterimeteret tømmes fra toppen af batteriet. Kun implementeret for traditionelt baterioversigt.</long>
+        </locale>
+
+        <locale name="de">
+	  <short>Von oben herunterzählen</short>
+          <long>Den Akkuzustandsmesser so anzeigen, dass er von oben nach unten herunterzählt. Dies ist nur für die traditionelle Anzeige verfügbar.</long>
+        </locale>
+
+        <locale name="dz">
+	  <short>མགུ་ལས་བཙགས་གཏང་།</short>
+          <long>འཕྲུལ་ལྟོའི་མགུ་ལས་བཙགས་པའི་ འཕྲུལ་ལྟོའི་མི་ཊར་སྟོན། སྔར་སྲོལ་འཕྲུལ་ལྟོའི་དོན་ལུ་རྐྱངམ་གཅིག་ བསྟཡཝར་སྤྱོད་འབདཝ་ཨིན།</long>
+        </locale>
+
+        <locale name="el">
+	  <short>Άδειασμα από την κορυφή</short>
+          <long>Εμφάνιση της μέτρησης της μπαταρίας να αδειάζει από την κορυφή της μπαταρίας. Μόνο για την παραδοσιακή προβολή της μπαταρίας.</long>
+        </locale>
+
+        <locale name="en@shaw">
+	  <short>𐑛𐑮𐑱𐑯 𐑓𐑮𐑪𐑥 𐑑𐑪𐑐</short>
+          <long>𐑖𐑴 𐑞 𐑚𐑨𐑑𐑼𐑦 𐑥𐑰𐑑𐑼 𐑛𐑮𐑱𐑯𐑦𐑙 𐑓𐑮𐑪𐑥 𐑞 𐑑𐑪𐑐 𐑝 𐑞 𐑚𐑨𐑑𐑼𐑦. 𐑴𐑯𐑤𐑦 𐑦𐑥𐑐𐑤𐑩𐑥𐑧𐑯𐑑𐑩𐑛 𐑓𐑹 𐑑𐑮𐑩𐑛𐑦𐑖𐑩𐑯𐑩𐑤 𐑚𐑨𐑑𐑼𐑦 𐑝𐑿.</long>
+        </locale>
+
+        <locale name="en_CA">
+	  <short>Drain from top</short>
+          <long>Show the battery meter draining from the top of the battery. Only implemented for traditional battery view.</long>
+        </locale>
+
+        <locale name="en_GB">
+	  <short>Drain from top</short>
+          <long>Show the battery meter draining from the top of the battery. Only implemented for traditional battery view.</long>
+        </locale>
+
+        <locale name="es">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_AR">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_CL">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_CO">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_CR">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_DO">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_EC">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_ES">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_GT">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_HN">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_MX">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_NI">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_PA">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_PE">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_PR">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_SV">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_UY">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="es_VE">
+	  <short>Vaciar desde arriba</short>
+          <long>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</long>
+        </locale>
+
+        <locale name="et">
+	  <short>Eemalda tipust</short>
+          <long>Akuindikaatori kuvamisel laadimise nivoo kuvamine. Teostatud ainult klassikalise akuvaate puhul.</long>
+        </locale>
+
+        <locale name="eu">
+	  <short>Hustu goitik behera</short>
+          <long>Erakutsi bateriaren neurgailua goitik behera hustutzen. Bateria tradizionalaren ikuspegian inplementatuta dago soilik.</long>
+        </locale>
+
+        <locale name="fa">
+	  <short>از بالا خالی شود</short>
+          <long>پایین آمدن درجه‌ی باتری‌سنج به شکل خالی شدن از سر باتری نشان داده شود. فقط در نمای باتری سنتی پیاده‌سازی شده است.</long>
+        </locale>
+
+        <locale name="fi">
+	  <short>Tyhjennä yläpäästä</short>
+          <long>Näytä yläpäästä tyhjentyvä akun latausmittari. Toteutettu vain perinteisessä akun näkymässä.</long>
+        </locale>
+
+        <locale name="fr">
+	  <short>Vider depuis le haut</short>
+          <long>Affiche le compteur de la batterie depuis le haut de la batterie. Seulement implémenté pour la vue traditionnelle de la batterie.</long>
+        </locale>
+
+        <locale name="gl">
+	  <short>Consumir desde arriba</short>
+          <long>Mostrar o contador de batería baleirándose desde a parte superior da batería. Só se aplica para a visualización tradicional de batería.</long>
+        </locale>
+
+        <locale name="gu">
+	  <short>ઉપરથી વહી જાઓ</short>
+          <long>વીજકોષની ટોચ પરથી વહેતા પ્રવાહ માટે વીજકોષ મીટર બતાવો. માત્ર પારંપરિક વીજકોષ દેખાવ માટે અમલમાં મૂકાયેલ છે.</long>
+        </locale>
+
+        <locale name="he">
+	  <short>Drain from top</short>
+          <long>Show the battery meter draining from the top of the battery. Only implemented for traditional battery view.</long>
+        </locale>
+
+        <locale name="hi">
+	  <short>ऊपर से खाली करें</short>
+          <long>बैटरी के शीर्ष से खाली होता बैटरी मीटर दिखाएँ. सिर्फ पारंपरिक बैटरी दृश्य के लिये.</long>
+        </locale>
+
+        <locale name="hr">
+	  <short>Cijedi sa vrha</short>
+          <long>Prikaži pražnjenje baterije od vrha. Ostvareno samo za standardni pregled stanja baterije.</long>
+        </locale>
+
+        <locale name="hu">
+	  <short>Fentről lefelé számoljon</short>
+          <long>Az akkumulátor-töltöttségének kijelzése az elem tetejétől csökkenjen. Csak a hagyományos akkumulátornézetnél van megvalósítva.</long>
+        </locale>
+
+        <locale name="hy">
+	  <short>Սպառել վերևից</short>
+          <long>Ցուցադրել մարտկոցի ցուցչի վերից վար իջեցումը։ Կիրառելի է միայն մարտկոցի ավանդական տեսաբերման ժամանակ։</long>
+        </locale>
+
+        <locale name="id">
+	  <short>Turun dari atas</short>
+          <long>Tunjukkan indikator baterai turun dari atas baterai. Ini hanya berlaku pada tampilan baterai tradisional.</long>
+        </locale>
+
+        <locale name="is">
+	  <short>Tæma að ofan</short>
+          <long>Sýnir rafhlöðumælinn tæmast ofan frá. Aðeins hægt í venjulegum rafhlöðu-sýniham</long>
+        </locale>
+
+        <locale name="it">
+	  <short>Svuota dalla cima</short>
+          <long>Mostra il misuratore della batteria che si svuota dalla cima. Implementato solo per la vista tradizionale della batteria.</long>
+        </locale>
+
+        <locale name="ja">
+	  <short>上から使い果たす</short>
+          <long>上部からバッテリを消費していくメータを描画します。旧バージョンのバッテリ表示でのみ有効です。</long>
+        </locale>
+
+        <locale name="ka">
+	  <short>პატარავდება ზემოდან</short>
+          <long>კვების ელემენტის მდგომარეობის ჩვენება, მუხტის დონე ზევიდან ქვემოთ ჩადის ელემენტის განმუხტვის ანუ დაცლის დროს.</long>
+        </locale>
+
+        <locale name="kn">
+	  <short>ಮೇಲ್ಭಾಗದಿಂದ ಖಾಲಿ ಮಾಡು</short>
+          <long>ಬ್ಯಾಟರಿ ಮೀಟರ್ ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ಖಾಲಿಯಾಗುವುದನ್ನು ತೋರಿಸು. ಇದು ಕೇವಲ ಕೇವಲ ಸಾಂಪ್ರದಾಯಿಕ ಬ್ಯಾಟರಿ ನೋಟದಲ್ಲಿ ಮಾತ್ರ ಇದು ಅನ್ವಯಿಸಲ್ಪಡುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+	  <short>맨 위부터 줄이기</short>
+          <long>배터리의 맨 위에서부터 배터리 표시를 줄여 나갑니다. 전통적인 배터리 보기 모드입니다.</long>
+        </locale>
+
+        <locale name="ku">
+	  <short>Ji jor ve vala bike</short>
+          <long>Pîvana bataryayê wekî ji jor ve vala dibe nîşan bide. Tenê ji bo dîtina kevneşopî ya bataryayê hatiye sepan.</long>
+        </locale>
+
+        <locale name="ky">
+	  <short>Жогору жагынан кичирейет</short>
+          <long>Батарея заряды азайганда индикатор жогорудан төмөн түшөт. Салттуу батарея түрүндө гана ишке ашырылган.</long>
+        </locale>
+
+        <locale name="lt">
+	  <short>Mažėti iš viršaus</short>
+          <long>Rodyti baterijos matuoklį mažėjantį nuo baterijos viršaus. Kol kas galimas tik tradiciniam baterijos rodymui.</long>
+        </locale>
+
+        <locale name="lv">
+	  <short>Iztukšot no augšas</short>
+          <long>Parādīt baterijas rādītāja kritumu no baterijas augšas. Izveidots tikai tradicionālajam baterijas skatam.</long>
+        </locale>
+
+        <locale name="mai">
+	  <short>उप्पर सँ खाली करू</short>
+          <long>बैटरी क&apos; शीर्ष सँ खाली हाएत बैटरी मीटर देखाबू. सिर्फ पारंपरिक बैटरी दृश्य क&apos;लेल .</long>
+        </locale>
+
+        <locale name="mg">
+	  <short>Foano hatrany ambony</short>
+          <long>Asehoy ny fandrefesan&apos;aratra mihafoana avy eny an-tampon&apos;ilay vaton&apos;aratra. Natao ho an&apos;ny sehon&apos;ny vaton&apos;aratra taloha.</long>
+        </locale>
+
+        <locale name="mk">
+	  <short>Истекувај одозгора</short>
+          <long>Покажи го празнењето на батерија одозгора. Се импленетира само на традиционалниот поглед.</long>
+        </locale>
+
+        <locale name="ml">
+	  <short>മുകളില്‍ നിന്നും ഉപയോഗിക്കുക</short>
+          <long>ബാറ്ററി മുകളില്‍ നിന്നും കുറയുന്നത് ബാറ്ററി മീറ്റര്‍ മുഖേന കാണിക്കുക. സാധാരണ ബാറ്ററി പ്രതിരൂപത്തിന് മാത്രമേ ഇത് ബാധകമാകൂ.</long>
+        </locale>
+
+        <locale name="mn">
+	  <short>Дээрээс урсгах</short>
+          
+        </locale>
+
+        <locale name="mr">
+	  <short>वरून खाली करा</short>
+          <long>बॅटरीच्या शिर्षापासून बॅटरी मीटर खाली होताना दाखवा. फक्त पारंपारिक बॅटरी दृश्यासाठी अंमलीत.</long>
+        </locale>
+
+        <locale name="ms">
+	  <short>Menyusut drpd atas</short>
+          
+        </locale>
+
+        <locale name="nb">
+	  <short>Tøm fra toppen</short>
+          <long>Vis batterimåler som tømmes fra toppen av batteriet. Kun implementert for den tradisjonelle batterivisningen.</long>
+        </locale>
+
+        <locale name="ne">
+	  <short>माथिबाट झार्नुहोस्</short>
+          <long>ब्याट्रीको मिटर ब्याट्रीको माथीबाट झरिरहेको देखाउनुहोस् । परम्परागत ब्याट्री दृश्यका लागि मात्र कार्यन्वयन गरिएको ।</long>
+        </locale>
+
+        <locale name="nl">
+	  <short>Van boven naar beneden leeglopen</short>
+          <long>De accuweergave van boven naar beneden laten leeglopen.</long>
+        </locale>
+
+        <locale name="nn">
+	  <short>Tøm frå toppen</short>
+          <long>Vis batterimålar som vert tømt frå toppen av batteriet. Kun implementert for tradisjonell batterivising.</long>
+        </locale>
+
+        <locale name="oc">
+	  <short>Vojar dempuèi lo cap</short>
+          <long>Mòstra lo comptador tre lo naut de la batariá. Existís sonque per la vista tradicionala de la batariá.</long>
+        </locale>
+
+        <locale name="or">
+	  <short>ଉପରୁ ନିଷ୍କାସନକର</short>
+          <long>ବ୍ଯାଟେରୀ ମିଟରକୁ ବ୍ଯାଟେରୀ ର ଉପରୁ ନିଷ୍କାସନ ହେବା ଦର୍ଶାଅ ୤ କେବଳ ପାରମ୍ପରିକ ବ୍ଯାଟେରୀ  ଦୃଶ୍ଯ ପାଇଁ କାର୍ୟ୍ଯକାରୀ ହୁଏ ୤</long>
+        </locale>
+
+        <locale name="pa">
+	  <short>ਉੱਤੇ ਤੋਂ ਵਹਾ</short>
+          <long>ਬੈਟਰੀ ਮੀਟਰ ਦਾ ਵਹਾ ਬੈਟਰੀ ਦੇ ਉਤਹਾ ਤੋਂ ਹੀ ਵੇਖੋ। ਸਿਰਫ਼ ਪੁਰਾਣੀ ਬੈਟਰੀ ਝਲਕ ਲਈ ਹੀ ਸਥਾਪਤ ਕੀਤਾ ਗਿਆ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+	  <short>Wyczerpywanie od góry</short>
+          <long>Wyświetlenie opadającego wskaźnika akumulatora. Zaimplementowany tylko dla tradycyjnego widoku akumulatora.</long>
+        </locale>
+
+        <locale name="pt">
+	  <short>Consumir do topo</short>
+          <long>Apresentar o medidor de bateria a consumir do topo. Apenas implementado para a vista de bateria tradicional.</long>
+        </locale>
+
+        <locale name="pt_BR">
+	  <short>Consumir do topo</short>
+          <long>Mostra o medidor de consumo de bateria a partir do topo da bateria. Implementado apenas para a visão tradicional da bateria.</long>
+        </locale>
+
+        <locale name="ro">
+	  <short>Scade de sus în jos</short>
+          <long>Afișează acumulatorul golindu-se de sus în jos. Implementat doar pentru vizualizarea tradițională a acumulatorului.</long>
+        </locale>
+
+        <locale name="ru">
+	  <short>Уменьшается сверху</short>
+          <long>При разряде батареи индикатор опускается сверху вниз. Реализовано только в традиционном виде батареи.</long>
+        </locale>
+
+        <locale name="si">
+	  <short>ඉහළ සිට අඩුවෙන්න</short>
+          <long>විදුලිකෝෂ දර්ශකයේ අඩුවීම විදුලිකෝෂයේ ඉහළ සිට පෙන්වන්න. සාම්ප්‍රදායික විදුලිකෝෂ දර්ශකය සඳහා පමණක් ක්‍රියාත්මකයි.</long>
+        </locale>
+
+        <locale name="sk">
+	  <short>Vyprázdniť zhora</short>
+          <long>Zobrazovaný stav batérie vyprázdňovať zhora nadol. Implementované len pre tradičné zobrazenie batérie.</long>
+        </locale>
+
+        <locale name="sl">
+	  <short>Črpaj iz vrha</short>
+          <long>Pokaži merilnik baterije, ki se prazni iz vrha baterije. Uveljavljeno le za pogled klasične baterije.</long>
+        </locale>
+
+        <locale name="sq">
+	  <short>Shfaqe nga lart</short>
+          <long>Shfaq shënuesin e baterisë duke zbritur nga kreu i baterisë. Vetëm për shfaqjen tradicionale të baterisë.</long>
+        </locale>
+
+        <locale name="sr">
+	  <short>Празни од врха</short>
+          <long>Прикажи стање батерије која се празни од врха. Користи се само за традиционални преглед батерије.</long>
+        </locale>
+
+        <locale name="sr@latin">
+	  <short>Prazni od vrha</short>
+          <long>Prikaži stanje baterije koja se prazni od vrha. Koristi se samo za tradicionalni pregled baterije.</long>
+        </locale>
+
+        <locale name="sv">
+	  <short>Minska från toppen</short>
+          <long>Visa batterimätaren minskandes från toppen av batteriet. Endast implementerat i den traditionella batterivyn.</long>
+        </locale>
+
+        <locale name="ta">
+	  <short>மேலிருந்து காலி செய்</short>
+          <long>மின்கலன் அளக்கும் கருவி மேலிருந்து செயலிழப்பதாக காட்டவும். பாரம்பரிய காட்சியில் மட்டும் செயல்படும்.</long>
+        </locale>
+
+        <locale name="te">
+	  <short>పైనుంచి హరించు</short>
+          <long>బాటరీ పైనుంచి బాటరీ సూచి హరించుకుపోవుటను చూపుము. సాంప్రదాయక బాటరీ దర్శనము కొరకు మాత్రమే అమలుచేయబడింది</long>
+        </locale>
+
+        <locale name="th">
+	  <short>ไหลออกด้านบน</short>
+          <long>แสดงมิเตอร์แบตเตอรี่โดยให้พลังงานไหลออกจากด้านบน ใช้กับการแสดงแบตเตอรี่แบบเก่าเท่านั้น</long>
+        </locale>
+
+        <locale name="tr">
+	  <short>Yukarıdan boşalt</short>
+          <long>Pil ölçüsünü pilin yukarısından boşalır şekilde göster. Sadece geleneksel pil görünümü için uygulanmıştır.</long>
+        </locale>
+
+        <locale name="uk">
+	  <short>Зменшується згори</short>
+          <long>При розряді акумулятора індикатор спускається згори</long>
+        </locale>
+
+        <locale name="vi">
+	  <short>Rút từ đỉnh</short>
+          <long>Hiện đồng hồ đo pin rút từ đỉnh pin. Thực hiện chỉ trong ô xem pin truyền thống.</long>
+        </locale>
+
+        <locale name="xh">
+	  <short>Ukudontsa kusukwa phezulu</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+	  <short>从上耗电</short>
+          <long>显示电池电量，从电池的上方流走。仅在传统电池视图中实现。</long>
+        </locale>
+
+        <locale name="zh_HK">
+	  <short>指示棒從頂部開始縮短</short>
+          <long>在電池頂部顯示電量棒。只適用於傳統電量顯示模式。</long>
+        </locale>
+
+        <locale name="zh_TW">
+	  <short>指示棒從頂部開始縮短</short>
+          <long>在電池頂部顯示電量棒。只適用於傳統電量顯示模式。</long>
+        </locale>
+      </schema>      
+
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/show_status</key>
+        <owner>battstat-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <locale name="C">
+	  <short>Upright (small) battery</short>
+          <long>Show the upright, smaller battery on the panel.</long>
+        </locale>
+
+        <locale name="af">
+	  <short>Regop (klein) battery</short>
+          <long>Wys die regop, kleiner battery op die paneel.</long>
+        </locale>
+
+        <locale name="ar">
+	  <short>بطارية صغيرة نحو الاعلى</short>
+          <long>اعرض على الشريط البطارية الأصغر الواقفة.</long>
+        </locale>
+
+        <locale name="as">
+	  <short>উলম্ব (সৰু) বেটাৰি</short>
+          <long>ক্ষুদ্ৰাকাৰ আৰু উলম্ব দিশাৰ ব্যাটাৰি প্যানেলে প্ৰদৰ্শন কৰা হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+	  <short>Batería vertical (pequeña)</short>
+          <long>Amosar la batería haza arriba, más pequeña nel panel.</long>
+        </locale>
+
+        <locale name="be">
+	  <short>Вэртыкальная (маленькая) батарэя</short>
+          <long>Паказваць маленькую вэртыкальную батарэю на панэлі.</long>
+        </locale>
+
+        <locale name="be@latin">
+	  <short>Mały akumulatar (pravy vierchni kut)</short>
+          <long>Pakazvaj u pravym vierchnim kucie paneli mienšy akumulatar.</long>
+        </locale>
+
+        <locale name="bg">
+	  <short>Изправена (малка) батерия</short>
+          <long>Показване на изправената, по-малка батерия върху панела.</long>
+        </locale>
+
+        <locale name="bn">
+	  <short>উল্লম্ব (ক্ষুদ্রাকার) ব্যাটারি</short>
+          <long>সোজা ও ছোট ব্যাটারি প্যানেলে প্রদর্শন করা হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+	  <short>উলম্ব (ক্ষুদ্রাকার) ব্যাটারি</short>
+          <long>ক্ষুদ্রাকার ও উলম্ব দিশার ব্যাটারি প্যানেলে প্রদর্শন করা হবে।</long>
+        </locale>
+
+        <locale name="br">
+	  <short>Pod-tredan (bihan) war-sav</short>
+          <long>Diskouez ar batiri bihanañ sevelet en daolenn stur.</long>
+        </locale>
+
+        <locale name="ca">
+	  <short>Bateria petita vertical</short>
+          <long>Mostra la bateria vertical més petita en el quadre.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+	  <short>Bateria petita vertical</short>
+          <long>Mostra la bateria vertical més petita en el quadre.</long>
+        </locale>
+
+        <locale name="crh">
+	  <short>Yukarıya doğru (küçük) pil</short>
+          <long>Panelde yukarı doğru olan ufak pili göster.</long>
+        </locale>
+
+        <locale name="cs">
+	  <short>Svislá (menší) baterie</short>
+          <long>Zobrazovat na panelu svislou, menší baterii.</long>
+        </locale>
+
+        <locale name="cy">
+	  <short>Batri (bach) sy&apos;n sefyll i fyny</short>
+          
+        </locale>
+
+        <locale name="da">
+	  <short>Lodret (lille) batteri</short>
+          <long>Vis det lodrette og mindre batteri på panelet.</long>
+        </locale>
+
+        <locale name="de">
+	  <short>Aufgerichteter (kleiner) Akku</short>
+          <long>Den aufgerichteten, kleineren Akku im Panel anzeigen.</long>
+        </locale>
+
+        <locale name="dz">
+	  <short>ཡར་ལོངས་པའི་འཕྲུལ་ལྟོ་(ཆུང་ཀུ)</short>
+          <long>པེ་ནཱལ་གུ་ ཡར་ལོངས་པའི་ འཕྲུལ་ལྟོ་ཆུང་ཀུ་སྟོན།</long>
+        </locale>
+
+        <locale name="el">
+	  <short>Μικρή (άνω δεξιά) μπαταρία</short>
+          <long>Εμφάνιση της μικρότερης μπαταρίας στο πίνακα εφαρμογών.</long>
+        </locale>
+
+        <locale name="en@shaw">
+	  <short>𐑳𐑐𐑮𐑲𐑑 (𐑕𐑥𐑷𐑤) 𐑚𐑨𐑑𐑼𐑦</short>
+          <long>𐑖𐑴 𐑞 𐑳𐑐𐑮𐑲𐑑, 𐑕𐑥𐑷𐑤𐑼 𐑚𐑨𐑑𐑼𐑦 𐑪𐑯 𐑞 𐑐𐑨𐑯𐑩𐑤.</long>
+        </locale>
+
+        <locale name="en_CA">
+	  <short>Upright (small) battery</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+	  <short>Upright (small) battery</short>
+          <long>Show the upright, smaller battery on the panel.</long>
+        </locale>
+
+        <locale name="es">
+	  <short>Batería vertical (pequeña)</short>
+          <long>Mostrar la batería hacia arriba, más pequeña en el panel.</long>
+        </locale>
+
+        <locale name="es_AR">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+	  <short>Batería vertical (pequeña)</short>
+          <long>Mostrar la batería hacia arriba, más pequeña en el panel.</long>
+        </locale>
+
+        <locale name="es_GT">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+	  <short>Batería vertical (pequeña)</short>
+          
+        </locale>
+
+        <locale name="et">
+	  <short>Püstine (väike) aku</short>
+          <long>Paneelil näidatakse väiksemat püstist akut.</long>
+        </locale>
+
+        <locale name="eu">
+	  <short>Bateria tente (txikia)</short>
+          <long>Erakutsi tente, bateria txikiagoa panelean.</long>
+        </locale>
+
+        <locale name="fa">
+	  <short>باتری ایستاده (کوچک)</short>
+          
+        </locale>
+
+        <locale name="fi">
+	  <short>Pysty (pienempi) akun kuva</short>
+          <long>Näytä pystysuuntainen, pienempi akku paneelissa.</long>
+        </locale>
+
+        <locale name="fr">
+	  <short>Batterie debout (plus petite)</short>
+          <long>Affiche la plus petite batterie debout dans le tableau de bord.</long>
+        </locale>
+
+        <locale name="gl">
+	  <short>Batería vertical (pequena)</short>
+          <long>Mostrar a batería vertical e pequena no panel.</long>
+        </locale>
+
+        <locale name="gu">
+	  <short>ઉપર (નાનો) વીજકોષ</short>
+          <long>ઉપરજમણે, નાની બેટરી પેનલ પર બતાવો.</long>
+        </locale>
+
+        <locale name="he">
+	  <short>Upright (small) battery</short>
+          <long>Show the upright, smaller battery on the panel.</long>
+        </locale>
+
+        <locale name="hi">
+	  <short>अपराइट (छोटा) बैटरी</short>
+          <long>पैनल पर अपराइट व छोटा होता बैटरी दिखायें.</long>
+        </locale>
+
+        <locale name="hr">
+	  <short>Uspravan (mali) prikaz baterije</short>
+          <long>Prikaži uspravni, manji prikaz baterije na ploči.</long>
+        </locale>
+
+        <locale name="hu">
+	  <short>Függőleges (kicsi) akkumulátor</short>
+          <long>A függőleges, kisebb akkumulátor megjelenítése a panelen.</long>
+        </locale>
+
+        <locale name="hy">
+	  <short>Ուղղահայաց (փոքր) մարտկոց</short>
+          
+        </locale>
+
+        <locale name="id">
+	  <short>Baterai (kecil) kanan atas</short>
+          
+        </locale>
+
+        <locale name="is">
+	  <short>Lóðrétt (lítil) rafhlaða</short>
+          <long>Sýna uppréttu, minni rafhlöðuna á skjástikunni.</long>
+        </locale>
+
+        <locale name="it">
+	  <short>Batteria verticale (piccola)&lt;</short>
+          <long>Mostra sul pannello una piccola batteria in verticale.</long>
+        </locale>
+
+        <locale name="ja">
+	  <short>縦向きの (小さな) バッテリ</short>
+          <long>パネルに対して上向きの小さなバッテリを表示します。</long>
+        </locale>
+
+        <locale name="ka">
+	  <short>ვერტიკალური (პატარა ზომის) კვების ელემენტი</short>
+          
+        </locale>
+
+        <locale name="kn">
+	  <short>ನೇರವಾದ (ಚಿಕ್ಕ) ಬ್ಯಾಟರಿ</short>
+          <long>ಫಲಕದಲ್ಲಿ ನೇರವಾದ, ಚಿಕ್ಕದಾದ ಬ್ಯಾಟರಿಯನ್ನು ತೋರಿಸು.</long>
+        </locale>
+
+        <locale name="ko">
+	  <short>위 아래 (작은) 배터리</short>
+          <long>패널에 위 아래 방향의 좀 더 작은 배터리를 표시합니다.</long>
+        </locale>
+
+        <locale name="ku">
+	  <short>Bataryaya (biçûk) a berjor</short>
+          
+        </locale>
+
+        <locale name="ky">
+	  <short>Вертикалдык (кичинекей) батарея</short>
+          
+        </locale>
+
+        <locale name="lt">
+	  <short>Stačia (maža) baterija</short>
+          <long>Rodyti stačią, mažesnę bateriją.</long>
+        </locale>
+
+        <locale name="lv">
+	  <short>Vertikāla (maza) baterija</short>
+          <long>Parādīt vertikālu, mazāku bateriju panelī.</long>
+        </locale>
+
+        <locale name="mai">
+	  <short>अपराइट (छोट) बैटरी</short>
+          
+        </locale>
+
+        <locale name="mg">
+	  <short>Vaton&apos;aratra mijoro (kelikely)</short>
+          
+        </locale>
+
+        <locale name="mk">
+	  <short>Исправена (мала) батерија</short>
+          <long>Покажи ја исправената, помала батерија на панелот.</long>
+        </locale>
+
+        <locale name="ml">
+	  <short>നേരെയുളള (ചെറിയത്) ബാറ്ററി</short>
+          <long>കുത്തനെയുള്ള, ചെറിയ ബാറ്ററി പാളിയില്‍ കാണിക്കുക.</long>
+        </locale>
+
+        <locale name="mr">
+	  <short>अपराइट (छोटी) बॅटरी</short>
+          <long>पॅनलवर अपराइट, छोटी बॅटरी दाखवा.</long>
+        </locale>
+
+        <locale name="nb">
+	  <short>Stående (lite) batteri</short>
+          <long>Vis et mindre, stående batteri på panelet</long>
+        </locale>
+
+        <locale name="ne">
+	  <short>ठाडो(सानो) ब्याट्री</short>
+          
+        </locale>
+
+        <locale name="nl">
+	  <short>Verticale (kleine) accu</short>
+          <long>De verticale, kleinere accu op het paneel tonen</long>
+        </locale>
+
+        <locale name="nn">
+	  <short>Ståande (lite) batteri</short>
+          
+        </locale>
+
+        <locale name="oc">
+	  <short>Batariá verticala (mai pichòta)</short>
+          <long>Visualizar la pichòta batariá verticala dins lo panèl.</long>
+        </locale>
+
+        <locale name="or">
+	  <short>ଉପରକୁଉଠିଥିବା (ଛୋଟ) ବ୍ଯାଟେରୀ </short>
+          <long>ପ୍ୟାନେଲରେ ଉପର, ଛୋଟ ବ୍ୟାଟେରୀ ପାଇଁ ଦର୍ଶନ୍ତୁ.</long>
+        </locale>
+
+        <locale name="pa">
+	  <short>ਲੰਬਕਾਰੀ (ਸਿੱਧੀ) ਬੈਟਰੀ</short>
+          <long>ਪੈਨਲ ਉੱਤੇ ਲੰਬਕਾਰੀ, ਛੋਟੀ ਬੈਟਰੀ ਵੇਖੋ</long>
+        </locale>
+
+        <locale name="pl">
+	  <short>Mały akumulator (prawy górny róg)</short>
+          <long>Wyświetlanie w prawym górnym rogu panelu, mniejszego akumulatora.</long>
+        </locale>
+
+        <locale name="pt">
+	  <short>Bateria vertical (pequena)</short>
+          <long>Apresentar a bateria menor, vertical, no painel.</long>
+        </locale>
+
+        <locale name="pt_BR">
+	  <short>Bateria vertical (menor)</short>
+          <long>Mostra a bateria menor, vertical no painel.</long>
+        </locale>
+
+        <locale name="ro">
+	  <short>Acumulator vertical (mic)</short>
+          <long>Se va afișa în panou un acumulator mai mic în poziție verticală.</long>
+        </locale>
+
+        <locale name="ru">
+	  <short>Вертикальная (маленькая) батарея</short>
+          <long>Показывать маленькую вертикальную батарею на панели.</long>
+        </locale>
+
+        <locale name="si">
+	  <short>සෘජු (කුඩා) විදුලිකෝෂය</short>
+          
+        </locale>
+
+        <locale name="sk">
+	  <short>Malá zvislá batéria</short>
+          <long>Zobraziť menšiu zvislú batériu na paneli.</long>
+        </locale>
+
+        <locale name="sl">
+	  <short>Pokončna (manjša) baterija</short>
+          <long>Na pultu prikaži pokončno, manjšo baterijo.</long>
+        </locale>
+
+        <locale name="sq">
+	  <short>Bateria vertikale (më e vogël)</short>
+          <long>Shfaq baterinë e vogël vertikale në panel.</long>
+        </locale>
+
+        <locale name="sr">
+	  <short>Усправна (мала) батерија</short>
+          <long>Прикажи усправно, умањену батерију на панел.</long>
+        </locale>
+
+        <locale name="sr@latin">
+	  <short>Uspravna (mala) baterija</short>
+          <long>Prikaži uspravno, umanjenu bateriju na panel.</long>
+        </locale>
+
+        <locale name="sv">
+	  <short>Stående (litet) batteri</short>
+          <long>Visa det stående, mindre batteriet på panelen.</long>
+        </locale>
+
+        <locale name="ta">
+	  <short>நேரான சிறிய மின்கலம்</short>
+          <long>பலகத்தில் நேராக உள்ள சிறிய மின்கலத்தை காட்டு.</long>
+        </locale>
+
+        <locale name="te">
+	  <short>నిలువైన (చిన్న) బాటరీ</short>
+          <long>నిలువైన, చిన్న బాటరీను పానల్ పైన చూపుము</long>
+        </locale>
+
+        <locale name="th">
+	  <short>แบตเตอรี่แนวตั้ง (ขนาดเล็ก)</short>
+          <long>แสดงแบตเตอรี่แนวตั้งขนาดเล็กบนพาเนล</long>
+        </locale>
+
+        <locale name="tr">
+	  <short>Yukarıya doğru (küçük) pil</short>
+          <long>Panelde yukarı doğru olan ufak pili göster.</long>
+        </locale>
+
+        <locale name="uk">
+	  <short>Вертикальна (маленька) батарея</short>
+          <long>Вертикальний вигляд, менша батарея на панелі.</long>
+        </locale>
+
+        <locale name="vi">
+	  <short>Pin nằm dọc (nhỏ)</short>
+          <long>Hiện pin nằm dọc nhỏ hơn trên bảng điều khiển.</long>
+        </locale>
+
+        <locale name="zh_CN">
+	  <short>竖直的小电池</short>
+          <long>在面板上显示较小的竖直电池</long>
+        </locale>
+
+        <locale name="zh_HK">
+	  <short>垂直（較小）電池圖樣</short>
+          <long>在面板上顯示垂直的，較小的電池圖樣。</long>
+        </locale>
+
+        <locale name="zh_TW">
+	  <short>垂直（較小）電池圖樣</short>
+          <long>在面板上顯示垂直的，較小的電池圖樣。</long>
+        </locale>
+      </schema>      
+
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/show_battery</key>
+        <owner>battstat-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+	  <short>Show the horizontal battery</short>
+          <long>Show the traditional, horizontal battery on the panel.</long>
+        </locale>
+
+        <locale name="af">
+	  <short>Vertoon die horisontale battery</short>
+          <long>Wys die tradisionele, horisontale battery op die paneel.</long>
+        </locale>
+
+        <locale name="ar">
+	  <short>اعرض البطارية الأفقية</short>
+          <long>اعرض على الشريط البطارية الأفقية التقليدية.</long>
+        </locale>
+
+        <locale name="as">
+	  <short>অনুভূমিক দিশত বেটাৰি প্ৰদৰ্শন</short>
+          <long>পাৰম্পিক, অনুভূমিক ব্যাটাৰি প্যানেলে প্ৰদৰ্শন কৰা হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+	  <short>Amosar la batería horizontal</short>
+          <long>Amosar la batería tradicional horizontal nel panel.</long>
+        </locale>
+
+        <locale name="be">
+	  <short>Паказваць гарызантальную батарэю</short>
+          <long>Паказваць традыцыйную гарызантальную батарэю на панэлі.</long>
+        </locale>
+
+        <locale name="be@latin">
+	  <short>Pakazvaj akumulatar haryzantalna</short>
+          <long>Pakazvaj tradycyjny haryzantalny akumulatar na paneli.</long>
+        </locale>
+
+        <locale name="bg">
+	  <short>Показване на хоризонталната батерия</short>
+          <long>Показване на традиционната, хоризонтална батерия върху панела.</long>
+        </locale>
+
+        <locale name="bn">
+	  <short>অনুভূমিক দিশায় ব্যাটারি প্রদর্শন</short>
+          <long>প্রচলিত অনুভূমিক ব্যাটারি প্যানেলে প্রদর্শন করা হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+	  <short>অনুভূমিক দিশায় ব্যাটারি প্রদর্শন</short>
+          <long>পারম্পিক, অনুভূমিক ব্যাটারি প্যানেলে প্রদর্শন করা হবে।</long>
+        </locale>
+
+        <locale name="br">
+	  <short>Diskouez ar pod-tredan a-blaen</short>
+          <long>Diskouez batiri a-led hengounel en doalenn stur.</long>
+        </locale>
+
+        <locale name="ca">
+	  <short>Mostra la bateria horitzontal</short>
+          <long>Mostra la bateria tradicional horitzontal en el quadre.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+	  <short>Mostra la bateria horitzontal</short>
+          <long>Mostra la bateria tradicional horitzontal en el quadre.</long>
+        </locale>
+
+        <locale name="crh">
+	  <short>Ufqiy pilni köster</short>
+          <long>Panelde ananeviy ufqiy pilni köster.</long>
+        </locale>
+
+        <locale name="cs">
+	  <short>Zobrazovat vodorovnou baterii</short>
+          <long>Zobrazovat na panelu tradiční, vodorovnou baterii.</long>
+        </locale>
+
+        <locale name="cy">
+	  <short>Dangos y batri llorweddol</short>
+          
+        </locale>
+
+        <locale name="da">
+	  <short>Vis det vandrette batteri</short>
+          <long>Vis det traditionelle vandrette batteri på panelet.</long>
+        </locale>
+
+        <locale name="de">
+	  <short>Akku horizontal anzeigen</short>
+          <long>Den herkömmlichen, horizontalen Akku im Panel anzeigen.</long>
+        </locale>
+
+        <locale name="dz">
+	  <short>ཐད་སྙོམས་འཕྲུལ་ལྟོ་སྟོན།</short>
+          <long>པེ་ནཱལ་གུ་ སྔར་སྲོལ་གྱི་ ཐད་སྙོམས་འཕྲུལ་ལྟོ་སྟོན།</long>
+        </locale>
+
+        <locale name="el">
+	  <short>Εμφάνιση της οριζόντιας μπαταρίας</short>
+          <long>Εμφάνιση της παραδοσιακής οριζόντιας μπαταρίας στο πίνακα εφαρμογών.</long>
+        </locale>
+
+        <locale name="en@shaw">
+	  <short>𐑖𐑴 𐑞 𐑣𐑪𐑮𐑦𐑟𐑪𐑯𐑑𐑩𐑤 𐑚𐑨𐑑𐑼𐑦</short>
+          <long>𐑖𐑴 𐑞 𐑑𐑮𐑩𐑛𐑦𐑖𐑩𐑯𐑩𐑤, 𐑣𐑪𐑮𐑦𐑟𐑪𐑯𐑑𐑩𐑤 𐑚𐑨𐑑𐑼𐑦 𐑪𐑯 𐑞 𐑐𐑨𐑯𐑩𐑤.</long>
+        </locale>
+
+        <locale name="en_CA">
+	  <short>Show the battery horizontally</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+	  <short>Show the horizontal battery</short>
+          <long>Show the traditional, horizontal battery on the panel.</long>
+        </locale>
+
+        <locale name="es">
+	  <short>Muestra la batería horizontal</short>
+          <long>Mostrar la batería tradicional horizontal en el panel.</long>
+        </locale>
+
+        <locale name="es_AR">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+	  <short>Muestra la batería horizontal</short>
+          <long>Mostrar la batería tradicional horizontal en el panel.</long>
+        </locale>
+
+        <locale name="es_GT">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+	  <short>Muestra la batería horizontal</short>
+          
+        </locale>
+
+        <locale name="et">
+	  <short>Aku näitamine rõhtsalt</short>
+          <long>Paneelil näidatakse traditsionilist horisontaalset akut.</long>
+        </locale>
+
+        <locale name="eu">
+	  <short>Erakutsi bateria horizontalean</short>
+          <long>Erakutsi tradizionala, bateria horizontala panelean.</long>
+        </locale>
+
+        <locale name="fa">
+	  <short>نشان دادن باتری افقی</short>
+          
+        </locale>
+
+        <locale name="fi">
+	  <short>Näytä vaakasuuntainen akku</short>
+          <long>Näytä perinteinen, vaakasuuntainen akku paneelissa.</long>
+        </locale>
+
+        <locale name="fr">
+	  <short>Afficher la batterie horizontale</short>
+          <long>Affiche la batterie horizontale traditionnelle dans le tableau de bord.</long>
+        </locale>
+
+        <locale name="ga">
+	  <short>Taispeáin an cadhnra cothrománach</short>
+          <long>Taispeáin an cadhnra traidisiúnta, cothrománach ar an bpainéal.</long>
+        </locale>
+
+        <locale name="gl">
+	  <short>Mostrar a batería horizontal</short>
+          <long>Mostrar a batería horizontal e tradicional no panel.</long>
+        </locale>
+
+        <locale name="gu">
+	  <short>આડો વીજકોષ બતાવો</short>
+          <long>પારંપરિક, આડી બેટરી પેનલ પર બતાવો.</long>
+        </locale>
+
+        <locale name="he">
+	  <short>Show the horizontal battery</short>
+          <long>Show the traditional, horizontal battery on the panel.</long>
+        </locale>
+
+        <locale name="hi">
+	  <short>क्षैतिज बैटरी दिखाएँ</short>
+          <long>पटल पर पारंपरिक क्षैतिज बैटरी दिखायें.</long>
+        </locale>
+
+        <locale name="hr">
+	  <short>Vodoravni prikaz baterije</short>
+          <long>Prikaži uobičajeni, vodoravni prikaz baterije na ploči.</long>
+        </locale>
+
+        <locale name="hu">
+	  <short>A vízszintes akkumulátor megjelenítése</short>
+          <long>A hagyományos vízszintes akkumulátor megjelenítése a panelen.</long>
+        </locale>
+
+        <locale name="hy">
+	  <short>Ցուցադրել հորիզոնական մարտկոցը</short>
+          
+        </locale>
+
+        <locale name="id">
+	  <short>Tunjukkan baterai horisontal</short>
+          
+        </locale>
+
+        <locale name="is">
+	  <short>Sýna lárétta rafhlöðu</short>
+          <long>Sýna hefðbundnu, láréttu rafhlöðuna á skjástikunni.</long>
+        </locale>
+
+        <locale name="it">
+	  <short>Mostra la batteria orizzontale</short>
+          <long>Mostra sul pannello la tradizionale batteria orizzontale.</long>
+        </locale>
+
+        <locale name="ja">
+	  <short>バッテリを横向きに表示する</short>
+          <long>旧バージョンと同じで、横向きのバッテリを表示します。</long>
+        </locale>
+
+        <locale name="ka">
+	  <short>ჰორიზონტალური კვების ელემენტის ჩვენება</short>
+          
+        </locale>
+
+        <locale name="kn">
+	  <short>ಬ್ಯಾಟರಿಯನ್ನು ಅಡ್ಡವಾಗಿ ತೋರಿಸು</short>
+          <long>ಫಲಕದಲ್ಲಿ ಸಾಂಪ್ರದಾಯಿಕ, ಅಡ್ಡವಾದ ಬ್ಯಾಟರಿಯನ್ನು ತೋರಿಸು.</long>
+        </locale>
+
+        <locale name="ko">
+	  <short>가로 배터리 보기</short>
+          <long>패널에 전통적인 가로 방향의 배터리를 표시합니다.</long>
+        </locale>
+
+        <locale name="ku">
+	  <short>Bataryaya serpahnayê nîşan bide</short>
+          
+        </locale>
+
+        <locale name="ky">
+	  <short>Горизонталдык батареяны көрсөтүү</short>
+          
+        </locale>
+
+        <locale name="lt">
+	  <short>Rodyti bateriją horizontaliai</short>
+          <long>Rodyti tradicinę, horizontalią bateriją.</long>
+        </locale>
+
+        <locale name="lv">
+	  <short>Parādīt horizontālo bateriju</short>
+          <long>Parādīt tradicionālo, horizontālo bateriju panelī.</long>
+        </locale>
+
+        <locale name="mai">
+	  <short>क्षैतिज बैटरी देखाबू</short>
+          
+        </locale>
+
+        <locale name="mg">
+	  <short>Asehoy ny vaton&apos;aratra mitsangana</short>
+          
+        </locale>
+
+        <locale name="mk">
+	  <short>Покажи ја хоризонталната батерија</short>
+          <long>Покажи ја традиционалната хоризонтална батерија на панелот.</long>
+        </locale>
+
+        <locale name="ml">
+	  <short>തിരശ്ചീനമായ ബാറ്ററി കാണിക്കുക</short>
+          <long>പരമ്പരാഗതമായ, തിരശ്ചീനമായ ബാറ്ററി പാളിയില്‍ കാണിക്കുക.</long>
+        </locale>
+
+        <locale name="mr">
+	  <short>क्षितिजसमांतर बॅटरी दाखवा</short>
+          <long>पारंपारिक, क्षितिजसमांतर बॅटरी पॅनलमध्ये दाखवा.</long>
+        </locale>
+
+        <locale name="nb">
+	  <short>Vis batteriet horisontalt</short>
+          <long>Vis det vanlige horisontale batteriet på panelet</long>
+        </locale>
+
+        <locale name="ne">
+	  <short>तेर्सो ब्याट्री देखाउनुहोस्</short>
+          
+        </locale>
+
+        <locale name="nl">
+	  <short>De horizontale accu tonen</short>
+          <long>De traditionele, horizontale accu op het paneel tonen.</long>
+        </locale>
+
+        <locale name="nn">
+	  <short>Vis horisontalt batteri</short>
+          
+        </locale>
+
+        <locale name="oc">
+	  <short>Visualizar la batariá orizontala</short>
+          <long>Visualizar la batariá orizontala tradicionala dins lo panèl.</long>
+        </locale>
+
+        <locale name="or">
+	  <short>ଦିଗବଳୀଯ ବ୍ଯାଟେରୀ  ଦେଖାଅ</short>
+          <long>ପ୍ୟାନେଲରେ ପାରମ୍ପରିକ, ସମାନ୍ତରାଳ ବ୍ୟାଟେରୀ ପାଇଁ ଦର୍ଶାନ୍ତୁ।</long>
+        </locale>
+
+        <locale name="pa">
+	  <short>ਹਰੀਜ਼ਟਲ ਬੈਟਰੀ ਵੇਖੋ</short>
+          <long>ਪੈਨਲ ਉੱਤੇ ਪੁਰਾਣੀ ਹਰੀਜ਼ਟਲ ਬੈਟਰੀ ਵੇਖੋ</long>
+        </locale>
+
+        <locale name="pl">
+	  <short>Wyświetlanie akumulatora poziomo</short>
+          <long>Wyświetlanie tradycyjnego, poziomego akumulatora na ekranie.</long>
+        </locale>
+
+        <locale name="pt">
+	  <short>Apresentar a bateria horizontal</short>
+          <long>Apresentar a bateria horizontal, tradicional, no painel.</long>
+        </locale>
+
+        <locale name="pt_BR">
+	  <short>Mostra a bateria horizontal</short>
+          <long>Mostra a bateria tradicional, horizontal no painel.</long>
+        </locale>
+
+        <locale name="ro">
+	  <short>Afișează acumulatorul orizontal</short>
+          <long>Afișare tradițională, acumulator orizontală în panou.</long>
+        </locale>
+
+        <locale name="ru">
+	  <short>Показывать горизонтальную батарею</short>
+          <long>Показывать традиционную горизонтальную батарею на панели.</long>
+        </locale>
+
+        <locale name="si">
+	  <short>තිරස් වියළි කෝෂය පෙන්වන්න</short>
+          
+        </locale>
+
+        <locale name="sk">
+	  <short>Zobraziť batériu vodorovne</short>
+          <long>Zobraziť tradičnú vodorovnú batériu na paneli.</long>
+        </locale>
+
+        <locale name="sl">
+	  <short>Pokaži vodoravno baterijo</short>
+          <long>Na pultu prikaži klasično, vodoravno baterijo.</long>
+        </locale>
+
+        <locale name="sq">
+	  <short>Shfaq baterinë horizontale</short>
+          <long>Shfaq baterinë horizontale tradicionale në panel.</long>
+        </locale>
+
+        <locale name="sr">
+	  <short>Прикажи батерију положено</short>
+          <long>Прикажи традиционално, положену батерију на панел.</long>
+        </locale>
+
+        <locale name="sr@latin">
+	  <short>Prikaži bateriju položeno</short>
+          <long>Prikaži tradicionalno, položenu bateriju na panel.</long>
+        </locale>
+
+        <locale name="sv">
+	  <short>Visa det horisontella batteriet</short>
+          <long>Visa det traditionella, horisontella batteriet på panelen.</long>
+        </locale>
+
+        <locale name="ta">
+	  <short>கிடைமட்ட மின்கலத்தை காட்டு</short>
+          <long>பலகத்தில் பாரம்பரிய கிடையாக உள்ள மின்கலத்தை காட்டு.</long>
+        </locale>
+
+        <locale name="te">
+	  <short>సమతల బాటరీను చూపుము</short>
+          <long>సాంప్రదాయక, సమతల బాటరీను పానల్ పైన చూపుము</long>
+        </locale>
+
+        <locale name="th">
+	  <short>แสดงแบตเตอรี่แนวนอน</short>
+          <long>แสดงแบตเตอรี่แนวนอนแบบเก่าบนพาเนล</long>
+        </locale>
+
+        <locale name="tr">
+	  <short>Yatay pil göster</short>
+          <long>Panelde geleneksel yatay pili göster.</long>
+        </locale>
+
+        <locale name="uk">
+	  <short>Показувати батарею горизонтально</short>
+          <long>Традиційний вигляд, горизонтальна батарея на панелі.</long>
+        </locale>
+
+        <locale name="vi">
+	  <short>Hiện pin nằm ngang</short>
+          <long>Hiện pin nằm ngang truyền thống trên bảng điều khiển.</long>
+        </locale>
+
+        <locale name="zh_CN">
+	  <short>显示水平电量</short>
+          <long>在面板上显示传统的水平电池</long>
+        </locale>
+
+        <locale name="zh_HK">
+	  <short>顯示水平電池圖樣</short>
+          <long>在面板上顯示傳統的，水平的電池圖樣。</long>
+        </locale>
+
+        <locale name="zh_TW">
+	  <short>顯示水平電池圖樣</short>
+          <long>在面板上顯示傳統的，水平的電池圖樣。</long>
+        </locale>
+      </schema>      
+
+      <schema>
+        <key>/schemas/apps/battstat-applet/prefs/show_text</key>
+        <owner>battstat-applet</owner>
+        <type>int</type>
+        <default>0</default>
+        <locale name="C">
+	  <short>Show the time/percent label</short>
+          <long>0 for no label, 1 for percentage and 2 for time remaining.</long>
+        </locale>
+
+        <locale name="af">
+	  <short>Vertoon die tyd/persentasie etiket</short>
+          <long>0 vir geen etiket, 1 vir persentasie en 2 vir oorblywende tyd.</long>
+        </locale>
+
+        <locale name="ar">
+	  <short>اعرض الوقت/النسبة</short>
+          <long>0 لِبِلا عنوان، 1 للنسبة المئوية و 2 للوقت المتبقي.</long>
+        </locale>
+
+        <locale name="as">
+	  <short>সময়/শতাংশৰ লেবেল প্ৰদৰ্শন কৰা হ&apos;ব</short>
+          <long>0 (০) লেবেলবিহীন, 1 (১) শতাংশে মান প্ৰদৰ্শন আৰু 2 (২) অবশিষ্ট সময় প্ৰদৰ্শনেৰ বাবে</long>
+        </locale>
+
+        <locale name="ast">
+	  <short>Amosar la etiqueta de tiempu/porcentax</short>
+          <long>0 pa denguna etiqueta, 1 pa porcentax y 2 pa tiempu restante.</long>
+        </locale>
+
+        <locale name="be">
+	  <short>Паказваць метку часу/адсоткаў</short>
+          <long>0 - бязь меткі, 1 - з адсоткамі, 2 - астатні час.</long>
+        </locale>
+
+        <locale name="be@latin">
+	  <short>Pakazvaj etykietku času/pracenty</short>
+          <long>0 – biez etykiety, 1 – pracenty, 2 – kolki zastałosia času.</long>
+        </locale>
+
+        <locale name="bg">
+	  <short>Показване на надпис с времето/процентите</short>
+          <long>„0“ — без етикет, „1“ — процент, „2“ — оставащо време.</long>
+        </locale>
+
+        <locale name="bn">
+	  <short>সময়/শতাংশের লেবেল প্রদর্শন করা হবে</short>
+          <long>0 (০) লেবেলবিহীন, 1 (১) শতাংশে মান প্রদর্শন ও 2 (২) অবশিষ্ট সময় প্রদর্শনের জন্য।</long>
+        </locale>
+
+        <locale name="bn_IN">
+	  <short>সময়/শতাংশের লেবেল প্রদর্শন করা হবে</short>
+          <long>0 (০) লেবেলবিহীন, 1 (১) শতাংশে মান প্রদর্শন ও 2 (২) অবশিষ্ট সময় প্রদর্শনের জন্য</long>
+        </locale>
+
+        <locale name="br">
+	  <short>Diskouez al label amzer/dregantad</short>
+          <long>0 evit skritellig ebet, 1 evit diregantad ha 2 evit an amzer a chom.</long>
+        </locale>
+
+        <locale name="ca">
+	  <short>Mostra l&apos;etiqueta del percentatge de càrrega</short>
+          <long>0 perquè no tingui etiqueta, 1 per al percentatge i 2 per al temps restant.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+	  <short>Mostra l&apos;etiqueta del percentatge de càrrega</short>
+          <long>0 perquè no tinga etiqueta, 1 per al percentatge i 2 per al temps restant.</long>
+        </locale>
+
+        <locale name="crh">
+	  <short>Zaman/yüzde etiketi göster</short>
+          <long>Etiket olmaması için 0, yüzde için 1 ve kalan zaman için 2.</long>
+        </locale>
+
+        <locale name="cs">
+	  <short>Zobrazovat popisek s časem/procenty</short>
+          <long>0 značí bez popisku, 1 značí procenta a 2 značí zbývající čas.</long>
+        </locale>
+
+        <locale name="cy">
+	  <short>Dangos y label amser/canran</short>
+          
+        </locale>
+
+        <locale name="da">
+	  <short>Vis tid/procent-etiketten</short>
+          <long>0 for ingen etiket, 1 for procent og 2 for tilbageværende tid.</long>
+        </locale>
+
+        <locale name="de">
+	  <short>Die Zeit-/Prozent-Beschriftung anzeigen</short>
+          <long>»0« für keine Beschriftung, »1« für Prozentangabe und »2« für die verbleibende Zeit</long>
+        </locale>
+
+        <locale name="dz">
+	  <short>དུས་ཚོད་/བརྒྱ་ཆའི་ ཁ་ཡིག་སྟོན།</short>
+          <long>ཁ་ཡིག་མེད་པའི་དོན་ལུ་ ༠། བརྒྱ་ཆའི་དོན་ལུ་ ༡ དང་ དུས་ཚོད་ལྷག་ལུས་དོན་ལུ་ ༢།</long>
+        </locale>
+
+        <locale name="el">
+	  <short>Εμφάνιση ετικέτας ποσοστού/ώρας</short>
+          <long>0 για χωρίς ετικέτα, 1 για ποσοστό και 2 για χρόνο που απομένει</long>
+        </locale>
+
+        <locale name="en@shaw">
+	  <short>𐑖𐑴 𐑞 𐑑𐑲𐑥/𐑐𐑻𐑕𐑧𐑯𐑑 𐑤𐑱𐑚𐑩𐑤</short>
+          <long>0 𐑓𐑹 𐑯𐑴 𐑤𐑱𐑚𐑩𐑤, 1 𐑓𐑹 𐑐𐑼𐑕𐑧𐑯𐑑𐑦𐑡 𐑯 2 𐑓𐑹 𐑑𐑲𐑥 𐑮𐑦𐑥𐑱𐑯𐑦𐑙.</long>
+        </locale>
+
+        <locale name="en_CA">
+	  <short>Show the time/percent label</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+	  <short>Show the time/percent label</short>
+          <long>0 for no label, 1 for percentage and 2 for time remaining.</long>
+        </locale>
+
+        <locale name="es">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          <long>0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante.</long>
+        </locale>
+
+        <locale name="es_AR">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          <long>0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante.</long>
+        </locale>
+
+        <locale name="es_GT">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+	  <short>Muestra la etiqueta de tiempo/porcentaje</short>
+          
+        </locale>
+
+        <locale name="et">
+	  <short>Aja- ja protsendisildi näitamine</short>
+          <long>0 sildi jaoks, 1 protsendi ja 2 järelejäänud aja jaoks.</long>
+        </locale>
+
+        <locale name="eu">
+	  <short>Erakutsi karga-ehunekoaren etiketa</short>
+          <long>0 etiketarik ez, 1 ehunekotan eta 2 falta den denbora.</long>
+        </locale>
+
+        <locale name="fa">
+	  <short>نشان دادن برچسب درصد/زمان</short>
+          
+        </locale>
+
+        <locale name="fi">
+	  <short>Näytä aika- ja prosenttitiedot</short>
+          <long>0 ei otsikkoa, 1 prosentteina ja 2 jäljellä olevana aikana</long>
+        </locale>
+
+        <locale name="fr">
+	  <short>Afficher l&apos;étiquette du temps/pourcentage</short>
+          <long>0 pour aucune étiquette, 1 pour le pourcentage et 2 pour le temps restant.</long>
+        </locale>
+
+        <locale name="gl">
+	  <short>Mostrar a etiqueta de tempo/porcentaxe</short>
+          <long>0 para ningunha etiqueta, 1 para porcentaxe e 2 para tempo restante.</long>
+        </locale>
+
+        <locale name="gu">
+	  <short>સમય/ટકા લેબલ બતાવો</short>
+          <long>લેબલ નહિં હોય એ માટે 0, ટકા માટે 1 અને બાકી રહેલ સમય માટે 2.</long>
+        </locale>
+
+        <locale name="he">
+	  <short>Show the time/percent label</short>
+          <long>0 for no label, 1 for percentage and 2 for time remaining.</long>
+        </locale>
+
+        <locale name="hi">
+	  <short>प्रतिशत/प्रतिशत लेबल दिखाएँ</short>
+          <long>0 किसी लेबल के लिये नहीं, 1 प्रतिशत के लिये और 2 शेष समय के लिये</long>
+        </locale>
+
+        <locale name="hr">
+	  <short>Prikaži oznaku vremena/postotka</short>
+          <long>0 - bez oznake, 1 - postotak, 2 - preostalo vrijeme</long>
+        </locale>
+
+        <locale name="hu">
+	  <short>Az idő/százalék címke megjelenítése</short>
+          <long>0, ha nincs címke, 1 a százalékos és 2 a hátralévő idő megjelenítéséhez.</long>
+        </locale>
+
+        <locale name="hy">
+	  <short>Ցուցադրել ժամանակ/տոկոս պիտակը</short>
+          
+        </locale>
+
+        <locale name="id">
+	  <short>Tunjukkan label waktu/persentase</short>
+          
+        </locale>
+
+        <locale name="is">
+	  <short>Sýna tíma/prósentu merkingu</short>
+          <long>0 fyrir enga merkingu, 1 fyrir prósentu og 2 fyrir tíma þar til lokið.</long>
+        </locale>
+
+        <locale name="it">
+	  <short>Mostrare l&apos;etichetta tempo/percentuale</short>
+          <long>Impostare a 0 per nessuna etichetta, 1 per la percentuale e 2 per il tempo rimanente.</long>
+        </locale>
+
+        <locale name="ja">
+	  <short>充電時間/率を示すラベルを表示する</short>
+          <long>バッテリ残量の表示形式です。指定可能な値: 0 (ラベルなし)、1 (充電率)、2 (残り時間)</long>
+        </locale>
+
+        <locale name="ka">
+	  <short>ანახე დროის/პროცენტის წარწერა</short>
+          
+        </locale>
+
+        <locale name="kn">
+	  <short>ಸಮಯ/ಪ್ರತಿಶತ ಲೇಬಲನ್ನು ತೋರಿಸು</short>
+          <long>0 ಯು ಲೇಬಲ್ ಇಲ್ಲದಿರುವುದನ್ನು, 1 ಪ್ರತಿಶತವನ್ನು ಹಾಗು 2 ಬಾಕಿ ಇರುವ ಸಮಯವನ್ನು ಸೂಚಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+	  <short>시간/퍼센트 레이블 보기</short>
+          <long>0이면 레이블이 없고, 1이면 퍼센트이고, 2이면 남은 시간.</long>
+        </locale>
+
+        <locale name="ku">
+	  <short>Etîketa dem/sedane nîşan bide</short>
+          
+        </locale>
+
+        <locale name="ky">
+	  <short>Убакыт/процент белгисин чагылдыруу</short>
+          
+        </locale>
+
+        <locale name="lt">
+	  <short>Rodyti laiko/procentų užrašą</short>
+          <long>0 - nėra užrašo, 1 - procentai, 2 - likęs laikas</long>
+        </locale>
+
+        <locale name="lv">
+	  <short>Parādīt laiku/procentus</short>
+          <long>0 virsrakstam, 1 procentiem, un 2 atlikušajam laikam.</long>
+        </locale>
+
+        <locale name="mai">
+	  <short>समय/प्रतिशत लेबल देखाबू</short>
+          
+        </locale>
+
+        <locale name="mg">
+	  <short>Asehoy ny mari-tsoratry ny fotoana/isan-jato</short>
+          
+        </locale>
+
+        <locale name="mk">
+	  <short>Покажи ја ознаката за време/проценти</short>
+          <long>0 за без ознака, 1 за проценти и 2 за преостанато време.</long>
+        </locale>
+
+        <locale name="ml">
+	  <short>സമയം/ശതമാനം ലേബല്‍ കാണിക്കുക</short>
+          <long>ലേബല്‍ ഇല്ല എന്നതിന് - 0, ശതമാനത്തിന് - 1, ബാക്കിയുളള സമയത്തിന് - 2.</long>
+        </locale>
+
+        <locale name="mr">
+	  <short>वेळ/टक्के लेबल दाखवा</short>
+          <long>लेबल नको साठी 0, टक्केवारीसाठी 1 आणि उर्वरित वेळेसाठी 2.</long>
+        </locale>
+
+        <locale name="nb">
+	  <short>Vis etikett for tid/prosent</short>
+          <long>0 for ingen etikett, 1 for prosent og 2 for gjenværende tid</long>
+        </locale>
+
+        <locale name="ne">
+	  <short>समय/प्रतिशतको लेबुल देखाउनुहोस्</short>
+          
+        </locale>
+
+        <locale name="nl">
+	  <short>Label met tijd/percentage tonen</short>
+          <long>0 voor geen label, 1 voor percentage en 2 voor overgebleven tijd</long>
+        </locale>
+
+        <locale name="nn">
+	  <short>Vis merkelapp med tid/prosent</short>
+          
+        </locale>
+
+        <locale name="oc">
+	  <short>Visualizar l&apos;etiqueta temps/percentatge</short>
+          <long>0 per pas cap d&apos;etiqueta, 1 pel percentatge e 2 pel temps que demòra.</long>
+        </locale>
+
+        <locale name="or">
+	  <short>ସମଯ/ଶତକଡା ଲେବଲ ଦେଖାଅ</short>
+          <long>0 କୌଣସି ନାମପଟି ପାଇଁ ନୁହଁ, ପ୍ରତିଶତ ପାଇଁ 1 ଏବଂ ବଳିଥିବା ସମୟ ପାଇଁ 2।</long>
+        </locale>
+
+        <locale name="pa">
+	  <short>ਟਾਈਮ/ਫੀ-ਸਦੀ ਲੇਬਲ ਵੇਖੋ</short>
+          <long>0 ਕੋਈ ਲੇਬਲ ਨਹੀਂ, 1 ਫ਼ੀ-ਸਦੀ ਲਈ ਅਤੇ 2 ਬਾਕੀ ਰਹਿੰਦੇ ਸਮੇਂ ਲਈ</long>
+        </locale>
+
+        <locale name="pl">
+	  <short>Wyświetlenie etykiety czas/procenty</short>
+          <long>0 - brak etykiety, 1 - procenty, 2 - pozostały czas.</long>
+        </locale>
+
+        <locale name="pt">
+	  <short>Apresentar a etiqueta de duração/percentagem</short>
+          <long>0 para nenhuma etiqueta, 1 para percentagem e 2 para duração remanescente.</long>
+        </locale>
+
+        <locale name="pt_BR">
+	  <short>Mostra o rótulo tempo/percentual</short>
+          <long>0 para nenhum rótulo, 1 para percentual e 2 para tempo restante.</long>
+        </locale>
+
+        <locale name="ro">
+	  <short>Afișează timpul/procentajul în etichetă</short>
+          <long>0 pentru fără etichetă, 1 pentru procente și 2 pentru timpul rămas</long>
+        </locale>
+
+        <locale name="ru">
+	  <short>Показывать метку времени/процентов</short>
+          <long>0 - без метки, 1 - проценты, 2 - оставшееся время.</long>
+        </locale>
+
+        <locale name="si">
+	  <short>වේලා/ප්රතිශත ලේබලය පෙන්වන්න</short>
+          
+        </locale>
+
+        <locale name="sk">
+	  <short>Zobraziť návestie s časom/percentami</short>
+          <long>0 znamená bez označenia, 1 znamená percento a 2 znamená zostávajúci čas</long>
+        </locale>
+
+        <locale name="sl">
+	  <short>Pokaži oznako časa/procentov</short>
+          <long>0 za brez oznake, 1 za procente in 2 za preostali čas</long>
+        </locale>
+
+        <locale name="sq">
+	  <short>Shfaq etiketën kohë/përqindje</short>
+          <long>0 për pa etiketë, 1 për përqindjen dhe 2 për kohën e mbetur.</long>
+        </locale>
+
+        <locale name="sr">
+	  <short>Прикажи време/постотак напуњености</short>
+          <long>0 за искључивање ознаке, 1 за проценат и 2 за преостало време.</long>
+        </locale>
+
+        <locale name="sr@latin">
+	  <short>Prikaži vreme/postotak napunjenosti</short>
+          <long>0 za isključivanje oznake, 1 za procenat i 2 za preostalo vreme.</long>
+        </locale>
+
+        <locale name="sv">
+	  <short>Visa etiketten med antal procent/tid</short>
+          <long>0 för ingen etikett, 1 för procentandel och 2 för återstående tid.</long>
+        </locale>
+
+        <locale name="ta">
+	  <short>நேரம்/சதவிகிதம் குறிப்பை காண்பிக்கவும்</short>
+          <long>0 என்றால் லேபிள் இல்லை, 1 என்றால் சதவீதம் மற்றும் 2 என்றால் மீதமுள்ள நேரம்.</long>
+        </locale>
+
+        <locale name="te">
+	  <short>సమయ శాత లేబుల్ ను చూపుము</short>
+          <long>0 అనునది ఏ లేబుల్ లేదు అని చూపును, శాతము కొరకు 1 మరియు మిగిలిన సమయము కొరకు 2</long>
+        </locale>
+
+        <locale name="th">
+	  <short>แสดงเวลา/เปอร์เซ็นต์</short>
+          <long>0 คือไม่แสดง, 1 คือแสดงเปอร์เซ็นต์ประจุ และ 2 คือแสดงเวลาที่เหลือ</long>
+        </locale>
+
+        <locale name="tr">
+	  <short>Zaman/yüzde etiketi göster</short>
+          <long>Etiket olmaması için 0, yüzde için 1 ve kalan zaman için 2.</long>
+        </locale>
+
+        <locale name="uk">
+	  <short>Показувати позначку часу/заряду</short>
+          <long>0 - без позначки, 1 - відсотки, та  2 - залишок часу</long>
+        </locale>
+
+        <locale name="vi">
+	  <short>Hiện nhãn thời gian/phần trăm đầy</short>
+          <long>0 — không có nhãn
+1 — phần trăm
+2 — thời gian còn lại</long>
+        </locale>
+
+        <locale name="zh_CN">
+	  <short>显示时间/百分比标签</short>
+          <long>0 代表无标签，1 代表百分比，2 代表剩余时间</long>
+        </locale>
+
+        <locale name="zh_HK">
+	  <short>顯示時間/百分比標籤</short>
+          <long>‘0’則沒有標籤，‘1’則顯示百分比，‘2’則顯示剩餘時間。</long>
+        </locale>
+
+        <locale name="zh_TW">
+	  <short>顯示時間/百分比標籤</short>
+          <long>‘0’則沒有標籤，‘1’則顯示百分比，‘2’則顯示剩餘時間。</long>
+        </locale>
+      </schema>      
+
+  </schemalist>
+  
+</gconfschemafile>

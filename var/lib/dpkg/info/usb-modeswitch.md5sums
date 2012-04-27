@@ -1,0 +1,11 @@
+2e8a2db4986511bb7265da15ade46128  lib/udev/usb_modeswitch
+10289b9438c9d0ed09d789ed250ff420  usr/sbin/usb_modeswitch
+6f58b7b67dbb9ba910a2c9a868fdcf43  usr/sbin/usb_modeswitch_dispatcher
+17cb63c753517a10e836e94cafb525fb  usr/share/doc/usb-modeswitch/NEWS.Debian.gz
+7bb473c50149471f6b85156e2f5b4b67  usr/share/doc/usb-modeswitch/README.Debian
+6237cca012e3b2d7442bc9daba094e64  usr/share/doc/usb-modeswitch/README.gz
+b28c1aad819ef5f783b500604658a5b9  usr/share/doc/usb-modeswitch/changelog.Debian.gz
+bb5c2eb32a2e2fa246920f23bda55f75  usr/share/doc/usb-modeswitch/changelog.gz
+931601e1b846acc03148088f8b9f986c  usr/share/doc/usb-modeswitch/copyright
+ba4735ab2bfc5c8bcdc908e982a6fb56  usr/share/doc/usb-modeswitch/device_reference.txt.gz
+710000a831c05aa01f8c70d027154598  usr/share/man/man1/usb_modeswitch.1.gz

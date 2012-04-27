@@ -1,0 +1,16 @@
+6110ffade9853e6c331f3e44ff00a1db  usr/lib/openoffice/basis3.2/share/registry/modules/org/openoffice/TypeDetection/Filter/fcfg_palm_filters.xcu
+69a24328fdd9771145fbc8947c569c68  usr/lib/openoffice/basis3.2/share/registry/modules/org/openoffice/TypeDetection/Filter/fcfg_pocketexcel_filters.xcu
+5f286b74f35aa3371d8ff10020a84a39  usr/lib/openoffice/basis3.2/share/registry/modules/org/openoffice/TypeDetection/Filter/fcfg_pocketword_filters.xcu
+819370f9716b8ebebeb419c836ebb4c7  usr/lib/openoffice/basis3.2/share/registry/modules/org/openoffice/TypeDetection/Types/fcfg_palm_types.xcu
+3b68b7d99c5ec2d846f50fa578ea03c6  usr/lib/openoffice/basis3.2/share/registry/modules/org/openoffice/TypeDetection/Types/fcfg_pocketexcel_types.xcu
+e4ec89035960c77d89d0859de08db38c  usr/lib/openoffice/basis3.2/share/registry/modules/org/openoffice/TypeDetection/Types/fcfg_pocketword_types.xcu
+89cb9ecd83b1679780a88ff35844f5f8  usr/share/bug/openoffice.org-filter-mobiledev/presubj
+670505bff0aff7bc7286480c64a1f3f3  usr/share/doc/openoffice.org-filter-mobiledev/NEWS.gz
+82984350200d4399f611a1fa4123be3c  usr/share/doc/openoffice.org-filter-mobiledev/README.Debian.gz
+e28eb8ac9ef78ab3358db2180f1cb3f7  usr/share/doc/openoffice.org-filter-mobiledev/README.gz
+24e19f1b232f8b7c7caec17b34d061b1  usr/share/doc/openoffice.org-filter-mobiledev/changelog.Debian.gz
+7e570257b3058ac58fa3c05b49f31174  usr/share/doc/openoffice.org-filter-mobiledev/changelog.gz
+90e6d3cc527dcc5523348c9574508db2  usr/share/doc/openoffice.org-filter-mobiledev/copyright
+25016e4002e73f4aaef72fb9c8c3b314  usr/share/java/openoffice/aportisdoc.jar
+3c4e7ec2db2a7d9defe326251a5b1068  usr/share/java/openoffice/pexcel.jar
+a0548d0d3ad1d1bd7f8b007102f315a5  usr/share/java/openoffice/pocketword.jar

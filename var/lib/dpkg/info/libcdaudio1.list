@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libcdaudio.so.1.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcdaudio1
+/usr/share/doc/libcdaudio1/README.gz
+/usr/share/doc/libcdaudio1/NEWS.gz
+/usr/share/doc/libcdaudio1/TODO
+/usr/share/doc/libcdaudio1/changelog.Debian.gz
+/usr/share/doc/libcdaudio1/changelog.gz
+/usr/share/doc/libcdaudio1/copyright
+/usr/lib/libcdaudio.so.1

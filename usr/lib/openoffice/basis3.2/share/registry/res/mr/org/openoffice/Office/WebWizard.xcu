@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:install="http://openoffice.org/2004/installation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="WebWizard" oor:package="org.openoffice.Office">
+  <node oor:name="WebWizard">
+    <node oor:name="Exporters">
+      <node oor:name="copy-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">मूळ धारिका रचना</value>
+        </prop>
+      </node>
+      <node oor:name="html-writer-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="html-calc-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="html-impress-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="html-draw-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-writer-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छपाई योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-calc-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छपाई योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-impress-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छपाई योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-draw-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छपाई योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-hq-writer-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छापखाना योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-calc-hq-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छापखाना योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-impress-hq-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छापखाना योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-draw-hq-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">PDF - छापखाना योग्य</value>
+        </prop>
+      </node>
+      <node oor:name="flash-impress-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">फ्लैश</value>
+        </prop>
+      </node>
+      <node oor:name="flash-draw-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="mr">फ्लैश</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Layouts">
+      <node oor:name="table_3">
+        <prop oor:name="Name">
+          <value xml:lang="mr">3 स्तभांसहित कोष्टक</value>
+        </prop>
+      </node>
+      <node oor:name="table_2">
+        <prop oor:name="Name">
+          <value xml:lang="mr">2  स्तभांसहित कोष्टक</value>
+        </prop>
+      </node>
+      <node oor:name="simple">
+        <prop oor:name="Name">
+          <value xml:lang="mr">सामान्य</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal">
+        <prop oor:name="Name">
+          <value xml:lang="mr">कर्ण</value>
+        </prop>
+      </node>
+      <node oor:name="zigzag">
+        <prop oor:name="Name">
+          <value xml:lang="mr">झिगझैग</value>
+        </prop>
+      </node>
+      <node oor:name="frame_left">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTMLचौकटसंच, डावा</value>
+        </prop>
+      </node>
+      <node oor:name="frame_right">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTMLचौकटसंच, उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="frame_top">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTMLचौकटसंच, वर</value>
+        </prop>
+      </node>
+      <node oor:name="frame_bottom">
+        <prop oor:name="Name">
+          <value xml:lang="mr">HTMLचौकटसंच, तळाचा</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Styles">
+      <node oor:name="style1">
+        <prop oor:name="Name">
+          <value xml:lang="mr">बीज</value>
+        </prop>
+      </node>
+      <node oor:name="style2">
+        <prop oor:name="Name">
+          <value xml:lang="mr">चमकदार</value>
+        </prop>
+      </node>
+      <node oor:name="style3">
+        <prop oor:name="Name">
+          <value xml:lang="mr">चमकदार निळा</value>
+        </prop>
+      </node>
+      <node oor:name="style4">
+        <prop oor:name="Name">
+          <value xml:lang="mr">ग्रे</value>
+        </prop>
+      </node>
+      <node oor:name="style5">
+        <prop oor:name="Name">
+          <value xml:lang="mr">निळा</value>
+        </prop>
+      </node>
+      <node oor:name="style6">
+        <prop oor:name="Name">
+          <value xml:lang="mr">विरोधाभास</value>
+        </prop>
+      </node>
+      <node oor:name="style7">
+        <prop oor:name="Name">
+          <value xml:lang="mr">काळा आणि निळा</value>
+        </prop>
+      </node>
+      <node oor:name="style8">
+        <prop oor:name="Name">
+          <value xml:lang="mr">गडद लाल</value>
+        </prop>
+      </node>
+      <node oor:name="style9">
+        <prop oor:name="Name">
+          <value xml:lang="mr">फीका राखाडी</value>
+        </prop>
+      </node>
+      <node oor:name="style10">
+        <prop oor:name="Name">
+          <value xml:lang="mr">जंगल</value>
+        </prop>
+      </node>
+      <node oor:name="style11">
+        <prop oor:name="Name">
+          <value xml:lang="mr">नारंगी आणि निळा</value>
+        </prop>
+      </node>
+      <node oor:name="style12">
+        <prop oor:name="Name">
+          <value xml:lang="mr">मरीन</value>
+        </prop>
+      </node>
+      <node oor:name="style13">
+        <prop oor:name="Name">
+          <value xml:lang="mr">नारंगी</value>
+        </prop>
+      </node>
+      <node oor:name="style14">
+        <prop oor:name="Name">
+          <value xml:lang="mr">बर्फ निळा</value>
+        </prop>
+      </node>
+      <node oor:name="style15">
+        <prop oor:name="Name">
+          <value xml:lang="mr">निळा आणि राखाडी</value>
+        </prop>
+      </node>
+      <node oor:name="style16">
+        <prop oor:name="Name">
+          <value xml:lang="mr">पाणी</value>
+        </prop>
+      </node>
+      <node oor:name="style17">
+        <prop oor:name="Name">
+          <value xml:lang="mr">लाल</value>
+        </prop>
+      </node>
+      <node oor:name="style18">
+        <prop oor:name="Name">
+          <value xml:lang="mr">रंगीबेरंगी</value>
+        </prop>
+      </node>
+      <node oor:name="style19">
+        <prop oor:name="Name">
+          <value xml:lang="mr">हिरवा आणि लाल</value>
+        </prop>
+      </node>
+      <node oor:name="style20">
+        <prop oor:name="Name">
+          <value xml:lang="mr">गडद जांभळा</value>
+        </prop>
+      </node>
+      <node oor:name="style21">
+        <prop oor:name="Name">
+          <value xml:lang="mr">हिरवा</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="IconSets">
+      <node oor:name="iconset0">
+        <prop oor:name="Name">
+          <value xml:lang="mr">गोल, 3D, निळा आणि राखडी</value>
+        </prop>
+      </node>
+      <node oor:name="iconset1">
+        <prop oor:name="Name">
+          <value xml:lang="mr">गोल, 3D, निळा आणि हिरवा</value>
+        </prop>
+      </node>
+      <node oor:name="iconset2">
+        <prop oor:name="Name">
+          <value xml:lang="mr">घनाकार, 3D, नारंगी आणि निळा</value>
+        </prop>
+      </node>
+      <node oor:name="iconset3">
+        <prop oor:name="Name">
+          <value xml:lang="mr">गोल, सपाट, काळा आणि राखडी</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Filters">
+      <node oor:name="OO_documents">
+        <prop oor:name="Name">
+          <value xml:lang="mr">%PRODNAME दस्तऐवजे</value>
+        </prop>
+      </node>
+      <node oor:name="ms_documents">
+        <prop oor:name="Name">
+          <value xml:lang="mr">मायक्रोसॉफ्ट ऑफिस दस्तऐवजे</value>
+        </prop>
+      </node>
+      <node oor:name="graphic_files">
+        <prop oor:name="Name">
+          <value xml:lang="mr">चित्रालेख धारिका</value>
+        </prop>
+      </node>
+      <node oor:name="all_files">
+        <prop oor:name="Name">
+          <value xml:lang="mr">सर्व धारिका</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

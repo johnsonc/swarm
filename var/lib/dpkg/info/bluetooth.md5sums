@@ -1,0 +1,7 @@
+59df55d371d54a38545ca15dd732922a  usr/share/doc/bluetooth/AUTHORS
+94026de7346d9e35572635672f7264e6  usr/share/doc/bluetooth/NEWS.Debian.gz
+82c2262ddbe8b6cc1bed9f78d9b1f5e7  usr/share/doc/bluetooth/README
+bfab4c09b6ece819657c8c3455241c38  usr/share/doc/bluetooth/changelog.Debian.gz
+df5e4ef1dfdeb1628a11ab13dc7c91a8  usr/share/doc/bluetooth/changelog.gz
+1bb68be4eb42fdf108de0dec47d56452  usr/share/doc/bluetooth/copyright
+6bcc42d46aa2c236539558480f5d6a7e  usr/share/lintian/overrides/bluetooth

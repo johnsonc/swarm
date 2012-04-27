@@ -1,0 +1,8 @@
+fc1b35c106eed810ec73d1b0c954fd53  usr/lib/iceweasel/extensions/langpack-mr@firefox.mozilla.org/chrome.manifest
+9f4beb24a5142973ba75baf8286acd96  usr/lib/iceweasel/extensions/langpack-mr@firefox.mozilla.org/chrome/mr.jar
+c5ccd9eb13ada545c850e13a55ea0e1f  usr/lib/iceweasel/extensions/langpack-mr@firefox.mozilla.org/install.rdf
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/iceweasel/extensions/langpack-mr@firefox.mozilla.org/uninstall/Uninstall
+7e699bfe739be3f5184a220b765128f1  usr/share/doc/iceweasel-l10n-mr/changelog.Debian.gz
+678ca9537ccd73657c7753ef4da5e3ea  usr/share/doc/iceweasel-l10n-mr/copyright
+18e38545f6caa39ee1ca2c14fee81eae  usr/share/lintian/overrides/iceweasel-l10n-mr
+eac55562df8d93aae303a70908fdc4d8  var/lib/iceweasel/extensions.d/50mr-locale.ext

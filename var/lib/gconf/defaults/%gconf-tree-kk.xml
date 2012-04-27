@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gedit-2">
+				<dir name="plugins">
+					<entry name="active-plugins">
+						<local_schema short_desc="Белсенді плагиндер">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="Жолдар нөмірлерін көрсету">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="save">
+							<entry name="auto_save_interval">
+								<local_schema short_desc="Автосақтау мерзімі">
+								</local_schema>
+							</entry>
+							<entry name="auto_save">
+								<local_schema short_desc="Автосақтау">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="Түзетуші қарібі">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gdm">
+				<dir name="simple-greeter">
+					<entry name="wm_use_compiz">
+						<local_schema short_desc="Терезелер менеджері ретінде compiz қолдану">
+							<longdesc>Ақиқат деп орнатыңыз, егер терезелер менеджері ретінде compiz қолданғыңыз келсе.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recent-layouts">
+						<local_schema short_desc="Соңғы тандалған пернетақта жаймалары">
+							<longdesc>Жүйеге кіру тересінде көрсетілетін пернетақта жаймалар тізімін көрсетіңіз.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recent-languages">
+						<local_schema short_desc="Соңғы тандалған тілдер">
+							<longdesc>Жүйеге кіру тересінде көрсетілетін тілдер тізімін көрсетіңіз.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_list">
+						<local_schema short_desc="Кіру тересінде белгілі пайдаланушыларды көрсетпеу">
+						</local_schema>
+					</entry>
+					<entry name="disable_restart_buttons">
+						<local_schema short_desc="Қайта қосу батырмасын көрсетпеу">
+						</local_schema>
+					</entry>
+					<entry name="logo_icon_name">
+						<local_schema short_desc="Қарсы алу белгішесі">
+							<longdesc>Белгішелер темасының атын көрсетіңіз, қарсы алу лого ретінде қолдану үшін.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_text">
+						<local_schema short_desc="Қарсы алу хабарламасы">
+							<longdesc>Кіру терезесінде көрсетілетін мәтін хабарламасы.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_enable">
+						<local_schema short_desc="Қарсы алу хабарламасын көрсету">
+							<longdesc>Ақиқат деп орнатыңыз, егер қарсы алу мәтінді көргіңіз келсе.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="settings-manager-plugins">
+						<dir name="xsettings">
+							<entry name="active">
+								<local_schema short_desc="Ақиқат, егер xsettings баптаулар менеджер плагині қосулы тұрса.">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="xrandr">
+							<entry name="active">
+								<local_schema short_desc="Ақиқат, егер xrandr баптаулар менеджер плагині қосулы тұрса.">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="sound">
+							<entry name="active">
+								<local_schema short_desc="Ақиқат, егер дыбыс баптаулар менеджер плагині қосулы тұрса.">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="media-keys">
+							<entry name="active">
+								<local_schema short_desc="Ақиқат, егер медиа пернелер баптаулар менеджер плагині қосулы тұрса.">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="background">
+							<entry name="active">
+								<local_schema short_desc="Ақиқат, егер фон баптаулар менеджер плагині қосулы тұрса.">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="a11y-keyboard">
+							<entry name="active">
+								<local_schema short_desc="Ыңғайлылық пернетақта плагинің қосу">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="accessibility">
+						<entry name="screen_magnifier_enabled">
+							<local_schema short_desc="Экран ұлғайтқышын қосу">
+							</local_schema>
+						</entry>
+						<entry name="screen_reader_enabled">
+							<local_schema short_desc="Экран оқуды қосу">
+							</local_schema>
+						</entry>
+						<entry name="screen_keyboard_enabled">
+							<local_schema short_desc="Экрандағы пернетақтаны қосу">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="deskbar">
+				<entry name="window_height">
+					<local_schema short_desc="Терезе биіктігі">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Терезе ені">
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

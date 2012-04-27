@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/java
+/usr/share/java/com.ibm.icu-4.0.1.1.jar
+/usr/share/java/com.ibm.icu.base-4.0.1.1.jar
+/usr/share/doc
+/usr/share/doc/libicu4j-java
+/usr/share/doc/libicu4j-java/APIChangeReport.html
+/usr/share/doc/libicu4j-java/README.Debian
+/usr/share/doc/libicu4j-java/copyright
+/usr/share/doc/libicu4j-java/changelog.Debian.gz
+/usr/share/doc/libicu4j-java/NEWS.Debian.gz
+/usr/share/java/com.ibm.icu.base.jar
+/usr/share/java/com.ibm.icu.jar
+/usr/share/java/icu4j.jar

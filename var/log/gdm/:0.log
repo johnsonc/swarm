@@ -1,0 +1,19 @@
+
+X.Org X Server 1.7.7
+Release Date: 2010-05-04
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 2.6.32 armv5tel Debian
+Current Operating System: Linux debamd 2.6.32.9-default #1 Wed Jul 13 09:56:43 HKT 2011 armv5tejl
+Kernel command line: mem=214M root=/dev/mmcblk0p2 noinitrd rw rootfstype=ext2 console=ttyS0,115200n8 rootdelay=10
+Build Date: 30 October 2011  09:07:45PM
+xorg-server 2:1.7.7-14 (Julien Cristau <jcristau@debian.org>) 
+Current version of pixman: 0.16.4
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Fri Aug 14 09:00:56 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Primary device is not PCI
+SELinux: Disabled on system, not enabling in X server

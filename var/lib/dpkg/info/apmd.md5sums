@@ -1,0 +1,15 @@
+1687cd09ea59ce14e8ce756756981024  usr/share/apmd/apmd_proxy.conf
+7f44b525f4270d0eec4ff4d01677b5b6  usr/share/man/fr/man1/apmsleep.1.gz
+f7c6a2431baf0bea012299a1d6e05642  usr/share/man/man8/apmd.8.gz
+c97b5993b653d21dbcc395651512fac3  usr/share/man/man1/apm.1.gz
+0086c5d4eab6a11306b81ec07f8f5d44  usr/share/man/man1/apmsleep.1.gz
+a9fd2ffd089350a0d9fa7730b3e2d89c  usr/share/doc/apmd/AUTHORS
+5f881e9c3ece0befc0eafb288078c7a6  usr/share/doc/apmd/copyright
+0e519c603468e2a0c4b5a21ba2437150  usr/share/doc/apmd/apmsleep.README
+469578430bb1451a9f3def865b2ce068  usr/share/doc/apmd/changelog.gz
+b00a710db49b981f977558db7a6aca32  usr/share/doc/apmd/README
+322d3a83f8efe199d59e8ae599934e1d  usr/share/doc/apmd/README.Debian
+8211184236a96f22ace7caa1e2f941cc  usr/share/doc/apmd/changelog.Debian.gz
+6d58bbf8c8314e594acfd07cc88d7f6c  usr/bin/apmsleep
+11a2c44f39da007b7756c4420ac6c120  usr/bin/apm
+1f503f9294a53bbefa74a35092b3de52  usr/sbin/apmd

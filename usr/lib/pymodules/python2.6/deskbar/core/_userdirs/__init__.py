@@ -1,0 +1,1 @@
+/usr/share/pyshared/deskbar/core/_userdirs/__init__.py

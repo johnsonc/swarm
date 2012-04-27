@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libwebkit-1.0-2
+/usr/share/doc/libwebkit-1.0-2/changelog.Debian.gz
+/usr/share/doc/libwebkit-1.0-2/copyright
+/usr/lib
+/usr/lib/webkit-1.0-2
+/usr/lib/webkit-1.0-2/libexec
+/usr/lib/webkit-1.0-2/libexec/DumpRenderTree
+/usr/lib/webkit-1.0-2/libexec/GtkLauncher
+/usr/lib/libwebkit-1.0.so.2.17.9
+/usr/lib/libwebkit-1.0.so.2

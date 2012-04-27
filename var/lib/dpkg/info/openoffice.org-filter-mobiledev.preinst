@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+THIS_PACKAGE=openoffice.org-filter-mobiledev
+THIS_SCRIPT=preinst
+
+
+
+case "$1" in install|upgrade)
+	if [ -L /usr/lib/openoffice/program/classes ]; then
+		rm /usr/lib/openoffice/program/classes
+		mkdir /usr/lib/openoffice/program/classes
+	fi
+	;;
+esac
+
+
+
+exit 0

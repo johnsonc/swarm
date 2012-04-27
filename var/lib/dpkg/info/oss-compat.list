@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/oss-compat
+/usr/share/doc/oss-compat/copyright
+/usr/share/doc/oss-compat/changelog.gz
+/lib
+/lib/oss-compat
+/lib/oss-compat/linux
+/etc
+/etc/modprobe.d

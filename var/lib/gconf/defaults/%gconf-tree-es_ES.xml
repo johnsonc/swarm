@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="system_monitor">
+						<local_schema short_desc="El archivo de descripción del escritorio que ejecutar como el monitor del sistema">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color2">
+						<local_schema short_desc="Color del fondo para el gráfico de carga de disco">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color1">
+						<local_schema short_desc="El color del gráfico para las escrituras de disco">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color0">
+						<local_schema short_desc="El color del gráfico para las lecturas de disco">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color1">
+						<local_schema short_desc="Color de fondo del gráfico de carga del sistema">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color0">
+						<local_schema short_desc="El color del gráfico para el promedio de carga">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color1">
+						<local_schema short_desc="Color de fondo del gráfico del espacio de intercambio">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color0">
+						<local_schema short_desc="El color del gráfico para el uso de intercambio relativo al usuario">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color3">
+						<local_schema short_desc="Color de fondo del gráfico de red">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color2">
+						<local_schema short_desc="El color del gráfico para el uso local de la red">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color1">
+						<local_schema short_desc="El color del gráfico para la actividad de salida de la red">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color0">
+						<local_schema short_desc="El color del gráfico para la actividad de entrada la red">
+						</local_schema>
+					</entry>
+					<entry name="memload_color4">
+						<local_schema short_desc="Color de fondo del gráfico de uso de memoria">
+						</local_schema>
+					</entry>
+					<entry name="memload_color3">
+						<local_schema short_desc="El color del gráfico para la memoria caché">
+						</local_schema>
+					</entry>
+					<entry name="memload_color2">
+						<local_schema short_desc="El color del gráfico para la memoria del búfer">
+						</local_schema>
+					</entry>
+					<entry name="memload_color1">
+						<local_schema short_desc="El color del gráfico para la memoria compartida">
+						</local_schema>
+					</entry>
+					<entry name="memload_color0">
+						<local_schema short_desc="El color del gráfico para el uso de memoria relacionado con el usuario">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color4">
+						<local_schema short_desc="Color de fondo del gráfico de carga de CPU">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color3">
+						<local_schema short_desc="El color del gráfico para la espera de E/S relacionada con la actividad de la CPU">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color2">
+						<local_schema short_desc="El color del gráfico para la actividad de la CPU relacionada con la prioridad">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color1">
+						<local_schema short_desc="El color del gráfico para la actividad de la CPU relacionada con el sistema">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color0">
+						<local_schema short_desc="El color del gráfico para la actividad de la CPU relacionada con el usuario">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Tamaño del gráfico">
+							<longdesc>Para los paneles horizontales, el ancho de los gráficos en píxeles, para los paneles verticales, esto es la altura de los gráficos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Tasa de refresco de la miniaplicación en milisegundos">
+						</local_schema>
+					</entry>
+					<entry name="view_diskload">
+						<local_schema short_desc="Activar el gráfico de carga de disco">
+						</local_schema>
+					</entry>
+					<entry name="view_loadavg">
+						<local_schema short_desc="Activar el gráfico de promedio de carga">
+						</local_schema>
+					</entry>
+					<entry name="view_swapload">
+						<local_schema short_desc="Activar el gráfico de carga de intercambio">
+						</local_schema>
+					</entry>
+					<entry name="view_netload">
+						<local_schema short_desc="Activar el gráfico de carga de la red">
+						</local_schema>
+					</entry>
+					<entry name="view_memload">
+						<local_schema short_desc="Activar el gráfico de carga de memoria">
+						</local_schema>
+					</entry>
+					<entry name="view_cpuload">
+						<local_schema short_desc="Activar el gráfico de carga de CPU">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="geyes">
+				<dir name="prefs">
+					<entry name="theme_path">
+						<local_schema short_desc="Directorio en el cual se encuentra situado el tema">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_text">
+						<local_schema short_desc="Muestra la etiqueta de tiempo/porcentaje">
+							<longdesc>0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_battery">
+						<local_schema short_desc="Muestra la batería horizontal">
+							<longdesc>Mostrar la batería tradicional horizontal en el panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_status">
+						<local_schema short_desc="Batería vertical (pequeña)">
+							<longdesc>Mostrar la batería hacia arriba, más pequeña en el panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drain_from_top">
+						<local_schema short_desc="Vaciar desde arriba">
+							<longdesc>Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="Pitar para los avisos">
+							<longdesc>Pitar al mostrar un aviso</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="Notificación de batería cargada">
+							<longdesc>Notificar al usuario cuando la batería esté cargada.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="Notificación de batería baja">
+							<longdesc>Notificar al usuario cuando la batería esté baja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="red_value_is_time">
+						<local_schema short_desc="Advertir cuando quede poco tiempo en vez de bajo porcentaje">
+							<longdesc>Usar el valor definido en red_value como el tiempo que queda para mostrar el diálogo de advertencia en vez de un porcentaje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="Nivel de valor rojo">
+							<longdesc>El nivel de batería por debajo del cual ésta se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="mixer_applet">
+				<dir name="prefs">
+					<entry name="vol">
+						<local_schema short_desc="Volumen guardado para restaurar durante el inicio">
+						</local_schema>
+					</entry>
+					<entry name="mute">
+						<local_schema short_desc="Estado de silencio guardado">
+						</local_schema>
+					</entry>
+					<entry name="channel">
+						<local_schema short_desc="Canal controlado por la miniaplicación. Sólo para configuraciones de OSS">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema short_desc="Intervalo del tiempo de espera para comprobar el estado de los puntos de montaje">
+							<longdesc>Tiempo en segundos entre las actualizaciones del estado</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="Lista de paletas disponibles">
+							<longdesc>Lista de cadenas que contienen las paletas disponibles.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="current_list">
+						<local_schema short_desc="Caracteres mostrados al iniciar la miniaplicación">
+							<longdesc>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_list">
+						<local_schema short_desc="OBSOLETO - Caracteres mostrados al iniciar la miniaplicación">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="show_text_mode">
+						<local_schema short_desc="El tipo de texto a mostrar (si el texto está activado).">
+							<longdesc>Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_mode">
+						<local_schema short_desc="Modo para mostrar el uso de la CPU">
+							<longdesc>Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cpu">
+						<local_schema short_desc="CPU que monitorizar">
+							<longdesc>Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="settings">
+					<entry name="confirm_deletion">
+						<local_schema short_desc="Define si se debe solicitar una confirmación cuando se está borrando una nota">
+							<longdesc>Las notas vacías siempre se borran sin confirmación.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="force_default">
+						<local_schema short_desc="Define si se debe forzar el uso del color y la tipografía predeterminada en todas las notas">
+							<longdesc>Si esta opción esta activada los colores y tipografías personalizadas que han sido asignados a las notas individuales se ignorarán.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_font">
+						<local_schema short_desc="Define si se debe utilizar la tipografía predeterminada del sistema">
+							<longdesc>Si esta opción está desactivada, se puede utilizar una tipografía personalizada como tipografía predeterminada para todas las notas adhesivas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_color">
+						<local_schema short_desc="Define si se debe utilizar el color predeterminado del sistema">
+							<longdesc>Si esta opción está desactivada se puede utilizar una color personalizado como el color predeterminado para todas las notas adhesivas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Formato de fecha del título de la nota">
+							<longdesc>Por omisión, las notas adhesivas utilizan la fecha actual como título al crearse. Este es el formato utilizado. Cualquier formato que pueda ser analizado por strftime() es válido.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Estado de bloqueo de las notas adhesivas">
+							<longdesc>Especifica si las notas adhesivas están bloqueadas (no editables) o no.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sticky">
+						<local_schema short_desc="Área de trabajo no pegadiza para las notas adhesivas">
+							<longdesc>Especifica si las notas adhesivas son visibles en TODAS las áreas de trabajo del escritorio, o no.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="defaults">
+					<entry name="font">
+						<local_schema short_desc="Tipografía predeterminada para las notas nuevas">
+							<longdesc>Tipografía predeterminada para las notas adhesivas nuevas. Esto debería ser un nombre de tipografía Pango, por ejemplo «Sans Italic 10».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_color">
+						<local_schema short_desc="Color de predeterminado para la tipografía">
+							<longdesc>Color predeterminado para la tipografía de las notas adhesivas nuevas. Este podría estar en especificación hexadecimal html, por ejemplo «#000000».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="color">
+						<local_schema short_desc="Color de predeterminado para las notas nuevas">
+							<longdesc>Color predeterminado para las notas adhesivas nuevas. Este podría estar en especificación hexadecimal html, por ejemplo «#30FF50».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="height">
+						<local_schema short_desc="Altura predeterminada para las notas nuevas">
+							<longdesc>Altura predeterminada en píxeles para las notas adhesivas nuevas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="Anchura predeterminado para las notas nuevas">
+							<longdesc>Anchura predeterminado en píxeles para las notas adhesivas nuevas.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="radar">
+						<local_schema short_desc="Url para el mapa del radar">
+							<longdesc>La url personalizada desde donde recuperar un mapa de radar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_radar_url">
+						<local_schema short_desc="Usa una url personalizada para el mapa del radar">
+							<longdesc>Si es «true» (verdadero), entonces recupera un mapa de radar desde la dirección especificada por la clave «radar».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="coordinates">
+						<local_schema short_desc="Coordenadas de la zona">
+							<longdesc>Latitud y longitud de su zona expresada en DD-MM-SS[NS] DD-MM-SS[EW].</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema short_desc="Meteorología para una ciudad">
+							<longdesc>La ciudad para la que gweather muestra información.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema short_desc="Zona de radar">
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema short_desc="Situación de la zona">
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema short_desc="Ciudad cercana">
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema short_desc="Información meteorológica de una zona">
+							<longdesc>Información meteorológica de una zona.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_radar_map">
+						<local_schema short_desc="Mostrar el mapa de radar">
+							<longdesc>Obtener un mapa de radar con cada actualización.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_detailed_forecast">
+						<local_schema short_desc="Ya no se utiliza">
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="Unidad de temperatura">
+							<longdesc>La unidad en la que medir la temperatura.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed_unit">
+						<local_schema short_desc="Unidad de velocidad">
+							<longdesc>La unidad en que medir la velocidad del viento.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="pressure_unit">
+						<local_schema short_desc="Unidad de presión">
+							<longdesc>La unidad en la que medir la presión.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="distance_unit">
+						<local_schema short_desc="Unidad de distancia">
+							<longdesc>La unidad en que medir la visibilidad.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_metric">
+						<local_schema short_desc="Usar unidades métricas">
+							<longdesc>Usa unidades métricas en vez de las unidades inglesas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update_interval">
+						<local_schema short_desc="Intervalo de actualización">
+							<longdesc>El intervalo en segundos entre las actualizaciones automáticas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update">
+						<local_schema short_desc="Actualizar los datos automáticamente">
+							<longdesc>Determina si la miniaplicación actualiza automáticamente sus estadísticas meteorológicas o no.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

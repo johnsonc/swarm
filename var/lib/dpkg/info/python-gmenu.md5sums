@@ -1,0 +1,16 @@
+b62afa96119f31b64d6a94dab1cee5fd  usr/lib/pyshared/python2.5/gmenu.so
+9f2eed1998956b76af8743ac6e995867  usr/lib/pyshared/python2.6/gmenu.so
+6236c272da611db158156b49b39a3b38  usr/share/doc/python-gmenu/AUTHORS
+0a34afca612746d32acda832efca1a69  usr/share/doc/python-gmenu/NEWS.gz
+e04b182df75087b0efff2cc0954b08b7  usr/share/doc/python-gmenu/README
+a17db915e3b96298e7af7abe3bf7f090  usr/share/doc/python-gmenu/changelog.Debian.gz
+2b0f6b76df96a9dc322faa480d33237e  usr/share/doc/python-gmenu/changelog.gz
+dc92c2a480aeb3a510f7232f2accd810  usr/share/doc/python-gmenu/copyright
+23e924751f92a62fe491f1054b580435  usr/share/doc/python-gmenu/examples/gnome-menus-ls.py
+454c1535785d192b2ff710c1de0eebe4  usr/share/pyshared/GMenuSimpleEditor/__init__.py
+c1d23cba176fa0249db7e13b0d81a3de  usr/share/pyshared/GMenuSimpleEditor/config.py
+1aadd6770cdd379e3a2fbac935303b9b  usr/share/pyshared/GMenuSimpleEditor/main.py
+182c1285a3cb2ec514db11d07cd949dd  usr/share/pyshared/GMenuSimpleEditor/maindialog.py
+1d9593525260ca00160977fada668de7  usr/share/pyshared/GMenuSimpleEditor/menufilewriter.py
+9cca3b4e712411cbe005b55631f272b6  usr/share/pyshared/GMenuSimpleEditor/menutreemodel.py
+08efbbd8e75b39a24292eb5863b52162  usr/share/python-support/python-gmenu.public

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="network_icon_visible">
+						<local_schema short_desc="រូបតំណាង​ម៉ាស៊ីន​បម្រើ​បណ្តាញ​ដែល​មើល​ឃើញ​លើ​ផ្ទៃតុ">
+							<longdesc>ប្រសិនបើ​វា​ពិត រូបតំណាង​តភ្ជាប់​ទៅ​ទិដ្ឋភាព​របស់​ម៉ាស៊ីន​បម្រើ​បណ្តាញ នឹង​ត្រូវ​បានដាក់​លើ​ផ្ទៃតុ ។</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,1066 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="show_backup_files">
+						<local_schema short_desc="Ko za&apos;a nuna fayiloli na goyon baya">
+							<longdesc>Idan an shirya zuwa gaske, ana nuna fayloli na tallafawa misali kamar waɗanda shirin Emacs ta ƙiƙiro. Ayanzu, sai fayilolin da suka ƙare cikin tsarin tilde (~) ake la&apos;akari kamar fayiloli na goyon baya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Ko za&apos;a nuna fayilolin da aka ɓoye">
+							<longdesc>Idan an shirya zuwa gaske, to za&apos;a nuna fayilolin da aka ɓoye a cikin manajan fayil. Akan lissafa fayilolin da aka ɓoye cikin tsarin dotfiles ko kuma cikin .hidden file na shamis.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Manajan Taga">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Sunan alamar kwandon sharan kwamfyutan tebur">
+							<longdesc>Ana iya daidaita wannan suna idan kana son wani suna na ɗabi&apos;a wa alamar kwandon shara kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Sunan alama na gidan kwamfyutan tebur">
+							<longdesc>Ana iya daidaita wannan sunan idan kana son wani suna na ɗabi&apos;a wa alamar gida a kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="Sunan alama na kwamfyutan kwamfyutantebur">
+							<longdesc>Za&apos;a iya daidaita wannan suna idan kana son wani suna na ɗabi&apos;a wa alamar kwamfyutan a kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="Nuna ƙarfin murya da aka ɗaura kan kwamfyutan tebur">
+							<longdesc>Idan an shirya zuwa gaske, za&apos;a saka alamomi masu haɗa zuwa ƙarfin murya kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Ana iya ganin alamar Kwandon Shara kan kwamfyutan tebur">
+							<longdesc>Idan an shirya zuwa gaske, za&apos;a saka wata alama mai haɗa zuwa kwandon shara kan kwamfyutan tebur</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Alamar kwamfyuta da ake gani kan kwamfyutan tebur">
+							<longdesc>Idan an shirya zuwa gaske, za&apos;a saka wata alama mai haɗa zuwa wurin kwamfyuta a kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Alama na gida da ake gani kan kwamfyutan tebur">
+							<longdesc>Idan an shirya zuwa gaske, za&apos;a saka wata alama mai haɗa zuwa shamis na gida kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema>
+								<longdesc>Idan an shirya zuwa na gaskiya, Nautilus zai nuna shamis cikin layin gefe na bishiya kawai. Idan ba haka ba, zai nuna shamis da fayiloli tare.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="Difwalt na tsarin layi tsaye da ke cikin kallon jerin">
+							<longdesc>Difwalt na tsarin layi tsaye da ke cikin kallon jerin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="Difwalt na jerin layuka tsaye da ake iya gani cikin kallon jerin">
+							<longdesc>Difwalt na jerin layuka tsaye da ana iya gani cikin kallon jerin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Difwalt ɗin matsayin jawowa kusa da nesa na lissafi">
+							<longdesc>Difwalt na matsayin jawowa kusa da nesa wanda kallon jeri ke amfani da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Yi juyin waina na tsarin kasawa cikin sabobbin taga">
+							<longdesc>In da gaske, za&apos;a kasa fayilolin cikin tagogi ta tsarin juyin waina. misali, idan an tsara ta suna, maimakon kasa fayilolin daga &quot;a&quot; zuwa &quot;z&quot;, za&apos; a kasa su daga &quot;z&quot; zuwa &quot;a&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Difwalt ɗin tsarin kasawa">
+							<longdesc>Difwalt na tsarin-kasawa wa abubuwa masu cikin kallon jeri. Kima masu yiwu sune &quot;suna&quot;, &quot;girma&quot;, &quot;nau&apos;i&quot;, da &quot;ranar_gyare-gyare&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Difwalt ɗin matsayin jawowa kusa da nesa na alama">
+							<longdesc>Difwalt na matsayin jawowa kusa da nesa wanda kallon alama ke amfani da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="Yi amfani da tsari na hannu cikin sabobbin tagogi">
+							<longdesc>In da gaske, sabobbin tagogi zasu yi amfani da tsari na hannu ta difwalt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="Saka lambobi a gefen alamomi">
+							<longdesc>In da gaske, za&apos;a sa lambobi a gefen alamomi maimakon a ƙarƙashin su.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="Yi amfani da tsari mai ƙaushi cikin sabobbin tagogi">
+							<longdesc>In da gaske, za&apos;a shimfida shi ta difwalt ɗaɗaf cikin sabobbin tagogi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Yi juyin waina na tsarin kasawa cikin sabobbin taga">
+							<longdesc>In da gaske, za&apos;a kasa fayiloli cikin sabobbin tagogi ta tsarin juyin waina. misali, idan an kasa su ta suna, maimakon a kasa fayilolin daga &quot;a&quot; zuwa &quot;z&quot;, za&apos;a kasa su daga &quot;z&quot; zuwa &quot;a&quot;; idan an kasa su ta girma, za&apos;a kasa su ta ragewa maimakon ta ƙari.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Difwalt ɗin tsarin kasawa">
+							<longdesc>Difwalt na tsarin-kasawa wa abubuwa masu cikin kallon alama. Kima masu yiwu sune &quot;suna&quot;, &quot;girma&quot;, &quot;nau&apos;i&quot;, &quot;ranar_gyare-gyare&quot;, da &quot;Tambarura&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Jerin kafshan masu yiwu na kan alamomi">
+							<longdesc>Wani jerin kafshan a ƙasan wata alama da ke cikin kwamfyutan tebur da kallon alama. Ainihin yawan kafshan da za&apos;a nuna ya danganta ga matsayin shirin jawowa kusa da nesa. Kima masu yiwu sune: &quot;girma&quot;, &quot;nau&apos;i&quot;, &quot;kwanan wata_da aka yi wa gyare-gyare&quot;, &quot;kwanan watan_da aka sami shiga&quot;, &quot;mai shi&quot;, &quot;ƙungiya&quot;, &quot;izini&quot;, &quot;izinin_oktal&quot; da &quot;irin_mime&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Kallo na layin gefe">
+							<longdesc>Kallo na layin gefe wanda za&apos;a nuna cikin sabobbin tagogi da aka buɗe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Nuna layin gefe cikin sabobbin tagogi">
+							<longdesc>Idan an shirya zuwa gaske, za&apos;a samu ganin layin gefe na sabobbin tagogi da aka buɗe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Nuna layin matsayi cikin sabobbin tagogi">
+							<longdesc>Idan an shirya zuwa gaske, za&apos;a samu ganin layi mai nuna matsayi na sabobbin tagogi da aka buɗe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Nuna layin wuri cikin sabobbin tagogi">
+							<longdesc>Idan an shirya zuwa na gaske, za&apos;a samu ganin layin wuri na sabobbin tagogi da buɗe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Nuna jerin kayan aiki cikin sabobbin tagogi">
+							<longdesc>Idan an shirya zuwa gaske, za&apos;a iya ganin layukan kayan aiki na sabobbin tagogi da aka buɗe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Faɗi na layin gefe">
+							<longdesc>Faɗin difwalt na layin gefen cikin sabobbin tagogi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Tsarin Kwanan Wata">
+							<longdesc>Tsari na kwanan watan fayiloli. Kima masu yiwu sune &quot;locale&quot;, &quot;iso&quot;, da &quot;informal&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Difwalt na kallon shamis">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Difwalt na Layin Gefen Sunanfayil na Bango">
+							<longdesc>Sunanfayil wa difwalt na layin gefe na bango. Ana amfani da shi kurum idan shirin_bangon_layin_gefe na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Difwalt na Layin Gefen Launin Bango">
+							<longdesc>Sunanfayil wa difwalt na layin gefe na bango. Ana amfani da shi kurum idan shirin_bangon_layin_gefe na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Ɗabi&apos;ar Layin Gefe na Shirin Bangon">
+							<longdesc>Ko an daidaita wata ɗabi&apos;ar difwalt na bangon layin gefe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Difwalt na Sunanfayil na Bango">
+							<longdesc>Sunanfayil wa difwalt na bangon shamis. Ana amfani da shi kurum idan shirin_bango na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Difwalt na Launin Bango">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema>
+							<longdesc>Ko an daidaita wani ɗabi&apos;ar difwalt na bangon shamis</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="Magwaji wa binciken layin bincike">
+							<longdesc>Magwajin da ake amfani da idan za&apos;a dace fayilolin da aka nema cikin layin bincike. Idan an daidaita shi zuwa &quot;nemo_ta_rubutu&quot;, sannan Nautilus zai Nemi fayiloli ta sunan fayil kawai. Idan an daidaita shi zuwa &quot;nemo_ta_rubutu_da_furofati&quot;, sannan Nautilus zai binciki fayiloli ta sunan fayil da furofati na fayil.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Nautilus na amfani da shamis na gida na masu amfani da, kamar kwamfyutan tebur">
+							<longdesc>Idan an shirya zuwa gaske, sannan Nautilus zai yi amfani da shamis na gidan mai amfani da, don ya zama kwamfyutan tebur. Idan ƙarya ne, to sai ya yi amfani da ~/Kwamfyutan Tebur don ya zama kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Nau&apos;in rubutun kwamfyutan tebur">
+							<longdesc>Kwatanci na nau&apos;in rubutu da aka amfani da wa alamomi masu kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Nautilus na sarrafa idan za&apos;a zana kwamfyutan tebur">
+							<longdesc>Idan an shirya zuwa gaske, sannan Nautilus zai zana alamomin a kan kwamfyutan tebur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Nuna shamis da farko cikin tagogi">
+							<longdesc>Idan an shirya zuwa gaske, sannan Nautilus zai nuna shamis kafin ya nuna fayiloli cikin kallo na alama da jeri.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="Ko za&apos;a duba sauti idan ana motsa linzami kan alama">
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Iyaka fayilolin da ake sarrafa cikin wani shamis">
+							<longdesc>Za&apos;a rage girmar shamis da suka fi wannan girma zuwa wannan girmar. Amfanin sa, don gudun hura shirin heap ba da ganga ba, ya kashe Nautilus kan makekiyar shamis. Wata kima mai korau na nufa babu bila haddin. Ana kimar iyakarsa saboda ana karanta shamis a-chakuɗe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Iyaka girmar zane da za&apos;a rage zuwa girmar &apos;ɗan yasta">
+							<longdesc>Ba za&apos;a rage girman zane-zane wanda suka wuce iyaka wannan girma (cikin bytes) zuwa girma na &apos;ɗan yasta ba. Amfanin wannan shiri don ya hana rage girman babbar zane-zane wanda zasu iya ɗau lokaci wajen lodi ko masu amfani da yawan ƙwaƙwalwa zuwa girmar &apos;ɗan yatsu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Lokacin da ya kamata a nuna girmar ɗan yatsa na fayilolin sura">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Jigon Nautilus na Yanzu (ya zama defriketed)">
+							<longdesc>Sunan jigon Nautilus da za&apos;a amfani da. Wannan ya zama dipriketed a lokaci shirin Nautilus 2.2. Don Allah, maimakon kwai, ka shigar da jigon alama.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="Abin da za&apos;a iya yi da fayilolin rubutu wanda za&apos;a iya zartar da idan an kunna">
+							<longdesc>Abin da za ka iya yi da fayilolin rubutu wanda za&apos;a iya zartar da idan an kunna su (an danna sau ɗaya ko biyu). Kima masu yiwu sune &quot;gabatar da&quot; don a gabatar da su kamar shiryoyi, &quot;yi tambaya&quot; don ya yi tambaya ga abin da za&apos;a yi ta wani zauren akwatin bayani, da &quot;nuna&quot; don ya nuna su kamar fayilolin rubutu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="Irin dannawa da aka amfani da wajen gabatar da/buɗe fayiloli">
+							<longdesc>Kima masu yiwu sune &quot;guda&quot; don gabatar da fayiloli idan an danna sau ɗaya, ko &quot;dobur&quot; don gabatar da su idan an dannawa sau biyu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Lokacin da ya kamata a nuna yawan abubuwa na cikin wani shamis">
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Lokacin da ya kamata a nuna shirin duba rubutu cikin alamomi">
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Ko za&apos;a fara gogewa yanzu-yanzu">
+							<longdesc>Idan an shirya zuwa gaskiya, sannan Nautilus zai sami wata siffa da zai yarda ka goge wani fayil da gaggawa, kuma cikin-wurin, maimakon motsa shi zuwa kwandon shara. Wannan siffa zai iya zama mai haɗari, sabo da haka, yi a tsanke.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Yana fara halin Nautilus na ainihi, inda duk tagogi zasu zama birawsa">
+							<longdesc>Idan an shirya zuwa gaske, sannan duk tagogin Nautilus zasu zama tagogin birawsa. Haka Nautilus ke nuna hali kafin sigar 2.6, kuma wasu sun fi son wannan halin.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="internet_time">
+						<local_schema short_desc="Yi Amfani da Lokaci na Intanet">
+							<longdesc>Amfanin wannan maɓalli ya zama deprikated cikin shirin GNOME na 2.6, aka goyi bayan maɓallin &apos;fomat&apos;. An riƙe wannan skima don a sami dacewa da tsohon sigogi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Yi Amfani da Lokaci na UNIX">
+							<longdesc>Amfanin wannan maɓalli ya zama deprikated cikin shirin GNOME na 2.6, aka goyi bayan maɓallin &apos;fomat&apos;. An riƙe wannan skima don a sami dacewa da tsohon sigogi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Tsarin awa">
+							<longdesc>Amfanin wannan maɓalli ya zama deprikated cikin shirin GNOME na 2.6, aka goyi bayan maɓallin &apos;fomat&apos;. An riƙe wannan skima don a sami dacewa da tsohon sigogi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Nuna alƙaluman mako cikin kalanda">
+							<longdesc>In da gaske, ka nuna alƙaluman mako cikin kalandan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Kayan aikin canza tsari na lokaci">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Yi Amfani da UTC">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Nuna kwanan wata cikin shawarar kayan aiki">
+							<longdesc>In da gaske, ka nuna kwanan wata cikin wata shawarar kayan aiki, idan an sa manunin kan agogo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Nuna kwanan wata cikin agogo">
+							<longdesc>In da gaske, ka nuna kwanan wata cikin agogon, a haɗe da lokaci.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Nuna lokaci tare da sakan">
+							<longdesc>In da gaske, ka nuna sakan cikin lokaci.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Tsari na ɗabi&apos;a ga agogon">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Tsarin awa">
+							<longdesc>Wannan maɓalli na ƙayyade tsarin awa da applet ɗin agogo ke amfani da. Kima masu yiwu sune &quot;Awa-12&quot;, &quot;Awa-24&quot;, &quot;intanet&quot;, &quot;unix&quot; and &quot;na ɗabi&apos;a&quot;. Idan an daidaita zuwa &quot;intanet&quot;, agogon zai nuna lokacin Intanet. Tsarin lokaci na Intanet na raba rana cikin 1000&quot;.beats&quot;. Babu shiyyar lokaci cikin wannan tsarin, sabo da haka, lokaci zai zama ɗaya ga duk duniya. Idan an daidaita shi zuwa &quot;unix&quot;, agogon zai nuna lokaci cikin sakan tundaga lokacin da aka fara awna shi, misali,1970-01-01. Idan an daidaita shi zuwa &quot;na ɗabi&apos;a&quot;, agogon zai nuna lokaci cikin tsarin da aka ƙayyade cikin maɓallin fomat_na ɗabi&apos;a.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="Faɗaɗa taga a kwance">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="Faɗaɗa taga a tsaye">
+						</local_schema>
+					</entry>
+					<entry name="lower">
+						<local_schema short_desc="Yi ƙasa da taga a ƙarƙashin sauran tagogi">
+						</local_schema>
+					</entry>
+					<entry name="raise">
+						<local_schema short_desc="Ɗaga taga kan sauran tagogi">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_down">
+						<local_schema short_desc="Motsa taga ta ƙasan filin aiki taki ɗaya">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_up">
+						<local_schema short_desc="Motsa taga ta saman filin aiki taki ɗaya">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_right">
+						<local_schema short_desc="Motsa taga ta daman filin aiki taki ɗaya">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_left">
+						<local_schema short_desc="Motsa taga ta hagun filin aiki taki ɗaya">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 12">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 11">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 10">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 9">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 8">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 7">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 6">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 5">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 4">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 3">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 2">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Motsa taga zuwa filin aiki 1">
+						</local_schema>
+					</entry>
+					<entry name="begin_resize">
+						<local_schema short_desc="Sake girmar taga">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="Motsa taga">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Rufe taga">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="Tsuke taga">
+						</local_schema>
+					</entry>
+					<entry name="toggle_shaded">
+						<local_schema short_desc="Halin inuwantarwa na toggle">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="Faɗaɗa taga">
+						</local_schema>
+					</entry>
+					<entry name="toggle_maximized">
+						<local_schema short_desc="Halin faɗaɗawa na toggle">
+						</local_schema>
+					</entry>
+					<entry name="toggle_fullscreen">
+						<local_schema short_desc="Shirin cikakken fuska na toggle">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybinding_commands">
+					<entry name="command_window_screenshot">
+						<local_schema short_desc="Umarnin hoton fuskar kwamfyutan taga">
+							<longdesc>Wannan /apps/metacity/global_keybindings/run_command_window_screenshot key na ƙayyade wata kibaindin da ke sa a ƙira umarnin da wannan kewaye ta ƙayyade.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command_screenshot">
+						<local_schema short_desc="Umarnin hoton fuskar kwamfyuta">
+							<longdesc>Wannan /apps/metacity/global_keybindings/run_command_screenshot key na bayyana kibaindin da ke sa a kira umarnin da wannan kewaye ke ƙayyade.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Umarnai da za&apos;a tafiyar da cikin ba da amsa zuwa kibaindin">
+							<longdesc>Wannan /apps/metacity/global_keybindings/run_command_N keys na bayyana kibaindin da suka dace da waɗannan umarnai. Idan an danna kibaindin wa tafiyar da_umarnin_N, zai zartar da umarnin_N.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_terminal">
+						<local_schema short_desc="A tafiyar wata tasha">
+						</local_schema>
+					</entry>
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="Ka ɗau wani hoto na taga">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="Ka ɗau wani hoton fuskar kwamfyuta">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels_backward">
+						<local_schema short_desc="Gusa baya-baya tsakanin fanel da kwamfyutan tebur yanzu-yanzu">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels">
+						<local_schema short_desc="Gusa tsakanin fanel da kwamfyutan tebur yanzu-yanzu">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows">
+						<local_schema short_desc="Gusa tsakanin tagogi yanzu-yanzu">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="Sauya zuwa filin aiki 12">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="Sauya zuwa filin aiki 11">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="Sauya zuwa filin aiki 10">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="Sauya zuwa filin aiki 9">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="Sauya zuwa filin aiki 8">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="Sauya zuwa filin aiki 7">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="Sauya zuwa filin aiki 6">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="Sauya zuwa filin aiki 5">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="Sauya zuwa filin aiki 4">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="Sauya zuwa filin aiki 3">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="Sauya zuwa filin aiki 2">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="Sauya zuwa filin aiki 1">
+						</local_schema>
+					</entry>
+					<entry name="run_command">
+						<local_schema short_desc="A tafiyar da wata umarnin a bayyane">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="Sunan filin aiki">
+							<longdesc>Sunan wata filin aiki.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="disable_workarounds">
+						<local_schema short_desc="Ka kashe misfeature wanda tsohon shiryoyin ayuka ko shiryoyin ayuka wanda aka karya ke buƙata">
+						</local_schema>
+					</entry>
+					<entry name="application_based">
+						<local_schema short_desc="(Ba&apos;a zartar da shi ba) Neman hanya na aiki game da shirin ayuka, bada taga ba">
+						</local_schema>
+					</entry>
+					<entry name="reduced_resources">
+						<local_schema short_desc="In da gaske, ka sauya sauƙin amfani wa rage amfani na arziki ">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell_type">
+						<local_schema short_desc="Nau&apos;in Ƙararrawa Na Kallo">
+							<longdesc>Yana gaya wa Metaciti yanda yakamata ya aiwatar da indiketa wanda ana gani, mai nuna cewa an danna ƙararrawar na&apos;ura ko kuma an danna wata indiketa na shirin ayuka &apos;ƙararrawa&apos; daban. A yanzu, akwai kima guda biyu masu inganci, &quot;cikakkenfuska&quot;, mai jawo wata filash mai fari-baƙi ga cikakken fuska, da kuma &quot;filash na_firam&quot; da ke sa layin sunan shirin ayuka, wanda ya aika da alamar ƙararrawa ya yi filash. Idan ba&apos;a san da shirin ayuka wanda ya aika da ƙararrawar ba (yawanci matsalar da ke shafi difwalt &quot;ƙarar na&apos;ura&quot;), layin sunan taga da aka zura wa ido a lokacin zai yi filash.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="audible_bell">
+						<local_schema short_desc="Ana Jin Ƙararrawar Na&apos;ura">
+							<longdesc>Yana ƙudura ko da shirin ayuka ko kuma na&apos;urar zai iya bada &apos;ƙara&apos; da za&apos;a iya ji; ko kuma wanda za&apos;a iya amfani da tare da &apos;ƙararrawar da ake gani&apos; don ya yarda da &apos;ƙaran&apos; mai shiru.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Fara Ƙararrawa na Gani">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="Yawan filayen aiki">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_font">
+						<local_schema short_desc="Nau&apos;in rubutun sunan taga">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_uses_system_font">
+						<local_schema short_desc="Yi amfani da daidaitacciyar nau&apos;in rubutu na na&apos;ura cikin sunan taga">
+							<longdesc>In da gaske, sai ka ƙyale zaɓe na nau&apos;in rubutun_layinsuna, kuma ka yi amfani da daidaitacciyar nau&apos;in rubutu na shiryoyin ayuka wa sunayen taga.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Jigo wanda ake kai yanzu">
+							<longdesc>Jigon na ƙudura surar gefen taga, layin suna, da kaza da kaza.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise_delay">
+						<local_schema short_desc="Jinkiri cikin millisakan wa zaɓe na ɗagawa farat ɗaya">
+							<longdesc>Jinkintar lokaci kafin a ɗaga wani taga idan an daidaita ɗagawa_farat ɗaya zuwa gaske. Ana ba da jinkintar cikin dubban sakan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise">
+						<local_schema short_desc="Yana ɗaga tagan da aka zura wa ido farat ɗaya">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="Aiki idan an danna layin suna sau-biyu">
+						</local_schema>
+					</entry>
+					<entry name="focus_mode">
+						<local_schema short_desc="Shirin zura ido kan taga">
+							<longdesc>Shirin zura ido na taga na nuna yanda ake kunna tagogi. Yana da kima guda uku masu yiwu; ma&apos;anar &quot;danna&quot; shine ya kamata a danna tagogi don a samu a zura musu ido, ma&apos;anar &quot;sloppy&quot; shine ana zura ma tagogi ido idan linzami ta shiga tagan, da ma&apos;anar &quot;linzami&quot; shine ana zura wa tagogi ido idan linzamin ta shiga tagan kuma ana cire idon idan linzamin ta bar tagan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="button_layout">
+						<local_schema short_desc="Tsarin maɓallu kan layin suna">
+						</local_schema>
+					</entry>
+					<entry name="mouse_button_modifier">
+						<local_schema short_desc="Shirin Gyare-Gyare da za&apos;a yi amfani da wa ayukan danne-dannen tagan da aka yi wa gyare-gyare">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Layuka kwance cikin mai sauya filin aiki">
+							<longdesc>Wannan maɓalli na ƙayyade yawan layuka kwance (wa tsari mai kwance) ko layuka tsaye (wa tsari mai tsaye) da mai sauya filin aiki zai nuna filayen aiki ciki. Wannan maɓallin na da amfani kawai idan maɓallin nuna_duk_filayenaiki, na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Nuna duk filayenaiki">
+							<longdesc>In da gaske, mai sauya filin aiki zai nuna duk filayen aiki. Idan ba haka ba, zai nuna filin aiki da kake kai yanzu kawai.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Nuna sunayen filinaiki">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Iyaka girmar jerin taga">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Girmar jerin taga a ƙalla">
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Motsa tagogi zuwa filinaiki da ake kai yanzu idan an cire tsuke">
+							<longdesc>In da gaske, ka motsa shi zuwa filin aiki da kake kai yanzu, idan kana cire tsukewa ga taga. Idan ba haka ba, sai ka sauya zuwa filin aiki na tagan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Lokacin da za&apos;a iya kasa tagogi cikin ƙungiyoyi">
+							<longdesc>Yana yanke shawarar lokacin da za&apos;a kasa tagogi cikin ƙungiyoyi daga shirin ayuka guɗa, a kan jerin tagan. Kima masu yiwu sune &quot;kar a taɓa&quot;, &quot;farat ɗaya&quot; da &quot;kullum&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Nuna tagogi daga duk filayenaiki">
+							<longdesc>In da gaske, jerin taga zai nuna tagogi daga duk filayen aiki. In ba haka ba, kawai, zai nuna tagogi daga filin aiki da ake kai yanzu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Kashe Dainawa da Ƙarfi">
+							<longdesc>In da gaske, fanel ɗin zai cire hanya zuwa maɓallin tilasta daina aiki don ya hana mai amfani da ya tilasta wa shirin ayuka ya daina aiki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Kashe Fitarwa">
+							<longdesc>In da gaske, fanel ɗin zai cire hanya zuwa bayanen da aka shigar na mazaɓen fitarwa, don ya hana mai amfani da shi  fitarwa daga aiki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="Applet IIDs da za&apos;a kashe don kada su yi lodi">
+							<longdesc>Wani jerin IIDs na applet da fanel zai ƙyale. Hakan, zaka iya kashe wasu applet don kada su iya lodi ko nunawa cikin mazaɓen. Misali, idan za ka kashe applet ɗin ƙaramin-kwammanda, ka ƙara &apos;OAFIID:GNOME_MiniCommanderApplet&apos; zuwa wannan jeri. Sai ka sake fara fanel kafin gyaran ta fara aiki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Gama kulle fanel">
+							<longdesc>In da gaske, fanel ɗin ba zai yarda da canje-canje zuwa canza tsari na fanel ba. Amma, kila za&apos;a buƙata a kulle kowace applet guda dabam. Sai an sake fara fanel kafin wannan ya fara aiki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Haskata masu gabatar da kan shirin jarraba wurin linzami">
+							<longdesc>In da gaske, za&apos;a haskata wata shirin gabatarwa idan mai amfani da shi ya motsa manuni kan sa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Ba da tabbacin cire fanel">
+							<longdesc>In da gaske, za&apos;a nuna wata zauren akwatin bayani don ya tambayi tabbaci idan mai amfani da shi na son cire wani fanel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Rufewan durowa farat ɗaya">
+							<longdesc>In da gaske, za&apos;a rufe wata durowa farat ɗaya idan mai amfani da shi ya danna wata shirin gabatarwa cikinsa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Fara surori masu motsi">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Dipriketed">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="Fara shawarwarin kayan aiki">
+							<longdesc>In da gaske, za&apos;a nuna shawarar kayan aiki wa abubuwa cikin fanel.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Nau&apos;in maɓallin aikace">
+							<longdesc>Irin aiki da wannan maɓalli na wakiltar da. Kima masu yiuwa sune &quot;kulle&quot;, &quot;fitarwa&quot;, &quot;tafiyar da&quot;, &quot;nemi&quot; da &quot;ɗau hoton fuskar kwamfyuta&quot;. Wannan maɓallin na da amfani kawai idan nau&apos;in maɓallin_abun shine &quot;action-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Wurin mai gabatar da shiri">
+							<longdesc>Wurin .fayil na kwamfyutan tebur da ke bayyana shirin mai gabatarwa. Wannan maɓalli na da amfani kawai idan nau&apos;in maɓallin_abun shine &quot;abu-mai gabatawa&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Hanyar kayan cikin mazaɓa">
+							<longdesc>Hanya wanda aka tsara kayan cikin mazaɓa daga ciki. Wannan maɓalli na da amfani kawai idan maɓallin yi amfani da_hanyar_mazaɓa gaske ne da kuma idan maɓallin nau&apos;in_abun shine &quot;abun-mazaɓa&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Yi amfani da hanyar ɗabi&apos;a wa kayan cikin mazaɓa">
+							<longdesc>In da gaske, ana amfani da maɓallin hanyar_mazaɓa kamar hanyar da za&apos;a gina kayan cikin mazaɓa daga ciki. Idan babu gaskiya, za&apos;a ƙyale maɓallin hanyar_mazaɓa. Wannan maɓallin na da amfani kawai idan maɓallin nau&apos;in_abun shine &quot;abun-mazaɓa&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Alama da ake amfani da wa maɓallin abu">
+							<longdesc>Wurin fayil ɗin surar da aka yi amfani da kamar wata alama wa maɓallin abun. Wannan maɓalli na da amfani kawai idan nau&apos;in maɓallin_abun shine &quot;abun-durowa&quot; ko kuma &quot;abun-mazaɓa&quot; kuma maɓallin yi amfani da_ɗabi&apos;ar_alama, gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Yi amfanida alamar ɗabi&apos;a wa maɓallin abun">
+							<longdesc>In da gaske, za&apos;a yi amfani da maɓallin alamar_ɗabi&apos;ar kamar alamar ɗabi&apos;a wa maɓallin. Idan babu gaskiya, za&apos;a ƙyale maɓallin alamar_ɗabi&apos;a. Wannan maɓalli na da amfani kawai idan maɓallin nau&apos;in_abu ne &quot;abun-mazaɓa&quot; ko &quot;abun-durowa&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Shawarar kayan aiki da aka nuna wa durowa ko mazaɓa">
+							<longdesc>Rubutun da za&apos;a nuna cikin wani shawarar kayan aiki wa wannan durowa ko mazaɓa. Wannan maɓalli na da amfani kawai idan nau&apos;in maɓallin_abun shine &quot;abun_durowa&quot; ko &quot;abun-mazaɓa&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="An haɗa fanel zuwa durowa">
+							<longdesc>Mai gane fanel da aka haɗa zuwa wannan durowa. Wannan maɓalli na da amfani kawai idan maɓallin nau&apos;in-abun shine &quot;abun-durowa&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Applet Bonobo IID">
+							<longdesc>Shaidar zartar da Bonobo ɗin applet - misali,&quot;OAFIID:GNOME_ClockApplet&quot;.Wannan maɓalli yana da amfani kawai idan nau&apos;in maɓallin_abun shine &quot;bonobo-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Kulle abu zuwa fanel">
+							<longdesc>In da gaske, kada mai amfani da ya motsa applet sai ya yi amfani da abunmazaɓan &quot;Cire Makulli&quot; don ya samu ya buɗe abun da makulli</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="Ka bayyana wurin zuwa ƙasa/gefen dama">
+							<longdesc>In da gaske, za&apos;a bayyana wurin abun zuwa (ko ƙasa idan a tsaye ya ke) gefen dama na fanel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Wurin abu a kan fanel">
+							<longdesc>Wurin wannan abun fanel. Yawan pixel daga gefen fanel ta hagu (ko sama idan a tsaye yake) na ƙayyade wurin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Fanel na matsayi babba mai ƙunsa da abu">
+							<longdesc>Mai gane fanel mai babbar matsayi da ke ƙunsa da wannan abu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Nau&apos;in abun fanel">
+							<longdesc>Nau&apos;i na wannan abun fanel. Kima masu yiwu sune &quot;abun-durowa&quot;, &quot;abun-mazaɓa&quot;, &quot;abun-mai gabatarwa&quot;, &quot;applet na-bonobo&quot;, &quot;applet na-aiki&quot; da &quot;layin-mazaɓa&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Canza tsari na tsohon siffa sun ƙaura">
+							<longdesc>Wata tutan boolean mai nuna ko an kwafe canza tsari na baya, wanda mai amfani da, yayi cikin /apps/panel/profiles/default zuwa sabuwar wurin a cikin /apps/panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Jerin shaidar abu na fanel">
+							<longdesc>Wani jerin shaidar abun fanel. Kowace shaida na gane abun fanel guda (mislai, shiri mai gabatar da aiki, maɓallin aiki, ko kuma maɓalli/layin mazaɓa). An adana kayan daidaita kowace cikin abubuwan a cikin /apps/panel/objects/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Jerin shaidar applet na fanel">
+							<longdesc>Wani jerin shaidar applet na fanel. Kowace shaida na gane applet ɗin fanel guda. An adana kayan daidaita kowace applet cikin /apps/fanel/applets/$(id)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Jerin Shaidar Fanel">
+							<longdesc>Wata jerin shaidar fanel. Kowace shaida na gane kowaca fanel guda ɗaya mai babbarmatsayi. Ana adana kayan daidaita kowace fanel cikin /apps/panel/toplevels/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="Fara gamawa farat ɗaya cikin zauren akwatin bayanin &quot;Tafiyar da Shirin Ayuka&quot;">
+							<longdesc>In da gaske, za&apos;a samar da shirin gamawa farat ɗaya cikin zauren akwatin bayani na &quot;Tafiyar da Shirin Ayuka&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Faɗaɗa jerin shiri cikin zauren akwatin bayani na &quot;Tafiyar da Shirin Ayuka&quot;">
+							<longdesc>In da gaske, za&apos;a faɗaɗa zauren akwatin bayani na &quot;Shiryoyin Ayuka da Aka Sani&quot; da aka lissafa cikin &quot;Tafiyar da Shirin Ayuka&quot; idan an buɗe zauren akwatin bayanin. Wannan maɓalli na da amfani kawai idan maɓallin fara_shirin_jeri na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="Fara jerin shiri cikin zauren akwatin bayani na &quot;Tafiyar da Shirin Ayuka&quot;">
+							<longdesc>In da gaske, za&apos;a samar da zauren akwatin bayanin lissafin &quot;Shiryoyin Ayuka da Aka Sani&quot; wanda aka lissafa cikin &quot;Tafiyar da Shirin Ayuka&quot;. Maɓallin nuna_jerin_shiri na sarrafa ko an faɗaɗa jerin ko ba&apos;a yi ba idan an nuna zauren akwatin bayanin.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Saurin Sura Mai Motsi">
+							<longdesc>Yawan saurin da surori masu motsi na fanel zasu fara yi. Kima masu yiwu sune &quot;maras sauri&quot;, &quot;madaidaici&quot; da &quot;mai sauri&quot;. Wannan maɓalli na da amfani kawai idan maɓalli na fara_surori masu motsi na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Pixels da ana iya gani idan an ɓoye">
+							<longdesc>Yana ƙayyade yawan pixel da ana iya gani idan an ɓoye fanel farat ɗaya cikin wata lungu. Wannan maɓalli na da amfani kawai idan maɓallin ɓoyewa_farat ɗaya na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Dakatawa da cire ɓoyewar fanel farat ɗaya">
+							<longdesc>Yana ƙayyade yawan dakatawa na millisakan bayan manunin ta shigo wurin fanel kafin a sake-nuna fanel ɗin farat ɗaya. Wannan maɓalli na da amfani kawai idan maɓallin ɓoyewa-farat ɗaya na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Dakatawa da ɓoye fanel farat ɗaya">
+							<longdesc>Yana ƙayyade yawan dakatawa na millisakan bayan da manuni ta bar wurin fanel kafin a ɓoye fanel farat ɗaya. Wannan maɓalli na da amfani kawai idan maɓallin ɓoyewa-farat ɗaya na gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Fara kibiyoyi kan maɓallun ɓoyarwa">
+							<longdesc>In da gaske, za&apos;a saka kibiyoyi kan maɓallun ɓoyarwa. Wannan maɓalli na da amfani kawai idan maɓallun_farawa gaske ne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Fara maɓallun ɓoyewa">
+							<longdesc>In da gaske, za&apos;a saka maɓallu kan ko wacca gefe na fanel wanda za&apos;a iya amfani da wajen motsa fanel zuwa bakin fuskar kwamfyutan, ya bar kawai maɓalli guda mai nunawa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Fara surori masu motsi">
+							<longdesc>In da gaske, za&apos;a mai da shirin ɓoyewa da cire-ɓoyewa na wannan fanel zuwa mai motsi maimakon da mai farawa nan take.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Ɓoye fanel cikin gefe farat ɗaya">
+							<longdesc>In da gaske, za&apos;a ɓoye fanel farat ɗaya cikin lungun fuskar kwamfyuta idan manuni ta bar wurin fanel. Idan ka sake motsa mauni zuwa lungun, zai jawo fanel ɗin ya sake-nunawa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Fanel na tsakiya mai kan y-axis">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Fanel na tsakiya mai kan x-axis">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Y co-ordinate na fanel">
+							<longdesc>Wurin da aka saka fanel ta bakin y-axis. Wannan maɓalli na da amfani kawai cikin shirin cire-faɗi. Idan yana cikin shirin faɗaɗawa, za&apos;a ƙyale maɓallin kuma a saka fanel a bakin fuskar kwamfyutan da maɓallin juyi ta ƙayyade.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="X co-ordinate na fanel">
+							<longdesc>Wurin da aka sa fanel a bakin x-axis. Wannan maɓallin na da amfani kawai idan yana cikin shirin cire-faɗi. Idan yana cikin shirin faɗaɗawa, za&apos;a ƙyale wannan maɓalli kuma a saka fanel a bakin fuskar kwamfyutan wanda maɓallin juyi ta ƙayyade.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Girmar fanel">
+							<longdesc>Tsawon (faɗi wa fanel a tsaye) fanel ɗin. Fanel ɗin zai ƙudura girmar a ƙalla, a lokacin tafiyar da aikin kan girmar nau&apos;in rubutu da wasu alamomi. An daidaita iyaka girmar zuwa rubu&apos;in taswon fuskar kwamfyutan (ko faɗin).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Juyin fanel">
+							<longdesc>Juyin fanel. Kima masu yiwu sune &quot;sama&quot;, &quot;ƙasa&quot;, &quot;hagu&quot;, &quot;dama&quot;. Idan yana cikin shirin faɗaɗawa, maɓallin zai ƙayyade bakin fuskar kwamfyuta wanda fanel ke kai. Idan kuma yana cikin shirin cire-faɗi, bambanci tsakanin &quot;sama&quot; da &quot;ƙasa&quot; zai rage da muhimmi - tare, suna nuna cewa wannan fanel a kwance ne - amma, suna ƙara bada alama mai amfani game da yanda yakamata wasu abubuwan fanel su nuna hali. Misali, a wani fanel na &quot;sama&quot;, wani maɓallin mazaɓa zai nuno mazaɓensa ƙarƙashin fanel ɗin, kuwa kan fanel na &quot;ƙasa&quot;, za&apos;a fito da mazaɓen a saman fanel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Faɗaɗa don ya cika duk faɗin fuskar kwamfyuta">
+							<longdesc>In da gaske, fanel ɗin zai mamaye duk faɗin fuskar kwamfyutan (da tsayi idan wannan fanel na tsaye). Cikin wannan shiri, za&apos;a iya saka fanel a bakin fuskar kwamfyuta kawai. Idan ƙarya ne, fanel ɗin zai kai girma wanda zai iya saukar da su applet, shirin gabatarwa, da maɓallu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Allon kwamfyutan Xinerama a wurin da ake nuna fanel">
+							<longdesc>Cikin tsarin Xinerama, kana iya samun fanel masu yawa kan kowacca fuskar kwamfyuta guda. Wannan maɓalli na gane allon kwamfyuta da ke nuna fanel yanzu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="X fuskan kwamfyuta a wurin da ake nuna fanel">
+							<longdesc>Da fuskar kwamfyuta mai ƙwar-biyu, kana iya samun fanel kan kowace fuskar kwamfyuta daban. Wannan maɓalli na gane fuskar kwamfyutan da aka nuna fanel ciki yanzu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Sunan da za&apos;a gane fanel da shi">
+							<longdesc>Wannan suna, na wanda mutun zai iya karanta ne kuma za ka iya amfani da shi wajen gane wani fanel. Babbar amfanin sa shine ya yi aiki a matsayin sunan tagan fanel da ke da amfani idan ana neman hanya tsakanin fanel.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Juya zane kan fanel masu tsaye">
+								<longdesc>In da gaske, za&apos;a yi juya zanen bango idan an juyin fanel a tsaye yake.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Miƙa zane zuwa fanel">
+								<longdesc>In da gaske, za&apos;a taƙaita zanen zuwa girmar fanel. Ba za&apos;a kula da rabon faɗi da tsawon surar ba.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Shirya zane daidai da fanel">
+								<longdesc>In da gaske, za&apos;a taƙaita zanen (zai riƙe rabon faɗi da tsawo, watau asfekt reshiyo na zanen) zuwa tsawon fanel (idan a kwance yake).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Zanen bango">
+								<longdesc>Yana ƙayyade fayil da za&apos;a yi amfani da wa zanen bangon. Idan zanen na ƙunsa da hanyar alfa, watau za&apos;a haɗa shi kan zanen bangon kwamfyutan tebur.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Hana haske na launin bango">
+								<longdesc>Yana ƙayyade shirin hana haske na tsarin launin bangon. Idan launin ba mai cikakken shirin hana haske ba (mai kima kasa da 65535), watau, za&apos;a haɗa launin cikin zanen bangon kwamfyutan tebur.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Launin bango">
+								<longdesc>Yana ƙayyade launin bango wa fanel cikin tsarin #RGB.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Irin Bango">
+								<longdesc>Wacca irin bango ya kamata a yi amfani da wa wannan fanel. Kima masu yiwuwa sune &quot;gtk&quot; - za&apos;a yi amfani da difwakt na GTK+ bangon widget, &quot;launi&quot; - za&apos;a yi amfani da maɓallin launi kamar launin bango ko &quot;zane&quot; - za&apos;a yi amfani da zanen da maɓallin zane ta ƙayyade zai zama bango.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Juya kan fanel masu tsaiyuwa">
+							<longdesc>In da gaske, za&apos;a nuna motsin kifi a juye kan fanel masu tsaye.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Ɗan hutu ga ko wani firam">
+							<longdesc>Wannan maɓalli na ƙayyade yawan sakan da za&apos;a nuna ko wacca firam.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Firam masu cikin motsin kifi">
+							<longdesc>Wannan maɓalli na ƙayyade yawan firam da za&apos;a nuna cikin shirin motsin kifi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Umarnin da za&apos;a zartar da kan danne">
+							<longdesc>Wannan maɓalli na ƙayyade umarni da za&apos;a ƙoƙarta a zartar da idan an danna kifin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Pixmap ɗin motsin kifi">
+							<longdesc>Wannan maɓalli na ƙayyade sunanfayil na pixmap da za&apos;a amfanida wa sura mai motsi da aka nuna cikin applet ɗin kifi, amma ya danganta ga gafakan pixmap.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Sunan kifin">
+							<longdesc>Idan kifi bai da suna, ya kan zama mai maras ban sha&apos;awa. Ka ba da kifin ka suna don ya sami rayuwa mai kyau.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="Surar da aka fi son amfani da wa sifilash skireen">
+							<longdesc>Wannan kimar hanya ya danganta ga gafakan $datadir/pixmaps/. Sunayen zane da ƙananan-gafakoki wasu kima ne masu inganci. Idan an canza wannan kima, zai zartar da shigarwa na zaman shawara na gaba.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="Tambaya ga fitarwa">
+							<longdesc>Idan an fara, zaman shawarar-gnome zai yi tambaya ga mai amfani da kwamfyuta kafin ya ƙarasar da zaman shawarar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Adana zaman shawara">
+							<longdesc>Idan an fara, zaman shawarar-gnome zai adana zaman shawarar farat ɗaya. Idan ba haka ba, za&apos;a ba da iko wa zauren akwatin bayanin fitarwa ya zaɓi adana zaman shawarar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Nuna sifilash skireen">
+							<longdesc>Nuna sifilash skireen idan zaman shawarar ta fara yi</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

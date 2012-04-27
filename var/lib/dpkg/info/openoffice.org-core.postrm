@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+THIS_PACKAGE=openoffice.org-core
+THIS_SCRIPT=postrm
+
+LIBSUFFIX=lr
+PLATFORMID=linux_arm_eabi
+
+
+if [ "$1" = "remove" ]; then
+	rm -rf /var/spool/openoffice
+fi
+
+
+
+exit 0

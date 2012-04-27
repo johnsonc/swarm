@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:install="http://openoffice.org/2004/installation" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="Writer" oor:package="org.openoffice.Office">
+  <node oor:name="MailMergeWizard">
+    <prop oor:name="FemaleGreetingLines">
+      <value xml:lang="mr" oor:separator=";">प्रिय सौ. &lt;2&gt;,</value>
+    </prop>
+    <prop oor:name="MaleGreetingLines">
+      <value xml:lang="mr" oor:separator=";">प्रिय श्री. &lt;2&gt;,</value>
+    </prop>
+    <prop oor:name="NeutralGreetingLines">
+      <value xml:lang="mr" oor:separator=";">ज्या कोणाशी संबंधित असेल, प्रिय मित्र, प्रिय सर किंवा मैडम, नमस्कार</value>
+    </prop>
+  </node>
+  <node oor:name="Insert">
+    <node oor:name="Caption">
+      <node oor:name="WriterObject">
+        <node oor:name="Table">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">कोष्टक</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="Frame">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">मजकूर</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="Graphic">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">स्पष्टीकरण</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+      </node>
+      <node oor:name="OfficeObject">
+        <node oor:name="Calc">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">स्पष्टीकरण</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="Draw">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">स्पष्टीकरण</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="Chart">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">स्पष्टीकरण</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="Image">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">स्पष्टीकरण</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="Formula">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">स्पष्टीकरण</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="Impress">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">स्पष्टीकरण</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+        <node oor:name="OLEMisc">
+          <node oor:name="Settings">
+            <prop oor:name="Category">
+              <value xml:lang="mr">दृष्टान्त</value>
+            </prop>
+            <prop oor:name="CaptionText">
+              <value xml:lang="mr">: </value>
+            </prop>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

@@ -1,0 +1,543 @@
+<gconfschemafile>
+ <schemalist>
+   <schema>
+      <key>/schemas/apps/evolution/eplugin/external-editor/editor-command</key>
+      <applyto>/apps/evolution/eplugin/external-editor/editor-command</applyto>
+      <owner>evolution-mail</owner>
+      <type>string</type>
+      <default>gedit</default>
+      <locale name="C">
+        <short>Default External Editor</short>
+        <long>The default command that must be used as the editor.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>المحرر الخارجي الافتراضي</short>
+        <long>الأمر الافتراضي الواجب استخدامه كمحرر.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ডিফল্ট স্বত্বন্ত্র সম্পাদন ব্যবস্থা</short>
+        
+      </locale>
+
+      <locale name="be@latin">
+        <short>Zmoŭčany vonkavy redaktar</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Външен редактор по подразбиране</short>
+        <long>Командата по подразбиране, която да се използва за стартиране на редактора.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ডিফল্ট বহিঃ‌স্থ সম্পাদক</short>
+        <long>সম্পাদক রূপে ব্যবহারযোগ্য ডিফল্ট কমান্ড।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ডিফল্ট স্বত্বন্ত্র সম্পাদন ব্যবস্থা</short>
+        <long>এডিটর রূপে ব্যবহারযোগ্য ডিফল্ট কমান্ড।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Editor extern predeterminat</short>
+        <long>L&apos;ordre predeterminada a utilitzar com a editor.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Editor extern predeterminat</short>
+        <long>L&apos;orde predeterminada a utilitzar com a editor.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výchozí externí editor</short>
+        <long>Výchozí příkaz, který musí být použit jako editor.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Golygydd Allanol Rhagosodedig</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Forvalgt eksternt tekstredigeringsprogram</short>
+        <long>Den forvalgte kommando som skal bruges som tekstredigeringsprogram.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorgabe für externen Editor</short>
+        <long>Der Befehl, der als Editor verwendet werden muss.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εξωτερική εφαρμογή επεξεργασίας</short>
+        <long>Η προεπιλεγμένη εντολή που πρέπει να χρησιμοποιηθεί ως επεξεργαστής κειμένου.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑛𐑦𐑓𐑷𐑤𐑑 𐑦𐑒𐑕𐑑𐑻𐑯𐑩𐑤 𐑧𐑛𐑦𐑑𐑹</short>
+        <long>𐑞 𐑛𐑦𐑓𐑷𐑤𐑑 𐑒𐑩𐑥𐑭𐑯𐑛 𐑞𐑨𐑑 𐑥𐑳𐑕𐑑 𐑚𐑰 𐑿𐑟𐑛 𐑨𐑟 𐑞 𐑧𐑛𐑦𐑑𐑹.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Default External Editor</short>
+        <long>The default command that must be used as the editor.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Editor externo predeterminado</short>
+        <long>El comando predeterminado que usar como editor.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Vaikimisi väline redaktor</short>
+        <long>Redaktori käivitamiseks kasutatav vaikimisi käsk.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Kanpoko editore lehenetsia</short>
+        <long>Komando lehenetsia editore gisa erabiltzeko.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Ulkoisen muokkaimen oletuskomento</short>
+        <long>Oletuskomento, jota käytetään ulkoisena muokkaimena.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Éditeur externe par défaut</short>
+        <long>La commande à utiliser par défaut pour lancer l&apos;éditeur.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Eagarthóir Seachtrach Réamhshocraithe</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Editor externo predefinido</short>
+        <long>A orde predefinida que se debe usar como o editor.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>મૂળભૂત બાહ્ય સંપાદક</short>
+        <long>મૂળભૂત આદેશ કે જે સંપાદક તરીકે જ વપરાયેલ હોવો જોઇએ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Default External Editor</short>
+        <long>The default command that must be used as the editor.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>तयशुदा बाहरी संपादक</short>
+        <long>तयशुदा कमांड जिसे बतौर संपादक जरूर प्रयोग किया जाना चाहिए.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Alapértelmezett külső szerkesztő</short>
+        <long>A szerkesztőként használandó alapértelmezett parancs.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Editor esterno predefinito</short>
+        <long>Il comando predefinito che deve essere usato come editor.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>デフォルトの外部エディタ</short>
+        <long>デフォルトで使用するエディタのコマンドです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಪೂರ್ವನಿಯೋಜಿತ ಹೊರಗಿನ ಸಂಪಾದಕ</short>
+        <long>ಸಂಪಾದಕವಾಗಿ ಬಳಸಬೇಕಿರುವ ಪೂರ್ವನಿಯೋಜಿತ ಆಜ್ಞೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>기본 외부 편집기</short>
+        <long>편집기로 사용할 기본 명령어.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Numatytoji išorinė rengyklė</short>
+        <long>Numatytoji komanda, naudotina kaip rengyklė.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Noklusētais ārējais redaktors</short>
+        <long>Noklusētā komanda, kuru jāizmanto kā redaktoru.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Стандарден надворешен уредувач</short>
+        <long>Стандардната команда која мора да се користи како уредувач.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സ്വതവേയുള്ള എക്സ്റ്റേണല്‍ എഡിറ്റര്‍</short>
+        <long>എഡിറ്റര്‍ ആയി ഉപയോഗിക്കുവാനുള്ള സ്വതവേയുള്ള കമാന്‍ഡ്. </long>
+      </locale>
+
+      <locale name="mr">
+        <short>पूर्वनिर्धारीत बाहेरील संपादक</short>
+        <long>संपादक म्हणून वापरण्याजोगी पूर्वनिर्धारीत आदेश.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Forvalgt eksternt redigeringsprogram</short>
+        <long>Forvalgt kommando som må brukes som redigeringsprogram.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Standaard externe editor</short>
+        <long>De standaardopdracht om te gebruiken als editor.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Standard eksternt redigeringsprogram</short>
+        
+      </locale>
+
+      <locale name="oc">
+        <short>Editor extèrne per defaut</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ବାହ୍ୟ ସମ୍ପାଦକ</short>
+        <long>ସମ୍ପାଦକ ଭାବରେ ବ୍ୟବହୃତ ହେଉଥିବା ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ନିର୍ଦ୍ଦେଶ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਡਿਫਾਲਟ ਬਾਹਰੀ ਐਡੀਟਰ</short>
+        <long>ਮੂਲ ਕਮਾਂਡ, ਜੋ ਕਿ ਐਡੀਟਰ ਵਜੋਂ ਵਰਤੀ ਜਾਣੀ ਲਾਜ਼ਮੀ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Domyślny zewnętrzny edytor </short>
+        <long>Domyślne polecenie używane do uruchomienia edytora.</long>
+      </locale>
+
+      <locale name="ps">
+        <short>تلواله بهرنی سمبالګر</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Editor Externo por Omissão</short>
+        <long>O comando por omissão que deve ser utilizado como o editor.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Editor externo padrão</short>
+        <long>O comando padrão que deve ser usado como o editor.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Editor extern implicit</short>
+        <long>Comanda implicită ce va fi folosită ca editor.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Внешний редактор по умолчанию</short>
+        <long>Команда для запуска редактора по умолчанию.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Privzeti zunanji urejevalnik</short>
+        <long>Privzeti ukaz, ki je uporabljen za zagon urejevalnika.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Подразумевани други уређивач</short>
+        <long>Подразумевана наредба која се користи као уређивач.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Podrazumevani drugi uređivač</short>
+        <long>Podrazumevana naredba koja se koristi kao uređivač.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Extern standardredigerare</short>
+        <long>Standardkommandot som måste användas som redigeraren.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முன்னிருப்பு வெளியமை திருத்தி</short>
+        <long>திருத்தியாக செயல் பட பயன்படுத்த வேண்டிய முன்னிருப்பு கட்டளை.</long>
+      </locale>
+
+      <locale name="te">
+        <short>అప్రమేయ బహిర్గత సరికూర్పరి</short>
+        <long>తప్పక సరికూర్పరిలా వుపయోగించవలసిన అప్రమేయ ఆదేశం.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เครื่องมือแก้ไขข้อความภายนอกปริยาย</short>
+        <long>คำสั่งปริยายที่จะใช้เป็นเครื่องมือแก้ไขข้อความ</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Öntanımlı Harici Düzenleyici</short>
+        <long>Düzenleyici olarak kullanılacak öntanımlı komut.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Типовий зовнішній редактор</short>
+        <long>Команда для запуску типового редактора.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Trình soạn thảo bên ngoài mặc định</short>
+        <long>Câu lệnh mặc định cần dùng làm trình soạn thảo.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>默认外部编辑器</short>
+        <long>默认命令必须用作编辑器。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>預設外部編輯器</short>
+        <long>預設的指令必須能做為編輯器。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>預設外部編輯器</short>
+        <long>預設的指令必須能做為編輯器。</long>
+      </locale>
+   </schema>
+
+   <schema>
+      <key>/schemas/apps/evolution/eplugin/external-editor/launch-on-key-press</key>
+      <applyto>/apps/evolution/eplugin/external-editor/launch-on-key-press</applyto>
+      <owner>evolution-mail</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Automatically launch when a new mail is edited</short>
+        <long>Automatically launch editor when key is pressed in the mail composer</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Автоматично стартиране при редактиране на ново писмо</short>
+        <long>Автоматично стартиране на редактор при натискане на клавиш в прозореца за писане на писма</long>
+      </locale>
+
+      <locale name="bn">
+        <short>একটি নতুন মেইল সম্পাদনা করা হলে স্বয়ংক্রিয়ভাবে চালু হবে </short>
+        <long>মেইল রচনাকারীতে কী চাপা হলে স্বয়ংক্রিয়ভাবে সম্পাদক চালু করুন</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>নতুন বার্তা সম্পাদন করা হলে স্বয়ংক্রিয়ভাবে আরম্ভ করা হবে</short>
+        <long>বার্তা কম্পোসারের মধ্যে কোনো কি টেপা হলে স্বয়ংক্রিয়ভাবে সম্পাদনব্যবস্থা আরম্ভ করা হবে</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inicia&apos;l automàticament en editar un correu nou</short>
+        <long>Inicia automàticament l&apos;editor en prémer una tecla al redactor de correu</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inicia&apos;l automàticament en editar un correu nou</short>
+        <long>Inicia automàticament l&apos;editor en prémer una tecla al redactor de correu</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Automaticky spustit, když je upravován nový e-mail</short>
+        <long>Automaticky spustit editor, když je klávesa stisknuta v editoru zpráv</long>
+      </locale>
+
+      <locale name="da">
+        <short>Start automatisk når et nyt brev redigeres</short>
+        <long>Start automatisk redigeringsprogram når der trykkes en tast i brevredigeringen</long>
+      </locale>
+
+      <locale name="de">
+        <short>Automatisch beim Bearbeiten einer neuen E-Mail starten</short>
+        <long>Automatisch den Editor bei Tastendruck beim Verfassen einer Nachricht starten</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αυτόματη έναρξη όταν γίνει επεξεργασία ενός νέου μηνύματος</short>
+        <long>Αυτόματη έναρξη προγράμματος επεξεργασίας όταν πατηθεί το πλήκτρο στην σύνταξη του μηνύματος</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑷𐑑𐑩𐑥𐑨𐑑𐑦𐑒𐑤𐑦 𐑤𐑷𐑯𐑗 𐑢𐑧𐑯 𐑩 𐑯𐑿 𐑥𐑱𐑤 𐑦𐑟 𐑧𐑛𐑦𐑑𐑩𐑛</short>
+        <long>𐑷𐑑𐑩𐑥𐑨𐑑𐑦𐑒𐑤𐑦 𐑤𐑷𐑯𐑗 𐑧𐑛𐑦𐑑𐑹 𐑢𐑧𐑯 𐑒𐑰 𐑦𐑟 𐑐𐑮𐑧𐑕𐑑 𐑦𐑯 𐑞 𐑥𐑱𐑤 𐑒𐑩𐑥𐑐𐑴𐑟𐑼</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Automatically launch when a new mail is edited</short>
+        <long>Automatically launch editor when key is pressed in the mail composer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Lanzar automáticamente al editar un correo nuevo</short>
+        <long>Lanzar el editor automáticamente al pulsar una tecla en el editor de correos</long>
+      </locale>
+
+      <locale name="et">
+        <short>Käivitatakse automaatselt, kui uut kirja muudetakse</short>
+        <long>Redaktor avatakse automaatselt, kui meilikoostajas vajutatakse nuppu</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Automatikoki abiarazi mezu berri bat editatzen denean</short>
+        <long>Automatikoki abiarazten du editorea mezu-prestatzailean tekla sakatzean</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Lancer automatiquement lorsqu&apos;un nouveau courriel est édité</short>
+        <long>Lance automatiquement l&apos;éditeur lorsqu&apos;une touche est pressée dans l&apos;éditeur de courriel</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Lanzar automaticamente cando se edite un novo correo</short>
+        <long>Lanza automaticamente o editor ao presionar unha tecla no editor de correo</long>
+      </locale>
+
+      <locale name="gu">
+        <short>આપમેળે શરૂ કરો જ્યારે નવું ઇમેઇલ ફેરફાર થયેલ હોય ત્યારે</short>
+        <long>આપમેળે સંપાદકને શરૂ કરો જ્યારે મેઇલ કમ્પોઝરમાં કી દબાયેલ હોય</long>
+      </locale>
+
+      <locale name="he">
+        <short>Automatically launch when a new mail is edited</short>
+        <long>Automatically launch editor when key is pressed in the mail composer</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Automatikus indítás új levél szerkesztésekor</short>
+        <long>A szerkesztő automatikus indítása a billentyű lenyomásakor a levélszerkesztőben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Lancia automaticamente quando una nuova email viene editata</short>
+        <long>Lancia automaticamente l&apos;editor quando il tasto è premuto nel compositore di email</long>
+      </locale>
+
+      <locale name="ja">
+        <short>新規メールの作成時に自動的に起動</short>
+        <long>メールの作成ウィンドウでキーが押されたら自動的にエディタを起動</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಹೊಸ ಮೈಲ್ ಅನ್ನು ಸಂಪಾದಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆರಂಭಿಸು</short>
+        <long>ಮೈಲ್ ರಚನಾಕಾರನಲ್ಲಿ ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ತಾನಾಗಿಯೆ ಸಂಪಾದಕವನ್ನು ಆರಂಭಿಸು</long>
+      </locale>
+
+      <locale name="ko">
+        <short>새 메일을 편집할 때 자동으로 실행</short>
+        <long>메일 작성 창에서 키를 누르면 자동으로 편집기 실행</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Automatiškai paleisti, kai redaguojamas naujas laiškas</short>
+        <long>Automatiškai paleisti redaktorių, kai laiško rengyklėje paspaudžiamas klavišas</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Palaist automātiski, kad rediģē jaunu pastu</short>
+        <long>Automātiski palaist redaktoru, kad pasta sacerētājā ir nospiests taustiņš.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>नवीन मेल संपादीत केल्यावर स्वयं प्रक्षेपीत करा</short>
+        <long>मेल संयोजकात कि दाबल्यावर स्वयंप्रमाणे संपादक प्रक्षेपीत करा</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Start automatisk når en ny e-post redigeres</short>
+        <long>Start redigeringsprogram automatisk når tasten trykkes i e-postredigering</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਜਦੋਂ  ਵੀ ਨਵੀਂ ਮੇਲ ਲਿਖਣੀ ਸ਼ੁਰੂ ਹੋਵੇ ਤਾਂ ਆਟੋਮੈਟਿਕ ਹੀ ਚਲਾਓ</short>
+        <long>ਜਦੋਂ ਮੇਲ ਕੰਪੋਜ਼ਰ ਵਿੱਚ ਸਵਿੱਚ ਦੱਬੀ ਜਾਵੇ ਤਾਂ ਆਟੋਮੈਟਿਕ ਹੀ ਐਡੀਟਰ ਚਲਾਓ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Automatyczne uruchamianie podczas edycji nowej wiadomości</short>
+        <long>Automatyczne uruchamianie edytora po naciśnięciu klawisza w oknie tworzenia wiadomości</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Iniciar automaticamente ao editar uma nova mensagem</short>
+        <long>Iniciar automaticamente o editor quando a tecla é premida no compositor de correio</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Iniciar automaticamente quando uma nova mensagem for editada</short>
+        <long>Automaticamente iniciar o editor quando a tecla for pressionada no compositor de mensagens</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Pornește automat la editarea unui nou email</short>
+        <long>Pornește automat editorul când se apasă o tastă în fereastra de redactare.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Запускать автоматически при редактировании нового сообщения</short>
+        <long>Автоматически запускать редактор при нажатии кнопки в окне составления сообщений</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Samodejno zaženi med urejanjem nove pošte</short>
+        <long>Samodejno zaženi urejevalnik, ko je pritisnjena tipka v sestavljalniku pošte</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Аутоматски покрени при урећивању нове поруке</short>
+        <long>Аутоматски покрени уређивач када је притиснут тастер у састављачу поруке</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Automatski pokreni pri urećivanju nove poruke</short>
+        <long>Automatski pokreni uređivač kada je pritisnut taster u sastavljaču poruke</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Starta automatiskt när ett nytt e-postmeddelande redigeras</short>
+        <long>Starta automatiskt redigeraren när tangenten trycks ner i e-postredigeraren</long>
+      </locale>
+
+      <locale name="ta">
+        <short>புதிய அஞ்சலை திருத்தியவுடன் தானியங்கியாக துவக்குக.</short>
+        <long>அஞ்சல் எழுதியில் விசையை அழுத்தியவுடன் தானியங்கியாக திருத்தரை துவக்குக.</long>
+      </locale>
+
+      <locale name="te">
+        <short>కొత్త మెయిల్ సరికూర్చినప్పుడు స్వయంచాలకంగా ఆరంభించుము</short>
+        <long>మెయిల్ కూర్పరినందు కీ వత్తబడినప్పుడు సరికూర్పరిని స్వయంచాలకంగా ఆరంభిస్తుంది</long>
+      </locale>
+
+      <locale name="th">
+        <short>เปิดเครื่องมือแก้ไขโดยอัตโนมัติเมื่อมีการแก้ไขเมลใหม่</short>
+        <long>เปิดเครื่องมือแก้ไขโดยอัตโนมัติเมื่อมีการกดปุ่มแป้นพิมพ์ในหน้าต่างเขียนเมล</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Автоматично запускати при редагуванні нової пошти</short>
+        <long>Автоматично запускати редактор, якщо у поштовому редакторі натискається клавіша</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>當編輯新郵件時自動執行</short>
+        <long>在郵件編輯器中按下按鍵時自動執行編輯器</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>當編輯新郵件時自動執行</short>
+        <long>在郵件編輯器中按下按鍵時自動執行編輯器</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>
+

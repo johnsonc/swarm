@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/festival
+/usr/share/festival/voices
+/usr/share/festival/voices/marathi
+/usr/share/festival/voices/marathi/marathi_NSK_diphone
+/usr/share/festival/voices/marathi/marathi_NSK_diphone/group
+/usr/share/festival/voices/marathi/marathi_NSK_diphone/group/NSKlpc.group
+/usr/share/festival/voices/marathi/marathi_NSK_diphone/festvox
+/usr/share/festival/voices/marathi/marathi_NSK_diphone/festvox/marathi_NSK_ene.scm
+/usr/share/festival/voices/marathi/marathi_NSK_diphone/festvox/marathi_NSK_diphone.scm
+/usr/share/festival/voices/marathi/marathi_NSK_diphone/festvox/marathi_NSK_dur.scm
+/usr/share/doc
+/usr/share/doc/festvox-mr-nsk
+/usr/share/doc/festvox-mr-nsk/changelog.Debian.gz
+/usr/share/doc/festvox-mr-nsk/copyright

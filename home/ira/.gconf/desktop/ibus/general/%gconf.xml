@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_global_engine" mtime="1431542312" type="bool" value="true"/>
+	<entry name="preload_engines" mtime="1431676024" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>m17n:hi:inscript</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>m17n:en:ispell</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>m17n:mr:inscript</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>m17n:mr:itrans</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>m17n:mr:phonetic</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>m17n:hi:itrans</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>m17n:hi:phonetic</stringvalue>
+		</li>
+	</entry>
+</gconf>

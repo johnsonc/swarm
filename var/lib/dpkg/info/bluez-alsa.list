@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/bluez-alsa
+/usr/share/doc/bluez-alsa/README
+/usr/share/doc/bluez-alsa/changelog.Debian.gz
+/usr/share/doc/bluez-alsa/copyright
+/usr/share/doc/bluez-alsa/changelog.gz
+/usr/share/doc/bluez-alsa/NEWS.Debian.gz
+/usr/share/doc/bluez-alsa/AUTHORS
+/usr/share/alsa
+/usr/share/alsa/bluetooth.conf
+/usr/lib
+/usr/lib/alsa-lib
+/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so
+/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so

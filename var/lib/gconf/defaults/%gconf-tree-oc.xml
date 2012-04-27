@@ -1,0 +1,2102 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Grop de trabalh SMB">
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="tabs_open_position">
+						<local_schema short_desc="Indica ont posicionar los onglets novèlament dobèrts dins de fenèstras del navigador.">
+							<longdesc>Se posicionat a « after_current_tab » (aprèp l&apos;onglet actual), los onglets novèls son inserits aprèp l&apos;onglet actual. Se posicionat a « end » (fin), los onglets novèls son aponduts a la fin de la lista dels onglets.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_backup_files">
+						<local_schema short_desc="Indica se cal visualizar los fichièrs de salvagarda">
+							<longdesc>S&apos;es verai, los fichièrs de salvagarda coma los creats per Emacs son visualizats. Ara, sonque los fichièrs que s&apos;acaban per una tilda (~) son considerats coma de fichièrs de salvagarda.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Indica se cal visualizar los fichièrs amagats">
+							<longdesc>Se es verai, los fichièrs amagats seràn visualizats dins lo gestionari de fichièrs. Los fichièrs amagats son siá de fichièrs que començan per un punt o de fichièrs que son dins lo fichièr .amagat del repertòri.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Gestionari de fenèstras">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_printing">
+						<local_schema short_desc="Desactivar l&apos;estampatge">
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Desactivar la linha de comandas">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="enable_esd">
+						<local_schema short_desc="Activar ESD">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Talha del cursor">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Tèma del cursor">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Poliça del cursor">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema>
+								<longdesc>Durada d&apos;un doble clic.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Clic simple">
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Clic simple">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Orientacion del boton de la mirga">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<dir name="indicator">
+							<entry name="enabledPlugins">
+								<local_schema short_desc="La lista dels ajustons abilitats per l&apos;indicador de clavièr">
+									<longdesc>La lista dels ajustons abilitats per l&apos;indicador de clavièr</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="showFlags">
+								<local_schema short_desc="Visualizar las bandièras dins l&apos;applet">
+									<longdesc>Visualizar las bandièras dins l&apos;applet per indicar lo clavièr actiu</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="secondary">
+								<local_schema short_desc="Grops segondaris">
+									<longdesc>Grops segondaris</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="kbd">
+							<entry name="options">
+								<local_schema short_desc="Opcions del clavièr">
+									<longdesc>Opcions del clavièr</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="layouts">
+								<local_schema short_desc="Dispausicion del clavièr">
+								</local_schema>
+							</entry>
+							<entry name="model">
+								<local_schema short_desc="Modèl del clavièr">
+									<longdesc>modèl del clavièr</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="background">
+					<entry name="secondary_color">
+						<local_schema short_desc="Color segondària">
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Color primària">
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Opacitat de l&apos;imatge">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Nom de fichièrs de l&apos;imatge">
+							<longdesc>Fichièr d&apos;utilizar coma imatge de fons</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opcions de l&apos;imatge">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Tèma d&apos;icònas del fichièr">
+							<longdesc>Tèma utilizat per visualizar las icònas del fichièr</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Pixels per segondas">
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="interval minimum en milisegondas">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="webcal">
+						<entry name="need-terminal">
+							<local_schema short_desc="Aviar lo programa dins un terminal">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="exec">
+							<local_schema short_desc="Prètzfaches per defaut">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Lo calendièr deu aver un terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Calendièr per defaut">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="needs_term">
+							<local_schema short_desc="Lo navegador deu aver un terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Navegador per defaut">
+								<longdesc>Navegador per defaut per totas las URL</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Noms dels espacis de trabalh (obsolet)">
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Lo nombre d&apos;espacis de trabalh (obsolet)">
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Gestionari de fenèstras personalisat (obsolet)">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Arguments d&apos;execucion">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Terminal per defaut">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modul per GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Utilizar una poliça personalisada">
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Poliça del document">
+							<longdesc>Nom de la poliça per defaut utilizada per legir los documents</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Poliça per defaut">
+							<longdesc>Nom de la poliça per defaut utilisada per GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Tèma GTK+">
+							<longdesc>Nom de base del tèma per defaut utilisat per GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Tèma GTK+">
+							<longdesc>Nom de base del tèma per defaut utilisat per GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Tèma d&apos;icònas">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Talha de las icònas de las barras d&apos;espleches">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Los menuts an d&apos;icònas">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Estil de barra d&apos;espleches">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Activar las animacions">
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Activar l&apos;accessibilitat">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="netstatus_applet">
+				<entry name="config_tool">
+					<local_schema short_desc="Esplech de configuracion de la ret">
+					</local_schema>
+				</entry>
+				<dir name="prefs">
+					<entry name="interface">
+						<local_schema short_desc="Interfaç ret">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="procman">
+				<entry name="height">
+					<local_schema short_desc="Nautor de la fenèstra principala">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Largor de la fenèstra principala">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-volume-control">
+				<dir name="ui">
+					<entry name="window_width">
+						<local_schema short_desc="Largor de la fenèstra">
+						</local_schema>
+					</entry>
+					<entry name="window_height">
+						<local_schema short_desc="Nautor de la fenèstra">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-screensaver">
+				<entry name="cycle_delay">
+					<local_schema short_desc="Temps abans cambi de tèma">
+					</local_schema>
+				</entry>
+				<entry name="themes">
+					<local_schema short_desc="Tèmas d&apos;estalviaire d&apos;ecran">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="diskload_color2">
+						<local_schema short_desc="Color de fons del diagrama de carga dels discs">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color1">
+						<local_schema short_desc="Color del diagrama de las escrituras de discs">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color0">
+						<local_schema short_desc="Color del diagrama de las lecturas de discs">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color0">
+						<local_schema short_desc="Color del diagrama de la carga mejana">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color1">
+						<local_schema short_desc="Color de fons del diagrama de la swap">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color3">
+						<local_schema short_desc="Color de fons del diagrama d&apos;utilizacion de la ret">
+						</local_schema>
+					</entry>
+					<entry name="memload_color2">
+						<local_schema short_desc="Color del diagrama de la memòria tampon">
+						</local_schema>
+					</entry>
+					<entry name="memload_color1">
+						<local_schema short_desc="Color del diagrama de la memòria partejada">
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Frequéncia d&apos;actualizacion de l&apos;ajuston en milisegondas">
+						</local_schema>
+					</entry>
+					<entry name="view_diskload">
+						<local_schema short_desc="Activar lo diagrama de carga dels discs">
+						</local_schema>
+					</entry>
+					<entry name="view_loadavg">
+						<local_schema short_desc="Activar lo diagrama de carga mejana">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="yelp">
+				<entry name="variable_font">
+					<local_schema short_desc="Poliça pel tèxt">
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="Utilizar las poliças del sistèma">
+						<longdesc>Utilizar las poliças per defaut definidas pel sistèma.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="geyes">
+				<dir name="prefs">
+					<entry name="theme_path">
+						<local_schema short_desc="Repertòri ont es lo tèma">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_text">
+						<local_schema short_desc="Visualizar l&apos;etiqueta temps/percentatge">
+							<longdesc>0 per pas cap d&apos;etiqueta, 1 pel percentatge e 2 pel temps que demòra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_battery">
+						<local_schema short_desc="Visualizar la batariá orizontala">
+							<longdesc>Visualizar la batariá orizontala tradicionala dins lo panèl.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_status">
+						<local_schema short_desc="Batariá verticala (mai pichòta)">
+							<longdesc>Visualizar la pichòta batariá verticala dins lo panèl.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drain_from_top">
+						<local_schema short_desc="Vojar dempuèi lo cap">
+							<longdesc>Mòstra lo comptador tre lo naut de la batariá. Existís sonque per la vista tradicionala de la batariá.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="Bip per alèrtas">
+							<longdesc>Bip quand s&apos;aficha una alèrta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="Notificacion de carga maximala">
+							<longdesc>Avisar l&apos;utilizaire que la batariá es plena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="Notificacion de carga minimala">
+							<longdesc>Avisar l&apos;utilizaire que la batariá es febla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="red_value_is_time">
+						<local_schema short_desc="Alertar quand lo temps restant es pichòt">
+							<longdesc>Utilizar la valor definida dins red_value coma temps restant abans de visualizar una alèrta en plaça d&apos;un percentatge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="Valor del nivèl roge">
+							<longdesc>En dejós qu&apos;aquest nivèl, la batariá serà roja e se visualiazarà una alèrta de batariá febla.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="mixer_applet">
+				<dir name="prefs">
+					<entry name="vol">
+						<local_schema short_desc="Enregistrar lo volum de restaurar a l&apos;aviada">
+						</local_schema>
+					</entry>
+					<entry name="mute">
+						<local_schema short_desc="Estat de silencia enregistrat">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema short_desc="Relambi de temps d&apos;espèra per comprovar l&apos;estat del ponch de montatge">
+							<longdesc>Temps en segondas entre las actualizacions de l&apos;estat</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="Tièra de las paletas disponiblas">
+							<longdesc>Tièra de las cadenas que contenon las paletas disponiblas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="current_list">
+						<local_schema short_desc="Caractèrs mostrats a l&apos;aviada de l&apos;aplet">
+							<longdesc>La cadena que l&apos;utilizaire a seleccionada a la darrièra utilizacion de l&apos;aplet. La cadena s&apos;aficha quand l&apos;utilizaire àvia l&apos;aplet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_list">
+						<local_schema short_desc="OBSOLET - Caractèrs mostrats a l&apos;aviada de l&apos;aplet">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="show_text_mode">
+						<local_schema short_desc="La mena de tèxt de visualizar (se lo tèxt es activat).">
+							<longdesc>La valor 0 indica de visualizar la frequéncia UCP, la valor 1 de visualizar la frequéncia e las unitats, e la valor 2 de visualizar lo percentatge puslèu que la frequéncia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_mode">
+						<local_schema>
+							<longdesc>La valor 0 indica de visualizar l&apos;applet en mòde grafic (sonque la mapa de pixèls), 1 de visualizar l&apos;applet en mòde tèxt (sens visualizar la mapa de pixèls), e la valor 2 de visualizar en mòde grafic e tèxt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cpu">
+						<local_schema short_desc="UCP de gerir">
+							<longdesc>Règla l&apos;UCP de manejar. Dins un sistèma d&apos;un sol processor, o debètz pas cambiar.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="settings">
+					<entry name="confirm_deletion">
+						<local_schema short_desc="Precisa se cal demandar una confirmacion quand volètz suprimir una nòta">
+							<longdesc>Los bremba-tes voids son totjorn suprimits sens confirmacion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="force_default">
+						<local_schema short_desc="Precisa se cal impausar la color per defaut per totas las nòtas">
+							<longdesc>S&apos;aquesta opcion es activada, las colors e poliças personalizadas que son afectadas a de bremba-tes individuals seràn ignorats.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_font">
+						<local_schema short_desc="Precisa se cal utilizar la poliça per defaut del sistèma">
+							<longdesc>Se aquesta opcion es desactivada, podètz utilizar una poliça personalizada per defaut pels bremba-tes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_color">
+						<local_schema short_desc="Precisa se cal utilizar la color per defaut del sistèma">
+							<longdesc>Se aquesta opcion es desactivada, podètz utilizar una color personalizada per defaut pels bremba-tes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Format de data del títol del bremba-te">
+							<longdesc>Per defaut, la data actuala es utilizada coma títol dels bremba-tes quand son creats. Aqueste format es utilizat ; tot çò que pòt analizar strftime() es valid.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Estat de varrolhatge dels bremba-tes">
+							<longdesc>Especifica se los bremba-tes son varrolhats (pas editables) o non.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sticky">
+						<local_schema>
+							<longdesc>Especifica se los bremba-tes son visibles sus TOTES los espacis de trabalh del burèu, o non.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="defaults">
+					<entry name="font">
+						<local_schema short_desc="Poliça per defaut dels bremba-tes novèls">
+							<longdesc>Poliça per defaut dels bremba-tes novèls. Deuriá èsser un nom de poliça Panga, per exemple &quot;Sans Italic 10&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_color">
+						<local_schema short_desc="Color per defaut de la poliça">
+							<longdesc>Color de poliça per defaut dels novèls bremba-tes. Deu èsser una especificacion exa HTML, per exemple &quot;#000000&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="color">
+						<local_schema short_desc="Color per defaut dels bremba-tes novèls">
+							<longdesc>Color per defaut dels novèls bremba-tes. Deu èsser una especificacion exa HTML, per exemple &quot;#30FF50&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="height">
+						<local_schema short_desc="Nautor per defaut dels bremba-tes novèls">
+							<longdesc>Nautor per defaut dels bremba-tes novèls en pixels.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="Largor per defaut dels bremba-tes novèls">
+							<longdesc>Largor per defaut dels bremba-tes novèls en pixels.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="text_ellipsis_limit">
+						<local_schema short_desc="Limit d&apos;abreviacion de tèxte">
+							<longdesc>Un nombre entièr indicant lo biais d&apos;acorchir l&apos;afichatge de noms de fichiers fòrça longs per de punts de suspension sul burèu. Se lo nombre es mai grand que 0, lo nom de fichièr depassarà pas aquel nombre de linhas. Se lo nombre es mai pichon o egal a 0, cap de limit es pas aplicat al nombre de linhas afichadas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="network_icon_name">
+						<local_schema short_desc="Nom d&apos;icòna dels servidors ret">
+							<longdesc>Podètz definir aqueste nom se volètz un nom personalizat per l&apos;icòna dels servidors ret sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Nom de l&apos;icòna de la banasta sul burèu">
+							<longdesc>Podètz definir aqueste nom se volètz un nom personalizat per l&apos;icòna de la banasta sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Nom de l&apos;icòna del repertòri personal sul burèu">
+							<longdesc>Podètz definir aqueste nom se volètz un nom personalizat per l&apos;icòna del repertòri personal sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="Nom de l&apos;icòna de l&apos;ordenador sul burèu">
+							<longdesc>Se volètz un nom personalizat per l&apos;icòna d&apos;ordenador sul burèu, lo podètz modificar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="network_icon_visible">
+						<local_schema short_desc="Icòna dels servidors ret visibla sul burèu">
+							<longdesc>Se es verai, una icòna ligada als servidors de la ret seràn inserida sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="Visualizar los volums montats sul burèu">
+							<longdesc>Se es verai, d&apos;icònas ligadas als volums montats seràn inseridas sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Icòna de la banasta visibla sul burèu">
+							<longdesc>Se es verai, una icòna ligada a la banasta serà inserida sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Icòna d&apos;ordenador visibla sul burèu">
+							<longdesc>Se es verai, un icòna ligada a l&apos;emplaçament de l&apos;ordenador serà inserida sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Icòna del repertòri personal visibla sul burèu">
+							<longdesc>Se es verai, una icòna ligada al repertòri personal serà inserida sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema short_desc="Visualizar pas que los repertòris dins lo panèl lateral d&apos;arborescéncia">
+								<longdesc>Se es verai, Nautilus visualizarà pas que los repertòris dins la panèl lateral d&apos;arborescéncia. Si que non, visualizarà los repertòris e los fichièrs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="Òrdre per defaut de las colomnas dins la visualizacion en tièra">
+							<longdesc>Òrdre per defaut de las colomnas dins la visualizacion en tièra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="Tièra de colomnas visiblas per defaut dins la visualizacion en tièra">
+							<longdesc>Tièra de colomnas visiblas per defaut dins la visualizacion en tièra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Nivèl de zoom per defaut de las tièras">
+							<longdesc>Nivèl de zoom per defaut utilizat per la visualizacion en tièra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Inversar lo sens de classificacion dins las fenèstras novèlas">
+							<longdesc>Se es verai, los fichièrs de las fenèstras novèlas seràn ordenats dins l&apos;òrdre invèrs, es a dire que se son ordenats per nom, lo seràn de &quot;z&quot; a &quot;a&quot; al luòc de o èsser de &quot;a&quot; a &quot;z&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Òrdre de classificacion per defaut">
+							<longdesc>Lo criteri de classificacion per defaut dins la visualizacion en tièra. Las valors possiblas son &quot;nom&quot;, &quot;talha&quot;, &quot;tipe&quot;, &quot;data_de_modificacion&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="compact_view">
+					<entry name="all_columns_have_same_width">
+						<local_schema short_desc="Totas las colomnas an la meteissa largor">
+							<longdesc>S&apos;aquesta preferéncia es definida, totas las colomnas en visualizacion compacta auràn la meteissa largor. Si que non, la largor se determinarà individualament.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Nivèl de zoom per defaut de las icònas">
+							<longdesc>Nivèl de zoom per defaut utilizat per la visualizacion en icònas.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="text_ellipsis_limit">
+						<local_schema short_desc="Limit d&apos;abreviacion de tèxte">
+							<longdesc>Una cadena indicant lo biais d&apos;acorchir l&apos;afichatge de noms de fichiers fòrça longs per de punts de suspension, segon lo nivèl de zoom. Cada element de la lista es de la forma « Nivèl de zoom:Nombre entièr ». Per cada nivèl de zoom indicat, se lo nombre entièr que correspond es mai grand que 0, lo nom de fichièr depassarà pas aquel nombre de linhas. Se lo nombre es mai pichon o egal à 0, cap de limit s&apos;aplica pas al nivèl de zoom indicat. Es permés d&apos;apondre un element jos la forma « Nombre entièr » sens precisar de nivèl de zoom. Aquò indica lo nombre maximum de linhas per totes los autres nivèls de zoom. Exemples : 0 - aficha totjorn los noms en entièr ; 3 - abrèja los noms de fichièrs se depassan tres linhas ; smallest:5, smaller:4,0 - abrèja los noms de fichièrs se depassan respectivament cinc e quatre linhas pels nivèls de zoom « smallest » e « smaller », mas abrèja pas los noms de fichièrs pels autres nivèls de zoom. Los nivèls de zoom disponibles son : smallest (33%), smaller (50%), small (66%), standard (100%), large (150%), larger (200%), largest (400%)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_size">
+						<local_schema short_desc="Talha per defaut de l&apos;icòna de miniatura">
+							<longdesc>La talha per defaut d&apos;una icòna per una miniatura dins la visualizacion en icònas</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Nivèl de zoom per defaut de las icònas">
+							<longdesc>Nivèl de zoom per defaut utilizat per la visualizacion en icònas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="Utilizar la disposicion manuala dins las fenèstras novèlas">
+							<longdesc>S&apos;es verai, las fenèstras novèlas utilizaràn la disposicion manuala per defaut.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="Botar las etiquetas endessús de las icònas">
+							<longdesc>Se es verai, las etiquetas seràn endessús las icònas al luòc de jos elas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="Utilizar una disposicion compacta dins las fenèstras novèlas.">
+							<longdesc>S&apos;es verai, las icònas son rengadas per defaut d&apos;un biais compact dins las fenèstras novèlas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Inversar lo sens de classificacion dins las fenèstras novèlas">
+							<longdesc>Se es verai, los fichièrs de las fenèstras novèlas seràn ordenats dins l&apos;òrdre invèrs, es a dire que se son ordenats per nom, lo seràn de &quot;z&quot; a &quot;a&quot; al luòc de o èsser de &quot;a&quot; a &quot;z&quot; ; se son ordenats per talha, seràn ordenats dins l&apos;òrdre descreiscent al luòc de l&apos;òrdre creiscent.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Òrdre de classificacion per defaut">
+							<longdesc>Lo criteri de classificacion per defaut dins la visualizacion en icònas. Las valors possiblas son &quot;nom&quot;, &quot;talha&quot;, &quot;tipe&quot;, &quot;data_de_modificacion&quot; e&quot;emblèmas&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Tièra de las legendas possiblas sus las icònas">
+							<longdesc>Una tièra de legendas jos una icòna dins la visualizacion en icònas e lo burèu. Lo nombre real d&apos;icònas visualizadas depen del nivèl de zoom. Las valors possiblas son : &quot;size&quot;, &quot;type&quot;, &quot;date_modified&quot;, &quot;date_changed&quot;, &quot;date_accessed&quot;, &quot;owner&quot;, &quot;group&quot;, &quot;permissions&quot;, &quot;octal_permissions&quot; e &quot;mime_type&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Visualizacion del panèl lateral">
+							<longdesc>La visualizacion de panèl lateral de visualizar dins las fenèstras novèlament dobèrtas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Visualizar lo panèl lateral dins las fenèstras novèlas">
+							<longdesc>Se es verai, lo panèl lateral de las fenèstras dobertas serà visible a partir d&apos;ara.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Visualizar la barra d&apos;estat dins las fenèstras novèlas">
+							<longdesc>Se es verai, la barra d&apos;estat de las fenèstras dobertas serà visible a partir d&apos;ara.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Visualizar la barra d&apos;emplaçament dins las fenèstras novèlas">
+							<longdesc>Se es verai, la barra d&apos;emplaçament de las fenèstras dobertas serà visibla a partir d&apos;ara.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Visualizar la barra d&apos;espleches dins las fenèstras novèla">
+							<longdesc>Se es verai, las barras d&apos;espleches de las fenèstras dobertas seràn visiblas a partir d&apos;ara.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Largor del panèl lateral">
+							<longdesc>La largor per defaut del panèl lateral de las fenèstras novèlas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Format de data">
+							<longdesc>Lo format de las datas de fichièrs. Las valors possiblas son &quot;locale&quot;, &quot;iso&quot;, e &quot;informal&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Visualizaira de repertòri per defaut">
+							<longdesc>Quand se consulta un repertòri, aqueste visualizaira es utilizada levat se avètz seleccionat una autra visualizacion per aqueste repertòri. Las valors possiblas son &quot;list_view&quot; e &quot;icon_view&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Nom per defaut del fichièr de fons del panèl lateral">
+							<longdesc>Nom de fichièr del panèl lateral de fonses per defaut. Sonque utilizat se background_set es vrai.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Color per defaut del fons del panèl lateral">
+							<longdesc>Nom de fichièr del panèl lateral de fonses per defaut. Sonque utilizat se background_set es vrai.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Ensemble personalizat de fons del panèl lateral">
+							<longdesc>Indica se un fons de panèl lateral per defaut personalizat es definit.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Nom de fichièr per defaut del fons">
+							<longdesc>Nom de fichièr del repertòri de fonses per defaut. Sonque utilizat se background_set es vrai.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Color de fons per defaut">
+							<longdesc>Color per defaut del fons dels repertòris. Sonque utilizada se background_set es verai.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema short_desc="Fons personalizat">
+							<longdesc>Indica se un fons de repertòri per defaut personalizat es definit.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="Criteri de recèrca per la barra de recèrca">
+							<longdesc>Criteri quand recercatz de fichièrs dins la barra de recèrca. S&apos;es definit a &quot;seach_by_text&quot;, Nautilus recercarà de fichièrs sonque per lor nom. S&apos;es definit a &quot;search_by_text_and_properties&quot;, Nautilus recercarà de fichièrs per lor nom e lors propietats.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Nautilus utiliza lo repertòri personal dels utilizaires coma burèu">
+							<longdesc>Se es verai, Nautilus utilizarà lo repertòri personal de l&apos;utilizaire coma burèu. Se es fals, utilizarà ~/Desktop coma burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Poliça del burèu">
+							<longdesc>La descripcion de la poliça utilisada per las icònas del burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Nautilus gerís la visualizacion del burèu">
+							<longdesc>Se es verai, Nautilus dessenharà los icònas sul burèu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Visualizar los repertòris en primièr dins las fenèstras">
+							<longdesc>Se es verai, Nautilus visualizarà los repertòris abans de visualizar los fichièrs dins las visualizacions en icònas o en tièra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_advanced_permissions">
+						<local_schema short_desc="Visualizar las permissions avançadas dins la fenèstra de las proprietats del fichièr">
+							<longdesc>Se es verai, Nautilus vos permet de modificar e visualizar las permissions de fichièrs d&apos;un biais pus similar a Unix en accedissent a d&apos;opcions mai esotericas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="Indica se cal una escota previa quand la mirga passa endessús d&apos;una icòna">
+							<longdesc>Optimizacion de la velocitat al moment de la previsualizacion d&apos;un fichièr son quand la mirga es endessús de l&apos;icòna del fichièr. S&apos;es definit a &quot;always&quot;, lo son es totjorn jogat, e mai lo fichièr siá sus un servidor distant. S&apos;es definit a &quot;local_only&quot;, lo son es jogat sonque pels sistèmas de fichièrs locals. S&apos;es definit a &quot;never&quot;, lo son es jamai jogat.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Nombre maximum de fichièrs gerits dins un repertòri">
+							<longdesc>Los repertòris pus bèls qu&apos;aquesta talha seràn troncats a l&apos;entorn d&apos;aquesta talha. L&apos;objectiu est d&apos;evitar de cargar la pila e de tuar Nautilus sus repertòris bèls. Una valor negativa suprimís aqueste limit. Lo limit es approximatiu per çò que los repertòris se legisson per paquets.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Talha maximala de l&apos;imatge per las miniaturas">
+							<longdesc>Los imatges pus bèls qu&apos;aquesta talha auràn pas de miniatura. L&apos;objectiu d&apos;aqueste paramètre es d&apos;evitar que d&apos;imatges tròp ajan de miniaturas que serián tròp longs de cargar o utilizarián tròp de memòria.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Quora visualizar una miniatura dels imatges">
+							<longdesc>Optimizacion de la velocitat de visualizacion d&apos;un fichièr imatge en miniatura. S&apos;es definit a &quot;always&quot;, la miniatura se visualiza totjorn, e mai lo repertòri es sus un servidor distant. S&apos;es definit a &quot;local_only&quot;, las miniaturas se visualizan pas que pels sistèmas de fichièrs locals. S&apos;es défini a &quot;never&quot;, las miniaturas son pas jamai visualizadas, s&apos;utilizan sonque d&apos;icòna genericas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Tèma actual de Nautilus (desconselhat)">
+							<longdesc>Nom del tèma Nautilus d&apos;utilizar. Es desconselhat dempuèi Nautilus 2.2. Veuillez utiliser les thèmes d&apos;icônes à la place.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="mouse_back_button">
+						<local_schema short_desc="Boton de la mirga qu&apos;activa la comanda &quot;Precedent&quot; dins una fenèstra de navigacion">
+							<longdesc>Pels utilizaires qu&apos;an una mirga amb de botons &quot;Seguent&quot; e &quot;Precedent&quot;, aquesta clau de termina quin boton activa la comanda &quot;Precedent&quot; dins una fenèstra de navigacion. Las valors possiblas van de 6 a 14.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="mouse_forward_button">
+						<local_schema short_desc="Boton de la mirga qu&apos;activa la comanda &quot;Seguent&quot; dins una fenèstra de navigacion">
+							<longdesc>Pels utilizaires qu&apos;an una mirga amb de botons &quot;Seguent&quot; e &quot;Precedent&quot;, aquesta clau de termina quin boton activa la comanda &quot;Seguent&quot; dins una fenèstra de navigacion. Las valors possiblas van de 6 a 14.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="mouse_use_extra_buttons">
+						<local_schema short_desc="Utilizar los eveniments de botons suplementaris de la mirga dins la fenèstra de navigacion de Nautilus">
+							<longdesc>Pels utilizaires qu&apos;an una mirga amb de botons &quot;Seguent&quot; e &quot;Precedent&quot;, aquesta clau determina se se deu efectuar una accion dins Nautilus quand clicatz sus un d&apos;eles.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="install_mime_activation">
+						<local_schema short_desc="Afichar lo gestionari de paquets pels tipes MIME desconeguts">
+							<longdesc>Indica se cal afichar lo gestionari de paquets quand un fichièr de tipe MIME desconegut es dobèrt, per cercar una aplicacion capable de lo gerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="De que far amb los fichièrs tèxt executables quand son activats">
+							<longdesc>Indica çò que cal far amb los fichièrs tèxt executables quand son activats (simple o doble clic). Las valors possiblas son &quot;launch&quot; per los executar coma de programas, &quot;ask&quot; per demandar de que far dins una fenèstra e &quot;display&quot; per los visualizar coma de fichièrs tèxt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="Tipe de clic utilizat per aviar/dobrir de fichièrs">
+							<longdesc>Las valors possiblas</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Quora visualizar lo nombre d&apos;element dins un repertòri">
+							<longdesc>Optimizacion de la velocitat de visualizacion del nombre d&apos;elements d&apos;un repertòri. S&apos;es definit à &quot;always&quot;, lo nombre d&apos;elements se visualiza totjorn, e mai lo repertòri siá sus un servidor distant. S&apos;es definit a &quot;local_only&quot;, lo nombre d&apos;elements es pas visualizat que pels sistèmas de fichièrs locals. S&apos;es definit a &quot;never&quot;, lo nombre d&apos;elements es pas jamai visualizat.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Quora visualizar una ulhada del tèxt dins las icònas">
+							<longdesc>Optimizacion de la velocitat al moment de la previsualizacion del contengut d&apos;un fichièr tèxt dins l&apos;icòna del fichièr. S&apos;es definit a &quot;always&quot;, se visualiza totjorn la previsualizacion, e mai lo repertòri siá sus un servidor distant. S&apos;es definit a &quot;local_only&quot;, se visualiza la previsualizacion sonque pels sistèmas de fichièrs locals. S&apos;es definit a &quot;never&quot;, las donadas de la previsualizacion son jamai legidas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Indica se cal activar la supression immediata">
+							<longdesc>Se es verai, Nautilus aurà una foncion que vos permetrà de suprimir un fichièr còp sec al luòc de lo desplaçar dins la banasta. Aquesta foncion pòt èsser dangerosa doncas d&apos;utilizar amb prudéncia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_trash">
+						<local_schema short_desc="Indica se cal demandar una confirmacion al moment de suprimir los fichièrs o de voidar la banasta.">
+							<longdesc>Se es verai, Nautilus vos demandarà confirmacion quand ensajaretz de suprimir de fichièrs o de voidar la banasta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_x_content_open_folder">
+						<local_schema short_desc="Tièra dels tipes  x-content/* que cal dobrir un repertòri">
+							<longdesc>Lista dels tipes x-content/* pels quals l&apos;utilizaire a causit « Dobrir lo dorsièr » dins lo capplet de preferéncia. Un dorsièr serà dobèrt a l&apos;insercion d&apos;un supòrt correspondent a aqueles tipes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_x_content_ignore">
+						<local_schema short_desc="Tièra dels tipes  x-content/* que cal pas res far">
+							<longdesc>Lista dels tipes x-content/* pels quals l&apos;utilizaire a causit « Far pas res » dins lo capplet de preferéncia. Cap de fenèstra  serà pas afichada, ni cap d&apos;accion pas aviada a l&apos;insercion d&apos;un supòrt correspondent a aqueles tipes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_x_content_start_app">
+						<local_schema short_desc="Tièra dels tipes  x-content/* que cal aviar l&apos;aplicacion preferida">
+							<longdesc>Lista dels tipes x-content/* pels quals l&apos;utilizaire a causit d&apos;aviar una aplicacion dins lo capplet de preferéncia. L&apos;aplicacion preferida pel tipe donat serà aviada a l&apos;insercion d&apos;un supòrt correspondent a aqueles tipes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_never">
+						<local_schema short_desc="Jamai demandar o aviar automaticament los programas quand un supòrt es inserit">
+							<longdesc>S&apos;es definit a verai, Nautilus demanda pas jamai, ni lança automaticament los programas quand s&apos;inserís un supòrt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_automount_open">
+						<local_schema short_desc="Indica se cal dobrir automaticament un repertòri quand de supòrts son montats automaticament">
+							<longdesc>S&apos;es definit a verai, Nautilus dobrirà automaticament un repertòri quand un supòrt es montat automaticament. Aquò s&apos;aplica pas qu&apos;als supòrts ont se detecta un contengut del tipe x-content/* desconegut ; pels supòrts ont se detecta un contengut de tipe x-content conegut, s&apos;utiliza al luòc l&apos;accion personalizada del&apos;utilizaire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_automount">
+						<local_schema short_desc="Indica se cal montar automaticament los supòrts">
+							<longdesc>S&apos;es definit a verai, Nautilus montarà automaticament los supòrts coma los discs durs visibles per l&apos;utilizaire e los periferics amovibles a l&apos;aviada e a l&apos;insercion dels supòrts.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_location_entry">
+						<local_schema short_desc="Totjorn utilizar la zòna de tèxt per l&apos;emplaçament al luòc de la barra de camin">
+							<longdesc>Se es verai, las fenèstras d&apos;exploracion de Nautilus utilizaràn totjorn una dintrada textuala dins la barra d&apos;emplaçaments, al luòc de la barra de camin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Activa lo compòrtament classic de Nautilus, ont totas las fenèstras son de navigadors">
+							<longdesc>Se es verai, totas las fenèstras de Nautilus seràn de fenèstras de navigador. Es coma aquò que Nautilus se comportava abans la version 2.6 e d&apos;unes estiman melhor aqueste compòrtament.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="exit_with_last_window">
+						<local_schema short_desc="Nautilus quita quand la darrièra fenèstra es destrucha.">
+							<longdesc>Se verai, Nautilus quita quand totas las fenèstras son destruchas. Es lo parametratge per defaut. Se fals, pòt èsser aviat sens fenèstras, Nautilus servís alara de servici per susvelhar lo montatge automatic de mèdia o per d&apos;autres prètzfaches similars.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="cities">
+						<local_schema short_desc="Tièra d&apos;emplaçaments">
+						</local_schema>
+					</entry>
+					<entry name="internet_time">
+						<local_schema short_desc="Utilizar l&apos;ora internet">
+							<longdesc>Desconselham l&apos;utilisacion d&apos;aquesta clau dempuéi GNOME 2.6 al benefici de la clau &apos;format&apos;. L&apos;esquèma es conservat per compatibilitat amb las versions precedentas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Utilizar l&apos;ora UNIX">
+							<longdesc>Desconselham l&apos;utilisacion d&apos;aquesta clau dempuéi GNOME 2.6 al benefici de la clau &apos;format&apos;. L&apos;esquèma es conservat per compatibilitat amb las versions precedentas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Format de l&apos;ora">
+							<longdesc>Desconselham l&apos;utilisacion d&apos;aquesta clau dempuéi GNOME 2.6 al benefici de la clau &apos;format&apos;. L&apos;esquèma es conservat per compatibilitat amb las versions precedentas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Visualizar lo numerò de las setmanas dins lo calendièr">
+							<longdesc>S&apos;es validat, los numeròs de setmana se mostran dins lo calendièr.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Esplech de configuracion de l&apos;ora">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Utilizar l&apos;ora UTC">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Visualizar la data dins una bodenfla">
+							<longdesc>S&apos;es verai, la data se visualiza dins una bodenfla quand la sageta de la mirga es sul relòtge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Visualizar la data dins lo relòtge">
+							<longdesc>S&apos;es validat, la data se visualiza dins lo relòtge, al costat de l&apos;ora.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Visualizar l&apos;ora amb las segondas">
+							<longdesc>S&apos;es validat, las segondas se visualizan dins l&apos;ora.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Format personalizat del relòtge">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Format de l&apos;ora">
+							<longdesc>Aquesta clau indica lo format d&apos;ora utilizat per l&apos;ajuston relòtge. Las valors possiblas son &quot;12-hour&quot;, &quot;24-hour&quot;, &quot;internet&quot;, &quot;unix&quot; e &quot;personalizat&quot;. S&apos;es definida a &quot;internet&quot;, lo relòtge visualiza l&apos;ora internet. Lo sistèma d&apos;ora internet devisís lo jorn en 1000 segments. I a pas de fus orari dins aqueste sistèma, doncas l&apos;ora es la meteissa pertot dins lo mond. S&apos;es definida a &quot;unix&quot;, lo relòtge visualiza l&apos;ora en segondas dempuèi Epoch, es a dire lo 1èr de genièr de 1970. S&apos;es definida a &quot;personalizat&quot;, lo relòtge visualiza l&apos;ora en foncion del format indicat dins la clau custom_format.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="plugins">
+					<entry name="active-plugins">
+						<local_schema short_desc="Ajustons actius">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema short_desc="Poliça del numerò de linha per l&apos;estampatge">
+									<longdesc>Especifica la poliça d&apos;utilizar per estampar los numeròs de linha. Serà aplicat sonque se l&apos;opcion &quot;Estampar los numeròs de linha&quot; es pas zerò.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+									<longdesc>Especifica la poliça d&apos;utilizar per estampar los encaps de pagina. Serà aplicat sonque se l&apos;opcion &quot;Estampar l&apos;encap&quot; es activada.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema short_desc="Poliça del còs per l&apos;estampatge">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="page">
+							<entry name="print_line_numbers">
+								<local_schema short_desc="Estampar los numeròs de linha">
+								</local_schema>
+							</entry>
+							<entry name="print_header">
+								<local_schema short_desc="Estampar l&apos;encap">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="ui">
+						<dir name="recents">
+							<entry name="max_recents">
+								<local_schema short_desc="Nombre maximum de fichièrs recents">
+									<longdesc>Especifica lo nombre maximum de fichièrs recentament dobèrts que seràn visualizats dins lo sosmenut &quot;Fichièrs recents&quot;.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="bottom_panel">
+							<entry name="bottom_panel_visible">
+								<local_schema short_desc="Lo panèl inferior es visible">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="statusbar">
+							<entry name="statusbar_visible">
+								<local_schema short_desc="La barra d&apos;estat es visibla">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbar">
+							<entry name="toolbar_buttons_style">
+								<local_schema short_desc="Estil dels botons de la barra d&apos;espleches">
+								</local_schema>
+							</entry>
+							<entry name="toolbar_visible">
+								<local_schema short_desc="La barra d&apos;espleches es visibla">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="right_margin">
+							<entry name="display_right_margin">
+								<local_schema short_desc="VIsualizar lo marge drèch">
+									<longdesc>Especifica se gedit deu visualizar lo marge drèch dins la zòna d&apos;edicion.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="Visualizar los numeròs de linha">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="tabs">
+							<entry name="insert_spaces">
+								<local_schema short_desc="Inserir d&apos;espacis">
+									<longdesc>Especifica se gedit deu inserir d&apos;espacis al luòc de tabulacions.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="tabs_size">
+								<local_schema short_desc="Talha de la tabulacion">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="save">
+							<entry name="create_backup_copy">
+								<local_schema short_desc="Crear de còpia de salvagarda">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="Poliça del editor">
+									<longdesc>Una poliça personalizada que serà utilizada per la zòna d&apos;edicion. Serà aplicat sonque se l&apos;opcion &quot;Utilizar la poliça per defaut&quot; es desactivada.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="use_default_font">
+								<local_schema short_desc="Utilizar la poliça per defaut">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Desplaçar la fenèstra cap al espaci de trabalh 12">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 11">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 10">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 9">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 8">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 7">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 6">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 5">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 4">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Desplaçar la fenèstra cap al espaci de trabalh 3">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Desplaçar la fenèstra cap al espaci de trabalh 2">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Desplaçar la fenèstra al espaci de trabalh 1">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="Desplaçar la fenèstra">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Tampar la fenèstra">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_terminal">
+						<local_schema short_desc="Executar un terminal">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="Anar al espaci de trabalh 12">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="Anar al espaci de trabalh 11">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="Anar al espaci de trabalh 10">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="Anar al espaci de trabalh 9">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="Anar al espaci de trabalh 8">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="Anar al espaci de trabalh 7">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="Anar al espaci de trabalh 6">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="Anar al espaci de trabalh 5">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="Anar al espaci de trabalh 4">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="Anar al espaci de trabalh 3">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="Anar al espaci de trabalh 2">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="Anar al espaci de trabalh 1">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="Nom del espaci de trabalh">
+							<longdesc>Lo nom d&apos;un espaci de trabalh.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="visual_bell_type">
+						<local_schema short_desc="Tipe de sonadís visual">
+						</local_schema>
+					</entry>
+					<entry name="audible_bell">
+						<local_schema short_desc="Podètz ausir lo bip sistèma">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Activar la lo sonadís visual">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="Nombre d&apos;espacis de trabalh">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_font">
+						<local_schema short_desc="Poliça de títol de las fenèstras">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Tèma actiu">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="Accion quand doble-clicatz sus la barra de títol">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="use_system_font">
+							<local_schema short_desc="Utilizar la poliça sistèma">
+							</local_schema>
+						</entry>
+						<entry name="background_image">
+							<local_schema short_desc="Imatge de fons">
+								<longdesc>Nom de fichièr de l&apos;imatge de fons.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_type">
+							<local_schema short_desc="Tipe de fons">
+							</local_schema>
+						</entry>
+						<entry name="font">
+							<local_schema short_desc="Poliça">
+							</local_schema>
+						</entry>
+						<entry name="icon">
+							<local_schema short_desc="Icòna per la fenèstra de terminal">
+							</local_schema>
+						</entry>
+						<entry name="title">
+							<local_schema short_desc="Títol del terminal">
+							</local_schema>
+						</entry>
+						<entry name="foreground_color">
+							<local_schema short_desc="Color per defaut del tèxt dins lo terminal">
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="profile_list">
+						<local_schema short_desc="Tièra de perfils">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Linhas dins lo seleccionaire d&apos;espacis de trabalh">
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Visualizar totes los espacis de trabalh">
+							<longdesc>S&apos;es verai, lo seleccionaire d&apos;espacis de trabalh mostra totes los espacis de trabalh ; si que non, mostra sonque l&apos;espaci de trabalh actiu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Visualizar los noms dels espacis de trabalh">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Talha maximala de la tièra de fenèstras">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Talha minimala de la tièra de fenèstras">
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Quand son desminimizadas, desplaçar las fenèstras dins l&apos;espaci de trabalh actual">
+							<longdesc>S&apos;es verai, quand una fenèstra es desminimizada, es desplaçada dins l&apos;espaci de trabalh actiu. Si que non, passa a l&apos;espaci de trabalh de la fenèstra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Quand gropar las fenèstras">
+							<longdesc>Decidís quora cal gropar las fenèstras de la meteissa aplicacion dins la tièra de fenèstras. Las valors possiblas son &quot;jamai&quot;, &quot;auto&quot; e &quot;totjorn&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Visualizar las fenèstras de totes los espacis de trabalh">
+							<longdesc>S&apos;es verai, la tièra de fenèstras visualizarà las fenèstras de totes los espacis de trabalh. Si que non, visualizarà pas que las fenèstras del espaci de trabalh actiu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_log_out">
+						<local_schema short_desc="Desactivar la desconnexion">
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Varrolhar completament lo panèl">
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Confirmatz la supresion del panèl">
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Activar las animacions">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Obsolet">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Tipe de boton d&apos;accion">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Utilizar una icòna personalizada pel boton de l&apos;element">
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Tipe d&apos;element del panèl">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Velocitat d&apos;animacion">
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Nombre de pixels visibles quand es amagat">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Activar las animacions">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Talha del panèl">
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Orientacion del panèl">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Nom d&apos;identificacion del panèl">
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="image">
+							<local_schema short_desc="Imatge de fons">
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Color de fons">
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Tipe de fons">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Pivotar dins los panèls verticals">
+							<longdesc>S&apos;es verai, l&apos;animacion del peis serà visualizat pivotat quand lo panèl serà vertical.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Pausa per imatge">
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Imatges dins l&apos;animacion del peis">
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Comanda d&apos;executar al moment d&apos;un clic">
+							<longdesc>Aquesta clau indica la comanda d&apos;executar quand clicatz sul pes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="L&apos;imatge de l&apos;animation del peis">
+							<longdesc>Aquesta clau especifica lo nom de fichièr del pixmap que serà utilizat per l&apos;animacion visualizada dins l&apos;ajuston de peis relatiu al repertòri del pixmap.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Lo nom del peis">
+							<longdesc>Un pes qu&apos;a pas de nom es plan malurós. Balhatz-lo una vida novèla en li donant un nom.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="Imatges preferits per l&apos;ecran d&apos;acuèlh">
+							<longdesc>Aquò&apos;s un camin relatiu basat sul repertòri $datadir/pixmaps/. Los sosrepertòris e los noms d&apos;imatges son de valors valablas. Se càmbiatz aquesta valor, aquò prendrà efècte a la debuta de la sesilha venenta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="Indicador de sortida">
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Enregistrar las sessions">
+							<longdesc>S&apos;es activat, gnome-session enregistrarà automaticament la session. Autrament, la boita de dialòg de desconnexion prepausarà una opcion per enregistrar la sesilha.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Visualizar l&apos;ecran d&apos;acuèlh">
+							<longdesc>Visualizar l&apos;ecran d&apos;acuèlh al iniciar la session</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-search-tool">
+				<entry name="default_window_height">
+					<local_schema short_desc="Nautor per defaut de la fenèstra">
+					</local_schema>
+				</entry>
+				<entry name="default_window_width">
+					<local_schema short_desc="Largor per defaut de la fenèstra">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gdm">
+				<dir name="simple-greeter">
+					<entry name="wm_use_compiz">
+						<local_schema short_desc="Utilizar Compiz coma gestionari de fenèstras">
+							<longdesc>Se verai, activa Compiz coma gestionari de fenèstras.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recent-layouts">
+						<local_schema short_desc="Agençaments de clavièr seleccionats recentament">
+							<longdesc>Definís una lista dels agençament de clavièr d&apos;afichar per defaut dins la fenèstra de connexion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recent-languages">
+						<local_schema short_desc="Lengas seleccionadas recentament">
+							<longdesc>Definís una lista de las lengas d&apos;afichar per defaut dins la fenèstra de connexion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_list">
+						<local_schema short_desc="Afichar pas los utilizaires coneguts dins la fenèstra de connexion">
+							<longdesc>Se verai, desactiva l&apos;afichatge dels utilizaires coneguts dins la fenèstra de connexion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_restart_buttons">
+						<local_schema short_desc="Desactivar l&apos;afichatge dels botons de reaviada">
+							<longdesc>Se verai, desactiva l&apos;afichatge dels botons de reaviada dins la fenèstra de connexion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logo_icon_name">
+						<local_schema short_desc="Nom d&apos;icòna d&apos;utilizar pel lògo de la bandièra d&apos;acuèlh">
+							<longdesc>Definís lo nom d&apos;icòna (dins un tèma) d&apos;utilizar pel lògo de la bandièra d&apos;acuèlh.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_text_nochooser">
+						<local_schema short_desc="Messatge tèxte de la bandièra quand lo selector es void">
+							<longdesc>Messatge tèxte de la bandièra d&apos;afichar dins la fenèstra de connexion quand lo selector d&apos;utilizaire es void, a la plaça de banner_message_text.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_text">
+						<local_schema short_desc="Tèxte del messatge de la bandièra">
+							<longdesc>Tèxte del messatge de la bandièra d&apos;afichar dins la fenèstra de connexion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_enable">
+						<local_schema short_desc="Activar l&apos;afichatge del messatge de la bandièra">
+							<longdesc>Se verai, aficha lo tèxte del messatge de la bandièra.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="settings-manager-plugins">
+						<dir name="xsettings">
+							<entry name="active">
+								<local_schema short_desc="Verai se l&apos;ensèrt de gestion dels paramètres de xsettings es activat.">
+									<longdesc>Se verai, activa l&apos;ensèrt de gestion dels paramètres xsettings.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="xrandr">
+							<entry name="active">
+								<local_schema short_desc="Verai se l&apos;ensèrt de gestion dels paramètres de xrandr es activat.">
+									<longdesc>Se verai, activa l&apos;ensèrt de gestion dels paramètres de xrandr.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="sound">
+							<entry name="active">
+								<local_schema short_desc="Verai se l&apos;ensèrt de gestion dels paramètres de son es activat.">
+									<longdesc>Se verai, activa l&apos;ensèrt de gestion dels paramètres de son.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="media-keys">
+							<entry name="active">
+								<local_schema short_desc="Verai se l&apos;ensèrt de gestion dels paramètres de las tòcas multimèdia es activat.">
+									<longdesc>Se verai, activa l&apos;ensèrt de gestion dels paramètres de las tòcas multimèdias.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="background">
+							<entry name="active">
+								<local_schema short_desc="Verai se l&apos;ensèrt de gestion dels paramètres de rèire plan es activat.">
+									<longdesc>Se verai, activa l&apos;ensèrt de gestion dels paramètres de rèire plan.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="a11y-keyboard">
+							<entry name="active">
+								<local_schema short_desc="Activar l&apos;ensèrt d&apos;accessibilitat del clavièr">
+									<longdesc>Se verai, activa l&apos;ensèrt de gestion dels paramètres d&apos;accessibilitat del clavièr.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="accessibility">
+						<entry name="screen_magnifier_enabled">
+							<local_schema short_desc="Activar la lópia d&apos;ecran">
+								<longdesc>Se verai, activa la lópia d&apos;ecran.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="screen_reader_enabled">
+							<local_schema short_desc="Activar lo lector d&apos;ecran">
+								<longdesc>Se verai, activa lo lector d&apos;ecran.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="screen_keyboard_enabled">
+							<local_schema short_desc="Activar lo clavièr a l&apos;ecran">
+								<longdesc>Se verai, activa lo clavièr a l&apos;ecran.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_history">
+						<local_schema short_desc="Desactivar l&apos;istoric">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Activar Javascript">
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Lengas">
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="preferences_font_language">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="homepage">
+						<local_schema short_desc="Pagina personala">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="deskbar">
+				<entry name="window_height">
+					<local_schema short_desc="Nautor de la fenèstra">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Largor de la fenèstra">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="eog">
+				<dir name="plugins">
+					<entry name="active_plugins">
+						<local_schema short_desc="Ajustons actius">
+							<longdesc>Tièra dels apondons actius. Conten pas l&apos;emplaçament dels apondons actius. Legissètz lo fichièr .eog-plugin per obténer l&apos;emplaçament d&apos;un apondon.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="ui">
+					<entry name="propsdialog_netbook_mode">
+						<local_schema short_desc="Indica se la lista de las metadonadas dins la bóstia de dialòg de las proprietats deu figurar dins un onglet separat.">
+							<longdesc>Se activat, la lista detalhada de las metadonadas dins la bóstia de dialòg de las proprietats es desplaçada dins un onglet separat de la bóstia de dialòg. Aquò deu far la bóstia de dialòg mai legibla suls ecrans pichons, per exemple los netbooks. Se desactivat, la lista detalhada es integrada a l&apos;onglet Metadonadas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="filechooser_xdg_fallback">
+						<local_schema short_desc="Indica se lo selector de fichièrs deu afichar lo dorsièr dels imatges de l&apos;utilizaire se cap d&apos;imatge es pas cargat.">
+							<longdesc>Se activat e qu&apos;i a pas d&apos;imatge cargat dins la fenèstra principala, lo selector de fichièrs aficha lo dorsièr dels imatges de l&apos;utilizaire en utilizant los repertòris d&apos;utilizaires especials segon la nòrma XDG. Se desactivat o se lo repertòri dels imatges es pas configurat, aficha lo repertòri de trabalh actual.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_trash_confirmation">
+						<local_schema short_desc="Metre los imatges a la banasta sens confirmacion">
+							<longdesc>Se activat, Eye of GNOME demanda pas de confirmacion quand los imatges son meses a la banasta. Demanda totjorn se un fichièr pòt èsser mes a la banasta e deuriá doncas èsser suprimit dirèctament.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scroll_buttons">
+						<local_schema short_desc="Visualizar/amagar los botons de desfilament del panèl de la colleccion d&apos;imatges.">
+						</local_schema>
+					</entry>
+					<entry name="sidebar">
+						<local_schema short_desc="Visualizar/amagar lo panèl lateral de la fenèstra.">
+						</local_schema>
+					</entry>
+					<entry name="image_collection_resizable">
+						<local_schema short_desc="Indica se lo panèl de la colleccion d&apos;imatges se deu poder redimensionar.">
+						</local_schema>
+					</entry>
+					<entry name="image_collection_position">
+						<local_schema short_desc="Posicion del panèl de colleccion d&apos;imatge. Definissètz 0 per enbàs, 1 per esquèrre, 2 per drecha.">
+						</local_schema>
+					</entry>
+					<entry name="image_collection">
+						<local_schema short_desc="Visualizar/amagar lo panèl de la colleccion d&apos;images.">
+						</local_schema>
+					</entry>
+					<entry name="statusbar">
+						<local_schema short_desc="Visualizar/amagar la barra d&apos;estat de la fenèstra.">
+						</local_schema>
+					</entry>
+					<entry name="toolbar">
+						<local_schema short_desc="Visualizar/amagar la barra d&apos;espleches de la fenèstra.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="full_screen">
+					<entry name="seconds">
+						<local_schema short_desc="Espèra, en segondas, abans de visualizar l&apos;imatge seguent">
+							<longdesc>Una valor pus bèla que 0 determina la durada de visualizacion d&apos;un imatge a l&apos;ecran, en segonda, abans de passar automaticament a l&apos;imatge seguent. Zerò desactiva la navigacion automatica.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="upscale">
+						<local_schema short_desc="Autorizar un zoom inicial pus bèl que 100 %">
+							<longdesc>Se aquò es definit a FALS, los imatges pichons seràn pas estirats per qu&apos;emplenen l&apos;ecran a la debuta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="loop">
+						<local_schema short_desc="Repetir la sequéncia d&apos;imatges">
+							<longdesc>Indique se una sequéncia d&apos;imatge se deu visualizar en bocla.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="Color de transparéncia">
+							<longdesc>Se la clau de transparéncia a la valor COLOR, es la clau que determinà la color que serà utilizada per indicar la transparéncia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="zoom_multiplier">
+						<local_schema short_desc="Multiplicador de zoom">
+							<longdesc>Lo multiplicador d&apos;aplicar quand utilizatz la moleta de la mirga per far un zoom. Aquesta valor definís l&apos;encrena utilizat per cada eveniment de desfilament. Per exemple, 0,05 permet d&apos;augmentar lo zoom de 5 % del zoom per cada eveniment de desfilament e 1,00 permet d&apos;augmentar de 100 % lo zoom.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scroll_wheel_zoom">
+						<local_schema short_desc="Zoom amb la moleta de la mirga">
+							<longdesc>Indica se se deu utilizar la rodeta de la mirga per zoomar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="Indicador de transparéncia">
+							<longdesc>Determina cossí se deu indicar la transparéncia. Las valors validas son CHECK_PATTERN, COLOR e NONE. Se causissètz COLOR, serà la clau trans_color que determinarà la valor de la color utilizada.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extrapolate">
+						<local_schema short_desc="Extrapolar l&apos;imatge">
+							<longdesc>Indica se se deu interpolar l&apos;imatge pendent un zoom. Balha una qualitat d&apos;imatge melhora mas es mai lent que los imatges pas interpolats.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="Interpolar l&apos;imatge">
+							<longdesc>Indica se se deu interpolar l&apos;imatge pendent un zoom. Balha una qualitat d&apos;imatge melhora mas es mai lent que los imatges pas interpolats.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="autorotate">
+						<local_schema short_desc="Orientacion automatica">
+							<longdesc>Indica se l&apos;imatge se deu pivotar automaticament en se basant sus las entresenhas d&apos;orientacion EXIF.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome_settings_daemon">
+				<dir name="keybindings">
+					<entry name="next">
+						<local_schema short_desc="Pista seguenta">
+						</local_schema>
+					</entry>
+					<entry name="play">
+						<local_schema short_desc="Lectura (o Lectura/Pausa)">
+						</local_schema>
+					</entry>
+					<entry name="www">
+						<local_schema short_desc="Aviar lo navigador web">
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="Aviar lo navigador d&apos;ajuda">
+						</local_schema>
+					</entry>
+					<entry name="screensaver">
+						<local_schema short_desc="Varrolhar l&apos;ecran">
+						</local_schema>
+					</entry>
+					<entry name="search">
+						<local_schema short_desc="Recercar">
+						</local_schema>
+					</entry>
+					<entry name="home">
+						<local_schema short_desc="Repertòri personal">
+						</local_schema>
+					</entry>
+					<entry name="eject">
+						<local_schema short_desc="Ejectar">
+						</local_schema>
+					</entry>
+					<entry name="power">
+						<local_schema short_desc="Desconnexion">
+						</local_schema>
+					</entry>
+					<entry name="volume_up">
+						<local_schema short_desc="Aumentar lo volum">
+						</local_schema>
+					</entry>
+					<entry name="volume_down">
+						<local_schema short_desc="Redusir lo volum">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="radar">
+						<local_schema short_desc="URL de la carta radar">
+							<longdesc>L&apos;URL personalizada ont recobrar una carta radar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_radar_url">
+						<local_schema short_desc="Utilisar una URL personalizada per la carta radar">
+						</local_schema>
+					</entry>
+					<entry name="coordinates">
+						<local_schema short_desc="Coordenadas del luòc">
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema short_desc="Previsions meteò per una ciutat">
+							<longdesc>La ciutat que gweather mostra las informacions.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema short_desc="Emplaçament de radar">
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema short_desc="Emplaçament de la zòna">
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema short_desc="Vila prèpa">
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema short_desc="Informacions sul luòc de meteò">
+							<longdesc>Informacions sul luòc de meteò.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_radar_map">
+						<local_schema short_desc="Visualizar la carta radar">
+							<longdesc>Recobra una carta radar a cada mesa a jorn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_detailed_forecast">
+						<local_schema short_desc="Pas mai utilisat">
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="Unitat de temperatura">
+							<longdesc>L&apos;unitat de temperatura a utilisar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed_unit">
+						<local_schema short_desc="Unitat de velocitat">
+							<longdesc>L&apos;unitat de velocitat de vent a utilisar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="pressure_unit">
+						<local_schema short_desc="Unitat de pression">
+							<longdesc>L&apos;unitat de pression a utilisar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="distance_unit">
+						<local_schema short_desc="Unitat de distancia">
+							<longdesc>L&apos;unitat de visibilitat a utilisar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_metric">
+						<local_schema short_desc="Utilisar lo sistèma metric">
+							<longdesc>Utilisar lo sistèma metric en plaça del sistèma anglés.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update_interval">
+						<local_schema short_desc="Interval de mesa a jorn">
+							<longdesc>L&apos;interval en segondas entre las mesas a jorn automaticas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update">
+						<local_schema short_desc="Metre las donadas a jorn automaticament">
+							<longdesc>Determina se l&apos;aplet met a jorn sas estadisticas meteo automaticament o non.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="evolution">
+				<dir name="shell">
+					<dir name="network_config">
+						<entry name="authentication_password">
+							<local_schema short_desc="Mot de pas del proxy HTTP">
+							</local_schema>
+						</entry>
+						<entry name="proxy_type">
+							<local_schema short_desc="Mòde de configuracion del proxy">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="view_defaults">
+						<entry name="toolbar_visible">
+							<local_schema short_desc="La barra d&apos;espleches es visibla">
+							</local_schema>
+						</entry>
+						<entry name="buttons_style">
+							<local_schema short_desc="Estil de boton de fenèstra">
+							</local_schema>
+						</entry>
+						<entry name="buttons_visible">
+							<local_schema short_desc="Los botons de fenèstra son visibles">
+							</local_schema>
+						</entry>
+						<entry name="window_height">
+							<local_schema short_desc="Nautor per defaut de la fenèstra">
+							</local_schema>
+						</entry>
+						<entry name="window_width">
+							<local_schema short_desc="Largor per defaut de la fenèstra">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="eplugin">
+					<dir name="mail-notification">
+						<entry name="sound-enabled">
+							<local_schema short_desc="Legir un son quand de messatges novèls arriban.">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="external-editor">
+						<entry name="editor-command">
+							<local_schema short_desc="Editor extèrne per defaut">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="email_custom_header">
+						<entry name="customHeader">
+							<local_schema short_desc="Tièra dels encaps personalizats">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="calendar">
+					<entry name="audio_dir">
+						<local_schema>
+							<longdesc>Repertòri ont enregistrar los fichièrs audio per las alarmas</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="notify">
+						<entry name="programs">
+							<local_schema short_desc="Programas d&apos;alarma">
+								<longdesc>Programas autorizats a èsser aviats per d&apos;alarmas.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="prompts">
+						<entry name="confirm_delete">
+							<local_schema short_desc="Demandar confirmacion al moment de suprimir d&apos;elements">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tasks">
+						<entry name="hide_completed">
+							<local_schema short_desc="Amagar los prètzfaches acabats">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="working_days">
+							<local_schema short_desc="Jorns de trabalh">
+							</local_schema>
+						</entry>
+						<entry name="day_end_minute">
+							<local_schema short_desc="Minuta de fin dels jorns de trabalh">
+							</local_schema>
+						</entry>
+						<entry name="day_end_hour">
+							<local_schema short_desc="Ora de fin dels jorns de trabalh">
+								<longdesc>Ora de fin de la jornada de trabalh, al format 24 oras, de 0 a 23.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="day_start_minute">
+							<local_schema short_desc="Minuta de debuta dels jorns de trabalh">
+							</local_schema>
+						</entry>
+						<entry name="day_start_hour">
+							<local_schema short_desc="Ora de debuta dels jorns de trabalh">
+								<longdesc>Ora de debuta de la jornada de trabalh, al format 24 oras, de 0 a 23.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="week_start_day">
+							<local_schema short_desc="Debuta de setmana">
+								<longdesc>Lo jorn que la setmana comença amb, del dimenge (0) al dissabte (6).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="timezone">
+							<local_schema short_desc="Fus orari">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="mail">
+					<entry name="save_dir">
+						<local_schema short_desc="Enregistrar lo repertòri">
+						</local_schema>
+					</entry>
+					<entry name="accounts">
+						<local_schema short_desc="Tièra de comptes">
+						</local_schema>
+					</entry>
+					<entry name="labels">
+						<local_schema short_desc="Tièra de las etiquetas e de lor color">
+						</local_schema>
+					</entry>
+					<dir name="prompts">
+						<entry name="checkdefault">
+							<local_schema short_desc="Verifica se Evolution es lo gestionari de corrièls per defaut">
+							</local_schema>
+						</entry>
+						<entry name="open_many">
+							<local_schema>
+								<longdesc>Se un utilizaire ensaja de dobrir 10 messatges o mai al meteis temps, li demandar se es vertadièrament çò que vòl.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="paned_size">
+							<local_schema short_desc="Nautor del panèl de tièra de messatges">
+								<longdesc>Nautor del panèl de tièra de messatges.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="sender_photo">
+							<local_schema short_desc="Visualizar la fotografia de l&apos;expedidor">
+								<longdesc>Visualizar la fotografia de l&apos;expedidor dins lo panèl de lectura dels messatges.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="animate_images">
+							<local_schema short_desc="Visualizar las animacions">
+							</local_schema>
+						</entry>
+						<dir name="fonts">
+							<entry name="use_custom">
+								<local_schema short_desc="Utilizar de poliças personalizadas">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

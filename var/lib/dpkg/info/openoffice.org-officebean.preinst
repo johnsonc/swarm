@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+THIS_PACKAGE=openoffice.org-officebean
+THIS_SCRIPT=preinst
+
+LIBSUFFIX=lr
+PLATFORMID=linux_arm_eabi
+
+
+case "$1" in install|upgrade)
+	if [ -L /usr/lib/openoffice/program/classes ]; then
+		rm /usr/lib/openoffice/program/classes
+		mkdir /usr/lib/openoffice/program/classes
+	fi
+	;;
+esac
+
+
+
+exit 0

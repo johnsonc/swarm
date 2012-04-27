@@ -1,0 +1,13 @@
+d5774a3e38dfc3b9194ccc8b50c45927  usr/lib/pyshared/python2.5/gtk-2.0/gnomeapplet.so
+75452a5093a42c7858837d9ff99b327c  usr/lib/pyshared/python2.6/gtk-2.0/gnomeapplet.so
+e0f3095ea9c8f10d02b40e2b2e10d2bc  usr/share/doc/python-gnomeapplet/AUTHORS
+9e4634ea1a152653e71a0f8db52dc329  usr/share/doc/python-gnomeapplet/NEWS.gz
+444e6d5f7245422f494a08bb59946c51  usr/share/doc/python-gnomeapplet/README
+d9a2a11726cfeef828206e36b5a0a8bd  usr/share/doc/python-gnomeapplet/changelog.Debian.gz
+74be9c397b2c30d3a14ebf6ba2933ea6  usr/share/doc/python-gnomeapplet/changelog.gz
+5577fe9b7b6c069155f3a1e553f3e25d  usr/share/doc/python-gnomeapplet/copyright
+1073db7202d4ca674b46884f784c77f5  usr/share/doc/python-gnomeapplet/examples/GNOME_PythonAppletSample.server
+0cc3ebe3bae1616ab573b7d62946848f  usr/share/doc/python-gnomeapplet/examples/README
+fd9208f95f1a047c3116aeb0d5c6192f  usr/share/doc/python-gnomeapplet/examples/applet.py
+40b384a2d2f653116fb910c5bea6e143  usr/share/pyshared/gtk-2.0/gnome/applet.py
+33383ffd52ca67fba3762a67ccf6b148  usr/share/python-support/python-gnomeapplet.public

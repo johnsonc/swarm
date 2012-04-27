@@ -1,0 +1,4 @@
+This is a repository of GIR interface description files.
+
+The idea is that these files should eventually migrate upstreams, but
+meanwhile as they and gobject-introspection matures they will be kept here.

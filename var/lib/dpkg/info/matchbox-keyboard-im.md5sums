@@ -1,0 +1,7 @@
+eb0848023cf3879b108c096b2d91a992  usr/share/doc/matchbox-keyboard-im/changelog.Debian.gz
+969aab64fc60b6bfad810661c67bf3b2  usr/share/doc/matchbox-keyboard-im/changelog.gz
+4b950670590af0f77d92af871300db89  usr/share/doc/matchbox-keyboard-im/README.gz
+aa6bf9e2d2da887cfdec4d8cddf0d284  usr/share/doc/matchbox-keyboard-im/AUTHORS
+e2105650e597783a11aea989cbb5d58a  usr/share/doc/matchbox-keyboard-im/copyright
+7a7ab7f328899cb913419706274c1eb3  usr/lib/gtk-2.0/2.10.0/immodule-files.d/matchbox-keyboard-im.immodules
+d8009b67547019ef7843d5f495dd93d3  usr/lib/gtk-2.0/2.10.0/immodules/libmb-im-invoker.so

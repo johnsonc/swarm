@@ -1,0 +1,2066 @@
+<gconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas/apps/control-center/cc_actions_list</key>
+			<applyto>/apps/control-center/cc_actions_list</applyto>
+			<owner>control-center</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<locale name="C">
+				<default><!-- Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a "," -->[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+				<short>Task names and associated .desktop files</short>
+				<long>The task name to be displayed in the control-center followed by a ";" separator then the filename of an associated .desktop file to launch for that task.</long>
+			</locale>
+
+			<locale name="ar">
+				<default>[غيّر السمة;gtk-theme-selector.desktop,ضبط التطبيقات المفضلة;default-applications.desktop,أضف طابعة;gnome-cups-manager.desktop]</default>
+				<short>أسماء المهام وملفات .desktop المرتبطة بها</short>
+				<long>أسماء المهام التي ستعرض في مركز التحكم مفصولة بفاصل &quot;;&quot; ثم اسم ملف .desktop المرتبط لإطلاق هذه المهمّة.</long>
+			</locale>
+
+			<locale name="as">
+				<default>[থিম সলনি কৰক;gtk-theme-selector.desktop,পছন্দৰ অনুপ্ৰয়োগ নিৰ্ধাৰিত কৰক;default-applications.desktop,মূদ্ৰক যোগ কৰক;gnome-cups-manager.desktop]</default>
+				<short>কৰ্মৰ নাম আৰু সংশ্লিষ্ট .desktop নথিপত্ৰ</short>
+				<long>The task name to be displayed in the control-center followed by a &quot;;&quot; separator then the filename of an associated .desktop file to launch for that task.</long>
+			</locale>
+
+			<locale name="ast">
+				<default>[Camudar el tema;gtk-theme-selector.desktop,Afitar les aplicaciones preferíes;default-applications.desktop,Amestar imprentadora;gnome-cups-manager.desktop]</default>
+				<short>Nomes de xeres y ficheros .desktop asociaos</short>
+				<long>El nome de la xera que despliegar nel centru de control siguíu por un separtador «;» y llueu el nome d&apos;un ficheru .desktop asociáu que llanzar pa esa xera.</long>
+			</locale>
+
+			<locale name="be">
+				
+				<short>Назвы заданьняў і асацыяваныя файлы .desktop</short>
+				
+			</locale>
+
+			<locale name="be@latin">
+				<default>[Źmiani matyŭ;gtk-theme-selector.desktop,Abiary zmoŭčanyja aplikacyi;default-applications.desktop,Dadaj drukarku;gnome-cups-manager.desktop]</default>
+				<short>Nazvy zadačaŭ i adpaviednyja fajły .desktop</short>
+				<long>Nazva bačnaj u centry kiravańnia zadačy, paśla jakoj staić separatar &quot;;&quot;, a potym nazva adpaviednaha fajłu .desktop, kab uruchomić dla hetaj zadačy.</long>
+			</locale>
+
+			<locale name="bg">
+				<default>[Смяна на темата;gtk-theme-selector.desktop,Предпочитани програми;default-applications.desktop,Добавяне на принтер;gnome-cups-manager.desktop]</default>
+				<short>Имена на задачи и свързаните с тях файлове, формат .desktop</short>
+				<long>Името на задачата, което се показва в контролния център, последвано от знака „;“ и името на файла, който е във формат .desktop и се използва за стартирането на задачата.</long>
+			</locale>
+
+			<locale name="bn">
+				<default>[থিম পরিবর্তন;gtk-theme-selector.desktop,পছন্দসই অ্যাপ্লিকেশন নির্ধারণ;default-applications.desktop,প্রিন্টার যোগ;gnome-cups-manager.desktop]</default>
+				<short>কাজের নাম ও সংশ্লিষ্ট .desktop ফাইল</short>
+				<long>নিয়ন্ত্রণ-কেন্দ্র-এর মধ্যে প্রদর্শনযোগ্য কর্মের নাম ও এর পরে একটি &quot;;&quot; চিহ্ন এবং এই কাজের জন্য প্রয়োগ করার উদ্দেশ্যে চিহ্নিত .desktop ফাইলের নাম।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<default>[থিম পরিবর্তন;gtk-theme-selector.desktop,পছন্দসই অ্যাপ্লিকেশন নির্ধারণ;default-applications.desktop,প্রিন্টার যোগ;gnome-cups-manager.desktop]</default>
+				<short>কর্মের নাম ও সংশ্লিষ্ট .desktop ফাইল</short>
+				<long>control-center-র মধ্যে প্রদর্শনযোগ্য কর্মের নাম ও এর পরে একটি &quot;;&quot; চিহ্ন এবং এই কাজের জন্য প্রয়োগ করার উদ্দেশ্যে চিহ্নিত .desktop ফাইলের নাম।</long>
+			</locale>
+
+			<locale name="ca">
+				<default>[Canvia el tema;gtk-theme-selector.desktop,Estableix les aplicacions preferides;default-applications.desktop,Afegeix una impressora;gnome-cups-manager.desktop]</default>
+				<short>Noms de tasques i fitxers .desktop associats</short>
+				<long>El nom de la tasca que es mostrarà al centre de control procedit d&apos;un punt i coma, que fa de separador, amb el nom del fitxer .desktop associat per executar la tasca.</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<default>[Canvia el tema;gtk-theme-selector.desktop,Estableix les aplicacions preferides;default-applications.desktop,Afig una impressora;gnome-cups-manager.desktop]</default>
+				<short>Noms de tasques i fitxers .desktop associats</short>
+				<long>El nom de la tasca que es mostrarà al centre de control procedit d&apos;un punt i coma, que fa de separador, amb el nom del fitxer .desktop associat per executar la tasca.</long>
+			</locale>
+
+			<locale name="crh">
+				<default>[Tema Değiştir;gtk-theme-selector.desktop,Tercih Edilen Uygulamaları Ata;default-applications.desktop,Yazıcı Ekle;gnome-cups-manager.desktop]</default>
+				<short>Görev isimleri ve ilişkili .desktop dosyaları</short>
+				<long>control-center&apos;da gösterilecek görev ismini takip eden &quot;;&quot; ayıracından sonra başlatmak için bu görevle ilişkili .desktop dosyasının dosya ismi.</long>
+			</locale>
+
+			<locale name="cs">
+				<default>[Změnit motiv;gtk-theme-selector.desktop,Nastavit preferované aplikace;default-applications.desktop,Přidat tiskárnu;gnome-cups-manager.desktop]</default>
+				<short>Názvy úloh a přiřazené soubory .desktop</short>
+				<long>Název úlohy, který se má zobrazit v ovládacím centru, následovaný oddělujícím znakem &quot;;&quot;, poté název souboru přiřazeného souboru .desktop, který má být u dané úlohy spuštěn.</long>
+			</locale>
+
+			<locale name="da">
+				<default>[Ændr tema;gtk-theme-selector.desktop,Vælg foretrukne programmer;default-applications.desktop,Tilføj printer;gnome-cups-manager.desktop]</default>
+				<short>Opgavenavne og tilhørende .desktop-filer</short>
+				<long>Opgavenavnet der vises i kontrolcentret fulgt af en separator, &quot;;&quot;, og dernæst filnavnet på en tilhørende .desktop-fil der skal køres for den opgave.</long>
+			</locale>
+
+			<locale name="de">
+				<default>[Thema ändern;gtk-theme-selector.desktop,Bevorzugte Anwendungen festlegen;default-applications.desktop,Drucker hinzufügen;gnome-cups-manager.desktop]</default>
+				<short>Aktionen und zugewiesene .desktop-Dateien</short>
+				<long>Der im Kontrollzentrum angezeigte Name einer Aktion, gefolgt von einem »;«-Trenner, dann der Dateiname einer zugewiesenen .desktop-Datei, die für diese Aktion gestartet wird.</long>
+			</locale>
+
+			<locale name="dz">
+				<default>[ཌེཀསི་ཊོབ་རྒྱབ་བརྟེན་སོར ;རྒྱབ་བརྟེན་ ཌེཀསི་ཊོབ བརྗོད་དོན་སོར ཇིཊི་ཀེ-བརྗོད་དོན་-སེལ་བྱེད ཌེཀསི་ཊོབ་ འཇུག་སྤྱོད་དགའ་གདམ་གཞི་སྒྲིག་ སྔོན་སྒྲིག་-འཇུག་སྤྱོད།  ཌེཀསི་ཊོབ དཔར་འཕྲུལ་ཁ་སྐོང་བརྐྱབས ཇི་ནོམ-ཀབསི- འཛིན་སྐྱོང་པ་གིས་ཌེཀསི་ཊོབ]</default>
+				<short>ལས་ཀའི་མིང་དང་འགན་རོགས་ཌེཀསི་ཊོབ་ཡིག་སྣོད་ཚུ</short>
+				<long>ལས་ཀའི་མིང་འདི་ཚད་འཛིན་དབུས་ལུ་བཀྲམ་སྟོན་འབད་ནི་ དེ་ལས་&quot;;&quot;དབྱེ་བྱེད་གྲོགས་རམ་གྱི་ ཡིག་སྣོད་ཀྱི་མིང་ །ལས་ཀ་དེ་གི་དོན་ལས་ཌེཀསི་ཊོབ་ཡིག་སྣོད་གསར་བཙུགས་འབད།</long>
+			</locale>
+
+			<locale name="el">
+				<default>[Αλλαγή θέματος;gtk-theme-selector.desktop,Ορισμός προτιμώμενων εφαρμογών;default-applications.desktop,Προσθήκη εκτυπωτή;gnome-cups-manager.desktop]</default>
+				<short>Ονόματα εργασιών και σχετικά αρχεία .desktop</short>
+				<long>Το όνομα της εργασίας που θα εμφανίζεται στο control-center, ακολουθούμενο από το διαχωριστικό &quot;;&quot; και ύστερα από το όνομα αρχείου του σχετιζόμενου αρχείου .desktop που θα εκκινείται για αυτή την εργασία.</long>
+			</locale>
+
+			<locale name="en@shaw">
+				
+				<short>𐑑𐑭𐑕𐑒 𐑯𐑱𐑥𐑟 𐑯 𐑩𐑕𐑴𐑖𐑦𐑱𐑑𐑩𐑛 .desktop 𐑓𐑲𐑤𐑟</short>
+				<long>𐑞 𐑑𐑭𐑕𐑒 𐑯𐑱𐑥 𐑑 𐑚𐑰 𐑛𐑩𐑕𐑐𐑤𐑱𐑛 𐑦𐑯 𐑞 𐑒𐑩𐑯𐑑𐑮𐑴𐑤-𐑕𐑧𐑯𐑑𐑼 𐑓𐑪𐑤𐑴𐑛 𐑚𐑲 𐑩 &quot;;&quot; 𐑕𐑧𐑐𐑼𐑱𐑑𐑼 𐑞𐑧𐑯 𐑞 𐑓𐑲𐑤𐑯𐑱𐑥 𐑝 𐑩𐑯 𐑩𐑕𐑴𐑖𐑦𐑱𐑑𐑩𐑛 .𐑛𐑧𐑕𐑒𐑑𐑪𐑐 𐑓𐑲𐑤 𐑑 𐑤𐑷𐑯𐑗 𐑓𐑹 𐑞𐑨𐑑 𐑑𐑭𐑕𐑒.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+				<short>Task names and associated .desktop files</short>
+				<long>The task name to be displayed in the control-centre followed by a &quot;;&quot; separator then the filename of an associated .desktop file to launch for that task.</long>
+			</locale>
+
+			<locale name="es">
+				<default>[Cambiar el tema;gtk-theme-selector.desktop,Establecer las aplicaciones preferidas;default-applications.desktop,Añadir impresora;gnome-cups-manager.desktop]</default>
+				<short>Nombres de tareas y archivos .desktop asociados</short>
+				<long>El nombre de la tarea que desplegar en el centro de control seguido por un separador «;» y luego el nombre de un archivo .desktop asociado que lanzar para esa tarea.</long>
+			</locale>
+
+			<locale name="et">
+				<default>[Teema muutmine;gtk-theme-selector.desktop,Eelistatud rakenduste määramine;default-applications.desktop,Printeri lisamine;gnome-cups-manager.desktop]</default>
+				<short>Ülesannete nimed ja nendega seotud .desktop failid</short>
+				<long>Juhtimiskeskuses kuvatav ülesande nimi, millele järgneb eraldaja &quot;;&quot; ja sellele ülesande kävitamiseks vajalik .desktop fail.</long>
+			</locale>
+
+			<locale name="eu">
+				<default>[Aldatu gaia;gtk-theme-selector.desktop,Ezarri hobetsitako aplikazioak;default-applications.desktop,Gehitu inprimagailua;gnome-cups-manager.desktop]</default>
+				<short>Ataza-izenak eta dagokien &apos;.desktop&apos; fitxategiak</short>
+				<long>Atazaren izena kontrol-zentroan bistaratzeko, &apos;;&apos; bereizlearekin jarraituz eta dagokion &apos;.desktop&apos; luzapeneko fitxategi-izenarekin jarraituz.</long>
+			</locale>
+
+			<locale name="fi">
+				<default>[Vaihda teemaa;gtk-theme-selector.desktop,Aseta ensisijaiset sovellukset;default-applications.desktop, Lisää tulostin;gnome-cups-manager.desktop]</default>
+				<short>Tehtävien nimet ja niihin liittyvät .desktop-tiedostot</short>
+				<long>Ohjauskeskuksessa näytettävä tehtävän nimi (käännettävä merkkijono), jota seuraa ”;” ja tehtävän käynnistyksen suorittava .desktop-tiedoston nimi.</long>
+			</locale>
+
+			<locale name="fr">
+				<default>[Modifier le thème;gtk-theme-selector.desktop,Définir les applications préférées;default-applications.desktop,Ajouter une imprimante;gnome-cups-manager.desktop]</default>
+				<short>Nom des tâches et fichiers .desktop associés</short>
+				<long>Le nom de la tâche à afficher dans le centre de contrôle suivi d&apos;un séparateur « ; », puis le nom du fichier .desktop associé à lancer pour cette tâche.</long>
+			</locale>
+
+			<locale name="ga">
+				<default>[Athraigh Téama;gtk-theme-selector.desktop,Socraigh Feidhmchláir de Rogha;default-applications.desktop,Cuir Printéir Leis;gnome-cups-manager.desktop]</default>
+				
+				
+			</locale>
+
+			<locale name="gl">
+				<default>[Cambiar o tema;gtk-theme-selector.desktop,Estabelecer os aplicativos preferidos;default-applications.desktop,Engadir impresora;gnome-cups-manager.desktop]</default>
+				<short>Nomes das tarefas e ficheiros .desktop asociados</short>
+				<long>O nome da tarefa que se mostrará no control-center seguido dun separador &quot;;&quot; e despois o nome do ficheiro .desktop asociado que hai que iniciar para esa tarefa.</long>
+			</locale>
+
+			<locale name="gu">
+				<default>[થીમને બદલો;gtk-theme-selector.desktop,પસંદ થયેલ કાર્યક્રમોને સુયોજિત કરો;default-applications.desktop,પ્રિન્ટરને ઉમેરો;gnome-cups-manager.desktop]</default>
+				<short>ક્રિયા નામો અને સંકળાયેલ .desktop ફાઈલો</short>
+				<long>નિયંત્રણ-કેન્દ્રમાં દર્શાવવામાં આવેલ ક્રિયા નામ વિભાજકને અનુસરીને અને પછી તે ક્રિયા માટે તેને લોન્ચ કરવા  માટે તેની સાથે સંકળાયેલ .desktop ફાઈલનું ફાઈલનામ.</long>
+			</locale>
+
+			<locale name="he">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+				<short>Task names and associated .desktop files</short>
+				<long>The task name to be displayed in the control-center followed by a &quot;;&quot; separator then the filename of an associated .desktop file to launch for that task.</long>
+			</locale>
+
+			<locale name="hi">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+				<short>कार्य नाम या संबद्ध .desktop फ़ाइल</short>
+				<long>control-center में दिखाया जाने वाला कार्य नाम जो &quot;;&quot; पृथक्कारक के साथ आता है और फिर किसी संबद्ध .desktop फ़ाइल को उस कार्य के लिए लॉन्च करने के लिए.</long>
+			</locale>
+
+			<locale name="hu">
+				<default>[Téma módosítása;gtk-theme-selector.desktop,Alapértelmezett alkalmazások beállítása;default-applications.desktop,Nyomtató felvétele;gnome-cups-manager.desktop]</default>
+				<short>Feladatnevek és hozzájuk tartozó .desktop fájlok</short>
+				<long>A vezérlőközpontban megjelenő (ezért lefordítandó) feladatnév, amelyet egy „;” elválasztó követ, majd a feladathoz elindítandó .desktop fájl fájlneve.</long>
+			</locale>
+
+			<locale name="id">
+				<default>[Ubah Tema; gtk-tema-selector.desktop, Tetapkan Aplikasi yang dipilih; standar-applications.desktop, Tambah printer; gnome-cups-manager.desktop]</default>
+				<short>Nama tugas dan berkas .dekstop terkait</short>
+				<long>Nama tugas yang akan ditampilkan dalam pusat-kontrol yang diikuti dengan pemisah &quot;;&quot;  kemudian berkas .desktop yang berkaitan untuk memulai tugas.</long>
+			</locale>
+
+			<locale name="it">
+				<default>[Cambia tema;appearance.desktop,Imposta applicazioni preferite;default-applications.desktop,Aggiungi stampante;gnome-cups-manager.desktop]</default>
+				<short>Nomi delle attività e dei file .desktop associati</short>
+				<long>Nome dell&apos;attività da visualizzare nel centro di controllo seguito da &quot;;&quot; come separatore quindi dal nome del file .desktop associato per lanciare l&apos;attività.</long>
+			</locale>
+
+			<locale name="ja">
+				<default>[外観の設定;gnome-appearance-properties.desktop,お気に入りのアプリ;default-applications.desktop,プリンタの追加;gnome-cups-manager.desktop]</default>
+				<short>タスクの名前とそれに対応する .desktop ファイル</short>
+				<long>コントロール・センターの中に表示するタスクの名前です。その後ろに &quot;;&quot; で区切ってタスクを起動する際に使用する .desktop ファイルを指定します。</long>
+			</locale>
+
+			<locale name="kn">
+				<default>[ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಬದಲಾಯಿಸು;gtk-theme-selector.desktop,ಇಚ್ಛೆಯ ಅನ್ವಯವನ್ನು ಹೊಂದಿಸು;default-applications.desktop,ಮುದ್ರಕವನ್ನು ಸೇರಿಸು;gnome-cups-manager.desktop]</default>
+				<short>ಕಾರ್ಯದ ಹೆಸರುಗಳು ಹಾಗು ಸಂಬಂಧಿಸಲ್ಪಟ್ಟ .desktop ಕಡತಗಳು</short>
+				<long>ನಿಯಂತ್ರಣ-ಕೇಂದ್ರದಲ್ಲಿ(ಕಂಟ್ರೋಲ್-ಸೆಂಟರ್) ತೋರಿಸಬೇಕಿರುವ ಕಾರ್ಯದ ಹೆಸರು. ಇದು ಒಂದು &quot;;&quot; ವಿಭಜಕವನ್ನು ಹಾಗು ನಂತರ ಆ ಕಾರ್ಯವನ್ನು ಆರಂಭಿಸಲು ಅಗತ್ಯವಿರುವ ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ .desktop ಕಡತದ ಹೆಸರನ್ನು ಹೊಂದಿರುತ್ತದೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<default>[테마 바꾸기;gtk-theme-selector.desktop,기본 프로그램 설정;default-applications.desktop,프린터 추가;gnome-cups-manager.desktop]</default>
+				<short>작업 이름과 관련 .desktop 파일</short>
+				<long>컨트롤 센터에 표시하는 작업 이름, &quot;;&quot; 표시 다음에 관련 해당 작업을 실행하는 데 사용할 관련 .desktop 파일의 파일 이름이 나옵니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<default>[Keisti temą;gtk-theme-selector.desktop,Nustatyti pageidaujamas programas;default-applications.desktop,Pridėti spausdintuvą;gnome-cups-manager.desktop]</default>
+				<short>Užduočių vardai ir atitinkami .desktop failai</short>
+				<long>Užduoties vardas, rodomas valdymo centre, kabliataškis („;“) ir atitinkamo vykdomojo .desktop failo, skirto paleisti šiai užduočiai, vardas.</long>
+			</locale>
+
+			<locale name="lv">
+				<default>[Mainīt tēmu;gtk-theme-selector.desktop,Iestatīt noklusētās programmas;default-applications.desktop,Pievienot printeri;gnome-cups-manager.desktop]</default>
+				<short>Uzdevumu nosaukumi un saistītie .desktop faili</short>
+				<long>Kontroles centrā rādāmās darbības nosaukums, kam seko &quot;;&quot; kā atdalītājs un tad ar darbību saistītā un šo darbību izsaucošā .desktop faila nosaukums.</long>
+			</locale>
+
+			<locale name="mk">
+				<default>[Промени ја темата;gtk-theme-selector.desktop,Постави преферирани апликации;default-applications.desktop,Додај печатач;gnome-cups-manager.desktop]</default>
+				<short>Имиња на задачи поврзани со .desktop датотеките</short>
+				<long>Име на задача кое ќе биде прикажано во контролниот центар проследено со одделувачот &quot;;&quot;и потоа името на .desktop датотеката на кое се однесува пуштањето на таа задача.</long>
+			</locale>
+
+			<locale name="ml">
+				<default>[രംഗവിതാനം മാറ്റുക;gnome-appearance-properties.desktop,മുന്‍ഗണനാ പ്രയോഗങ്ങള്‍ സജ്ജമാക്കുക;gnome-default-applications.desktop,പ്രിന്റര്‍ ചേര്‍ക്കുക;system-config-printer.desktop]</default>
+				<short>കൃത്യനാമങ്ങളും ബന്ധപ്പെട്ട .desktop ഫയലുകളും</short>
+				<long>നിയന്ത്രണകേന്ദ്രത്തില്‍ കാണിക്കേണ്ട പ്രവര്‍ത്തിയുടെ പേരു് , അതിനു ശേഷം വേര്‍തിരിക്കുന്ന ചിഹ്നമായ  &quot;;&quot;  പിന്നെ ആ പ്രവര്‍ത്തിക്കു വേണ്ടി തുടങ്ങേണ്ടുന്ന  .desktop ഫയലിന്റെ പേരു്.</long>
+			</locale>
+
+			<locale name="mr">
+				<default>[सुत्रयोजना बदलवा;gtk-theme-selector.desktop, प्राधान्यकृत अनुप्रयोग निश्चित करा;default-applications.desktop,छपाईयंत्र जोडा;gnome-cups-manager.desktop]</default>
+				<short>कार्य नाव व संबंधीत .desktop फाइल</short>
+				<long>control-center मध्ये दर्शविण्याकरीता कार्याचे नाव त्यापाठोपाठ &quot;;&quot; विभाजक व अखेरीस त्या कार्य करीता दाखलन करण्याजोगी संबंधीत .desktop फाइलचे नाव.</long>
+			</locale>
+
+			<locale name="nb">
+				<default>[Endre tema;gtk-theme-selector.desktop,Velg forvalgte programmer;default-applications.desktop,Legg til skriver;gnome-cups-manager.desktop]</default>
+				<short>Oppgavenavn og tilhørende .desktop-filer</short>
+				<long>Oppgavenavnet som skal vises i kontrollsenteret (og må derfor oversettes) etterfulgt av en &quot;;&quot;-deletegn, så filnavnet til en tilhørende .desktop-fil som skal starte for den oppgaven.</long>
+			</locale>
+
+			<locale name="ne">
+				
+				<short>कार्य नामहरू र सम्बन्धितहरू । डेस्कटप फाइलहरू</short>
+				
+			</locale>
+
+			<locale name="nl">
+				<default>[Werkbladachtergond wijzigen;gtk-theme-selector.desktop,Standaardtoepassingen instellen;default-applications.desktop,Printer toevoegen;gnome-cups-manager.desktop]</default>
+				<short>Taken en bijbehorende .desktop-bestanden</short>
+				<long>De weer te geven taaknaam in het configuratieprogramma gevolgd door een “;”-scheidingsteken en de bestandsnaam van een geassocieerd .desktop-bestand dat gestart moet worden voor de betreffende taak.</long>
+			</locale>
+
+			<locale name="nn">
+				<default>[Endra drakt;gtk-theme-selector.desktop,Vel foretrukne program;default-applications.desktop,Legg til skrivar;gnome-cups-manager.desktop]</default>
+				<short>Oppgåvenamn og tilhøyrande .desktop-filer</short>
+				<long>Oppgåvenamnet som vert vist i kontrollsenteret, etterfølgd av eit «;»-skiljeteikn og filnamnet til ei tilknytta .desktop-fil å starta for den oppgåva.</long>
+			</locale>
+
+			<locale name="or">
+				<default>[ପ୍ରସଙ୍ଗ ପରିବର୍ତ୍ତନ କରନ୍ତୁ;gtk-theme-selector.desktop,ମନପସନ୍ଦ ପ୍ରୟୋଗ ସେଟ କରନ୍ତୁ;default-applications.desktop,ମୁଦ୍ରଣୀ ଯୋଡନ୍ତୁ;gnome-cups-manager.desktop]</default>
+				<short>କାର୍ଯ୍ୟ ନାମ ଏବଂ ସଂଶ୍ଳିଷ୍ଟ .desktop ଫାଇଲଗୁଡ଼ିକ</short>
+				<long>ନିୟନ୍ତ୍ରଣ-କେନ୍ଦ୍ରରେ ଦର୍ଶାଇବା ପାଇଁ ଥିବା କାର୍ଯ୍ୟ ନାମ ଏବଂ ତାବାପରେ ଏକ ପୃଥକିକରଣ &quot;;&quot; ଏବଂ ତାପରେ କାର୍ଯ୍ୟ ପାଇଁ ଆରମ୍ଭ କରିବାକୁ ଥିବା ଗୋଟିଏ .desktop ସଂଶ୍ଳିଷ୍ଟ ଫାଇଲ ନାମ।</long>
+			</locale>
+
+			<locale name="pa">
+				<default>[ਥੀਮ ਬਦਲੋ;gtk-theme-selector.desktop,ਪਸੰਦੀਦਾ ਐਪਲੀਕੇਸ਼ਨ ਸੈੱਟ ਕਰੋ;default-applications.desktop,ਪਰਿੰਟਰ ਸ਼ਾਮਲ;gnome-cups-manager.desktop]</default>
+				<short>ਕੰਮ ਨਾਂ ਅਤੇ ਸਬੰਧਿਤ .desktop ਫਾਇਲਾਂ</short>
+				<long>ਕੰਟਰੋਲ-ਕੇਂਦਰ &apos;ਚ ਵੇਖਾਉਣ ਲਈ ਟਾਸਕ ਨਾਂ, ਜਿਸ ਦੇ ਬਾਅਦ &quot;;&quot; ਹੋਵੇਗਾ, ਜਿਸ ਦੇ ਬਾਅਦ ਸਬੰਧਿਤ .desktop ਫਾਇਲ ਨਾਂ, ਜੋ ਕਿ ਕੰਮ ਨੂੰ ਸ਼ੁਰੂ ਕਰੇਗੀ।</long>
+			</locale>
+
+			<locale name="pl">
+				<default>[Zmiana motywu;gtk-theme-selector.desktop,Preferowane programy;default-applications.desktop,Dodanie drukarki;gnome-cups-manager.desktop]</default>
+				<short>Nazwy zadań i powiązane pliki .desktop</short>
+				<long>Nazwa wyświetlanego w control-center zadania, po której następuje separator &quot;;&quot;, a następnie nazwa powiązanego pliku .desktop uruchamiającego to zadanie.</long>
+			</locale>
+
+			<locale name="pt">
+				<default>[Alterar o Tema;gtk-theme-selector.desktop,Definir as Aplicações Preferidas;default-applications.desktop,Adicionar Impressora;gnome-cups-manager.desktop]</default>
+				<short>Nomes das tarefas e ficheiros .desktop associados</short>
+				<long>O nome da tarefa a ser apresentado no control-center seguido de um separador &quot;;&quot; e depois o nome do ficheiro .desktop associado para iniciar essa tarefa.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<default>[Alterar tema;gtk-theme-selector.desktop,Definir aplicativos preferenciais;default-applications.desktop,Adicionar impressora;gnome-cups-manager.desktop]</default>
+				<short>Nomes de tarefa e arquivos .desktop associados</short>
+				<long>O nome da tarefa a ser exibido no Centro de Controle seguido por um separador &quot;;&quot;, e então o nome do arquivo .desktop associado para lançar para a tarefa.</long>
+			</locale>
+
+			<locale name="ro">
+				<default>[Schimbă temă;gtk-theme-selector.desktop,Definire aplicații preferate;default-applications.desktop,Adăugare imprimantă;gnome-cups-manager.desktop]</default>
+				<short>Numele sarcinilor și fișierele .desktop asociate</short>
+				<long>Numele sarcinei ce va fi afișată în centrul de control urmată de separatorul „;&quot; apoi numele fișierului de tip .desktop care să fie pornit odată cu sarcina respectivă.</long>
+			</locale>
+
+			<locale name="ru">
+				<default>[Изменить тему;gtk-theme-selector.desktop,Установить предпочтительные приложения;default-applications.desktop,Добавить принтер;gnome-cups-manager.desktop]</default>
+				<short>Имена заданий и связанные с ними файлы .desktop</short>
+				<long>Имя задачи, отображаемое в центре управления после разделителя &quot;;&quot; — имя связанного файла .desktop для запуска этой задачи.</long>
+			</locale>
+
+			<locale name="sk">
+				<default>[Zmeniť tému;gtk-theme-selector.desktop,Nastaviť predvolené aplikácie;default-applications.desktop,Pridať tlačiareň;gnome-cups-manager.desktop]</default>
+				<short>Názvy úloh a súvisiacich .desktop súborov</short>
+				<long>Názov úlohy, ktorá sa má zobraziť v ovládacom centre, nasledovaná oddeľovačom &quot;;&quot; a názvom súvisiaceho .desktop súboru, ktorý sa má zavolať pre túto úlohu.</long>
+			</locale>
+
+			<locale name="sl">
+				<default>[Zamenjaj temo;gtk-theme-selector.desktop,Določi prednostne programe;default-applications.desktop,Dodaj tiskalnik;gnome-cups-manager.desktop]</default>
+				<short>Ime naloge povezane z .desktop datotekami</short>
+				<long>Ime naloge, ki je prikazana v nadzornem oknu in ji sledi ločilo &quot;;&quot;, nato ime datoteke povezano z datoteko namizja (.desktop), ki zažene nalogo.</long>
+			</locale>
+
+			<locale name="sq">
+				<default>[Ndrysho temën;gtk-theme-selector.desktop,Përcakto aplikativët e preferuar;default-applications.desktop,Shto printues;gnome-cups-manager.desktop]</default>
+				<short>Emri i aktivitetit dhe file .desktop përkatës</short>
+				<long>Emri i aktivitetit për tu shfaqur në qendrën e kontrollit ndjekur nga &quot;;&quot; si ndarës dhe nga emri i .desktop përkatës për nisjen e aktivitetit.</long>
+			</locale>
+
+			<locale name="sr">
+				<default>[Измени тему;gtk-theme-selector.desktop,Одреди омиљене програме;default-applications.desktop,Додај штампач;gnome-cups-manager.desktop]</default>
+				<short>Имена ставки и придружених .desktop датотека</short>
+				<long>Име ставке које ће се приказати у управљачком центру праћено знаком „;“за одвајање и путањом до придружене .desktop датотеке која ће бити покренута.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<default>[Izmeni temu;gtk-theme-selector.desktop,Odredi omiljene programe;default-applications.desktop,Dodaj štampač;gnome-cups-manager.desktop]</default>
+				<short>Imena stavki i pridruženih .desktop datoteka</short>
+				<long>Ime stavke koje će se prikazati u upravljačkom centru praćeno znakom „;“za odvajanje i putanjom do pridružene .desktop datoteke koja će biti pokrenuta.</long>
+			</locale>
+
+			<locale name="sv">
+				<default>[Ändra tema;gtk-theme-selector.desktop,Ställ in föredragna program;default-applications.desktop,Lägg till skrivare;gnome-cups-manager.desktop]</default>
+				<short>Funktionsnamnen och associerade .desktop-filer</short>
+				<long>Funktionsnamnet som visas i kontrollpanelen, följt av avgränsaren &quot;;&quot; och sedan filnamnet för en associerad .desktop-fil som ska startas för den funktionen.</long>
+			</locale>
+
+			<locale name="ta">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+				<short>வேலைகளின் பெயர்கள் மற்றும் தொடர்புள்ள desktop கோப்புகள்</short>
+				<long>பணி பெயர் கட்டுப்பாடு மையத்தில் காட்டப்படும். இதன் பின்னே &quot;;&quot; ஆல் பிரிக்கப்பட்டு , அந்த செயலை செய்ய அதன் தொடர்பான .desktop கோப்பின் பெயர் காட்டப்படும் .</long>
+			</locale>
+
+			<locale name="te">
+				<default>[థీమ్ ను మార్చుము;gtk-theme-selector.desktop,అభీష్ట అనువర్తనంలను అమర్చుము; default-applications.desktop,ముద్రణాయంత్రంను జతచేయుము;gnome-cups-manager.desktop]</default>
+				<short>కర్తవ్యం నామములు మరియు సంభందిత .desktop దస్త్రములు</short>
+				<long>&quot;;&quot; విభజని తో నియంత్రణ-కేద్రం లో కర్తవ్యం నామము ప్రదర్శించబడాలి అప్పుడు సంభందిత .desktop దస్త్రం ఆ కర్తవ్యంను దించుటకు ప్రదర్శించబడాలి.</long>
+			</locale>
+
+			<locale name="th">
+				<default>[เปลี่ยนชุดตกแต่ง;gtk-theme-selector.desktop,เลือกโปรแกรมหลักๆ;default-applications.desktop,เพิ่มเครื่องพิมพ์;gnome-cups-manager.desktop]</default>
+				<short>ชื่องานควบคุมและแฟ้ม .desktop ที่ใช้</short>
+				<long>ชื่องานควบคุมที่จะแสดงในศูนย์ควบคุม ตามด้วย &quot;;&quot; และชื่อแฟ้ม .desktop ที่ใช้เรียกงานนั้นๆ</long>
+			</locale>
+
+			<locale name="tr">
+				<default>[Tema Değiştir;gtk-theme-selector.desktop,Tercih Edilen Uygulamaları Ata;default-applications.desktop,Yazıcı Ekle;gnome-cups-manager.desktop]</default>
+				<short>Görev isimleri ve ilişkili .desktop dosyaları</short>
+				<long>control-center&apos;da gösterilecek görev ismini takip eden &quot;;&quot; ayıracından sonra başlatmak için bu görevle ilişkili .desktop dosyasının dosya ismi.</long>
+			</locale>
+
+			<locale name="uk">
+				<default>[Змінити тему;gtk-theme-selector.desktop,Встановити стандартну програму;default-applications.desktop,Додати принтер;gnome-cups-manager.desktop]</default>
+				<short>Назви завдань та пов&apos;язані з ними файли .desktop</short>
+				<long>Назва завдання, що виводиться у центрі керування (повинна бути перекладена), потім, після розділювача &quot;;&quot; - назва пов&apos;язаного  файлу .desktop для запуску цього завдання.</long>
+			</locale>
+
+			<locale name="vi">
+				<default>[Đổi sắc thái;gtk-theme-selector.desktop,Đặt các ứng dụng đã thích;default-applications.desktop,Thêm máy in;gnome-cups-manager.desktop]</default>
+				<short>Tên tác vụ và tập tin .desktop tương ứng</short>
+				<long>Tên nhiệm vụ được hiện thị ở trung tâm điều khiển theo sau bởi &quot;;&quot; ngăn cách tên tập tin .desktop tương ứng để khởi động đối với nhiệm vụ đó.</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<default>[更改主题;gtk-theme-selector.desktop,设定首选应用程序;default-applications.desktop,添加打印机;gnome-cups-manager.desktop]</default>
+				<short>任务名及相关的 .desktop 文件</short>
+				<long>在控制中心中显示的任务名称，紧跟着是一个“;”分隔符，然后是该任务启动的相应的 .desktop 文件的文件名。</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<default>[更改佈景主題;gtk-theme-selector.desktop,設定首選應用程式;default-applications.desktop,加入打印機;gnome-cups-manager.desktop]</default>
+				<short>設定名稱及相關的 .desktop 檔</short>
+				<long>在“;”前的是 顯示在控制中心的設定名稱（因此需要翻譯），而其後相關 .desktop 檔案是用作執行該設定。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<default>[更改佈景主題;gtk-theme-selector.desktop,設定首選應用程式;default-applications.desktop,加入印表機;gnome-cups-manager.desktop]</default>
+				<short>設定名稱及相關的 .desktop 檔</short>
+				<long>在“;”前的是 顯示在控制中心的設定名稱（因此需要翻譯），而其後相關 .desktop 檔案是用作執行該設定。</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_static_action</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_static_action</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Close the control-center when a task is activated</short>
+				<long>if true, the control-center will close when a "Common Task" is activated.</long>
+			</locale>
+
+			<locale name="af">
+				<short>Sluit die beheersentrum wanneer &apos;n taak geaktiveer is</short>
+				
+			</locale>
+
+			<locale name="ar">
+				<short>أغلق مركز التحكم عند تنشيط مهمّة</short>
+				<long>إذا كان صحيحًا، سيغلق سطح المكتب عند تنشيط &quot;مهمة شائعة&quot;</long>
+			</locale>
+
+			<locale name="as">
+				<short>Close the control-center when a task is activated</short>
+				<long>মান true (সত্য) হ&apos;লে, কোনো &quot;সাধাৰণ কৰ্ম&quot; সক্ৰিয় কৰা হ&apos;লে control-center বন্ধ কৰা হ&apos;ব ।</long>
+			</locale>
+
+			<locale name="ast">
+				<short>Zarra&apos;l centru de control cuando s&apos;activa una xera</short>
+				<long>Si ye braero, el centru de control zarrarase cuando s&apos;active una «Xera común».</long>
+			</locale>
+
+			<locale name="be">
+				<short>Закрыйце цэнтар кіраваньня, калі будзе задзейнічанае заданьне</short>
+				
+			</locale>
+
+			<locale name="be@latin">
+				<short>Začyni centar kiravańnia paśla aktyvizacyi zadačy</short>
+				<long>Kali ŭklučana, center kiravańnia budzie začynieny pry ŭklučeńni &quot;Typovaj zadačy&quot;.</long>
+			</locale>
+
+			<locale name="bg">
+				<short>Затваряне на контролния център при задействането на задача</short>
+				<long>ако е включено, контролният център ще се затвори при изпълнението на „Обичайна задача“.</long>
+			</locale>
+
+			<locale name="bn">
+				<short>কাজ আরম্ভ হলে নিয়ন্ত্রণ-কেন্দ্র বন্ধ করা হবে</short>
+				<long>মান true (সত্য) হলে, কোনো &quot;সাধারণ কর্ম&quot; সক্রিয় করা হলে control-center বন্ধ করা হবে।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<short>কর্ম আরম্ভ হলে control-center বন্ধ করা হবে</short>
+				<long>মান true (সত্য) হলে, কোনো &quot;সাধারণ কাজ&quot; সক্রিয় করা হলে control-center বন্ধ করা হবে।</long>
+			</locale>
+
+			<locale name="ca">
+				<short>Tanca el centre de control quan s&apos;activi una tasca</short>
+				<long>si és cert, el centre de control es tancarà quan s&apos;activi una «tasca comuna».</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<short>Tanca el centre de control quan s&apos;active una tasca</short>
+				<long>si és cert, el centre de control es tancarà quan s&apos;active una «tasca comuna».</long>
+			</locale>
+
+			<locale name="crh">
+				<short>Bir görev etkinleştirildiğinde control-center&apos;ı kapat</short>
+				<long>Eğer seçiliyse, control-center bir &quot;Sık Kullanılan Görev&quot; etkinleştirildiğinde kapatılacak.</long>
+			</locale>
+
+			<locale name="cs">
+				<short>Zavřít ovládací centrum při aktivaci úlohy</short>
+				<long>je-li &quot;true&quot;, ovládací centrum bude zavřeno při aktivaci &quot;běžné úlohy&quot;.</long>
+			</locale>
+
+			<locale name="da">
+				<short>Luk kontrolcentret når en opgave aktiveres</short>
+				<long>hvis sat til &quot;true&quot;, vil kontrolcentret afslutte når en &quot;Almindelig opgave&quot; aktiveres.</long>
+			</locale>
+
+			<locale name="de">
+				<short>Das Kontrollzentrum schließen, nachdem die Aktion aktiviert wurde</short>
+				<long>Legt fest, ob das Kontrollzentrum nach dem Aktivieren einer »Häufigen Aktion« beendet wird.</long>
+			</locale>
+
+			<locale name="dz">
+				<short>ལས་ཀ་ཤུགས་ལྡན་བཟོ་བའི་སྐབས་སུ་དབུས་ཀྱི་ཚད་འཛིན་ཁ་བསྡམས</short>
+				<long>གལ་སྲིད་བདེན་པ་ཅིན་  &quot;མཐུན་མོངས་ལས་ཀ་&quot;ཤུགས་བདེན་བཟོ་བའི་སྐབས་སུ་དབུས་ཀྱི་ཚད་འཛིན་ཁ་བསྡམས་འོང་། </long>
+			</locale>
+
+			<locale name="el">
+				<short>Κλείσιμο του control-center όταν ενεργοποιείται μια εργασία</short>
+				<long>Αν αληθές, το control-center θα κλείνει όταν ενεργοποιείται ένα &quot;Common Task&quot;.</long>
+			</locale>
+
+			<locale name="en@shaw">
+				<short>𐑒𐑤𐑴𐑟 𐑞 𐑒𐑩𐑯𐑑𐑮𐑴𐑤-𐑕𐑧𐑯𐑑𐑼 𐑢𐑧𐑯 𐑩 𐑑𐑭𐑕𐑒 𐑦𐑟 𐑨𐑒𐑑𐑦𐑝𐑱𐑑𐑩𐑛</short>
+				<long>𐑦𐑓 𐑑𐑮𐑵, 𐑞 𐑒𐑩𐑯𐑑𐑮𐑴𐑤-𐑕𐑧𐑯𐑑𐑼 𐑢𐑦𐑤 𐑒𐑤𐑴𐑕 𐑢𐑧𐑯 𐑩 &quot;𐑒𐑪𐑥𐑩𐑯 𐑑𐑭𐑕𐑒&quot; 𐑦𐑟 𐑨𐑒𐑑𐑦𐑝𐑱𐑑𐑩𐑛.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<short>Close the control-centre when a task is activated</short>
+				<long>if true, the control-centre will close when a &quot;Common Task&quot; is activated.</long>
+			</locale>
+
+			<locale name="es">
+				<short>Cierra el centro de control cuando se activa una tarea</short>
+				<long>Si es verdadero, el centro de control se cerrará cuando se active una «Tarea común».</long>
+			</locale>
+
+			<locale name="et">
+				<short>Ülesande aktiveerimise korral juhtimiskeskuse sulgemine</short>
+				<long>Kui määratud, siis juhtimiskeskus suletakse &quot;Üldiste ülesannete&quot; aktiveerimisel.</long>
+			</locale>
+
+			<locale name="eu">
+				<short>Itxi kontrol-zentroa ataza aktibatzean</short>
+				<long>&apos;true&apos; (egia) bada, kontrol-zentroa itxi egingo da &quot;Ataza arruntak&quot; aktibatzean.</long>
+			</locale>
+
+			<locale name="fi">
+				<short>Sulje hallintakeskus, kun tehtävä on käynnistetty</short>
+				<long>jos tosi, hallintakeskus suljetaan, kun joku ”yleisistä tehtävistä” käynnistetään.</long>
+			</locale>
+
+			<locale name="fr">
+				<short>Ferme le centre de contrôle quand une tâche est activée</short>
+				<long>Si vrai, le centre de contrôle se fermera sur activation d&apos;une « tâche courante ».</long>
+			</locale>
+
+			<locale name="gl">
+				<short>Pechar o centro de control cando se active unha tarefa</short>
+				<long>se é correcto, o centro de control pecharase cando se active unha &quot;Tarefa común&quot;.</long>
+			</locale>
+
+			<locale name="gu">
+				<short>જ્યારે ક્રિયા સક્રિયકૃત થઈ જાય ત્યારે નિયંત્રણ-કેન્દ્ર બંધ કરો</short>
+				<long>જો true હોય, તો નિયંત્રણ-કેન્દ્ર બંધ થઈ જશે જ્યારે &quot;સામાન્ય ક્રિયા&quot; સક્રિય થઈ જાય.</long>
+			</locale>
+
+			<locale name="he">
+				<short>Close the control-center when a task is activated</short>
+				<long>if true, the control-center will close when a &quot;Common Task&quot; is activated.</long>
+			</locale>
+
+			<locale name="hi">
+				<short>control-center बंद करें जब कार्य सक्रिय हो</short>
+				<long>यदि सत्य है, control-center बंद होगा जब &quot;Common Task&quot; सक्रिय किया जाता है.</long>
+			</locale>
+
+			<locale name="hu">
+				<short>Vezérlőközpont bezárása egy feladat aktiválásakor</short>
+				<long>Ha igaz, a vezérlőközpont automatikusan bezárul egy „Gyakori feladat” aktiválásakor.</long>
+			</locale>
+
+			<locale name="id">
+				<short>Tutup pusat kendali ketika sebuah tugas diaktifkan</short>
+				<long>Jikabenar, control-center akan menutup ketika &quot;Task Umum&quot; diaktifkan.</long>
+			</locale>
+
+			<locale name="it">
+				<short>Chiude il centro di controllo all&apos;attivazione di un&apos;attività</short>
+				<long>Se VERO, il centro di controllo verrà chiuso all&apos;attivazione di una &quot;attività comune&quot;</long>
+			</locale>
+
+			<locale name="ja">
+				<short>タスクを起動したらコントロール・センターを閉じる</short>
+				<long>TRUE にすると、&quot;共通なタスク&quot; を起動するとコントロール・センターを閉じます。</long>
+			</locale>
+
+			<locale name="ka">
+				<short>მართვის ცენტრის დახურვა, ამოცანის აქტივირებისას</short>
+				
+			</locale>
+
+			<locale name="kn">
+				<short>ಕಾರ್ಯವು ಸಕ್ರಿಯಗೊಂಡಾಗ ನಿಯಂತ್ರಣ ಕೇಂದ್ರವನ್ನು ಮುಚ್ಚು</short>
+				<long>true ಆದರೆ (ನಿಜವೆಂದಾದರೆ), &quot;ಸಾಮಾನ್ಯ ಕಾರ್ಯ&quot;ವು ಸಕ್ರಿಯಗೊಳಿಸಲ್ಪಟ್ಟಾಗ ನಿಯಂತ್ರಣ-ಕೇಂದ್ರವು ಮುಚ್ಚಲ್ಪಡುತ್ತದೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<short>태스크를 활성화할 때 컨트롤센터를 닫습니다</short>
+				<long>참이면 &quot;공통 작업&quot;을 활성화할 때 컨트롤 센터를 닫습니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<short>Užverti valdymo centrą, kai sužadinama užduotis</short>
+				<long>Jei tiesa, valdymo centras užsivers įvykdžius „paprastą užduotį“.</long>
+			</locale>
+
+			<locale name="lv">
+				<short>Aizvērt kontroles centru, kad aktivizēts uzdevums</short>
+				<long>ja izvēlēts, kontroles centrs aizvērsies, aktivizējot &quot;Ierasto uzdevumu&quot;.</long>
+			</locale>
+
+			<locale name="mk">
+				<short>Затвори го контролниот центар кога е активирана задача</short>
+				<long>ако е штиклирано контролниот центар ќе се затвори кога е актвирана Честа задача.</long>
+			</locale>
+
+			<locale name="ml">
+				<short>ഒരു കൃത്യം ആരംഭിച്ചാല്‍ നിയന്ത്രണകേന്ദ്രം അടക്കുക</short>
+				<long>ശരി എന്നാണെങ്കില്‍ ഒരു &quot;സാധാരണ പ്രവര്‍ത്തി&quot; സജീവമായാല്‍ നിയന്ത്രണകേന്ദ്രം അടയ്ക്കും.</long>
+			</locale>
+
+			<locale name="mr">
+				<short>कार्य सक्रीय केल्यास control-center बंद करा</short>
+				<long>खरे असल्यास, &quot;सर्वसाधारण कार्य&quot; सक्रीय असल्यास control-center बंद होते.</long>
+			</locale>
+
+			<locale name="nb">
+				<short>Lukk kontrollsenteret når en oppgave aktiveres</short>
+				<long>hvis sann, vil kontrollsenteret avsluttes når en &quot;Vanlig oppgave&quot; er aktivert.</long>
+			</locale>
+
+			<locale name="ne">
+				<short>कार्य सक्रिय गरिएको बेला नियन्त्रण-केन्द्र बन्द गर्नुहोस्</short>
+				
+			</locale>
+
+			<locale name="nl">
+				<short>Het configuratiecentrum sluiten wanneer een taak wordt geactiveerd</short>
+				<long>als ingesteld op waar, dan zal het configuratieprogramma sluiten wanneer een “algemene taak” wordt geactiveerd.</long>
+			</locale>
+
+			<locale name="nn">
+				<short>Lukk kontrollsenteret når ei oppgåve vert aktivert</short>
+				<long>viss sann, vil kontrollsenteret avsluttast når ei &quot;«Vanleg oppgave» er aktivert.</long>
+			</locale>
+
+			<locale name="or">
+				<short>କାର୍ଯ୍ୟ ସକ୍ରିୟ ହେବା ସମୟରେ ନିୟନ୍ତ୍ରଣ-କେନ୍ଦ୍ରକୁ ବନ୍ଦ କରନ୍ତୁ</short>
+				<long>ଯଦି true, ତେବେ &quot;Common Task&quot; ସକ୍ରିୟ ହେବା ମାତ୍ରେ ନିୟନ୍ତ୍ରଣ-କେନ୍ଦ୍ର ବନ୍ଦ ହୋଇଯିବ।</long>
+			</locale>
+
+			<locale name="pa">
+				<short>ਜਦੋਂ ਇੱਕ ਕੰਮ ਸਰਗਰਮ ਹੋਵੇ ਤਾਂ ਕੰਟਰੋਲ-ਕੇਂਦਰ ਬੰਦ ਕਰੋ</short>
+				<long>ਜੇ ਠੀਕ ਹੋਇਆ ਤਾਂ ਕੰਟਰੋਲ-ਕੇਂਦਰ ਬੰਦ ਹੋ ਜਾਵੇਗਾ, ਜਦੋਂ &quot;ਆਮ ਟਾਸਕ&quot; ਐਕਟੀਵੇਟਡ ਹੋ ਗਈ।</long>
+			</locale>
+
+			<locale name="pl">
+				<short>Zamyka centrum sterowania po aktywacji zadania</short>
+				<long>Wartość &quot;true&quot; określa, czy program control-center zostanie zamknięte, gdy zostanie aktywowane &quot;Typowe zadanie&quot;.</long>
+			</locale>
+
+			<locale name="pt">
+				<short>echar o control-center ao activar uma tarefa</short>
+				<long>se verdadeiro, o control-center será fechado ao activar uma &quot;Tarefa Comum&quot;.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<short>Fechar o Centro de Controle quando uma tarefa for ativada</short>
+				<long>Se verdadeiro, o Centro de Controle fechará quando uma &quot;tarefa comum&quot; for ativada.</long>
+			</locale>
+
+			<locale name="ro">
+				<short>Închide centrul de control în momentul activării unei activități</short>
+				<long>dacă este „true”, control-center va fi închis la activarea unei „Sarcini comune”</long>
+			</locale>
+
+			<locale name="ru">
+				<short>Закрывать центр управления, когда задача активирована</short>
+				<long>Если этот параметр установлен, центр управления будет закрыт при активации &quot;Общей задачи&quot;.</long>
+			</locale>
+
+			<locale name="sk">
+				<short>Zatvoriť ovládacie centrum keď je aktivovaná úloha</short>
+				<long>Ak je true, ovládacie centrum sa zavrie pri aktivácii &quot;Bežnej úlohy&quot;.</long>
+			</locale>
+
+			<locale name="sl">
+				<short>Zapri nadzorno okno ob zagonu naloge</short>
+				<long>izbrana možnost omogoča, da se nadzorno okno zapre ob zagonu &quot;Običajne naloge&quot;.</long>
+			</locale>
+
+			<locale name="sq">
+				<short>Mbyll qendrën e kontrollit kur aktivizohet një aktivitet</short>
+				<long>Nëse E VËRTETË, qendra e kontrollit do të mbyllet në aktivizimin e një «aktiviteti të përbashkët».</long>
+			</locale>
+
+			<locale name="sr">
+				<short>Затвори управљачки центар по активирању ставке</short>
+				<long>ако је укључено, главни прозор управљачког центра ће се затворити по покретању његових ставки.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<short>Zatvori upravljački centar po aktiviranju stavke</short>
+				<long>ako je uključeno, glavni prozor upravljačkog centra će se zatvoriti po pokretanju njegovih stavki.</long>
+			</locale>
+
+			<locale name="sv">
+				<short>Stäng kontrollpanelen när en funktion aktiveras</short>
+				<long>Om sant kommer kontrollpanelen att stängas när en &quot;Allmän funktion&quot; aktiveras.</long>
+			</locale>
+
+			<locale name="ta">
+				<short>ஒரு வேலை முடிந்ததும் கட்டுப்பாட்டு மையத்தை மூடு</short>
+				<long>உண்மை எனில் கட்டுப்பாட்டு மையம்  &quot;Common Task&quot; செயலானதும் மூடப்படும்.</long>
+			</locale>
+
+			<locale name="te">
+				<short>కర్తవ్యం క్రీయాశీలం కాగానే నియంత్రణా-కేంద్రంను మూయుము</short>
+				<long>నిజమైతే, &quot;ఉమ్మడి కర్తవ్యం&quot; క్రియాశీలం అవ్వగానే నియంత్రణ-కేంద్రం మూయబడుతుంది.</long>
+			</locale>
+
+			<locale name="th">
+				<short>ปิดศูนย์ควบคุมเมื่อมีการเรียกงานควบคุม</short>
+				<long>ถ้าเป็นจริง ศูนย์ควบคุมจะปิดเมื่อมีการเรียก &quot;งานสามัญ&quot;</long>
+			</locale>
+
+			<locale name="tr">
+				<short>Bir görev etkinleştirildiğinde control-center&apos;ı kapat</short>
+				<long>Eğer seçiliyse, control-center bir &quot;Sık Kullanılan Görev&quot; etkinleştirildiğinde kapatılacak.</long>
+			</locale>
+
+			<locale name="uk">
+				<short>Закривати центр керування, коли задача активована</short>
+				<long>Якщо цей параметр встановлений, центр керування буде закритий при активації &quot;Спільного завдання&quot;.</long>
+			</locale>
+
+			<locale name="vi">
+				<short>Đóng trung tâm điều khiển khi kích hoạt một nhiệm vụ</short>
+				<long>nếu đúng thì trung tâm điều khiển sẽ đóng khi kích hoạt « Tác vụ thường làm ».</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<short>当任务激活时关闭控制中心</short>
+				<long>如果为 true，在一个“常见任务”激活时，控制中心将关闭。</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<short>執行設定後關閉控制中心</short>
+				<long>如設定為‘true’，控制中心會在「一般工作」使用後關閉。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<short>執行設定後關閉控制中心</short>
+				<long>如設定為‘true’，控制中心會在「一般工作」使用後關閉。</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_start</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_start</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Exit shell on start action performed</short>
+				<long>Indicates whether to close the shell when a start action is performed.</long>
+			</locale>
+
+			<locale name="ar">
+				<short>اخرج من الصدفة عند أداء إجراء بدء</short>
+				<long>يشير إلى ما إذا كانت الصدفة ستغلق عند أداء إجراء بدء.</long>
+			</locale>
+
+			<locale name="as">
+				<short>Exit shell on start action performed</short>
+				<long>আৰম্ভেৰ কৰ্ম সঞ্চালিত হ&apos;লে শেল বন্ধ কৰা হ&apos;ব কি না সেইটো নিৰ্দেশ কৰা হয় ।</long>
+			</locale>
+
+			<locale name="ast">
+				<short>Abandona la consola cuando se tien fecho una aición d&apos;aniciu</short>
+				<long>Conseña si hai de zarrar la consola cuando se tien executao una aición d&apos;aniciu.</long>
+			</locale>
+
+			<locale name="be">
+				<short>Выйсьці з абалонкі па старце</short>
+				
+			</locale>
+
+			<locale name="be@latin">
+				<short>Vyjdzi z abałonki paśla startu</short>
+				<long>Akreślivaje, ci začyniać abałonku paśla ŭruchamleńnia.</long>
+			</locale>
+
+			<locale name="bg">
+				<short>Изход от обвивката при действие за стартиране</short>
+				<long>Указва дали обвивката да се затвори при действие за стартиране.</long>
+			</locale>
+
+			<locale name="bn">
+				<short>আরম্ভের কর্ম সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>আরম্ভের কাজ সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<short>আরম্ভের কর্ম সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>আরম্ভের কর্ম সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="ca">
+				<short>Surt de l&apos;intèrpret d&apos;ordres si es realitza una acció d&apos;iniciar</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordres quan s&apos;ha realitzat una acció d&apos;inici.</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<short>Ix de l&apos;intèrpret d&apos;ordes si es realitza una acció d&apos;iniciar</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordes quan s&apos;ha realitzat una acció d&apos;inici.</long>
+			</locale>
+
+			<locale name="crh">
+				<short>Başlatma eylemi gerçekleştiğinden kabuktan çık</short>
+				<long>Başlatma eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="cs">
+				<short>Ukončit shell při vykonání akce startu</short>
+				<long>Značí, zda má být zavřen shell v případě vykonání akce startu.</long>
+			</locale>
+
+			<locale name="da">
+				<short>Afslut kommandofortolker ved starthandling</short>
+				<long>Angiver om kommandofortolkeren lukkes når en starthandling udføres.</long>
+			</locale>
+
+			<locale name="de">
+				<short>Kontrollzentrum nach dem Starten eines Objektes beenden</short>
+				<long>Legt fest, ob das Kontrollzentrum nach dem Starten eines Objektes beendet werden soll.</long>
+			</locale>
+
+			<locale name="dz">
+				<short>ལཱ་འགན་འགྲུབ་ཡོད་པའི་བྱ་བ་འགོ་བཙུགས་ནི་གུ་ཕྱིར་ཐོན་གྱི་ཤལ</short>
+				<long>འགོ་བཙུགས་བྱ་བ་འདི་ ལཱ་འགན་འགྲུབ་ཡོད་པའི་སྐབས་ལུ་ ཤལ་ཁ་བསྡམས་ནི་ཨིན་ན་མེན་ན་ ་བརྡ་སྟོན་འབདཝ་ཨིན། </long>
+			</locale>
+
+			<locale name="el">
+				<short>Έξοδος από το κέλυφος μετά την εκτέλεση της εκκίνησης</short>
+				<long>Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια εκκίνησης εκτελείται.</long>
+			</locale>
+
+			<locale name="en@shaw">
+				<short>𐑧𐑜𐑟𐑦𐑑 𐑖𐑧𐑤 𐑪𐑯 𐑕𐑑𐑸𐑑 𐑨𐑒𐑖𐑩𐑯 𐑐𐑼𐑓𐑹𐑥𐑛</short>
+				<long>𐑦𐑯𐑛𐑦𐑒𐑱𐑑𐑕 𐑢𐑧𐑞𐑼 𐑑 𐑒𐑤𐑴𐑕 𐑞 𐑖𐑧𐑤 𐑢𐑧𐑯 𐑩 𐑕𐑑𐑸𐑑 𐑨𐑒𐑖𐑩𐑯 𐑦𐑟 𐑐𐑼𐑓𐑹𐑥𐑛.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<short>Exit shell on start action performed</short>
+				<long>Indicates whether to close the shell when a start action is performed.</long>
+			</locale>
+
+			<locale name="es">
+				<short>Abandona la consola cuando se ha realizado una acción de inicio</short>
+				<long>Indica si debe cerrarse la consola cuando se ha ejecutado una acción de inicio.</long>
+			</locale>
+
+			<locale name="et">
+				<short>Kestprogrammist väljumine käivitamistoimingu korral</short>
+				<long>Määrab, kas pärast abitegevuse käivitamist kestprogramm sulgetakse või mitte.</long>
+			</locale>
+
+			<locale name="eu">
+				<short>Irten komando-lerrotik abiarazteko ekintza lantzean</short>
+				<long>Abiarazteko ekintza lantzen denean komando-lerroa itxiko den ala ez adierazten du.</long>
+			</locale>
+
+			<locale name="fi">
+				<short>Sulje komentotulkki käynnistyksen jälkeen</short>
+				<long>Kertoo, suljetaanko komentotulkki käynnistystoiminnon jälkeen.</long>
+			</locale>
+
+			<locale name="fr">
+				<short>Quitte le shell sur un lancement</short>
+				<long>Indique s&apos;il faut fermer le shell quand un lancement est effectué.</long>
+			</locale>
+
+			<locale name="gl">
+				<short>Saír do intérprete de ordes ao efectuar unha acción de inicio</short>
+				<long>Indica se se debe pechar o intérprete de ordes cando se efectúe unha acción de inicio.</long>
+			</locale>
+
+			<locale name="gu">
+				<short>ક્રિયા શરૂ કરવામાં આવે ત્યારે શેલમાંથી બહાર નીકળો</short>
+				<long>જ્યારે શરૂઆત ક્રિયા કરવામાં આવે ત્યારે શું શેલ બંધ કરવું કે નહિં તે સૂચવે છે.</long>
+			</locale>
+
+			<locale name="he">
+				<short>Exit shell on start action performed</short>
+				<long>Indicates whether to close the shell when a start action is performed.</long>
+			</locale>
+
+			<locale name="hi">
+				<short>किए गए आरंभ क्रिया पर निकास शेल</short>
+				<long>बताएँ कि क्या शेल को बंद करना है जब आरंभ क्रिया करनी है.</long>
+			</locale>
+
+			<locale name="hu">
+				<short>Indítás művelet után kilépés a parancsértelmezőbe</short>
+				<long>Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy indítási művelet elvégzése után.</long>
+			</locale>
+
+			<locale name="id">
+				<short>Keluar shell ketika aksi start telah dilangsungkan</short>
+				<long>Menunjukkan apakah akan menutup tempurung bila tindakan mulai dilakukan.</long>
+			</locale>
+
+			<locale name="it">
+				<short>Esce dalla shell se viene eseguita un&apos;azione di avvio</short>
+				<long>Indica se chiudere la shell quando viene eseguita un&apos;azione di avvio.</long>
+			</locale>
+
+			<locale name="ja">
+				<short>タスクを起動したらシェルを終了する</short>
+				<long>タスクを起動したらシェルを閉じるかどうかです。</long>
+			</locale>
+
+			<locale name="kn">
+				<short>ಆರಂಭ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು</short>
+				<long>ಒಂದು ಆರಂಭ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು ಮುಚ್ಚಬೇಕೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<short>시작 동작을 수행할 때 쉘을 끝냅니다</short>
+				<long>시작 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<short>Išeiti iš aplinkos, kai įvykdomas paleidimo veiksmas</short>
+				<long>Nurodo, ar išeiti iš aplinkos, kai įvykdomas paleidimo veiksmas.</long>
+			</locale>
+
+			<locale name="lv">
+				<short>Iziet no čaulas, izpildot palaišanas darbību</short>
+				<long>Nosaka, vai jāaizver komandrinda, kad veikta palaišanas darbība.</long>
+			</locale>
+
+			<locale name="mk">
+				<short>Излези од школката при извршување на дејството за стартување</short>
+				<long>Одредува дали да се затвори школката кога се извршува дејството за подигнување.</long>
+			</locale>
+
+			<locale name="ml">
+				<short>ആരംഭകൃത്യം നടപ്പിലാക്കുമ്പോള്‍ ഷെല്‍ അടയ്ക്കുക</short>
+				<long>ആരംഭകൃത്യം നടക്കുമ്പോള്‍ ഷെല്‍ അടയ്ക്കേണ്ടതുണ്ടോ എന്ന് കാണിക്കുന്നു.</long>
+			</locale>
+
+			<locale name="mr">
+				<short>प्रारंभ कृती संपन्न झाल्यावर शेल पासून बाहेर पडा</short>
+				<long>प्रारंभ कृती कार्यान्वीत केल्यावर शेल बंद करायचे की नाही ते दर्शवितो.</long>
+			</locale>
+
+			<locale name="nb">
+				<short>Avslutt skall når en start-handling utføres</short>
+				<long>Indikerer hvorvidt skallet skal lukkes når en start-handling utføres.</long>
+			</locale>
+
+			<locale name="ne">
+				<short>&apos;सुरुआत गर्नुहोस्&apos; कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्</short>
+				
+			</locale>
+
+			<locale name="nl">
+				<short>Grafische schil verlaten als een startactie wordt uitgevoerd</short>
+				<long>Geeft aan of de grafische schil gesloten moet worden wanneer een startactie wordt uitgevoerd.</long>
+			</locale>
+
+			<locale name="nn">
+				<short>Avslutt skalet når ei starthandling vert utført</short>
+				<long>Styrer om skalet skal lukkast når ei starthandling vert utført.</long>
+			</locale>
+
+			<locale name="or">
+				<short>ଆରମ୍ଭ କାର୍ଯ୍ୟ କାର୍ଯ୍ୟକାରୀ ହେବା ସମୟରେ କୋଷରୁ ପ୍ରସ୍ଥାନ କରନ୍ତୁ</short>
+				<long>ଆରମ୍ଭ କାର୍ଯ୍ୟକୁ କାର୍ଯ୍ୟକାରୀ କରିବା ସମୟରେ କୋଷକୁ ବନ୍ଦ କରବା ଉଚିତ କି ନୁହଁ ଜଣାନ୍ତୁ।</long>
+			</locale>
+
+			<locale name="pa">
+				<short>ਕਾਰਵਾਈ ਸ਼ੁਰੂ ਕਰਨ ਦੇ ਦੌਰਾਨ ਸ਼ੈੱਲ ਬੰਦ ਕਰੋ</short>
+				<long>ਵੇਖਾਉਦਾ ਹੈ ਕਿ ਕੀ ਇੱਕ ਕਾਰਵਾਈ ਸ਼ੁਰੂ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸ਼ੈਲ ਬੰਦ ਹੋ ਜਾਵੇ।</long>
+			</locale>
+
+			<locale name="pl">
+				<short>Zakończenie powłoki po wywołaniu uruchomienia</short>
+				<long>Określa, czy zamykać powłokę, gdy wywołane jest uruchomienie.</long>
+			</locale>
+
+			<locale name="pt">
+				<short>Sair da consola ao realizar acção de iniciar</short>
+				<long>Indica se fechar ou não a consola quando é realizada uma acção de iniciar.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<short>Sair do shell ao executar ação de início</short>
+				<long>Fecha o shell quando uma ação de início for executada.</long>
+			</locale>
+
+			<locale name="ro">
+				<short>Părăsește consola la execuția unei acțiuni de lansare</short>
+				<long>Indică dacă se va închide consola la execuția unei acțiuni de pornire.</long>
+			</locale>
+
+			<locale name="ru">
+				<short>Выходить из оболочки при выполнении действия запуска</short>
+				<long>Указывает, закрывать ли оболочку при выполнении действия запуска.</long>
+			</locale>
+
+			<locale name="sk">
+				<short>Ukončiť shell pri vykonaní akcie spustenia</short>
+				<long>Určuje, či sa má shell zavrieť keď sa vykoná akcia spustenia</long>
+			</locale>
+
+			<locale name="sl">
+				<short>Končaj lupino ob zagonu programa</short>
+				<long>Določa, ali naj se lupina zapre ob zagonu naloge.</long>
+			</locale>
+
+			<locale name="sq">
+				<short>Del nga terminali nëse kryhet një veprim nisje</short>
+				<long>Tregon nëse duhet mbyllur terminali kur kryhet një veprim nisje.</long>
+			</locale>
+
+			<locale name="sr">
+				<short>Затвори љуску по покретању ставке</short>
+				<long>Одређује да ли ће се шкољка затворити по активирању ставке.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<short>Zatvori ljusku po pokretanju stavke</short>
+				<long>Određuje da li će se školjka zatvoriti po aktiviranju stavke.</long>
+			</locale>
+
+			<locale name="sv">
+				<short>Avsluta skalet när en startåtgärd genomförs</short>
+				<long>Indikerar huruvida skalet ska stängas när en startåtgärd genomförs.</long>
+			</locale>
+
+			<locale name="ta">
+				<short>துவக்கு செயல் முடிந்தவுடன் ஷெல் இலிருந்து வெளியேறு</short>
+				<long>துவக்க செயல் நடந்தால் ஷெல் ஐ மூடுவதா என காட்டுகிறது</long>
+			</locale>
+
+			<locale name="te">
+				<short>ప్రారంభం చర్య జరుపబడగానే షెల్ నుండి బయటకురమ్ము</short>
+				<long>ప్రారంభం చర్య జరుగగానే షెల్ మూయాలేమో సూచించుము.</long>
+			</locale>
+
+			<locale name="th">
+				<short>ปิดเชลล์เมื่อมีการเรียกรายการควบคุม</short>
+				<long>ระบุว่าจะปิดเชลล์หรือไม่ เมื่อมีการเรียกใช้รายการควบคุม</long>
+			</locale>
+
+			<locale name="tr">
+				<short>Başlatma eylemi gerçekleştiğinde kabuktan çık</short>
+				<long>Başlatma eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="uk">
+				<short>Виходити з оболонки при виконанні дії запуску</short>
+				<long>Вказує, чи закривати оболонку при виконанні дії запуску.</long>
+			</locale>
+
+			<locale name="vi">
+				<short>Thoát khỏi trình bao khi làm hành vi bắt đầu</short>
+				<long>Cho biết có nên đóng trình bao khi làm hành vi bắt đầu hay không.</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<short>执行启动操作时退出外壳</short>
+				<long>指示在执行启动动作时是否关闭 Shell</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<short>啟動動作進行時離開 shell</short>
+				<long>指示啟動動作進行時是否離開 shell。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<short>啟動動作進行時離開 shell</short>
+				<long>指示啟動動作進行時是否離開 shell。</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_help</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_help</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Exit shell on help action performed</short>
+				<long>Indicates whether to close the shell when a help action is performed.</long>
+			</locale>
+
+			<locale name="ar">
+				<short>اخرج من الصدفة عند أداء إجراء مساعدة</short>
+				<long>يشير إلى ما إذا كانت الصدفة ستغلق عند أداء إجراء مساعدة.</long>
+			</locale>
+
+			<locale name="as">
+				<short>Exit shell on help action performed</short>
+				<long>সাহায্য সংক্ৰান্ত কৰ্ম সঞ্চালিত হ&apos;লে শেল বন্ধ কৰা হ&apos;ব কি না সেইটো নিৰ্দেশ কৰা হয় ।</long>
+			</locale>
+
+			<locale name="ast">
+				<short>Abandona la consola cuando se tien fecho una aición d&apos;aida</short>
+				<long>Conseña si hai de zarrar la consola cuando se tien executao una aición d&apos;aida.</long>
+			</locale>
+
+			<locale name="be">
+				<short>Выйсьці з абалонкі па адкрыцьці даведніка</short>
+				
+			</locale>
+
+			<locale name="be@latin">
+				<short>Vyjdzi z abałonki paśla pakazu dapamohi</short>
+				<long>Akreślivaje, ci začyniać abałonku paśla pakazu dapamohi.</long>
+			</locale>
+
+			<locale name="bg">
+				<short>Изход от обвивката при действие за помощта</short>
+				<long>Указва дали обвивката да се затвори при действие за помощта.</long>
+			</locale>
+
+			<locale name="bn">
+				<short>সাহায্য সংক্রান্ত কর্ম সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>সাহায্য সংক্রান্ত কাজ সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<short>সাহায্য সংক্রান্ত কর্ম সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>সাহায্য সংক্রান্ত কর্ম সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="ca">
+				<short>Surt de l&apos;intèrpret d&apos;ordres si es realitza una acció d&apos;ajuda</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordres quan s&apos;ha realitzat una acció d&apos;ajuda.</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<short>Ix de l&apos;intèrpret d&apos;ordes si es realitza una acció d&apos;ajuda</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordes quan s&apos;ha realitzat una acció d&apos;ajuda.</long>
+			</locale>
+
+			<locale name="crh">
+				<short>Yardım eylemi gerçekleştiğinde kabuktan çık</short>
+				<long>Yardım eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="cs">
+				<short>Ukončit shell při vykonání akce nápovědy</short>
+				<long>Značí, zda má být zavřen shell v případě vykonání akce nápovědy.</long>
+			</locale>
+
+			<locale name="da">
+				<short>Afslut kommandofortolker ved hjælpehandling</short>
+				<long>Angiver om kommandofortolkeren lukkes når en hjælpehandling udføres.</long>
+			</locale>
+
+			<locale name="de">
+				<short>Kontrollzentrum nach dem Aufrufen der Hilfe beenden</short>
+				<long>Legt fest, ob das Kontrollzentrum nach dem Aufrufen der Hilfe beendet werden soll.</long>
+			</locale>
+
+			<locale name="dz">
+				<short>ལ་འགན་འགྲུབ་ཡོད་པའི་བྱ་བ་གྲོགས་རམ་གུ་ཕྱིར་འཐོན་ཤལ</short>
+				<long>གྲོགས་རམ་བྱ་བ་འདི་ ལཱ་འགན་འགྲུབ་ཡོད་པའི་སྐབས་ལུ་ ཤལ་ཁ་བསྡམས་ནི་ཨིན་ན་མེན་ན་་བརྡ་སྟོན་འབདཝ་ཨིན། </long>
+			</locale>
+
+			<locale name="el">
+				<short>Έξοδος από το κέλυφος μετά την εκτέλεση βοήθειας</short>
+				<long>Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια βοήθειας εκτελείται.</long>
+			</locale>
+
+			<locale name="en@shaw">
+				<short>𐑧𐑜𐑟𐑦𐑑 𐑖𐑧𐑤 𐑪𐑯 𐑣𐑧𐑤𐑐 𐑨𐑒𐑖𐑩𐑯 𐑐𐑼𐑓𐑹𐑥𐑛</short>
+				<long>𐑦𐑯𐑛𐑦𐑒𐑱𐑑𐑕 𐑢𐑧𐑞𐑼 𐑑 𐑒𐑤𐑴𐑕 𐑞 𐑖𐑧𐑤 𐑢𐑧𐑯 𐑩 𐑣𐑧𐑤𐑐 𐑨𐑒𐑖𐑩𐑯 𐑦𐑟 𐑐𐑼𐑓𐑹𐑥𐑛.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<short>Exit shell on help action performed</short>
+				<long>Indicates whether to close the shell when a help action is performed.</long>
+			</locale>
+
+			<locale name="es">
+				<short>Abandona la consola cuando se ha realizado una acción de ayuda</short>
+				<long>Indica si debe cerrarse la consola cuando se ha ejecutado una acción de ayuda.</long>
+			</locale>
+
+			<locale name="et">
+				<short>Kestprogrammist väljumine abiteabe käivitamise korral</short>
+				<long>Määrab, kas pärast abitegevuse lõppemist kestprogramm sulgetakse või mitte.</long>
+			</locale>
+
+			<locale name="eu">
+				<short>Irten komando-lerrotik laguntzako ekintza lantzean</short>
+				<long>Laguntzako ekintza lantzen denean komando-lerroa itxiko den ala ez adierazten du.</long>
+			</locale>
+
+			<locale name="fi">
+				<short>Sulje komentotulkki avattaessa ohje</short>
+				<long>Kertoo, suljetaanko komentotulkki ohjeen avaamisen jälkeen.</long>
+			</locale>
+
+			<locale name="fr">
+				<short>Quitte le shell sur une consultation de l&apos;aide</short>
+				<long>Indique s&apos;il faut fermer le shell quand une aide est consultée.</long>
+			</locale>
+
+			<locale name="gl">
+				<short>Saír do intérprete de ordes ao efectuar unha acción de axuda</short>
+				<long>Indica se se debe pechar o intérprete de ordes cando se efectúe unha acción de axuda.</long>
+			</locale>
+
+			<locale name="gu">
+				<short>મદદ ક્રિયા થાય ત્યારે શેલમાંથી બહાર નીકળો</short>
+				<long>જ્યારે મદદ ક્રિયા કરવામાં આવે ત્યારે શું શેલ બંધ કરવું કે નહિં તે સૂચવે છે.</long>
+			</locale>
+
+			<locale name="he">
+				<short>Exit shell on help action performed</short>
+				<long>Indicates whether to close the shell when a help action is performed.</long>
+			</locale>
+
+			<locale name="hi">
+				<short>किए गए मदद क्रिया पर निकास शेल</short>
+				<long>बताएँ कि क्या शेल को बंद करना है जब मदद क्रिया करनी है.</long>
+			</locale>
+
+			<locale name="hu">
+				<short>Súgó művelet után kilépés a parancsértelmezőbe</short>
+				<long>Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy súgóművelet elvégzése után.</long>
+			</locale>
+
+			<locale name="id">
+				<short>Keluar shell ketika aksi bantuan telah dilangsungkan</short>
+				<long>Mengindikasikan apakah akan menutup shell ketika sebuah aksi bantuan dijalankan.</long>
+			</locale>
+
+			<locale name="it">
+				<short>Esce dalla shell se viene eseguita un&apos;azione di aiuto</short>
+				<long>Indica se chiudere la shell quando viene eseguita un&apos;azione di aiuto.</long>
+			</locale>
+
+			<locale name="ja">
+				<short>ヘルプを表示したらシェルを終了する</short>
+				<long>ヘルプを表示したらシェルを閉じるかどうかです。</long>
+			</locale>
+
+			<locale name="kn">
+				<short>ಸಹಾಯ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು</short>
+				<long>ಒಂದು ಸಹಾಯ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು ಮುಚ್ಚಬೇಕೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<short>도움말 동작을 수행할 때 쉘을 끝냅니다</short>
+				<long>도움말 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<short>Išeiti iš aplinkos, kai atliekamas pagalbos veiksmas</short>
+				<long>Nurodo, ar išeiti iš aplinkos, kai įvykdomas pagalbos veiksmas.</long>
+			</locale>
+
+			<locale name="lv">
+				<short>Iziet no čaulas, izpildot palīdzības darbību</short>
+				<long>Nosaka, vai jāaizver komandrinda, kad veikta palīdzības darbība.</long>
+			</locale>
+
+			<locale name="mk">
+				<short>Излези од школката при извршување на десјтвото за помош</short>
+				<long>Одредува дали да се затвори школката кога се извршува дејството за помош.</long>
+			</locale>
+
+			<locale name="ml">
+				<short>സഹായകൃത്യം നടപ്പിലാക്കുമ്പോള്‍ ഷെല്‍ അടയ്ക്കുക</short>
+				<long>സഹായകൃത്യം നടക്കുമ്പോള്‍ ഷെല്‍ അടയ്ക്കേണ്ടതുണ്ടോ എന്ന് കാണിക്കുന്നു.</long>
+			</locale>
+
+			<locale name="mr">
+				<short>मदत कार्य संपन्न झाल्यावर शेल पासून बाहेर पडा</short>
+				<long>मदत कार्य संपन्न झाल्यावर शेल बंद करायचे का.</long>
+			</locale>
+
+			<locale name="nb">
+				<short>Avslutt skall når en hjelpe-handling utføres</short>
+				<long>Indikerer hvorvidt skallet skal lukkes når en hjelpe-handling utføres.</long>
+			</locale>
+
+			<locale name="ne">
+				<short>&apos;मद्दत&apos; कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्</short>
+				
+			</locale>
+
+			<locale name="nl">
+				<short>Grafische schil verlaten als een hulpactie wordt uitgevoerd</short>
+				<long>Geeft aan of de grafische schil gesloten moet worden wanneer een hulpactie wordt uitgevoerd.</long>
+			</locale>
+
+			<locale name="nn">
+				<short>Avslutt skalet når ei hjelpehandling vert utført</short>
+				<long>Styrer om skalet skal lukkast når ei hjelpehandling vert utført.</long>
+			</locale>
+
+			<locale name="or">
+				<short>ସହାୟତା କାର୍ଯ୍ୟ କାର୍ଯ୍ୟକାରୀ ହେବା ସମୟରେ କୋଷରୁ ପ୍ରସ୍ଥାନ କରନ୍ତୁ</short>
+				<long>ସହାୟତା କାର୍ଯ୍ୟକୁ କାର୍ଯ୍ୟକାରୀ କରିବା ସମୟରେ କୋଷକୁ ବନ୍ଦ କରବା ଉଚିତ କି ନୁହଁ ଜଣାନ୍ତୁ।</long>
+			</locale>
+
+			<locale name="pa">
+				<short>ਮੱਦਦ ਕਾਰਵਾਈ ਦੌਰਾਨ ਸ਼ੈੱਲ ਬੰਦ ਕਰੋ</short>
+				<long>ਵੇਖਾਉਦਾ ਹੈ ਕਿ ਕੀ ਇੱਕ ਮੱਦਦ ਕਾਰਵਾਈ ਕਰਨ ਦੇ ਦੌਰਾਨ ਸ਼ੈੱਲ ਬੰਦ ਹੋ ਜਾਵੇ।</long>
+			</locale>
+
+			<locale name="pl">
+				<short>Zakończenie powłoki po wywołaniu pomocy</short>
+				<long>Określa, czy zamykać powłokę, gdy wywołana jest pomoc.</long>
+			</locale>
+
+			<locale name="pt">
+				<short>Sair da consola ao realizar acção de ajuda</short>
+				<long>Indica se fechar ou não a consola quando é realizada uma acção de ajuda.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<short>Sair do shell ao executar ação de ajuda</short>
+				<long>Fecha o shell quando uma ação de ajuda for executada.</long>
+			</locale>
+
+			<locale name="ro">
+				<short>Părăseșe consola la execuția unei acțiuni de ajutor</short>
+				<long>Indică dacă se va închide consola la execuția unei acțiuni de ajutor.</long>
+			</locale>
+
+			<locale name="ru">
+				<short>Выходить из оболочки при вызове действия справки</short>
+				<long>Указывает, закрывать ли оболочку при выполнении действия справки.</long>
+			</locale>
+
+			<locale name="sk">
+				<short>Ukončiť shell pri vykonaní akcie pomocníka</short>
+				<long>Určuje, či sa má zatvoriť shell keď sa vykoná akcia pomocníka</long>
+			</locale>
+
+			<locale name="sl">
+				<short>Končaj lupino ob zagonu pomoči</short>
+				<long>Določa, ali naj se lupina zapre ob zagonu pomoči.</long>
+			</locale>
+
+			<locale name="sq">
+				<short>Del nga terminali nëse kryhet një veprim ndihme</short>
+				<long>Tregon nëse duhet mbyllur terminali kur kryhet një veprim ndihme.</long>
+			</locale>
+
+			<locale name="sr">
+				<short>Затвори шкољку по активирању помоћи</short>
+				<long>Одређује да ли ће се шкољка затворити по активирању помоћи.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<short>Zatvori školjku po aktiviranju pomoći</short>
+				<long>Određuje da li će se školjka zatvoriti po aktiviranju pomoći.</long>
+			</locale>
+
+			<locale name="sv">
+				<short>Avsluta skalet när en hjälpåtgärd genomförs</short>
+				<long>Indikerar huruvida skalet ska stängas när en hjälpåtgärd genomförs.</long>
+			</locale>
+
+			<locale name="ta">
+				<short>உதவி செயல் முடிந்தவுடன் ஷெல் இலிருந்து வெளியேறு</short>
+				<long>உதவி செயல் முடிந்தால் ஷெல் ஐ மூடுவதா என காட்டுகிறது</long>
+			</locale>
+
+			<locale name="te">
+				<short>సహాయం చర్య జరుపబడగానే షెల్ నుండి బయటకురమ్ము</short>
+				<long>సహాయం చర్య జరుగగానే షెల్ మూయాలేమో సూచించుము.</long>
+			</locale>
+
+			<locale name="th">
+				<short>ปิดเชลล์เมื่อมีการเรียกอ่านวิธีใช้</short>
+				<long>ระบุว่าจะปิดเชลล์หรือไม่ เมื่อมีการเรียกอ่านวิธีใช้</long>
+			</locale>
+
+			<locale name="tr">
+				<short>Yardım eylemi gerçekleştiğinde kabuktan çık</short>
+				<long>Yardım eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="uk">
+				<short>Виходити з оболонки при виконанні дії довідки</short>
+				<long>Вказує, чи закривати оболонку при виконанні дії довідки.</long>
+			</locale>
+
+			<locale name="vi">
+				<short>Thoát khỏi trình bao khi làm hành vi trợ giúp</short>
+				<long>Cho biết có nên đóng trình bao khi làm hành vi trợ giúp hay không.</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<short>执行帮助操作时退出外壳</short>
+				<long>指示在执行帮助动作时是否关闭 Shell</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<short>求助動作進行時離開 shell</short>
+				<long>指示求助動作進行時是否離開 shell。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<short>求助動作進行時離開 shell</short>
+				<long>指示求助動作進行時是否離開 shell。</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_add_remove</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_add_remove</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Exit shell on add or remove action performed</short>
+				<long>Indicates whether to close the shell when an add or remove action is performed.</long>
+			</locale>
+
+			<locale name="ar">
+				<short>اخرج من الصدفة عند أداء إجراء إضافة أو حذف</short>
+				<long>يشير إلى ما إذا كانت الصدفة ستغلق عند أداء إجراء إضافة أو حذف.</long>
+			</locale>
+
+			<locale name="as">
+				<short>Exit shell on add or remove action performed</short>
+				<long>যোগ অথবা অপসাৰণ সংক্ৰান্ত কৰ্ম সঞ্চালিত হ&apos;লে শেল বন্ধ কৰা হ&apos;ব কি না সেইটো নিৰ্দেশ কৰা হয় ।</long>
+			</locale>
+
+			<locale name="ast">
+				<short>Abandona la consola cuando se tien fecho una aición d&apos;amestáu o desaniciu</short>
+				<long>Conseña si hai de zarrar la consola cuando se tien executao una aición d&apos;amestáu o desaniciu.</long>
+			</locale>
+
+			<locale name="be">
+				<short>Выйсьці з абалонкі па даданьні альбо выдаленьні</short>
+				
+			</locale>
+
+			<locale name="be@latin">
+				<short>Vyjdzi z abałonki paśla dadańnia albo vydaleńnia</short>
+				<long>Akreślivaje, ci začyniać abałonku paśla dadavańnia albo vydaleńnia.</long>
+			</locale>
+
+			<locale name="bg">
+				<short>Изход от обвивката при действие за добавяне или премахване</short>
+				<long>Указва дали обвивката да се затвори при действие за добавяне или премахване.</long>
+			</locale>
+
+			<locale name="bn">
+				<short>যোগ অথবা অপসারণের কর্ম সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>যোগ অথবা অপসারণ সংক্রান্ত কাজ সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<short>যোগ অথবা অপসারণের কর্ম সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>যোগ অথবা অপসারণ সংক্রান্ত কর্ম সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="ca">
+				<short>Surt de l&apos;intèrpret d&apos;ordres si es realitza una acció d&apos;afegir o treure</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordres quan s&apos;ha realitzat una acció d&apos;afegir o treure.</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<short>Ix de l&apos;intèrpret d&apos;ordes si es realitza una acció d&apos;afegir o treure</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordes quan s&apos;ha realitzat una acció d&apos;afegir o treure.</long>
+			</locale>
+
+			<locale name="crh">
+				<short>Bir ekleme ya da çıkartma eylemi gerçekleştiğinde kabuktan çık</short>
+				<long>Ekleme ya da çıkartma eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="cs">
+				<short>Ukončit shell při vykonání akce přidání nebo odstranění</short>
+				<long>Značí, zda má být zavřen shell v případě vykonání akce přidání nebo odstranění.</long>
+			</locale>
+
+			<locale name="da">
+				<short>Afslut kommandofortolker ved tilføjelses- eller fjernelseshandling</short>
+				<long>Angiver om kommandofortolkeren lukkes når en tilføjelses- eller fjernelseshandling udføres.</long>
+			</locale>
+
+			<locale name="de">
+				<short>Kontrollzentrum nach dem Hinzufügen oder Entfernen eines Objektes beenden</short>
+				<long>Legt fest, ob das Kontrollzentrum nach dem Hinzufügen oder Entfernen eines Objektes beendet werden soll.</long>
+			</locale>
+
+			<locale name="dz">
+				<short>ལ་འགན་གྲུབ་ཡོད་པའི་ལ་གཡོག་རྩ་བསྐྲེད་གཏང་་ནི་ཡང་ན་ཁ་སྐོང་བརྐྱབས་ནི་ཕྱིར་ཐོན་ཤལ།</short>
+				<long>བསྡོམས་ནི་ཡང་ན་བསྐྲེད་གཏང་ ནི་བྱ་བ་འདི་ལཱ་འགན་འགྲུབ་ཡོད་པའི་སྐབས་ལུ་ཤ ལ་འདི་ཁ་བསྡམས་ནི་ཨིན་ན་མེན་ན་བརྡ་སྟོན་འབདཝ་ཨིན། </long>
+			</locale>
+
+			<locale name="el">
+				<short>Έξοδος από το κέλυφος μετά την προσθήκη ή την απομάκρυνση ενέργειας</short>
+				<long>Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια προσθήκης ή απομάκρυνσης εκτελείται.</long>
+			</locale>
+
+			<locale name="en@shaw">
+				<short>𐑧𐑜𐑟𐑦𐑑 𐑖𐑧𐑤 𐑪𐑯 𐑨𐑛 𐑹 𐑮𐑦𐑥𐑵𐑝 𐑨𐑒𐑖𐑩𐑯 𐑐𐑼𐑓𐑹𐑥𐑛</short>
+				<long>𐑦𐑯𐑛𐑦𐑒𐑱𐑑𐑕 𐑢𐑧𐑞𐑼 𐑑 𐑒𐑤𐑴𐑕 𐑞 𐑖𐑧𐑤 𐑢𐑧𐑯 𐑩𐑯 𐑨𐑛 𐑹 𐑮𐑦𐑥𐑵𐑝 𐑨𐑒𐑖𐑩𐑯 𐑦𐑟 𐑐𐑼𐑓𐑹𐑥𐑛.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<short>Exit shell on add or remove action performed</short>
+				<long>Indicates whether to close the shell when an add or remove action is performed.</long>
+			</locale>
+
+			<locale name="es">
+				<short>Abandona la consola cuando se ha realizado una acción de añadido o eliminación</short>
+				<long>Indica si debe cerrarse la consola cuando se ha ejecutado una acción de añadido o eliminación.</long>
+			</locale>
+
+			<locale name="et">
+				<short>Kestprogrammist väljumine lisamise või eemaldamise korral</short>
+				<long>Määrab, kas pärast lisamist või eemaldamist kestprogramm sulgetakse või mitte.</long>
+			</locale>
+
+			<locale name="eu">
+				<short>Irten komando-lerrotik gehitzeko edo kentzeko ekintza lantzean</short>
+				<long>Gehitzeko edo kentzeko ekintza lantzen denean komando-lerroa itxiko den ala ez adierazten du.</long>
+			</locale>
+
+			<locale name="fi">
+				<short>Sulje komentotulkki poistamisen tai lisäämisen jälkeen</short>
+				<long>Kertoo, suljetaanko komentotulkki lisäyksen tai poiston jälkeen.</long>
+			</locale>
+
+			<locale name="fr">
+				<short>Quitte le shell sur une action d&apos;ajout ou de suppression</short>
+				<long>Indique s&apos;il faut fermer le shell sur une action d&apos;ajout ou de suppression.</long>
+			</locale>
+
+			<locale name="gl">
+				<short>Saír do intérprete de ordes ao efectuar unha acción de engadir ou eliminar</short>
+				<long>Indica se se debe pechar o intérprete de ordes cando se efectúe unha acción de engadir ou eliminar.</long>
+			</locale>
+
+			<locale name="gu">
+				<short>ક્રિયા ઉમેરો અથવા દૂર કરો થાય ત્યારે શેલમાંથી બહાર નીકળો</short>
+				<long>જ્યારે ઉમેરો અથવા દૂર કરો ક્રિયા કરવામાં આવે ત્યારે શું શેલ બંધ કરવું કે નહિં તે સૂચવે છે.</long>
+			</locale>
+
+			<locale name="he">
+				<short>Exit shell on add or remove action performed</short>
+				<long>Indicates whether to close the shell when an add or remove action is performed.</long>
+			</locale>
+
+			<locale name="hi">
+				<short>किए क्रिया जोड़ने या हटाने के लिए शेल से निकलें</short>
+				<long>बताएँ कि क्या शेल को बंद करना है जब जोड़ने या हटाने की क्रिया करनी है.</long>
+			</locale>
+
+			<locale name="hu">
+				<short>Hozzáadás vagy eltávolítás művelet után kilépés a parancsértelmezőbe</short>
+				<long>Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy hozzáadás vagy eltávolítás művelet elvégzése után.</long>
+			</locale>
+
+			<locale name="id">
+				<short>Keluar shell ketika aksi tambah atau hapus telah dilangsungkan</short>
+				<long>Mengindikasikan apakah akan menutup shell ketika aksi tambah atau hapus dijalankan.</long>
+			</locale>
+
+			<locale name="it">
+				<short>Esce dalla shell se viene eseguita un&apos;azione di aggiunta o rimozione</short>
+				<long>Indica se chiudere la shell quando viene eseguita un&apos;azione di aggiunta o rimozione.</long>
+			</locale>
+
+			<locale name="ja">
+				<short>追加または削除を行ったらシェルを終了する</short>
+				<long>追加または削除を行ったらシェルを閉じるかどうかです。</long>
+			</locale>
+
+			<locale name="kn">
+				<short>ಸೇರಿಸು ಅಥವ ತೆಗೆದುಹಾಕುವ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು</short>
+				<long>ಸೇರಿಸು ಅಥವ ತೆಗೆದುಹಾಕುವ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು ಮುಚ್ಚಬೇಕೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<short>추가 혹은 제거 동작을 수행할 때 쉘을 끝냅니다</short>
+				<long>추가 혹은 제거 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<short>Išeiti iš aplinkos, kai atliekamas pridėjimo ar išmetimo veiksmas</short>
+				<long>Nurodo, ar išeiti iš aplinkos, kai atliekamas pridėjimo ar šalinimo veiksmas.</long>
+			</locale>
+
+			<locale name="lv">
+				<short>Iziet no čaulas, izpildot pievienošanas vai noņemšanas darbības</short>
+				<long>Nosaka, vai jāaizver komandrinda, kad veikta pievienošana vai aizvākšana.</long>
+			</locale>
+
+			<locale name="mk">
+				<short>Излези од школката при извршување на дејството за додавање или извршување</short>
+				<long>Одредува дали да се затвори школката кога се извршува дејството за додавање или отстранување.</long>
+			</locale>
+
+			<locale name="ml">
+				<short>Exit shell on add or remove action performed</short>
+				<long>ചേര്‍ക്കലോ നീക്കം ചെയ്യലോ നടക്കുമ്പോള്‍ ഷെല്‍ അടയ്ക്കേണ്ടതുണ്ടോ എന്ന് കാണിക്കുന്നു.</long>
+			</locale>
+
+			<locale name="mr">
+				<short>कार्यसंपन्न कृती जोडल्यास किंवा काढूण टाकल्यास शेल पासून बाहेर पडा</short>
+				<long>जोडा किंवा काढूण टाका कृती कार्यान्वीत केल्यास शेल बंद करायचे का ते दर्शवितो.</long>
+			</locale>
+
+			<locale name="nb">
+				<short>Avslutt skall når en &quot;legg til&quot;- eller en &quot;ta bort&quot;-handling utføres</short>
+				<long>Indikerer hvorvidt skallet skal lukkes når en &quot;legg til&quot;- eller en &quot;ta bort&quot;-handling utføres.</long>
+			</locale>
+
+			<locale name="ne">
+				<short>&apos;थप्नुहोस्&apos; वा &apos;हटाउनुहोस्‌&apos; कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्</short>
+				
+			</locale>
+
+			<locale name="nl">
+				<short>Grafische schil verlaten als een toevoeg- of verwijderactie wordt uitgevoerd</short>
+				<long>Geeft of de grafische schil gesloten moet worden wanneer een toevoeg- of verwijderactie wordt uitgevoerd.</long>
+			</locale>
+
+			<locale name="nn">
+				<short>Avslutt skalet når ei «legg til»-handling eller ei «ta vekk»-handling vert utført</short>
+				<long>Styrer om skalet skal lukkast når ei «legg til»-handling eller ei «ta vekk»-handling vert utført.</long>
+			</locale>
+
+			<locale name="or">
+				<short>ଯୋଗକରନ୍ତୁ କିମ୍ବା କାଢ଼ନ୍ତୁ କାର୍ଯ୍ୟକୁ କାର୍ଯ୍ୟକାରୀ କରିବା ସମୟରେ କୋଷ ତ୍ୟାଗ କରନ୍ତୁ</short>
+				<long>ଯୋଗକରନ୍ତୁ କିମ୍ବା କାଢନ୍ତୁ କାର୍ଯ୍ୟକୁ କାର୍ଯ୍ୟକାରୀ କରିବା ସମୟରେ କୋଷକୁ ବନ୍ଦ କରବା ଉଚିତ କି ନୁହଁ ଜଣାନ୍ତୁ।</long>
+			</locale>
+
+			<locale name="pa">
+				<short>ਜੋੜਨ ਜਾਂ ਹਟਾਉਣ ਕਾਰਵਾਈ ਦੌਰਾਨ ਸ਼ੈੱਲ ਬੰਦ ਕਰੋ</short>
+				<long>ਵੇਖਾਉਦਾ ਹੈ ਕਿ ਕੀ ਸ਼ਾਮਿਲ ਕਰਨ ਜਾਂ ਹਟਾਉਣ ਦੀ ਕਾਰਵਾਈ ਦੇ ਦੌਰਾਨ ਸ਼ੈੱਲ ਬੰਦ ਹੋਵੇ ਜਾਵੇ।</long>
+			</locale>
+
+			<locale name="pl">
+				<short>Zakończenie powłoki po wywołaniu dodania lub usunięcia</short>
+				<long>Określa, czy zamykać powłokę, gdy wywołane jest dodawanie lub usuwanie.</long>
+			</locale>
+
+			<locale name="pt">
+				<short>Sair da consola ao realizar acção de adicionar ou remover</short>
+				<long>Indica se fechar ou não a consola quando é realizada uma acção de adicionar ou remover.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<short>Sair do shell ao executar ação de adicionar ou remover</short>
+				<long>Fecha o shell quando uma ação de adicionar ou remover for executada.</long>
+			</locale>
+
+			<locale name="ro">
+				<short>Părăsește consola la execuția unei acțiuni de adăugare sau de ștergere</short>
+				<long>Indică dacă se va închide consola la execuția unei acțiuni de adăugare sau de actualizare.</long>
+			</locale>
+
+			<locale name="ru">
+				<short>Выходить из оболочки при выполнении действия удаления или добавления</short>
+				<long>Указывает, закрывать ли оболочку при выполнении действия добавления или удаления.</long>
+			</locale>
+
+			<locale name="sk">
+				<short>Ukončiť shell pri vykonaní akcie pridania alebo odstránenia</short>
+				<long>Určuje, či sa má shell zavrieť keď sa vykoná akcia pridania alebo odstránenia</long>
+			</locale>
+
+			<locale name="sl">
+				<short>Končaj lupino ob dodajanju ali odstranjevanju programov</short>
+				<long>Določa, ali naj se lupina zapre ob dodajanju oziroma odstranjevanju nalog.</long>
+			</locale>
+
+			<locale name="sq">
+				<short>Del nga terminali nëse kryhet një veprim shtimi apo heqje</short>
+				<long>Tregon nëse duhet mbyllur terminali kur kryhet një veprim shtimi apo heqje.</long>
+			</locale>
+
+			<locale name="sr">
+				<short>Затвори шкољку по обављеном додавању или уклањању акције</short>
+				<long>Одређује да ли ће се шкољка затворити након обављеног додавања или уклањања ставке.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<short>Zatvori školjku po obavljenom dodavanju ili uklanjanju akcije</short>
+				<long>Određuje da li će se školjka zatvoriti nakon obavljenog dodavanja ili uklanjanja stavke.</long>
+			</locale>
+
+			<locale name="sv">
+				<short>Avsluta skalet när en lägg till- eller ta bort-åtgärd genomförs</short>
+				<long>Indikerar huruvida skalet ska stängas när en lägg till- eller ta bort-åtgärd genomförs.</long>
+			</locale>
+
+			<locale name="ta">
+				<short>சேர் நீக்கு செயல் முடிந்தவுடன் ஷெல் இலிருந்து வெளியேறு</short>
+				<long>சேர் அல்லது நீக்கு செயல் முடிந்தால் ஷெல் ஐ மூடுவதா என காட்டுகிறது.</long>
+			</locale>
+
+			<locale name="te">
+				<short>జతచేయు లేదా తీసివేయు చర్య జరుపబడగానే షెల్ నుండి బయటకురమ్ము</short>
+				<long>జతచేయి లేదా తీసివేయి చర్య జరుగగానే షెల్ మూయాలేమో సూచించుము.</long>
+			</locale>
+
+			<locale name="th">
+				<short>ปิดเชลล์เมื่อมีการเพิ่มหรือลบรายการ</short>
+				<long>ระบุว่าจะปิดเชลล์หรือไม่ เมื่อมีการเพิ่มหรือลบรายการ</long>
+			</locale>
+
+			<locale name="tr">
+				<short>Bir ekleme ya da çıkartma eylemi gerçekleştiğinde kabuktan çık</short>
+				<long>Ekleme ya da çıkartma eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="uk">
+				<short>Виходити з оболонки при виконанні дії видалення чи додавання</short>
+				<long>Вказує, чи закривати оболонку при виконанні дій додавання чи видалення.</long>
+			</locale>
+
+			<locale name="vi">
+				<short>Thoát khỏi trình bao khi làm hành vi thêm hay gỡ bỏ</short>
+				<long>Cho biết có nên đóng trình bao khi làm hành vi thêm hoặc gỡ bỏ hay không.</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<short>执行添加或删除操作时退出外壳</short>
+				<long>指示在执行添加或移除动作时是否关闭 Shell</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<short>增加彧移除動作進行時離開 shell</short>
+				<long>指示增加或移除動作進行時是否離開 shell。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<short>增加彧移除動作進行時離開 shell</short>
+				<long>指示增加或移除動作進行時是否離開 shell。</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_upgrade_uninstall</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_upgrade_uninstall</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Exit shell on upgrade or uninstall action performed</short>
+				<long>Indicates whether to close the shell when an upgrade or uninstall action is performed.</long>
+			</locale>
+
+			<locale name="ar">
+				<short>اخرج من الصدفة عند أداء إجراء ترقية أو إزالة</short>
+				<long>يشير إلى ما إذا كانت الصدفة ستغلق عند أداء إجراء تحديث أو إزالة تثبيت.</long>
+			</locale>
+
+			<locale name="as">
+				<short>Exit shell on upgrade or uninstall action performed</short>
+				<long>আপগ্ৰেড অথবা আন-ইনস্টল কৰ্ম সঞ্চালিত হ&apos;লে শেল বন্ধ কৰা হ&apos;ব কি না সেইটো নিৰ্দেশ কৰা হয় ।</long>
+			</locale>
+
+			<locale name="ast">
+				<short>Abandona la consola cuando se tien fecho una aición d&apos;actualización o desinstalación</short>
+				<long>Conseña si hai de zarrar la consola cuando se tien executao una aición d&apos;actualización o desinstalación.</long>
+			</locale>
+
+			<locale name="be">
+				<short>Выйсьці з абалонкі па абнаўленьні альбо выдаленьні ўстаноўленых файлаў</short>
+				
+			</locale>
+
+			<locale name="be@latin">
+				<short>Vyjdzi z abałonki paśla aktualizacyi albo adinstalavańnia</short>
+				<long>Akreślivaje, ci začyniać abałonku paśla aktualizacyi albo adinstalavańnia.</long>
+			</locale>
+
+			<locale name="bg">
+				<short>Изход от обвивката при действие за обновяване или деинсталиране</short>
+				<long>Указва дали обвивката да се затвори при действие за обновяване или деинсталиране.</long>
+			</locale>
+
+			<locale name="bn">
+				<short>উন্নীত অথবা আন-ইনস্টলের কাজ সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>উন্নীত অথবা আন-ইনস্টল কাজ সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<short>আপগ্রেড অথবা আন-ইনস্টলের কর্ম সঞ্চালিত হলে শেল থেকে প্রস্থান করা হবে</short>
+				<long>আপগ্রেড অথবা আন-ইনস্টল কর্ম সঞ্চালিত হলে শেল বন্ধ করা হবে কি না তা নির্দেশ করা হয়।</long>
+			</locale>
+
+			<locale name="ca">
+				<short>Surt de l&apos;intèrpret d&apos;ordres si es realitza una acció d&apos;actualitzar o desinstal·lar</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordres quan s&apos;ha realitzat una acció d&apos;actualitzar o desinstal·lar.</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<short>Ix de l&apos;intèrpret d&apos;ordes si es realitza una acció d&apos;actualitzar o desinstal·lar</short>
+				<long>Indica si s&apos;ha de tancar l&apos;intèrpret d&apos;ordes quan s&apos;ha realitzat una acció d&apos;actualitzar o desinstal·lar.</long>
+			</locale>
+
+			<locale name="crh">
+				<short>Güncelle ya da kaldır eylemi gerçekleştiğinde kabuktan çık</short>
+				<long>Güncelleme ya da kaldırma eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="cs">
+				<short>Ukončit shell při vykonání akce přechodu na vyšší verzi nebo odebrání</short>
+				<long>Značí, zda má být zavřen shell v případě vykonání akce přechodu na vyšší verzi nebo odebrání.</long>
+			</locale>
+
+			<locale name="da">
+				<short>Afslut kommandofortolker ved opgraderings- eller afinstalleringshandling</short>
+				<long>Angiver om kommandofortolkeren lukkes når en opgraderings- eller afinstalleringshandling udføres.</long>
+			</locale>
+
+			<locale name="de">
+				<short>Kontrollzentrum nach dem Aktualisieren oder Deinstallieren eines Objektes beenden</short>
+				<long>Legt fest, ob das Kontrollzentrum nach dem Aktualisieren oder Deinstallieren eines Objektes beendet werden soll.</long>
+			</locale>
+
+			<locale name="dz">
+				<short>ཡར་བསྐྱེད་ནི་ཡང་ན་ལཱ་འགན་འགྲུབ་ཡོད་པའི་གཞི་བཙུགས་མ་འབད་བའི་བྱ་བ་གུ་ཕྱིར་ཐོན་གྱི་ཤལ</short>
+				<long>ཡར་བསྐྱེད་ ཡང་ན་ གཞི་བཙུགས་མ་འབད་བའི་བྱ་བ་འདི་ལཱ་འགྲུབ་ཡོད་པའི་སྐབས་ལུ་ ཤལ་འདི་ཁ་བསྡམས་ནི་ཨིན་ན་མེན་ན་ བརྡ་སྟོན་འབདཝ་ཨིན། </long>
+			</locale>
+
+			<locale name="el">
+				<short>Έξοδος από το κέλυφος μετά την αναβάθμιση ή την απεγκατάσταση</short>
+				<long>Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια αναβάθμισης ή απεγκατάστασης εκτελείται.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<short>Exit shell on upgrade or uninstall action performed</short>
+				<long>Indicates whether to close the shell when an upgrade or uninstall action is performed.</long>
+			</locale>
+
+			<locale name="es">
+				<short>Abandona la consola cuando se ha realizado una acción de actualización o desinstalación</short>
+				<long>Indica si debe cerrarse la consola cuando se ha ejecutado una acción de actualización o desinstalación.</long>
+			</locale>
+
+			<locale name="et">
+				<short>Kestprogrammist väljumine uuendamise või paigaldatud komponendi eemaldamise korral</short>
+				<long>Määrab, kas pärast uuendamist või paigalduse eemaldamist kestprogramm sulgetakse või mitte.</long>
+			</locale>
+
+			<locale name="eu">
+				<short>Irten komando-lerrotik eguneratzeko edo desinstalatzeko ekintza lantzean</short>
+				<long>Eguneratzeko edo desinstalatzeko ekintza lantzen denean komando-lerroa itxiko den ala ez adierazten du.</long>
+			</locale>
+
+			<locale name="fi">
+				<short>Sulje komentotulkki päivityksen tai poiston jälkeen</short>
+				<long>Kertoo, suljetaanko komentotulkki päivityksen tai asennuksen perumisen jälkeen.</long>
+			</locale>
+
+			<locale name="fr">
+				<short>Quitte le shell sur une mise à jour ou une désinstallation</short>
+				<long>Indique s&apos;il faut fermer le shell quand une mise à jour ou une désinstallation est effectuée.</long>
+			</locale>
+
+			<locale name="gl">
+				<short>Saír do intérprete de ordes ao efectuar unha acción de actualizar ou desinstalar</short>
+				<long>Indica se se debe pechar o intérprete de ordes cando se efectúe unha acción de actualizar ou desinstalar.</long>
+			</locale>
+
+			<locale name="gu">
+				<short>સુધારો અથવા વિસ્થાપિત કરો ક્રિયા કરવા પર શેલમાંથી બહાર નીકળો</short>
+				<long>જ્યારે સુધારો કે વિસ્થાપિત કરો ક્રિયા કરવામાં આવે ત્યારે શું શેલ બંધ કરવું કે નહિં તે સૂચવે છે.</long>
+			</locale>
+
+			<locale name="he">
+				<short>Exit shell on upgrade or uninstall action performed</short>
+				<long>Indicates whether to close the shell when an upgrade or uninstall action is performed.</long>
+			</locale>
+
+			<locale name="hi">
+				<short>किए क्रिया के उन्नयन या विसंस्थापन के लिए शेल से निकलें</short>
+				<long>बताएँ कि क्या शेल को बंद करना है जब उन्नयन या विसंस्थापन की क्रिया करनी है.</long>
+			</locale>
+
+			<locale name="hu">
+				<short>Frissítés vagy eltávolítás művelet után kilépés a parancsértelmezőbe</short>
+				<long>Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy frissítés vagy eltávolítás művelet elvégzése után.</long>
+			</locale>
+
+			<locale name="id">
+				<short>Keluar shell ketika aksi peningkatan atau pencopotan telah dilakukan</short>
+				<long>Mengindikasikan apakah akan menutup shell ketika sebuah aksi upgrade atau uninstall dijalankan.</long>
+			</locale>
+
+			<locale name="it">
+				<short>Esce dalla shell se viene eseguita un&apos;azione di aggiornamento o disinstallazione</short>
+				<long>Indica se chiudere la shell quando viene eseguita un&apos;azione di aggiornamento o disinstallazione.</long>
+			</locale>
+
+			<locale name="ja">
+				<short>アップグレードまたはアンインストールを行ったらシェルを終了する</short>
+				<long>アップグレードまたはアンインストールを行ったらシェルを閉じるかどうかです。</long>
+			</locale>
+
+			<locale name="kn">
+				<short>ಅಪ್‍ಗ್ರೇಡ್ ಅಥವ ಅನ್ಇನ್‍ಸ್ಟಾಲ್ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು</short>
+				<long>ನವೀಕರಣ ಅಥವ ಅನುಸ್ಥಾಪಿಸಲಾಗಿದ್ದನ್ನು ತೆಗೆದುಹಾಕುವ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು ಮುಚ್ಚಬೇಕೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<short>업그레이드 혹은 설치 해제 동작을 수행할 때 쉘을 끝냅니다</short>
+				<long>업그레이드 혹은 설치 해제 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<short>Išeiti iš aplinkos, kai įvykdomas atnaujinimo ar išinstaliavimo veiksmas</short>
+				<long>Nurodo, ar išeiti iš aplinkos, kai įvykdomas atnaujinimo ar pašalinimo veiksmas.</long>
+			</locale>
+
+			<locale name="lv">
+				<short>Iziet no čaulas, izpildot atjaunināšanas vai atinstalēšanas darbības</short>
+				<long>Nosaka, vai jāaizver komandrinda, kad veikta atjaunināšana vai atinstalēšana.</long>
+			</locale>
+
+			<locale name="mk">
+				<short>Излези од школката при извршувањето на деството на надрадување или деинсталирање</short>
+				<long>Одредува дали да се затвори школката кога се извршува дејството за надградување или деинсталирање.</long>
+			</locale>
+
+			<locale name="ml">
+				<short>നീക്കംചെയ്യലോ പുതുക്കലോ നടത്തുമ്പോള്‍ ഷെല്‍ അടയ്ക്കുക</short>
+				<long>പുതുക്കുമ്പോളോ നീക്കം ചെയ്യുമ്പോളോ ഷെല്‍ അടയ്ക്കേണ്ടതുണ്ടോ എന്ന് കാണിക്കുന്നു.</long>
+			</locale>
+
+			<locale name="mr">
+				<short>प्रारंभ कृती सुधारीत किंवा अप्रतिष्ठापीत केल्यावर शेल पासून बाहेर पडा</short>
+				<long>सुधारीत किंवा अप्रतिष्ठापन कृती कार्यान्वीत केल्यास शेल बंद करायचे का ते दर्शवितो.</long>
+			</locale>
+
+			<locale name="nb">
+				<short>Avslutt skall når en oppgraderings- eller avinstalleringshandling utføres</short>
+				<long>Indikerer hvorvidt skallet skal lukkes når en oppgraderings- eller avinstalleringshandling utføres.</long>
+			</locale>
+
+			<locale name="ne">
+				<short>&apos;स्तरवृधि गर्नुहोस्&apos; वा &apos;स्थापना नगर्नुहोस्&apos; कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्</short>
+				
+			</locale>
+
+			<locale name="nl">
+				<short>Grafische schil verlaten als een opwaardeer- of de-installatieactie wordt uitgevoerd</short>
+				<long>Geeft aan of de grafische schil gesloten moet worden wanneer een opwaardeer- of de-installatieactie wordt uitgevoerd.</long>
+			</locale>
+
+			<locale name="nn">
+				<short>Avslutt skalet når ei oppgraderings- eller avinstalleringshandling vert utført</short>
+				<long>Viser om skalet skal lukkast når ei oppgraderings- eller avinstalleringshandling vert utført.</long>
+			</locale>
+
+			<locale name="or">
+				<short>ଉନ୍ନୟନ କିମ୍ବା ବିସ୍ଥାପନ କାର୍ଯ୍ୟକାରୀ ହେବା ସମୟରେ କୋଷରୁ ପ୍ରସ୍ଥାନ କରନ୍ତୁ</short>
+				<long>ଉନ୍ନୟନ କିମ୍ବା ବିସ୍ଥାପନ କାର୍ଯ୍ୟକୁ କାର୍ଯ୍ୟକାରୀ କରିବା ସମୟରେ କୋଷକୁ ବନ୍ଦ କରବା ଉଚିତ କି ନୁହଁ ଜଣାନ୍ତୁ।</long>
+			</locale>
+
+			<locale name="pa">
+				<short>ਅੱਪਗਰੇਡ ਜਾਂ ਅਣ-ਇੰਸਟਾਲ ਕਰਨ ਦੇ ਦੌਰਾਨ ਸ਼ੈੱਲ ਬੰਦ ਕਰੋ</short>
+				<long>ਵੇਖਾਉਦਾ ਹੈ ਕਿ ਕੀ ਅੱਪਗਰੇਡ ਜਾਂ ਅਣ-ਇੰਸਟਾਲ ਕਾਰਵਾਈ ਦੇ ਦੌਰਾਨ ਸ਼ੈੱਲ ਬੰਦ ਹੋ ਜਾਵੇ।</long>
+			</locale>
+
+			<locale name="pl">
+				<short>Zakończenie powłoki po wywołaniu aktualizacji lub odinstalowania</short>
+				<long>Określa, czy zamykać powłokę, gdy wywołana jest aktualizacja lub deinstalacja.</long>
+			</locale>
+
+			<locale name="pt">
+				<short>Sair da consola ao realizar acção de actualização ou desinstalação</short>
+				<long>Indica se fechar ou não a consola quando é realizada uma acção de actualização ou desinstalação.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<short>Sair do shell ao executar ação de atualização ou desinstalação</short>
+				<long>Fecha o shell quando uma ação de atualização ou desinstalação for executada.</long>
+			</locale>
+
+			<locale name="ro">
+				<short>Părăsește consola la execuția unei acțiuni de actualizare sau de dezinstalare</short>
+				<long>Indică dacă se va închide consola la execuția unei acțiuni de actualizare sau de dezinstalare.</long>
+			</locale>
+
+			<locale name="ru">
+				<short>Выходить из оболочки при выполнении действия обновления или удаления</short>
+				<long>Указывает, закрывать ли оболочку при выполнении действия установки или удаления.</long>
+			</locale>
+
+			<locale name="sk">
+				<short>Ukončiť shell pri vykonaní akcie aktualizácie alebo odinštalovania</short>
+				<long>Určuje, či sa má shell zavrieť keď sa vykoná akcia aktualizácie alebo odinštalovania</long>
+			</locale>
+
+			<locale name="sl">
+				<short>Končaj lupino ob posodobitvi ali odstranjevanju programov</short>
+				<long>Določa, ali naj se lupina zapre ob posodobitvi ali odstranjevanju programov.</long>
+			</locale>
+
+			<locale name="sq">
+				<short>Del nga terminali nëse kryhet një veprim përditësimi apo çinstalimi</short>
+				<long>Tregon nëse duhet mbyllur terminali kur kryhet një veprim përditësimi apo çinstalimi.</long>
+			</locale>
+
+			<locale name="sr">
+				<short>Затвори љуску по ажурирању или уклањању ставке</short>
+				<long>Одређује да ли ће се шкољка затворити након обављеног ажурирања или уклањања ставке.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<short>Zatvori ljusku po ažuriranju ili uklanjanju stavke</short>
+				<long>Određuje da li će se školjka zatvoriti nakon obavljenog ažuriranja ili uklanjanja stavke.</long>
+			</locale>
+
+			<locale name="sv">
+				<short>Avsluta skalet när en uppgraderings- eller avinstallationsåtgärd genomförs</short>
+				<long>Indikerar huruvida skalet ska stängas när en uppgradering- eller avinstallationsåtgärd genomförs.</long>
+			</locale>
+
+			<locale name="ta">
+				<short>மேம்படுத்து அல்லது நிறுவல் நீக்கு செயல் முடிந்தவுடன் ஷெல் இலிருந்து வெளியேறு</short>
+				<long>மேம்பாடு அல்லது நிறுவல் நீக்கம் செயல் நடந்தால் ஷெல் ஐ மூடுவதா என காட்டுகிறது.</long>
+			</locale>
+
+			<locale name="te">
+				<short>నవీకరణ లేదా నిర్మూలన చర్య జరుపబడగానే షెల్ నుండి బయటకురమ్ము</short>
+				<long>నవీకరించు లేదా నిర్మూలించు చర్య జరుగగానే షెల్ మూయాలేమో సూచించుము.</long>
+			</locale>
+
+			<locale name="th">
+				<short>ปิดเชลล์เมื่อมีการปรับรุ่นหรือถอดถอน</short>
+				<long>ระบุว่าจะปิดเชลล์หรือไม่ เมื่อมีการปรับรุ่นหรือถอดถอน</long>
+			</locale>
+
+			<locale name="tr">
+				<short>Güncelle ya da kaldır eylemi gerçekleştiğinde kabuktan çık</short>
+				<long>Güncelleme ya da kaldırma eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir.</long>
+			</locale>
+
+			<locale name="uk">
+				<short>Виходити з оболонки при виконанні дії оновлення та видалення</short>
+				<long>Вказує, чи закривати оболонку при виконанні дій встановлення чи видалення.</long>
+			</locale>
+
+			<locale name="vi">
+				<short>Thoát khỏi trình bao khi làm hành vi nâng cấp hoặc huỷ cài đặt</short>
+				<long>Cho biết có nên đóng trình bao khi làm hành vi nâng cấp hoặc hủy cài đặt hay không.</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<short>在升级时退出了 Shell 或执行了卸载动作</short>
+				<long>指示在执行升级或卸载动作时是否关闭 Shell</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<short>升級及移除動作進行時離開 shell</short>
+				<long>指示升級或移除動作進行時是否離開 shell。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<short>升級及移除動作進行時離開 shell</short>
+				<long>指示升級或移除動作進行時是否離開 shell。</long>
+			</locale>
+		</schema>
+	</schemalist>
+</gconfschemafile>

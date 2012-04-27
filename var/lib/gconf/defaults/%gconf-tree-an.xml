@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_quit">
+						<local_schema short_desc="Epiphany no puede surtir">
+						</local_schema>
+					</entry>
+					<entry name="disable_history">
+						<local_schema short_desc="Deshabilitar historial">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="directories">
+					<entry name="downloads_folder">
+						<local_schema short_desc="A carpeta de descargas">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Activar Javascript">
+						</local_schema>
+					</entry>
+					<entry name="allow_popups">
+						<local_schema short_desc="Permitir finestras emerchents">
+							<longdesc>Permitir que os puestos web ubran finestras nuevas fendo servir JavaScript (si JavaScript ye autivau)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Luengas">
+							<longdesc>Luengas preferidas, codigos de dos letras.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cache_size">
+						<local_schema short_desc="Tamanyo d&apos;a cache en disco">
+							<longdesc>Tamanyo d&apos;a cache en disco, en MB</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="preferences_font_language">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="remember_passwords">
+						<local_schema short_desc="Remerar claus de paso">
+						</local_schema>
+					</entry>
+					<entry name="active_extensions">
+						<local_schema short_desc="Autivar extensions">
+						</local_schema>
+					</entry>
+					<entry name="automatic_downloads">
+						<local_schema short_desc="Descargas automaticas">
+						</local_schema>
+					</entry>
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="Amostrar de perén a barra de pestanyas">
+						</local_schema>
+					</entry>
+					<entry name="url_search">
+						<local_schema short_desc="Buscar URL">
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Pachina d&apos;inicio">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

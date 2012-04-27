@@ -1,0 +1,12 @@
+Document: esound
+Title: EsounD - The Enlightened Sound Daemon
+Author: Eric 'Ricdude Mitchell
+Abstract:  The Enlightened Sound Daemon can mix several audio streams 
+ into one sound device. It will mix in pre-loaded samples, too. Want to 
+ play a frightening sound whenever the user presses the "go" button? No 
+ problem, just cache it, and play it back by sample id number. 
+Section: Sound
+
+Format: HTML
+Index: /usr/share/doc/esound-common/html/index.html
+Files: /usr/share/doc/esound-common/html/*.html

@@ -1,0 +1,11 @@
+e9136875f070c7c5d08a898e477e6b88  usr/lib/libavutil.so.49.15.0
+e73b4e24284027e58c65dd4f5a653be2  usr/lib/neon/vfp/libavutil.so.49.15.0
+5a1094a6cab548e820f21893b3887a0c  usr/lib/vfp/libavutil.so.49.15.0
+4263310f0087032d17bbf57d24cc982f  usr/share/doc/libavutil49/CREDITS
+cfb14a1b75f6825cece0d019fdde55f2  usr/share/doc/libavutil49/MAINTAINERS.gz
+5d4f3da091ed2960228e255391b6553c  usr/share/doc/libavutil49/README.Debian.gz
+5445eeb1b70893e88726cf7d9a0da1d7  usr/share/doc/libavutil49/TODO
+dce496c66d57f840c9f4ffdbbccb5ecd  usr/share/doc/libavutil49/changelog.Debian.gz
+f46207c2c8d152b571a05e44522aa6ab  usr/share/doc/libavutil49/changelog.gz
+a1dcc5382322f9332809f502cf7509c9  usr/share/doc/libavutil49/copyright
+de8424ac0480d7d4aaacb64568ab542f  usr/share/lintian/overrides/libavutil49

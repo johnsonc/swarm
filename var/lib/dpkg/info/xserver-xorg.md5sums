@@ -1,0 +1,8 @@
+b2728dc6950483642bef60e4fa38a930  usr/bin/X
+050bbd6b05a74f9ac4f8410682686883  usr/bin/dexconf
+a53bb2c9ffb680291848543b019bfc32  usr/share/doc/xserver-xorg/NEWS.Debian.gz
+bb3cd18be13d18fa8f0f822ca1f5247f  usr/share/doc/xserver-xorg/changelog.gz
+1d277cd63da4d9cdd569462c567acb11  usr/share/doc/xserver-xorg/copyright
+01cd6d6e8318071ebf7344c209664b93  usr/share/doc/xserver-xorg/examples/xorg.conf
+1fc41e33a66b77dcf1fb5298e69d2e4d  usr/share/lintian/overrides/xserver-xorg
+545397f06fa5fa76a70b3f9705df2653  usr/share/man/man1/dexconf.1.gz

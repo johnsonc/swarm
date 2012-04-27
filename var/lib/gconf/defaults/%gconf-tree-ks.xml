@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="thumbnailers">
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="पीडीएफ कागज़ात खत्तर निशान कमांड।">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पीडीएफयूक थंबनेल चालू कर।">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="पीडीएफ कागज़ात खत्तर निशान कमांड।">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पीडीएफयूक थंबनेल चालू कर।">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="पीडीएफ कागज़ात खत्तर निशान कमांड।">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पीडीएफयूक थंबनेल चालू कर।">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="yelp">
+				<entry name="fixed_font">
+					<local_schema short_desc="बराबर टैक्सट खत्तर: फॉन्ट">
+						<longdesc>बराबर खजरूक टैक्सट खत्तर: फॉन्ट</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="variable_font">
+					<local_schema short_desc="टैक्सट खत्तर: फॉन्ट">
+						<longdesc>वेरेबल खजरूक टैक्सट खत्तर: फॉन्ट</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="सिस्टम फॉन्ट करिव इस्तेमाल">
+						<longdesc>सिस्टम खत्तर: करिव डिफाल्ट फोंटुक इस्तेमाल</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_caret">
+					<local_schema short_desc="केरेट करिव इस्तेमाल">
+						<longdesc>पेज वुच्छन विज किबोड केरेट इस्तिमाल</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="कागजात लिखव बिना रुकावटि">
+						<longdesc>कागजात लिखव बिना रुकावटि यिथकंय कापी करुन या परंट</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="eog">
+				<dir name="full_screen">
+					<entry name="seconds">
+						<local_schema short_desc="अगली छवि दिखाने से पहले सेकण्डों में देरी">
+							<longdesc>0 से अधिक मूल्य यह निर्धारित करता है कि एक छवि इतने सेकण्डों तक स्क्रीन पर रहेगा, जब तक कि अगला स्वचालित रूप से दिखेगा. शून्य स्वचालित ब्राउज़िंग को अक्षम कर देता है.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="upscale">
+						<local_schema short_desc="प्रारंभ में ही 100% से अधिक ज़ूम स्वीकारें">
+							<longdesc>यदि इसे गलत नियत किया जाता है तो छवियों को स्क्रीन के अनुरूप फैलाया नहीं जाएगा.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="loop">
+						<local_schema short_desc="छवि अनुक्रम में लूप करें">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="पारदर्शी रंग">
+							<longdesc>यदि पारदर्शी कुंजी में रंग मूल्य है, तब यह कुंजी निर्धारित करती है कि कौन सा रंग पारदर्शिता को प्रदर्शित करने में उपयोग में लिया जाएगा.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="पारदर्शिता सूचक">
+							<longdesc>निर्धारित करता है कि किस प्रकार पारदर्शिता दिखाई जाएगी. वैध मूल्य हैं CHECK_PATTERN, COLOR तथा NONE. यदि COLOR चुना जाता है, तब trans_color कुंजी निर्धारित करता है उपयोग में आने वाला रंग मूल्य.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="इंटरपोलेट छवि">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

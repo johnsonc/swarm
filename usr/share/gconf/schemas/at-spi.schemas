@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/gnome_settings_daemon/gtk-modules/gail:atk-bridge</key>
+      <applyto>/apps/gnome_settings_daemon/gtk-modules/gail:atk-bridge</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>/desktop/gnome/interface/accessibility</default>
+      <locale name="C">
+        <short>GTK+ modules for accessibility support</short>
+        <long>This key determines the GTK+ modules to load for accessibility
+support.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>وحدات جتك+ لدعم الإتاحة</short>
+        <long>يحدد هذا المفتاح وحدات جتك+ التي ستُحمّل لدعم الإتاحة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>অভিগমৰ সমৰ্থনৰ কাৰণে GTK+ অংশ</short>
+        <long>অভিগমৰ সমৰ্থনৰ কাৰণে এই চাবিয়ে তুলিব লগা GTK+ অংশ নিৰ্ধাৰণ কৰে ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Módulos GTK+ pal sofitu d&apos;accesibilidá</short>
+        <long>Esta clave determina los módulos GTK+ que cargar pal sofitu d&apos;accesibilidá.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Модули на GTK+ за поддръжка на достъпност</short>
+        <long>Този ключ определя кои модули на GTK+ за достъпност да бъдат заредени.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>প্রবেশযোগ্যতা সমর্থনের জন্য GTK+ মডিউল</short>
+        <long>প্রবেশযোগ্যতা সমর্থনের জন্য লোড করতে এই কী দ্বারা GTK+ মডিউল নির্ধারণ করা হয়।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>বিশেষ ব্যবহারের জন্য চিহ্নিত GTK+ মডিউল</short>
+        <long>বিশেষ ব্যবহারের জন্য লোড করার উদ্দেশ্যে চিহ্নিত GTK+ মডিউলগুলি এই কি দ্বারা চিহ্নিত করা হয়।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mòduls del GTK+ per permetre l&apos;ús de l&apos;accessibilitat</short>
+        <long>Aquesta clau determina els mòduls del GTK+ que es carregaran per permetre l&apos;ús de l&apos;accessibilitat.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Mòduls del GTK+ per permetre l&apos;ús de l&apos;accessibilitat</short>
+        <long>Esta clau determina els mòduls del GTK+ que es carregaran per permetre l&apos;ús de l&apos;accessibilitat.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>İrişilebilirlik destegi içün GTK+ modülleri</short>
+        <long>Bu tuş irişilebilirlik destegi içün yüklenecek GTK+ modüllerini belgiley</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Moduly GTK+ sloužící k podpoře přístupnosti</short>
+        <long>Tento klíč způsobí, že budou nahrány moduly GTK+ sloužící k podpoře přístupnosti.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Modiwlau GTK+ sydd ar gyfer cymorth hygyrchedd</short>
+        <long>Mae&apos;r allwedd hon yn pennu pa modiwlau cymorth hygyrchedd GTK+ sydd am gael eu llwytho.</long>
+      </locale>
+
+      <locale name="da">
+        <short>GTK+-moduler til tilgængeligheds-understøttelse</short>
+        <long>Denne nøgle bestemmer hvilke GTK+-moduler der skal indlæses til tilgængeligheds-understøttelse</long>
+      </locale>
+
+      <locale name="de">
+        <short>GTK+-Module für Barrierefreiheits-Unterstützung</short>
+        <long>Legt fest, welche GTK+-Module für Barrierefreiheits-Unterstützung geladen werden sollen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αρθρώματα GTK+ για υποστήριξη προσιτότητας</short>
+        <long>Αυτό το κλειδί καθορίζει τα αρθρώματα GTK+ που θα φορτωθούν για την υποστήριξη προσιτότητας.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>GTK+ 𐑥𐑪𐑛𐑿𐑤𐑟 𐑓𐑹 𐑨𐑒𐑕𐑧𐑕𐑩𐑚𐑦𐑤𐑦𐑑𐑰 𐑕𐑩𐑐𐑹𐑑</short>
+        <long>𐑞𐑦𐑕 𐑒𐑰 𐑛𐑦𐑑𐑻𐑥𐑦𐑯𐑟 𐑞 GTK+ 𐑥𐑪𐑛𐑿𐑤𐑟 𐑑 𐑤𐑴𐑛 𐑓𐑹 𐑨𐑒𐑕𐑧𐑕𐑩𐑚𐑦𐑤𐑦𐑑𐑰 𐑕𐑩𐑐𐑹𐑑.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>GTK+ modules for accessibility support</short>
+        <long>This key determines the GTK+ modules to load for accessibility support.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Módulos GTK+ para el soporte de accesibilidad</short>
+        <long>Esta clave determina los módulos GTK+ que cargar para el soporte de accesibilidad.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Hõlbustuste toetamiseks määratud GTK+ moodulid</short>
+        <long>Selle võtmega määratakse hõlbustuste toetamiseks laaditavaf GTK+ moodulid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>GTK+ moduluak erabilgarritasunaren euskarriarentzako</short>
+        <long>Gako honek kargatuko diren GTK+ moduluak zehazten ditu erabilgarritasunaren euskarriarentzako.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Esteettömyystuen GTK+-modulit</short>
+        <long>Tämä avain määrittää esteettömyystuelle ladattavat GTK+-modulit.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Modules GTK+ pour la prise en charge de l&apos;accessibilité</short>
+        <long>Cette clé indique les modules GTK+ à charger pour prendre en charge l&apos;accessibilité.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Modúil GTK+ le haghaidh tacaíochta inrochtaineachta</short>
+        <long>Socraíonn an eochair seo na modúil GTK+ le luchtú le haghaidh tacaíochta inrochtaineachta</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Módulos GTK+ para a asistencia de accesibilidade</short>
+        <long>Esta chave determina que módulos GTK+ se cargarán para a asistencia de accesibilidade.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>સુલભતા આધાર માટે GTK+ મોડ્યુલો</short>
+        <long>સુલભતા આધાર માટે આ કી GTK+ મોડ્યુલો નક્કી કરે છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>GTK+ modules for accessibility support</short>
+        <long>This key determines the GTK+ modules to load for accessibility support.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>पहुँच समर्थन के लिए GTK+ मॉड्यूल</short>
+        <long>यह कुंजी पहुँच समर्थन लोड करने के लिए GTK+ मॉड्यूल निर्धारित करता है.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>GTK+ modulok az akadálymentesítés támogatásához</short>
+        <long>Ez a kulcs meghatározza az akadálymentesítés támogatásához betöltendő GTK+ modulokat.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Modul GTK+ untuk dukungan aksesibilitas</short>
+        <long>Kunci ini menentukan modul GTK+ yang akan dimuat untuk dukungan aksesibilitas.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Moduli GTK+ per supporto accessibilità</short>
+        <long>Questa chiave determina i moduli GTK+ da caricare per il supporto all&apos;accessibilità.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>アクセシビリティをサポートする GTK+ のモジュール</short>
+        <long>アクセシビリティをサポートするために実行時に読み込む GTK+ のモジュール名を指定します。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>GTK+ ಘಟಕಗಳಿಗಾಗಿನ ನಿಲುಕಣಾ ಬೆಂಬಲ</short>
+        <long>ಈ ಕೀಲಿಯು  ನಿಲುಕಣಾ ಬೆಂಬಲಕ್ಕಾಗಿ ಲೋಡ್‌ ಮಾಡಬೇಕಿರುವ GTK+ ಘಟಕಗಳನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>접근성 지원 기능 GTK+ 모듈</short>
+        <long>이 키는 접근성 지원 기능에 읽어들일 GTK+ 모듈을 지정합니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>GTK+ moduliai pritaikymo neįgaliesiems palaikymui</short>
+        <long>Šis raktas nustato GTK+ modulius, įkraunamus pritaikymo neįgaliesiems palaikymui.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>GTK+ moduļi pieejamības nodrošināšanai</short>
+        <long>Šī vērtība nosaka, kādus GTK+ moduļus ielādēt pieejamības nodrošināšanai.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സാമീപ്യത പിന്തുണയ്ക്കുള്ള GTK+ ഘടകങ്ങള്‍</short>
+        <long>സാമീപ്യത പിന്തുണയ്ക്കുള്ള GTK+ ഘടകങ്ങള്‍ ഈ കീ നിര്‍ണ്ണയിക്കുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Саадгүй байдлын дэмжилтэд зориулсан GTK+ модуль</short>
+        <long>Саадгүй байдлын дэмжилтэд зориулсан ямар GTK+ модуль ачаалагдах эсэхийг тогтооно уу.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>प्रवेशजोगी समर्थन करीता GTK+ विभाग</short>
+        <long>ही कि प्रवेशजोगी समर्थन करीता दाखल करण्याजोगी GTK+ विभाग ओळखते.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>GTK+-moduler for tilgjengelighet</short>
+        <long>Denne nøkkelen bestemmer GTK+ moduler som skal lastes for tilgjengelighet.</long>
+      </locale>
+
+      <locale name="nds">
+        <short>GTK+ Module för Togangelikheitsunnerstütten</short>
+        <long>Düsser Slötel het Utwarken op de GTK+ Module, bi&apos;m Laden vun de Togangelikheitsunnerstütten.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>GTK+-modules voor toegankelijkheidsondersteuning</short>
+        <long>Deze sleutel bepaalt de te laden GTK+-modules voor toegankelijkheidsondersteuning.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>GTK+-modular for tilgjengestøtte</short>
+        <long>Denne nøkkelen avgjer kva GTK+-modular som skal lastast for tilgjengestøtte.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଅଭିଗମ୍ୟତା ସମର୍ଥନ ପାଇଁ GTK+ ଏକକାଂଶଗୁଡ଼ିକ</short>
+        <long>ଅଭିଗମ୍ୟତା ସମର୍ଥନ ଧାରଣ କରିବା ପାଇଁ ଏହି କି GTK+ ଏକକାଂଶଗୁଡ଼ିକୁ ନିର୍ଦ୍ଧାରଣ କରିଥାଏ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਅਸੈੱਸਬਿਲਟੀ ਸਹਿਯੋਗ ਲਈ GTK+ ਮੋਡੀਊਲ</short>
+        <long>ਇਹ ਕੁੰਜੀ ਪਛਾਣ ਕਰਦੀ ਹੈ ਕਿ ਕੀ GTK+ ਮੋਡੀਊਲ ਅਸੈਸਬਿਲਟੀ ਸਹਿਯੋਗ ਲੋਡ ਕਰੇ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Moduły GTK+ do obsługi ułatwień dostępu</short>
+        <long>Ten klucz określa moduły GTK+ do wczytania do obsługi ułatwień dostępu.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Módulos GTK+ de suporte à acessibilidade</short>
+        <long>Esta chave determina os módulos GTK+ a ler para suportar a acessibilidade.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Módulos de GTK+ para suporte a acessibilidade</short>
+        <long>Esta chave determina quais módulos GTK+ carregar para dar suporte a acessibilidade.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Module GTK+ pentru accesibilitate</short>
+        <long>Această cheie desemnează modulele GTK+ de încărcat pentru accesibilitate</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Модули GTK+ для поддержки специальных возможностей</short>
+        <long>Этот ключ определяет, загружаются ли модули GTK+ для поддержки специальных возможностей.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Moduly GTK+ pre podporu prístupnosti</short>
+        <long>Tento kľúč určuje moduly GTK+, ktoré majú byť zavedené na podporu prístupnosti.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Moduli GTK+ za podporo dostopnosti</short>
+        <long>Ključ določa module GTK+, ki se morajo naložiti pred uporabo podpore dostopnosti.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Modulët GTK+ për suportin e açesibilitetit</short>
+        <long>Ky kyç përcakton modulët GTK+ për tu ngarkuar për suportin e açesibilitetit.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>ГТК+ модули подршке за приступачност</short>
+        <long>Овај кључ одређује ГТК+ модуле који се учитавају ради подршке за приступачност.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>GTK+ moduli podrške za pristupačnost</short>
+        <long>Ovaj ključ određuje GTK+ module koji se učitavaju radi podrške za pristupačnost.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>GTK+-moduler för hjälpmedelsstöd</short>
+        <long>Denna nyckel bestämmer vilka GTK+-moduler som ska läsas in för hjälpmedelsstöd.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>அணுகல் சேவைக்கு GTK+ தொகுதிகள்</short>
+        <long>இந்த விசை GTK+ தொகுதிகளை ஏற்றுவதற்கான அணுகல் சேவை.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ఏక్సెస్‌బిలిటి మద్దతు కొరకు GTK+ మాడ్యూళ్ళు</short>
+        <long>ఏక్సిస్‌బిలిటి మద్దతుకొరకు లొడవ్వుటకు ఈ కీ GTK+ మాడ్యూళ్ళను నిర్ధారణచేస్తుంది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>มอดูล GTK+ สำหรับการรองรับเทคโนโลยีสิ่งอำนวยความสะดวก</short>
+        <long>คีย์นี้กำหนดมอดูล GTK+ ที่จะโหลดเพื่อรองรับเทคโนโลยีสิ่งอำนวยความสะดวก</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişilebilirlik desteği için GTK+ modülleri</short>
+        <long>Bu anahtar erişilebilirlik desteği için GTK+ modüllerinin yüklenilmesine karar verir.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Підтримка модулів допоміжних можливостей GTK+</short>
+        <long>Цей ключ визначає модулі GTK+ для підтримки допоміжних можливостей.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Mô-đun GTK+ hỗ trợ khả năng truy cập</short>
+        <long>Khóa này quyết định việc nạp các module để hỗ trợ khả năng truy cập.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>提供辅助功能支持的 GTK+ 模块</short>
+        <long>该键值决定 GTK+ 模块是否载入辅助功能支持。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>無障礙支援的 GTK+ 模組</short>
+        <long>這個鍵值決定 GTK+ 模組是否載入對無障礙功能的支援。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>無障礙支援的 GTK+ 模組</short>
+        <long>這個鍵值決定 GTK+ 模組是否載入對無障礙功能的支援。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/interface/at-spi-corba</key>
+      <applyto>/desktop/gnome/interface/at-spi-corba</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable CORBA-based AT-SPI infrastructure</short>
+        <long>In combination with /desktop/gnome/interface/accessibility, this key is needed to enable the CORBA-based AT-SPI infrastructure if the CORBA-based AT-SPI infrastructure has been relocated.  It is ignored if the CORBA-based AT-SPI infrastructure has not been relocated.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>فعّل بنية AT-SPI المبنية على CORBA&gt;</short>
+        
+      </locale>
+
+      <locale name="ast">
+        <short>Activar la infraestructura de AT-SPI basada en CORBA</short>
+        <long>En combinación con /desktop/gnome/interface/accessibility, esta clave necesítase p&apos;activar la infraestructura AT-SPI basada en CORBA si ésta se reallugó. Va inoráse si la infraestructura AT-SPI basada en D-Bus nun se reallugó.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Включване на инфраструктурата за AT-SPI базирана на CORBA</short>
+        <long>В комбинация с „/desktop/gnome/interface/accessibility“ ключът е необходим за включване на инфраструктурата за AT-SPI базирана на CORBA, ако тя е била преместена. Ако не е била, ключът се пренебрегва.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>CORBA-ভিত্তিক AT-SPI অবকাঠামো সক্রিয় করা হবে</short>
+        <long>/desktop/gnome/interface/accessibility এর সাথে সম্পৃক্ততা হিসেবে, CORBA-ভিত্তিক AT-SPI অবকাঠামো সক্রিয় করতে এই কী প্রয়োজন। অন্যথায়, COBRA ভিত্তিক AT-SPI অবকাঠামো ব্যবহৃত হবে। যদি COBRA ভিত্তিক AT-SPI ব্যবহার করা না হয় তবে অগ্রাহ্য করা হবে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita la infraestructura del servei d&apos;accessibilitat (AT-SPI) basada en CORBA</short>
+        <long>Aquesta clau és necessària en combinació amb /desktop/gnome/interface/accessibility per habilitar la infraestructura del servei d&apos;accessibilitat (AT-SPI) basada en CORBA si s&apos;ha reubicat. S&apos;ignorarà si la infraestructura del servei d&apos;accessibilitat (AT-SPI) basada en CORBA no s&apos;ha reubicat.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Habilita la infraestructura del servei d&apos;accessibilitat (AT-SPI) basada en CORBA</short>
+        <long>Esta clau és necessària en combinació amb /desktop/gnome/interface/accessibility per habilitar la infraestructura del servei d&apos;accessibilitat (AT-SPI) basada en CORBA si s&apos;ha reubicat. S&apos;ignorarà si la infraestructura del servei d&apos;accessibilitat (AT-SPI) basada en CORBA no s&apos;ha reubicat.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>CORBA-esaslı AT-SPI altyapısını qabilleştir</short>
+        <long>CORBA-esaslı AT-SPI altyapısı kene qonumlandırılğan olsa, bu anahtar /desktop/gnome/interface/accessibility ile beraber, CORBA-esaslı AT-SPI altyapısını qabilleştirmek içün kereklidir. CORBA-esaslı AT-SPI altyapısı kene qonumlandırılmağan olsa, ihmal etilir.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit infrastrukturu AT-SPI založenou na standardu CORBA</short>
+        <long>Tento klíč spolu s /desktop/gnome/interface/accessibility vám umožní použití infrastruktury AT-SPI založené na standardu CORBA, pokud byla přemístěna. Pokud přemístěna nebyla, bude klíč ignorován.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Galluogi&apos;r strwythur mewnol AT-SPI sydd wedi&apos;i seilio ar CORBA</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Aktivér CORBA-baseret AT-SPI-infrastruktur</short>
+        <long>Sammen med /desktop/gnome/interface/accessibility, kræves denne nøgle for at aktivere den CORBA-baserede ATI-SPI-infrastruktur, hvis den CORBA-baserede ATI-SPI-infrastruktur er blevet flyttet. Den ignoreres hvis den CORBA-baserede AT-SPI-infrastruktur ikke er blevet flyttet.</long>
+      </locale>
+
+      <locale name="de">
+        <short>CORBA-basierte AT-SPI-Infrastruktur aktivieren</short>
+        <long>Dieser Schlüssel wird in Verbindung mit /desktop/gnome/interface/accessibility zur Aktivierung der CORBA-basierten AT-SPI-Infrastruktur benötigt, falls jene Infrastruktur verschoben wurde. Der Schlüssel wird ignoriert, wenn die auf CORBA basierte AT-SPI-Infrastruktur nicht verschoben wurde.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποίηση της βασισμένη σε CORBA υποδομή AT-SPI</short>
+        <long>Σε συνδυασμό με το /desktop/gnome/interface/accessibility, αυτό το κλειδί είναι απαραίτητο για την ενεργοποίηση της , βασισμένης σε CORBA, υποδομής AT-SPI εάν η βασισμένη σε CORBA, υποδομή AT-SPI έχει μεταφερθεί σε νέα θέση. Θα αγνοηθεί εάν η βασισμένη σε CORBA υποδομή AT-SPI δεν έχει μετακινηθεί.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑦𐑯𐑱𐑚𐑩𐑤 CORBA-𐑚𐑱𐑕𐑑 AT-SPI 𐑦𐑯𐑓𐑮𐑩𐑕𐑑𐑮𐑩𐑒𐑗𐑻</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable CORBA-based AT-SPI infrastructure</short>
+        <long>In combination with /desktop/gnome/interface/accessibility, this key is needed to enable the CORBA-based AT-SPI infrastructure if the CORBA-based AT-SPI infrastructure has been relocated. It is ignored if the CORBA-based AT-SPI infrastructure has not been relocated.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar la infraestructura de AT-SPI basada en CORBA</short>
+        <long>Esta clave es necesaria junto con /desktop/gnome/interface/accessibility para activar la infraestructura AT-SPI basada en CORBA si ésta se ha reubicado. De otra forma se usará la infraestructura AT-SPI basada en D-Bus.</long>
+      </locale>
+
+      <locale name="et">
+        <short>CORBA-l põhineva AT-SPI infrastruktuuri lubamine</short>
+        <long>Seda võtit on koos /desktop/gnome/interface/accessibility võtmega vaja CORBA-l põhineva AT-SPI infrastruktuuri kasutamiseks, kui viimane on ümber paigutatud. Seda eiratakse, kui CORBA-l põhinev AT-SPI infrastruktuuri ei ole ümberpaigutatud.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu CORBAn oinarritutako AT-SPI azpiegitura</short>
+        <long>Gako hau behar da, /desktop/gnome/interface/accessibility-rekin konbinatuta, CORBAn oinarritutako AT-SPI azpiegitura gaitzeko (baldin eta CORBAn oinarritutako AT-SPI azpiegitura lekuz aldatu bada). Ezikusi egingo zaio CORBAn oinarritutako AT-SPI azpiegitura ez bada lekuz aldatu.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Ota käyttöön CORBA-pohjainen AT-SPI-infrastruktuuri</short>
+        <long>Yhdessä avaimen /desktop/gnome/interface/accessibility kanssa tätä avainta käytetään ottamaan käyttöön CORBA-pohjainen AT-SPI-infrastruktuuri mikäli CORBA-pohjainen AT-SPI-infrastruktuuri on uudelleensijoitettu. Tämän avaimen arvolla ei ole merkitystä mikäli CORBA-pohjaista AT-SPI-infrastruktuuria ei ole uudelleensijoitettu.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer l&apos;infrastructure AT-SPI basée sur CORBA</short>
+        <long>En lien avec /desktop/gnome/interface/accessibility, cette clé est nécessaire pour activer l&apos;infrastructure AT-SPI basée sur CORBA dans le cas où celle-ci a été déplacée. Sinon, cette clé est ignorée.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Activar a infraestrutura AT-SPI baseada en CORBA</short>
+        <long>En combinación con /desktop/gnome/interface/accessibility, esta chave necesítase para activar a infraestrutura AT-SPI baseada en CORBA se o AT-SPI baseado en CORBA fora movido de lugar. Isto ignórase no caso de que a infraestrutura AT-SPI baseada en CORBA fora movida de lugar.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Enable CORBA-based AT-SPI infrastructure</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>CORBA-alapú AT-SPI infrastruktúra engedélyezése</short>
+        <long>A /desktop/gnome/interface/accessibility kulccsal együtt ez a kulcs a CORBA-alapú AT-SPI infrastruktúra engedélyezéséhez szükséges, ha azt áthelyezték. Ellenkező esetben figyelmen kívül marad.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita l&apos;infrastruttura AT-SPI basata su CORBA</short>
+        <long>In combinazione con /desktop/gnome/interface/accessibility, questa chiave è necessaria per abilitare l&apos;infrastruttura AT-SPI basata su CORBA, qualora l&apos;infrastruttura AT-SPI basata su CORBA sia stata trasferita. Viene ignorata se tale infrastruttura non è stat trasferita.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>CORBA 기반 AT-SPI 인프라를 사용</short>
+        <long>이 키는 CORBA 기반 AT-SPI 인프라의 위치가 바뀌었을 때 이 인프라를 사용하는데 필요합니다. /desktop/gnome/interface/accessibility 키와 함께 사용합니다. CORBA 기반 AT-SPI 인프라의 위치가 바뀌지 않으면 이 키는 사용하지 않습니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įjungti CORBA pagrįstą AT-SPI infrastruktūrą</short>
+        <long>Šis raktas, kartu su /desktop/gnome/interface/accessibility, yra reikalingas norint įjungti CORBA pagrįstą AT-SPI infrastruktūrą, kai CORBA pagrįsta AT-SPI infrastruktūra buvo perkelta. Šio rakto nepaisoma, jei CORBA pagrįsta AT-SPI infrastruktūra nebuvo perkelta.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Ieslēgt AT-SPI infrastruktūru uz CORBA pamata</short>
+        <long>Šī atslēga, kopā ar /desktop/gnome/interface/accessibility, ir vajadzīga uz CORBA bāzētas AT-SPI infrestruktūras ieslēgšanai, ja tā tikusi pārnesta uz citu vietu (ja tā nav pārnesta, šī atslēga tiek ignorēta).</long>
+      </locale>
+
+      <locale name="mn">
+        <short>CORBA-суурьт AT-SPI дэд бүтцийг идэвхжүүлэх</short>
+        <long>Хэрэв дэд бүтэц шилжсэн бол, энэ түлхүүр /desktop/gnome/interface/accessibility-н хамт CORBA-суурьт AT-SPI дэд бүтцийг идэвхжүүлэхэд хэрэгтэй. Хэрэв CORBA-суурьт AT-SPI дэд бүтэц шилжээгүй бол үл хэрэгсэнэ.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Aktiver CORBA-basert AT-SPI-infrastruktur</short>
+        <long>Denne nøkkelen kreves sammen med /desktop/gnome/interface/accessibility for å aktivere den CORBA-baserte AT-SPI-infrastrukturen hvis har blitt omplassert. Ellers vil AT-SPI-infrastruktur basert på D-Bus bli brukt. </long>
+      </locale>
+
+      <locale name="nl">
+        <short>CORBA-gebaseerd AT-SPI-infrastructuur inschakelen</short>
+        <long>In combinatie met ‘/desktop/gnome/interface/accessibility’ is deze sleutel nodig om de CORBA-gebaseerde AT-SPI-infrastructuur in te schakelen indien de CORBA-gebaseerde AT-SPI-infrastructuur is verplaatst. Deze sleutel wordt genegeerd als de CORBA-gebaseerde AT-SPI-infrastructuur niet verplaatst is.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Slå på CORBA-basert AT-SPI-infrastruktur</short>
+        <long>I kombinasjon med /dekstop/gnome/interface/accessibility trenst denne nøkkelen for å slå på CORBA-basert AT-SPI-infrastruktur om den CORBA- baserte AT-SPI-infrastrukturen har vorte flytta. Han vert ignorert om den CORBA-baserte AT-SPI-infrastrukturen ikkje har vorte flytta.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>CORBA-ਆਧਾਰਿਤ AT-SPI ਢਾਂਚਾ ਚਾਲੂ ਕਰੋ</short>
+        <long>/desktop/gnome/interface/accessibility ਦੇ ਨਾਲ ਇਹ ਕੁੰਜੀ ਨੂੰ CORBA-ਅਧਾਰਿਤ AT-SPI ਢਾਂਚੇ ਨੂੰ ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਹੈ, ਜੇ CORBA-ਅਧਾਰਿਤ AT-SPI ਢਾਂਚੇ ਨੂੰ ਮੁੜ-ਸਥਿਤ ਕੀਤਾ ਗਿਆ। ਇਸ ਨੂੰ ਅਣਡਿੱਠਾ ਕੀਤਾ ਜਾਵੇਗਾ, ਜੇ CORBA-ਅਧਾਰਿਤ AT-SPI ਢਾਂਚੇ ਨੂੰ ਬਦਲਿਆ ਨਾ ਗਿਆ ਹੋਵੇ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Włączenie infrastruktury AT-SPI opartej na CORBA</short>
+        <long>Ten klucz jest wymagany w połączeniu z kluczem /desktop/gnome/interface/accessibility, aby włączyć infrastrukturę AT-SPI opartą na CORBA, jeśli została ona przeniesiona. Zostaje zignorowany, jeśli nie została ona przeniesiona.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar a infrastrutura AT-SPI baseada em CORBA</short>
+        <long>Em combminação com /desktop/gnome/interface/accessibility, esta chave é  necessária para activar a infrastrutura AT-SPI baseada em CORBA Caso o AT-SPI baseado em CORBA tenha sido realocado. É ignorada caso o AT-SPI baseado em CORBA não tenha sido realocado.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Ativar infra-estrutura AT-SPI baseada no CORBA</short>
+        <long>Esta chave é necessária em combinação com /desktop/gnome/interface/accessibility para habilitar a infra-estrutura AT-SPI baseada no CORBA se esta for realocada. Será ignorada se a infra-estrutura AT-SPI baseada no CORBA não for realocada.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Activează infrastructura AT-SPI bazată pe CORBA</short>
+        <long>În combinație cu /desktop/gnome/interface/accessibility, această cheie este necesară pentru a activa infrastructura AT-SPI bazată pe CORBA dacă aceasta a fost relocată. Cheia este ignorată dacă infrastructura AT-SPI bazată pe CORBA nu a fost relocată.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Включить AT-SPI инфраструктуру на основе CORBA</short>
+        <long>В сочетании с /desktop/gnome/interface/accessibility этот ключ необходим, чтобы включить AT-SPI инфраструктуру на основе CORBA если AT-SPI инфраструктура на основе CORBA была перемещена. Он игнорируется, если AT-SPI инфраструктура на основе CORBA не была перемещена.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť infraštruktúru AT-SPI založenú na technológii CORBA</short>
+        <long>Tento kľúč, v kombinácii s /desktop/gnome/interface/accessibility, je potrebný na povolenie infraštruktúry AT-SPI založenej na technológii CORBA, ak infraštruktúra AT-SPI založená na technológii CORBA bola premiestnená. Je to ignorované, ak infraštruktúra AT-SPI založená na technológii CORBA nebola premiestnená.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Omogoči CORBA AT-SPI infrastrukturo</short>
+        <long>V povezavi z /desktop/gnome/interface/accessibility je ključ namenjen omogočanju CORBA AT-SPI infrastrukture, v kolikor je CORBA AT-SPI infrastruktura premaknjena. Možnost bo prezrta, če CORBA AT-SPI infrastruktura ni premaknjena.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Укључи АТ-СПИ структуру базирану на КОРБИ</short>
+        <long>У комбинацији са /desktop/gnome/interface/accessibility, овај кључ укључује АТ-СПИ структуру базирану на КОРБИ, уколико је она премештена. У супротном, ово се занемарује.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Uključi AT-SPI strukturu baziranu na KORBI</short>
+        <long>U kombinaciji sa /desktop/gnome/interface/accessibility, ovaj ključ uključuje AT-SPI strukturu baziranu na KORBI, ukoliko je ona premeštena. U suprotnom, ovo se zanemaruje.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera CORBA-baserad AT-SPI-infrastruktur</short>
+        <long>I kombination med /desktop/gnome/interface/accessibility så behövs denna nyckel för att aktivera den CORBA-baserade AT-SPI-infrastrukturen om den CORBA-baserade AT-SPI-infrastrukturen har flyttats. Den ignoreras om den CORBA-baserade AT-SPI-infrastrukturen inte har flyttats.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கார்பா அடிப்படையிலான அட்ஸ்பி கட்டுமானத்தை செயல்படுத்துக.</short>
+        
+      </locale>
+
+      <locale name="th">
+        <short>เปิดใช้โครงสร้างพื้นฐาน AT-SPI แบบ CORBA</short>
+        <long>คีย์นี้ใช้ประกอบกับคีย์ /desktop/gnome/interface/accessibility โดยถ้าโครงสร้างพื้นฐาน AT-SPI แบบ CORBA มีการย้ายตำแหน่ง ก็ต้องระบุคีย์นี้เพื่อเปิดใช้โครงสร้างพื้นฐาน AT-SPI แบบ CORBA แต่ถ้าโครงสร้างพื้นฐาน AT-SPI แบบ CORBA ไม่มีการย้ายตำแหน่ง คีย์นี้ก็จะไม่มีผล</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Увімкнути основану на CORBA інфраструктуру AT-SPI</short>
+        <long>У комбінації з /desktop/gnome/interface/accessibility, цей ключ потрібен для вмикання основаної на CORBA інфраструктури AT-SPI. Він ігнорується, якщо інфраструктуру AT-SPI на основі CORBA не було переміщено.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bật hạ tầng AT-SPI dựa trên CORBA</short>
+        <long>Kết hợp với /desktop/gnome/interface/accessibility, khoá này yêu cầu để hiệu lực hạ tầng AT-SPI dựa trên CORBA nếu hạ tầng đó đã định vị lại. Nếu không, khoá này bị lờ đi.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>打开基于 CORBA 的 AT-SPI</short>
+        
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用以 CORBA 為基礎的 AT-SPI 基礎架構</short>
+        <long>為了結合 /desktop/gnome/interface/accessibility，這個鍵值是在以 CORBA 為基礎的 AT-SPI 基礎架構重新分配時要啟用它所需的。如果沒有重新分配則會忽略它。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用以 CORBA 為基礎的 AT-SPI 基礎架構</short>
+        <long>為了結合 /desktop/gnome/interface/accessibility，這個鍵值是在以 CORBA 為基礎的 AT-SPI 基礎架構重新分配時要啟用它所需的。如果沒有重新分配則會忽略它。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

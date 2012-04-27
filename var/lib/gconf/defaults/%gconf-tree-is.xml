@@ -1,0 +1,2254 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="tabs_open_position">
+						<local_schema short_desc="Hvar staðsetja eigi nýlega opnaða flipa í vafragluggum.">
+							<longdesc>Ef þetta er stillt á „after_current_tab“, þá munu nýir flipar birtast fyrir aftan núverandi flipann. Ef þetta er still á „end“, þá birtast nýir flipar á endanum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_backup_files">
+						<local_schema short_desc="Hvort sýna eigi öryggisafrit af skrám">
+							<longdesc>Ef þetta er stillt sem satt, munu öryggisafrit eins og þau sem stofnuð eru af Emacs verða sýnd. Eins og er munu einungis skrár með tilda skráarendingunni (~) verða skilgreindar sem öryggisafrit.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Hvort sýna eigi faldar skrár">
+							<longdesc>Ef þetta er stillt sem satt, munu faldar skrár verða sýndar í skráarstjóra. Faldar skrár eru annaðhvort punktaskrár eða skráðar í .hidden skrá möppunar.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Gluggastjóri">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="Hljóð fyrir atburði">
+							<longdesc>Á að spila hljóð við atburði notenda.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Virkja ESD">
+							<longdesc>Virjka hljóð þjón við ræsingu</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Stærð bendils">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Þema bendils">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Letur bendils">
+								<longdesc>Heiti leturs í bendlinum. Þetta gildi er einungis sent áfram til X þjóns við ræsingu hverrar setu, þannig að breytingar í miðri setu munu ekki hafa áhrif fyrr en næst þegar þú skráir þig inn.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Finna bendil">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Tvísmellitími">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Skynjunarmörk dreginna hluta">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Skynjunarmörk hreyfingar">
+								<longdesc>Fjarlægð í myndeiningum sem bendillinn þarf að fara áður en hröðun hefst. Gildið -1 er sjálfgefna kerfisgildið</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Einfalt músarklikk">
+								<longdesc>Margföldunarstuðull músarhröðunar. Gildið -1 er sjálfgefna kerfisgildið.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Einfalt músarklikk">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Staða músartakka">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Skráarnafn fyrir sérvalda lyklaborðsbjöllu">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>möguleg gildi eru &quot;á&quot;, &quot;af&quot; og &quot;sérsniðið&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Gerð skuggalits">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Auka litur">
+							<longdesc>Hægri eða neðsti litur þegar &apos;gradients&apos; eru teiknaðir eða heill litur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Aðallitur">
+							<longdesc>Vinstri eða efsti litur þegar &apos;gradients&apos; eru teiknaðir eða heill litur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Ógagnsæi myndar">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Skráarnafn myndar">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Valmöguleikar myndar">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Teikna bakgrunn skjáborðs">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Skráartáknmyndaþema">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Afvirkja ef stutt er á tvo hnappa samtímis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="lágmarks bil í millisekúndum">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Hjálpartólalisti">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Hvort lyklaborðslæsing sé virk eða ekki">
+							<longdesc>Hvort lyklaborðslæsing sé virk eða ekki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Leyfa frestun pásu">
+							<longdesc>Hvort fresta megi pásugluggunum eða ekki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Pásutími">
+							<longdesc>Lengd pásu í mínútum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Vélritunartími">
+							<longdesc>Lengd lotu við lyklaborðið áður en pása hefst.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Vafri skilur fjarstýringu">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Vafrari þarf skél">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Sjálfgefinn vafrari">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Ræsiviðföng">
+								<longdesc>Viðföng notuð til þess að ræsa forrit í skel skilgreind með &apos;exec&apos; lykli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Skeljarforrit">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Upplýsingastika til hægri">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Nota annað letur">
+							<longdesc>Hvort nota eigi sérvalið letur í gtk+ forritum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Jafnbreitt letur">
+							<longdesc>Heiti jafnbreiðs leturs sem á að nota í hlutum eins og skjáhermum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM stöðu stíll">
+							<longdesc>Heiti GTK+ inngangsaðgerðarinnar Status Style sem gtk+ notar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM Preedit stíll">
+							<longdesc>Heiti GTK+ inngangsaðgerðarinnar Preedit Style sem gtk+ notar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Sjálfgefið letur">
+							<longdesc>Heiti sjálfgefna letursins sem gtk+ notar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ þema">
+							<longdesc>Grunnheiti sjálfgefinnar þemu gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ þema">
+							<longdesc>Grunnheiti sjálfgefinnar þemu gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Táknmyndaþema">
+							<longdesc>Táknmyndaþema sem nota á í spjaldinu, nautilus of svo framvegis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Blikktíðni bendils">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Bendill blikkar">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Stærð smátáknmynda á tólstiku">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Hægt er að flytja tólstiku">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Hægt er að flytja valmyndastiku">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Smátáknmyndir á valmynd">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stíll tólstiku">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Getur breytt flytilyklum">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Hægt er að rífa valmyndir af">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Virkja hreyfimyndir">
+							<longdesc>Stillir hvort birta skuli hreyfimyndir. Ath: Þetta er víðvær stilling sem hefur áhrif á gluggastjórann, spjaldið og svo framvegis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Virkja aukið aðgengi">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Nota engin útvær smámyndatól">
+							<longdesc>Hakaðu við þetta til þess að koma í veg fyrir að öll útvær smámyndatól verði notuð, hvernig sem hvert þeirra er stillt.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-font-otf">
+						<entry name="enable">
+							<local_schema short_desc="Á að smámynda OpenType letur">
+								<longdesc>Ef satt verða OpenType letur smámynduð.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Smámyndaskipun fyrir OpenType-letur">
+								<longdesc>Stilltu þennan lykil við skipunina sem notuð er til að smámynda OpenType letur.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-font-pcf">
+						<entry name="enable">
+							<local_schema short_desc="Á að smámynda PCF letur">
+								<longdesc>Ef satt verða PCF letur smámynduð.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Smámyndaskipun fyrir PCF-letur">
+								<longdesc>Stilltu þennan lykil við skipunina sem notuð er til að smámynda PCF letur.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-font-type1">
+						<entry name="enable">
+							<local_schema short_desc="Á að smámynda Type1 letur">
+								<longdesc>Ef satt verða Type1 letur smámynduð.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Smámyndaskipun fyrir Type1-letur">
+								<longdesc>Stilltu þennan lykil við skipunina sem notuð er til að smámynda Type1 letur.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-font-ttf">
+						<entry name="enable">
+							<local_schema short_desc="Á að smámynda TrueType letur">
+								<longdesc>Ef satt verða TrueType letur smámynduð.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Smámyndaskipun fyrir TrueType-letur">
+								<longdesc>Stilltu þennan lykil við skipunina sem notuð er til að smámynda TrueType letur.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="netstatus_applet">
+				<entry name="config_tool">
+					<local_schema short_desc="Netkerfisstillingatól">
+						<longdesc>Þessi lykill skilgreinir nafn netkerfisstillingatólsins sem ætti að vera kallað á þegar ýtt er á &quot;Stillingar&quot; takkann í eiginleikasvarglugganum. Ef stillingatólið getur tekið við stika viðmótsins fyrir stillingar getur þú notað %i í strengnum og því verður skipt út fyrir viðmótsnafnið áður en kallað er á stillingatólið. Til dæmis, network-admin í gnome-system-tool tekur við nafni viðmótsins í gegnum --configure stika. Þannig getur þú sett gildi þessa lykils sem: &quot;network-admin --configure %i&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="prefs">
+					<entry name="interface">
+						<local_schema short_desc="Netkerfisviðmót">
+							<longdesc>Netkerfisviðmótið er vaktað af netkerfisvaktaranum.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="totem">
+				<entry name="window_on_top">
+					<local_schema short_desc="Hvort aðalglugginn á að halda sér efst">
+						<longdesc>Hvort aðalglugginn á að haldast yfir öllum hinum.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="audio_output_type">
+					<local_schema short_desc="Tegund hljóðúttaks sem á að nota">
+						<longdesc>Tegund hljóðs: &quot;0&quot; fyrir víðóma, &quot;1&quot; fyrir 4ra rása úttak,&quot;2&quot; fyrir 5.0 rása úttak, &quot;3&quot; fyrir 5.1 rása úttak, &quot;4&quot; fyrir AC3gegnumstreymi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Hvort á að heimila aflúsun fyrir afspilunarvélina">
+					</local_schema>
+				</entry>
+				<entry name="deinterlace">
+					<local_schema short_desc="Virkja aftvinnun">
+					</local_schema>
+				</entry>
+				<entry name="shuffle">
+					<local_schema short_desc="Stokkun">
+					</local_schema>
+				</entry>
+				<entry name="repeat">
+					<local_schema short_desc="Endurtekning">
+					</local_schema>
+				</entry>
+				<entry name="auto_resize">
+					<local_schema short_desc="Endurstilla stærð tjalds þegar skrá er hlaðið inn">
+					</local_schema>
+				</entry>
+				<entry name="saturation">
+					<local_schema short_desc="Mettun myndar">
+					</local_schema>
+				</entry>
+				<entry name="hue">
+					<local_schema short_desc="Litblær myndar">
+					</local_schema>
+				</entry>
+				<entry name="contrast">
+					<local_schema short_desc="Birtuskil myndar">
+					</local_schema>
+				</entry>
+				<entry name="brightness">
+					<local_schema short_desc="Lýsing myndar">
+					</local_schema>
+				</entry>
+				<entry name="visual">
+					<local_schema short_desc="Heiti íforrits fyrir sjónræna effekta">
+					</local_schema>
+				</entry>
+				<entry name="show_vfx">
+					<local_schema short_desc="Sýna sjónræna effekta þegar engin mynd er">
+						<longdesc>Sýna sjónræna effekta þegar hljóðskrá er spiluð.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-screensaver">
+				<entry name="lock_dialog_theme">
+					<local_schema short_desc="Ásýnd fyrir læsingarsvarglugga">
+						<longdesc>Ásýnd sem skal nota fyrir læsingarsvarglugga.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="user_switch_enabled">
+					<local_schema short_desc="Leyfa að skipta um notenda">
+						<longdesc>Stillið þetta á TRUE til að bjóða uppá möguleikan að skipta um notenda.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="logout_command">
+					<local_schema short_desc="Útskráningarskipun">
+						<longdesc>Fyrirskipunin til að nota þegar á afskráningartakkan er smellt. Þessi fyrirskipun ætti bara að afskrá notandan án þess að leyfa honum að gera neitt. Þessi lykill er bara notaður er &quot;logout_enable&quot; er stillt á TRUE.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="logout_delay">
+					<local_schema short_desc="Tími áður en möguleiki á útskráningu">
+						<longdesc>Mínútur eftir kveikt er á skjáhvíluni áður en notandanum er leyft að afsrká sig. Þessi lykill er bara notaður ef &quot;logout_enable&quot; lykillinn er stilltur á TRUE.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="logout_enabled">
+					<local_schema short_desc="Leyfa að skrá sig út">
+						<longdesc>Stillið þetta á TRUE til að bjóða uppá möguleika í innskráningar glugganum um að afskrá þig eftir bið. Biðin er stillt í &quot;logout_delay&quot; lyklinum.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="embedded_keyboard_command">
+					<local_schema short_desc="Skipun fyrir innbyggt lyklaborð">
+						<longdesc>Skipunin sem mun vera keyrð ef &quot;embedded_keyboard_enabled&quot; lykillin er stilltur sem TRUE til þess að byggja inn lyklaborðssmáforrit í gluggann. ÞEssi skipun ætti að fullbúa XEMBED tengingarviðmót og skrifa út XID glugga á staðlað frálag.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="embedded_keyboard_enabled">
+					<local_schema short_desc="Leyfa innbyggt lyklaborð í gluggann">
+						<longdesc>Stilla þetta til TRUE til að leyfa innbyggt lyklaborð í gluggann þegar reynt er að aflæsa. &quot;keyboard_command&quot; lykillinn verður að vera stilltur með viðeigandi skipun.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="lock_delay">
+					<local_schema short_desc="Tími áður en er læst">
+						<longdesc>Mínútur eftir kveikt er á skjáhvíluni áður en skjánum er læst.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="cycle_delay">
+					<local_schema short_desc="Tími áður en útliti er breytt">
+						<longdesc>Mínútur á milli þess sem skipt er um ásýnd skjáhvílunnar.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="power_management_delay">
+					<local_schema short_desc="Tími áður en orku-stjórnunargrunnur gangsettur">
+						<longdesc>Sekúndur af bið þar til orku-stjórn er gert viðvart. Þessi lykill er stilltur og haldið við af orku-stjórnunargeranda setunnar.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="idle_delay">
+					<local_schema short_desc="Tími áður en seta er talin iðjulaus">
+						<longdesc>Mínútur af bið þar til seta er talin iðjulaus.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="themes">
+					<local_schema short_desc="Ásýnd skjáhvílu">
+						<longdesc>Þessi lykill inniheldur listann af þemum sem skjáhvílan notar. Hann er ekki notaður þegar &quot;mode&quot; lykillinn er &quot;blank-only&quot;, ætti að innihalda nafnið af þemannum sem á að nota þegar &quot;mode&quot; er stillt á &quot;single&quot;, og ætti að innihalda lista af þemum þegar &quot;mode&quot; er stillt á &quot;random&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Val á ásýnd skjáhvílu">
+						<longdesc>Valningakostur sem skjáhvílan notar. Má vera &quot;blank-only&quot; til þess að nota skjáhvílu án þema, &quot;single&quot; til þess að nota skjáhvílu með bara eina þemu (valin með &quot;themes&quot; lykilinnum), eða &quot;random&quot; til þess að velja þemu af handahófi þegar skjáhvílan byrjar.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="lock_enabled">
+					<local_schema short_desc="Læsa þegar hún er virk">
+						<longdesc>Stillið þetta á TRUE til að læsa skjánum þegar skjáhvílan er virkt.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="idle_activation_enabled">
+					<local_schema short_desc="Virkja þegar seta er iðjulaus">
+						<longdesc>Stilla þetta til TRUE til að kveikja á skjáhvílu þegar seta er iðjulaus.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-power-manager">
+				<dir name="ui">
+					<entry name="icon_policy">
+						<local_schema short_desc="Hvenær sýna á tilkynningarteikn">
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Hvort nota á hljóð">
+							<longdesc>Hvort hljóð sé notað þegar aflið er varhugavert lítið, eða þegar hömlunarbeiðnir hafa stöðvað stenfuaðgerðir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="timeout">
+					<entry name="sleep_display_battery">
+						<local_schema short_desc="Tími þar til skjárinn fer í hvíld notuð er rafhlaða">
+							<longdesc>Fjöldi sekúndna sem tölva sem notar rafhlöðu þarf að vera óvirk áður en skjárinn fer að sofa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_display_ac">
+						<local_schema short_desc="Tími þar til skjárinn fer í hvíld þegar notuð er veituspenna">
+							<longdesc>Fjöldi sekúndna þar til skjárinn fer að sofa þegar tölvan notar veituspennu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_computer_ac">
+						<local_schema short_desc="Tími þar til tölvan fer í hvíld þegar notuð er veituspenna">
+							<longdesc>Fjöldi sekúndna sem tölva sem notar veituspennu þarf að vera óvirk áður en hún fer að sofa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_computer_battery">
+						<local_schema short_desc="Tími þar til tölvan fer í hvíld þegar notuð er rafhlaða">
+							<longdesc>Fjöldi sekúndna sem tölva sem notar rafhlöðu þarf að vera óvirk áður en hún fer að sofa.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thresholds">
+					<entry name="time_action">
+						<local_schema short_desc="Tíminn sem er eftir þegar gripið er til aðgerða">
+							<longdesc>Tími í sekúndum sem hleðslan sem eftir er á rafhlöðunni endist þegar gripið aðgerða vegna varhugaverðrar stöðu. Aðeins gilt þegar nota_tíma_sem_stefnu er gilt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="time_critical">
+						<local_schema short_desc="Tíminn sem er eftir þegar staðan er varhugaverð">
+							<longdesc>Tími í sekúndum sem hleðslan sem eftir er á rafhlöðunni endist þegar talið er að staðan sé varhugaverð. Aðeins gilt þegar nota_tíma_sem_stefnu er gilt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="time_low">
+						<local_schema short_desc="Tíminn sem er eftir þegar staðan er lág">
+							<longdesc>Tími í sekúndum sem hleðslan sem eftir er á rafhlöðunni endist þegar talið er að staðan sé lág. Aðeins gilt þegar nota_tíma_sem_stefnu er gilt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="percentage_action">
+						<local_schema short_desc="Prósentu aðgerð framkvæmd">
+							<longdesc>Prósentugildi hleðslu rafhlöðunnar þegar gripið er til aðgerða vegna varhugaverðar stöðu. Aðeins gilt þegar nota_tíma_sem_stefnu er ógilt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="percentage_critical">
+						<local_schema short_desc="Prósentugildi talið varhugavert">
+							<longdesc>Prósentugildi hleðslu rafhlöðunnar sem talin er varhugaverð staða. Aðeins gilt þegar nota_tíma_sem_stefnu er ógilt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="percentage_low">
+						<local_schema short_desc="Prósentugildi talið lágt">
+							<longdesc>Prósentugildi hleðslu rafhlöðunnar sem talið er lágt. Aðeins gilt þegar nota_tíma_sem_stefnu er ógilt.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="statistics">
+					<entry name="data_max_time">
+						<local_schema short_desc="Mesti tími sem sýndur eru á grafinu">
+							<longdesc>Stærsta tímabil sem sýnt er á x-ás grafsins.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="notify">
+					<entry name="low_power">
+						<local_schema short_desc="Láta vita um lítið afl">
+							<longdesc>Hvort tilkynna á að hleðsla rafhlöðu er að verða lítil.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_failed">
+						<local_schema short_desc="Tilkynna þegar klikkar að svæfa">
+							<longdesc>Ef að tilkynning ætti að vera sýnd eftir að það klikkar að setja tölvuna í dvala eða svefn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fully_charged">
+						<local_schema short_desc="Tilkynna þegar rafhlaða er fullhlaðin">
+							<longdesc>Hvort tilkynna á að rafhlaða sé fullhlaðin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="discharging">
+						<local_schema short_desc="Tilkynna þegar veituspenna er aftengd">
+							<longdesc>Hvort tilkynna á notandanum að veituspennan sé aftengd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="low_capacity">
+						<local_schema short_desc="Hvort sýna eigi viðvörunina um lélega afkastagetu á biluðum rafhlöðum.">
+							<longdesc>Hvort sýna eigi viðvörunina um lélega afkastagetu á biluðum rafhlöðum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="perhaps_recall">
+						<local_schema short_desc="Hvort sýna á munaða rafhlöðuviðvörun fyrir bilaða rafhlöðu">
+							<longdesc>Hvort sýna á munaða rafhlöðuviðvörun fyrir bilaða rafhlöðu. Stillið þetta á ósatt aðeins ef vitað er að rafhlaðan er í lagi.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="disks">
+					<entry name="spindown_enable_battery">
+						<local_schema short_desc="Hvort lágafls hamur ætti að vera virkjaður þegar notuð er rafhlaða">
+							<longdesc>Hvort virkja á lágaflsham kerfisins þegar notuð er fartölvurafhlaða.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="spindown_enable_ac">
+						<local_schema short_desc="Hvort lágafls hamur ætti að vera virkjaður þegar notuð er veituspenna">
+							<longdesc>Hvort virkja á lágaflsham kerfisins þegar notuð veituspenna.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lock">
+					<entry name="gnome_keyring_hibernate">
+						<local_schema short_desc="Læsa GNOME lyklakippunni þegar vélin er svæfð">
+						</local_schema>
+					</entry>
+					<entry name="gnome_keyring_suspend">
+						<local_schema short_desc="Læsa GNOME lyklakippunni þegar vélin er svæfð">
+						</local_schema>
+					</entry>
+					<entry name="hibernate">
+						<local_schema short_desc="Læsa skjá í dvala">
+						</local_schema>
+					</entry>
+					<entry name="suspend">
+						<local_schema short_desc="Læsa skjá í hvíld">
+						</local_schema>
+					</entry>
+					<entry name="blank_screen">
+						<local_schema short_desc="Læsa skjá þegar dekktur">
+						</local_schema>
+					</entry>
+					<entry name="use_screensaver_settings">
+						<local_schema short_desc="Nota læsistillingar gnome-skjáhvílunnar">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="check_type_cpu">
+						<local_schema short_desc="Athuga álag á örgjörva fyrir svefn">
+							<longdesc>Hvort álag á örgjörva  sé kannað áður en gripið er til óvirkniaðgerða.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_time_for_policy">
+						<local_schema short_desc="Hvort nota eigi tilkynningar byggðar á tíma">
+							<longdesc>Hvort nota eigi tilkynningar byggðar á tíma. Ef ekki virkjað þá er notaðar prósentubreytingar, sem gæti hjálpað með bilaða ACPI BIOSa.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="buttons">
+					<entry name="lid_ac">
+						<local_schema short_desc="Virkni lokunar fatölvuloks þegar notuð er veituspenna">
+							<longdesc>Aðgerð sem grípa á til þegar loki fartölvunnar er lokað og hún er að nota veituspennu. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „dekkja‟ og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="lid_battery">
+						<local_schema short_desc="Virkni lokunar fartölvuloks þegar notuð er rafhlaða">
+							<longdesc>Aðgerð sem grípa á til þegar loki fartölvunnar er lokað og hún er að nota rafhlöðu. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „dekkja‟ og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="power">
+						<local_schema short_desc="Virkni aflhnapps">
+							<longdesc>Aðgerð sem grípa á til þegar  þrýst er á aflhnapp. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „gagnvirkt‟, „ganga frá‟  og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hibernate">
+						<local_schema short_desc="Virkni dvalahnapps">
+							<longdesc>Aðgerð sem grípa á til þegar  þrýst er á dvalahnapp. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „gagnvirkt‟, „ganga frá‟  og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="suspend">
+						<local_schema short_desc="Virkni hvíldarhnapps">
+							<longdesc>Aðgerð sem grípa á til þegar  þrýst er á hvíldarhnapp. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „gagnvirkt‟, „ganga frá‟  og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="backlight">
+					<entry name="brightness_ac">
+						<local_schema short_desc="Birta vökvakristalsskjás þegar notuð er veituspenna">
+							<longdesc>Birtustig skjás þegar veituspenna er notuð. Möguleg gildi eru á milli 0 og 100.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="dpms_method_battery">
+						<local_schema short_desc="Aðferð til að dekkja skjá þegar notuð er rafhlaða">
+						</local_schema>
+					</entry>
+					<entry name="dpms_method_ac">
+						<local_schema short_desc="Aðferð til að dekkja skjá þegar notuð er veituspenna">
+						</local_schema>
+					</entry>
+					<entry name="idle_dim_ac">
+						<local_schema short_desc="Dimma skjá eftir tímabil óvirkni þegar notuð er veituspenna">
+							<longdesc>Hvort dimma á skjáinn til að spara rafmagn þegar tölvan er í tómgangi og notuð er veituspenna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="idle_dim_battery">
+						<local_schema short_desc="Dimma skjá eftir tímabil óvirkni þegar notuð er rafhlaða">
+							<longdesc>Hvort dimma á skjáinn til að spara rafmagn þegar tölvan er í tómgangi og notuð er rafhlaða.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="idle_brightness">
+						<local_schema short_desc="Birtustig skjás þegar í tómgangi">
+							<longdesc>Þetta er birtustig skjásins á ferðatölvunni þegar seta er í tómgangi. Aðeins gilt þegar nota_tíma_sem_stefnu er gilt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="battery_reduce">
+						<local_schema short_desc="Minnka baklýsingu þegar vélin er ekki í samband">
+							<longdesc>Hvort deyfa eigi birtustig skjásins þegar tölvan er að nota rafhlöðuna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable">
+						<local_schema short_desc="Leyfa breytingu á styrk baklýsingar">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="actions">
+					<entry name="low_ups">
+						<local_schema>
+							<longdesc>Aðgerð sem grípa á til þegar afl UPS er lágt. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „ganga frá‟ og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="critical_ups">
+						<local_schema short_desc="Aðgerð vegna varhugavert lágrar stöðu UPS">
+							<longdesc>Aðgerð sem grípa á til þegar afl UPS er varhugavert lágt. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „ganga frá‟ og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_type_ac">
+						<local_schema short_desc="Hvort eigi að leggja í dvala, hvíla eða gera ekkert þegar óvirk.">
+							<longdesc>Til hverskonar svefns á að leggjast þegar tölvan er óvirk. Möguleg gildi eru „í dvala‟, „í hvíld‟ eða „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_when_closed_battery">
+						<local_schema short_desc="Hvort rafhlöðuatburður á að eiga sér stað þegar lokið er lokað og veituspenna aftengd">
+							<longdesc>Hvort virkni tengd fartölvuloki þegar rafhlaða er í notkun á að eiga sér stað (td ,Hvíla þegar lok lokast&apos;) þegar lokið er þegar lokað og veituspennan er aftengd síðar</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="critical_battery">
+						<local_schema short_desc="Aðgerð vegna varhugavert lágrar hleðslu rafhlöðu">
+							<longdesc>Aðgerð sem grípa á til þegar afl rafhlöðu er varhugavert lágt. Möguleg gildi eru „leggja í dvala‟, „hvíla‟, „ganga frá‟ og „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sleep_type_battery">
+						<local_schema short_desc="Hvort eigi að leggja í dvala, hvíla eða gera ekkert þegar óvirk.">
+							<longdesc>Til hverskonar svefns á að leggjast þegar tölvan er óvirk. Möguleg gildi eru „í dvala‟, „í hvíld‟ eða „ekkert‟.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="diskload_color2">
+						<local_schema short_desc="Bakgrunnslitur fyrir disknotkunargraf">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color1">
+						<local_schema short_desc="Litur diskskriftagrafs">
+						</local_schema>
+					</entry>
+					<entry name="diskload_color0">
+						<local_schema short_desc="Litur disklestragrafs">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color1">
+						<local_schema short_desc="Bakgrunnslitur álagsgrafs">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color0">
+						<local_schema short_desc="Litur meðalálagsgraf">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color1">
+						<local_schema short_desc="Bakgrunnslitur síðuskrárgrafs">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color0">
+						<local_schema short_desc="Litur fyrir graf notendatengdrar síðuskrárnotkunar">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color3">
+						<local_schema short_desc="Bakgrunnslitur netkerfisgrafs">
+						</local_schema>
+					</entry>
+					<entry name="memload_color4">
+						<local_schema short_desc="Bakgrunnslitur minnisgrafs">
+						</local_schema>
+					</entry>
+					<entry name="memload_color3">
+						<local_schema short_desc="Litur flýtisminnisgrafs">
+						</local_schema>
+					</entry>
+					<entry name="memload_color2">
+						<local_schema short_desc="Litur biðminnisgrafs">
+						</local_schema>
+					</entry>
+					<entry name="memload_color1">
+						<local_schema short_desc="Litur grafs fyrir samnýtt minni">
+						</local_schema>
+					</entry>
+					<entry name="memload_color0">
+						<local_schema short_desc="Litur fyrir graf notendatengdrar minnisnotkunar">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color4">
+						<local_schema short_desc="Bakgrunnslitur fyrir örgjörvagraf">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color3">
+						<local_schema short_desc="Litur fyrir graf fyrir hluti tengda bið á örgjörvaverkum">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color2">
+						<local_schema short_desc="Litur fyrir graf fyrir hluti nice-tengdar örgjörvavirkni">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color1">
+						<local_schema short_desc="Litur fyrir graf stýriskerfistengdra örgjörvavirkni">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color0">
+						<local_schema short_desc="Litur fyrir graf notendatengdra örgjörvavirkni">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Grafstærð">
+							<longdesc>Fyrir láréttar stikur er þetta breidd grafanna í punktum. Fyrir lóðréttar stikur er þetta hæð grafanna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Uppfærslutíðni smáforrits í millisekúndum">
+						</local_schema>
+					</entry>
+					<entry name="view_diskload">
+						<local_schema short_desc="Virkja disknotkunargraf">
+						</local_schema>
+					</entry>
+					<entry name="view_loadavg">
+						<local_schema short_desc="Virkja meðalálagsgraf">
+						</local_schema>
+					</entry>
+					<entry name="view_swapload">
+						<local_schema short_desc="Virkja minnisvíxlunarnotkunargraf">
+						</local_schema>
+					</entry>
+					<entry name="view_netload">
+						<local_schema short_desc="Virkja netálagsgraf">
+						</local_schema>
+					</entry>
+					<entry name="view_memload">
+						<local_schema short_desc="Virkja minnisnotkunargraf">
+						</local_schema>
+					</entry>
+					<entry name="view_cpuload">
+						<local_schema short_desc="Virkja álagsgraf örgjörva">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="geyes">
+				<dir name="prefs">
+					<entry name="theme_path">
+						<local_schema short_desc="Mappan þar sem þemað er staðsett">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="show_text">
+						<local_schema short_desc="Sýna tíma/prósentu merkingu">
+							<longdesc>0 fyrir enga merkingu, 1 fyrir prósentu og 2 fyrir tíma þar til lokið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_battery">
+						<local_schema short_desc="Sýna lárétta rafhlöðu">
+							<longdesc>Sýna hefðbundnu, láréttu rafhlöðuna á skjástikunni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_status">
+						<local_schema short_desc="Lóðrétt (lítil) rafhlaða">
+							<longdesc>Sýna uppréttu, minni rafhlöðuna á skjástikunni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drain_from_top">
+						<local_schema short_desc="Tæma að ofan">
+							<longdesc>Sýnir rafhlöðumælinn tæmast ofan frá. Aðeins hægt í venjulegum rafhlöðu-sýniham</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="Bípa fyrir viðvaranir">
+							<longdesc>Gefa hljóðmerki þegar varúðartilkynning er birt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="Tilkynning um fulla hleðslu">
+							<longdesc>Láta notanda vita þegar rafhlaða er fullhlaðin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="Tilkynning um litla hleðslu">
+							<longdesc>Láta notanda vita þegar rafhlaða er næstum því tóm.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="red_value_is_time">
+						<local_schema short_desc="Vara við litlum tíma, frekar en lágu prósentugildi">
+							<longdesc>Nota gildið sem er skilgrient í rautt_gildi sem tíma þar til lokið til þess að sýna varúðarsvarglugga frekar en prósentu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="Rautt ástand">
+							<longdesc>Staða rafhlöðunnar þar sem hún verður rauð. Einnig það gildi þar sem viðvörun um lága hleðslu rafhlöðu birtist.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="mixer_applet">
+				<dir name="prefs">
+					<entry name="vol">
+						<local_schema short_desc="Vistaði hljóðstyrk til að endursetja við ræsingu">
+						</local_schema>
+					</entry>
+					<entry name="mute">
+						<local_schema short_desc="Vistaði þagnarstöðu">
+						</local_schema>
+					</entry>
+					<entry name="channel">
+						<local_schema short_desc="Rás stýrt af smáforriti. Aðeins fyrir OSS uppsetningu">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema short_desc="Tímarammi til að kanna stöðu tengipunkts">
+							<longdesc>Tími í sekúndum milli stöðuuppfærslna</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="Listi tiltækra spjalda">
+							<longdesc>Listi strengja sem innihalda tiltækt litaval</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="current_list">
+						<local_schema short_desc="Tákn sýnd við ræsingu forrits">
+							<longdesc>Strengurinn sem notandinn valdi síðast þegar forritið var notað. Þessi strengur verður sýndur þegar notandinn ræsir forritið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_list">
+						<local_schema short_desc="ÚRELT - Tákn sýnd við ræsingu forrits">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="cpufreq-applet">
+				<dir name="prefs">
+					<entry name="show_text_mode">
+						<local_schema short_desc="Hverskonar texta á að sýna (ef textahamur er virkjaður).">
+							<longdesc>Gildið 0 merkir að sýna skuli tíðni örgjörva, 1 að sýna skuli tíðni og einingar, og 2 að sýna skuli prósentur í stað tíðni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_mode">
+						<local_schema short_desc="Hamur til að sýna örgjörvanotkun">
+							<longdesc>Gildið 0 þýðir að sýna skuli forritið í grafískum ham (aðeins myndir), 1 að sýna skuli forritð í textaham (engar myndir) og 2 að sýna skuli forrtið í bæði grafískum og textaham.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cpu">
+						<local_schema short_desc="Örgjörvi sem vakta á">
+							<longdesc>Velja hvaða örgjörva skal fylgst með. Ef tölvan hefur aðeins einn örgjörva þá er óþarfi að breyta þessu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="settings">
+					<entry name="confirm_deletion">
+						<local_schema short_desc="Hvort eigi að biðja um staðfestingu þegar miða er eytt">
+							<longdesc>Tómum minnisblöðum er alltaf eytt án þess að krefast samþykkis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="force_default">
+						<local_schema short_desc="Hvort neyða eigi sjálfgefinn lit og stafaletur á alla miða">
+							<longdesc>Ef þessi valmöguleiki er valinn verða sérsniðnir litir og letur sem hafa verið tengd ákveðnum miðum hunsuð.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_font">
+						<local_schema short_desc="Hvort nota eigi sjálfgefið kerfisletur">
+							<longdesc>Ef þessi valmöguleiki er ekki valinn er hægt að nota sérsniðið stafaletur sem sjálfgefið letur fyrir alla minnismiða.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_color">
+						<local_schema short_desc="Hvort nota eigi sjálfgefin kerfislit">
+							<longdesc>Ef þessi valmöguleiki er ekki valinn er hægt að nota sérsniðinn lit sem sjálfgefinn lit fyrir alla minnismiða.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Dagsetningarsnið í titli miðans">
+							<longdesc>Sjálfgefin stilling er að minnismiðar fá dagsetninguna í dag sem titil þegar þeir eru búnir til. Þetta snið er notað, allt sem strftime() ræður við að þátta er gilt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Læsingarstaða minnismiðanna">
+							<longdesc>Tilgreinir hvort minnismiðarnir eru læstir (óbreytanlegir) eða ekki</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sticky">
+						<local_schema short_desc="Líming minnismiðanna við vinnusvæði">
+							<longdesc>Tilgreinir hvort minnismiðarnir eru sjáanlegir á ÖLLUM vinnusvæðum skjáborðsins eða ekki</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="defaults">
+					<entry name="font">
+						<local_schema short_desc="Sjálfgefið stafaletur nýrra miða">
+							<longdesc>Sjálfgefið letur fyrir ný klísturminnisblöð. Þetta ætti að vera Pango leturnafn, til dæmis &quot;Sans Italic 10&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_color">
+						<local_schema short_desc="Sjálfgefinn litur stafaleturs">
+							<longdesc>Sjálfgefinn litur stafaleturs á nýjum minnismiðum. Þetta ætti að vera með html hex sniði, eins og til dæmis &quot;#000000&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="color">
+						<local_schema short_desc="Sjálfgefinn litur nýrra miða">
+							<longdesc>Sjálfgefinn litur nýrra minnismiða. Þetta ætti að vera með html hex sniði, eins og til dæmis &quot;#30FF50&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="height">
+						<local_schema short_desc="Sjálfgefin hæð nýrra miða">
+							<longdesc>Sjálfgefin hæð nýrra minnismiða í punktum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="Sjálfgefin breidd nýrra miða">
+							<longdesc>Sjálfgefin breidd nýrra minnismiða í punktum.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="text_ellipsis_limit">
+						<local_schema short_desc="Mörk þrípunkts í texta">
+							<longdesc>Heiltalan tilgreinir hvernig hlutar af of löngu skráarnafni skuli vera skipt út fyrir þrípunkt á skjáborðinu. Ef talan er stærri en núll þá mun skráarheitið ekki vera lengra en sá fjöldi lína. Ef talan er 0 eða smærri þá verður lengd skráarheita engum mörkum bundið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="network_icon_name">
+						<local_schema short_desc="Heiti á táknmynd netþjónsins">
+							<longdesc>Þessu skráarheiti er hægt að breyta ef þú vilt fá sérsniðið skráarheiti fyrir netþjóna á skjáborðinu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Heiti táknmyndar fyrir ruslamöppu á skjáborði">
+							<longdesc>Þetta nafn má stilla ef þú vilt sérsniðið nafn fyrir táknmynd ruslafötunnar á skjáborðinu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Heiti táknmyndar fyrir heimamöppu á skjáborði">
+							<longdesc>Þessu skráarheiti er hægt að breyta ef þú vilt fá sérsniðið skráarheiti fyrir heimsvæðismöppu þína á skjáborði.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="Heiti táknmyndar fyrir tölvuna á skjáborði">
+							<longdesc>Þessu skráarheiti er hægt að breyta ef þú vilt fá sérsniðið skráarheiti fyrir tölvutáknið á skjáborðinu þínu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="network_icon_visible">
+						<local_schema short_desc="Netþjónatákmynd sýnileg á skjáborðinu">
+							<longdesc>Ef þetta er stillt sem satt, mun  táknmynd sem tengist netþjónasýn verða sett á skjáborðið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="Sýna tengdar gagnahirslur á skjáborðinu">
+							<longdesc>Ef þetta er stillt sem satt, munu gagnahirslur birtast á skjáborðinu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Ruslatunnu táknmynd sýnileg á skjáborði">
+							<longdesc>Ef þetta er stillt sem satt, mun táknmynd sem tengist ruslinu verða sett á skjáborðið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Sýna tákn fyrir tölvuna á skjáborðinu">
+							<longdesc>Ef þetta er stillt sem satt, mun táknmynd sem tengist tölvunni verða sett á skjáborðið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Sýna tákn fyrir heimamöppuna á skjáborðinu">
+							<longdesc>Ef þetta er stillt sem satt, mun táknmynd sem tengist heimamöppu þinni verða sett á skjáborðið.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema short_desc="Sýna einungis möppur í greinasýn síðustiku">
+								<longdesc>Ef virkt mun Nautilus einungis sýna möppur í greinasýn síðustiku. Annars munu bæði skrár og möppur verða sýndar.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="Sjálfgefin röð dálka í listasýn">
+							<longdesc>Sjálfgefin röð dálka í listasýn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="Sjálfgefin fjöldi sýnilegra dálka í lista yfirliti">
+							<longdesc>Sjálfgefin fjöldi sýnilegra dálka í lista yfirliti.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Sjálfgefið aðdráttarstig fyrir listasýn">
+							<longdesc>Sjálfgefinn aðdráttur notaður í listasýn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Sortera í öfugri röð í nýjum gluggum">
+							<longdesc>Ef virkt munu nýjir glugga sortera skrár í öfugri röð. Dæmi: ef sorterað er eftir skráarheiti, þá munu skrár verða sorteraðar frá &quot;ö&quot; til &quot;a&quot; í staðinn fyrir &quot;a&quot; til &quot;ö&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Sjálfgefin flokkunaruppröðun">
+							<longdesc>Sjálfgefin röðun á hlutum í listasýn. Möguleg gildi eru &quot;nafn&quot;, &quot;stærð&quot;, &quot;gerð&quot; og &quot;breytt þann&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="compact_view">
+					<entry name="all_columns_have_same_width">
+						<local_schema short_desc="Allir dálkar hafa sömu breidd">
+							<longdesc>Ef þetta er valið þá munu allir dálkarnir í þjappaðri sýn vera jafn breiðir. Annars verður hægt að ákveða breidd hvers dálks fyrir sig.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Sjálfgefið aðdráttargildi fyrir þjappaða sýn">
+							<longdesc>Sjálfgefinn aðdráttur notaður í þjappaðri sýn.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="text_ellipsis_limit">
+						<local_schema short_desc="Mörk þrípunkts í texta">
+							<longdesc>Strengur sem segir hvaða hluti af of löngu skráarheiti skuli skipt út fyrir þrípunkta, eftir því hvaða aðdráttur er notaður. Hver listi er á forminu „Aðdráttarstig:Heiltala“. Fyrir hvert stig, ef talan er meiri en 0 þá mun skráarnafnið ekki breytast eftir aðdrætti. Ef talan er 0 eða minni þá munu engin mörk vera sett á hvaða aðdráttur er í sýninni. Venjulegt gildi á forminu „Heiltala“ án nokkurs aðdráttar á sýninni er líka leyft. Það skilgreinir hámarksfjölda lína fyrir oll stig aðdráttar. Sem dæmi 0 - sýnir alltaf löng skráarheiti; 3 - styttir skráarheitin ef þau eru lengri en þrjár línur; minnst:5, minna:4,0 - styttir skráarheiti ef þau eru lengri en fimm línur fyrir minnstu sýnina. Styttir skráarheiti ef þau eru lengri en fjórar línur fyrir aðdráttarstigið &quot;minna&quot;. Ekki stytta skráarheiti fyrir aðrar stærðir sýnar. Hægt er að velja um aðdráttarstigin: minnst (33%), minna (50%), lítið (66%), venjulegt (100%), stórt (150%), stærra (200%), stærst (400%)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_size">
+						<local_schema short_desc="Sjálfgefin stærð táknmynda">
+							<longdesc>Sjálfgefin stærð táknmyndar fyrir smámynd í táknmyndasýn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Sjálfgefið aðdráttarstig fyrir tákmyndir">
+							<longdesc>Sjálfgefinn aðdráttur notaður í táknmyndasýn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="Nota handvirka uppröðun í nýjum gluggum">
+							<longdesc>Ef virkt munu glugga nota handvirka sýn sem sjálfgefna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="Setja merkingar við hliðiná táknmyndum">
+							<longdesc>Ef virkt mun textamerkningar verða settar við hliðiná táknmyndum frekar en undir þeim.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="Nota þéttari uppröðun í nýjum gluggum">
+							<longdesc>Ef þetta er stillt sem satt, munu táknmyndir verða lagðar þéttar saman í nýjum gluggum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Sortera í öfugri röð í nýjum gluggum">
+							<longdesc>Ef virkt munu nýjir glugga sortera skrár í öfugri röð. Dæmi: ef sorterað er eftir skráarheiti, þá munu skrár verða sorteraðar frá &quot;ö&quot; til &quot;a&quot; í staðinn fyrir &quot;a&quot; til &quot;ö&quot;. Ef sorterað eftir stærð, þá mun stærsta skrá sjást efst í staðinn fyrir minnstu skrá.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Sjálfgefin flokkunaruppröðun">
+							<longdesc>Sjálfgefin röðun á hlutum í táknmyndasýn. Möguleg gildi eru &quot;nafn&quot;, &quot;stærð&quot;, &quot;gerð&quot;, &quot;breytt þann&quot; og &quot;merki&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Listi yfir mögulegan texta á táknmyndum">
+							<longdesc>Listi yfir texta fyrir neðan táknmyndir í táknmyndasýn og skjáborði. Fjöldi upplýsingareita veltur á aðdráttargildi. Hugsanleg gildi eru: &quot;stærð&quot;,&quot;gerð&quot;, &quot;dags_breytt&quot;, &quot;dags_opnað&quot;, &quot;eigandi&quot;, &quot;hópur&quot;, &quot;réttindi&quot;, &quot;tölu_réttindi&quot; og &quot;mime_gerð&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Síðustikusýn">
+							<longdesc>Síðustikusýn til birtingar í nýlega opnuðum gluggum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Sýna síðustiku í nýjum gluggum">
+							<longdesc>Ef virkt munu nýir gluggar innihalda sýnilega síðustiku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Sýna stöðustiku í nýjum gluggum">
+							<longdesc>Ef virkt munu nýir gluggar innihalda sýnilega staðsetningarstiku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Sýna staðsetningarrönd í nýjum gluggum">
+							<longdesc>Ef virkt munu nýir gluggar innihalda sýnilega staðsetningarrönd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Sýna tólstiku í nýjum gluggum">
+							<longdesc>Ef virkt munu nýir gluggar innihalda sýnilega tólstiku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Breidd hliðarstiku">
+							<longdesc>Sjálfgefin breidd síðustiku í nýjum gluggum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Snið á dagsetningu">
+							<longdesc>Snið skráadagsetninga. Möguleg gildi eru &quot;locale&quot;, &quot;iso&quot; og &quot;informal&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Sjálfgefin rýnir fyrir möppur">
+							<longdesc>Notast er við þennan skoðara þegar mappa er opnuð nema önnur sýn hafi verið valin fyrir möppuna. Möguleg gildi eru &quot;istasýn&quot;, &quot;táknmyndasýn&quot; og &quot;þjöppuð_sýn&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Sjálfgefin skráarnaf á bakgrunnsmynd fyrir síðustiku">
+							<longdesc>Skráarnafn bakgrunns á síðustiku. Aðeins notað ef side_pane_background_set er virkt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Sjálfgefin bakgrunnslitur síðustiku">
+							<longdesc>Skráarnafn bakgrunns á síðustiku. Aðeins notað ef side_pane_background_set er virkt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Sérvalin síðustikubakgrunnur virkur">
+							<longdesc>Hvort sérsniðinn bakgrunnur síðustiku hafi verið stilltur sem sjálfgefinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Sjálfgefið skráarheiti bakgrunns">
+							<longdesc>Skráarheiti fyrir sjálfgefinn bakgrunn möppu. Einungis notað ef background_set er virkt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Sjálfgefin bakgrunnslitur">
+							<longdesc>Litur sem notaður er í bakgrunn möppunnar. Aðeins notaður er background_set er satt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema short_desc="Sérsniðinn bakgrunnur">
+							<longdesc>Hvort sérsniðinn möppubakgrunnur hafi verið stilltur sem sjálfgefinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="Leitarskilyrði fyrir leit í leitarrönd">
+							<longdesc>Skilyrði til að máta skrár sem leitað er að í leitarstikunni. Ef þetta er stillt á &quot;leita_eftir_texta&quot;  mun Nautilus einungis leita eftir skráarnöfnum. Ef þetta er stillt á &quot;leita_eftir_texta_og_eiginleikum&quot; mun Nautilus leita eftir skráarnöfnum og eiginleikum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Nautilus notar heimamöppu notanda sem skjáborð">
+							<longdesc>Ef þetta er stillt sem satt, mun Nautilus nota heimamöppu notanda sem skjáborð, annars mun hann nota ~/Desktop sem skjáborð.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Skjáborðsletur">
+							<longdesc>Leturgerðarlýsing sem notuð er fyrir táknmyndirnar á skjáborðinu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Nautilus sér um að teikna skjáborð">
+							<longdesc>Ef þetta er stillt sem satt, mun Nautilus sjá um að teikna táknmyndirnar á skjáborðið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Sýna möppur fyrst í gluggum">
+							<longdesc>Ef virkt, mun Nautilus sýna möppur á undan skrám í lista og táknmyndasýnum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_advanced_permissions">
+						<local_schema short_desc="Sýna frekari heimildir í upplýsingum um skrár">
+							<longdesc>Ef þetta er valið sem satt þá leyfir Nautilus þér að breyta og birta heimildir skráa eins og þær birtast í unix, en þá geturðu nálgast ýmsar skondnar upplýsingar sem fáir skilja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="Hvort forsýna eigi hljóð þegar mús flyst yfir táknmynd">
+							<longdesc>Fórnun á hraða þegar hljóðskrá er spiluð við það að farið er yfir hana með músinni. Ef þetta er stillt á &quot;alltaf&quot; er hljóðið alltaf spilað, jafnvel ef skráin er á fjarlægum þjóni. Ef þetta er stillt á &quot;einungis staðbundið&quot; er spilað einungis á staðbundnum skráarkerfum. Ef þetta er stillt á &quot;aldrei&quot; er hljóðið aldrei spilað.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Hámarksfjöldi meðhöndlaðra skráa í möppu">
+							<longdesc>Möppur yfir þessari stærð verða styttar í u.þ.b. þessa stærð. Tilgangurinn er að koma í veg fyrir að maður slátri Nautilus óvart með of stórum möppum. Neikvætt gildi merkir ekkert takmark. Takmarkið er nálgað, þar sem möppur eru lesnar í bútum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Hámarksstærð mynda fyrir smámyndasýn">
+							<longdesc>Myndir sem eru yfir stærð ( í bætum ) munu ekki fá smátáknmynd. Ástæðan fyrir þessu er að koma í veg fyrir framleiðslu á smámyndum fyrir stórar myndir, er að þær gætu tekið langan tíma að hlaða eða notað mikið minni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Hvort sýna eigi smámyndir af myndaskrám">
+							<longdesc>Fórnun á hraða þegar mynd er birt sem smámynd, ef farið er yfir hana með músinni. Ef þetta er stillt á &quot;alltaf&quot; sést forsýnin alltaf, jafnvel ef skráin er á fjarlægum þjóni. Ef þetta er stillt á &quot;einungis staðbundið&quot; er forsýnin einungis frá staðbundnum skráarkerfum. Ef þetta er stillt á &quot;aldrei&quot; eru ekki búnar til smámyndir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Núverandi Nautilus þema (úrelt)">
+							<longdesc>Heiti þema fyrir Nautilus sem nota á. Þessi valmöguleiki er úreltur frá og með Nautilus 2.2. Vinsamlegast notið táknmyndaþema í staðin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="mouse_back_button">
+						<local_schema short_desc="Músarhnappur sem virkjar &quot;Til baka&quot; skipunina í vafraglugga">
+							<longdesc>Fyrir þá notendur sem hafa mýs með &quot;Áfram&quot; og &quot;Afturábak&quot; hnöppum, þá virkjar þessi lykill hvaða hnappur það er sem gefur &quot;Afturábak&quot; skipunina í vafraglugga. Möguleg gildi eru 6 og 14.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="mouse_forward_button">
+						<local_schema short_desc="Músarhnappur sem virkjar &quot;Áfram&quot; skipunina í vafraglugga">
+							<longdesc>Fyrir þá notendur sem hafa mýs með &quot;Áfram&quot; og &quot;Afturábak&quot; hnöppum, þá virkjar þessi lykill hvaða hnappur það er sem gefur &quot;Áfram&quot; skipunina í vafraglugga. Möguleg gildi eru 6 og 14.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="mouse_use_extra_buttons">
+						<local_schema short_desc="Nota auka músarhnappaatburði í vafragluggum Nautilus">
+							<longdesc>Fyrir þá notendur sem hafa mýs með &quot;Áfram&quot; og &quot;Afturábak&quot; hnöppum, þá virkjar þessi lykill hvort einhver aðgerð er framkvæmd í Nautilus þegar ýtt er á hnappana.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="install_mime_activation">
+						<local_schema short_desc="Sýna uppsetningarforrit fyrir óþekktar MIME-tegundir">
+							<longdesc>Hvort sýna eigi notandanum pakkauppsetningarglugga ef óþekkt MIME-tegund er opnuð, þannig að hægt sé að leita að forriti sem gæti meðhöndlað hana.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="Hvað eigi að gera þegar keyranlegar textaskrár eru virkjaðar">
+							<longdesc>Hvað á að gera við keyranlegar textaskrár þegar þær eru virkjaðar (ein- eða tvísmellt). Möguleg gildi eru &quot;keyra&quot; til að keyra þær eins og forrit, &quot;spyrja&quot; til að spyrja hvað eigi að gera í svarglugga og &quot;sýna&quot; til að sýna þær sem textaskrár.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="Hvernig smelli eigi að nota til að ræsa/opna skrár">
+							<longdesc>Möguleg gildi eru &quot;einfalt&quot; til að ræsa skrár með einföldu klikki, eða &quot;tvöfalt&quot; til að ræsa með tvíklikki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Hvort sýna eigi fjölda hluta í möppu">
+							<longdesc>Hraðafórnun við sýningu á fjölda hluta í möppu. Ef þetta er stillt á &quot;alltaf&quot; sést fjöldinn alltaf, jafnvel ef mappan er á fjarlægum þjóni. Ef þetta er stillt á &quot;einungis staðbundið&quot; er fjöldinn einungis reiknaður á staðbundnum skráarkerfum. Ef þetta er stillt á &quot;aldrei&quot; er ekki haft fyrir því að reikna út fjöldann.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Hvenær forsýna eigi texta táknmynda">
+							<longdesc>Fórnun hraða þegar sýnd er forsýn af textaskrá í táknmynd skrárinnar. Ef þetta er stillt á &quot;alltaf&quot; sést forsýnin alltaf, jafnvel ef skráin er á fjarlægum þjóni. Ef þetta er stillt á &quot;einungis staðbundið&quot; er forsýnin einungis birt frá staðbundnum skráarkerfum. Ef þetta er stillt á &quot;aldrei&quot; er ekki hirt um að lesa forsýningargögnin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Hvort virkja eigi hispurslausa útstrokun">
+							<longdesc>Ef virkt mun Nautilus virkja möguleika á að eyða skrám beint án þess að flytja þær í ruslið. Þennan valmöguleika ber að nota með gát.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_trash">
+						<local_schema short_desc="Hvort spyrja eigi um staðfestingu um það hvort eyða eigi skrám, eða hvort tæma eigi ruslafötuna">
+							<longdesc>Ef þetta er stillt sem satt, mun Nautilius mun biðja þig um staðfestingu þegar þú reynir að eyða skrám eða við að tæma ruslið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_x_content_open_folder">
+						<local_schema short_desc="Listi af x-content/* tegundum sett í &quot;Opna möppu&quot;">
+							<longdesc>Listi yfir x-content/* tegundum sem notandinn hafa valið &quot;Opna möppu&quot; fyrir. Gluggi mun opnast þegar miðill sem inniheldur þessar tegundir gagna muna tengjast tölvunni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_x_content_ignore">
+						<local_schema short_desc="Listi yfir x-content/* tegundir er sagt að &quot;Gera ekkert&quot;">
+							<longdesc>Listi yfir x-content/* tegundir sem notandinn hefur valið að &quot;Gera ekkert&quot;. Ekkert verður gert til að segja notandanum að miðill hafi tengst tölvunni, og engin forrit munu vera ræst.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_x_content_start_app">
+						<local_schema short_desc="Listi af x-content/* tegundum þar sem hið valda forrit er keyrt">
+							<longdesc>Listi yfir x-content/* tegundir sem notandinn hefur valið til að ræsa forrit. Forritið sem er valið fyrir hverja tegund verður þá ræst þegar miðill tengist tölvunni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_autorun_never">
+						<local_schema short_desc="Aldrei ræsa forrit sjálfvirkt þegar eitthvað tengist tölvunni">
+							<longdesc>Ef þetta er stillt sem satt þá mun Nautilius aldrei koma með ábendingu um það að hægt sé að opna forrit þegar einhver miðill er tengdur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_automount_open">
+						<local_schema short_desc="Hvort opna skuli möppu sjálfkrafa fyrir sjálfkrafa tengda miðla">
+							<longdesc>Ef þetta er stillt sem satt þá mun Nautilus sjálfkrafa opna möppu þegar miðill sjálftengist. Þetta á bara við um miðla þar sem engar þekktar x-content/* tegundir fundust; ef miðill þar sem þekkt x-content tegund finnst þá mun notandinn fá að velja um stillingar þess í staðinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="media_automount">
+						<local_schema short_desc="Hvort tengja skuli geymslumiðla sjálfkrafa">
+							<longdesc>Ef þetta er stillt sem satt, mun Nautilius mun sjálfkrafa tengjast gagnahirslum eins og utanáliggjandi hörðum diskum og öðrum færanlegum miðlum þegar tölvan kveikir á sér og þegar miðlarnir tengjast tölvunni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_location_entry">
+						<local_schema short_desc="Nota alltaf staðsetningarinnslátt í staðin fyrir slóðarlista">
+							<longdesc>Ef virkt, munu Nautilus vafurgluggar alltaf nota textainnslátt í staðsetningastikuna í stað slóðarstikunnar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Virkja klassíska hegðun Nautilusar, þar sem allir gluggar eru vafrar">
+							<longdesc>Ef þetta er stillt sem satt, munu  allir Nautilus gluggar vera vafurgluggar. Svona var Nautilus fyrir útgáfu 2.6. Sumir kjósa þessa hegðun frekar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="exit_with_last_window">
+						<local_schema short_desc="Nautilus slekkur á sér þegar síðasta glugganum hefur verið lokað.">
+							<longdesc>Ef þetta er stillt sem satt, mun Nautilus slökkva á sér þegar öllum gluggum hefur verið lokað. Þetta er sjálfgefna hegðunin. Ef þetta er stillt sem ósatt, er hægt að ræsa hann án nokkurs glugga, þannig að þá er hægt að nota Nautilus sem púka/þjón sem fylgist með sjálfvirkri tengingu tækja/miðla (automount) eða svipaðra verka.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="speed_unit">
+						<local_schema short_desc="Hraðaeining">
+							<longdesc>Mælieiningin sem verður notuð til að sýna vindhraða.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="Hitaeining">
+							<longdesc>Mælieiningin sem verður notuð til að sýna hitastig.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cities">
+						<local_schema short_desc="Listi yfir staðsetningar">
+							<longdesc>Listi yfir staðsetningar til að birta í dagatalsglugga</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="internet_time">
+						<local_schema short_desc="Nota Internet tíma">
+							<longdesc>Notkun þessa lykils var hætt í GNOME 2.6 þegar &apos;sníða&apos; lykillinn var tekinn upp. Útfærslunni er haldið til að halda samræmi við eldri útgáfur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Nota UNIX tíma">
+							<longdesc>Notkun þessa lykils var hætt í GNOME 2.6 þegar &apos;sníða&apos; lykillinn var tekinn upp. Útfærslunni er haldið til að halda samræmi við eldri útgáfur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Klukkustunda snið">
+							<longdesc>Notkun þessa lykils var hætt í GNOME 2.6 þegar &apos;sníða&apos; lykillinn var tekinn upp. Útfærslunni er haldið til að halda samræmi við eldri útgáfur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_locations">
+						<local_schema short_desc="Víkka lista af staðsetningum">
+							<longdesc>Ef satt, þá verður listi af staðsetningum í dagatalsglugga víkkaður.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_weather">
+						<local_schema short_desc="Víkka lista af veðurupplýsingum">
+							<longdesc>Ef satt, þá verður listi af veðurupplýsingum í dagatalsglugga víkkaður.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_tasks">
+						<local_schema short_desc="Víkka lista af verkefnum">
+							<longdesc>Ef satt, þá verður listi af verkefnum í dagatalsglugga víkkaður.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_birthdays">
+						<local_schema short_desc="Víkka lista af afmælum">
+							<longdesc>Ef satt, þá verður listi af afmælum í dagatalsglugga víkkaður.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_appointments">
+						<local_schema short_desc="Draga fram tímabókanir">
+							<longdesc>Ef satt, þá verður listi af fundum í dagatalsglugga víkkaður.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Sýna vikunúmer í dagatali">
+							<longdesc>Ef þetta er valið er vikunúmer sýnt í dagatali.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Tímastillitól">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Nota UTC (GMT)">
+						</local_schema>
+					</entry>
+					<entry name="show_temperature">
+						<local_schema short_desc="Birta hitastig í klukku">
+							<longdesc>Ef satt, þá verður hitastig sýnt við hlið veðurteikns.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_weather">
+						<local_schema short_desc="Birta veður í klukku">
+							<longdesc>Ef satt, þá verður veðurteikn birt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Sýna dagsetningu sem ábendingu">
+							<longdesc>Ef þetta er valið er dagsetning sýnd sem ábending þegar vísirinn er yfir klukkunni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Sýna dagsetningu í klukku">
+							<longdesc>Ef þetta er valið er dagsetning sýnd með klukku, auk tímans.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Sýna sekúndur í tíma">
+							<longdesc>Ef þetta er valið eru sekúndur sýndar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Sérsniðið snið af klukkunni">
+							<longdesc>Þessi lykill ákveður forsniðið sem verður notað af klukkusmáforritinu þegar forsniðslykillinn er stilltur sem &quot;sérsnið&quot;. Þú getur notað umbreytingartilgreina sem strftime() skilur til þess að ná fram ákveðnu forsniði. Skoðaðu strftime() leiðbeiningarnar til þess að fá meiri upplýsingar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Klukkustunda snið">
+							<longdesc>Þessi lykill skilgreinir stundasniðið sem klukkan notar. Möguleg gildi eru &quot;12-tíma&quot;, &quot;24-tíma&quot;, &quot;Internet&quot;, &quot;Unix&quot; og &quot;sérsnið&quot;. Ef stillt er á &quot;Internet&quot; sýnir klukkan Internet-tíma. Internet-tímakerfið skiptir deginum í 1000 &quot;slög&quot;. Það eru engin tímabelti í þessu kerfi þannig að tíminn er sá sami um allan heim. Ef stillt er á &quot;Unix&quot; sýnir klukkan tímann sem sekúndur sem liðið hafa frá upphafi Unix-viðmiðunartíma, þ.e. 1. 1. 1970. Ef stillt er á &quot;sérsnið&quot; sýnir klukkan tímann samkvæmt því tímasniði sem er skilgreint með sérs_niðslyklinum.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="editor">
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="Sýna Línu Númer">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="Hámarka glugga lárétt">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="Hámarka glugga lóðrétt">
+						</local_schema>
+					</entry>
+					<entry name="lower">
+						<local_schema short_desc="Lækka glugga niður fyrir aðra glugga">
+						</local_schema>
+					</entry>
+					<entry name="raise">
+						<local_schema short_desc="Hækka glugga upp fyrir aðra glugga">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_down">
+						<local_schema short_desc="Flytja glugga niður um eitt vinnusvæði">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_up">
+						<local_schema short_desc="Flytja glugga upp um eitt vinnusvæði">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_right">
+						<local_schema short_desc="Flytja glugga til hægri um eitt vinnusvæði">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_left">
+						<local_schema short_desc="Flytja glugga til vinstri um eitt vinnusvæði">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 12">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 11">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 10">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 9">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 8">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 7">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 6">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 5">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 4">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 3">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Flytja yfir á vinnusvæði 2">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Flytja glugga yfir á vinnusvæði 1">
+						</local_schema>
+					</entry>
+					<entry name="toggle_fullscreen">
+						<local_schema short_desc="Fletta heilskjáham">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="Taka skjámynd af glugga">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="Taka skjámynd">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows">
+						<local_schema short_desc="Flytja á milli glugga án seinkunar">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 12">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 11">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 10">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 9">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 8">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 7">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 6">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 5">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 4">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 3">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 2">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="Skipta yfir á vinnusvæði 1">
+						</local_schema>
+					</entry>
+					<entry name="run_command">
+						<local_schema short_desc="Keyra tiltekna skipun">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="Nafn vinnusvæðis">
+							<longdesc>Nafn vinnusvæði.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="application_based">
+						<local_schema short_desc="(Ekki ennþá innfært) Vöfrun virkar innan einungis í samhengi við forrit en ekki glugga">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell_type">
+						<local_schema short_desc="Gerð sýnilegrar bjöllu">
+						</local_schema>
+					</entry>
+					<entry name="audible_bell">
+						<local_schema short_desc="Kerfisbjalla er heyranleg">
+							<longdesc>Ákvarðar hvort forrit eða kerfið geti búið til heyranlegt &apos;bíbb&apos;. Er hægt að nýta í samhengi með &apos;sýnilegri bjöllu&apos; þegar leyfa á hljóðlaus &apos;bíbb&apos;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Virkja sýnilega bjöllu">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="Fjöldi vinnusvæða">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_font">
+						<local_schema short_desc="Leturgerð gluggatitils">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Núverandi þema">
+						</local_schema>
+					</entry>
+					<entry name="auto_raise_delay">
+						<local_schema short_desc="Seinkun í millisekúndum fyrir sjálfvirka hækkun valmöguleikan">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="Aðgerð við tvíklikk á titilrönd">
+						</local_schema>
+					</entry>
+					<entry name="focus_mode">
+						<local_schema short_desc="Fókusgerð glugga">
+						</local_schema>
+					</entry>
+					<entry name="button_layout">
+						<local_schema short_desc="Staðsetning takka á tiltilrönd">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Raðir í vinnusvæðaskiptara">
+							<longdesc>Þessi lykill tilgreinir hve margar raðir (fyrir lárétt snið) eða dálka (fyrir lóðrétt snið) vinnusvæðaskiptarinn sýnir vinnusvæðin á. Þetta skiptir aðeins máli ef valið er að sýna öll vinnusvæðin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Sýna öll vinnusvæði">
+							<longdesc>Ef valið mun vinnusvæðaskiptirinn sýna öll vinnusvæði. Annars mun hann aðeins sýna núverandi vinnusvæði</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Sýna vinnusvæðanöfn">
+							<longdesc>Ef satt, þá munu vinnusvæðin í vinnusvæðaskiptaranum birta nafnið sitt. Annars munu þau birta gluggana í vinnusvæðinu. Þessi stilling virkar einungis ef gluggastjórinn er Metacity.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Hámarksstærð fyrir gluggalista">
+							<longdesc>Notkun þessa lykils var gerð óæskileg í GNOME 2.20. Þessari grind er viðhaldið vegna samhæfni við eldri útgáfur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Lágmarksstærð fyrir gluggalista">
+							<longdesc>Notkun þessa lykils var gerð óæskileg í GNOME 2.20. Þessari grind er viðhaldið vegna samhæfni við eldri útgáfur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Flytja glugga á núverandi vinnusvæði þegar hann er þaninn">
+							<longdesc>Ef valið, mun gluggi verða fluttur á núverandi vinnusvæði þegar hann er þaninn. Annars er skipt yfir vinnusvæði gluggans.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Hvenær safna skal gluggum saman">
+							<longdesc>Tilgreinir hvenær safna eigi saman gluggum sama forrits í gluggalistanum. Möguleg gildi eru „aldrei‟, „sjálfvirkt‟ og „alltaf‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Sýna glugga frá öllum vinnusvæðum">
+							<longdesc>Ef valið, mun gluggalistinn sýna glugga frá öllum vinnusvæðum. Annars verða aðeins birtir gluggar frá núverandi vinnusvæði.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Gera lokunarþvingun óvirka">
+							<longdesc>Ef valið, mun stikan ekki leyfa notandanum að þvinga forrit til að hætta með þvi að fjarlægja aðgang að þvinga til að hætta hnappnum</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Gera útskráningu óvirka">
+							<longdesc>Ef valið, mun stikan ekki leyfa notandanum að útskrá með því að fjarlægja aðgang að útskráningar valmyndafærslunum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="Forritakenni sem á hindra í að hlaðast">
+							<longdesc>Listi yfir forritakenni sem stikan mun horfa framhjá. Á þennan hátt er hægt að hindra tiltekin forrit í að hlaðast eða birtast í valmyndum. Td til þess að hindra mini-commander forritið bætið ,OAFIID:GNOME_MiniCommanderApple&apos; við listan. Endurræsa þarf stikuna til þess að virkja þetta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Algjör stikulæsing">
+							<longdesc>Ef valið, mun stikan ekki leyfa neinar breytingar á stillingum stikunnar. Vera kann að nauðsunlegt verið að læsa einstökum forrit sérstaklega. Endurræsa þarf stikuna svo þetta taki gildi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Auðkenna ræsa við músyfir">
+							<longdesc>Ef valið, er ræsirinn auðkenndur þegar notandi setur músarbendilinn yfir hann.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Staðfesta að fjarlægja stiku">
+							<longdesc>Ef valið, er svargluggi birtur til að fá staðfestingu á að notandi vil eyða stiku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Loka skúffu sjálfkrafa">
+							<longdesc>Ef valið, þá lokast skúffa sjálfkrafa þegar notandi smellir á ræsi í henni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Virkja hreyfimyndir">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Úrelt">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="Virkja ábendingar">
+							<longdesc>Ef valið verða ábendingar sýndar fyrir hluti á stikum.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Aðgerðarhnappstegund">
+							<longdesc>Aðgerðartegundinn sem þessi hnappur stendur fyrir. Möguleg gildi eru „læsa‟, „útskrá‟, „keyra‟, „leita‟ og „skjámyndargrip‟. Þessi lykill er því aðeins virkur að hlutar_tegund sé „a&apos;gerðarforritlingur‟</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Staðsetning ræsis">
+							<longdesc>Staðsetning .desktop skrárinnar sem lýsir ræsinum. Þessi lykill er því aðeins virkur að hlutar_tegund sé „ræsishlutur‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Slóð á innihald valmyndar">
+							<longdesc>Slóðin þar sem innihald valmyndarinnar er byggt.  Þessi lykill er því aðeins virkur að nota_valmyndar_slóð sé valinn og hlutar_tegund sé „valmyndarhlutur‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Sésrniðin slóð fyrir innihald valmyndar">
+							<longdesc>Ef valið, er lykillin valmyndar_slóð notðaur sem slóð á þann stað þar sem innihald valmyndar verður byggt upp. Ef ekki er horft fram hjá lyklinum. Þessi lykill er því aðeins virkur að tegund_hlutar sé „valmyndar hlutur‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Táknmynd fyrir hnapp hlutar">
+							<longdesc>Staðsetning myndskrárinnar sem er notuð sem táknmynd fyrir hlutahnapp. Þessi lykill er því aðeins virkur að hlutar_tegund sé „skúffuhlutur‟ eða „valmyndarhlutur‟ og nota_sérsniðna_táknmynd sé valið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Sérsniðin táknmynd fyrir hlutathnapp">
+							<longdesc>Ef valið, er lykilinn fyrir sésniðina_táknmynd notaður sem sérsniðin táknmynd fyrir hnappin. Ef ekki, er horft framhjá lykilinum fyrir sésniðina_táknmynd. Þessi lykill er því aðeins virkur að tegund_hlutar sé „valmyndar hlutur‟ eða „skúffu hlutur‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Ábending birt fyrir skúffu eða valmynd">
+							<longdesc>Textinn sem birta á sem ábendingu fyrir þessa skúffu eða þessa valmynd. Þessi lykill skiptir því aðeins máli að hlutar_tegund sé „skúffu-hlutur‟ eða „valmyndar-hlutur‟.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Stika tengd skúffu">
+							<longdesc>Kennimerki stikunnar sem er tengd þessarri skúffu. Þessi lykill er því aðeins virkur að hlutar_tegund sé „skúffuhlutur‟</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Bonobo forritskennið">
+							<longdesc>Bonobo nothæfingarkenni forritsins - t.d. „OAFIID:GNOME_ClockApple‟. Þetta skiptir því aðeins máli að tegundarlykillin sé „bonobo-applet‟</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Læsa hlut við stiku">
+							<longdesc>Ef valið, getur notandinn ekki fært foritling án þess að aflæsa hlutnum fyrst með því að nota „Aflæsa‟ valkostinn í valmyndinni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="Gefa staðsetningu með botn eða hægri brún sem viðmiðun">
+							<longdesc>Ef valið, er staðsetning hlutar gefin með hægri brún stikunnar (eða botn ef hún er lóðrétt) sem viðmiðun.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Staðsetning hlutar á stikunni">
+							<longdesc>Staðsetning þessa stikuhlutar. Staðsetningin er tilgreind með fjölda díla frá vinstri brún stiku (eða toppnum ef hún er lóðrétt)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Efstastigs stika sem inniheldur hlut">
+							<longdesc>Kennimerki efstastigs stikunnar sem inniheldur þessa hluti.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Tegund stikuhlutar">
+							<longdesc>Tegund þessa stikuhlutar. Möguleg gildi eru „skúffu-hlutur‟, „valmyndar-hlutur‟, „ræsis-hlutur‟, „bonobo-forritlingur‟, „aðgeðra-forritlingur‟ eða „valmynda-slá‟.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Gamlar stillingar forstillinga teknar inn">
+							<longdesc>Booleflag til að sýna hvort fyrri stilling notandans í /apps/panel/profiles/default hefur verið afrituð á nýja staðinn í /apps/panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Listi yfir stikuhlutakenni">
+							<longdesc>Listi yfir hlutakenni stiku. Hvert kenni auðkennir sérstakan stikuhlut (t.d. ræsi, aðgerðahnapp, eða valmyndarhnapp/slá). Uppsetningin fyrir hvern af þessum hlutum er geymd í /apps/panel/objects/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Listi yfir stikuforrilingatakenni">
+							<longdesc>Listi yfir forritlingskenni stiku. Hvert kenni auðkennir sérstakan stiku forritling. Uppsetningin fyrir hvern af þessum forritlingum er geymd í /apps/panel/applets/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Listi yfir gluggakenni">
+							<longdesc>Listi yfir stikukenni. Hvert kenni auðkennir sérstaka stiku af efstu gráðu. Uppsetningin fyrir hverja af þessum stikum er geymd í /apps/panel/toplevels/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="Virkja sjálfvirka fyllingu  „Keyra forrit‟ svarglugganum">
+							<longdesc>Ef valið, er sjálfvirk fylling gerð aðgengileg í „Keyra forrit‟ svarglugganum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Opna forritalista í „Keyra forrit‟ svarglugganum">
+							<longdesc>Ef valið, er listinn „Þekkt forrit‟ opnaður í  „Keyra forrit‟ svarglugganum þegar sá gluggi er opnaður. Þessi lykill er því aðeins virkur að virkja_forrita_lista lykillin hafi verið valinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="Virkja forritalista í „Keyra forrit‟ svarglugganum">
+							<longdesc>Ef valið, er listinn „Þekkt forrit‟ gerður aðgengilegur í  „Keyra forrit‟ svarglugganum þegar sá gluggi er opnaður. Hvort listinn er opnaður þegar gluggin er opnaður veltur á sýna_forrita_lista lyklinum.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Hraði hreyfimynda">
+							<longdesc>Hraðinn sem hreyfingar stikunnar ættu að birtast á. Möguleg gildi eru „hægt‟, „meðal‟ og „hratt‟. Þessi lykill skiptir því aðeins máli að virkja_hreyfimyndir lykillinn sé valinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Sjáanlegir dílar þegar falin">
+							<longdesc>Tilgreinir fjölda díla sem er sjáanlegur þegar stikan hefur verið falin sjálfvirkt í horninu. Þessi lykill skiptir því aðeins máli að fela_sjálfvirkt lykillin sé valinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Bið eftir að stikan komi sjálfvirkt úr felum">
+							<longdesc>Tilgreinir biðtímann í millisekúndum eftir að músarbendill er settur á stikusvæðið þar til stikan birtist sjálfvirkt. Þessi lykill skiptir því aðeins máli að fela_sjálfvirkt lykillin sé valinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Bið eftir stika sé falin sjálfvirkt">
+							<longdesc>Tilgreinir biðtímann í millisekúndum eftir að músarbendill fer af stikusvæðinu þar til stikan er falin sjálfvirkt. Þessi lykill skiptir því aðeins máli að fela_sjálfvirkt lykillin sé valinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Nota örvar á felutökkum">
+							<longdesc>Ef valið, eru settar örvar í feluhnappana. Þessi lykil skiptir því aðeins máli að virkja_hnappa lykillin sé valinn</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Virkja felutakka">
+							<longdesc>Ef valið, verða hnappar staðsettir á hvorri hlið stikunnar sem hægt er að flytja stikuna út að brún skjásins þannig að einungis verði hnappur sjánlegur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Virkja hreyfimyndir">
+							<longdesc>Ef valið, veður það sýnt sem hreyfimynd þegar stikan er falin og sótt úr felum í stað þess að það gerist í einu vetfangi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Fela stiku sjálfkrafa inní horn">
+							<longdesc>Ef valið, er stikan sjálfvirkt falin útí horni sjásins þegar músarbendlinn fer að stikusvæðinu. Hægt er að láta stikuna birtast aftur með því að færa músarbendilinn í hornið sem stikan er falin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Miðja stiku á y-ás">
+							<longdesc>Ef satt, þá verður y og y_botn lyklarnir hunsaðir og skjástikan staðsett í miðju y-ás skjásins. Ef stærð skjástikunnar er breytt mun hún halda þeirri stöðu - þ.e. skjástikan mun stækka á báða vegu. Ef ekki satt, þá mun y og y_botn lyklarnir tilgreina staðsetningu skjástikunnar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Miðja stiku á x-ás">
+							<longdesc>Ef satt, þá verður x og x_hægri lyklarnir hunsaðir og skjástikan staðsett í miðju x-ás skjásins. Ef stærð skjástikunnar er breytt mun hún halda þeirri stöðu - þ.e. skjástikan mun stækka á báða vegu. Ef ekki satt, þá mun x og x_hægri lyklarnir tilgreina staðsetningu skjástikunnar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_bottom">
+						<local_schema short_desc="Y hnit skjástikunnar, sem byrjar frá botni skjásins">
+							<longdesc>Staðsetning skjástikunnar eftir y-ás, sem byrjar frá hægri hluta skjásins. Ef það er skráð sem -1, þá verður gildið hunsað og gildið fyrir y lykilinn notað. Ef gildið er stærra en 0, þá verður gildi y lykilsins notað. Þessi lykill á einungis við í óútvíkkuðum ham. Í útvíkkuðum ham er þessi lykill hunsaður og skjástikan er staðsett á skjájaðri sem er tilgreindur með áttunarlykli.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x_right">
+						<local_schema short_desc="X hnit skjástikunnar, sem byrjar frá hægri hlið skjásins">
+							<longdesc>Staðsetning skjástikunnar eftir x-ás, sem byrjar frá hægri hluta skjásins. Ef það er skráð sem -1, þá verður gildið hunsað og gildið fyrir x lykilinn notað. Ef gildið er stærra en 0, þá verður gildi x lykilsins notað. Þessi lykill á einungis við í óútvíkkuðum ham. Í útvíkkuðum ham er þessi lykill hunsaður og skjástikan er staðsett á skjájaðri sem er tilgreindur með áttunarlykli.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Y-hnit stiku">
+							<longdesc>Staðsetning stikunnar á y-ásnum. Þessi lykil er aðeins viðeigandi í óþöndum ham. Í þöndum ham er horft fram hjá þessum lykli og stikan er sett á þá brún sem tilgreind er með snúningslyklinum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="X-hnit stiku">
+							<longdesc>Staðsetning stikunnar á x-ásnum. Þessi lykil er aðeins viðeigandi í óþöndum ham. Í þöndum ham er horft fram hjá þessum lykli og stikan er sett á þá brún sem tilgreind er með snúningslyklinum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Stærð stiku">
+							<longdesc>Hæð (breidd á lóðréttri stiku) stikunnar. Stikan mun ákvarða við ræsingu lágmarkstærð byggða á leturstærð og öðrum vísbreytum. Hámarksstærð er fastsett sem fjórðungur af hæð skjásins (eða breidd)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Snúningur stiku">
+							<longdesc>Snúningur stikunnar. Möguleg gildi eru „efst‟, „neðst‟, „vinstri‟ og „hægri‟. Í þöndum ham tilgreinir lykillin á hvaða brún skjásins stikan er. Í óþöndum ham er munurinn milli  „efst‟ og „neðst‟ ekki eins mikilvægur - bæði gefa til kynna að stikan er lárétt en gega samt vísbendingu um hvernig stikan ætti að hegða sér. T.d. á stiku sem er „efst‟ ætti valmyndarhnappur að birta valmyndina fyrir neðan stikuna en á stiku sem er „neðst‟ ættu valmyndir að birtast fyrir ofan stikuna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Þenja til að fylla alla breidd skjásins">
+							<longdesc>Ef valið, mun stikan nýta alla breidd skjásins (hæð ef stikan er lóðrétt). Äi þessum ham er aðeins hægt að staðsetja stikuna á skjábrún. Ef ekki valið verður stikan aðeins nægilega stór til að þar sé pláss fyrir alla forritlinga, ræsa og hnappa stikunnar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Xinerama skjár sem stikan er birt á">
+							<longdesc>Í Xinerama uppsetningu getur verið að þú hafir stiku á sitthvorum skjánum. Þessi lykill auðkennir núverandi skjá sem stikan birtist á.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="X skjá sem stikan er birt á">
+							<longdesc>Þegar margir skjáir eru tengdir getur verið að þú hafir stikur á mismunandi skjám. Þessi lykill auðkennir núverandi skjá sem stikan er birt á.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Heiti til að auðkenna stiku">
+							<longdesc>Þetta er læsilegt heiti til að auðkenna stikuna. Aðalmarkmiðið með því er að þjóna sem gluggatitill stikunnar sem getur verið þægilegt þegar flakkað er milli stika.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Snúa myndum á lóðréttum stikum">
+								<longdesc>Ef valið, verður bakgrunnsmyndinni snúið ef stikunni er snúið lóðrétt.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Teygja mynd á stiku">
+								<longdesc>Ef valiðm verður myndin sköluð til að passa við stærð stikunar. Sniðhlutfalli myndarinnar verður ekki haldið.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Laga mynd að stiku">
+								<longdesc>Ef valið, verður myndin sköluð (sniðhlutfallinu haldið) til að passa við hæð stikunnar (ef lárétt)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Bakgrunnsmynd">
+								<longdesc>Tilgreinir hvaða skrá verður notuð fyrir bakgrunnsmynd. Ef myndin inniheldur alfarás verður hún sett saman við bakgrunnsmyndina.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Gegnsæi bakgrunnslitar">
+								<longdesc>Tilgreinir gegnsæi bakgruinnslitarsniðsins. Ef liturinn er ekki fullkomlega ógagnsær (gildi lægra en 65535) verður liturinn samsettur ofaná bakgrunnsmyndina.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Bakgrunnslitur">
+								<longdesc>Tilgreinir bakgrunnslit stikunnar á #RGB sniði</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Bakgrunnstegund">
+								<longdesc>Hvers konar bakgrunn ætti að nota fyrir þessa stiku. Mögulega gildi eru „gtk‟ - sjálfgefin GTK+ borðfangsbakgrunnur verður notaður, „litur‟ - litalykillin verður notaður sem bakgrunnslykill, eða „mynd‟ - myndin sem tilgreind er með myndarlyklinum verður notuð sem bakgrunnur.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Snúa á lóðréttum stikum">
+							<longdesc>Ef þetta er valið er hreyfing fiskins sýnd sem sem snúningur á lóðréttum stikum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Hlé í hverjum ramma">
+							<longdesc>Þessi lykill tilgreinir fjölda sekúndna sem hver rammi verður birtur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Rammar í hreyfimynd fisksins">
+							<longdesc>Þessi lykill tilgreinir fjölda ramma sem verða birtir í hreyfimynd fisksins.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Skipun til að keyra þegar smellt er">
+							<longdesc>Þessi lykill tilgreinir skipunina sem verður reynt að framkvæma þegar smellt er á fiskinn</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Hreyfimynd fisksins">
+							<longdesc>Þessi lykill tilgreinir skrárnafn myndarinnar sem verður notuð fyrir hreyfimyndina sem birt er í fiskaforritinu með tilliti til myndamöppunar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Nafn fisksins">
+							<longdesc>Fiskur með engu nafni er frekar daufur fiskur. Lífgaðu upp á hann með því að gefa honum nafn.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="logout_prompt">
+						<local_schema short_desc="Staðfesta útskráningu">
+							<longdesc>Ef virkt mun gnome-setan spyrja um staðfestingu áður en setu er lokið.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Vista setur">
+							<longdesc>Ef virk mun gnome-setan vista setuna sjálkrafa. Annars mun afskráningarglugginn bjóða upp á vistun á setu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Sýna slembiskjá">
+							<longdesc>Sýna slembiskjá við ræsingu á setu</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="web">
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Virkja JavaScript">
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Tungumál">
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="Nota eigið letur">
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="Nota eigin liti">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="Glærleikalitur">
+							<longdesc>Ef glærleikalykill inniheldur gildið LITUR, þá mun þessi lykill ákvarða litinn sem notaður verður til að sýna eigi glærleika.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="Staða glærleika">
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="Innreikna mynd">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome_settings_daemon">
+				<entry name="volume_step">
+					<local_schema short_desc="Hljóðstyrksþrep">
+					</local_schema>
+				</entry>
+				<dir name="keybindings">
+					<entry name="search">
+						<local_schema short_desc="Leita">
+						</local_schema>
+					</entry>
+					<entry name="volume_up">
+						<local_schema short_desc="Hækka hljóðstyrk">
+						</local_schema>
+					</entry>
+					<entry name="volume_down">
+						<local_schema short_desc="Lækka hljóðstyrk">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

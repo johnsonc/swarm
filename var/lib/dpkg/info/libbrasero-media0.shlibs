@@ -1,0 +1,3 @@
+libbrasero-media 0 libbrasero-media0 (>= 2.30)
+libbrasero-burn 0 libbrasero-media0 (>= 2.30)
+libbrasero-utils 0 libbrasero-media0 (>= 2.30)

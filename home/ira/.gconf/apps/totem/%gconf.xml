@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="open_path" mtime="1331690439" type="string">
+		<stringvalue>file:///usr/share/sounds</stringvalue>
+	</entry>
+	<entry name="subtitle_encoding" mtime="1331690290" type="string">
+		<stringvalue>UTF-8</stringvalue>
+	</entry>
+	<entry name="visual_quality" mtime="1331690289" type="int" value="0"/>
+	<entry name="visual" mtime="1331690288" type="string">
+		<stringvalue>GOOM: what a GOOM!</stringvalue>
+	</entry>
+	<entry name="show_vfx" mtime="1331690288" type="bool" value="true"/>
+	<entry name="audio_output_type" mtime="1331690288" type="int" value="0"/>
+	<entry name="debug" mtime="1331690278" type="bool" value="false"/>
+</gconf>

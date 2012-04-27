@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libebook-1.2.so.9.3.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libebook1.2-9
+/usr/share/doc/libebook1.2-9/NEWS.gz
+/usr/share/doc/libebook1.2-9/TODO
+/usr/share/doc/libebook1.2-9/changelog.Debian.gz
+/usr/share/doc/libebook1.2-9/changelog.gz
+/usr/share/doc/libebook1.2-9/README
+/usr/share/doc/libebook1.2-9/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libebook1.2-9
+/usr/lib/libebook-1.2.so.9

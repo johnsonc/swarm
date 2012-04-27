@@ -1,0 +1,33 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=59
+Source: http://ftp.gnome.org/pub/GNOME/sources/libslab/
+
+Files: *
+Copyright: © 2006-2007 Novell, Inc
+License: LGPL-2+
+
+Files: libslab/system-tile.[ch], libslab/bookmark-agent.[ch]
+Copyright: © 2006-2007 Novell, Inc
+License: GPL-2+
+
+Files: debian/*
+Copyright: © 2006 Riccardo Setti <giskard@debian.org>
+           © 2009 Julian Andres Klode <jak@debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+  .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/LGPL-2'.

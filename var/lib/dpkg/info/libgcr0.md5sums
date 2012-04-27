@@ -1,0 +1,10 @@
+9d7074b5cf82ecb3d1c461cf3826fe4c  usr/lib/libgcr.so.0.0.0
+e166011281158eaa1c64baaa52efccc2  usr/share/doc/libgcr0/AUTHORS
+2965da69de43c6814e0f558c82b6b61f  usr/share/doc/libgcr0/NEWS.gz
+929cc66e4295e31be5af348183f5537d  usr/share/doc/libgcr0/README
+64b6bc9fbf8fcea8e144296bd9998cd1  usr/share/doc/libgcr0/changelog.Debian.gz
+d74c3c6b6f2e123e761ca4f366009893  usr/share/doc/libgcr0/changelog.gz
+05ce90f89b39cc635f972cbc5fbc51e3  usr/share/doc/libgcr0/copyright
+7faa5e22de8d6eaebc4d21459950ca29  usr/share/gcr0/ui/gcr-certificate-basics-widget.ui
+16ee970f07ae8f39ab599dbafde91993  usr/share/gcr0/ui/gcr-import-dialog.ui
+0f8bd4e43b80c93c7229603231a8ed7b  usr/share/gcr0/ui/gcr-unlock-options-widget.ui

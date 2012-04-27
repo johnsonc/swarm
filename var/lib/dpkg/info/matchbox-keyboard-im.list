@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/matchbox-keyboard-im
+/usr/share/doc/matchbox-keyboard-im/changelog.Debian.gz
+/usr/share/doc/matchbox-keyboard-im/changelog.gz
+/usr/share/doc/matchbox-keyboard-im/README.gz
+/usr/share/doc/matchbox-keyboard-im/AUTHORS
+/usr/share/doc/matchbox-keyboard-im/copyright
+/usr/lib
+/usr/lib/gtk-2.0
+/usr/lib/gtk-2.0/2.10.0
+/usr/lib/gtk-2.0/2.10.0/immodule-files.d
+/usr/lib/gtk-2.0/2.10.0/immodule-files.d/matchbox-keyboard-im.immodules
+/usr/lib/gtk-2.0/2.10.0/immodules
+/usr/lib/gtk-2.0/2.10.0/immodules/libmb-im-invoker.so

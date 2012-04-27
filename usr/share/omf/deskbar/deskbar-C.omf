@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Qing Gan)</creator>
+    <creator>(Phil Bull)</creator>
+    <maintainer>(GNOME Documentation Project)</maintainer>
+    <title>Deskbar Applet Manual</title>
+    <date>December 2006</date>
+    <version identifier="Deskbar Applet Manual V2.0" date="December 2006"/>
+    <subject category="GNOME|Applets|Accessories"/>
+    <description>
+      Deskbar is a quick access and search applet.
+    </description>
+    <type>user's guide</type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/deskbar/C/deskbar.xml"/>
+    <language code="C"/>
+    <relation seriesid="399a4af2-1f3c-479c-b5db-69c7f8c1d466"/>
+    <rights type="GPL" license.version="2" holder="GNOME Documentation Project"/>
+  </resource>
+</omf>

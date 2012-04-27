@@ -1,0 +1,20 @@
+TARGETS = rsyslog killprocs binfmt-support sudo anacron dbus acpid apmd cron ssh loadcpufreq avahi-daemon bluetooth gdm gdm3 cpufrequtils bootlogs cups single rc.local rmnologin stop-bootlogd
+INTERACTIVE =
+anacron: rsyslog
+dbus: rsyslog
+acpid: rsyslog
+apmd: rsyslog
+cron: rsyslog
+ssh: rsyslog
+loadcpufreq: rsyslog
+avahi-daemon: dbus rsyslog
+bluetooth: rsyslog dbus
+gdm: acpid dbus
+gdm3: dbus
+cpufrequtils: loadcpufreq
+bootlogs: gdm3 gdm
+cups: rsyslog avahi-daemon
+single: killprocs bootlogs
+rc.local: rsyslog
+rmnologin: sudo rsyslog anacron avahi-daemon dbus bluetooth gdm acpid gdm3 bootlogs apmd cups rc.local cron ssh binfmt-support loadcpufreq cpufrequtils
+stop-bootlogd: rsyslog anacron avahi-daemon dbus bluetooth gdm acpid gdm3 bootlogs apmd cups rc.local cron ssh binfmt-support loadcpufreq cpufrequtils sudo

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="peripherals">
+					<dir name="mouse">
+						<entry name="double_click">
+							<local_schema short_desc="טאָפּל־קליק צײַט">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>לעש אױס אױב מען דריקט צװײ קלאַװישן אין אײן מאָל</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="לױפֿער־בליצלען צײַט">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="לױפֿער בליצלען">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="מכשיר־װײַזער סטיל">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="hour_format">
+						<local_schema short_desc="שעה־פֿאָרמאַטירונג">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="שעה־פֿאָרמאַטירונג">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="name">
+						<local_schema short_desc="דעם פֿישס נאָמען">
+							<longdesc>אַ פֿיש אָן אַ נאָמען איז װי אַ ייִד אָן אַ היטל.  זײַ אים מחיה מיט אַ נאָמען.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

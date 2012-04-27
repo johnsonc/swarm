@@ -1,0 +1,16 @@
+b6f946310dafce5cf50f995f612ac0da  usr/lib/girepository-1.0/Atk-1.0.typelib
+d260e50a3c52faf2ce7351071b34c260  usr/lib/girepository-1.0/Gdk-2.0.typelib
+eef61e27adad98935588b22748a1bd0e  usr/lib/girepository-1.0/GdkPixbuf-2.0.typelib
+a286359b246e7dbf9c5d287ea2ccd052  usr/lib/girepository-1.0/Gtk-2.0.typelib
+51e385665a2b5f32f0855bfc561aef5a  usr/lib/girepository-1.0/Pango-1.0.typelib
+e47c08d0104329ab7772748df0cc2203  usr/lib/girepository-1.0/PangoCairo-1.0.typelib
+51c34045a840be314459480ea672894b  usr/lib/girepository-1.0/PangoFT2-1.0.typelib
+968bd351d88b4975ef4879fe0e67d491  usr/lib/girepository-1.0/PangoX-1.0.typelib
+f12fb0ab1be8ae795d36f041e7fc394e  usr/lib/girepository-1.0/PangoXft-1.0.typelib
+cae512c307f72fb4b5a7f619504bc1af  usr/lib/libgirepo-Gdk-custom.so.0.0.0
+e04cf71d7af5044e812ae7154f01381b  usr/lib/libgirepo-Gtk-custom.so.0.0.0
+4a9a07987cb5097992d06332dc45a51c  usr/share/doc/gir1.0-gtk-2.0/AUTHORS
+8f0bf86e2f3ec306d23958c8a7c26650  usr/share/doc/gir1.0-gtk-2.0/NEWS.gz
+dbd17a4e55749b09389340af0905b82b  usr/share/doc/gir1.0-gtk-2.0/README
+86f08849e59e81f0c18ce24eb265649d  usr/share/doc/gir1.0-gtk-2.0/changelog.Debian.gz
+6f7a69c192276cc9e81e38ac1784a533  usr/share/doc/gir1.0-gtk-2.0/copyright

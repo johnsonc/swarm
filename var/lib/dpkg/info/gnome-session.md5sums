@@ -1,0 +1,12 @@
+a22afcfacf96ed7eba1499e0065c75b7  usr/bin/gnome-wm
+bb8d3c7d40b4e3687eec546ea6a03f01  usr/share/applications/gnome-wm.desktop
+b2f28aeb809c173216af20c30fcbc801  usr/share/doc/gnome-session/AUTHORS
+c7ec54c8e36b35e10a39f8203a7aef8d  usr/share/doc/gnome-session/NEWS.gz
+07b2131d83beecc32b44fb8c8546c6d3  usr/share/doc/gnome-session/README
+501e2416503a7791b540b67ef209b505  usr/share/doc/gnome-session/README.Debian
+b7d930f82bf49dac7f5c37481f5b8253  usr/share/doc/gnome-session/changelog.Debian.gz
+1517cc9af3448cde60ae3a92955939d6  usr/share/doc/gnome-session/changelog.gz
+6d6a45f6ac60957a3bf94687aee0a289  usr/share/doc/gnome-session/copyright
+6aa345db2651e2d1c4d3c108085b5b7d  usr/share/doc/gnome-session/dbus/gnome-session.html
+f67c7ee9dbe56e2f8e4935e3d1aa8ffb  usr/share/man/man1/gnome-wm.1.gz
+18b653c9eb5f623f429dcef31391a56a  usr/share/xsessions/gnome.desktop

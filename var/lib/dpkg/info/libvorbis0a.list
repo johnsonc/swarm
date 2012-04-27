@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libvorbis0a
+/usr/share/doc
+/usr/share/doc/libvorbis0a
+/usr/share/doc/libvorbis0a/changelog.gz
+/usr/share/doc/libvorbis0a/copyright
+/usr/share/doc/libvorbis0a/changelog.Debian.gz
+/usr/lib
+/usr/lib/libvorbis.so.0.4.4
+/usr/lib/libvorbis.so.0

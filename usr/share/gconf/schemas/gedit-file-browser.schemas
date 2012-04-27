@@ -1,0 +1,2291 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/filebrowser/on_load/tree_view</key>
+      <applyto>/apps/gedit-2/plugins/filebrowser/on_load/tree_view</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Open With Tree View</short>
+	<long>Open the tree view when the file browser plugin gets loaded instead of the bookmarks view</long>
+      </locale>
+
+      <locale name="ar">
+	<short>افتح بنمط عرض الشجرة</short>
+	<long>افتح مظهر الشجرة عند تحميل ملحق متصفح الملفات عوضا عن مظهر العلامات</long>
+      </locale>
+
+      <locale name="as">
+	<short>ট্ৰি অনুযায়ী প্ৰদৰ্শনত খোলা হ&apos;ব</short>
+	<long>নথিপত্ৰ ব্ৰাউজাৰ প্লাগ-ইন লোড কৰা হ&apos;লে বুকমাৰ্ক প্ৰদৰ্শনৰ পৰিবৰ্তে ট্ৰি অনুযায়ী প্ৰদৰ্শন কৰা হ&apos;ব</long>
+      </locale>
+
+      <locale name="ast">
+	<short>Abrir con vista d&apos;árbol</short>
+	<long>Abre la vista d&apos;árbol cuando&apos;l complementu del desaminador de ficheros se carga n&apos;arróu de la vista de marcadores</long>
+      </locale>
+
+      <locale name="be@latin">
+	<short>Adčyni z vyhladam dreva fajłaŭ</short>
+	<long>Adčyni prahladalnik fajłaŭ z aktyŭnym vyhladam dreva fajłaŭ zamiest vyhladu zakładak.</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Отваряне в дървовидния изглед</short>
+	<long>Отваряне на дървовидния изглед, когато приставката за браузъра се зареди вместо изгледа на отметките</long>
+      </locale>
+
+      <locale name="bn">
+	<short>ট্রি অনুযায়ী প্রদর্শনে খোলা হবে</short>
+	<long>ফাইল ব্রাউজার প্লাগ-ইন লোড করা হলে বুকমার্ক প্রদর্শনের পরিবর্তে ট্রি অনুযায়ী প্রদর্শন করা হবে</long>
+      </locale>
+
+      <locale name="bn_IN">
+	<short>ট্রি অনুযায়ী প্রদর্শনে খোলা হবে</short>
+	<long>ফাইল ব্রাউজার প্লাগ-ইন লোড করা হলে বুকমার্ক প্রদর্শনের পরিবর্তে ট্রি অনুযায়ী প্রদর্শন করা হবে</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Obre amb la vista d&apos;arbre</short>
+	<long>Obre la vista d&apos;arbre en lloc de la vista d&apos;adreces d&apos;interès quan es carregui el connector del navegador de fitxers</long>
+      </locale>
+
+      <locale name="ca@valencia">
+	<short>Obri amb la vista d&apos;arbre</short>
+	<long>Obri la vista d&apos;arbre en lloc de la vista d&apos;adreces d&apos;interés quan es carregui el connector del navegador de fitxers</long>
+      </locale>
+
+      <locale name="crh">
+	<short>Terek Körünimi ile Aç</short>
+	<long>Dosya tarayıcısı eklentisi yüklendiğinde yer imleri görünümü yerine ağaç görünümünü aç</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Otevřít ve stromovém pohledu</short>
+	<long>Otevřít stromové zobrazení, když se zásuvný modul prohlížeče souborů načte místo zobrazení záložek</long>
+      </locale>
+
+      <locale name="cy">
+	<short>Agor yn yr Olwg Coeden</short>
+	<long>Agor yn yr olwg coeden, yn hytrach na&apos;r olwg llyfrnodau, wrth lwytho&apos;r ategyn porwr ffeiliau</long>
+      </locale>
+
+      <locale name="da">
+	<short>Åben med trævisning</short>
+	<long>Åben med trævisning i stedet for bogmærkevisning når filvælgeren indlæses</long>
+      </locale>
+
+      <locale name="de">
+	<short>In der Baumansicht öffnen</short>
+	<long>Öffnet die Baumansicht, wenn das Dateiverwaltung-Plugin anstelle der Lesezeichenansicht geöffnet wurde</long>
+      </locale>
+
+      <locale name="dz">
+	<short>རྩ་འབྲེལ་མཐོང་སྣང་ཐོག་ལས་ཁ་ཕྱེ་</short>
+	<long>ཡིག་སྣོད་བརའུ་ཟར་ པ་ལག་ཨིན་དེ་ མངོན་གསལ་འབད་བའི་སྐབས་ དེབ་རྟགས་མཐོང་སྣང་གི་ཚབ་ལུ་ རྩ་འབྲེལ་མཐོང་སྣང་ཁ་ཕྱེ།</long>
+      </locale>
+
+      <locale name="el">
+	<short>Άνοιγμα με προβολή δένδρου</short>
+	<long>Άνοιγμα της προβολής δένδρου όταν η πρόσθετη λειτουργία περιηγητή αρχείων φορτώνεται αντί για την προβολή σελιδοδεικτών</long>
+      </locale>
+
+      <locale name="en@shaw">
+	<short>𐑴𐑐𐑩𐑯 𐑢𐑦𐑞 𐑑𐑮𐑰 𐑝𐑿</short>
+	<long>𐑴𐑐𐑩𐑯 𐑞 𐑑𐑮𐑰 𐑝𐑿 𐑢𐑧𐑯 𐑞 𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑐𐑤𐑳𐑜𐑦𐑯 𐑜𐑧𐑑𐑕 𐑤𐑴𐑛𐑩𐑛 𐑦𐑯𐑕𐑑𐑧𐑛 𐑝 𐑞 𐑚𐑫𐑒𐑥𐑸𐑒𐑕 𐑝𐑿</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Open With Tree View</short>
+	<long>Open the tree view when the file browser plugin gets loaded instead of the bookmarks view</long>
+      </locale>
+
+      <locale name="eo">
+	<short>Malfermi per arba rigardo</short>
+	<long>Malfermi la arban rigardon kiam la dosierfoliumila kromaĵo estas ŝargata anstataŭ ol la legosignan rigardon</long>
+      </locale>
+
+      <locale name="es">
+	<short>Abrir con vista de árbol</short>
+	<long>Abrir la vista de árbol cuando el complemento del examinador de archivos se carga en vez de la vista de marcadores</long>
+      </locale>
+
+      <locale name="et">
+	<short>Avamine koos puuvaatega</short>
+	<long>Järjehoidjate vaate asemel puuvaate avamine failisirvija plugina laadimisel</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Ireki zuhaitz ikuspegiarekin</short>
+	<long>Ireki zuhaitz-ikuspegian fitxategi-arakatzailearen osagaiak kargatzen duenean laster-marken ikuspegiaren ordez</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Avaa puunäkymä</short>
+	<long>Avaa puunäkymä kirjanmerkkinäkymän sijasta, kun tiedostoselain ladataan</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Ouvrir avec la vue arborescente</short>
+	<long>Ouvre la vue arborescente quand le greffon du gestionnaire de fichiers est chargé à la place de la vue des signets</long>
+      </locale>
+
+      <locale name="gl">
+	<short>Abrir con visualización en árbore</short>
+	<long>Abre a visualización en árbore cando se carga o engadido do navegador de ficheiros en vez da visualización de marcadores</long>
+      </locale>
+
+      <locale name="gu">
+	<short>વૃક્ષ દેખાવ સાથે ખોલો</short>
+	<long>વૃક્ષ દેખાવ સાથે ખોલો જ્યારે ફાઈલ બ્રાઉઝર પ્લગઈન બુકમાર્કો દેખાવની જગ્યાએ લવાઈ જાય</long>
+      </locale>
+
+      <locale name="he">
+	<short>Open With Tree View</short>
+	<long>Open the tree view when the file browser plugin gets loaded instead of the bookmarks view</long>
+      </locale>
+
+      <locale name="hi">
+	<short>तरू दृश्य के साथ खोलें</short>
+	<long>तरू दृश्य खोलें जब पुस्तचिह्न दृश्य के बजाय फ़ाइल ब्राउज़र प्लगइन लोड किया जाता है</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Megnyitás fanézettel</short>
+	<long>A fanézet megnyitása a fájlböngésző bővítménnyel a könyvjelzők nézet helyett</long>
+      </locale>
+
+      <locale name="id">
+	<short>Buka Dengan Tampilan Pohon</short>
+	<long>Buka tampilan pohon ketika plugin penjelajah berkas terbaca dari tampilan bookmarks</long>
+      </locale>
+
+      <locale name="it">
+	<short>Apri vista ad albero</short>
+	<long>Apre la vista ad albero all&apos;avvio del plugin dell&apos;esplorazione file invece della vista a segnalibri</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ツリー表示で開く</short>
+	<long>ファイル参照プラグインを読み込んだ際に、ブックマーク表示ではなくツリー表示で開きます。</long>
+      </locale>
+
+      <locale name="kn">
+	<short>ವೃಕ್ಷ ನೋಟದೊಂದಿಗೆ ತೆರೆ</short>
+	<long>ಕಡತ ವೀಕ್ಷಕ ಪ್ಲಗ್‍ಇನ್ ಲೋಡ್ ಆದಾಗ ಬುಕ್‍ಮಾರ್ಕುಗಳ ರೀತಿಯಲ್ಲಿ ಕಾಣಿಸುವ ಬದಲು ವೃಕ್ಷ ನೋಟದಲ್ಲಿ ತೆರೆ</long>
+      </locale>
+
+      <locale name="ko">
+	<short>폴더보기로 열기</short>
+	<long>책갈피 보기 대신 폴더 보기모드로 파일 찾아보기 플러그인이 시작됩니다</long>
+      </locale>
+
+      <locale name="lt">
+	<short>Atverti su medžio vaizdu</short>
+	<long>Atverti medžio rodinį, vietoje žymelių rodinio, kai įkeliamas failų naršyklės įskiepis</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Atvērt koka skatā</short>
+	<long>Ielādējot failu pārlūka spraudni atvērt koka skatu nevis grāmatzīmju skatu</long>
+      </locale>
+
+      <locale name="mai">
+	<short>तरू दृश्य क&apos; सँग खोलू</short>
+	<long>तरू दृश्य खोलू जखन पुस्तकचिह्न दृश्य क&apos; बजाय फाइल ब्रॉउजर प्लगिन लोड कएल जाएत अछि</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Отвори со преглед на дрво</short>
+	<long>Отвори го прегледот на дрвото кога приклучокот на пребарувачот на датотеки се вчитува наместо прегледот на обележувачите</long>
+      </locale>
+
+      <locale name="ml">
+	<short>ട്രീ വ്യൂവില്‍ തുറക്കുക</short>
+	<long>ഓര്‍മ്മക്കുറിപ്പുകളുടെ കാഴ്ചയ്ക്കു് പകരം ഫയലുകള്‍ പരതാനുള്ള സംയോജകം ചേര്‍ക്കുമ്പോള്‍ ട്രീയായുള്ള കാഴ്ച തുറക്കുക.</long>
+      </locale>
+
+      <locale name="mr">
+	<short>वृक्ष दृश्यासह उघडा</short>
+	<long>ओळखचिन्ह दृश्य ऐवजी जेव्हा फाइल ब्राउजर प्लगइन दाखल होते तेव्हा वृक्ष दाखवा</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Åpne med trevisning</short>
+	<long>Åpne trevisning når filhåndterertillegget lastes i stedet for bokmerkevisning.</long>
+      </locale>
+
+      <locale name="ne">
+	<short>ट्रि दृश्यसँग खोल्नुहोस्</short>
+	<long>फाइल ब्राउजर प्लगइनले पुस्तकचिनोहरूको दृश्यको सट्टा लोड गरिएको प्राप्त गर्दा ट्रि दृश्य खोल्नुहोस्</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Openen met boomweergave</short>
+	<long>Open de boomweergave wanneer de bestandsverkennerplug-in wordt opgestart in plaats van de bladwijzersweergave</long>
+      </locale>
+
+      <locale name="nn">
+	<short>Opna med treframsyning</short>
+	<long>Opna treframsyninga når filvisaren vert lasta, i staden for bokmerkeframsyninga</long>
+      </locale>
+
+      <locale name="or">
+	<short>ଟ୍ରି ଦୃଶ୍ୟ ସହିତ ଖୋଲନ୍ତୁ</short>
+	<long>ଚିହ୍ନିତ ସ୍ଥାନ ଦୃଶ୍ୟ ପରିବର୍ତ୍ତେ ଫାଇଲ ବ୍ରାଉଜର ପ୍ଲଗଇନ ଧାରଣ ହୋଇସାରିବା ପରେ ବୃକ୍ଷ ଦୃଶ୍ୟକୁ ଖୋଲନ୍ତୁ</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਲੜੀ ਝਲਕ ਨਾਲ ਖੋਲ੍ਹੋ</short>
+	<long>ਲੜੀ ਝਲਕ ਖੋਲ੍ਹਦੀ ਹੈ, ਜਦੋਂ ਫਾਇਲ ਝਲਕਾਰਾ ਪਲੱਗਇਨ ਨੂੰ ਬੁੱਕਮਾਰਕ ਝਲਕ ਦੀ ਬਜਾਏ ਲੋਡ ਕੀਤਾ ਹੁੰਦਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Rozpocznij z widokiem drzewa plików</short>
+	<long>Otwiera przeglądarkę plików z aktywnym widokiem drzewa plików zamiast widoku zakładek</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Abrir com Vista de Árvore</short>
+	<long>Abrir o plugin de navegação de ficheiros em vista de árvore em vez de em vista de marcadores</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Abrir com visão em árvore</short>
+	<long>Usar a visão em árvore ao carregar o navegador de arquivos, em vez da visão em marcadores</long>
+      </locale>
+
+      <locale name="ro">
+	<short>Deschide cu vizualizarea arbore</short>
+	<long>Deschide vizualizarea arbore când este încărcat modulul de navigare în fișiere, în locul vizualizării favoritelor</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Открыть в режиме дерева</short>
+	<long>Открыть просмотр в режиме дерева при загрузке модуля обозревателя файлов вместо режима закладок</long>
+      </locale>
+
+      <locale name="si">
+	<short>රුක් දසුන සමඟ විවෘත කරන්න</short>
+	
+      </locale>
+
+      <locale name="sl">
+	<short>Odpri z drevesnim prikazom</short>
+	<long>Odpri drevesni prikaz namesto prikaza zaznamkov, ko se zažene vstavek pregledovalnika datotek</long>
+      </locale>
+
+      <locale name="sq">
+	<short>Hap paraqitjen e degëzuar</short>
+	<long>Hap paraqitjen e degëzuar gjatë nisjes së plugin të shfletimit në vend të paraqitjes me libërshënues</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Отвори као стабло</short>
+	<long>Приказује стабло када се прегледник датотека учита уместо прегледа обележивача</long>
+      </locale>
+
+      <locale name="sr@latin">
+	<short>Otvori kao stablo</short>
+	<long>Prikazuje stablo kada se preglednik datoteka učita umesto pregleda obeleživača</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Öppna med trädvy</short>
+	<long>Öppna trädvyn när filbläddrarens insticksmodul blir inläst istället för bokmärkesvyn</long>
+      </locale>
+
+      <locale name="ta">
+	<short>கிளை பார்வையாக திறக்கவும்</short>
+	<long>கோப்பு சொருகுப்பொருள் ஏற்றப் படும் போது புத்தக குறிகள் காட்சி அல்லாது கிளைக் காட்சியை திறக்கவும்.</long>
+      </locale>
+
+      <locale name="te">
+	<short>ట్రీ దర్శనం తో తెరువుము</short>
+	<long>దస్త్ర అన్వేషకి ప్లగ్ఇన్ లు లోడయ్యినప్పుడు బుక్‌మార్క్ దర్శనం ద్వారా కాకుండా ట్రీ దర్శనం తో తెరువుము</long>
+      </locale>
+
+      <locale name="th">
+	<short>แสดงแบบผังต้นไม้</short>
+	<long>เปิดช่องเรียกดูแฟ้มด้วยแผนผังแบบต้นไม้แทนแบบที่คั่นหน้า</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Ağaç Görünümü ile Aç</short>
+	<long>Dosya tarayıcısı eklentisi yüklendiğinde yer imleri görünümü yerine ağaç görünümünü aç</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Відкрити у перегляді дерева</short>
+	<long>При завантаженні модуля перегляду файлів, відкривати перегляд дерева, а не перегляд закладок</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Mở trong ô xem cây</short>
+	<long>Mở ô xem cây khi bổ sung duyệt tập tin được tải, thay cho ô xem Đánh dấu</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>以树视图打开</short>
+	<long>文件浏览器插件载入时以树视图而不是书签视图打开</long>
+      </locale>
+
+      <locale name="zh_HK">
+	<short>以樹狀顯示模式開啟</short>
+	<long>載入檔案瀏覽器外掛程式時，是否開啟樹狀顯示模式取代書籤顯示模式</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>以樹狀顯示模式開啟</short>
+	<long>載入檔案瀏覽器外掛程式時，是否開啟樹狀顯示模式取代書籤顯示模式</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/filebrowser/on_load/root</key>
+      <applyto>/apps/gedit-2/plugins/filebrowser/on_load/root</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>File Browser Root Directory</short>
+	<long>The file browser root directory to use when loading the file 
+	browser plugin and onload/tree_view is TRUE.</long>
+      </locale>
+
+      <locale name="ar">
+	<short>الدليل الجذري لمتصفح الملفات </short>
+	<long>دليل الجذر لمتصفح الملفات المستعمل عند تحميل ملحق متصفح الملفات و onload/tree_view محدد بـ TRUE.</long>
+      </locale>
+
+      <locale name="as">
+	<short>নথিপত্ৰ ব্ৰাউজাৰৰ প্ৰধান (root) পঞ্জিকা</short>
+	<long>নথিপত্ৰ ব্ৰাউজাৰ প্লাগ-ইন লোড কৰাৰ সময় আৰু onload/tree_view&apos;ৰ মান TRUE (সত্য) হ&apos;লে ব্যৱহাৰৰ বাবে চিহ্নিত নথিপত্ৰ ব্ৰাউজাৰৰ root পঞ্জিকা  ।</long>
+      </locale>
+
+      <locale name="ast">
+	<short>Direutoriu raíz del desaminador dde ficheros</short>
+	<long>El direutoriu raíz del desaminador de ficheros qu&apos;usar al cargar el complementu de desaminador de ficheros y cuando onload/tree_view ye TRUE.</long>
+      </locale>
+
+      <locale name="be@latin">
+	<short>Hałoŭny kataloh prahladalnika fajłaŭ</short>
+	<long>Hałoŭny kataloh, ad jakoha pačnie prahladalnik fajłaŭ, kali onload/tree_view maje vartaść TRUE.</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Основна папка на файловия браузър</short>
+	<long>Основната папка на файловия браузър, когато се зареди приставката за файловия браузър и „onload/tree_view“ е ИСТИНА.</long>
+      </locale>
+
+      <locale name="bn">
+	<short>ফাইল ব্রাউজারের প্রধান ডিরেক্টরি</short>
+	<long>ফাইল ব্রাউজার প্লাগ-ইন লোড করার সময় ও onload/tree_view&apos;র মান TRUE হলে ব্যবহারের জন্য চিহ্নিত ফাইল ব্রাউজারের মূল ডিরেক্টরি।</long>
+      </locale>
+
+      <locale name="bn_IN">
+	<short>ফাইল ব্রাউজারের প্রধান (root) ডিরেক্টরি</short>
+	<long>ফাইল ব্রাউজার প্লাগ-ইন লোড করার সময় ও onload/tree_view&apos;র মান TRUE (সত্য) হলে ব্যবহারের জন্য চিহ্নিত ফাইল ব্রাউজারের root ডিরেক্টরি।</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Directori arrel del navegador de fitxers</short>
+	<long>El directori arrel del navegador de fitxers que es farà servir quan es carregui el connector del navegador de fitxers i onload/tree_view és CERT.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+	<short>Directori arrel del navegador de fitxers</short>
+	<long>El directori arrel del navegador de fitxers que es farà servir quan es carregui el connector del navegador de fitxers i onload/tree_view és CERT.</long>
+      </locale>
+
+      <locale name="crh">
+	<short>Dosye Kezicisi Tamır Cilbenti</short>
+	<long>Dosya tarayıcısı eklentisi yüklendiğinde ve onload/tree_view TRUE ise kullanılacak dosya tarayıcısı başlangıç dizini.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Kořenový adresář prohlížeče souborů</short>
+	<long>Kořenový adresář prohlížeče souborů, který bude použit, když načítání zásuvného modulu prohlížeče souborů a onload/tree_view je TRUE.</long>
+      </locale>
+
+      <locale name="cy">
+	<short>Cyfeiriadur Gwraidd y Porwr Ffeiliau</short>
+	<long>Y cyfeiriadur gwraidd i&apos;w ddefnyddio wrth lwytho&apos;r porwr ffeiliau os yw onload/tree_view yn WIR.</long>
+      </locale>
+
+      <locale name="da">
+	<short>Rodmappe for filvælger</short>
+	<long>Filvælger-rodmappen der skal anvendes når filvælger-udvidelsesmodulet indlæses og onload/tree_view er TRUE.</long>
+      </locale>
+
+      <locale name="de">
+	<short>Wurzelordner der Dateiverwaltung</short>
+	<long>Der Wurzelordner der Dateiverwaltung, der beim Laden der Dateiverwaltung verwendet wird, wenn der Schlüssel »onload/tree_view« auf »TRUE« gesetzt ist.</long>
+      </locale>
+
+      <locale name="dz">
+	<short>ཡིག་སྣོད་བརའུ་ཟར་ རྩ་བའི་སྣོད་ཐོ་</short>
+	<long>ཡིག་སྣོད་བརའུ་ཟར་ པ་ལག་ཨིན་མངོན་གསལ་བའི་སྐབས་ onload/tree_view དེ་བདེན་པ་ཨིན་པ་ཅིན་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་བརའུ་ཟར་གྱི་ རྩ་བའི་སྣོད་ཐོ།</long>
+      </locale>
+
+      <locale name="el">
+	<short>Ριζικός κατάλογος περιηγητή αρχείων</short>
+	<long>Ο ριζικός κατάλογος που θα χρησιμοποιείται όταν φορτώνεται η πρόσθετη λειτουργία περιηγητή αρχείων και το onload/tree_view είναι TRUE.</long>
+      </locale>
+
+      <locale name="en@shaw">
+	<short>𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑮𐑵𐑑 𐑛𐑲𐑮𐑧𐑒𐑑𐑼𐑦</short>
+	<long>𐑞 𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑮𐑵𐑑 𐑛𐑲𐑮𐑧𐑒𐑑𐑼𐑦 𐑑 𐑿𐑕 𐑢𐑧𐑯 𐑤𐑴𐑛𐑦𐑙 𐑞 𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑐𐑤𐑳𐑜𐑦𐑯 𐑯 onload/tree_view 𐑦𐑟 𐑑𐑮𐑵.</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>File Browser Root Directory</short>
+	<long>The file browser root directory to use when loading the file browser plugin and onload/tree_view is TRUE.</long>
+      </locale>
+
+      <locale name="eo">
+	<short>Dosierfoliumila baza dosierujo</short>
+	<long>La dosierfoliumila baza dosierujo uzata por ŝargi la dosierfoliumilan kromaĵon kaj onload/tree_view estas VERA.</long>
+      </locale>
+
+      <locale name="es">
+	<short>Directorio raíz del examinador de archivos</short>
+	<long>El directorio raíz del examinador de archivos que usar al cargar el complemento de examinador de archivos y cuando onload/tree_view es TRUE.</long>
+      </locale>
+
+      <locale name="et">
+	<short>Failisirvija juurkataloog</short>
+	<long>Failisirvija juurkataloog, mida kasutatakse failisirvija laadimise ajal juhul, kui võtmed onload/tree_view on märgitud.</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Fitxategi-arakatzailearen erroko direktorioa</short>
+	<long>Fitxategi-arakatzailearen erroko direktorioa, fitxategi-arakatzailearen osagaia kargatzean eta onload/tree_view EGIA denean erabiltzeko.</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Tiedostoselaimen juurihakemisto</short>
+	<long>Tiedostoselaimen juurikansiona käytettävä kansio, kun liitännäistä ladataan ja avain onload/tree_view on TOSI.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Répertoire racine du gestionnaire de fichiers</short>
+	<long>Le répertoire racine du gestionnaire de fichiers à utiliser lors du lancement du greffon lorsque la vue arborescente au lancement (onload/tree_view) est VRAI.</long>
+      </locale>
+
+      <locale name="gl">
+	<short>Cartafol raíz do navegador de ficheiros</short>
+	<long>O cartafol raíz do navegador de ficheiros que se vai usar cando se carga o engadido de navegador de ficheiros e onload/tree_view é TRUE.</long>
+      </locale>
+
+      <locale name="gu">
+	<short>ફાઈલ બ્રાઉઝર રુટ ડિરેક્ટરી</short>
+	<long>જ્યારે ફાઈલ બ્રાઉઝર પ્લગઈન લોડ કરી રહ્યા હોય અને onload/tree_view એ TRUE હોય ત્યારે વાપરવાની ફાઈલ બ્રાઉઝર રુટ ડિરેક્ટરી.</long>
+      </locale>
+
+      <locale name="he">
+	<short>File Browser Root Directory</short>
+	<long>The file browser root directory to use when loading the file browser plugin and onload/tree_view is TRUE.</long>
+      </locale>
+
+      <locale name="hi">
+	<short>फ़ाइल ब्राउज़र रूट निर्देशिका</short>
+	<long>फ़ाइल ब्राउज़र रूट निर्देशिका प्रयोग करने के लिए जब फ़ाइल ब्राउज़र प्लगइन लोड किया जाता है और ऑनलोड/ तरू दृश्य सही है (_v).</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Fájlböngésző gyökérkönyvtár</short>
+	<long>A fájlböngésző betöltésekor használandó gyökérkönyvtár, ha az onload/tree_view kulcs értéke igaz.</long>
+      </locale>
+
+      <locale name="id">
+	<short>Akar Direktori Penjelajah Berkas</short>
+	<long>Akar direktori penjelajah berkas yang dipergunakan ketika membaca plugin penjelajah berkas dan onload/tree_view adalah BENAR.</long>
+      </locale>
+
+      <locale name="it">
+	<short>Directory radice dell&apos;esplorazione file</short>
+	<long>La directory radice da usare all&apos;avvio del plugin dell&apos;esplorazione file se onload/tree_view è VERO.</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ファイル参照ペインのルート・フォルダ</short>
+	<long>ファイル参照プラグインを読み込んで onload/tree_view が TRUE の場合のファイル参照ブラウザのルート・フォルダ</long>
+      </locale>
+
+      <locale name="kn">
+	<short>ಕಡತ ವೀಕ್ಷಕ ಮೂಲ ಕೋಶ</short>
+	<long>ಕಡತ ವೀಕ್ಷಕ ಪ್ಲಗ್ಇನ್ ಅನ್ನು ಲೋಡ್ ಮಾಡುವಾಗ ಹಾಗು onload/tree_view ಯು TRUE ಆಗಿದ್ದಲ್ಲಿ ಕಡತ ವೀಕ್ಷಕದ ಮೂಲ ಕೋಶವು ಬಳಸಲ್ಪಡುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+	<short>파일 찾아보기 최상위 디렉터리</short>
+	<long>onload/tree_view가 참이고 파일 찾아보기 플러그인이 시작될 때 최상위 디렉터리로 사용할 위치.</long>
+      </locale>
+
+      <locale name="lt">
+	<short>Failų naršyklės šakninis aplankas</short>
+	<long>failų naršyklės šakninis aplankas naudojamas įkeliant failų naršyklės įskiepį ir esant onload/tree_view TEIGIAMOMS reikšmėms.</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Failu pārlūka saknes direktorija</short>
+	<long>Failu pārlūka saknes direktorija, kas tiks izmantota ielādējot failu pārluka spraudni, ja onload/tree_view ir TRUE.</long>
+      </locale>
+
+      <locale name="mai">
+	<short>फाइल ब्रॉउजर रूट निर्देशिका</short>
+	<long>फाइल ब्रॉउजर रूट निर्देशिका प्रयोग करब क&apos;लेल जखन फाइल ब्रॉउजर प्लगिन लोड कएल जाएत अछि आओर ऑनलोड/ तरू दृश्य सही अछि (_v).</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Главен директориум на прелистувачот на датотеки</short>
+	<long>Главниот директориум на пребарувачот на датотеки кој што ќе се користи за вчитување на приклучокот за пребарувач на датотеки и onload/tree_view е TRUE.</long>
+      </locale>
+
+      <locale name="ml">
+	<short>ഫയല്‍ ബ്രൌസര്‍ റൂട്ട് ഡയറക്ടറി</short>
+	<long>onload/tree_view ശരിയായിരിയ്ക്കുകയും ഫയലുകള്‍ പരതാനുള്ള സംയോജകം ഉപയോഗിയ്ക്കുകയും ചെയ്യുമ്പോള്‍ ഉപയോഗിയ്ക്കേണ്ട മേല്‍ത്തട്ടു്</long>
+      </locale>
+
+      <locale name="mr">
+	<short>फाइल ब्राउजर रूट संचयीका</short>
+	<long>फाइल ब्राउजर प्लगइन व दाखल करतेवेळी/वृक्ष_दृश्य खरे असल्यास दाखलनवेळी वापरण्याकरीताचे फाइल ब्राउजर रूट संचयीका.</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Rotkatalog for filhåndterer</short>
+	<long>Rotkatalog som brukes når fillesertillegget lastes og onload/tree_view er TRUE.</long>
+      </locale>
+
+      <locale name="ne">
+	<short>फाइल ब्राउजर मूल डाइरेक्टरी</short>
+	<long>फाइल ब्राउजर प्लगइन लोड गर्दा र अनलोड/ट्रि दृश्य TRUE हुँदा प्रयोग गर्नलाई फाइल ब्राउजर मूल डाइरेक्टरी ।</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Beginmap van de bestandsverkenner</short>
+	<long>De beginmap van de bestandsverkenner die gebruikt wordt bij het opstarten van de bestandsverkennerplug-in en wanneer onload/tree_view aangevinkt is.</long>
+      </locale>
+
+      <locale name="nn">
+	<short>Filvisar, rotkatalog</short>
+	<long>Rotkatalog å bruka i filvisaren når filvisaren vert lasta og onload/tree_view er TRUE.</long>
+      </locale>
+
+      <locale name="or">
+	<short>ଫାଇଲ ବ୍ରାଉଜର ମୂଳ ଡିରେକ୍ଟୋରୀ</short>
+	<long>ଫାଇଲ ବ୍ରାଉଜିଙ୍ଗ ପ୍ଲଗଇନ ଏବଂ ଧାରଣ ହୋଇଥିବା/ବୃକ୍ଷ ଦୃଶ୍ୟ TRUE ହୋଇଥିଲେ ଫାଇଲ ବ୍ରାଉଜର ପ୍ରମୂଖ ଚାଳକ ଡ଼ିରେକ୍ଟରୀକୁ ବ୍ୟବହାର କରାଯାଇଥାଏ।</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਫਾਇਲ ਬਰਾਊਜ਼ਰ ਮੁੱਢਲੀ ਡਾਇਰੈਕਟਰੀ</short>
+	<long>ਫਾਇਲ ਝਲਕਾਰਾ ਰੂਟ ਡਾਇਰੈਕਟਰੀ ਹੈ, ਜੋ ਕਿ ਫਾਇਲ ਝਲਕਾਰਾ ਲੋਡ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ, ਜਦੋਂ onload/tree_view TRUE ਹੋਵੇ।</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Katalog główny przeglądarki plików</short>
+	<long>Katalog główny, w którym rozpocznie przeglądarka plików, jeśli &quot;onload/tree_view&quot; ma wartość &quot;true&quot;.</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Directório Raíz do Navegador de Ficheiros</short>
+	<long>O directório raíz a utilizar pelo navegador de ficheiros ao iniciar o plugin e onload/tree_view for TRUE.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Diretório raiz do navegador de arquivos</short>
+	<long>Diretório raiz usado ao carregar o navegador de arquivos, se a chave onload/tree_view tiver valor VERDADEIRO.</long>
+      </locale>
+
+      <locale name="ro">
+	<short>Dosar rădăcină al navigatorului de fișiere</short>
+	<long>Dosarul rădăcină al navigatorului de fișiere ce va fi utilizat la încărcarea modulului de navigare în fișiere când onload/tree_view este definit la TRUE.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Корневой каталог обозревателя файлов</short>
+	<long>Корневой каталог обозревателя файлов при загрузке модуля обозревателя файлов, когда onload/tree_view установлен.</long>
+      </locale>
+
+      <locale name="sl">
+	<short>Korenski imenik pregledovalnika datotek</short>
+	<long>Korenski imenik pregledovalnika datotek, ki naj se uporabi pri nalaganju vstavka pregledovalnika datotek in ko je onload/tree_view RESNIČNO (TRUE).</long>
+      </locale>
+
+      <locale name="sq">
+	<short>Directory bazë e shfletimit të file</short>
+	<long>Directory bazë për tu përdorur gjatë nisjes së plugin të shfletimit të file nëse onload/tree_view është TRUE.</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Коренска фасцикла у прегледнику датотека</short>
+	<long>Шта треба бити коренска фасцикла при учитавању прегледника датотека када је onload/tree_view омогућено (TRUE).</long>
+      </locale>
+
+      <locale name="sr@latin">
+	<short>Korenska fascikla u pregledniku datoteka</short>
+	<long>Šta treba biti korenska fascikla pri učitavanju preglednika datoteka kada je onload/tree_view omogućeno (TRUE).</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Filbläddrarens rotkatalog</short>
+	<long>Filbläddrarens rotkatalog att använda när filbläddrarens insticksmodul läses in och onload/tree_view är TRUE.</long>
+      </locale>
+
+      <locale name="ta">
+	<short>கோப்பு உலாவி ரூட் அடைவு</short>
+	<long>ஏற்றும் போது கிளைக் காட்சியை திறக்கவும் என்பது உண்மை எனும் போது உபயோகிக்க வேண்டிய கோப்பு உலாவியின் மூல கோப்பு.</long>
+      </locale>
+
+      <locale name="te">
+	<short>దస్త్ర అన్వేషకి రూట్ సంచయం</short>
+	<long>దస్త్ర అన్వేషకి ప్లగ్ఇన్ మరియు ఆన్‌లోడ్/ట్రీ దర్శనం నిజమైనప్పుడు ఉపయోగించుకొను దస్త్ర అన్వేషకి రూట్ సంచయం.</long>
+      </locale>
+
+      <locale name="th">
+	<short>ไดเรกทอรีรากของช่องเรียกดูแฟ้ม</short>
+	<long>ไดเรกทอรีรากที่ช่องเรียกดูแฟ้มจะใช้เมื่อโหลดปลั๊กอินช่องเรียกดูแฟ้ม โดยค่าคีย์ onload/tree_view เป็นจริง</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Dosya Tarayıcısı Başlangıç Dizini</short>
+	<long>Dosya tarayıcısı eklentisi yüklendiğinde ve onload/tree_view TRUE ise kullanılacakdosya tarayıcısı başlangıç dizini.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Кореневий каталог перегляду файлів</short>
+	<long>Кореневий каталог перегляду файлів, що використовується при завантаженні модуля перегляду файлів та onload/tree_view має значення TRUE.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Thư mục gốc của bộ duyệt tập tin</short>
+	<long>Thư mục gốc của bộ duyệt tập tin, để dùng khi tải bổ sung duyệt tập tin và khi « onload/tree_view » là ĐÚNG.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>文件浏览器根目录</short>
+	<long>当 onload/tree_view 为 TRUE 时，文件浏览器插件载入将使用此值作为文件浏览器的根目录。</long>
+      </locale>
+
+      <locale name="zh_HK">
+	<short>檔案瀏覽器根資料夾</short>
+	<long>檔案瀏覽器根資料夾是用於載入檔案瀏覽器外掛程式及 onload/tree_view 設定為‘TRUE’時。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>檔案瀏覽器根資料夾</short>
+	<long>檔案瀏覽器根資料夾是用於載入檔案瀏覽器外掛程式及 onload/tree_view 設定為‘TRUE’時。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/filebrowser/on_load/virtual_root</key>
+      <applyto>/apps/gedit-2/plugins/filebrowser/on_load/virtual_root</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>File Browser Virtual Root Directory</short>
+	<long>The file browser virtual root directory to use when loading the 
+	file browser plugin when onload/tree_view is TRUE. The virtual root
+	must always be below the actual root.</long>
+      </locale>
+
+      <locale name="ar">
+	<short>دليل الجذر المبدئي لمتصفح الملفات</short>
+	<long>دليل الجذر الإفتراضي لمتصفح الملفات المستعمل عند تحميل ملحق متصفح الملفات و onload/tree_view محدد بـ TRUE. يجب أن يكون الجذر الإفتراضي دائما تحت الجذر الحقيقي.</long>
+      </locale>
+
+      <locale name="as">
+	<short>নথিপত্ৰ ব্ৰাউজাৰৰ ভাৰ্চুয়াল root পঞ্জিকা</short>
+	<long>নথিপত্ৰ ব্ৰাউজাৰ প্লাগ-ইন লোড কৰাৰ সময় আৰু onload/tree_view&apos;ৰ মান TRUE (সত্য) হ&apos;লে ব্যৱহাৰৰ বাবে চিহ্নিত নথিপত্ৰ ব্ৰাউজাৰৰ ভাৰ্চুয়াল root পঞ্জিকা  । ভাৰ্চুয়াল root পঞ্জিকা সৰ্বদা প্ৰকৃত root পঞ্জিকাৰ অধীন হওয়া আৱশ্যক  ।</long>
+      </locale>
+
+      <locale name="ast">
+	<short>Direutoriu raíz virtual del desaminador de ficheros</short>
+	<long>El direutoriu virtual del desaminador de ficheros a usar, al cargar el complementu del desaminador de ficheros cuando onload/tree_view ye TRUE. El direutoriu virtual tien de ser la raíz actual.</long>
+      </locale>
+
+      <locale name="be@latin">
+	<short>Virtualny hałoŭny kataloh prahladalnika fajłaŭ</short>
+	<long>Virtualny hałoŭny kataloh, ad jakoha pačnie prahladalnik fajłaŭ, kali onload/tree_view maje vartaść TRUE. Virtualny hałoŭny kataloh musić zaŭždy być padkataloham faktyčnaha hałoŭnaha katalohu.</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Виртуална основна папка на файловия браузър</short>
+	<long>Виртуалната основна папка на файловия браузър, когато се зареди приставката за файловия браузър и „onload/tree_view“ е ИСТИНА. Виртуалната папка трябва да е под истинската основна папка.</long>
+      </locale>
+
+      <locale name="bn">
+	<short>ফাইল ব্রাউজারের ভার্চুয়াল প্রধান ডিরেক্টরি</short>
+	<long>ফাইল ব্রাউজার প্লাগ-ইন লোড করার সময় ও onload/tree_view&apos;র মান TRUE (সত্য) হলে ব্যবহারের জন্য চিহ্নিত ফাইল ব্রাউজারের ভার্চুয়াল মূল ডিরেক্টরি। ভার্চুয়াল মূল ডিরেক্টরি সর্বদা প্রকৃত মূল ডিরেক্টরির অধীন হওয়া আবশ্যক।</long>
+      </locale>
+
+      <locale name="bn_IN">
+	<short>ফাইল ব্রাউজারের ভার্চুয়াল root ডিরেক্টরি</short>
+	<long>ফাইল ব্রাউজার প্লাগ-ইন লোড করার সময় ও onload/tree_view&apos;র মান TRUE (সত্য) হলে ব্যবহারের জন্য চিহ্নিত ফাইল ব্রাউজারের ভার্চুয়াল root ডিরেক্টরি। ভার্চুয়াল root ডিরেক্টরি সর্বদা প্রকৃত root ডিরেক্টরির অধীন হওয়া আবশ্যক।</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Directori arrel virtual del navegador de fitxers</short>
+	<long>El directori arrel virtual del navegador de fitxers que es farà servir quan es carregui el connector del navegador de fitxers i onload/tree_view és CERT. L&apos;arrel virtual ha de ser sempre per sota de l&apos;arrel actual.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+	<short>Directori arrel virtual del navegador de fitxers</short>
+	<long>El directori arrel virtual del navegador de fitxers que es farà servir quan es carregui el connector del navegador de fitxers i onload/tree_view és CERT. L&apos;arrel virtual ha de ser sempre per sota de l&apos;arrel actual.</long>
+      </locale>
+
+      <locale name="crh">
+	<short>Dosye Kezicisi Sanal Tamır Cilbenti</short>
+	<long>Dosya tarayıcısı eklentisi yüklendiğinde ve onload/tree_view TRUE ise kullanılacakdosya tarayıcısı sanal başlangıç dizini. Sanal başlangıç asıl başlangıcın altında olmalıdır.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Virtuální kořenový adresář prohlížeče souborů</short>
+	<long>Virtuální kořenový adresář prohlížeče souborů, který bude použit během načítání zásuvného modulu prohlížeče souborů, když onload/tree_view je TRUE. Virtuální kořen musí být vždy pod skutečným kořenem.</long>
+      </locale>
+
+      <locale name="cy">
+	<short>Rhith-Gyfeiriadur Gwraidd y Porwr Ffeiliau</short>
+	<long>Y rhith-gyfeiriadur gwraidd i&apos;w ddefnyddio wrth lwytho&apos;r porwr ffeiliau os yw onload/tree_view yn WIR. Rhaid i&apos;r rhith-gyfeiriadur gwraidd fod bob amser islaw&apos;r cyfeiriadur gwraidd go iawn.</long>
+      </locale>
+
+      <locale name="da">
+	<short>Virtuelt rodmappe for filvælger</short>
+	<long>Den virtuelle rodmappe filvælgeren skal bruge når filvælger-udvidelsesmodulet indlæses og onload/tree_view er TRUE. Den virtuelle rodmappe skal altid være under den aktuelle rod.</long>
+      </locale>
+
+      <locale name="de">
+	<short>Virtueller Wurzelordner der Dateiverwaltung</short>
+	<long>Der virtuelle Wurzelordner der Dateiverwaltung, der beim Laden des Datei-Browsers verwendet wird, wenn der Schlüssel »onload/tree_view« auf »TRUE« gesetzt ist. Der virtuelle Wurzelordner muss immer unterhalb des tatsächlichen Wurzelordner sein.</long>
+      </locale>
+
+      <locale name="dz">
+	<short>ཡིག་སྣོད་བརའུ་ཟར་ བར་ཅུ་ཡལ་ རྩ་བའི་སྣོད་ཐོ་</short>
+	<long>ཡིག་སྣོད་བརའུ་ཟར་ པ་ལག་ཨིན་མངོན་གསལ་བའི་སྐབས་ onload/tree_view དེ་བདེན་པ་ཨིན་པ་ཅིན་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་བརའུ་ཟར་གྱི་ བར་ཅུ་ཡལ་ རྩ་བའི་སྣོད་ཐོ། བཡ་ཅུ་ཡལ་རྩ་བ་དེ་ ཨ་རྟག་ར་ རྩ་བ་ངོ་མ་དེ་གི་འོག་ལུ་འོང་དགོ།</long>
+      </locale>
+
+      <locale name="el">
+	<short>Εικονικός ριζικός κατάλογος περιηγητή αρχείων</short>
+	<long>Ο εικονικός ριζικός κατάλογος που θα χρησιμοποιείται όταν φορτώνεται η πρόσθετη λειτουργία περιηγητή αρχείων και το onload/tree_view είναι TRUE. Ο ριζικός κατάλογος πρέπει να είναι κάτω από τον πραγματικό ριζικό.</long>
+      </locale>
+
+      <locale name="en@shaw">
+	<short>𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑝𐑻𐑗𐑫𐑩𐑤 𐑮𐑵𐑑 𐑛𐑲𐑮𐑧𐑒𐑑𐑼𐑦</short>
+	<long>𐑞 𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑝𐑻𐑗𐑫𐑩𐑤 𐑮𐑵𐑑 𐑛𐑲𐑮𐑧𐑒𐑑𐑼𐑦 𐑑 𐑿𐑕 𐑢𐑧𐑯 𐑤𐑴𐑛𐑦𐑙 𐑞 𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑐𐑤𐑳𐑜𐑦𐑯 𐑢𐑧𐑯 onload/tree_view 𐑦𐑟 𐑑𐑮𐑵. 𐑞 𐑝𐑻𐑗𐑫𐑩𐑤 𐑮𐑵𐑑 𐑥𐑳𐑕𐑑 𐑷𐑤𐑢𐑱𐑟 𐑚𐑰 𐑚𐑩𐑤𐑴 𐑞 𐑨𐑒𐑗𐑫𐑩𐑤 𐑮𐑵𐑑.</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>File Browser Virtual Root Directory</short>
+	<long>The file browser virtual root directory to use when loading the file browser plugin when onload/tree_view is TRUE. The virtual root must always be below the actual root.</long>
+      </locale>
+
+      <locale name="eo">
+	<short>Dosierfoliumila virtuala baza dosierujo</short>
+	<long>La dosierfoliumila virtuala baza dosierujo uzata por ŝargi la dosierfoliumilan kromaĵon kiam onload/tree_view estas VERA. La virtuala bazo ĉiam estu sube de la efektiva bazo.</long>
+      </locale>
+
+      <locale name="es">
+	<short>Directorio raíz virtual del examinador de archivos</short>
+	<long>El directorio virtual del examinador de archivo para usar al cargar el complemento del examinador de archivos cuando onload/tree_view es TRUE. El directorio virtual debe ser la raíz actual.</long>
+      </locale>
+
+      <locale name="et">
+	<short>Failisirvija virtuaalne juurkataloog</short>
+	<long>Failisirvija virtuaalne juurkataloog, mida kasutatakse failisirvija laadimise ajal juhul, kui võtmed onload/tree_view on märgitud. Virtuaalne juurkataloog peab alati kuuluma tegeliku juurkataloogi alla.</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Fitxategi-arakatzailearen erro birtualeko direktorioa</short>
+	<long>Fitxategi-arakatzailearen erro birtualeko direktorioa, fitxategi-arakatzailearen osagaia kargatzean eta onload/tree_view EGIA denean erabiltzeko. Erro birtuala uneko erroari dagokio beti.</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Tiedostoselaimen virtuaalinen juurihakemisto</short>
+	<long>Tiedostoselaimen virtuaalisena juurikansiona käytettävä kansio, kun liitännäistä ladataan ja avain onload/tree_view on TOSI. Virtuaalisen kansion täytyy aina olla todellisen juurikansion alikansio.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Répertoire racine virtuel du gestionnaire de fichiers</short>
+	<long>Le répertoire racine virtuel du gestionnaire de fichiers à utiliser lors du lancement du greffon lorsque la vue arborescente au lancement (onload/tree_view) est VRAI. Le répertoire racine virtuel doit toujours être au-dessous de la racine actuelle.</long>
+      </locale>
+
+      <locale name="gl">
+	<short>Cartafol raíz virtual do navegador de ficheiros</short>
+	<long>O cartafol raíz virtual do navegador de ficheiros para usar cando se carga o engadido do navegador de ficheiros e onload/tree_view é TRUE. A raíz virtual debe estar sempre por debaixo da raíz actual.</long>
+      </locale>
+
+      <locale name="gu">
+	<short>ફાઈલ બ્રાઉઝર વર્ચ્યુઅલ રુટ ડિરેક્ટરી</short>
+	<long>જ્યારે ફાઈલ બ્રાઉઝર પ્લગઈન લોડ કરી રહ્યા હોય અને onload/tree_view એ TRUE હોય ત્યારે વાપરવાની ફાઈલ બ્રાઉઝર વર્ચ્યુઅલ રુટ ડિરેક્ટરી. વર્ચ્યુઅલ રુટ હંમેશા વાસ્તવિક રુટ પર હોવી જ જોઈએ.</long>
+      </locale>
+
+      <locale name="he">
+	<short>File Browser Virtual Root Directory</short>
+	<long>The file browser virtual root directory to use when loading the file browser plugin when onload/tree_view is TRUE. The virtual root must always be below the actual root.</long>
+      </locale>
+
+      <locale name="hi">
+	<short>फ़ाइल ब्राउज़र आभासी रूट निर्देशिका</short>
+	<long>फ़ाइल ब्राउज़र आभासी रूट निर्देशिका प्रयोग करने के लिए जब फ़ाइल ब्राउज़र प्लगइन लोड किया जाता है और ऑनलोड/ तरू दृश्य सही है. आभासी रूट को वास्तविक रूट से हमेशा नीचे होना चाहिए (_v).</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Fájlböngésző virtuális gyökérkönyvtár</short>
+	<long>A fájlböngésző betöltésekor használandó virtuális gyökérkönyvtár, ha az onload/tree_view kulcs értéke igaz. A virtuális gyökérkönyvtárnak mindig a valódi gyökér alatt kell lennie.</long>
+      </locale>
+
+      <locale name="id">
+	<short>Akar Virtual Direktori Penjelajah Berkas</short>
+	<long>Akar virtual direktori penjelajah berkas untuk dipergunakan ketika membaca plugin penjelajah berkas ketika onload/tree_view adalah BENAR. Akar virtual harus selalu di bawah akar sebenarnya.</long>
+      </locale>
+
+      <locale name="it">
+	<short>Directory radice virtuale dell&apos;esplorazione file</short>
+	<long>Directory radice virtuale da usare all&apos;avvio del plugin dell&apos;esplorazione file quando onload/tree_view è VERO. Deve essere sempre un livello più sotto della directory principale.</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ファイル参照ペインの仮想的なルート・フォルダ</short>
+	<long>ファイル参照プラグインを読み込んで onload/tree_view が TRUE の場合にファイル参照ブラウザが参照する仮想的なルート・フォルダを指定します。この仮想フォルダは必ず実際のルートよりも下層にあるフォルダを指定してください。</long>
+      </locale>
+
+      <locale name="kn">
+	<short>ಕಡತ ವೀಕ್ಷಕ ವಾಸ್ತವ ಮೂಲ ಕೋಶ</short>
+	<long>ಕಡತ ವೀಕ್ಷಕ ಪ್ಲಗ್ಇನ್ ಅನ್ನು ಲೋಡ್ ಮಾಡುವಾಗ ಹಾಗು onload/tree_view ಯು TRUE ಆಗಿದ್ದಲ್ಲಿ ಕಡತ ವೀಕ್ಷಕದ ವಾಸ್ತವಿಕ ಮೂಲ ಕೋಶವು ಬಳಸಲ್ಪಡುತ್ತದೆ. ವಾಸ್ತವಿಕ ಮೂಲ ಕೋಶವು ಯಾವಾಗಲೂ ನೈಜ ಮೂಲಕ್ಕಿಂತ ಕೆಳಗೆ ಇರಬೇಕು.</long>
+      </locale>
+
+      <locale name="ko">
+	<short>파일 찾아보기 가상 최상위 디렉터리</short>
+	<long>onload/tree_view가 참이고 파일 찾아보기 플러그인이 시작될 때 가상 최상위 디렉토리로 사용할 위치. 가상 최상위 디렉터리는 항상 실제 최상위 디렉터리의 하위 디렉터리이여야 합니다.</long>
+      </locale>
+
+      <locale name="lt">
+	<short>Failų naršyklės virtualus šakninis aplankas</short>
+	<long>failų naršyklės virtualus šakninis aplankas naudojamas įkeliant failų naršyklės įskiepį ir esant onload/tree_view TEIGIAMOMS reikšmėms. Virtualus šakninis aplankas visada turi būti žemiau tikrojo šakninio.</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Failu pārlūka virtuālā saknes direktorija</short>
+	<long>Failu pārlūka virtuālā saknes direktorija, kas tiks izmantota ielādējot failu pārluka spraudni, ja onload/tree_view ir TRUE. Virtuālajai saknes direktorijai vinmēr jābūt zem īstās.</long>
+      </locale>
+
+      <locale name="mai">
+	<short>फाइल ब्रॉउजर आभासी रूट निर्देशिका</short>
+	<long>फाइल ब्रॉउजर आभासी रूट निर्देशिका प्रयोग करब क&apos;लेल जखन फाइल ब्रॉउजर प्लगिन लोड कएल जाएत अछि आओर ऑनलोड/ तरू दृश्य सही अछि आभासी रूटकेँ वास्तविक रूट सँ हरदम नीच्चाँ होनाइ चाही (_v).</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Виртуелниот главен директориум на прелистувачот на датотеки</short>
+	<long>Главниот виртуелен директориум на пребарувачот на датотеки кој што ќе се користи за вчитување на  приклучокот за пребарувач на датотеки и onload/tree_view е TRUE. Главниот виртуелен директориум секогаш мора да биде самиот главен директориум.</long>
+      </locale>
+
+      <locale name="ml">
+	<short>ഫയല്‍ ബ്രൌസര്‍ വിര്‍ച്ച്വല്‍ റൂട്ട് ഡയറക്ടറി</short>
+	<long>ഫയല്‍ ബ്രൌസര്‍ സംയോജകം ഉപയോഗിക്കുംബോള്‍ onload/tree_view TRUE(ശരി) ആകുംബോള്‍ ഉപയോഗിക്കേണ്ട ഫയല്‍ ബ്രൌസര്‍ വെര്‍ചുവല്‍ രൂട്ട് തട്ടം.വെര്‍ചുവല്‍ രൂട്ട്  എപ്പോളും ആച്ചുവല്‍ റൂട്ടിനു താഴെയായിരിക്കണം</long>
+      </locale>
+
+      <locale name="mr">
+	<short>फाइल ब्राउजर आभासी रूट संचयीका</short>
+	<long>दाखल/वृक्ष_दृश्य खरे असल्यास फाइल ब्राउजर प्लगइन दाखल करतेवेळी वापरण्याकरीताचे फाइल ब्राउजर आभासी रूट संचयीका. आभासी रूट नेहमी वास्तवीक रूट च्या खाली दर्शविले पाहिजे.</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Virtuell rotkatalog for filhåndterer</short>
+	<long>Virtuell rotkatalog som brukes når fillesertillegget og onload/tree_view er TRUE. Virtuell rot må alltid være under faktisk rot.</long>
+      </locale>
+
+      <locale name="ne">
+	<short>फाइल ब्राउजर अवास्तविक मूल डाइरेक्टरी</short>
+	<long>अनलोड/ट्रि दृश्य TRUE हुँदा फाइल ब्राउजर प्लगइन लोड गरिरहेको बेला प्रयोग गर्नलाई फाइल ब्राउजर अवास्तविक मूल डाइरेक्टरी । अवास्तविक मूल सधैँ वास्तविक मूल भन्दा तल हुनु पर्दछ ।</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Virtuele beginmap van de bestandsverkenner</short>
+	<long>De virtuele beginmap van de bestandsverkenner die gebruikt wordt bij het opstarten van de bestandsverkennerplug-in en wanneer onload/tree_view aangevinkt is. De virtuele beginmap moet altijd een submap van de eigenlijke beginmap zijn.</long>
+      </locale>
+
+      <locale name="nn">
+	<short>Filvisar, virtuell rotkatalog</short>
+	<long>Virtuell rotkatalog å bruka i filvisaren når filvisaren vert lasta og onload/tree_view er TRUE. Den virtuelle rotkatalogen må alltid vera under den verkelege rota.</long>
+      </locale>
+
+      <locale name="or">
+	<short>ଫାଇଲ ବ୍ରାଉଜର ଆଭାସୀ ମୂଳ ଡିରେକ୍ଟୋରୀ</short>
+	<long>onload/tree_view TRUE ଥିବା ସମୟରେ ଫାଇଲ ବ୍ରାଉଜର ପ୍ଲଗଇନକୁ ଧାରଣ କରିବା ସମୟରେ ଫାଇଲ ବ୍ରାଉଜର ଆଭାସୀ ପ୍ରମୂଖ ଚାଳକ ଡିରେକ୍ଟରୀକୁ ବ୍ୟବହାର କରାଯାଇଥାଏ। ଆଭାସୀ ପ୍ରମୂଖ ଚାଳକ ସର୍ବଦା ପ୍ରକୃତ ପ୍ରମୂଖ ଚାଳକ ନିମ୍ନରେ ଥାଏ।</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਫਾਇਲ ਬਰਾਊਜ਼ਰ ਫ਼ਰਜ਼ੀ ਮੁੱਢਲੀ ਡਾਇਰੈਕਟਰੀ</short>
+	<long>ਫਾਇਲ ਬਰਾਊਜ਼ਰ ਫ਼ਰਜ਼ੀ ਰੂਟ ਡਾਇਰੈਕਟਰੀ ਹੈ, ਜੋ ਕਿ ਫਾਇਲ ਝਲਕਾਰਾ ਲੋਡ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ, ਜਦੋਂ onload/tree_view TRUE ਹੋਵੇ। ਫ਼ਰਜ਼ੀ ਰੂਟ ਅਸਲ ਰੂਟ ਦੇ ਹੇਠਾਂ ਹੀ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Wirtualny katalog główny przeglądarki plików</short>
+	<long>Wirtualny katalog główny, w którym rozpocznie przeglądarka plików, jeśli &quot;onload/tree_view&quot; ma wartość &quot;true&quot;. Wirtualny katalog główny musi zawsze być katalogiem podrzędnym faktycznego katalogu głównego.</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Directório Raíz Virtual do Navegador de Ficheiros</short>
+	<long>O directório raíz virtual a utilizar pelo navegador de ficheiros ao iniciar o plugin e onload/tree_view for TRUE. A raíz virtual tem de ser sempre abaixo da raíz actual.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Diretório raiz virtual do navegador de arquivos</short>
+	<long>O diretório raiz virtual usado ao carregar o navegador de arquivos, se a chave onload/tree_view tiver valor VERDADEIRO. O diretório raiz virtual deve sempre estar dentro do verdadeiro.</long>
+      </locale>
+
+      <locale name="ro">
+	<short>Dosar rădăcină virtual al navigatorului de fișiere</short>
+	<long>Dosarul rădăcină virtual al navigatorului de fișiere ce va fi utilizat la încărcarea modulului de navigare în fișiere când onload/tree_view este definit la TRUE. Dosarul rădăcină virtual trebuie să fie tot timpul sub rădăcina actuală.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Виртуальный корневой каталог обозревателя файлов</short>
+	<long>Виртуальный корневой каталог обозревателя файлов при загрузке модуля обозревателя, если установлен параметр onload/tree_view. Виртуальный корневой каталог всегда должен быть ниже настоящего корня..</long>
+      </locale>
+
+      <locale name="sl">
+	<short>Navidezni korenski imenik pregledovalnika datotek</short>
+	<long>Navidezni korenski imenik pregledovalnika datotek, ki naj se uporabi pri nalaganju vstavka pregledovalnika datotek in ko je onload/tree_view RESNIČNO (TRUE). Navidezni koren mora vedno biti pod dejanskim korenom.</long>
+      </locale>
+
+      <locale name="sq">
+	<short>Directory bazë virtuale e shfletimit të file</short>
+	<long>Directory bazë virtuale për tu përdorur gjatë nisjes së plugin të shfletimit të file nëse onload/tree_view është TRUE. Duhet të jetë gjithmonë një nivel më poshtë se directory bazë aktuale.</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Замишљени коренска фасцикла у прегледнику датотека</short>
+	<long>Шта треба бити замишљена коренска фасцикла при учитавању прегледника датотека када је onload/tree_view омогућено (TRUE). Замишљена фасцикла мора бити унутар стварне коренске фасцикле.</long>
+      </locale>
+
+      <locale name="sr@latin">
+	<short>Zamišljeni korenska fascikla u pregledniku datoteka</short>
+	<long>Šta treba biti zamišljena korenska fascikla pri učitavanju preglednika datoteka kada je onload/tree_view omogućeno (TRUE). Zamišljena fascikla mora biti unutar stvarne korenske fascikle.</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Filbläddrarens virtuella rotkatalog</short>
+	<long>Filbläddrarens virtuella rotkatalog att använda när filbläddrarens insticksmodul läses in när onload/tree_view är TRUE. Den virtuella roten måste alltid vara under den aktuella roten.</long>
+      </locale>
+
+      <locale name="ta">
+	<short>கோப்பு உலாவி மெய்நிகர் ரூட் அடைவு</short>
+	<long>ஏற்றும் போது கிளைக் காட்சியை திறக்கவும் என்பது உண்மை எனும் போது உபயோகிக்க வேண்டிய கோப்பு உலாவியின் மெய்நிகர் மூல கோப்பு. மெய்நிகர் மூலம் எப்போதும் மூலத்தின் கீழேயே இருக்க வேண்டும்.</long>
+      </locale>
+
+      <locale name="te">
+	<short>దస్త్ర అన్వేషకి వర్చ్యువల్ రూట్ సంచయం</short>
+	<long>onload/tree_view నిజమై దస్త్ర అన్వేషకి ప్లగ్ఇన్ లోడుఅవుతున్నప్పుడు ఉపయోగించుకొనే దస్త్ర అన్వేషకి రూట్ సంచయం.వర్చ్యువల్ రూట్ ఎప్పుడూ వాస్తవ రూట్ కి క్రింద ఉండాలి.</long>
+      </locale>
+
+      <locale name="th">
+	<short>ไดเรกทอรีรากเสมือนของช่องเรียกดูแฟ้ม</short>
+	<long>ไดเรกทอรีรากเสมือนที่ช่องเรียกดูแฟ้มจะใช้เมื่อโหลดปลั๊กอินช่องเรียกดูแฟ้ม โดยค่าคีย์ onload/tree_view เป็นจริง ไดเรกทอรีรากเสมือนต้องอยู่ใต้รากจริงเสมอ</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Dosya Tarayıcısı Sanal Başlangıç Dizini</short>
+	<long>Dosya tarayıcısı eklentisi yüklendiğinde ve onload/tree_view TRUE ise kullanılacakdosya tarayıcısı sanal başlangıç dizini. Sanal başlangıç asıl başlangıcın altındaolmalıdır.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Віртуальний кореневий каталог перегляду файлів</short>
+	<long>Віртуальний каталог перегляду файлів, що використовується при завантаженні модуля перегляду файлів коли onload/tree_view має значення TRUE. Віртуальний корінь завжди має бути нижче фактичного кореня.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Thư mục gốc ảo của bộ duyệt tập tin</short>
+	<long>Thư mục gốc ảo của bộ duyệt tập tin, để dùng khi tải bổ sung duyệt tập tin và khi « onload/tree_view » là ĐÚNG. Gốc ảo luôn luôn phải nằm bên dưới gốc thật.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>文件浏览器虚拟根目录</short>
+	<long>当 onload/tree_view 为 TRUE 时，文件浏览器插件载入将使用此值作为文件浏览器的虚拟根目录。虚拟根目录必须位于实际根目录之下。</long>
+      </locale>
+
+      <locale name="zh_HK">
+	<short>檔案瀏覽器虛擬根資料夾</short>
+	<long>檔案瀏覽器虛擬根資料夾是用於載入檔案瀏覽器外掛程式及 onload/tree_view 設定為‘TRUE’時。虛擬根資料夾必須是處於真正的根資料夾之下。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>檔案瀏覽器虛擬根資料夾</short>
+	<long>檔案瀏覽器虛擬根資料夾是用於載入檔案瀏覽器外掛程式及 onload/tree_view 設定為‘TRUE’時。虛擬根資料夾必須是處於真正的根資料夾之下。</long>
+      </locale>
+    </schema>
+   
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/filebrowser/on_load/enable_remote</key>
+      <applyto>/apps/gedit-2/plugins/filebrowser/on_load/enable_remote</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>Enable Restore of Remote Locations</short>
+	<long>Sets whether to enable restoring of remote locations.</long>
+      </locale>
+
+      <locale name="ar">
+	<short>فعّل استرجاع الأمكنة البعيدة</short>
+	<long>يحدّد ما إذا يتم تفعيل استعادة الأماكن البعيدة.</long>
+      </locale>
+
+      <locale name="as">
+	<short>দূৰবৰ্তী অৱস্থান পুনৰুদ্ধাৰৰ বৈশিষ্ট্য সক্ৰিয় কৰক</short>
+	<long>দূৰবৰ্তী অৱস্থান পুনৰুদ্ধাৰৰ বৈশিষ্ট্য সক্ৰিয় কৰা হ&apos;ব নে নহয়  সেইটো নিৰ্ধাৰিত হয়  ।</long>
+      </locale>
+
+      <locale name="ast">
+	<short>Activar la restauración de llugares remotos</short>
+	<long>Afita si hai d&apos;activar la restauración dende llugares remotos.</long>
+      </locale>
+
+      <locale name="be@latin">
+	<short>Uklučy mahčymaść adnaŭlać addalenyja adrasy</short>
+	<long>Akreślaje, ci ŭklučać mahčymaść adnaŭlać addalenyja adrasy.</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Включване на възстановяването на отдалеченото местоположение</short>
+	<long>Задаване на включването на възстановяването на отдалечени местоположения.</long>
+      </locale>
+
+      <locale name="bn">
+	<short>দূরবর্তী অবস্থান পুনরুদ্ধারের বৈশিষ্ট্য সক্রিয় করুন</short>
+	<long>দূরবর্তী অবস্থান পুনরুদ্ধারের বৈশিষ্ট্য সক্রিয় করা হবে কিনা তা নির্ধারিত হয়।</long>
+      </locale>
+
+      <locale name="bn_IN">
+	<short>দূরবর্তী অবস্থান পুনরুদ্ধারের বৈশিষ্ট্য সক্রিয় করুন</short>
+	<long>দূরবর্তী অবস্থান পুনরুদ্ধারের বৈশিষ্ট্য সক্রিয় করা হবে কিনা তা নির্ধারিত হয়।</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Habilita el restabliment d&apos;ubicacions remotes</short>
+	<long>Estableix si s&apos;ha d&apos;habilitar el restabliment de les ubicacions remotes.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+	<short>Habilita el restabliment d&apos;ubicacions remotes</short>
+	<long>Estableix si s&apos;ha d&apos;habilitar el restabliment de les ubicacions remotes.</long>
+      </locale>
+
+      <locale name="crh">
+	<short>Uzaqtaki Qonumlarnıñ Keri Tiklenüvini Qabilleştir</short>
+	<long>Uzaqtaki qonumlarnıñ keri tiklenip tiklenmeycegini tesbit eter.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Povolit obnovu vzdálených umístění</short>
+	<long>Nastavuje, zda je povolena obnova vzdálených umístění.</long>
+      </locale>
+
+      <locale name="cy">
+	<short>Galluogi Adfer Lleoliadau Pell</short>
+	<long>Gosod a ddylid galluogi adfer lleoliadau pell.</long>
+      </locale>
+
+      <locale name="da">
+	<short>Aktivér gendannelse af eksterne steder</short>
+	<long>Indstiller om det skal være muligt and gendanne på eksterne steder.</long>
+      </locale>
+
+      <locale name="de">
+	<short>Wiederherstellen von entfernten Orten einschalten</short>
+	<long>Legt fest, ob Verbindungen zu entfernten Orten wiederhergestellt werden.</long>
+      </locale>
+
+      <locale name="dz">
+	<short>ཐག་རིང་གནས་ཁོངས་ཚུ་ སོར་ཆུད་འབད་ནི་ ལྕོགས་ཅན་བཟོ་</short>
+	<long>ཐག་རིང་གནས་ཁོངས་ཚུ་ སོར་ཆུད་འབད་ཚུགསཔ་ བཟོ་ནི་ཨིན་ན་མེན་ གཞི་སྒྲིག་འབདཝ་ཨིནཝ</long>
+      </locale>
+
+      <locale name="el">
+	<short>Ενεργοποίηση επαναφοράς απομακρυσμένων τοποθεσιών</short>
+	<long>Καθορίζει το αν θα ενεργοποιείται η επαναφορά των απομακρυσμένων τοποθεσιών.</long>
+      </locale>
+
+      <locale name="en@shaw">
+	<short>𐑦𐑯𐑱𐑚𐑩𐑤 𐑮𐑩𐑕𐑑𐑹 𐑝 𐑮𐑦𐑥𐑴𐑑 𐑤𐑴𐑒𐑱𐑖𐑩𐑯𐑟</short>
+	<long>𐑕𐑧𐑑𐑕 𐑢𐑧𐑞𐑼 𐑑 𐑦𐑯𐑱𐑚𐑩𐑤 𐑮𐑩𐑕𐑑𐑹𐑦𐑙 𐑝 𐑮𐑦𐑥𐑴𐑑 𐑤𐑴𐑒𐑱𐑖𐑩𐑯𐑟.</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Enable Restore of Remote Locations</short>
+	<long>Sets whether to enable restoring of remote locations.</long>
+      </locale>
+
+      <locale name="eo">
+	<short>Ŝalti restarigon de foraj lokoj</short>
+	<long>Agordas ĉu ŝalti restarigon de foraj lokoj.</long>
+      </locale>
+
+      <locale name="es">
+	<short>Activar la restauración de lugares remotos</short>
+	<long>Establece si se debe activar la restauración desde lugares remotos.</long>
+      </locale>
+
+      <locale name="et">
+	<short>Võrgukohtadelt taastamise lubamine</short>
+	<long>Kas võrgus asuvatelt kohtadelt taastamine on lubatud või mitte.</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Gaitu urruneko kokalekuak berreskuratzea</short>
+	<long>Urruneko kokalekuak berreskuratzea edo ez ezartzen du.</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Ota käyttöön palautus etäsijainneissa</short>
+	<long>Käytetäänkö etäsijaintien palautusta.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Activer la restauration des emplacement distants</short>
+	<long>Définit s&apos;il faut activer la restauration des emplacements distants.</long>
+      </locale>
+
+      <locale name="gl">
+	<short>Activar a restauración de localizacións remotas</short>
+	<long>Estabelece se se debe activar a restauración de localizacións remotas.</long>
+      </locale>
+
+      <locale name="gu">
+	<short>દૂરસ્થ સ્થાનોને પુનઃસંગ્રહવાનું સક્રિય કરો</short>
+	<long>શું દૂરસ્થ સ્થાનોને પુનઃસંગ્રહવાનું સક્રિય કરવાનું છે તે સુયોજિત કરે છે.</long>
+      </locale>
+
+      <locale name="he">
+	<short>Enable Restore of Remote Locations</short>
+	<long>Sets whether to enable restoring of remote locations.</long>
+      </locale>
+
+      <locale name="hi">
+	<short>दूरस्थ स्थान का भंडारण सक्रिय करें</short>
+	<long>सेट करें कि क्या दूरस्थ अवस्थिति का पुनर्भंडारण सक्रिय किया जाना है</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Távoli helyek helyreállításának engedélyezése</short>
+	<long>Beállítja a távoli helyek helyreállítását.</long>
+      </locale>
+
+      <locale name="id">
+	<short>Aktifkan Pengembalian Lokasi Jauh</short>
+	<long>Tentukan apakah mengaktifkan pengembalian dari lokasi jauh.</long>
+      </locale>
+
+      <locale name="it">
+	<short>Abilitare il ripristino delle posizioni remote</short>
+	<long>Indica se abilitare il ripristino di posizioni remote.</long>
+      </locale>
+
+      <locale name="ja">
+	<short>リモートの場所のリストアを可能にする</short>
+	<long>リモートの場所でのリストア機能を有効にするかどうかです。</long>
+      </locale>
+
+      <locale name="kn">
+	<short>ದೂರದ ತಾಣಗಳನ್ನು ಪುನರ್ ಸ್ಥಾಪಿಸುವುದನ್ನು ಶಕ್ತಗೊಳಿಸು</short>
+	<long>ದೂರದ ತಾಣಗಳನ್ನು ಪುನರ್ ಸ್ಥಾಪಿಸಬೇಕೆ ಎಂಬುದನ್ನು ಇದು ಸೂಚಿಸುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+	<short>원격 위치 저장 사용</short>
+	<long>원격 위치에도 저장할 수 있도록 합니다.</long>
+      </locale>
+
+      <locale name="lt">
+	<short>Įjungti nutolusių vietų atstatymą</short>
+	<long>Nurodo ar įjungti nutolusių vietų atstatymą.</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Aktivizēt attālināto atrašanās vietu atjaunošanu</short>
+	<long>Iestata vai vajadzētu atjaunot attālinātās atrašanās vietas.</long>
+      </locale>
+
+      <locale name="mai">
+	<short>रिमोट स्थान क&apos; भंडारण सक्रिय करू</short>
+	<long>सेट करू जे की रिमोट अवस्थिति क&apos; पुनर्भंडारण सक्रिय कएल जएनाइ अछि</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Овозможи враќање на оддалечените локации</short>
+	<long>Поставува дали да овозможи враќање на оддалечени локации.</long>
+      </locale>
+
+      <locale name="ml">
+	<short>റിമോട്ട് സ്ഥാനങ്ങള്‍ വീണ്ടെടുക്കുക</short>
+	<long>വിദൂര സ്ഥാനങ്ങളെ തിരിച്ചുവയ്ക്കുന്നതു് പ്രാവര്‍ത്തികമാക്കണമോ എന്നു് സജ്ജീകരിയ്ക്കുന്നു</long>
+      </locale>
+
+      <locale name="mr">
+	<short>दूरस्थ ठिकाणांचे पुनर्स्थापन सक्षम करा</short>
+	<long>दूरस्थ स्थळ पुन्हसंचयन कार्यान्वीत करायचे का त्याचे निश्चयन केले जाते.</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Aktiver gjenoppretting av eksterne lokasjoner</short>
+	<long>Bestemmer om gjenoppretting fra eksterne lokasjoner skal aktiveres.</long>
+      </locale>
+
+      <locale name="ne">
+	<short>टाढाको स्थानको पुन: भण्डारण सक्षम पार्नुहोस्</short>
+	<long>टाढाको स्थानहरूको पुन: भण्डारण सक्षम पार्ने या नपार्ने सेट गर्दछ ।</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Herstellen van locaties op afstand gebruiken</short>
+	<long>Indien ingeschakeld zullen locaties op afstand, indien mogelijk, hersteld worden.</long>
+      </locale>
+
+      <locale name="nn">
+	<short>Tillat gjenopprettingar av eksterne plasseringar</short>
+	<long>Om eksterne plasseringar skal gjenopprettast.</long>
+      </locale>
+
+      <locale name="or">
+	<short>ସୁଦୂର ସ୍ଥାନର ପୁନଃସ୍ଥାପନକୁ ସକ୍ରିୟ କରନ୍ତୁ</short>
+	<long>ସୁଦୂର ସ୍ଥାନରେ ପୁନଃସ୍ଥାପନକୁ ସକ୍ରିୟ କରାଯିବ କି ନାହିଁ ତାହା ସେଟକରନ୍ତୁ।</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਰਿਮੋਟ ਟਿਕਾਣਿਆਂ ਤੋਂ ਮੁੜ-ਸਟੋਰ ਯੋਗ</short>
+	<long>ਸੈੱਟ ਕਰਦੀ ਹੈ ਕਿ ਰਿਮੋਟ ਟਿਕਾਣੇ ਤੋਂ ਮੁੜ-ਸਟੋਰ ਕਰਨਾ ਯੋਗ ਹੋਵੇ ਕਿ ਨਾ।</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Włącza możliwość przywracania zdalnych położeń</short>
+	<long>Przełącza możliwość przywracania zdalnych położeń.</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Activar a Ligação a Localizações Remotas</short>
+	<long>Define se reactivar ou não localizações remotas.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Habilitar restauração de localizações remotas</short>
+	<long>Define se habilita ou não a restauração de localizações remotas.</long>
+      </locale>
+
+      <locale name="ro">
+	<short>Activează restaurarea adreselor de la distanță</short>
+	<long>Stabilește activarea restaurării locațiilor de la distanță.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Включить или выключить удалённые адреса</short>
+	<long>Устанавливает, разрешено ли восстановление из удалённых адресов.</long>
+      </locale>
+
+      <locale name="sl">
+	<short>Omogoči povrnitev oddaljenih mest</short>
+	<long>Nastavi, ali je omogočena povrnitev oddaljenih mest.</long>
+      </locale>
+
+      <locale name="sq">
+	<short>Aktivizo restaurimin e pozicioneve në distancë</short>
+	<long>Tregon nëse aktivizohet restaurimi i pozicioneve remote.</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Омогући обнављање удаљених локација</short>
+	<long>Да ли треба омогућити обнављање удаљених локација.</long>
+      </locale>
+
+      <locale name="sr@latin">
+	<short>Omogući obnavljanje udaljenih lokacija</short>
+	<long>Da li treba omogućiti obnavljanje udaljenih lokacija.</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Aktivera återställning av fjärrplatser</short>
+	<long>Ställer in huruvida återställning av fjärrplatser ska aktiveras.</long>
+      </locale>
+
+      <locale name="ta">
+	<short>தொலை இடங்களின் மீட்டமைப்பினை இயலுமைபடுத்தவும்</short>
+	<long>தொலைநிலை இடங்களை மீட்பதை இயலுமைபடுத்துவதா என அமைக்கிறது.</long>
+      </locale>
+
+      <locale name="te">
+	<short>దూరస్థ స్థానముల యొక్క పునఃనిల్వను చేతనం చేయండి</short>
+	<long>దూరస్థ స్థానముల పునఃనిల్వను చేతన పరచాలంటే అమరుస్తుంది.</long>
+      </locale>
+
+      <locale name="th">
+	<short>เปิดใช้การคืนค่าสำหรับแฟ้มในเครือข่าย</short>
+	<long>กำหนดว่าจะเปิดใช้การคืนค่าสำหรับแฟ้มในเครือข่ายหรือไม่</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Uzaktaki Konumların İlk Haline Gelmesini Etkinleştir</short>
+	<long>Uzaktaki konumların ilk haline getirilmesinin etkinliğini atar.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Увімкнути відновлення для віддалених адрес</short>
+	<long>Визначає чи вмикати відновлення віддалених адрес.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Bật phục hồi vị trí ở xa</short>
+	<long>Đặt nếu bật khả năng phục hồi vị trí ở xa hay không.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>启用恢复远程位置</short>
+	<long>设定是否允许恢复远程位置。</long>
+      </locale>
+
+      <locale name="zh_HK">
+	<short>啟用遠端位置回復</short>
+	<long>設定是否啟用遠端位置回復</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>啟用遠端位置回復</short>
+	<long>設定是否啟用遠端位置回復</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/filebrowser/open_at_first_doc</key>
+      <applyto>/apps/gedit-2/plugins/filebrowser/open_at_first_doc</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Set Location to First Document</short>
+	<long>If TRUE the file browser plugin will view the directory of 
+	the first opened document given that the file browser hasn't been
+	used yet. (Thus this generally applies to opening a document from
+	the command line or opening it with Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="ar">
+	<short>حدّد مكان المستند الأول</short>
+	<long>إذا كان صحيح سيظهر ملحق المتصفح الدليل المحتوي على المستند الأول على الرغم من عدم استعمال متصفح الملفات مسبقا. (لذا فإن هذا ينطبق غالبا على فتح مستند من سطر الأوامر أو باستخدام ناوتلس، إلخ.)</long>
+      </locale>
+
+      <locale name="ast">
+	<short>Afitar llugar pal primer documentu</short>
+	<long>Si ye TRUE el complementu del desaminador de ficheros verá&apos;l direutoriu del primer documentu abiertu darréu que&apos;l desaminador de ficheros entá nun s&apos;usó. (Entós, esto xeneralmente aplícase a abrir un documentu dende la llinia de comandos o abriéndolu con Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Местоположението да е на първия документ</short>
+	<long>Ако е ИСТИНА, приставката за мениджъра ще стартира с папката на първия отворен документ, стига да не е използван файловия браузър. (Това обикновено е така при отваряне на документ от командния ред или при отварянето му през Nautilus, и т.н.)</long>
+      </locale>
+
+      <locale name="bn">
+	<short>সর্বপ্রথম নথিতে অবস্থান নির্ধারিত হবে</short>
+	<long>মান সত্য হলে ফাইল ব্রাউজার প্লাগ-ইনের প্রারম্ভিক ব্যবহারের সময় ফাইল ব্রাউজার দ্বারা প্রথম খোলা ডিরেক্টরি প্রদর্শিত হবে। (অর্থাৎ এটি মূলত কমান্ড-লাইন অথবা nautilus প্রভৃতি সহযোগ খোলা নথির ক্ষেত্রে প্রযোজ্য)</long>
+      </locale>
+
+      <locale name="bn_IN">
+	<short>সর্বপ্রথম ডকুমেন্টের অবস্থান নির্ধারিত হবে</short>
+	<long>মান TRUE (সত্য) হলে ফাইল ব্রাউজার প্লাগ-ইনের প্রারম্ভিক ব্যবহারের সময় ফাইল ব্রাউজার দ্বারা প্রথম খোলা ডিরেক্টরি প্রদর্শিত হবে। (অর্থাৎ এটি মূলত কমান্ড-লাইন অথবা Nautilus প্রভৃতি সহযোগ খোলা ডকুমেন্টের ক্ষেত্রে প্রযোজ্য)</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Establiu la ubicació del primer document</short>
+	<long>Si és «TRUE» (cert) el connector del navegador de fitxers veurà el directori del primer document obert que el navegador de fitxers no ha utilitzat encara. (Generalment s&apos;aplica en obrir un document des de la línia d&apos;ordres o obrint-lo des del Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="ca@valencia">
+	<short>Establiu la ubicació del primer document</short>
+	<long>Si és «TRUE» (cert) el connector del navegador de fitxers veurà el directori del primer document obert que el navegador de fitxers no ha utilitzat encara. (Generalment s&apos;aplica en obrir un document des de la línia d&apos;ordes o obrint-lo des del Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="crh">
+	<short>Qonumnı İlk Vesiqağa Tesbit Et</short>
+	<long>Eger DOĞRU ise, dosye kezicisi plagini, dosye kezicisi şimdilik qullanılmağan olsa, ilk açılğan vesiqanıñ cilbentini kösterir. (Umumen, bu bir vesiqanı buyruq satrından ya da Nautilus ve ilâhre ile açqanda uyğulanır)</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Nastavit umístění na první dokument</short>
+	<long>Pokud je nastavené na TRUE, prohlížeč souborů zobrazí adresář prvního otevřeného dokumentu, jestliže nebyl prohlížeč souborů dosud použit. (Tedy toto obecně platí pro otevírání dokumentů z příkazové řádky, nebo v Nautilu atd.)</long>
+      </locale>
+
+      <locale name="da">
+	<short>Sæt sted til første dokument</short>
+	<long>Hvis TRUE vil filvælger-udvidelsesmodulet åbne i den mappe som det først åbnede dokument findes i, givet at det er første gang filvælger-udvidelsesmodulet bruges. (Derfor gælder dette også generelt når man åbner et dokument fra kommandolinjen, med nautilus eller lignende.)</long>
+      </locale>
+
+      <locale name="de">
+	<short>Das erste Dokument als Ort festlegen</short>
+	<long>Falls dieser Schlüssel auf »WAHR« gesetzt ist, dann öffnet das Plugin für die Dateiverwaltung den Ordner des zuerst geöffneten Dokuments, falls die Dateiverwaltung noch nicht verwendet wurde. (Das trifft allgemein dann zu, wenn eine Datei aus der Befehlszeile oder mit Nautilus etc. geöffnet wurde)</long>
+      </locale>
+
+      <locale name="el">
+	<short>Ορισμός τοποθεσίας στο πρώτο έγγραφο</short>
+	<long>Αν TRUE η πρόσθετη λειτουργία περιηγητή αρχείων θα προβάλλει τον κατάλογο που βρίσκεται το πρώτο ανοιγμένο έγγραφο αν δεν έχει χρησιμοποιηθεί ακόμα ο περιηγητής αρχείων. (Αυτό ισχύει γενικά στο άνοιγμα ενός εγγράφου από τη γραμμή εντολών, στο άνοιγμα με το ναυτίλο κτλ)</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Set Location to First Document</short>
+	<long>If TRUE the file browser plugin will view the directory of the first opened document given that the file browser hasn&apos;t been used yet. (Thus this generally applies to opening a document from the command line or opening it with Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="es">
+	<short>Establecer lugar para el primer documento</short>
+	<long>Si es TRUE el complemento del examinador de archivos verá el directorio del primer documento abierto dado que el examinador de archivos no se ha usado aún. (Entonces esto generalmente se aplica a abrir un documento desde la línea de comandos o abriéndolo con Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="et">
+	<short>Asukoha määramine esimese dokumendi järgi</short>
+	<long>Kui märgitud, siis failisirvija plugin avab esimesena kataloogi, kus asub esimene avatud dokument, mida failisirvija pole veel kasutanud. (See leiab kasutust tavaliselt juhul, kui dokument avatakse käsurealt, Nautiluse abil või muudel sarnastel juhtudel)</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Ezarri aurreneko dokumentuaren kokalekua</short>
+	<long>TRUE (egia) gisa ezartzen bada, fitxategi-arakatzaileak oraindik erabili ez duen irekitako aurreneko dokumentuaren direktorioa bistaratuko du fitxategi-arakatzailearen osagaiak. Kasu hau dokumentua komando lerrotik edo Nautilus-etik irekitzen denean gertatu ohi da.</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Aseta sijainti ensimmäiselle asiakirjalle</short>
+	<long>Jos TOSI niin tiedostoselainliitännäinen näyttää ensin avatun asiakirjan hakemiston jos tiedostoselainta käytetään ensimmäistä kertaa. (Tämä siis käytännössä soveltuu tilanteisiin, joissa asiakirja on on avattu komentoriviltä tai Nautiluksesta jne.)</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Définit l&apos;emplacement au premier document</short>
+	<long>Si VRAI, le greffon du gestionnaire de fichiers affichera le répertoire du premier document ouvert dès lors que le gestionnaire de fichiers n&apos;a pas encore été utilisé. Ceci s&apos;applique généralement à l&apos;ouverture d&apos;un document à partir de la ligne de commande ou à partir de Nautilus, etc.</long>
+      </locale>
+
+      <locale name="gl">
+	<short>Estabelecer a localización para o primeiro documento</short>
+	<long>Se é TRUE o engadido do navegador de ficheiros visualizará o cartafol do primeiro documento aberto, xa que o navegador de ficheiros aínda non se usou (isto xeralmente aplícase cando se abre un documento desde a liña de ordes, co Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="he">
+	<short>Set Location to First Document</short>
+	<long>If TRUE the file browser plugin will view the directory of the first opened document given that the file browser hasn&apos;t been used yet. (Thus this generally applies to opening a document from the command line or opening it with Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Hely beállítása az első dokumentumra</short>
+	<long>Ha ez a beállítás igaz, akkor a fájlböngésző bővítmény az első megnyitott dokumentum könyvtárát jeleníti meg, ha a fájlböngésző még nem volt használatban (így ez általánosságban például a parancssorból vagy a Nautilusból megnyitott dokumentumokra érvényes).</long>
+      </locale>
+
+      <locale name="id">
+	<short>Tata Lokasi Ke Dokumen Pertama</short>
+	<long>Jika BENAR plugin penjelajah berkas akan menampilkan direktori dari dokumen yang pertama kali dibuka yang belum dipergunakan oleh penjelajah berkas. (Hal ini secara umum diterapkan pada pembukaan dokumen dari baris perintah atau membukanya dari Nautilus dll)</long>
+      </locale>
+
+      <locale name="it">
+	<short>Imposta posizione al primo documento</short>
+	<long>Se VERO il plugin dell&apos;esplorazione file visualizza la directory del primo documento aperto non ancora utilizzato (generalmente si applica nell&apos;apertura di un documento dalla riga di comando o tramite il gestore di file).</long>
+      </locale>
+
+      <locale name="ja">
+	<short>初めて開くドキュメントの場所を設定</short>
+	<long>TRUE にすると、初めて開いたドキュメントがあるフォルダで、ファイル参照プラグインがまだ使われたことがないディレクトリを表示します。(すなわち、この機能は一般的にコマンドラインからドキュメントを開く場合や Nautilus などからドキュメントを開く際に動作します。)</long>
+      </locale>
+
+      <locale name="kn">
+	<short>ಪ್ರಥಮ ದಸ್ತಾವೇಜಿಗೆ ಸ್ಥಳವನ್ನು ಸೂಚಿಸು</short>
+	<long>ಇದು TRUE ಆಗಿದಲ್ಲಿ, ಕಡತ ವೀಕ್ಷಕವು ಈ ಮೊದಲು ಬಳಸಲ್ಪಡದೆ ಇದ್ದ ಪಕ್ಷದಲ್ಲಿ ಕಡತ ವೀಕ್ಷಕ ಪ್ಲಗ್ಇನ್ ಮೊದಲು ತೆರೆಯಲ್ಪಟ್ಟ ದಸ್ತಾವೇಜನ್ನು ವೀಕ್ಷಿಸುತ್ತದೆ. (ಇದರರ್ಥ, ಇದು ಒಂದು ದಸ್ತಾವೇಜನ್ನು ಆಜ್ಞಾಸಾಲಿನಿಂದ ಅಥವ Nautilus ಇತ್ಯಾದಿಗಳಿಂದ ತೆರೆಯುವಾಗ ಸಾಮಾನ್ಯವಾಗಿ ಅನ್ವಯಿಸುತ್ತದೆ ಎಂದಾಗುತ್ತದೆ)</long>
+      </locale>
+
+      <locale name="ko">
+	<short>첫번째 문서의 위치 설정</short>
+	<long>참이면 파일 찾아보기 플러그인을 맨 처음 사용할 때, 주어진 문서를 맨 처음 연 디렉터리를 봅니다.(즉 명령행에서 문서를 열거나, 노틸러스에서 문서를 여는 따위의 동작에도 적용됩니다.)</long>
+      </locale>
+
+      <locale name="lt">
+	<short>Nustatyti vietą į pirmą dokumentą</short>
+	<long>Jei TEIGIAMA, failų naršyklės įskiepis rodys pirmo atverto dokumento aplanką, jei failų naršyklė dar nebuvo naudota. (Taigi, tai paprastai taikoma dokumento atvėrimui iš komandų eilutės arba atveriant jį su nautilus, ir t.t.)</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Iestatīt pirmā dokumenta atrašanās vietu</short>
+	<long>Ja PATIESS, failu pārlūka spraudnis pārlūkos pirmā atvērtā dokumenta mapi, ja līdz tam failu pārlūks vēl nebūs ticis izmantots. (Tādējādi šis principā attiecas uz failu atvēršanu no komandrindas vai Nautilus).</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Sett lokasjonen til første dokument</short>
+	<long>Hvis denne er satt til TRUE vil fillesertillegget vise katalogen til det første åpnede dokumentet gitt at filleseren ikke har blitt brukt ennå. (Dette er mest relevant når man åpner et dokument fra kommandolinjen eller med nautilus).</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Locatie van eerste document instellen</short>
+	<long>Indien ingeschakeld zal de bestandsverkennerplug-in de locatie van het eerst geopend document weergeven; dit werkt alleen als de bestandsverkenner nog niet eerder gebruikt werd. (Dit is meestal van toepassing als een document via de opdrachtregel of via Nautilus e.d. geopend wordt.)</long>
+      </locale>
+
+      <locale name="nn">
+	<short>Sett plassering til første dokument</short>
+	<long>Dersom set til TRUE, vil filvisartillegget visa katalogen til det først opna dokumentet når filvisaren ikkje har vore brukt før. (Så dette gjeld stort sett når eit dokument vert opna frå kommandolinja eller med Nautilus eller tilsvarande.)</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਪਹਿਲੇਂ ਡੌਕੂਮੈਂਟ ਲਈ ਟਿਕਾਣਾ ਦਿਓ</short>
+	<long>ਜੇ ਸਹੀਂ ਹੋਇਆ ਤਾਂ ਫਾਇਲ ਬਰਾਊਜ਼ਰ ਪਲੱਗਇਨ ਪਹਿਲੇ ਖੋਲ੍ਹੇ ਡੌਕੂਮੈਂਟ਼ ਦੀ ਡਾਇਰੈਕਟਰੀ ਵੇਖੇਗਾ, ਨੇ ਦਿੱਤਾ ਹੈ ਕਿ ਫਾਇਲ ਬਰਾਊਜ਼ਰ ਨੂੰ ਹਾਲੀ ਵਰਤਿਆ ਨਹੀਂ ਗਿਆ ਹੈ। (ਤਾਂ ਹੀ ਇਹ ਆਮ ਤੌਰ ਉੱਤੇ ਕਮਾਂਡ ਲਾਈਨ ਤੋਂ ਖੁੱਲ੍ਹੇ ਡੌਕੂਮੈਂਟ ਲਈ ਲਾਗੂ ਹੁੰਦਾ ਹੈ ਜਾਂ ਨਾਟੀਲਸ ਰਾਹੀਂ ਖੋਲ੍ਹਣ ਨਾਲ)</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Ustawienie położenia na pierwszy dokument</short>
+	<long>Wartość &quot;true&quot; powoduje wyświetlenie katalogu pierwszego otwartego dokumentu w przeglądarce plików, jeśli nie była jeszcze używana (z tego powodu opcja ta dotyczy ogólnie przypadków, w których dokumenty zostały otwarte z wiersza poleceń lub z menedżera plików, np. programu Nautilus).</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Definir a Localização para a do Primeiro Documento</short>
+	<long>Se &quot;TRUE&quot; o plugin de navegador de ficheiros irá ver o directório do primeiro documento aberto já que o navegador ainda não tinha sido utilizado. (Isto aplica-se tanto à abertura de ficheiros pela linha de comando como pelo Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Definir localização para primeiro documento</short>
+	<long>Se VERDADEIRO, o plug-in do navegador de arquivos verá o diretório do primeiro documento aberto desde que o navegador de arquivos ainda não tenha sido usado. (O que geralmente se aplica ao abrir um documento a partir da linha de comando ou com o Nautilus etc.)</long>
+      </locale>
+
+      <locale name="ro">
+	<short>Definește locația la primul document</short>
+	<long>Dacă este definit ca TRUE, modulul de navigare în fișiere va vizualiza dosarul primului document deschis, atâta timp cât navigatorul de fișiere n-a fost încă utilizat. (Aceasta se aplică, în general, la deschiderea unui document din linia de comandă sau cu Nautilus etc.)</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Установить адрес на первый документ</short>
+	<long>Если этот параметр установлен, модуль обозревателя файлов откроется на каталоге первого открытого документа, не открывавшегося в обозревателе файлов (как правило, применимо при открытии документа из командной строки или из Nautius и тд)</long>
+      </locale>
+
+      <locale name="sl">
+	<short>Nastavi mesto na prvi dokument</short>
+	<long>Izbrana možnost omogoča, da bo vstavek pregledovalnika datotek prikazal imenik prvega odprtega dokumenta, če pregledovalnik še ni bil uporabljen. (Čeprav se ponavadi to nanaša na odpiranje dokumenta iz ukazne vrstice ali na odpiranje s programom nautilus itd.)</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Постави почетак на први документ</short>
+	<long>Ако је постављено на „TRUE“ (тачно), додатак за разгледање датотека ће приказати фасциклу документа који је први отворен, уколико разгледач није већ коришћен. Ово обично вреди када се документ отвара из командне линије, Наутилуса, итд.</long>
+      </locale>
+
+      <locale name="sr@latin">
+	<short>Postavi početak na prvi dokument</short>
+	<long>Ako je postavljeno na „TRUE“ (tačno), dodatak za razgledanje datoteka će prikazati fasciklu dokumenta koji je prvi otvoren, ukoliko razgledač nije već korišćen. Ovo obično vredi kada se dokument otvara iz komandne linije, Nautilusa, itd.</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Ställ in plats till första dokumentet</short>
+	<long>Om TRUE kommer filbläddraren att visa katalogen för det först öppnade dokumentet om filbläddraren ännu inte har används. (Även om detta normalt sett gäller för dokument som öppnas från kommandoraden eller öppnas med Nautilus, etc.)</long>
+      </locale>
+
+      <locale name="ta">
+	<short>முதல் ஆவணத்திற்கு இடத்தை அமைக்கவும்</short>
+	<long>உண்மை எனில் கோப்பு சொருகுப்பொருள் முதலில் திறக்கப் பட்ட ஆவணத்தின் அடைவை பார்க்கும். (அதாவது கோப்பு உலாவி திறக்கப் படவில்லை எனில்) இப்படியாக இது பொதுவாக கட்டளை வரியிலிருந்து ஆவணத்தை திறக்கவோ அல்லது நாடுலஸ் வழியாக திறக்கவோ பயனாகும்.</long>
+      </locale>
+
+      <locale name="th">
+	<short>กำหนดตำแหน่งที่ตั้งตามแฟ้มแรก</short>
+	<long>ถ้ากำหนดเป็นจริง ปลั๊กอินช่องเรียกดูแฟ้มจะแสดงไดเรกทอรีของแฟ้มแรกที่เปิด ถ้ายังไม่มีการใช้ช่องเรียกดูแฟ้มมาก่อน (ดังนั้น โดยทั่วไปแล้ว คีย์นี้จะมีผลกับการเปิดเอกสารจากบรรทัดคำสั่ง หรือจาก Nautilus เป็นต้น)</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Встановити адресу на перший документ</short>
+	<long>При значенні TRUE модуль перегляду файлів буде показувати каталог першого відкритого документу, за умови що перегляд файлів ще не використовувався. (Тобто це звичайно застосовується при відкриванні документу з командного рядка або програмою nautilus, тощо.)</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>将位置设定为第一个文档</short>
+	<long>如果为 TRUE，则文件浏览器插件将查看第一个打开的文件所在目录，如果文件浏览器没有使用过的话。(这种情况通常出现在从命令行或者 Nautilus 打开文档)</long>
+      </locale>
+
+      <locale name="zh_HK">
+	<short>設定第一個文件的位置</short>
+	<long>如設定為 TRUE，當從未使用過檔案瀏覽器時，則檔案瀏覽器外掛程式會顯示第一個開啟的檔案所在的目錄。（這通常會用於在命令列或 Nautilus 等程式中開啟文件時）</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>設定第一個文件的位置</short>
+	<long>如設定為 TRUE，當從未使用過檔案瀏覽器時，則檔案瀏覽器外掛程式會顯示第一個開啟的檔案所在的目錄。（這通常會用於在命令列或 Nautilus 等程式中開啟文件時）</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/filebrowser/filter_mode</key>
+      <applyto>/apps/gedit-2/plugins/filebrowser/filter_mode</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default>hidden_and_binary</default>
+      <locale name="C">
+	<short>File Browser Filter Mode</short>
+	<long>This value determines what files get filtered from the file
+	browser. Valid values are: none (filter nothing), 
+	hidden (filter hidden files), binary (filter binary files) and 
+	hidden_and_binary (filter both hidden and binary files).</long>
+      </locale>
+
+      <locale name="ar">
+	<short>نمط الترشيح لمتصفح الملفات </short>
+	<long>تحدد هذه القيمة الملفات التي يتم ترشيحها من متصفح الملفات. القيم الشرعية هي: none (لا شيء)، hidden (الملفات المخفية)، binary (الملفات الثنائية) و hidden_and_binary (الملفات المخفية و الثنائية).</long>
+      </locale>
+
+      <locale name="as">
+	<short>নথিপত্ৰ ব্ৰাউজাৰ ফিল্টাৰৰ ধৰণ</short>
+	<long>এই মান দ্বাৰা নথিপত্ৰ ব্ৰাউজাৰ থেলে ফিল্টাৰ হওয়া নথিপত্ৰ নিৰ্ধাৰিত হয়  । বৈধ মান হ&apos;ল: none (ফিল্টাৰ প্ৰয়োগ কৰা ন&apos;হ&apos;ব), hidden (অকল আড়াল কৰা নথিপত্ৰ ফিল্টাৰ কৰা হ&apos;ব), binary (অকল বাইনাৰি নথিপত্ৰ ফিল্টাৰ কৰা হ&apos;ব) আৰু hidden_and_binary (আড়াল কৰা আৰু বাইনাৰি নথিপত্ৰ উভয় ফিল্টাৰ কৰা হ&apos;ব)  ।</long>
+      </locale>
+
+      <locale name="ast">
+	<short>Mou de filtru del desaminador de ficheros</short>
+	<long>Esti valor determina qué ficheros se filtren del desaminador de ficheros. Los valores válidos son: none (non fieltrar), hidden (filtrar ficheros anubríos), binary (fieltrar ficheros binarios), y hidden_and_binay (filtrar archivos anubríos y binarios).</long>
+      </locale>
+
+      <locale name="be@latin">
+	<short>Režym filtravańnia fajłaŭ</short>
+	<long>Hetaja vartaść akreślivaje, jakija fajły buduć bačnyja ŭ prahladalniku fajłaŭ. Mahčymyja vartaści: &quot;none&quot; (usie fajły bačnyja), &quot;hidden&quot; (vyklučaje schavanyja fajły), &quot;binary&quot; (vyklučaje dvajkovyja fajły) dy &quot;hidden_and_binary&quot; (vyklučaje jak schavanyja, hetak i dvajkovyja fajły).</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Режим на филтриране във файловия браузър</short>
+	<long>Тази стойност определя кои файлове не преминават през филтъра на файловия браузър. Валидните стойности са „none“ (нищо да не се филтрира), „hidden“ (махане на скритите файлове от изгледа), „binary“ (махане на двоичните файлове от изгледа) и „hidden_and_binary“ (махане и на скритите и на двоичните файлове).</long>
+      </locale>
+
+      <locale name="bn">
+	<short>ফাইল ব্রাউজার পরিশোধকের মোড</short>
+	<long>এই মান দ্বারা ফাইল ব্রাউজার থেকে পরিশোধক হওয়া ফাইল নির্ধারিত হয়। বৈধ মান হল: none (পরিশোধক প্রয়োগ করা হবে না), hidden (শুধুমাত্র আড়াল করা ফাইল ফিল্টার করা হবে), binary (শুধুমাত্র বাইনারি ফাইল ফিল্টার করা হবে) ও hidden_and_binary (আড়াল করা ও বাইনারি ফাইল উভয় ফিল্টার করা হবে)।</long>
+      </locale>
+
+      <locale name="bn_IN">
+	<short>ফাইল ব্রাউজার ফিল্টারের মোড</short>
+	<long>এই মান দ্বারা ফাইল ব্রাউজার থেলে ফিল্টার হওয়া ফাইল নির্ধারিত হয়। বৈধ মান হল: none (ফিল্টার প্রয়োগ করা হবে না), hidden (শুধুমাত্র আড়াল করা ফাইল ফিল্টার করা হবে), binary (শুধুমাত্র বাইনারি ফাইল ফিল্টার করা হবে) ও hidden_and_binary (আড়াল করা ও বাইনারি ফাইল উভয় ফিল্টার করা হবে)।</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Mode del filtre del navegador de fitxers</short>
+	<long>Aquest valor determina quins fitxers del navegador de fitxers es filtraran. Els valors vàlids són: none (no es filtra res), hidden (es filtren els fitxers ocults), binary (es filtren els fitxers binaris) i hidden_and_binary (es filtren els fitxers ocults i binaris).</long>
+      </locale>
+
+      <locale name="ca@valencia">
+	<short>Mode del filtre del navegador de fitxers</short>
+	<long>Este valor determina quins fitxers del navegador de fitxers es filtraran. Els valors vàlids són: none (no es filtra res), hidden (es filtren els fitxers ocults), binary (es filtren els fitxers binaris) i hidden_and_binary (es filtren els fitxers ocults i binaris).</long>
+      </locale>
+
+      <locale name="crh">
+	<short>Dosye Kezicisi Süzgüç Tarzı</short>
+	<long>Bu qıymet dosye kezicisinde angi dosyelerniñ süzgüçlenecegini belgiley. Keçerli degerler şöyledir: none (iç bir şey süzgüçleme), hidden (gizli dosyelerni süzgüçle), binary (ekişerleme dosyelerni süzgüçle) ve hidden_and_binary (em gizli em de ekişerleme dosyelerni süzgüçle).</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Filtrační režim prohlížeče souborů</short>
+	<long>Tato hodnota určuje, které soubory budou vyfiltrovány z prohlížeče souborů. Platné hodnoty jsou: none (nic nevyfiltruje), hidden (vyfiltruje skryté soubory), binary (vyfiltruje binární soubory) a hidden_and_binary (vyfiltruje jak skryté, tak binární soubory).</long>
+      </locale>
+
+      <locale name="cy">
+	<short>Modd Hidlo&apos;r Porwr Ffeiliau</short>
+	<long>Mae&apos;r gwerth hwn yn penderfynu pa ffeiliau sy&apos;n cael eu hidlo i ffwrdd o&apos;r porwr ffeiliau. Y gwerthoedd dilys yw dim (peidio â hidlo dim), cudd (hidlo ffeiliau cudd), deuaidd (hidlo ffeiliau deuaidd), cudd_a_deuaidd (hidlo ffeiliau cudd a ffeiliau deuaidd).</long>
+      </locale>
+
+      <locale name="da">
+	<short>Filtertilstand for filvælger</short>
+	<long>Denne værdi bestemmer hvilke filer der bliver filtrerede i filvælgeren. Gyldige værdier er: none (filtrér ingen), hidden (filtrér skjulte filer), binary (filtrér binære filer) og hidden_and_binary (filtrér både skjulte og binære filer).</long>
+      </locale>
+
+      <locale name="de">
+	<short>Dateiverwaltung Filtermodus</short>
+	<long>Dieser Wert bestimmt, welche Dateien in der Dateiverwaltung gefiltert werden. Gültige Werte sind: »none« (filtert nichts), »hidden« (filtert verborgene Dateien), »binary« (filtert binäre Dateien) und »hidden_and_binary« (filtert sowohl verborgene als auch binäre Dateien).</long>
+      </locale>
+
+      <locale name="dz">
+	<short>ཡིག་སྣོད་བརའུ་ཟར་ ཚགས་མའི་ཐབས་ལམ་</short>
+	<long>བེ་ལུ་འདི་གིས་ ཡིག་སྣོད་བརའུ་ཟར་ནང་ལས་ ཡིག་སྣོད་ག་ཅི་ར་ བཙག་དགོཔ་ཨིན་ ཐག་བཅདཔ་ཨིན། ནུས་ཅན་བེ་ལུསི་ཚུ་: ཅི་མེད་(ད་ནི་ཡི་བཙགནི་མེདཔ་) སྦ་སྟེཡོདཔ་ (སྦ་སྟེ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་བཙག་ནི) བའི་ན་རི་ (བའི་ན་རི་ཡིག་སྣོད་ཚུ་བཙག་ནི) སྦ་སྟེ་ཡོདཔ་དང་ བའི་ན་རི་ (སྦ་སྟེ་ཡོདཔ་དང་ བའི་ན་རི་ཡིག་སྣོད་གཉིས་ཆ་ར་བཙག་ནི)</long>
+      </locale>
+
+      <locale name="el">
+	<short>Λειτουργία φίλτρου περιηγητή αρχείων</short>
+	<long>Αυτή η τιμή καθορίζει το ποιά αρχεία θα φιλτράρονται από το περιηγητή αρχείων. Οι έγκυρες τιμές είναι: none (filter nothing), hidden (filter hidden files), binary (filter binary files) and hidden_and_binary (filter both hidden and binary files).</long>
+      </locale>
+
+      <locale name="en@shaw">
+	<short>𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑓𐑦𐑤𐑑𐑼 𐑥𐑴𐑛</short>
+	<long>𐑞𐑦𐑕 𐑝𐑨𐑤𐑿 𐑛𐑦𐑑𐑻𐑥𐑦𐑯𐑟 𐑢𐑪𐑑 𐑓𐑲𐑤𐑟 𐑜𐑧𐑑 𐑓𐑦𐑤𐑑𐑼𐑛 𐑓𐑮𐑪𐑥 𐑞 𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼. 𐑝𐑨𐑤𐑦𐑛 𐑝𐑨𐑤𐑿𐑟 𐑸: none (𐑓𐑦𐑤𐑑𐑼 𐑯𐑳𐑔𐑦𐑙), hidden (𐑓𐑦𐑤𐑑𐑼 𐑣𐑦𐑛𐑩𐑯 𐑓𐑲𐑤𐑟), binary (𐑓𐑦𐑤𐑑𐑼 𐑚𐑲𐑯𐑼𐑦 𐑓𐑲𐑤𐑟) 𐑯 hidden_and_binary (𐑓𐑦𐑤𐑑𐑼 𐑚𐑴𐑔 𐑣𐑦𐑛𐑩𐑯 𐑯 𐑚𐑲𐑯𐑼𐑦 𐑓𐑲𐑤𐑟).</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>File Browser Filter Mode</short>
+	<long>This value determines what files get filtered from the file browser. Valid values are: none (filter nothing), hidden (filter hidden files), binary (filter binary files) and hidden_and_binary (filter both hidden and binary files).</long>
+      </locale>
+
+      <locale name="eo">
+	<short>Dosierfoliumila filtra reĝimo</short>
+	<long>Ĉi tiu valoro determinas kiaj dosieroj estos filtrataj el la dosierfoliumilo. Validaj valoroj estas: none (filtru nenion), hidden (filtru kaŝitajn dosierojn), binary (filtru binarajn dosierojn) kaj hidden_and_binary (filtru ambaŭ kaŝitajn kaj binarajn dosierojn).</long>
+      </locale>
+
+      <locale name="es">
+	<short>Modo de filtro del examinador de archivos</short>
+	<long>Este valor determina qué archivos se filtran del examinador de archivos. Los valores válidos son: none (no filtrar), hidden (filtrar archivos ocultos), binary (filtrar archivos binarios), y hidden_and_binay (filtrar archivos ocultos y binarios).</long>
+      </locale>
+
+      <locale name="et">
+	<short>Failisirvija filtreerimisrežiim</short>
+	<long>Selle väärtusega määratakse, millised failid sirvijas välja filtreeritakse. Võimalikud väärtused on: none (ei filtreerita midagi), hidden (filtreeritakse peidetud failid), binary (filtreeritakse binaarfailid) ja hidden_and_binary (filtreeritakse nii peidetud kui ka binaarfailid).</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Fitxategi-arakatzailearen iragazki modua</short>
+	<long>Balio honek fitxategi-arakatzailetik iragaziko diren fitxategiak zehazten du. Balio posibleak: &apos;none&apos; (ez du iragazten), &apos;hidden&apos; (iragazi ezkutuko fitxategiak), &apos;binary&apos; (iragazi fitxategi bitarrak) eta &apos;hidden_and_binary&apos; (iragazi bai ezkutukoak bai bitarrak).</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Tiedostoselaimen suodatintila</short>
+	<long>Tämä avain määrittää, mitkä tiedostot suodatetaan tiedostoselaimessa. Kelvolliset arvot ovat: none (ei suodatusta), hidden (suodatetaan piilotiedostot), binary (suodatetaan binääritiedostot) sekä hidden_and_binary (suodatetaan piilo- ja binääritiedostot)</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Mode de filtre du gestionnaire de fichiers</short>
+	<long>Cette valeur détermine quels fichiers du gestionnaire de fichiers seront filtrés. Les valeurs possibles sont : « none » (ne filtre rien), « hidden » (filtre les fichiers cachés), « binary » (filtre les fichiers binaires) et « hidden_and_binary » (filtre à la fois les fichiers cachés et binaires).</long>
+      </locale>
+
+      <locale name="gl">
+	<short>Modo de filtro do navegador de ficheiros</short>
+	<long>Este valor determina os ficheiros que se filtran no navegador de ficheiros. Os valores válidos son: none (non filtrar), hidden (filtrar ficheiros ocultos), binary (filtrar ficheiros binarios) e hidden_and_binary (filtrar ficheiros ocultos e binarios).</long>
+      </locale>
+
+      <locale name="gu">
+	<short>ફાઈલ બ્રાઉઝર ગાળક સ્થિતિ</short>
+	<long>આ કિંમત નક્કી કરે છે કે કઈ ફાઈલો ફાઈલ બ્રાઉઝરમાંથી ગળાઈ ગયેલ છે. આ બધી માન્ય કિંમતો છે: કંઈ નહિં (કંઈ ગાળો નહિં), છુપી (છુપી ફાઈલો ગાળો), બાઈનરી (બાઈનરી ફાઈલો ગાળો) અને છુપી અને બાઈનરી (છુપી અને બાઈનરી ફાઈલો બંને ગાળો).</long>
+      </locale>
+
+      <locale name="he">
+	<short>File Browser Filter Mode</short>
+	<long>This value determines what files get filtered from the file browser. Valid values are: none (filter nothing), hidden (filter hidden files), binary (filter binary files) and hidden_and_binary (filter both hidden and binary files).</long>
+      </locale>
+
+      <locale name="hi">
+	<short>फ़ाइल ब्राउज़र फिल्टर विधि</short>
+	<long>यह मान निर्धारित करता है कि फ़ाइल ब्राउज़र से कौन फ़ाइल फिल्टर किया जाता है. वैध मान हैं: none (filter nothing), hidden (filter hidden files), binary (filter binary files) और hidden_and_binary (filter both hidden and binary files).</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Fájlböngésző szűrőmódja</short>
+	<long>Ez az érték meghatározza, hogy mely fájlok kerülnek kiszűrésre a fájlböngészőből. A lehetséges értékek: none (nem szűr semmit), hidden (rejtett fájlok szűrése), binary (bináris fájlok szűrése) és hidden_and_binary (mind a rejtett, mind a bináris fájlok szűrése).</long>
+      </locale>
+
+      <locale name="id">
+	<short>Mode Saringan Penjelah Berkas</short>
+	<long>Nilai ini menentukan berkas apa yang disaring penjelajah berkas. Nilai yang benar adalah: none (tanpa saringan), sembunyi (saring berkas tersembunyi), binary (saring berkas binary) dan sembunyi_dan_binary (saring berkas sembunyi dan binary).</long>
+      </locale>
+
+      <locale name="it">
+	<short>Modalità di filtro dell&apos;esplorazione file</short>
+	<long>Questo valore determina quali file vengono filtrati dall&apos;esplorazione dei file. Valori possibili sono: none (non filtra nulla), hidden (filtra i file nascosti), binary (filtra i file binari) e hidden_and_binary (filtra sia i file nascosti che quelli binari).</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ファイル参照ペインのフィルタ (モード)</short>
+	<long>ファイル参照ペインでフィルタして表示しないファイルを指定します。指定可能な値: none (フィルタしない)、hidden (隠しファイルをフィルタする)、binary (バイナリ・ファイルをフィルタする)、hidden_and_binary (隠しファイルとバイナリの両方をフィルタする)</long>
+      </locale>
+
+      <locale name="kn">
+	<short>ಕಡತ ವೀಕ್ಷಕದ ಫಿಲ್ಟರ್ ಕ್ರಮ</short>
+	<long>ಯಾವ ಕಡತವು ಶೋಧಿಸಲ್ಪಡುತ್ತದೆ ಎಂದು ಈ ಮೌಲ್ಯದಿಂದ ನಿರ್ಧರಿಸಲಾಗುವುದು. ಮಾನ್ಯ ಮೌಲ್ಯಗಳೆಂದರೆ: none (ಏನನ್ನೂ ಶೋಧಿಸಬೇಡ), hidden (ಅಡಗಿಸಿಡಲಾದ ಕಡತಗಳನ್ನು ಶೋಧಿಸುತ್ತದೆ), binary (ಬೈನರಿ ಕಡತಗಳನ್ನು ಶೋಧಿಸುತ್ತದೆ) ಹಾಗು hidden_and_binary (ಅಡಗಿಸಿಡಲಾದ ಹಾಗೂ ಬೈನರಿ ಎರಡೂ ಬಗೆಯ ಕಡತಗಳನ್ನೂ ಶೋಧಿಸುತ್ತದೆ).</long>
+      </locale>
+
+      <locale name="ko">
+	<short>파일 찾아보기 필터 모드</short>
+	<long>파일 찾아보기에서 걸러낼 파일을 결정합니다. 올바른 값은 다음입니다: none (아무것도 거르지 않기), hidden (숨김 파일만 거르기), binary (이진 파일만 거르기), hidden_and_binary (숨김 파일과 이진 파일 거르기).</long>
+      </locale>
+
+      <locale name="lt">
+	<short>Failų naršyklės filtravimo režimas</short>
+	<long>Ši reikšmė nurodo kokie failai atfiltruojami failų naršyklėje. Tinkamos reikšmės yra: none (nieko nefiltruoti), hidden (filtruoti paslėptus failus), binary (filtruoti dvejetainius failus) ir hidden_and_binary (filtruoti ir paslėptus, ir dvejetainius failus).</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Failu pārlūka filtrēšanas režīms</short>
+	<long>Šī vērtība nosaka kādi faili tiks atlasīti failu pārlūkā. Pieļaujamās vērtības: none (nefiltrē neko), hidden (filtrē slēptos failus), binary (filtrē bināros failus), and hidden_and_binary (filtrē gan slēptos gan bināros failus).</long>
+      </locale>
+
+      <locale name="mai">
+	<short>फाइल ब्रॉउजर फिल्टर मोड</short>
+	<long>ई मान निर्धारित करैत अछि जे फाइल ब्रॉउजर सँ कओन फाइल फिल्टर कएल जाएत अछि. वैध मान अछि: none (किछु नहि फिल्टर करू), hidden (नुकल फाइलसभ फिल्टर करू), binary (द्विपदीय फाइलसभ फिल्टर करू) आओर hidden_and_binary (नुकल आ द्विपदीय दुनू फाइलसभ फिल्टर करू).</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Режим на филтрирање на пребарувачот на датотеки</short>
+	<long>Вредноста одредува кои датотеки се филтрираат од пребарувачот на датотеки. Валидни вредности се: none (не филтрирај ништо), hidden (филтрирај ги скриените датотеки), binary (филтрирај ги бинарните датотеки) и hidden_and_binary (филтрирај ги и скриените и бинарните датотеки).</long>
+      </locale>
+
+      <locale name="ml">
+	<short>ഫയല്‍ ബ്രൌസര്‍ ഫില്‍റ്റര്‍ രീതി</short>
+	<long>ഈ വില തീരുമാനിക്കുന്നു ഏതെല്ലാം ഫയലുകള്‍ ഫയല്‍ ബ്രൌസറില്‍ നിന്നും ഫില്‍റ്റര്‍ ആകുന്നു എന്ന്. ഉപയോഗിക്കാവുന്ന വിലകള്‍ : ഏതും അല്ല (ഒന്നും ഫില്‍റ്റര്‍ ചെയ്യേണ്ട), ഒളിപ്പിച്ചിരിക്കുന്നത് (ഒളിപ്പിച്ചിരിക്കുന്ന ഫയലുകള്‍ ഫില്‍റ്റര്‍ ചെയ്യുക), ബൈനറി (ബൈനറി ഫയലുകള്‍ ഫില്‍റ്റര്‍ ചെയ്യുക), ഒളിപ്പിച്ചതും_ബൈനറിയും (ഒളിപ്പിച്ചതും ബൈനറിയും ആയിറ്റുള്ള ഫയലുകള്‍ ഫില്‍റ്റര്‍ ചെയ്യുക).</long>
+      </locale>
+
+      <locale name="mr">
+	<short>फाइल ब्राजर फिल्टर पध्दती</short>
+	<long>फाइल ब्राउजर पासून कुठले फाइल फिल्टर करायचे हे मुल्य निश्चित करते. वैध मुल्य खालिल प्रकारे आहे: काहीच नाही (काहीच फिल्टर करू नका), लपविलेले (लपविलेले फाइल), बायनरी (बायनरी फाइल फिल्टर करा) व लपविलेले_व_बायनरी (दोन्ही लपविलेले व बायनरी फाइल फिल्टर करा).</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Filtermodus for filhåndterer</short>
+	<long>Denne verdien bestemmer hvilke filer som blir filtrert fra filleseren. Gyldige verdier er non (ikke filtrer), hidden (filtrer skjulte filer), binary (filtrer binærfiler) og hidden_and_binary (filtrer både skjulte filer og binærfiler).</long>
+      </locale>
+
+      <locale name="ne">
+	<short>फाइल ब्राउजर फिल्टर मोड</short>
+	<long>यो मानले फाइल ब्राउजरबाट फाइलहरूले के फिल्टर गर्दछ भन्ने निर्धारण गर्दछ । वैध मानहरू हुन: कुनै पनि होइन (केही पनि फिलटर गर्दैन), लुकाइएको (लुकाइएको फाइलहरू फिल्टर गर्दछ), बाइनरी (बाइनरी फाइलहरू फिल्टर गर्दछ) र लुकाइएको र बाइनरी (लुकाइएको र बाइनरी दुवै फाइलहरू फिल्टर गर्दछ)</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Bestandsverkenner-filtermodus</short>
+	<long>Deze waarde bepaalt welke bestanden door de bestandsverkenner gefilterd worden. Geldige waarden zijn: &apos;none&apos; (geen filter), &apos;hidden&apos; (verborgen bestanden filteren), &apos;binary&apos; (binaire bestanden filteren) en &apos;hidden_and_binary&apos; (zowel verborgen als binaire bestanden filteren).</long>
+      </locale>
+
+      <locale name="nn">
+	<short>Filvisar, filtermodus</short>
+	<long>Denne verdien styrer kvar som vert filtrert i filvisaren. Gyldige verdiar er: none (filtrer ingenting), hidden (filtrer gøymde filer), binary (filtrer binære filer) og hidden_and_binary (filtrer både gøymde og binære filer).</long>
+      </locale>
+
+      <locale name="or">
+	<short>ଫାଇଲ ବ୍ରାଉଜର ଛଣା ବ୍ୟବସ୍ଥା</short>
+	<long>ଫାଇଲ ବ୍ରାଉଜରରୁ କେଉଁ ଫାଇଲ ଛଣାହୋଇଛି ଏହି ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ କରିଥାଏ। ବୈଧ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି: କିଛିନୁହଁ (କିଛି ଛାଣିନଥାଏ), ଲୁକ୍କାଇତ (ଛାଣକ ଲୁକ୍କାଇତ ଫାଇଲଗୁଡ଼ିକ), ଦ୍ୱିମିକ(ଦ୍ୱିମିକ ଫାଇଲ ଛାଣିଥାଏ) ଏବଂ hidden_and_binary (ଉଭୟ ଲୁକ୍କାଇତ ଏବଂ ଦ୍ୱିମିକ ଫାଇଲକୁ ଛାଣିଥାଏ)।</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਫਾਇਲ ਬਰਾਊਜ਼ਰ ਫਿਲਟਰ ਢੰਗ</short>
+	<long>ਇਹ ਮੁੱਲ ਤਹਿ ਕਰਦਾ ਹੈ ਕਿ ਫਾਇਲ ਝਲਕਾਰੇ ਵਲੋਂ ਕਿਹੜੀਆਂ ਫਾਇਲਾਂ ਨੂੰ ਫਿਲਟਰ ਕੀਤਾ ਜਾਵੇ। ਠੀਕ ਮੁੱਲ ਹਨ: ਕੋਈ ਨਹੀਂ (ਫਿਲਟਰ ਨਹੀਂ), ਲੁਕਵੀਆਂ (ਲੁਕਵੀਆਂ ਫਾਇਲਾਂ ਫਿਲਟਰ ਕਰੋ), ਬਾਈਨਰੀ (ਬਾਈਨਰੀ ਫਾਇਲਾਂ ਫਿਲਟਰ ਕਰੋ) ਅਤੇ ਲੁਕਵੀਆਂ ਅਤੇ ਬਾਈਨਰੀ (ਲੁਕਵੀਆਂ ਅਤੇ ਬਾਈਨਰੀ ਫਾਇਲਾਂ ਫਿਲਟਰ ਕਰੋ)।</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Tryb filtrowania plików</short>
+	<long>Wartość ta określa, które pliki nie będą widoczne w przeglądarce plików. Prawidłowe wartości to: &quot;none&quot; (wszystkie pliki widoczne), &quot;hidden&quot; (wyklucza pliki ukryte), &quot;binary&quot; (wyklucza pliki wykonywalne) oraz &quot;hidden_and_binary&quot; (wyklucza zarówno pliki ukryte, jak i wykonywalne).</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Modo de Filtragem do Navegador de Ficheiros</short>
+	<long>Este valor determina que ficheiros são filtrados do navegador de ficheiros. Valores válidos são: &quot;none&quot; (não filtrar nada), &quot;hidden&quot; (filtrar os ficheiros escondidos), &quot;binary&quot; (filtrar os ficheiros binários) e &quot;hidden_and_binary&quot; (filtrar os ficheiros escondidos e binários).</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Modo do filtro do navegador de arquivos</short>
+	<long>Quais arquivos filtrar do navegador de arquivos: &quot;none&quot; (não filtrar), &quot;hidden&quot; (filtrar arquivos ocultos), &quot;binary&quot; (filtrar arquivos binários) ou &quot;hidden_and_binary&quot; (filtrar tanto arquivos ocultos quanto binários).</long>
+      </locale>
+
+      <locale name="ro">
+	<short>Mod filtrare navigator fișiere</short>
+	<long>Această valoare determină ce fișiere vor fi filtrate în navigatorul de fișiere. Valori valide sunt: „none” (nu filtrează nimic), „hidden” (filtrează fișierele ascunse), „binary” (filtrează fișierele binare) și „hidden_and_binary” (filtrează fișierele ascunse și binare).</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Режим фильтра обозревателя файлов</short>
+	<long>Это значение определяет, какие файлы должны быть отфильтрованы из обозревателя. Допустимые значения: none (ничего не фильтровать), hidden (фильтровать скрытые файлы), binary (фильтровать бинарные файлы), hidden_and_binary (фильтровать скрытые и бинарные файлы).</long>
+      </locale>
+
+      <locale name="sl">
+	<short>Filtrirni način pregledovalnika datotek</short>
+	<long>Ta vrednost določa, katere datoteke so filtrirane v pregledovalniku datotek. Veljavne vrednosti so: none (ne filtriraj), hidden (filtriraj skrite datoteke), binary (filtriraj binarne datoteke) in hidden_and_binary (filtriraj tako skrite kot binarne datoteke).</long>
+      </locale>
+
+      <locale name="sq">
+	<short>Modaliteti i filtrimit të shfletimit të file</short>
+	<long>Kjo vlerë përcakton se çfarë file filtrohen në shfletimin e file. Vlerat e mundshme janë: none (asnjë lloj filtrimi), hidden (filtron file e fshehur), binary (filtron file binarë) dhe hidden_and_binary (filtron si file e fshehur ashtu dhe file binarë).</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Режим филтрирања у прегледнику датотека</short>
+	<long>Вредност одређује које датотеке ће бити филтриране из прегледнику датотека. Подржане вредности су: none (без филтрирања), hidden (филтрирај скривене датотеке), binary (филтрирај бинарне датотеке) и hidden_and_binary (филтрирај скривене и бинарне датотеке).</long>
+      </locale>
+
+      <locale name="sr@latin">
+	<short>Režim filtriranja u pregledniku datoteka</short>
+	<long>Vrednost određuje koje datoteke će biti filtrirane iz pregledniku datoteka. Podržane vrednosti su: none (bez filtriranja), hidden (filtriraj skrivene datoteke), binary (filtriraj binarne datoteke) i hidden_and_binary (filtriraj skrivene i binarne datoteke).</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Filbläddrarens filterläge</short>
+	<long>Detta värde fastställer vilka filer som blir filtrerade från filbläddraren. Giltiga värden är: none (filtrera ingenting), hidden (filtrera dolda filer), binary (filtrera binära filer) och hidden_and_binary (filtrera både dolda och binära filer).</long>
+      </locale>
+
+      <locale name="ta">
+	<short>கோப்பு உலாவி வடிப்பி முறை</short>
+	<long>இந்த மதிப்பு எந்த கோப்புகள் கோப்பு உலாவியால் வடிகட்டப் படும் என நிர்ணயிக்கிறது. செல்லுபடியாகும் மதிப்புகள்: எதுவும் இல்லை (வடிகட்ட எதுவுமில்லை),மறைந்த  (மறைந்த கோப்புகளை வடிகட்டு), இருநிலை (இருநிலை கோப்புகளை வடிகட்டு) மற்றும் hidden_and_binary (மறைந்த மற்றும் இரும கோப்புகள்).</long>
+      </locale>
+
+      <locale name="te">
+	<short>దస్త్ర అన్వేషకి వడపోత రీతి</short>
+	<long>ఈ విలువ దస్త్ర అన్వేషకి నుండి ఏ దస్త్రాలు వడపోయబడాలో నిర్ణయిస్తుంది.విలువైన విలువలు: none(వడపోత ఏమీలేదు), hidden(దాగిఉన్న వడపోత దస్త్రాలు), binary(బైనరీ వడపోత దస్త్రాలు) మరియు hidden_and_binary (దాగిఉన్న మరియు బైనరీ దస్త్రాలు రెంటినీ వడపోస్తుంది).</long>
+      </locale>
+
+      <locale name="th">
+	<short>รูปแบบการกรองแฟ้มในช่องเรียกดูแฟ้ม</short>
+	<long>ค่านี้กำหนดว่าแฟ้มใดจะถูกกรองออกไปจากช่องเรียกดูแฟ้ม ค่าที่เป็นไปได้คือ: none (ไม่กรอง), hidden (กรองแฟ้มซ่อนออกไป), binary (กรองแฟ้มไบนารีออกไป) และ hidden_and_binary (กรองทั้งแฟ้มซ่อนและแฟ้มไบนารีออกไป)</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Dosya Tarayıcısı Filtre Kipi</short>
+	<long>Bu değer dosya tarayıcısında hangi dosyaların filtreleneceğini belirker. Geçerlideğerler none (hiçbir filtreleme yok), hidden (gizli dosyalar), binary (ikili dosyalar) ve hidden_and_binary (hem ikili hem de gizli dosyalar).</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Режим фільтру перегляду файлів</short>
+	<long>Значення визначає які файли відфільтровуються при перегляді файлів. Допустимі значення: none (нічого не фільтрується), hidden (фільтруються приховані файли), binary (фільтруються двійкові файли) та hidden_and_binary (фільтруються як приховані так і двійкові файли).</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Chế độ lọc của bộ duyệt tập tin</short>
+	<long>Giá trị này quyết định những tập tin nào được lọc từ bộ duyệt tập tin. Giá trị có thể:
+ • none	(không có)	không lọc gì
+ • hidden				lọc tập tin _bị ẩn_
+ • binary				lọc tập tin _nhị phân_
+ • hidden_and_binary	lọc tập tin cả hai kiểu _bị ẩn và nhị phân_.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>文件浏览器过滤方式</short>
+	<long>此值决定了文件浏览器过滤文件的方式。可供选择的值有：none (不进行过滤)，hidden (过滤隐藏文件)，binary (过滤二进制文件)和 hidden_and_binary (过滤隐藏文件和二进制文件)</long>
+      </locale>
+
+      <locale name="zh_HK">
+	<short>檔案瀏覽器過濾器模式</short>
+	<long>本數值決定哪些檔案在檔案瀏覽器中會被過濾。有效的數值為“none”（不過濾），“hidden”（只過濾隱藏檔），“binary”（只過濾二位元檔），“hidden_and_binary”（過濾隱藏檔及二位元檔）。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>檔案瀏覽器過濾器模式</short>
+	<long>本數值決定哪些檔案在檔案瀏覽器中會被過濾。有效的數值為“none”（不過濾），“hidden”（只過濾隱藏檔），“binary”（只過濾二位元檔），“hidden_and_binary”（過濾隱藏檔及二位元檔）。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/filebrowser/filter_pattern</key>
+      <applyto>/apps/gedit-2/plugins/filebrowser/filter_pattern</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>File Browser Filter Pattern</short>
+	<long>The filter pattern to filter the file browser with. This filter
+	works on top of the filter_mode.</long>
+      </locale>
+
+      <locale name="ar">
+	<short>نموذج الترشيح لمتصفح الملفات </short>
+	<long>نموذج المرشّح لترشيح متصفح الملفات. يعمل هذا الملف فوق filter_mode.</long>
+      </locale>
+
+      <locale name="as">
+	<short>নথিপত্ৰ ব্ৰাউজাৰ ফিল্টাৰৰ বিন্যাস</short>
+	<long>নথিপত্ৰ ব্ৰাউজাৰ ফিল্টাৰ কৰাৰ বাবে ব্যৱহৃত ফিল্টাৰ বিন্যাস  । চিহ্নিত ফোল্ডাৰ filter_mode&apos;ৰ উপৰ সঞ্চালিত হয়  ।</long>
+      </locale>
+
+      <locale name="ast">
+	<short>Patrón de filtru del desaminador de ficheros</short>
+	<long>El patrón de fieltros col que filtrar el desaminador de ficheros. Esti filtru furrula per enriba del filter_mode.</long>
+      </locale>
+
+      <locale name="be@latin">
+	<short>Uzor filtravańnia fajłaŭ</short>
+	<long>Uzor filtravańnia fajłaŭ. Hety filter dziejničaje, abapirajučysia na filter_mode.</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Шаблон на филтъра за файловия браузър</short>
+	<long>Шаблонът за филтри, който да се ползва във файловия браузър. Той работи в режима на филтриране посочен във „filter_mode“.</long>
+      </locale>
+
+      <locale name="bn">
+	<short>ফাইল ব্রাউজার পরিশোধকের বিন্যাস</short>
+	<long>ফাইল ব্রাউজার পরিশোধক করার জন্য ব্যবহৃত পরিশোধক বিন্যাস। চিহ্নিত ফোল্ডারটি filter_mode-এর উপর সঞ্চালিত হয়।</long>
+      </locale>
+
+      <locale name="bn_IN">
+	<short>ফাইল ব্রাউজার ফিল্টারের বিন্যাস</short>
+	<long>ফাইল ব্রাউজার ফিল্টার করার জন্য ব্যবহৃত ফিল্টার বিন্যাস। চিহ্নিত ফোল্ডারটি filter_mode&apos;র উপর সঞ্চালিত হয়।</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Patró del filtre del navegador de fitxers</short>
+	<long>El patró de filtre amb què es filtrarà el navegador de fitxers. Aquest filtre funciona per sobre de filter_mode.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+	<short>Patró del filtre del navegador de fitxers</short>
+	<long>El patró de filtre amb què es filtrarà el navegador de fitxers. Este filtre funciona per sobre de filter_mode.</long>
+      </locale>
+
+      <locale name="crh">
+	<short>Dosye Kezicisi Süzgüç Deseni</short>
+	<long>Dosya tarayıcısının kullanacaği filtre dokusu. Bu filtre filter_mode üstündeçalışır.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Filtrační vzorek prohlížeče souborů</short>
+	<long>Filtrační vzorek, který se používá pro filtrování v prohlížeči souborů. Tento filtr pracuje navrchu filter_mode.</long>
+      </locale>
+
+      <locale name="cy">
+	<short>Patrwm Hidlo&apos;r Porwr Ffeiliau</short>
+	<long>Y patrwm hidlo i&apos;w ddefnyddio i hidlo&apos;r porwr ffeiliau. Mae&apos;r hidlydd hwn yn gweithio ar ben y modd hidlo.</long>
+      </locale>
+
+      <locale name="da">
+	<short>Filtermønster for filvælger</short>
+	<long>Det filter der skal bruges i filvælgeren. Dette filter virker ovenpå filter_mode.</long>
+      </locale>
+
+      <locale name="de">
+	<short>Dateiverwaltung Filtermuster</short>
+	<long>Das Filtermuster zum Filtern innerhalb der Dateiverwaltung. Dieses Filtermuster wird im Filtermodus benutzt.</long>
+      </locale>
+
+      <locale name="dz">
+	<short>ཡིག་སྣོད་བརའུ་ཟར་ ཚགས་མའི་དཔེ་གཞི་</short>
+	<long>ཡིག་སྣོད་བརའུ་ཟར་ བཙག་ནིའི་ཚགས་མའི་དཔེ་གཞི། ཚགས་མ་འདི་གིས་ ཚགས་མའི་ཐབས་ལམ་གུ་ལུ་ ལཱ་འབདཝ་ཨིན།</long>
+      </locale>
+
+      <locale name="el">
+	<short>Μοτίβο φίλτρου περιηγητή αρχείων</short>
+	<long>Το μοτίβο φίλτρου για το φίλτρο του περιηγητή αρχείων. Αυτό το φίλτρο λειτουργεί πάνω από το filter_mode.</long>
+      </locale>
+
+      <locale name="en@shaw">
+	<short>𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑓𐑦𐑤𐑑𐑼 𐑐𐑨𐑑𐑼𐑯</short>
+	<long>𐑞 𐑓𐑦𐑤𐑑𐑼 𐑐𐑨𐑑𐑼𐑯 𐑑 𐑓𐑦𐑤𐑑𐑼 𐑞 𐑓𐑲𐑤 𐑚𐑮𐑬𐑟𐑼 𐑢𐑦𐑞. 𐑞𐑦𐑕 𐑓𐑦𐑤𐑑𐑼 𐑢𐑻𐑒𐑕 𐑪𐑯 𐑑𐑪𐑐 𐑝 𐑞 filter_mode.</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>File Browser Filter Pattern</short>
+	<long>The filter pattern to filter the file browser with. This filter works on top of the filter_mode.</long>
+      </locale>
+
+      <locale name="eo">
+	<short>Dosierfoliumila filtra ŝablono</short>
+	<long>La filtra ŝablono per kiu la dosierfoliumilo filtras. Ĉi tiu filtro funkcias supre de la filtra _reĝimo.</long>
+      </locale>
+
+      <locale name="es">
+	<short>Patrón de filtro del examinador de archivos</short>
+	<long>El patrón de filtros con el que filtrar el examinador de archivos. Este filtro funciona por encima del filter_mode.</long>
+      </locale>
+
+      <locale name="et">
+	<short>Failisirvija filtrimuster</short>
+	<long>Failisirvija filtri muster. See seda filtrit kasutatakse koos filter_mode võtmes määratud režiimiga.</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Fitxategi-arakatzailearen iragazki-eredua</short>
+	<long>Iragazki-eredua fitxategi-arakatzailearekin iragazteko. Iragazki honek iragazki-moduaren gainean funtzionatzen du.</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Tiedostoselaimen suodatinmalli</short>
+	<long>Tiedostoselaimen listan suodatuksessa käytetty suodatin. Tämä suodatin on käytössä avaimen filter_mode määrittelemällä tavalla.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Motif de filtre du gestionnaire de fichiers</short>
+	<long>Le motif du filtre à appliquer au gestionnaire de fichiers. Le fonctionnement de ce filtre est basé sur le mode filtre (filter_mode).</long>
+      </locale>
+
+      <locale name="gl">
+	<short>Patrón de filtro do navegador de ficheiros</short>
+	<long>O patrón de filtro co que filtrar o navegador de ficheiros. Este filtro funciona por enriba de filter_mode.</long>
+      </locale>
+
+      <locale name="gu">
+	<short>ફાઈલ બ્રાઉઝર ગાળક ભાત</short>
+	<long>ફાઈલ બ્રાઉઝર સાથે ગાળવા માટે ફાઈલ ભાત. આ ગાળક filter_mode ની ટોચ પર કામ કરે છે.</long>
+      </locale>
+
+      <locale name="he">
+	<short>File Browser Filter Pattern</short>
+	<long>The filter pattern to filter the file browser with. This filter works on top of the filter_mode.</long>
+      </locale>
+
+      <locale name="hi">
+	<short>फ़ाइल ब्राउज़र फिल्टर प्रारूप</short>
+	<long>फिल्टर प्रारूप जिससे फ़ाइल ब्राउज़र को फिल्टर किया जाना है. यह फिल्टर फिल्टर विधि के शीर्ष पर काम करता है (_m).</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Fájlböngésző szűrőminta</short>
+	<long>A fájlböngésző szűrésére használandó szűrőminta. Ez a szűrő a filter_mode kulcs felett működik.</long>
+      </locale>
+
+      <locale name="id">
+	<short>Bentuk Saringan Penjelajah Berkas</short>
+	<long>Pola saringan untuk menyaring penjelajah berkas. Saringan ini bekerja di atas filter_mode.</long>
+      </locale>
+
+      <locale name="it">
+	<short>Modello di filtro dell&apos;esplorazione file</short>
+	<long>Il modello di filtro con cui filtrare l&apos;esplorazione dei file. Questo filtro viene applicato in modalità filter_mode</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ファイル参照ペインのフィルタ (パターン)</short>
+	<long>ファイル参照ペインでフィルタするパターンです。これは filter_mode の先頭で機能します。</long>
+      </locale>
+
+      <locale name="kn">
+	<short>ಕಡತ ವೀಕ್ಷಕದ ಫಿಲ್ಟರ್ ವಿನ್ಯಾಸ</short>
+	<long>ಕಡತ ವೀಕ್ಷಕದೊಂದಿಗೆ ಶೋಧಿಸಲು ಶೋಧನಾ ವಿನ್ಯಾಸ. ಈ ಶೋಧಕವು filter_mode ನ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+	<short>파일 찾아보기 필터 패턴</short>
+	<long>파일 찾아보기에 적용할 파일 이름 필터, filter_mode가 적용된 후에 적용됩니다.</long>
+      </locale>
+
+      <locale name="lt">
+	<short>Failų naršyklės filtravimo šablonas</short>
+	<long>Filtravimo šablonas, kuriuo filtruoti failų naršyklę. Šis filtras veikia ant filter_mode.</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Failu pārlūka filtrēšanas šablons</short>
+	<long>Filtrēšanas šablons, ko izmantot failu pārlūkā. Šis filtrs darbojas pāri filter_mode.</long>
+      </locale>
+
+      <locale name="mai">
+	<short>फाइल ब्रॉउजर फिल्टर प्रारूप</short>
+	<long>फिल्टर प्रारूप जकरासँ फाइल ब्रॉउजरकेँ फिल्टर कएल जएनाइ अछि ई फिल्टर फिल्टर मोड क&apos; शीर्ष पर काम करैत अछि (_m).</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Шема за филтрирање во прелистувачот на датотеки</short>
+	<long>Шема за филтрирање со која ќе се филтрира пребарувачот на датотеки. Овој филтер работи над filter_mode.</long>
+      </locale>
+
+      <locale name="ml">
+	<short>ഫയല്‍ ബ്രൌസര്‍ ഫില്‍റ്റര്‍ മാതൃക</short>
+	<long>ഫയല്‍ ബ്രൌസര്‍ ഫില്‍റ്റര്‍ ചെയ്യാനുള്ള ഫില്‍റ്റര്‍ പാറ്റേര്‍ണ്‍. ഈ ഫില്‍റ്റര്‍ ഫില്‍റ്റര്‍‌ _മോഡിനു മുകളില്‍ പ്രവര്‍ത്തിക്കുന്നു.</long>
+      </locale>
+
+      <locale name="mr">
+	<short>फाइल ब्राजर फिल्टर रचना</short>
+	<long>फाइल ब्राउजर ब्राउज करण्याकरीता फिल्टर रचना. हे फिल्टर फिल्टर_पध्दतीच्या वर कार्यरत असते.</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Filtermønster for filhåndterer</short>
+	<long>Filtermønster for å filtrere innhold i filleser. Dette filteret kommer i tillegg til filter_mode.</long>
+      </locale>
+
+      <locale name="ne">
+	<short>फाइल ब्राउजर फिल्टर बान्की</short>
+	<long>यससँग फाइल ब्राउजर फिल्टर गर्न फिल्टर बान्की । यो फिल्टरले फिल्टरमोडको माथि कार्य गर्दछ ।</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Filterpatroon voor de bestandsverkenner</short>
+	<long>Het filterpatroon waarmee de bestandsverkenner bestanden filtert. Dit filter werkt bovenop de filter_modus.</long>
+      </locale>
+
+      <locale name="nn">
+	<short>Filvisar, filtermønster</short>
+	<long>Filtermønsteret filvisaren skal filtrera etter. Dette filteret virkar oppå filter_mode.</long>
+      </locale>
+
+      <locale name="or">
+	<short>ଫାଇଲ ବ୍ରାଉଜର ଛଣା ପ୍ରକାର</short>
+	<long>ଫାଇଲ ବ୍ରାଉଜରକୁ ଛାଣିବା ପାଇଁ ଛାଣକ ପ୍ରକାର। ଏହି ଛାଣକ filter_mode ଉପରେ କାର୍ଯ୍ୟ କରିଥାଏ।</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਫਾਇਲ ਬਰਾਊਜ਼ਰ ਫਿਲਟਰ ਪੈਟਰਨ</short>
+	<long>ਫਿਲਟਰ ਪੈਟਰਨ ਜਿਸ ਨਾਲ ਫਾਇਲ ਝਲਕਾਰਾ ਫਿਲਟਰ ਕਰੇ। ਇਹ ਫਿਲਟਰ ਫਿਲਟਰ ਢੰਗ ਨਾ ਉੱਤੇ ਕੰਮ ਕਰਦਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Wzór filtra plików</short>
+	<long>Wzorzec filtra przeglądarki plików. Filtr ten działa w oparciu o &quot;filter_mode&quot;.</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Padrão de Filtragem do Navegador de Ficheiros</short>
+	<long>O padrão de filragem a utilizar no navegador de ficheiros. Este filtro actua sobre o filter_mode.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Padrão do filtro do navegador de arquivos</short>
+	<long>O padrão com o qual filtrar o navegador de arquivos. Esse filtro funciona sobre o definido por filter_mode.</long>
+      </locale>
+
+      <locale name="ro">
+	<short>Model filtrare navigator fișiere</short>
+	<long>Modelul pentru filtrarea din navigatorul de fișiere. Acest filtru acționează peste filter_mode.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Шаблон фильтра обозревателя файлов</short>
+	<long>Шаблон фильтра для фильтрации файлов в обозревателе файлов. Этот фильтр работает поверх filter_mode.</long>
+      </locale>
+
+      <locale name="sl">
+	<short>Filtrirni vzorec pregledovalnika datotek</short>
+	<long>Filtrirni vzorec za filtriranje pregledovalnika datotek. Ta filter deluje nad filter_mode.</long>
+      </locale>
+
+      <locale name="sq">
+	<short>Modeli i filtrit të shfletimit të file</short>
+	<long>Model i filtrit me të cilin të filtrohet shfletimi i file. Ky filtër aplikohet në modalitetin filter_mode</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Маска филтера у прегледнику датотека</short>
+	<long>Маска филтера за примену у прегледнику датотека. Филтер ради по режиму из filter_mode.</long>
+      </locale>
+
+      <locale name="sr@latin">
+	<short>Maska filtera u pregledniku datoteka</short>
+	<long>Maska filtera za primenu u pregledniku datoteka. Filter radi po režimu iz filter_mode.</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Filbläddrarens filtermönster</short>
+	<long>Filtermönstret att filtrera med i filbläddraren. Detta filter fungerar på toppen av filter_mode.</long>
+      </locale>
+
+      <locale name="ta">
+	<short>கோப்பு உலாவி வடிப்பி தோரணி</short>
+	<long>கோப்பு உலாவி உபயோகிக்க வேண்டிய வடிகட்டி தோரணி. வடிகட்டி, வடிகட்டி பாணியின் ( filter_mode) மீது இயங்கும். </long>
+      </locale>
+
+      <locale name="te">
+	<short>దస్త్ర అన్వేషకి వడపోత వరుసక్రమం</short>
+	<long>దస్త్ర అన్వేషకి తో ఉన్న వడపోత కు వడపోత వరుసక్రమం.ఈ వడపోత వడపోత రీతి పైన పని చేస్తుంది(_m).</long>
+      </locale>
+
+      <locale name="th">
+	<short>แพตเทิร์นการกรองแฟ้มในช่องเรียกดูแฟ้ม</short>
+	<long>แพตเทิร์นการกรองสำหรับกรองแฟ้มในช่องเรียกดูแฟ้ม การกรองนี้ กรองต่อจาก filter_mode อีกชั้นหนึ่ง</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Dosya Tarayıcısı Filtre Dokusu</short>
+	<long>Dosya tarayıcısının kullanacaği filtre dokusu. Bu filtre filter_mode üstündeçalışır.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Шаблон фільтру перегляду файлів</short>
+	<long>Шаблон фільтру перегляду файлів. Фільтр працює на базі filter_mode.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Mẫu lọc của bộ duyệt tập tin</short>
+	<long>Mẫu lọc cần dùng để lọc bộ duyệt tập tin. Mẫu lọc này hoạt động bên trên chế độ lọc (« filter_mode »).</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>文件浏览器过滤模式</short>
+	<long>文件浏览器进行过滤的模式。此过滤器取决于 filter_mode。</long>
+      </locale>
+
+      <locale name="zh_HK">
+	<short>檔案瀏覽器過濾器樣式</short>
+	<long>過濾器樣式用於檔案瀏覽器過濾檔案。此過濾器會在 filter_mode 上使用。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>檔案瀏覽器過濾器樣式</short>
+	<long>過濾器樣式用於檔案瀏覽器過濾檔案。此過濾器會在 filter_mode 上使用。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

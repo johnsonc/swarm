@@ -1,0 +1,8 @@
+KNOWN BUGS:
+-----------
+
+- festival method "lts.in.alphabet" sometimes returns true value even when it cannot find
+a rule to match the string. The problem could very well be in the festival code.
+
+- Some modules need to be checked for code redundancy.
+

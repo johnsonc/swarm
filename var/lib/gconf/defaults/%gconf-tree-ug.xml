@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="webcal">
+						<entry name="need-terminal">
+							<local_schema short_desc="پروگراممىنى تېرمىنالدا ئىجرا قىلىش">
+								<longdesc>مەزكۇر URL نى باشقۇرىدىغان پروگرامما تېرمىنالدا ئىجرا بولسا True بولىدۇ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="webcal uris نىڭ  URL باشقۇرغۇچىسى">
+								<longdesc>webcal uris نىڭ  URL باشقۇرغۇچىسى</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="webcal دىكى URL لارنى بىر تەرەپ قىلىش ئۇسۇلى">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="procman">
+				<entry name="swap_color">
+					<local_schema short_desc="گىرافىكتىكى ۋاقىتلىق ساقلىغۇچنىڭ ئەسلى رەڭگى">
+					</local_schema>
+				</entry>
+				<entry name="mem_color">
+					<local_schema short_desc="گىرافىكتىكى ئىچكى ساقلىغۇچنىڭ ئەسلى رەڭگى">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color3">
+					<local_schema short_desc="نىڭ ئەسلى رەڭگى CPU گىرافىكتىكى">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color2">
+					<local_schema short_desc="نىڭ ئەسلى رەڭگى CPU گىرافىكتىكى">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color1">
+					<local_schema short_desc="نىڭ ئەسلى رەڭگى CPU گىرافىكتىكى">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color0">
+					<local_schema short_desc="نىڭ ئەسلى رەڭگى CPU گىرافىكتىكى">
+					</local_schema>
+				</entry>
+				<entry name="current_tab">
+					<local_schema short_desc="نۆۋەتتە كۆرۈۋاتقان جەدۋەلنى ساقلاش">
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="ئاساسى كۆزنەكنىڭ ئىگىزلىگى">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="ئاساسى كۆزنەكنىڭ كەڭلىگى">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="repeat">
+					<local_schema short_desc="قايتىلاش شەكلى">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="yelp">
+				<entry name="fixed_font">
+					<local_schema short_desc="ئوخشاش كەڭلىكتىكى تېكىست فونتى">
+						<longdesc>ئوخشاش كەڭلىكتىكى تېكىست فونتى</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="variable_font">
+					<local_schema short_desc="تېكىست فونتى">
+						<longdesc>ئۆزگۈرۈشچان كەڭلىكتىكى تېكىست فونتى </longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="سىستېما فونتىنى ئىشلىتىش">
+						<longdesc>سىستېما ئۈچۈن ئەسلىدىكى فونت قۇرۇلمىسىنى ئىشلىتىش</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_caret">
+					<local_schema short_desc="نۇر توچكىسىنى ئىشلىتىش">
+						<longdesc>بەتنى كۆرۈۋاتقاندا كۇنۇپكا تاختىسىدىن كونتىرول قىلىنىدىغان نۇر توچكىسىنى ئىشلىتىش</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gdm">
+				<dir name="simple-greeter">
+					<entry name="wm_use_compiz">
+						<local_schema short_desc="compiz نى كۆزنەك باشقۇرغۇ قىلىپ ئىشلەت">
+							<longdesc>compiz نى ئېكران باشقۇرغۇ قىلىپ ئىشلىتىش ئۈچۈن true  قىلىڭ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recent-layouts">
+						<local_schema short_desc="ئالدىنقى قېتىم تاللانغان ھەرپتاختا ئورۇنلاشتۇرۇلۇشى">
+							<longdesc>كىرىش كۆزنىكىدە كۆرسىتىلىدىغان كۆڭۈلدىكى ھەرپتاختا ئورۇنلاشتۇرۇلۇشى</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recent-languages">
+						<local_schema short_desc="ئالدىنقى قېتىم تاللانغان تىل">
+							<longdesc>كىرىش كۆزنىكىدە كۆرسىتىلىدىغان كۆڭۈلدىكى تىللار</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_list">
+						<local_schema short_desc="كىرىش كۆزنىكىدە ئىشلەتكۈچىلەرنىڭ ئاتىنى كۆرسەتمە">
+							<longdesc>كىرىش كۆزنىكىدە ئىشلەتكۈچى ئاتىنى كۆرسەتمەسلىك ئۈچۈن true قىلىڭ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_restart_buttons">
+						<local_schema short_desc="قايتا قوزغات توپچىلىرىنى چەكلە">
+							<longdesc>كىرىش كۆزنىكىدە قايتا قوزغات توپچىسىنى كۆرسەتمەسلىك ئۈچۈن true قىلىڭ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logo_icon_name">
+						<local_schema short_desc="سالام تۇغى ئۈچۈن ئىشلىتىلىدىغان سىنبەلگە ئاتى">
+							<longdesc>سالام تۇغى ئۈچۈن ئىشلىتىلىدىغان سىنبەلگىنىڭ ئاتى.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_text_nochooser">
+						<local_schema short_desc="تاللىغۇ قۇرۇق ۋاقىتتا چىقىدىغان Banner ئۇچۇرىنىڭ تېكىستى">
+							<longdesc>ئىشلەتكۈچى banner ئۇچۇرى تېكىستنى تاللىمىغاندا banner_message_text نىڭ ئورنىغا كۆرسىتىلىدىغان تېكىست</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_text">
+						<local_schema short_desc="Banner ئۇچۇرىنىڭ تېكىستى">
+							<longdesc>كىرىش كۆزنىكىدە كۆرسىتىلىدىغان banner تېكىستى.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_enable">
+						<local_schema short_desc="Banner ئۇچۇرىنى كۆرسەتسۇن">
+							<longdesc>banner ئۇچۇرى تېكىستىنى كۆرسىتىش ئۈچۈن  true قىلىڭ.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="settings-manager-plugins">
+						<dir name="xsettings">
+							<entry name="active">
+								<local_schema short_desc="xsettings تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ.">
+									<longdesc>xsettings تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="xrandr">
+							<entry name="active">
+								<local_schema short_desc="xrandr تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ.">
+									<longdesc>xrandr تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="sound">
+							<entry name="active">
+								<local_schema short_desc="ئۈن تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ.">
+									<longdesc>ئۈن تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="media-keys">
+							<entry name="active">
+								<local_schema short_desc="media-keys تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ.">
+									<longdesc>media-keys تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="background">
+							<entry name="active">
+								<local_schema short_desc="تەگلىك تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ.">
+									<longdesc>تەگلىك تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="a11y-keyboard">
+							<entry name="active">
+								<local_schema short_desc="ھەرپتاختا قىستۇرمىسىنىڭ ياردەمچى ئىقتىدارىنى ئىشلەت">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="accessibility">
+						<entry name="screen_magnifier_enabled">
+							<local_schema short_desc="ئېكران چوڭايتىشنى ئىشلەت">
+								<longdesc>ئېكران چوڭايتقۇنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="screen_reader_enabled">
+							<local_schema short_desc="ئېكران ئوقۇغۇنى ئىشلەت">
+								<longdesc>ئېكران ئوقۇغۇنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="screen_keyboard_enabled">
+							<local_schema short_desc="ئېكران ھەرپتاختىسىنى ئىشلەت">
+								<longdesc>ئېكران ھەرپتاختىسىنى ئىشلىتىش ئۈچۈن true قىلىڭ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="deskbar">
+				<entry name="entry_width">
+					<local_schema short_desc="قوللانچاق كىرگۈزۈش تۈرىنىڭ ھەر سانى كەڭلىكى">
+						<longdesc>&quot;ui_name&quot; غا &quot;Button&quot; بېكىتىلگەندە، ئاندىن ئىناۋەتلىك بولىدۇ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ui_name">
+					<local_schema short_desc="ئارا يۈزنى تاللاش ئۈچۈن &quot;كۆزنەك&quot; ياكى &quot;توپچا&quot; نى ئىشلىتىڭ">
+					</local_schema>
+				</entry>
+				<entry name="max_history_items">
+					<local_schema short_desc="ئىزىدا ساقلىدىغان تۇرلەرنىڭ ئەڭ كۆپ سانى">
+					</local_schema>
+				</entry>
+				<entry name="hide_after_action">
+					<local_schema short_desc="ھەرىكەت ئاكتىپلانغاندىن كېيىن، كۆزنەك يېپىلامدۇ يوق">
+						<longdesc>ئەگەر بۇ قوزغىتىلسا، مەشغۇلات ئاكتىپلانغاندىن كېيىن كۆزنەك يېپىلىدۇ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_y">
+					<local_schema short_desc="كۆزنەكنىڭ Y  كوردىناتى">
+						<longdesc>كۆزنەكنىڭ ئېكراندىكى كۆڭۈلدىكى ئورنى(Y كوردىناتى)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_x">
+					<local_schema short_desc="كۆزنەكنىڭ X  كوردىناتى">
+						<longdesc>كۆزنەكنىڭ ئېكراندىكى كۆڭۈلدىكى ئورنى(X كوردىناتى)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="كۆزنەكنىڭ ئېگىزلىكى">
+						<longdesc>كۆزنەكنىڭ كۆڭۈلدىكى ئېگىزلىكى (پىكسېل)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="كۆزنەكنىڭ كەڭلىكى">
+						<longdesc>كۆزنەكنىڭ كۆڭۈلدىكى كەڭلىكى (پىكسېل)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="clear_entry">
+					<local_schema short_desc="ئىزدەش نەتىجىسىنى تاللىغاندىن كېيىن تازىلا">
+						<longdesc>ئەگەر بۇ قوزغىتىلسا، ئىزدەش نەتىجىسى تاللانغاندىن كېيىن مەزمۇنلارنڭ ھەممىسىنى تازىلايدۇ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="collapsed_cat">
+					<local_schema short_desc="قاتلانغان كاتىگورىيەلەر">
+						<longdesc>كۆرسىتىلگەن تىزىملىكتىكى كاتېگورىيەلەر قاتلىنىدۇ، كۆرسىتىشكە بولىدىغان كاتېگورىيەلەر: كۆڭۈلدىكى، تارىخ، پۈتۈك، ئېلخەت، پاراڭلىشىش مەزمۇنى، كىشى، ئورنى، ھەرىكەت، تور بەت، توردىن ئىزدەش، خەۋەر ۋە ئىزاھات.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enabled_handlers">
+					<local_schema short_desc="ئىشلەتكىلى بولىدىغان بىر تەرەپ قىلغۇچ">
+						<longdesc>قوزغىتىلغان بىر تەرەپ قىلغۇچنىڭ چىقىرىدىغان تىپ ئاتىنىڭ تىزىملىكى ئالدىنلىق بويىچە تەرتىپلەندى. ئەڭ سول تەرەپتىكىنىڭ ئالدىنلىقى ھەممىدىن يۇقىرى.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keybinding">
+					<local_schema short_desc="كۇنۇپكا باغلاش">
+						<longdesc>تېز مەشغۇلاتقا قولاي بولسۇن ئۈچۈن، Deskbar-Applet نى ئاكتىپلاشتا ئىشلىتىىدىغان كۇنۇپكا</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_selection">
+					<local_schema short_desc="Deskbar-Applet غا تەگكەندە تاللانغان ھەرپ تىزمىسىنى چاپلامدۇ يوق">
+						<longdesc>تېز كۇنۇپكىغا تەگكەندە نۆۋەتتە تاللىغاننى ئىزدەش رامكىسىغا چاپلامدۇ يوق</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="typingdelay">
+					<local_schema short_desc="ئىزدەشنى باشلاشتىن ئاۋالقى كۈتۈش ۋاقتى(مىللىسېكۇنت)">
+						<longdesc>ئىزدەش رامكىسىغا ھەرپ كىرگۈزۈلگەندىن كېيىن رەسمىي ئىزدەشكىچە بولغان ۋاقىتنى كۆرسىتىدۇ، بىرلىكى مىللىسېكۇنت</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="minchars">
+					<local_schema short_desc="ئىزدەشنى باشلاش ئۈچۈن لازىملىق ئەڭ ئاز ھەرپ سانى">
+						<longdesc>ئىزدەشنى باشلاش ئۈچۈن كېرەك بولىدىغان ئەڭ ئاز ھەرپ سانىنى كۆرسىتىدۇ</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="mozilla">
+					<entry name="show_only_primary_search">
+						<local_schema>
+							<longdesc>ھەممە ئىزدەش موتورىنى كۆرسىتەمدۇ ياكى ئالدىن تاللانغان ئىزدەش موتورىنىلا كۆرسىتەمدۇ. پەقەت موزىللا ئاساسىدىكى Firefox قا ئوخشاش توركۆرگۈگىلا تەسىر كۆرسىتىدۇ.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="full_screen">
+					<entry name="seconds">
+						<local_schema short_desc="كېيىكى رەسىم كۆرسىتىلگىچە بىر نەچچە سېكوند ئۇزارتىش">
+						</local_schema>
+					</entry>
+					<entry name="upscale">
+						<local_schema short_desc="دەسلەپكى يىراق-يېقىنلىقى 100% دىن چوڭ بولسا بولىدۇ">
+						</local_schema>
+					</entry>
+					<entry name="loop">
+						<local_schema short_desc="رەسىم تەرتىۋى بويىچە دەۋرىلىنىش">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="سۈزۈك رەڭ">
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="سۈزۈكلۈك كۆرسەتكۈچى">
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="رەسىمنى تولۇقلاش">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

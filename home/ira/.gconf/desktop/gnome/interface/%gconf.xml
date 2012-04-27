@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="accessibility" mtime="1431540954" type="bool" value="true"/>
+	<entry name="icon_theme" mtime="1428489997" type="string">
+		<stringvalue>Crux</stringvalue>
+	</entry>
+	<entry name="gtk_theme" mtime="1428489996" type="string">
+		<stringvalue>Crux</stringvalue>
+	</entry>
+</gconf>

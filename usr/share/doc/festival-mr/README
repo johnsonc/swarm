@@ -1,0 +1,18 @@
+Installation
+============
+
+Refer to the file INSTALL for installation instructions.
+
+Using Marathi Festival
+=====================
+
+After installing festival-mr, it can be used to read out Marathi Unicode text 
+using the regular festival functions. Sample text files can be found in 
+examples/ directory. Some example methods of using the TTS are as given below:
+
+1. Using Festival command line
+   Set current voice in festival to the Marathi voice and read out the text.
+
+	$ festival
+	festival> (voice_marathi_NSK_diphone)
+	festival> (tts "examples/sample.txt" nil)

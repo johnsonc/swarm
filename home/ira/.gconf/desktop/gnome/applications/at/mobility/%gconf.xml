@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="exec" mtime="1431537239" type="string">
+		<stringvalue>cellwriter</stringvalue>
+	</entry>
+	<entry name="startup" mtime="1431537230" type="bool" value="true"/>
+</gconf>

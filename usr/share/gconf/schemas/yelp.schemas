@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="utf-8"?><!-- -*- indent-tabs-mode: nil -*- -->
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/yelp/use_caret</key>
+      <applyto>/apps/yelp/use_caret</applyto>
+      <owner>yelp</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Use caret</short>
+        <long>
+          Use a keyboard-controllable caret when viewing pages.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>استعمل المؤشر</short>
+        <long>استعمل مؤشر متحكم من لوحة المفاتيح عند عرض الصفحات.</long>
+      </locale>
+
+      <locale name="as">
+        <short>কেৰেট ব্যৱহাৰ কৰা হ&apos;ব</short>
+        <long>পৃষ্ঠা প্ৰদৰ্শনৰ সময়ত চাবিৰ ফলক দ্বাৰা নিয়ন্ত্ৰিত কেৰেট ব্যৱহাৰ কৰা হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Emplegar cursor</short>
+        <long>Emplegar un cursor controlable pel tecláu al ver las páxines.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Выкарыстоўваць карэтку</short>
+        <long>Выкарыстоўваць карэтку, якой можна кіраваць з клявіятуры, у час прагляду старонак.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Vykarystoŭvaj karetku</short>
+        <long>Vykarystoŭvaj karetku, jakoj možna kiravać z klavijatury, u časie prahladu staronak.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Използване на курсор</short>
+        <long>Употреба на курсор управляван с клавиатура при преглед на страници.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ক্যারেট ব্যবহার করা হবে</short>
+        <long>পৃষ্ঠা প্রদর্শনের সময় কীবোর্ড দ্বারা নিয়ন্ত্রিত ক্যারেট ব্যবহার করা হবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ক্যারেট ব্যবহার করা হবে</short>
+        <long>পৃষ্ঠা প্রদর্শনের সময় কি-বোর্ড দ্বারা নিয়ন্ত্রিত ক্যারেট ব্যবহার করা হবে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Utilitza un cursor</short>
+        <long>Utilitza un cursor controlable amb el teclat quan es visualitzen les pàgines.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Utilitza un cursor</short>
+        <long>Utilitza un cursor controlable amb el teclat quan es visualitzen les pàgines.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>İmleç kullan</short>
+        <long>Sayfaları izlerken klavye kontrollü imleci kullan.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Používat kurzor</short>
+        <long>Používat klávesnicí ovladatelný kurzor při zobrazování stránek.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Defnyddio lleolnod</short>
+        <long>Defnyddio lleolnod y gellir ei reoli â&apos;r bysellfwrdd wrth wylio tudalennau.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Benyt markør</short>
+        <long>Benyt en tastatur-kontrolleret markør ved visning af sider.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Rahmen verwenden</short>
+        <long>Einen über die Tastatur kontrollierbaren Rahmen verwenden, wenn Seiten betrachtet werden.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཀེ་རེཊི་ལག་ལེན་འཐབ།</short>
+        <long>ཤོག་ལེབ་ཚུ་བལྟ་བའི་སྐབས་ ལྡེ་སྒྲོམ་ཚད་འཛིན་འབད་བཏུབ་པའི་ ཀེ་རེཊི་ཅིག་ ལག་ལེན་འཐབ།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Χρήση δρομέα</short>
+        <long>Χρήση δρομέα μέσω πληκτρολογίου κατά την περιήγηση σελίδων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Use caret</short>
+        <long>Use a keyboard-controllable caret when viewing pages.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Use caret</short>
+        <long>Use a keyboard-controllable caret when viewing pages.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Usar cursor</short>
+        <long>Usar un cursor controlable por el teclado al ver las páginas.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kasuta tekstikursorit</short>
+        <long>Lehtede vaatamisel kasuta klaviatuuriga juhitavat tekstikursorit.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Erabili kurtsorea</short>
+        <long>Erabili teklatuarekin kontrola daitekeen kurtsorea orrialdeak ikusteko.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>استفاده از مکان‌نما</short>
+        <long>استفاده از مکان‌نمای قابل کنترل با صفحه‌کلید هنگام نمایش صفحات.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Käytä kohdistinta</short>
+        <long>Selaa sivuja näppäimistöltä ohjattavan kohdistimen avulla.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Utiliser le curseur</short>
+        <long>Utiliser un curseur contrôlable par le clavier lors de la visualisation des pages.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Úsáid carait</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Usar cursor</short>
+        <long>Usar un cursor controlábel polo teclado ao ver as páxinas.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>કેરેટ વાપરો</short>
+        <long>જ્યારે પાનાં જોઈ રહ્યા હોય ત્યારે કીબોર્ડ-નિયંત્રિત કેરેટ વાપરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Use caret</short>
+        <long>Use a keyboard-controllable caret when viewing pages.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>हंसपद का प्रयोग करें</short>
+        <long>पृष्ठ देखने के दौरान कुंजीपटल नियंत्रक हंसपद का प्रयोग करें.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Koristi pokazivač</short>
+        <long>Koristi pokazivač kojim se upravlja sa tipkovnice pri pregledu stranica.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Kurzor használata</short>
+        <long>Billentyűzet-vezérelt kurzoros böngészés használata az oldalak megtekintésekor.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Gunakan caret</short>
+        <long>Gunakan sebuah caret yang dapat dikendalikan oleh papan ketik ketika menampilkan halaman.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Usare cursore</short>
+        <long>Usa un cursore controllabile da tastiera nel visualizzare le pagine.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>キャレットを使用する</short>
+        <long>ヘルプを表示したらキーボードから操作できるキャレットを使用します。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>კურსორის გამოყენება</short>
+        <long>დათვალიერებისას გამოიყენეთ კლავიატურით-მართვადი კურსორის ადგილსამყოფელის მიმანიშნებელი მოციმციმე ხაზი.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಕ್ಯಾರೆಟ್(caret) ಅನ್ನು ಬಳಸು</short>
+        <long>ಪುಟಗಳನ್ನು ನೋಡುವಾಗ ಕೀಲಿಮಣೆಯಿಂದ ನಿಯಂತ್ರಿಸಬಹುದಾದ ಕ್ಯಾರಟ್(caret) ಅನ್ನು ಬಳಸಿ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>캐럿 사용</short>
+        <long>페이지를 볼 때 키보드로 움직이는 캐럿을 사용합니다.</long>
+      </locale>
+
+      <locale name="ks">
+        <short>केरेट करिव इस्तेमाल</short>
+        <long>पेज वुच्छन विज किबोड केरेट इस्तिमाल</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Caret bi kar bîne</short>
+        <long>Dema şopandina rûpelan nîşandera di bin kontroliya klavyeyê de ye bikar bîne.</long>
+      </locale>
+
+      <locale name="ky">
+        <short>Курсорду колдонуу</short>
+        <long>Барактарды кароодо алиптергич аркылуу башкарылуучу курсорду колдонуу</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Naudoti žymeklį</short>
+        <long>Puslapių peržiūrai naudoti klaviatūra kontroliuojama žymeklį.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Lietot kursoru</short>
+        <long>Lietot tastatūras kontrolētu teksta kursoru, kad tiek skatītas lapas.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>हँसपदक&apos; प्रयोग करू </short>
+        <long>पृष्ठ देखब क&apos; दौरान कीबोर्ड नियंत्रक हँसपदक&apos; प्रयोग करू.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Mampiasa mpikorisa</short>
+        <long>Mampiasa mpikorisa voabaikom-pafan-teny rehefa mizaha ireo pejy.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Користи цртичка</short>
+        <long>Користи цртичка контролирана од тастатура за преглед на страни.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>caret ഉപയോഗിക്കുക</short>
+        <long>താളുകള്‍ കാണുമ്പോള്‍ ഒരു കീബോര്‍ഡ്-നിയന്ത്രിത കാരറ്റ് ഉപയോഗിക്കുക.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>खूणेचा उपयोग करा</short>
+        <long>पानं पाहताना किबोर्डने नियंत्रित होणाऱ्या खूणेचा उपयोग करा.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Guna caret</short>
+        <long>Guna caret dikawal papan kekunci bila melihat halaman.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Bruk markør</short>
+        <long>Bruk tastaturkontrollert markør ved visning av sider.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>क्यारेट प्रयोग गर्नुहोस्</short>
+        <long>पृष्ठ हेर्नलाई कुञ्जीपाटी नियन्त्रणयुक्त क्यारेट प्रयोग गर्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>caret gebruiken</short>
+        <long>Bij het weergeven van pagina&apos;s een caret gebruiken die met het toetsenbord bediend kan worden.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Bruk markør</short>
+        <long>Bruk ein tastaturstyrt markør under framsyning av sider.</long>
+      </locale>
+
+      <locale name="or">
+        <short>କାରେଟ ବ୍ଯବହାର କରନ୍ତୁ</short>
+        <long>ପୃଷ୍ଠା ଦେଖିଲାବେଳେ ଚାବି ପଟି ଦ୍ବାରା ନିୟନ୍ତ୍ରଣଯୋଗ୍ଯ କାରେଟ ବ୍ଯବହାର କରନ୍ତୁ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕਾਰੇਟ ਵਰਤੋਂ</short>
+        <long>ਕੀ-ਬੋਰਡ ਤੋਂ ਵਰਤਣਯੋਗ ਕਾਰੇਟ ਪੇਜ਼ ਵੇਖਣ ਲਈ ਵਰਤੋਂ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Użycie kursora</short>
+        <long>Użycie kursora kontrolowanego przez klawiaturę przy przeglądaniu stron.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Utilizar cursor</short>
+        <long>Utilizar um cursor controlável pelo teclado ao visualizar as páginas.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Usar cursor</short>
+        <long>Usa o cursor do teclado ao visualizar páginas.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Arată cursor</short>
+        <long>Arată un cursor controlabil din tastatură la vizualizarea paginilor.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Использовать курсор</short>
+        <long>Использовать управляемый с клавиатуры курсор при просмотре страниц</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Použiť kurzor</short>
+        <long>Použiť kurzor ovládaný klávesami pri prezeraní stránok.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Uporabi kazalko</short>
+        <long>Uporabi s tipkovnico nadzorovano kazalko med ogledom strani.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Përdor vizore</short>
+        <long>Përdor një vizore të kontrollueshme nga tastiera gjatë shikimit të faqeve.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Користи курзор.</short>
+        <long>Користи курзор којим се управља са тастатуре при прегледу страна.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Koristi kurzor.</short>
+        <long>Koristi kurzor kojim se upravlja sa tastature pri pregledu strana.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Använd markör</short>
+        <long>Använd en markör som kan styras från tangentbordet för visning av sidor.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>இடக்குறியை பயன்படுத்து</short>
+        <long>பக்கங்களை பார்க்கும் போது விசைப்பலகை இடக்குறியை .பயன்படுத்து</long>
+      </locale>
+
+      <locale name="te">
+        <short>హంసపాదును  ఉపయోగించు</short>
+        <long>పేజీలను దర్శించుచున్నప్పుడు కీబోర్డ్-నింయంత్రిత అక్షరమును వాడుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ใช้เคอร์เซอร์</short>
+        <long>ใช้เคอร์เซอร์ที่ควบคุมด้วยแป้นพิมพ์ในการดูหน้าเอกสารต่างๆ</long>
+      </locale>
+
+      <locale name="tr">
+        <short>İmleç kullan</short>
+        <long>Sayfaları izlerken klavye kontrollü imleci kullan.</long>
+      </locale>
+
+      <locale name="ug">
+        <short>نۇر توچكىسىنى ئىشلىتىش</short>
+        <long>بەتنى كۆرۈۋاتقاندا كۇنۇپكا تاختىسىدىن كونتىرول قىلىنىدىغان نۇر توچكىسىنى ئىشلىتىش</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Використовувати курсор</short>
+        <long>Використовувати для перегляду сторінок курсор, що керується з клавіатури.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Dùng con trỏ</short>
+        <long>Dùng phím mũi tên điều khiển con trỏ để xem các trang.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Eployî cursoe</short>
+        <long>Eployî on cursoe controlé avou l&apos; taprece tot håynant les pådjes.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Sebenzisa i-caret</short>
+        <long>Sebenzisa i-caret ye-keyboard elawulekayo xa ujonga amaxwebhu.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>使用光标</short>
+        <long>查看页面时使用键盘控制的光标。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>顯示游標</short>
+        <long>當瀏覽文件頁面時顯示鍵盤游標。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>顯示游標</short>
+        <long>當瀏覽文件頁面時顯示鍵盤游標。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/yelp/use_system_fonts</key>
+      <applyto>/apps/yelp/use_system_fonts</applyto>
+      <owner>yelp</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Use system fonts</short>
+        <long>
+          Use the default fonts set for the system.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>استخدم خطوط النّظام</short>
+        <long>استخدم الخطوط الافتراضيّة المحدّدة للنّظام.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ব্যৱস্থাপ্ৰণালী ফন্ট ব্যৱহাৰ কৰা হ&apos;ব</short>
+        <long>ব্যৱস্থাপ্ৰণালী নিৰ্ধাৰিত অবিকল্পিত ফন্ট সংকলন ব্যৱহৃত হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Emplegar fontes del sistema</short>
+        <long>Emplegar el conxuntu de fontes predeterminaes del sistema</long>
+      </locale>
+
+      <locale name="be">
+        <short>Выкарыстоўваць сістэмныя шрыфты</short>
+        <long>Выкарыстоўваць набор шрыфтоў, прадвызначаны для сыстэмы.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Vykarystoŭvaj systemnyja šryfty</short>
+        <long>Vykarystoŭvaj zmoŭčany nabor šryftoŭ dla hetaj systemy.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Използване на системните шрифтове</short>
+        <long>Използване на стандартните шрифтове към системата.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>সিস্টেম ফন্ট ব্যবহার করা হবে</short>
+        <long>সিস্টেমে নির্ধারিত ডিফল্ট ফন্ট সংকলন ব্যবহৃত করা হবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>সিস্টেম ফন্ট ব্যবহার করা হবে</short>
+        <long>সিস্টেমে নির্ধারিত ডিফল্ট ফন্ট সংকলন ব্যবহৃত হবে।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Arverañ nodrezhoù ar reizhiad</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Utilitza els tipus de lletra del sistema</short>
+        <long>Utilitza els tipus de lletra per defecte del sistema.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Utilitza els tipus de lletra del sistema</short>
+        <long>Utilitza els tipus de lletra per defecte del sistema.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Sistem yazıtiplerini kullan</short>
+        <long>Sistem için öntanımlı yazıtiplerini kullan.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Používat písma systému</short>
+        <long>Používat písma nastavená v systému.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Defnyddio ffontiau system</short>
+        <long>Defnyddio&apos;r ffontiau rhagosodedig, wedi eu gosod ar gyfer y system.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Benyt systemskrifttyper</short>
+        <long>Benyt systemets standardskrifttyper.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Systemschriften verwenden</short>
+        <long>Die vom System vorgegebenen Schriften verwenden.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>རིམ་ལུགས་ཡིག་གཟུགས་ཚུ་ ལག་ལེན་འཐབ།</short>
+        <long>རིམ་ལུགས་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས་ཚུ་ ལག་ལེན་འཐབ།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Χρήση γραμματοσειρών συστήματος</short>
+        <long>Χρήση των προεπιλεγμένων γραμματοσειρών συστήματος.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑿𐑟 𐑕𐑦𐑕𐑑𐑩𐑥 𐑓𐑪𐑯𐑑𐑕</short>
+        <long>𐑿𐑟 𐑞 𐑛𐑦𐑓𐑷𐑤𐑑 𐑓𐑪𐑯𐑑𐑕 𐑕𐑧𐑑 𐑓𐑹 𐑞 𐑕𐑦𐑕𐑑𐑩𐑥.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Use system fonts</short>
+        <long>Use the default fonts set for the system.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Use system fonts</short>
+        <long>Use the default fonts set for the system.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Usar tipografía del sistema</short>
+        <long>Usar el conjunto de tipos predeterminado del sistema.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Süsteemi kirjatüüpide kasutamine</short>
+        <long>Süsteemsete vaikekirjatüüpide kasutamine.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Erabili sistemako letra-tipoak</short>
+        <long>Erabili sistemako letra-tipo lehenetsiak.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>استفاده از قلم‌های سیستم</short>
+        <long>استفاده از قلم‌های پیش‌فرضی که برای سیستم تنظیم شده‌اند.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Käytä järjestelmän kirjasimia</short>
+        <long>Käytä järjestelmän oletusarvoisia kirjasimia.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Utiliser les polices système</short>
+        <long>Utiliser les polices définies pour le système.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Dopre caratars di sisteme</short>
+        <long>Dopre i caratars predeterminâts dal sisteme.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Úsáid clónna córais</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Usar tipos de letra do sistema</short>
+        <long>Usar o conxunto de tipos de letra predefinido do sistema.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>સિસ્ટમ ફોન્ટ વાપરો</short>
+        <long>સિસ્ટમ માટે મૂળભૂત ફોન્ટ સમૂહ વાપરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Use system fonts</short>
+        <long>Use the default fonts set for the system.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>सिस्टम फॉन्ट का प्रयोग करें</short>
+        <long>सिस्टम के लिये मूलभूत फॉन्ट सेट का प्रयोग करें.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Koristi pismo okruženja</short>
+        <long>Koristi podrazumevani skup pisma za ovo okruženje.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Rendszerbetűkészletek használata</short>
+        <long>A rendszer alapértelmezett betűkészleteinek használata.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Gunakan fonta sistem</short>
+        <long>Gunakan set fonta baku bagi sistem.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Usa tipi di carattere di sistema</short>
+        <long>Usa il set di tipi di carattere predefiniti del sistema.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>システム・フォントを使用する</short>
+        <long>システムのデフォルト・フォントを使用します。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>სისტემური ფონტით</short>
+        <long>ნაგულისხმები.ფონტის გამოყენება სისტემისათვის</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಗಣಕದ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು</short>
+        <long>ಗಣಕಕ್ಕೆ ಹೊಂದಿಸಲಾದ ಪೂರ್ವನಿಯೋಜಿತಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>시스템 글꼴 사용</short>
+        <long>시스템의 기본 글꼴을 사용합니다.</long>
+      </locale>
+
+      <locale name="ks">
+        <short>सिस्टम फॉन्ट करिव इस्तेमाल</short>
+        <long>सिस्टम खत्तर: करिव डिफाल्ट फोंटुक इस्तेमाल</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Fontên pergalê bi kar bîne</short>
+        <long>Ji bo pergalê curetîpên pêşdanasînî bikar bîne.</long>
+      </locale>
+
+      <locale name="ky">
+        <short>Системалык ариптерди колдонуу</short>
+        <long>Алдыналынган системалык ариптер көптүгүн колдонуу.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Naudoti sistemos šriftus</short>
+        <long>Naudoti įprastus sistemoje nustatytus šriftus.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Lietot sistēmas fontus</short>
+        <long>Lietot sistēmas noklusētos fontus.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>सिस्टम फाँट क&apos; प्रयोग करू </short>
+        <long>सिस्टम क&apos;लेल मूलभूत फाँट सेट क&apos; प्रयोग करू </long>
+      </locale>
+
+      <locale name="mg">
+        <short>Mampiasa ny endri-tsoratry ny rafitra</short>
+        <long>Mampiasa ny endri-tsoratra lasitra voafaritra ho an&apos;ny rafitra.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Користи системски фонтови</short>
+        <long>Користи ги стандардните фонтови за овој систем.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സിസ്റ്റം അക്ഷരസഞ്ചയങ്ങള്‍ ഉപയോഗിക്കുക</short>
+        <long>സിസ്റ്റമില്‍ ക്രമീകരിച്ചിട്ടുള്ള സഹജമായ അക്ഷരസഞ്ചയങ്ങള്‍ ഉപയോഗിക്കുക.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>सिस्टम फॉन्ट्स वापरा</short>
+        <long>सिस्टम साठी डिफॉल्ट फॉन्ट्स वापरा.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Guna font sistem</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Bruk systemets skrifter</short>
+        <long>Bruk systemets forvalgte skrifter.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>प्रणाली फन्ट प्रयोग गर्नुहोस्</short>
+        <long>प्रणालीका लागि पूर्वनिर्धारित सेट फन्ट प्रयोग गर्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Systeemlettertypes gebruiken</short>
+        <long>De standaard lettertypes gebruiken.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Bruk systemskrifttypar</short>
+        <long>Bruk standardskrifttypane på systemet.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Utilizar las poliças del sistèma</short>
+        <long>Utilizar las poliças per defaut definidas pel sistèma.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ତନ୍ତ୍ର ଅକ୍ଷରରୂପ ବ୍ଯବହାର କରନ୍ତୁ</short>
+        <long>ତନ୍ତ୍ର ପାଇଁ ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଅକ୍ଷରରୂପ ବ୍ଯବହାର କରନ୍ତୁ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਸਿਸਟਮ ਫੋਂਟ ਵਰਤੋਂ</short>
+        <long>ਸਿਸਟਮ ਲਈ ਦਿੱਤੇ ਡਿਫਾਲਟ ਫੋਂਟ ਵਰਤੋਂ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Użycie czcionek systemowych</short>
+        <long>Użycie domyślnych czcionek systemowych.</long>
+      </locale>
+
+      <locale name="ps">
+        <short>د غونډال ليکبڼې کارول</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Utilizar as fontes de sistema</short>
+        <long>Utilizar as fontes por omissão definidas pelo sistema.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Usar fontes do sistema</short>
+        <long>Usar fontes padrão configuradas para o sistema.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Folosește fonturile sistemului</short>
+        <long>Folosește setul de fonturi implicit al sistemului.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Использовать системные шрифты</short>
+        <long>Использовать системный набор шрифтов по умолчанию.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Použiť systémové písma</short>
+        <long>Použiť štandardné sady fontov pre systém.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Uporabi sistemske pisave</short>
+        <long>Uporabi privzete pisave za sistem.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Përdor gërmat e sistemit</short>
+        <long>Përdor gërmat e prezgjedhura të sistemit.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Користи словни лик са система</short>
+        <long>Користи подразумевани словни лик постављен на систем.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Koristi slovni lik sa sistema</short>
+        <long>Koristi podrazumevani slovni lik postavljen na sistem.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Använd systemtypsnitt</short>
+        <long>Använd standardtypsnitten som angivits för systemet.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கணினி எழுத்துருக்களை பயன்படுத்து</short>
+        <long>கணினிக்கு முன்னிருப்பு எழுத்துரு அமைவினை பயன்படுத்து</long>
+      </locale>
+
+      <locale name="te">
+        <short>వ్యవస్థ అక్షరశైలులను ఉపయోగించు</short>
+        <long>వ్యవస్థకు అప్రమేయ అక్షరశైలులను ఉపయోగించు.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ใช้แบบอักษรของระบบ</short>
+        <long>ใช้แบบอักษรปริยายที่กำหนดไว้ในระบบ</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Sistem yazıtiplerini kullan</short>
+        <long>Sistem için öntanımlı yazıtiplerini kullan.</long>
+      </locale>
+
+      <locale name="ug">
+        <short>سىستېما فونتىنى ئىشلىتىش</short>
+        <long>سىستېما ئۈچۈن ئەسلىدىكى فونت قۇرۇلمىسىنى ئىشلىتىش</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Використовувати системні шрифти</short>
+        <long>Використовувати типовий системний набір шрифтів.</long>
+      </locale>
+
+      <locale name="uz">
+        <short>Tizim shriftidan foydalanish</short>
+        
+      </locale>
+
+      <locale name="uz@cyrillic">
+        <short>Тизим шрифтидан фойдаланиш</short>
+        
+      </locale>
+
+      <locale name="vi">
+        <short>Dùng phông chữ hệ thống</short>
+        <long>Dùng phông mặc định của hệ thống.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Eployî fontes sistinme</short>
+        <long>Eployî les prémetowès fontes do sistinme.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Sebenzisa inkqubo zeefonti</short>
+        <long>Sebenzisa iifonti ezimiselwe lenkqubo.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>使用系统字体</short>
+        <long>使用系统默认字体设置。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>使用系統字型</short>
+        <long>使用系統預設的字型。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>使用系統字型</short>
+        <long>使用系統預設的字型。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/yelp/variable_font</key>
+      <applyto>/apps/yelp/variable_font</applyto>
+      <owner>yelp</owner>
+      <type>string</type>
+      <default>Sans 12</default>
+      <locale name="C">
+        <short>Font for text</short>
+        <long>
+          Font for text with variable width.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>خطّ النّصّ</short>
+        <long>خطّ النصّ متغيّر العرض.</long>
+      </locale>
+
+      <locale name="as">
+        <short>টেক্সটত ব্যৱহৃত ফন্ট</short>
+        <long>পৰিবৰ্তনযোগ্য প্ৰস্থৰ টেক্সটত ব্যৱহৃত ফন্ট ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Fonte pal testu</short>
+        <long>Fonte pal testu d&apos;anchor variable</long>
+      </locale>
+
+      <locale name="be">
+        <short>Шрыфт тэксту</short>
+        <long>Шрыфт для тэксту зь пераменнай шырынёй.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Šryft dla tekstu</short>
+        <long>Šryft dla tekstu sa źmiennaj šyrynioj.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Шрифт за текст</short>
+        <long>Шрифт за текст с променлива ширина.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>পাঠ্যে ব্যবহৃত ফন্ট</short>
+        <long>পরিবর্তনযোগ্য প্রস্থের পাঠ্যে ব্যবহৃত ফন্ট।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>টেক্সটে ব্যবহৃত ফন্ট</short>
+        <long>পরিবর্তনযোগ্য প্রস্থের টেক্সটে ব্যবহৃত ফন্ট।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Nodrezh evit an destenn</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Tipus de lletra per al text</short>
+        <long>Tipus de lletra per al text amb amplada variable.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Tipus de lletra per al text</short>
+        <long>Tipus de lletra per al text amb amplada variable.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Metin için yazıtipi</short>
+        <long>Değişken genişlikli metin için yazıtipi.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Písmo textu</short>
+        <long>Písmo textu s proměnlivou šířkou.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Ffont ar gyfer testun</short>
+        <long>Ffont ar gyfer testun â lled amrywiol.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Skrifttype for tekst</short>
+        <long>Skrifttype for tekst med variabel bredde.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Standardschrift</short>
+        <long>Schrift für Buchstaben mit variabler Breite</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཚིག་ཡིག་གི་ཡིག་གཟུགས།</short>
+        <long>འགྱུར་ཅན་རྒྱ་ཚད་ཀྱི་ ཚིག་ཡིག་གི་དོན་ལུ་ཡིག་གཟུགས།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Γραμματοσειρά κειμένου</short>
+        <long>Γραμματοσειρά κειμένου μεταβλητού πλάτους.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑓𐑪𐑯𐑑 𐑓𐑹 𐑑𐑧𐑒𐑕𐑑</short>
+        <long>𐑓𐑪𐑯𐑑 𐑓𐑹 𐑑𐑧𐑒𐑕𐑑 𐑢𐑦𐑞 𐑝𐑺𐑦𐑩𐑚𐑩𐑤 𐑢𐑦𐑛𐑔.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Font for text</short>
+        <long>Font for text with variable width.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Font for text</short>
+        <long>Font for text with variable width.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Tipografía para el texto</short>
+        <long>Tipografía para el texto de ancho variable.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kirjatüüp teksti jaoks</short>
+        <long>Kirjatüüp muutuva laiusega teksti jaoks.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Testuaren letra-tipoa</short>
+        <long>Zabalera aldakorreko testuaren letra-tipoa</long>
+      </locale>
+
+      <locale name="fa">
+        <short>قلم برای متن</short>
+        <long>قلم برای متن با عرض متغیر.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Tekstin kirjasin</short>
+        <long>Vaihtelevalevyisen tekstin kirjasin.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Police du texte</short>
+        <long>Police de texte à chasse variable.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Caratar pal test</short>
+        <long>Caratar pal test cun largjece variabil.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Cló téacs</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Tipo de letra para o texto</short>
+        <long>Tipo de letra para o texto de largura variábel.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>લખાણ માટેના ફોન્ટ</short>
+        <long>ચલિત પહોળાઈ સાથેના લખાણ માટેના ફોન્ટ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Font for text</short>
+        <long>Font for text with variable width.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>पाठ के लिये फॉन्ट</short>
+        <long>परिवर्तनशील चौड़ाई के साथ पाठ के लियें फॉन्ट.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Pismo za tekst</short>
+        <long>Pismo za tekst promjenjive širine.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Betűkészlet szöveghez</short>
+        <long>Betűkészlet változó szélességű szöveghez.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Fonta untuk teks</short>
+        <long>Fonta untuk teks dengan lebar berubah.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Tipo di carattere per testo</short>
+        <long>Tipo di carattere per il testo a larghezza variabile.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>テキストのフォント</short>
+        <long>可変幅のテキストに適用するフォントです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ტექსტის ფონტი</short>
+        <long>ცვლადი სიგანის ტექსტის ფონტი</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಪಠ್ಯಕ್ಕಾಗಿನ ಅಕ್ಷರಶೈಲಿ</short>
+        <long>ಪಠ್ಯಕ್ಕಾಗಿನ ಬದಲಾಯಿಸಬಹುದಾದ ಅಗಲದೊಂದಿಗಿನ ಅಕ್ಷರಶೈಲಿ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>텍스트 글꼴</short>
+        <long>가변폭 텍스트에 쓸 글꼴.</long>
+      </locale>
+
+      <locale name="ks">
+        <short>टैक्सट खत्तर: फॉन्ट</short>
+        <long>वेरेबल खजरूक टैक्सट खत्तर: फॉन्ट</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Ji bo nivîsê curetîp</short>
+        <long>Ji bo nivîsa firehiya wê guhêrbar e curetîp.</long>
+      </locale>
+
+      <locale name="ky">
+        <short>Текстин ариби</short>
+        <long>Жазылыгы өзгөрмөлүү текстин ариби.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Teksto šriftas</short>
+        <long>Kintančio pločio teksto šriftas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Fonts tekstam</short>
+        <long>Fonts tekstam ar mainīgu platumu.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>पाठ क&apos;लेल फाँट</short>
+        <long>परिवर्तनशील चओड़ाइ क&apos; सँग पाठ क&apos;लेल फाँट</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Endri-tsora-dahabolana</short>
+        <long>Endri-tsoratra ho an&apos;ny lahabolana miova indra.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Фонт за текстот</short>
+        <long>Font for text with variable width.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>വാചകത്തിനുള്ള അക്ഷരസഞ്ചയം</short>
+        <long>മാറ്റമുള്ള വീതിയുള്ള വാചകത്തിനുള്ള അക്ഷരസഞ്ചയം</long>
+      </locale>
+
+      <locale name="mr">
+        <short>शब्दांसाठी फॉन्ट</short>
+        <long>अनिश्चित रूंदी असलेल्या मजकूरकरीता फॉन्ट.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Font bagi teks</short>
+        <long>Font bagi teks dengan kelebaran bolehubah.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Skrift for tekst</short>
+        <long>Skrift for tekst med variabel bredde.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>पाठका लागि फन्ट</short>
+        <long>चल चौडाइसँग पाठका लागि फन्ट</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Lettertype voor tekst</short>
+        <long>Lettertype voor tekst met variabele breedte.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Skrifttype for tekst</short>
+        <long>Skrifttype for tekst med varierande teiknbreidde.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Poliça pel tèxt</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ପାଠ୍ଯ ପାଇଁ ଅକ୍ଷରରୂପ</short>
+        <long>ପାଠ୍ଯ ପାଇଁ ଅସ୍ଥିର ଓସାରର ଅକ୍ଷରରୂପ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਟੈਕਸਟ ਲਈ ਫੋਂਟ</short>
+        <long>ਅਸਥਿਰ ਚੌੜਾਈ ਨਾਲ ਟੈਕਸਟ ਲਈ ਫੋਂਟ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Czcionka tekstu</short>
+        <long>Czcionka tekstu ze zmienną szerokością.</long>
+      </locale>
+
+      <locale name="ps">
+        <short>د ليکنې لپاره ليکبڼه</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Fonte para texto</short>
+        <long>Fonte para texto de largura variável.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Fonte para o texto</short>
+        <long>Fonte para texto com largura variável.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Font pentru text</short>
+        <long>Font pentru text cu lățime variabilă.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Шрифт для текста</short>
+        <long>Шрифт для текста переменной ширины.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Písmo pre text</short>
+        <long>Písmo pre text premenlivej šírky.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Pisava za besedilo</short>
+        <long>Pisava za besedilo s spremenljivo širino.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Gërmat për tekstet</short>
+        <long>Gërmat për tekstet me gjerësi të ndryshueshme.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Словни лик за текст</short>
+        <long>Словни лик за текст променљиве ширине.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Slovni lik za tekst</short>
+        <long>Slovni lik za tekst promenljive širine.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Typsnitt för text</short>
+        <long>Typsnitt för text med variabelt breddsteg.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>உரைக்கான எழுத்துரு</short>
+        <long>மாறும் அகலத்தில் உரைக்கான எழுத்துரு.</long>
+      </locale>
+
+      <locale name="te">
+        <short>పాఠముకు అక్షరశైలి</short>
+        <long>పాఠముకు  అస్థిర  వెడెల్పుతో  అక్షరశైలి</long>
+      </locale>
+
+      <locale name="th">
+        <short>แบบอักษรสำหรับข้อความ</short>
+        <long>แบบอักษรสำหรับข้อความที่อักขระมีความกว้างไม่ตายตัว</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Metin için yazıtipi</short>
+        <long>Değişken genişlikli metin için yazıtipi.</long>
+      </locale>
+
+      <locale name="ug">
+        <short>تېكىست فونتى</short>
+        <long>ئۆزگۈرۈشچان كەڭلىكتىكى تېكىست فونتى </long>
+      </locale>
+
+      <locale name="uk">
+        <short>Шрифт для тексту</short>
+        <long>Шрифт для тексту змінної ширини.</long>
+      </locale>
+
+      <locale name="uz">
+        <short>Matn uchun shrift</short>
+        
+      </locale>
+
+      <locale name="uz@cyrillic">
+        <short>Матн учун шрифт</short>
+        
+      </locale>
+
+      <locale name="vi">
+        <short>Phông chữ cho đoạn chữ</short>
+        <long>Phông chữ cho đoạn chữ có độ rộng biến đổi.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Fonte pol tecse</short>
+        <long>Fonte pol tecse avou des letes a espåçmint variåve.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>I-fonti yombhalo</short>
+        <long>Ifonti yombhalo enobubanzi obuguqukayo.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>文本字体</short>
+        <long>非等宽文本字体。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>一般文字字型</short>
+        <long>在一般文字中使用的可變闊度字型。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>一般文字字型</short>
+        <long>在一般文字中使用的可變寬度字型。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/yelp/fixed_font</key>
+      <applyto>/apps/yelp/fixed_font</applyto>
+      <owner>yelp</owner>
+      <type>string</type>
+      <default>Monospace 12</default>
+      <locale name="C">
+        <short>Font for fixed text</short>
+        <long>
+          Font for text with fixed width.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>خطّ النّص الثّابت</short>
+        <long>خطّ النص ثابت العرض.</long>
+      </locale>
+
+      <locale name="as">
+        <short>সুনিৰ্দিষ্ট টেক্সটত ব্যৱহৃত ফন্ট</short>
+        <long>সুনিৰ্দিষ্ট প্ৰস্থৰ টেক্সটত ব্যৱহৃত ফন্ট ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Fonte pal testu d&apos;anchor fixu</short>
+        <long>Fonte pal testu con anchor fixu.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Шрыфт монашырынёвага тэксту</short>
+        <long>Шрыфт для тэксту адной шырыні.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Šryft dla monašyryniovaha tekstu</short>
+        <long>Šryft dla tekstu monašyryniovaha tekstu.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Шрифт за фиксиран текст</short>
+        <long>Шрифт за текст с фиксирана ширина.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>নির্ধারিত পাঠ্যে ব্যবহৃত ফন্ট</short>
+        <long>নির্ধারিত প্রস্থের পাঠ্যে ব্যবহৃত ফন্ট।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>সুনির্দিষ্ট টেক্সটে ব্যবহৃত ফন্ট</short>
+        <long>সুনির্দিষ্ট প্রস্থের টেক্সটে ব্যবহৃত ফন্ট।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Tipus de lletra per al text fix</short>
+        <long>Tipus de lletra per al text amb amplada fixa.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Tipus de lletra per al text fix</short>
+        <long>Tipus de lletra per al text amb amplada fixa.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Sabit metin için yazıtipi</short>
+        <long>Sabit genişlikli metin için yazıtipi.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Písmo neproporcionálního textu</short>
+        <long>Písmo textu s pevnou šířkou.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Ffont ar gyfer testun penodol</short>
+        <long>Ffont ar gyfer testun â lled benodol.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Skrifttype for tekst med fast bredde</short>
+        <long>Skrifttype for tekst med fast bredde.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Dicktengleiche Schrift</short>
+        <long>Schrift für Buchstaben mit fester Breite (Dicktengleichheit)</long>
+      </locale>
+
+      <locale name="dz">
+        <short>གཏན་བཟོས་ཚིག་ཡིག་གི་ཡིག་གཟུགས།</short>
+        <long>རྒྱ་ཚད་གཏན་བཟོས་ ཚིག་ཡིག་གི་དོན་ལུ་ཡིག་གཟུགས།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Γραμματοσειρά σταθερού κειμένου</short>
+        <long>Γραμματοσειρά κειμένου σταθερού πλάτους.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑓𐑪𐑯𐑑 𐑓𐑹 𐑓𐑦𐑒𐑕𐑑 𐑑𐑧𐑒𐑕𐑑</short>
+        <long>𐑓𐑪𐑯𐑑 𐑓𐑹 𐑑𐑧𐑒𐑕𐑑 𐑢𐑦𐑞 𐑓𐑦𐑒𐑕𐑑 𐑢𐑦𐑛𐑔.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Font for fixed text</short>
+        <long>Font for text with fixed width.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Font for fixed text</short>
+        <long>Font for text with fixed width.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Tipografía para el texto de ancho fijo</short>
+        <long>Tipografía para el texto con ancho fijo.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kirjatüüp fikseeritud laiusega teksti jaoks</short>
+        <long>Kirjatüüp fikseeritud laiusega teksti jaoks.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Testu finkoaren letra-tipoa</short>
+        <long>Zabalera finkoko testuaren letra-tipoa</long>
+      </locale>
+
+      <locale name="fa">
+        <short>قلم برای متن ثابت</short>
+        <long>قلم برای متن با عرض ثابت.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Konekirjoitustekstin kirjasin</short>
+        <long>Vakiolevyinen tekstin kirjasin.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Police à chasse fixe</short>
+        <long>Police de texte à chasse fixe.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Caratar pal test fis</short>
+        <long>Caratar pal test cun largjece fisse.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Tipo de letra para o texto fixo</short>
+        <long>Tipo de letra para o texto de largura fixa.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ચોક્કસ પહોળાઈ માટેના ફોન્ટ</short>
+        <long>ચોક્કસ પહોળાઈ સાથેના લખાણ માટેના ફોન્ટ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Font for fixed text</short>
+        <long>Font for text with fixed width.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>स्थिर पाठ के लिये फॉन्ट</short>
+        <long>स्थिर चौड़ाई के साथ पाठ के लियें फॉन्ट.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Pismo za fiksirani tekst</short>
+        <long>Pismo za tekst fiksne širine.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Betűkészlet rögzített szélességű szöveghez</short>
+        <long>Betűkészlet rögzített szélességű szöveghez.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Fonta lebar tetap untuk teks</short>
+        <long>Fonta untuk teks dengan lebar tetap.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Tipo di carattere per testo a spaziatura fissa</short>
+        <long>Tipo di carattere per il testo a larghezza fissa.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>固定幅テキストのフォント</short>
+        <long>等幅のテキストに適用するフォントです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ფიქსირებული ტექსტის ფონტი</short>
+        <long>ფიქსირებული სიგანის ტექსტის ფონტი</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ನಿಗದಿತ ಪಠ್ಯಕ್ಕಾಗಿನ ಅಕ್ಷರಶೈಲಿ</short>
+        <long>ಪಠ್ಯಕ್ಕಾಗಿನ ನಿಗದಿತ ಅಗಲದೊಂದಿಗಿನ ಅಕ್ಷರಶೈಲಿ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>고정폭 텍스트 글꼴</short>
+        <long>고정폭 텍스트에 쓸 글꼴.</long>
+      </locale>
+
+      <locale name="ks">
+        <short>बराबर टैक्सट खत्तर: फॉन्ट</short>
+        <long>बराबर खजरूक टैक्सट खत्तर: फॉन्ट</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Ji bo teksta sabît curetîp</short>
+        <long>Ji bo nivîsa firehiya wê sabît e curetîp</long>
+      </locale>
+
+      <locale name="ky">
+        <short>Туруктуу текстин ариби</short>
+        <long>Жазылыгы туруктуу текстин ариби.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Fiksuoto pločio teksto šriftas</short>
+        <long>Fiksuoto pločio teksto šriftas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Fonts fiksētam tekstam</short>
+        <long>Fonts tekstam ar fiksētu platumu.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>स्थिर पाठ क&apos;लेल फाँट</short>
+        <long>स्थिर चओड़ाइ क&apos; सँग पाठ क&apos;लेल फाँट</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Endri-tsora-dahabolana tsy miova indra</short>
+        <long>Endri-tsoratra ho an&apos;ny lahabolana tsy miova indra.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Font for fixed text</short>
+        <long>Font for text with fixed width.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സ്ഥിരമായ വാചകത്തിനുള്ള അക്ഷരസഞ്ചയം</short>
+        <long>സ്ഥിരമായ വീതിയുള്ള വാചകത്തിനുള്ള അക്ഷരസഞ്ചയം</long>
+      </locale>
+
+      <locale name="mr">
+        <short>निश्चित शब्दांसाठी फॉन्ट</short>
+        <long>निश्चित रूंदी असलेल्या शब्दांकरीता फॉन्ट.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Font bagi teks lebartetap</short>
+        <long>Font bagi teks dengan kelebaran tetap.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Skrift for fast tekst</short>
+        <long>Skrift for tekst med fast bredde.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>स्थिर पाठका लागि फन्ट</short>
+        <long>स्थिर चौडाइसँग पाठका लागि फन्ट</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Lettertype voor platte tekst</short>
+        <long>Lettertype voor tekst met vaste breedte.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Skrifttype for fastbreiddetekst</short>
+        <long>Skrifttype for tekst med fast teiknbreidde.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ସ୍ଥିର ପାଠ୍ଯ ପାଇଁ ଅକ୍ଷରରୂପ</short>
+        <long>ପାଠ୍ଯ ପାଇଁ ସ୍ଥିର ଓସାରର ଅକ୍ଷରରୂପ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਸਥਿਰ ਟੈਕਲਟ ਲਈ ਫੋਂਟ</short>
+        <long>ਸਥਿਰ ਚੌੜਾਈ ਨਾਲ ਟੈਕਸਟ ਲਈ ਫੋਂਟ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Czcionka stałego tekstu</short>
+        <long>Czcionka tekstu ze stałą szerokością.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Fonte para texto fixa</short>
+        <long>Fonte para texto de largura fixa.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Fonte para texto fixo</short>
+        <long>Fonte para texto de largura fixa.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Font pentru text fix</short>
+        <long>Font pentru text cu lățime fixă.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Шрифт для фиксированного текста</short>
+        <long>Шрифт для текста постоянной ширины.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Písmo pre neproporcionálny text</short>
+        <long>Písmo pre text pevnej šírky.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Pisava za določeno besedilo</short>
+        <long>Pisava za besedilo z določeno širino.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Gërmat për tekstin fiks</short>
+        <long>Gërmat për tekstet me gjerësi fikse.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Словни лик за текст утврђене ширине</short>
+        <long>Словни лик за текст утврђене ширине.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Slovni lik za tekst utvrđene širine</short>
+        <long>Slovni lik za tekst utvrđene širine.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Typsnitt för text med fast bredd</short>
+        <long>Typsnitt för text med fast breddsteg.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>நிலையான உரைக்கான எழுத்துரு</short>
+        <long>நிலையான அகலத்தில் உரைக்கான எழுத்துரு.</long>
+      </locale>
+
+      <locale name="te">
+        <short>స్థిర పాఠముకు అక్షరశైలి</short>
+        <long>పాఠముకు స్థిర  వెడెల్పుతో  అక్షరశైలి</long>
+      </locale>
+
+      <locale name="th">
+        <short>แบบอักษรสำหรับข้อความความกว้างตายตัว</short>
+        <long>แบบอักษรสำหรับข้อความที่อักขระมีความกว้างตายตัว</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Sabit metin için yazıtipi</short>
+        <long>Sabit genişlikli metin için yazıtipi.</long>
+      </locale>
+
+      <locale name="ug">
+        <short>ئوخشاش كەڭلىكتىكى تېكىست فونتى</short>
+        <long>ئوخشاش كەڭلىكتىكى تېكىست فونتى</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Шрифт для моноширинного тексту</short>
+        <long>Шрифт для тексту постійної ширини</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Phông chữ cho đoạn chữ cố định</short>
+        <long>Phông chữ cho đoạn chữ có độ rộng cố định.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Fonte pol tecse a espåçmint ewal</short>
+        <long>Fonte pol tecse avou des letes a espåçmint ewal.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Ifonti yombhalo osisigxina</short>
+        <long>Ifonti yombhalo onobubanzi obusisigxina.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>等宽文本字体</short>
+        <long>等宽文本字体。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>固定闊度字型</short>
+        <long>在固定闊度的文字中使用的字型。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>固定寬度字型</short>
+        <long>在固定寬度的文字中使用的字型。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

@@ -1,0 +1,1487 @@
+<gconfschemafile>
+    <schemalist>
+
+      <schema>
+        <key>/schemas/apps/workspace_switcher_applet/prefs/display_workspace_names</key>
+        <owner>workspace-switcher-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Display workspace names</short>
+          <long>
+            If true, the workspaces in the workspace switcher will display
+            the names of the workspaces. Otherwise they will display the
+            windows on the workspace. This setting only works when the window
+	    manager is Metacity.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Vertoon alle werkruimtename</short>
+          <long>Indien as waar gemerk, sal die werkruimtes in die werkruimte-wisselaar die name van die werkruimtes vertoon. Andersins sal die vensters op die werkruimte vertoon word. Hierdie instelling werk slegs as Metacity as vensterbestuurder gebruik word.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>اعرض أسماء مساحات العمل</short>
+          <long>إذا كان &quot;صحيح&quot;، فسيعرض مبدّل مساحات العمل أسماء مساحات العمل، وإلا فإنه سيظهر النوافذ في مساحة العمل. هذا الإعداد يعمل فقط إن كان مدير النوافذ هو Meatcity.</long>
+        </locale>
+
+        <locale name="as">
+          <short>কৰ্মক্ষেত্ৰৰ নাম প্ৰদৰ্ছন কৰা হ&apos;ব</short>
+          <long>মান সত্য হ&apos;লে, কৰ্মক্ষেত্ৰ অদল-বদলকাৰীত উপস্থিত কৰ্মক্ষেত্ৰসমূহৰ নাম প্ৰদৰ্ছন কৰা হ&apos;ব  । অন্যথা প্ৰতি কৰ্মক্ষেত্ৰতত উপস্থিত সংযোগক্ষেত্ৰসমূহ প্ৰদৰ্শিত হ&apos;ব  । অকল Metacity সংযোগক্ষেত্ৰ পৰিচালন ব্যৱস্থাৰ সৈতে এই বৈশিষ্ট্য ব্যৱহাৰ কৰা সম্ভব  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Amosar nomes d&apos;espacios de trabayu</short>
+          <long>Si ye «true», les árees de trabayu nel seleutor d&apos;árees de trabayu amosarán los nomes de les árees de trabayu. En casu contrariu amosaránse les ventanes nel área de trabayu. Esti axuste namái funciona si Metacity ye&apos;l xestor de ventanes.</long>
+        </locale>
+
+        <locale name="az">
+          <short>İş sahələrinin adlarını göstər</short>
+          
+        </locale>
+
+        <locale name="be">
+          <short>Паказваць назвы працоўных прастораў</short>
+          <long>Калі ісьціна, працоўныя прасторы ў пераключальніку будуць паказваць свае назвы. Інакш, яны будуць паказваць вокны ў працоўнай прасторы.Працуе толькі калі вокнамі кіруе Metacity.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Pakazvaj nazvy rabočych abšaraŭ</short>
+          <long>Kali ŭklučyć, to pieraklučalnik rabočych abšaraŭ budzie pakazvać ichnija nazvy. Inakš jon budzie pakazvać vokny z hetych abšaraŭ. Hetaja nałada pracuje, tolki kali tvaim kiraŭnikom voknaŭ źjaŭlajecca Metacity.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Показване на имената на работните плотове</short>
+          <long>Ако е истина, превключвателят ще показва имената на работните плотове, ако е лъжа — съдържанието им. Тази ключ важи, само когато мениджърът на прозорци е Matacity.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>কর্মপরিসরের নাম প্রদর্শিত হবে</short>
+          <long>মান true (সত্য) হলে, কর্মপরিসর অদল-বদলকারীর মধ্যে উপস্থিত কর্মপরিসরগুলির নাম প্রদর্শিত হবে। অন্যথা প্রতিটি কর্মপরিসরের মধ্যে উপস্থিত উইন্ডোগুলি প্রদর্শিত হবে। শুধুমাত্র Metacity উইন্ডো পরিচালনব্যবস্থার সাথে এই বৈশিষ্ট্য ব্যবহার করা সম্ভব।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>কর্মক্ষেত্রের নাম প্রদর্শন করা হবে</short>
+          <long>মান true (সত্য) হলে, কর্মক্ষেত্র অদল-বদলকারীর মধ্যে উপস্থিত কর্মক্ষেত্রগুলির নাম প্রদর্শন করা হবে। অন্যথা প্রতিটি কর্মক্ষেত্রের মধ্যে উপস্থিত উইন্ডোগুলি প্রদর্শিত হবে। শুধুমাত্র Metacity উইন্ডো পরিচালনব্যবস্থার সাথে এই বৈশিষ্ট্য ব্যবহার করা সম্ভব।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Diskouez anvioù an dachenn-labour</short>
+          <long>Mar gwir e vo skrammet anvioù an dachenn-labour gant an dachenn-labour e trec&apos;haoler an dachenn-labour. A-hend-all e skrammint ar prenestroù war an dachenn-labour. Gant an ardoer prenestroù Metacity hepken ez a en-dro an arventennoù.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Prikaži imena radnih površina</short>
+          
+        </locale>
+
+        <locale name="ca">
+          <short>Mostra els noms dels espais de treball</short>
+          <long>Si és cert, els espais de treball en el canviador d&apos;espais de treball mostraran els noms dels espais de treball. Sinó, mostraran les finestres de cada espai de treball. Aquest paràmetre només funciona amb el gestor de finestres Metacity.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Mostra els noms dels espais de treball</short>
+          <long>Si és cert, els espais de treball en el canviador d&apos;espais de treball mostraran els noms dels espais de treball. Sinó, mostraran les finestres de cada espai de treball. Este paràmetre només funciona amb el gestor de finestres Metacity.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Çalışma-fezası isimlerini köster</short>
+          <long>Eger doğru ise, çalışma-fezası almaştırıcısı episi çalışma-fezalarınıñ isimlerini kösterir. Aksi taqdirde, çalışma-fezalarındaki pencerelerni kösterir. Bu tesbit, ancaq pencere idarecisi Metacity olğanda çalışır.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Zobrazovat názvy pracovních ploch</short>
+          <long>Je-li &quot;true&quot;, zobrazují se v přepínači pracovních ploch názvy pracovních ploch. V opačném případě se zobrazí okna na pracovní ploše. Nastavení je funkční pouze v případě, kdy je správcem oken Metacity.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Dangos enwau gweithfannau</short>
+          
+        </locale>
+
+        <locale name="da">
+          <short>Vis arbejdsområdenavne</short>
+          <long>Hvis sand, vil felterne i arbejdsområdeskifteren vise arbejdsområdernes navne. Ellers vises vinduerne på arbejdsområderne. Denne indstilling virker kun når vindueshåndteringen Metacity benyttes.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Namen der Arbeitsflächen anzeigen</short>
+          <long>Falls dieser Schlüssel WAHR ist, zeigt der Arbeitsflächenumschalter auf den Mini-Arbeitsflächen im Umschalter deren Namen an. Andernfalls enthalten diese den Inhalt der Arbeitsflächen. Dies funktioniert nur, wenn der Fenster-Manager »Metacity« verwendet wird.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ལཱ་གི་ས་སྒོའི་མིང་ཚུ་ བཀྲམ་སྟོན་འབད།</short>
+          <long>བདེན་པ་ཨིན་པ་ཅིན་ ལཱ་གི་ས་སྒོ་ སོར་བསྒྱུར་འབད་མི་དེ་ནང་གི་ ལཱ་གི་ས་སྒོ་ཚུ་གིས་ ལཱ་གི་ས་སྒོའི་མིང་ཚུ་ བཀྲམ་སྟོན་འབད་འོང་། དེ་མིན་པ་ཅིན་ དེ་ཚུ་གིས་ ལཱ་གི་ས་སྒོ་ནང་གི་སྒོ་སྒྲིག་ཚུ་ བཀྲམ་སྟོན་འབད་འོང་།གཞི་སྒྲིག་འདི་ ཝིན་ཌོ་འཛིན་སྐྱོང་པ་དེ་ མེ་ཊ་སི་ཊི་ ཨིན་པ་ཅིན་རྐྱངམ་ཅིག་ ལཱ་འབད་འོང་། </long>
+        </locale>
+
+        <locale name="el">
+          <short>Εμφάνιση ονομάτων χώρων εργασίας</short>
+          <long>Αν αληθές, οι χώροι εργασίας στην εφαρμογή εναλλαγής χώρων εργασίας θα εμφανίζουν τα ονόματά τους, αλλιώς θα εμφανίζουν τα περιεχόμενα του χώρου.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑛𐑩𐑕𐑐𐑤𐑱 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑯𐑱𐑥𐑟</short>
+          <long>𐑦𐑓 𐑑𐑮𐑵, 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟 𐑦𐑯 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑕𐑢𐑦𐑗𐑻 𐑢𐑦𐑤 𐑛𐑦𐑕𐑐𐑤𐑱 𐑞 𐑯𐑱𐑥𐑟 𐑝 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟. 𐑳𐑞𐑼𐑢𐑲𐑟 𐑞𐑱 𐑢𐑦𐑤 𐑛𐑦𐑕𐑐𐑤𐑱 𐑞 𐑢𐑦𐑯𐑛𐑴𐑟 𐑪𐑯 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕. 𐑞𐑦𐑕 𐑕𐑧𐑑𐑦𐑙 𐑴𐑯𐑤𐑦 𐑢𐑻𐑒𐑕 𐑢𐑧𐑯 𐑞 𐑢𐑦𐑯𐑛𐑴 𐑥𐑨𐑯𐑩𐑡𐑼 𐑦𐑟 ·𐑥𐑧𐑑𐑨𐑕𐑦𐑑𐑦.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Display workspace names</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+          <short>Display workspace names</short>
+          <long>If true, the workspaces in the workspace switcher will display the names of the workspaces. Otherwise they will display the windows on the workspace. This setting only works when the window manager is Metacity.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Montru laborkadronomojn</short>
+          <long>Se jes, la laborejoj en la laborej-ŝanĝilo montros siajn nomojn. Alie ili montros la fenestrojn en la laborejo. Tiu ĉi agordo efikas nur se la fenestra administrilo &quot;Metacity&quot; estas uzata.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Mostrar los nombres de las áreas de trabajo</short>
+          <long>Si está activada, las áreas de trabajo en el selector de áreas de trabajo mostrarán los nombres de las áreas de trabajo. En caso contrario se mostrarán las ventanas en el área de trabajo. Este ajuste sólo funciona si Metacity es el gestor de ventanas.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Tööalade nimede näitamine</short>
+          <long>Kui märgitud, siis näidatakse tööalahalduris tööalade nimesid. Vastasel juhul näidatakse tööalades asuvaid aknaid. See säte töötab ainult Metacity aknahalduri korral.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Erautsi laneko areen izenak</short>
+          <long>Egia bada, laneko areen izena azalduko da aldatzailean. Bestela, laneko arearen leihoa azalduko da. Ezarpen honek Metacity leiho-kudeatzailearekin soilik funtzionatzen du.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>نمایش نام فضاهای کاری</short>
+          
+        </locale>
+
+        <locale name="fi">
+          <short>Näytä työtilojen nimet</short>
+          <long>Jos tosi, työtilanvaihtimessa näkyville työtiloille näytetään nimet. Muutoin työtilat näyttävät työtilassa olevat ikkunat. Tämä toimii vain, jos ikkunanhallintaohjelmana on metacity.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Afficher le nom des espaces de travail</short>
+          <long>Si vrai, les espaces de travail dans le sélecteur d&apos;espaces de travail affichent le nom des espaces de travail. Sinon, ils affichent les fenêtres de l&apos;espace de travail. Ce paramètre n&apos;est valable que si le gestionnaire de fenêtres est Metacity.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Mostre i noms des arees di lavôr</short>
+          
+        </locale>
+
+        <locale name="ga">
+          <short>Taispeáin ainmneacha spásanna oibre</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Mostrar os nomes do espazo de traballo</short>
+          <long>Se é true, os espazos de traballo do selector de espazo de traballo mostrarán os nomes dos espazos de traballo. Doutra forma mostraría as xanelas no espazo de traballo. Esta configuración só funciona cando o xestor de xanelas é o Metacity.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>બધી કામ કરવાની જગ્યાઓના નામો દર્શાવો</short>
+          <long>જો સાચું હોય, તો કાર્યસ્થળ બદલનારમાંના કાર્યસ્થળો કાર્યસ્થળોના નામો દર્શાવશે. નહિંતર તેઓ કાર્યસ્થળ પર વિન્ડો દર્શાવશે. આ સુયોજન માત્ર ત્યારે જ કામ કરે છે જ્યારે વિન્ડો વ્યવસ્થાપક મેટાસીટી હોય.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Nuna sunayen filinaiki</short>
+          
+        </locale>
+
+        <locale name="he">
+          <short>הצג שמות סביבות עבודה</short>
+          <long>If true, the workspaces in the workspace switcher will display the names of the workspaces. Otherwise they will display the windows on the workspace. This setting only works when the window manager is Metacity.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>कार्यस्थान नाम दिखाएँ</short>
+          <long>यदि यह सत्य है तो कार्यस्थान स्विचर  कार्यस्थान के नामों को दिखाएगा. अन्यथा ये कार्यस्थान पर विंडोज़ को दर्शाएगा. यह सेटिंग सिर्फ तभी कार्य करता है जब विंडो प्रबंधक मेटासिटी है.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Prikaži imena radnih površina</short>
+          
+        </locale>
+
+        <locale name="hu">
+          <short>Munkaterületnevek megjelenítése</short>
+          <long>Ha be van állítva, a munkaterület-váltó megjeleníti a munkaterületek nevét, különben a tartalmukat jeleníti meg. Ez a beállítás csak a metacity ablakkezelővel működik.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Ցույց տալ աշխատասեղանների անվանումները</short>
+          <long>Եթե ճիշտ է, ապա աշխատասեղանները աշխատասեղանի փոխարկչում ցույց կտան աշխատասեղանների անվանումները։ Հակառակ դեպքում աշխատասեղանի վրա կերևան պատուհանները։ Այս պարամետրը աշխատում է միայն այն ժամանակ, երբ պատուհանի կառավարիչը Metacity-ն է։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Tampilkan nama area kerja</short>
+          <long>Jika benar, lembar kerja pada pengubah lembar kerja akan menampilkan nama-nama dari lembar kerja. Tetapi sebaliknya, mereka akan menampilkan jendela-jendela pada lembar kerja. Konfigurasi ini hanya berlaku pada manajer jendela Metacity.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Gosi aha wọkspeesi</short>
+          
+        </locale>
+
+        <locale name="is">
+          <short>Sýna vinnusvæðanöfn</short>
+          <long>Ef satt, þá munu vinnusvæðin í vinnusvæðaskiptaranum birta nafnið sitt. Annars munu þau birta gluggana í vinnusvæðinu. Þessi stilling virkar einungis ef gluggastjórinn er Metacity.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Mostra i nomi degli spazi di lavoro</short>
+          <long>Se impostata a VERO, i nomi degli spazi di lavoro compaiono nel selettore, in caso contrario sono mostrate le finestre presenti sugli spazi di lavoro. Questa impostazione funziona solo se il window manager è Metacity.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>ワークスペース名を表示する</short>
+          <long>TRUE にすると、ワークスペース切り替え器の中にあるワークスペースの名前を表示します。それ以外は、ワークスペースの内容 (ウィンドウ) を表示します。この設定は、使用しているウィンドウ・マネージャが Metacity の場合にのみ有効です。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ანახე სივრცეთა სახელები</short>
+          <long>თუ მონიშნულია, გადამრთველი გამოსახავს სამუშაო გარემოებების სახელწოდებებს, სხვაგვარად, სამუშაო გარემოებებში მხოლოდ ფანჯრები გამოისახება. ყოველი ეს მუშაობს Metacity ფანჯრების მმართველის გამოყენების შემთხვევაში.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಕಾರ್ಯಕ್ಷೇತ್ರದ ಹೆಸರುಗಳನ್ನು ತೋರಿಸು</short>
+          <long>ನಿಜವಾದಲ್ಲಿ, ಕಾರ್ಯಕ್ಷೇತ್ರ ಬದಲಾವಣೆಗಾರನಲ್ಲಿನ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳು ತಮ್ಮ ಹೆಸರುಗಳನ್ನು ತೋರಿಸುತ್ತವೆ. ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ, ಅವು ಕಾರ್ಯಕ್ಷೇತ್ರದ ವಿಂಡೋಗಳನ್ನು ಮಾತ್ರವೆ ತೋರಿಸುತ್ತವೆ. ಮೆಟಾಸಿಟಿಯು ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕವಾಗಿದ್ದಲ್ಲಿ ಮಾತ್ರ ಈ ಸಿದ್ಧತೆಯು ಕೆಲಸ ಮಾಡುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>작업 공간 이름 보여 주기</short>
+          <long>참이면, 작업 공간 바꾸기 프로그램에 작업 공간의 이름을 표시합니다. 거짓이면 작업 공간에 들어 있는 창을 표시합니다. 이 설정은 창 관리자가 메타시티인 경우에만 동작합니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Navên kargehan nîşan bide</short>
+          
+        </locale>
+
+        <locale name="ky">
+          <short>Иш орундарынын аттарын чагылдыруу</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Rodyti darbalaukių vardus</short>
+          <long>Jei teigiama, darbalaukiai darbalaukių keitiklyje rodys darbalaukių vardus. Priešingu atveju, jie rodys darbalaukio langus. Šis parametras veikia tik tada, kai langų valdyklė yra Metacity.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Rādīt darba vietu nosaukumus</short>
+          <long>Ja šī vērtība ir patiesa, darba vietas Darba vietu pārslēgā rādīs arī darba vietu nosaukumus, Pretējā gadījumā tās rādīs darba vietas saturu. Šis iestatījums strādā vienīgi, ja logu pārvaldnieks ir Metacity.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>कार्यस्थान नाम देखाबू</short>
+          
+        </locale>
+
+        <locale name="mg">
+          <short>Asehoy ny anaran&apos;ny workspace</short>
+          
+        </locale>
+
+        <locale name="mk">
+          <short>Прикажи имиња на работни простори</short>
+          <long>Ако е точно, скокачот помеѓу работни простори ќе ги покажува имињата на просторите, во спротивно ќе ја прикажува содржината на просторот. Ова поставување работи само кога користите Metacity.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>പണിയറയുടെ പേരുകള്‍ കാണിയ്ക്കുക</short>
+          <long>true എങ്കില്‍, പണിയിട സ്വിച്ചറിലുള്ള പണിയറകള്‍, പണിയറകളുടെ പേരു് കാണിക്കുന്നു. അല്ലെങ്കില്‍, പണിയറയില്‍ അവ ജാലകങ്ങള്‍ കാണിക്കുന്നു. ജാലക നിരീക്ഷകന്‍ മെറ്റാസിറ്റി ആകുമ്പോള്‍ മാത്രമേ ഈ ക്രമീകരണം പ്രവര്‍ത്തിക്കുകയുള്ളൂ</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Ажлын талбарын нэрсийг харуулах</short>
+          
+        </locale>
+
+        <locale name="mr">
+          <short>कार्यस्थळाची नावे दाखवा</short>
+          <long>खरे असल्यास, कार्यक्षेत्राचे बटण सर्व कार्यक्षेत्रांची नावे दाखवेल अन्यथा केवळ कार्यक्षेत्रातील खिडक्या दाखवेल. ही संयोजना फक्त तेव्हाच कार्यरत राहते जेव्हा चौकट व्यवस्थापक Metacity असते.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Papar nama ruangkerja</short>
+          <long>Jika benar, ruangkerja pada penukar ruangkerja akan memaparkan nama bagi ruangkerja. Sebaliknya akan memapar tetingkap pada ruangkerja. Tetapan ini hanya berkesan bila pengurus tetingkap adalah Metacity.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Vis navn på arbeidsområder</short>
+          <long>Hvis denne er satt til «true» vil arbeidsområdebytter vise navn på arbeidsområdene, ellers vil vinduene på arbeidsområdet vises. Denne innstillingen virker kun med Metacity vindushåndtereren.</long>
+        </locale>
+
+        <locale name="nds">
+          <short>Schrievdisknaamen opwiesen</short>
+          
+        </locale>
+
+        <locale name="ne">
+          <short>कार्यस्थान नाम प्रदर्शन गर्नुहोस्</short>
+          <long>ठीक भएमा, कार्यस्थान स्विचकर्ताका कार्यस्थानले कार्यस्थानका नाम प्रदर्शन गर्दछ । अन्यथा यिनीहरूले कार्यस्थानमा भएका सन्झ्याल प्रदर्शन गर्दछन् ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Werkbladnamen weergeven</short>
+          <long>Indien ingeschakeld zullen de werkbladen in de werkbladwisselaar de namen van de werkbladen tonen, anders tonen ze de vensters op het werkblad. Deze instelling werkt alleen bij het gebruik van Metacity voor vensterbeheer.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Vis namn på arbeidsområda</short>
+          <long>Dersom set til sann, vil arbeidsområdebyter visa namn på arbeidsområda, elles vil vindauga på arbeidsområdet vert viste. Denne innstillinga verkar berre med vindushandsamaren Metacity.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Bontšha maina a sekgoba sa go šomela</short>
+          
+        </locale>
+
+        <locale name="oc">
+          <short>Visualizar los noms dels espacis de trabalh</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>କାର୍ଯ୍ଯକ୍ଷେତ୍ର ନାମ ଦେଖାନ୍ତୁ</short>
+          <long>ସତ ଥିଲେ, କାର୍ଯ୍ଯକ୍ଷେତ୍ର ଚୟକରେ କାର୍ଯ୍ଯକ୍ଷେତ୍ରଗୁଡ଼ିକର ନାମ ପ୍ରଦର୍ଶିତ କରାଯିବ. ନଚେତ୍ କାର୍ଯ୍ଯକ୍ଷେତ୍ରଗୁଡ଼ିକରେ ସେହି କାର୍ଯ୍ଯକ୍ଷେତ୍ରର ୱିଣ୍ଡୋ ପ୍ରଦର୍ଶିତ କରାଯିବ. ଏହି ବିନ୍ୟାସଟି କେବଳ ୱିଣ୍ଡୋ ପରିଚାଳକ Metacity ଥିଲେ କାର୍ଯ୍ୟକରଥାଏ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਵਰਕਸਪੇਸ ਨਾਂ ਵੇਖੋ</short>
+          <long>ਜੇ ਇਹ ਸਹੀ ਹੈ, ਤਾਂ ਵਰਕਸਪੇਸ ਸਵਿੱਚਰ ਸਾਰੇ ਵਰਕਸਪੇਸਾਂ ਦਾ ਨਾਂ ਵੀ ਨੂੰ ਵੇਖਾਵੇਗਾ। ਨਹੀ ਤਾਂ ਇਹ ਸਿਰਫ ਵਰਕਸਪੇਸ ਵਿੱਚ ਝਰੋਖੇ ਨੂੰ ਹੀ ਵੇਖਾਵੇਗਾ। ਇਹ ਸਥਾਪਨ ਤਾਂ ਹੀ ਕੰਮ ਕਰੇਗੀ, ਜਦੋਂ ਝਰੋਖਾ ਮੈਨੇਜਰ ਮੈਟਾਸਿਟੀ ਹੋਵੇਗਾ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Wyświetlanie nazw obszarów roboczych</short>
+          <long>Określa, czy przełącznik obszarów roboczych powinien wyświetlać ich nazwy czy zawartość. Ustawienie to działa tylko z menedżerem okien Metacity.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>کارتشو نومونه ښودل</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Apresentar nomes das áreas</short>
+          <long>Se verdadeiro, as áreas no alternador de áreas de trabalho apresentarão os seus nomes. Caso contrário apresentarão as janelas na área. Esta definição apenas funciona quando o gestor de janelas é o Metacity.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Exibe os nomes dos espaços de trabalho</short>
+          <long>Se verdadeiro, os espaços de trabalho no alternador de espaços de trabalho vão exibir seus nomes. Caso contrário, eles vão exibir as janelas no espaço de trabalho. Esta configuração só funciona quando o gerenciador de janela for o Metacity.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Arată numele spațiilor de lucru</short>
+          <long>Odată activată, în comutatorul de spații de lucru se va afișa numele acestora. Altfel, se vor afișa ferestrele de pe spațiile de lucru. Această setare funcționează doar când administratorul de ferestre este Metacity.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Показывать названия рабочих мест</short>
+          <long>Если этот ключ установлен, переключатель будет показывать названия рабочих мест. Если не установлен, на рабочих местах будут показываться окна. Этот ключ работает только тогда, когда используется менеджер окон Metacity.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Zobraziť názvy pracovných plôch</short>
+          <long>Ak je toto true, pracovné plochy budú v prepínači plôch zobrazovať svoje názvy, ináč budú zobrazovať obsah plochy. Funguje to iba so správcom okien Metacity.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Pokaži imena delovnih površin</short>
+          <long>Možnost omogoča, da so prikazana imena delovnih površin. V primeru, da možnosti ni izbrana bodo prikazana njihova okna.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Shfaq emrat e hapësirave të punës</short>
+          <long>Nëse true, hapësirat e punës në shkëmbyesin e hapësirave do të shfaqin emrat e hapësirave të punës. Në rast të kundërt do të shfaqen vetëm dritaret në hapësirën e punës. Ky rregullim funksionon vetëm kur përdoret Metacity si manazhues i dritareve.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Прикажи имена радних површина</short>
+          <long>Уколико је ово укључено, радне површине у програмчету ће приказивати имена радних површина. Иначе ће приказивати садржај радне површине. Ово ради само ако се користи Метасити као управљач прозорима.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Прикажи имена радних површина</short>
+          
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Prikaži imena radnih površina</short>
+          <long>Ukoliko je ovo uključeno, radne površine u programčetu će prikazivati imena radnih površina. Inače će prikazivati sadržaj radne površine. Ovo radi samo ako se koristi Metasiti kao upravljač prozorima.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Visa namn på arbetsytor</short>
+          <long>Om detta är sant kommer arbetsytorna i arbetsyteväxlaren att visa namnen på arbetsytorna. Annars kommer fönstren på arbetsytorna att visas. Denna inställning fungerar endast när fönsterhanteraren Metacity används.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>வேலையிடங்களின் பெயர்களைக் காட்டுக</short>
+          <long>உண்மையெனில் பணியிடமாற்றி பணியிடங்களின் பெயரை காட்டும். இல்லையெனில் சாளரங்களை பணியிடத்தில் காட்டும். இது மெடாசிடியாக் சாளர மேலாளர் இருந்தால் மட்டுமே செல்லுபடியாகும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>కార్యక్షేత్ర నామాలను ప్రదర్శింపుము</short>
+          <long>నిజమైతే, కార్యక్షేత్రం మార్చుదానిలో గల కార్యక్షేత్రాలు కార్యక్షేత్రల యొక్క నామాలను ప్రదర్శిస్తాయి. లేదంటే అని కార్యక్షేత్రం లోని విండోలను ప్రదర్శిస్తాయి.ఈ అమరిక విండో నిర్వాహిక మెటాసిటి అయితే మాత్రమే పనిచేస్తుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>แสดงชื่อพื้นที่ทำงาน</short>
+          <long>ถ้าเลือก แอพเพล็ตสลับพื้นที่ทำงานจะแสดงชื่อของพื้นที่ทำงาน มิฉะนั้นจะแสดงหน้าต่างที่อยู่บนพื้นที่ทำงาน ค่าตั้งนี้ ใช้ได้กับโปรแกรมจัดการหน้าต่าง Metacity เท่านั้น</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Çalışma alanlarının isimlerini göster</short>
+          <long>Eğer seçiliyse, çalışma alanı değiştiricisi bütün çalışma alanlarının isimlerini gösterir. Aksi halde, çalışma alanlarındaki pencereleri gösterir. Bu özellik sadece pencere yöneticisi Metacity olduğunda çalışır.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Показувати назви робочих областей</short>
+          <long>Якщо встановлено, то перемикач робочих областей виводить їх назви, а не вікна в ньому. У іншому випадку будуть показані вікна робочої області. Параметр діє, лише за умови використання віконного менеджера Metacity.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Ish oʻrinlarini nomini koʻrsatish</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Иш ўринларини номини кўрсатиш</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Hiện tên vùng làm việc</short>
+          <long>Đúng thì các vùng làm việc trong bộ chuyển vùng làm việc sẽ hiển thị tên các vùng làm việc. Không thì hiển thị các cửa sổ trong vùng làm việc. Thiết lập này chỉ hoạt động được khi bộ quản lý cửa sổ là Metacity.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Bonisa amagama ezithuba zomsebenzi</short>
+          
+        </locale>
+
+        <locale name="yo">
+          <short>Ṣàfihàn àwọn orúkọ ààyè-iṣẹ́</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+          <short>显示工作区名称</short>
+          <long>如果为 true，则在工作区切换器中显示工作区的名称，否则显示工作区中的窗口。此设置仅当使用 Metacity 窗口管理器时才生效。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>顯示工作區名稱</short>
+          <long>如果設為‘true’，就會在「工作區切換程式」中顯示各工作區的名稱，否則會顯示它們的畫面內容。這個設定值只有在視窗管理程式為 Metacity 時才有效。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>顯示工作區名稱</short>
+          <long>如果設為‘true’，就會在「工作區切換程式」中顯示各工作區的名稱，否則會顯示它們的畫面內容。這個設定值只有在視窗管理程式為 Metacity 時才有效。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Tshengisa amagama ezindawo zokusebenzela</short>
+          
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/workspace_switcher_applet/prefs/display_all_workspaces</key>
+        <owner>workspace-switcher-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <locale name="C">
+          <short>Display all workspaces</short>
+          <long>
+            If true, the workspace switcher will show all workspaces. Otherwise
+            it will only show the current workspace.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Vertoon alle werkruimtes</short>
+          <long>Indien as waar gemerk, sal die werkruimte-wisselaar alle werkruimtes vertoon. Andersins, sal slegs die huidige werkruimte vertoon word.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>اعرض كل مساحات العمل</short>
+          <long>إذا كان &quot;صحيح&quot;، فسيعرض مبدّل مساحات العمل كل مساحات العمل، وإلا فإنه سيظهر.مساحة العمل الحالية فقط.</long>
+        </locale>
+
+        <locale name="as">
+          <short>সমস্ত কৰ্মক্ষেত্ৰ প্ৰদৰ্ছন কৰা হ&apos;ব</short>
+          <long>মান সত্য হ&apos;লে, কৰ্মক্ষেত্ৰ অদল-বদলকাৰীত সমস্ত কৰ্মক্ষেত্ৰ প্ৰদৰ্ছন কৰা হ&apos;ব  । অন্যথা অকল বৰ্তমান কৰ্মক্ষেত্ৰ প্ৰদৰ্ছন কৰা হ&apos;ব  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Amosar tolos espacios de trabayu</short>
+          <long>Si ye «true», el cambiador de árees de trabayu amosará toles árees de trabayu. En caso contrariu namái s&apos;amosará l&apos;área de trabayu autual.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Bütün iş sahələrini göstər</short>
+          <long>Seçilidirsə, iş sahəsi dəyişdiricisi bütün iş sahələrini göstərəcək, əks halda ancaq hazırkı iş sahəsi göstəriləcək.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Паказваць усе працоўныя прасторы</short>
+          <long>Калі ісьціна, пераключальнік працоўных прастораў будзе паказваць усе працоўныя прасторы. Інакш, ён будзе паказваць толькі бягучую працоўную прастору.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Pakazvaj usie rabočyja abšary</short>
+          <long>Kali ŭklučyć, buduć bačnyja ŭsie rabočyja abšary, u advarotnym vypadku  budzie bačny tolki dziejny abšar.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Показване на всички работни плотове</short>
+          <long>Ако е истина, превключвателят на работни плотове ще показва всички работни плотове, ако е лъжа — само текущия</long>
+        </locale>
+
+        <locale name="bn">
+          <short>সমস্ত কর্মপরিসর প্রদর্শিত হবে</short>
+          <long>মান true (সত্য) হলে, কর্মপরিসর অদল-বদলকারীর মধ্যে সমস্ত কর্মপরিসর প্রদর্শিত হবে। অন্যথা শুধুমাত্র বর্তমান কর্মপরিসর প্রদর্শিত হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>সমস্ত কর্মক্ষেত্র প্রদর্শন করা হবে</short>
+          <long>মান true (সত্য) হলে, কর্মক্ষেত্র অদল-বদলকারীর মধ্যে সমস্ত কর্মক্ষেত্র প্রদর্শন করা হবে। অন্যথা শুধুমাত্র বর্তমান কর্মক্ষেত্র প্রদর্শন করা হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Diskouez an holl dachennoù-labour</short>
+          <long>Ma&apos;z eo gwir, ar c&apos;h emmer tachennoù-labour a ziskouezo an holl dachennoù-labour. Ma&apos;z eo faos, e tiskouezo an dachenn-labour en implij hepken.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Prikaži sve radne površine</short>
+          <long>Ukoliko je ovo uključeno, izmjena radnih površina prikazuje sve radne površine, inače prikazuje samo trenutnu.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Mostra tots els espais de treball</short>
+          <long>Si és cert, el canviador d&apos;espais de treball mostrarà tots els espais de treball. Si no, només mostrarà l&apos;espai de treball actual.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Mostra tots els espais de treball</short>
+          <long>Si és cert, el canviador d&apos;espais de treball mostrarà tots els espais de treball. Si no, només mostrarà l&apos;espai de treball actual.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Episi çalışma-fezalarını köster</short>
+          <long>Eger doğru ise, çalışma-fezası almaştırıcısı episi çalışma-fezalarını kösterir. Aksi taqdirde, faqat ağımdaki çalışma-fezasını kösterir.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Zobrazovat všechny pracovní plochy</short>
+          <long>Je-li &quot;true&quot;, zobrazuje přepínač pracovních ploch všechny pracovní plochy, jinak zobrazuje pouze aktuální plochu.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Dangos pob gweithfan</short>
+          <long>Os yw hyn yn wir, fe fydd y newidydd gweithfan yn dangos bob gweithfan; fel arall fe fydd yn dangos y weithfan gyfredol yn unig.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Vis alle arbejdsområder</short>
+          <long>Hvis sand, vil arbejdsområdeskifteren vise alle arbejdsområder, ellers vises kun den aktive.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Alle Arbeitsflächen anzeigen</short>
+          <long>Falls dieser Schlüssel WAHR ist, zeigt der Arbeitsflächenumschalter alle Arbeitsflächen an. Andernfalls zeigt er lediglich die momentan sichtbare.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ལཱ་གི་ས་སྒོ་ཆ་མཉམ་ བཀྲམ་སྟོན་འབད།</short>
+          <long>བདེན་པ་ཨིན་པ་ཅིན་ ལཱ་གི་ས་སྒོ་ སོར་བསྒྱུར་འབད་མི་དེ་གིས་ ལཱ་གི་ས་སྒོ་ཆ་མཉམ་སྟོན་འོང་། དེ་མིན་པ་ཅིན་ དེ་གིས་ད་ལྟོའི་ལཱ་གི་ས་སྒོ་རྐྱངམ་གཅིག་སྟོན་འོང་།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Προβολή όλων των χώρων εργασίας</short>
+          <long>Αν αληθές, η εφαρμογή εναλλαγής χώρων εργασίας θα εμφανίζει όλους τους χώρους εργασίας, αλλιώς θα εμφανίζει μόνο τον τρέχοντα χώρο.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑛𐑩𐑕𐑐𐑤𐑱 𐑷𐑤 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟</short>
+          <long>𐑦𐑓 𐑑𐑮𐑵, 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑕𐑢𐑦𐑗𐑻 𐑢𐑦𐑤 𐑖𐑴 𐑷𐑤 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟. 𐑳𐑞𐑼𐑢𐑲𐑟 𐑦𐑑 𐑢𐑦𐑤 𐑴𐑯𐑤𐑦 𐑖𐑴 𐑞 𐑒𐑳𐑮𐑩𐑯𐑑 𐑢𐑻𐑒𐑕𐑐𐑱𐑕.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Display all workspaces</short>
+          <long>If true, the workspace switcher will show all workspaces. Otherwise it will only show the current workspace.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Display all workspaces</short>
+          <long>If true, the workspace switcher will show all workspaces. Otherwise it will only show the current workspace.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Montru ĉiujn laborkadrojn</short>
+          <long>Se tiu estas vera, la laborej-ŝanĝilo montros ĉiujn laborejojn, alie ĝi montros nur la aktualan laborejon</long>
+        </locale>
+
+        <locale name="es">
+          <short>Mostrar todas las áreas de trabajo</short>
+          <long>Si está activada, el selector de áreas de trabajo mostrará todas las áreas de trabajo. En caso contrario sólo se mostrará el área de trabajo actual.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Kõikide tööalade näitamine</short>
+          <long>Kui märgitud, siis näidatakse tööalahalduris kõiki tööalasid. Vastasel juhul näidatakse ainult aktiivset tööala.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Erakutsi laneko area guztiak</short>
+          <long>Hautatzen bada, laneko area guztiak erakutsiko ditu. Bestela, uneko laneko area bakarrik erakutsiko du.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>نمایش همه‌ی فضاهای کاری</short>
+          <long>اگر درست باشد، تعویض‌کننده‌ی فضای کاری همه‌ی فضاهای کاری را نشان خواهد داد. در غیر این صورت فقط فضای کاری فعلی را نشان می‌دهد.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Näytä kaikki työtilat</short>
+          <long>Jos tämä on tosi, kaikki työtilat näkyvät työtilanvaihtimessa. Muulloin vain nykyinen työtila näkyy.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Afficher tous les espaces de travail</short>
+          <long>Si vrai, le sélecteur d&apos;espaces de travail affiche tous les espaces de travail, sinon il n&apos;affiche que l&apos;espace de travail actuel.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Mostre dutis lis arees di lavôr</short>
+          
+        </locale>
+
+        <locale name="ga">
+          <short>Taispeáin gach spás oibre</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Mostrar todos os espazos de traballo</short>
+          <long>Se é true, o selector de espazo de traballo mostrará todos os espazos de traballo. Se non é así, mostrará unicamente o espazo actual.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>બધી કામ કરવાની જગ્યાઓ દર્શાવો</short>
+          <long>જો ખરુ હોય તો, કામ કરવાની જગ્યાની ફેરબદલી કરનાર બધી કામ કરવાની જગ્યાઓ દર્શાવશે. નહિંતર એ ફક્ત હાલની કામ કરવાની જગ્યા દર્શાવશે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Nuna duk filayenaiki</short>
+          <long>In da gaske, mai sauya filin aiki zai nuna duk filayen aiki. Idan ba haka ba, zai nuna filin aiki da kake kai yanzu kawai.</long>
+        </locale>
+
+        <locale name="he">
+          <short>הצג את כל סביבות העבודה</short>
+          <long>אם אמת, מחליף סביבות העבודה יציג את כל סביבות העבודה. אחרת הוא יציג רק את סביבת העבודה הנוכחית.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>सभी कार्यस्थान दिखाएँ</short>
+          <long>यदि यह सत्य है तो कार्यस्थान स्विचर सभी कार्यस्थान दिखाएगा अन्यथा यह सिर्फ वर्तमान कार्यस्थान दर्शाएगा.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Prikaži sve radne površine</short>
+          <long>Ukoliko je ovo uključeno, izmjena radnih površina prikazuje sve radne površine, inače prikazuje samo trenutnu.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Minden munkaterület megjelenítése</short>
+          <long>Ha be van állítva, a munkaterület-váltó minden munkaterületet megjelenít, különben csak a jelenlegit.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Ցույց տալ բոլոր աշխատասեղանները</short>
+          <long>Եթե ճիշտ է, ապա աշխատասեղանի փոխարկիչը ցույց կտա բոլոր աշխատասեղանները։ Հակառակ դեպքում կտեսնեք միայն ընթացիկ աշխատասեղանը։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Tampilkan _semua area kerja</short>
+          <long>Jika dipilih maka program pengalih area kerja akan menampilkan semua area kerja. Jika tidak, maka hanya area kerja sekarang saja yang akan ditampilkan.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Gosi wọkspeesi niile</short>
+          <long>Ọ bụrụ na ọ bụ eziokwu, omembanye wọkspeesi ahụ ga-egosi wọkspeesi niile. Kama ọ ga-egosi sọsọ wọkspeesi nọ mgbe ahụ.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Sýna öll vinnusvæði</short>
+          <long>Ef valið mun vinnusvæðaskiptirinn sýna öll vinnusvæði. Annars mun hann aðeins sýna núverandi vinnusvæði</long>
+        </locale>
+
+        <locale name="it">
+          <short>Mostra tutti gli spazi di lavoro</short>
+          <long>Se impostata a VERO, nel selettore di spazio di lavoro sono mostrati tutti gli spazi di lavoro, in caso contrario è mostrato solo quello in uso.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>全てのワークスペースを表示する</short>
+          <long>TRUE にすると、ワークスペース切り替え器は全てのワークスペースを表示します。それ以外は、現在のワークスペースだけを表示します。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ანახე ყველა სამუშაო სივრცე</short>
+          <long>თუ მონიშნულია, გადამრთველი გამოსახავს არა მხოლოდ მიმდინარე გარემოს არამედ, ყველა არსებულს.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳನ್ನು ತೋರಿಸು</short>
+          <long>ನಿಜವಾದಲ್ಲಿ, ಕಾರ್ಯಕ್ಷೇತ್ರ ಬದಲಾವಣೆಗಾರ ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ ಅದು ಕೇವಲ ಸದ್ಯದ ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಮಾತ್ರವೇ ತೋರಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>모든 작업 공간 보여 주기</short>
+          <long>참이면, 작업 공간 바꾸기 프로그램에서 모든 작업 공간을 표시합니다. 거짓이면 현재 작업 공간만 표시합니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Hemû qadên xebatê nîşan bide</short>
+          <long>Heke hatibe hilbijartin, guherkera qadên xebatê hemû qadên xebatê dide  xuyanî. Heke ne wisa be jî tenê qada xebatê ya wê çaxê dide xuyanî.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Бардык иш орундарын көрсөтүү</short>
+          <long>Эгер бул орнотулса, учурдагы иш орунун гана эмес, бардык иш орундарды көрсөтөт.</long>
+        </locale>
+
+        <locale name="lt">
+          <short>Rodyti visus darbalaukius</short>
+          <long>Jei teigiama, darbalaukių keitiklis rodys visus darbalaukius. Priešingu atveju bus rodomas tik esamas darbaulaukis</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Rādīt visas darba vietas</short>
+          <long>Ja patiess, Darba vietu pārslēgs rādīs visas darba vietas, pretējā gadījumā tas rādīs tikai pašreizējo darba vietu.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>सबहि कार्यस्थान देखाबू</short>
+          <long>जँ ई सत्य अछि तँ कार्यस्थान स्विचर सबहि कार्यस्थान देखाएत अन्यथा ई सिर्फ वर्तमान कार्यस्थान देखाएत.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Asehoy ny workspace rehetra</short>
+          <long>Raha marina izay voalaza, dia hasehon&apos;ny mpampifandimby workspace ny workspace rehetra. Raha tsy izany dia ny workspace iasana ihany no asehony.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Прикажи ги сите работни простори</short>
+          <long>Ако е избрано ова, скокачот ќе ги прикаже сите простори за работа. Во спротивно ќе го прикажува само моменталниот простор.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>എല്ലാ പണിയറകളും കാണിയ്ക്കുക</short>
+          <long>true എങ്കില്‍, സ്വിച്ചര്‍ എല്ലാ പണിയിടങ്ങളും കാണിക്കുന്നു. അല്ലെങ്കില്‍, നിലവിലുള്ള പണിയറ മാത്രമേ കാണിക്കൂ.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Бүх ажлын талбарыг харуулах</short>
+          <long>Хэрэв үнэн бол ажлын талбарын сэлгэгч бүх ажлын талбарыг үзүүлнэ. Үгүй бол зөвхөн идэвхитэй ажлын талбарыг үзүүлнэ.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>सर्व कार्यस्थळे दाखवा</short>
+          <long>खरे असल्यास, कार्यक्षेत्राचे बटण सर्व कार्यक्षेत्र दाखवेल. अन्यथा केवळ चालू कार्यक्षेत्र दाखवेल.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Papar semua ruangkerja</short>
+          <long>Jika ia benar, penukar ruangkerja akan memapar semua ruangkerja. Sebaliknya ia akan hanya memapar ruangkerja semasa.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Vis alle arbeidsområder</short>
+          <long>Hvis denne er satt til «true» vil arbeidsområdebytter vise alle arbeidsområder, ellers vil kun aktivt arbeidsområde vises.</long>
+        </locale>
+
+        <locale name="nds">
+          <short>All Schrievdisks opwiesen</short>
+          
+        </locale>
+
+        <locale name="ne">
+          <short>सबै कार्यस्थान प्रदर्शन गर्नुहोस्</short>
+          <long>ठीक भएमा, कार्यस्थान स्विचकर्ताले सबै कार्यस्थान देखाउछ । अन्यथा यसले हालकोकार्यस्थान मात्र देखाउछ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Alle werkbladen weergeven</short>
+          <long>Indien ingeschakeld zal de werkbladwisselaar alle werkbladen tonen, anders slechts het huidige werkblad.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Vis alle arbeidsområda</short>
+          <long>Dersom set til sann, vil arbeidsområdeskiftaren visa alle arbeidsområda. Elles vil han berre visa det noverande arbeidsområdet.</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Bontšha mafelo ka moka a go šomela</short>
+          <long>Ge eba e le therešo, sefetodi sa sekgoba sa go šomela se tla bontšha dikgoba ka moka tša go šomela. Go sego bjalo se tla bontšha feela sekgoba sa gona bjale sa go šomela.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Visualizar totes los espacis de trabalh</short>
+          <long>S&apos;es verai, lo seleccionaire d&apos;espacis de trabalh mostra totes los espacis de trabalh ; si que non, mostra sonque l&apos;espaci de trabalh actiu.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ସବୁ କାର୍ଯ୍ଯକ୍ଷେତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ</short>
+          <long>ସତ ଥିଲେ, କାର୍ଯ୍ଯକ୍ଷେତ୍ର ଚୟକ ସବୁ କାର୍ଯ୍ଯକ୍ଷେତ୍ରଗୁଡ଼ିକୁ ଦେଖାଇବ. ନଚେତ୍ ଏହା କେବଳ ସାମ୍ପ୍ରତିକ କାର୍ଯ୍ଯକ୍ଷେତ୍ର ଦେଖାଇବ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਸਭ ਵਰਕਸਪੇਸ ਵੇਖੋ</short>
+          <long>ਜੇ ਇਹ ਸਹੀ ਹੈ, ਤਾਂ ਵਰਕਸਪੇਸ ਸਵਿੱਚਰ ਸਾਰੇ ਵਰਕਸਪੇਸਾਂ ਨੂੰ ਵੇਖਾਵੇਗਾ। ਨਹੀਂ ਤਾਂ ਇਹ ਸਿਰਫ ਮੌਜੂਦਾ ਵਰਕਸਪੇਸ ਨੂੰ ਹੀ ਵੇਖਾਵੇਗਾ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Wyświetlanie wszystkich obszarów roboczych</short>
+          <long>Określa, czy wyświetlać wszystkie obszary robocze, czy tylko obszar bieżący.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>ټول کارتشې ښودل</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Apresentar todas as áreas</short>
+          <long>Se verdadeiro, o alternador de áreas apresentará todas as áreas. Caso contrário apenas a área de trabalho actual.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Exibe todos os espaços de trabalho</short>
+          <long>Se verdadeiro, o Alternador de espaços de trabalho mostrará todos os espaços de trabalho. Caso contrário, mostrará apenas a atual.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Arată toate spațiile de lucru</short>
+          <long>La activare comutatorul spațiilor de lucru va arăta toate spațiile, altfel va arăta doar spațiul curent.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Показывать все рабочие места</short>
+          <long>Если этот ключ установлен, переключатель будет показывать все рабочие места. Иначе будет показано только текущее.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Zobraziť všetky pracovné plochy</short>
+          <long>Ak je toto true, stránkovač bude zobrazovať všetky pracovné plochy, ináč iba aktuálnu.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Pokaži vse delovne površine</short>
+          <long>Izbrana možnost omogoča, da bo preklopnik delovnih površin kazal vse delovne površine, sicer bo kazal le trenutno.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Shfaq të gjitha hapësirat</short>
+          <long>Nëse kjo është e vërtetë, zgjedhësi do të shfaqë të gjitha hapësirat. Përndryshe ai do të shfaqë vetëm hapësirën aktuale të punës.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Прикажи све радне површине</short>
+          <long>Уколико је ово укључено, измена радних површина приказује све радне површине, иначе приказује само тренутну.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Прикажи све радне површине</short>
+          <long>Уколико је ово укључено, измјена радних површина приказује све радне површине, иначе приказује само тренутну.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Prikaži sve radne površine</short>
+          <long>Ukoliko je ovo uključeno, izmena radnih površina prikazuje sve radne površine, inače prikazuje samo trenutnu.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Visa alla arbetsytor</short>
+          <long>Om detta är sant kommer arbetsyteväxlaren att visa alla arbetsytor. Annars kommer endast den aktuella arbetsytan att visas.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>அனைத்து வேலையிடங்களை காட்டுக</short>
+          <long>உண்மையெனில், பணியிடமாற்றி அனைத்து பணியிடங்களையும் காட்டும், இல்லையெனில் தற்போதைய பணியிடத்தை மட்டும் காட்டும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>అన్ని కార్యక్షేత్రాలను ప్రదర్శింపుము</short>
+          <long>నిజమైతే, ఆ కార్యక్షేత్రం మార్చునది అన్ని కార్యక్షేత్రాలను చూపుతుంది.లేదంటే అది ప్రస్తుత కార్యక్షేత్రం మాత్రమే చూపుతుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>แสดงพื้นที่ทำงานทั้งหมด</short>
+          <long>ถ้าเลือก แอพเพล็ตสลับพื้นที่ทำงานจะแสดงพื้นที่ทำงานทั้งหมด มิฉะนั้นจะแสดงเฉพาะพื้นที่ทำงานปัจจุบัน</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Bütün çalışma alanlarını göster</short>
+          <long>Eğer seçiliyse, çalışma alanı değiştiricisi bütün çalışma alanlarını gösterir. Aksi halde sadece o anki çalışma alanını gösterir.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Показувати всі робочі області</short>
+          <long>Якщо встановлено, то перемикач робочих областей показує всі області, а не лише поточну.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Barcha ish oʻrinlarini koʻrsatish</short>
+          <long>Agar oʻrnatilsa, ish oʻrnilarini tanlagichda barcha ish oʻrinlari koʻrsatiladi. Aks holda faqat joriy ish oʻrni koʻrsatiladi.</long>
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Барча иш ўринларини кўрсатиш</short>
+          <long>Агар ўрнатилса, иш ўрниларини танлагичда барча иш ўринлари кўрсатилади. Акс ҳолда фақат жорий иш ўрни кўрсатилади.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Hiện mọi vùng làm việc</short>
+          <long>Nếu đúng thì bộ chuyển vùng làm việc sẽ hiển thị mọi vùng làm việc, nếu không thì nó chỉ hiện vùng làm việc hiện thời.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Bonisa zonke izithuba zokusebenza</short>
+          <long>Ukuba yinyaniso, umvuli-mvali wezithuba uya kubonisa zonke izithuba zokusebenza. Ngaphandle koko, iya kubonisa kuphela isithuba sokusebenza sangoku.</long>
+        </locale>
+
+        <locale name="yo">
+          <short>Ṣàfihàn gbogbo àwọn ààyè-iṣẹ́</short>
+          <long>Tó bá jẹ́ òótọ́, ìjánu-ìsún ààyè-iṣẹ́ náà á fi gbogbo àwọn ààyè-iṣẹ́ hàn. Láì jẹ́ bẹ́ẹ̀ yóò kàn fi ààyè-iṣẹ́ lọ́wọ́lọ́wọ́ náà hàn.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>显示所有工作区</short>
+          <long>如果为 true，则工作区切换器将显示所有工作区，否则只显示当前工作区。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>顯示所有工作區</short>
+          <long>如設定為‘true’，就會在「工作區切換程式」中顯示所有工作區，否則只會顯示目前的工作區。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>顯示所有工作區</short>
+          <long>如設定為‘true’，就會在「工作區切換程式」中顯示所有工作區，否則只會顯示目前的工作區。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Tshengisa zonke izindawozokusebenzela</short>
+          <long>Uma kuyiqiniso, umqhebezi wendawo yokusebenzela uzobonisa zonke izindawo zokusebenzela. Ngaphandle kwalokho izobonisa indawo yokusebenzela yamanje.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/workspace_switcher_applet/prefs/num_rows</key>
+        <owner>workspace-switcher-applet</owner>
+        <type>int</type>
+        <default>1</default>
+        <locale name="C">
+          <short>Rows in workspace switcher</short>
+          <long>
+            This key specifies how many rows (for horizontal layout)
+            or columns (for vertical layout) the workspace switcher shows the
+            workspaces in. This key is only relevant if the
+            display_all_workspaces key is true.
+          </long>
+        </locale>
+
+        <locale name="af">
+          <short>Rye in werkruimte-skakelaar</short>
+          <long>Hierdie sleutel spesifiseer hoeveel rye (vir horisontale uitleg) of kolomme (vir vertikale uitleg) die werkruimte-wisselaar gebruik om die werkruimtes te vertoon. Hierdie sleutel is slegs relevant as die display_all_workspaces-sleutel as waar gemerk is.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>أعمدة في مبدّل مساحات العمل</short>
+          <long>يحدد المفاتاح عدد السطور (للتصميم الأفقي) أو عدد الأعمدة (للتصميم العمودي) التي سيعرض فيها مبدّل مساحات العمل مساحات العمل. هذا المفتاح مفيد فقط عندضبط مفتاح display_all_workspaces لـ true.</long>
+        </locale>
+
+        <locale name="as">
+          <short>কৰ্মক্ষেত্ৰ অদল-বদলকাৰীত শাৰীৰ সংখ্যা</short>
+          <long>কৰ্মক্ষেত্ৰ অদল-বদলকাৰীত কৰ্মক্ষেত্ৰ প্ৰদৰ্ছনৰ বাবে ব্যৱহৃত শাৰী (অনুভূমিক বিন্যাস) বা স্তম্ভ (উলম্ব বিন্যাস) সংখ্যা এই চাবিৰ দ্বাৰা নিৰ্ধৰিত হ&apos;ব  । display_all_workspaces মান সত্য হ&apos;লে এই চাবি কাৰ্যকৰী হ&apos;ব  ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Fileres nel cambiador d&apos;espacios de trabayu</short>
+          <long>Esta clave especifica cuántes fileres (pa la distribución horizontal) o columnes (pa la distribución vertical) s&apos;amuesen dientro del seleutor d&apos;árees de trabayu. Esta clave namái ye relevante si&apos;l valor de la clave «display_all_workspaces» ye «true».</long>
+        </locale>
+
+        <locale name="az">
+          <short>Masa üstü dəyişdiricisindəki sətir</short>
+          <long>Bu qiymət iş sahəsi dəyişdiricisin iş sahələrini neçə sütun (şaquli düzülüş üçün) ya da sətirdə (üfüqi düzülüş üçün) göstərəcəyini müəyyən edir.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Радкі ў пераключальніку працоўных прастораў</short>
+          <long>Гэты ключ вызначае колькасьць бачных радкоў (для гарызантальнага разьмяшчэньня) ці слупкоў (для вэртыкальнага разьмяшчэньня) у пераключальніку працоўных прастораў. Гэты ключ мае сэнс толькі тады, калі значэньне display_all_workspaces - ісьціна.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Kolkaść radkoŭ u pieraklučalniku rabočych abšaraŭ</short>
+          <long>Hetaja vartaść akreślivaje, kolki radkoŭ (dla haryzantalnaj kampazycyi) albo kalon (u vypadku vertykalnaj kampazycyi) budzie mieć u sabie pieraklučalnik rabočych abšaraŭ. Hetaja opcyja vykarystoŭvajecca, tolki kali abranaje display_all_workspaces.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Редове на превключвателя на работни плотове</short>
+          <long>Ключът определя на колко реда (при хоризонтално разположение) или колони (при вертикално положение) превключвателят ще показва работните места. Тази ключ важи, само ако display_all_workspaces е истина.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>কর্মপরিসর পরিবর্তনকারী মধ্যে সারির সংখ্যা</short>
+          <long>কর্মপরিসরের মধ্যে কর্মপরিসর পরিবর্তনকারী দ্বারা প্রদর্শিত সারি (অনুভূমিক বিন্যাস) অথবা কলাম (উল্লম্ব বিন্যাস) সংখ্যা এই কী দ্বারা নির্ধারিত হবে। display_all_workspaces কী true হলে এই কী  কার্যকরী হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>কর্মক্ষেত্র অদল-বদলকারীর মধ্যে সারির সংখ্যা</short>
+          <long>কর্মক্ষেত্র অদল-বদলকারীর মধ্যে কর্মক্ষেত্র প্রদর্শনের জন্য ব্যবহৃত সারি (অনুভূমিক বিন্যাস) অথবা কলাম (উলম্ব বিন্যাস) সংখ্যা এই কি-র দ্বারা নির্ধরিত হবে। display_all_workspaces মান true (সত্য) হলে এই কি-টি কার্যকরী হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Linennoù er c&apos;hemmer tachennoù-labour</short>
+          <long>An alc&apos;hwez a erspiz pet a renkadoù (evit ur c&apos;hempennadur a-zremm) pe vannoù (evit ur c&apos;hempennadur a-serzh) a vo diskouezet gant trec&apos;haoler an dachenn-labour en tachennoù-lavour. Talvoudus eo an alc&apos;hwez-mañ mard eo gwir an alc&apos;hwez display_all_workspaces.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Broj redova u promjeni radnih površina</short>
+          <long>Ovaj ključ određuje koliko redova (za horizontalan raspored) ili kolona (za vertikalan raspored) će prikazivati izmjena radnih površina. Ovaj ključ ima značaja jedino ako je ključ display_all_workspaces postavljen.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Files al canviador d&apos;espais de treball</short>
+          <long>Aquesta clau especifica en quantes files (en la disposició horitzontal) o columnes (en la disposició vertical) mostrarà els espais de treball el canviador d&apos;espais de treball. Aquesta clau només té efecte si la clau display_all_workspaces és certa.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Files al canviador d&apos;espais de treball</short>
+          <long>Esta clau especifica en quantes files (en la disposició horitzontal) o columnes (en la disposició vertical) mostrarà els espais de treball el canviador d&apos;espais de treball. Esta clau només té efecte si la clau display_all_workspaces és certa.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Çalışma-fezası almaştırıcısındaki saf sayısı</short>
+          <long>Bu anahtar, çalışma-fezası almaştırıcısınıñ çalışma-fezalarını qaç sıra (ufqiy serim içün), yaki sutun (vertikal serim içün) içinde kösterecegini belirtir. Bu anahtar, ancaq display_all_workspaces (episi çalışma-fezalarını köster) doğru olğanda alâqadardır.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Řádky v přepínači pracovních ploch</short>
+          <long>Tento klíč určuje, v kolika řádcích (ve vodorovném rozložení) nebo sloupcích (ve svislém rozložení) zobrazuje přepínač pracovní plochy. Tento klíč se projeví jen pokud má klíč display_all_workspaces hodnotu &quot;true&quot;.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Rhesi yn y cyfnewidydd gweithfannau</short>
+          <long>Mae&apos;r allwedd hon yn penodi&apos;r nifer o resi (ar gyfer cyflwyniad llorweddol) neu golofnau (ar gyfer cyflwyniad fertigol) mae&apos;r newidydd gweithfannau yn dangos y gweithfannau ynddi. Mae&apos;r allwedd hon ond yn berthnasol os mae&apos;r allwedd display_all_workspaces yn wir.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Rækker i arbejdsområdeskifter</short>
+          <long>Ved visning af alle arbejdsområder afgør dette hvor mange rækker (ved vandrette paneler) eller kolonner (ved lodrette paneler) skifteren viser arbejdsområderne i. Nøglen er kun relevant hvis display_all_workspaces er sand.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Zeilen in Arbeitsflächenumschalter</short>
+          <long>Dieser Schlüssel legt die Anzahl der Zeilen (bei horizontaler Darstellung) oder Spalten (bei vertikaler Darstellung) fest, in denen der Umschalter die Arbeitsflächen anzeigt. Dieser Schlüssel kommt ausschließlich zum Tragen, falls der Schlüssel »display_all_workspaces« WAHR ist.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ལཱ་གི་ས་སྒོ་ སོར་བསྒྱུར་འབད་མི་ནང་གི་ གྲལ་ཐིག་ཚུ།</short>
+          <long>ལྡེ་མིག་འདི་གིས་ ལཱ་གི་ས་སྒོ་སོར་བསྒྱུར་འབད་མི་གིས་ ལཱ་གི་ས་སྒོ་ཚུ་ནང་ (ཐད་སྙོམས་སྒྲིག་བཀོད་ཀྱི་དོན་ལུ་) གྲལ་ཐིག་ག་དེ་དགོཔ་དང་ (ཀེར་ཕྲང་སྒྲིག་བཀོད་ཀྱི་དོན་ལུ་) ཀེར་ཐིག་ག་དེ་ཅིག་དགོཔ་ཨིན་ན་ གསལ་བཀོད་འབདཝ་ཨིན། ལཱ་གི་ས་སྒོ་ཆ་མཉམ་ བཀྲམ་སྟོན་གྱི་ལྡེ་མིག་དེ་ ལྡེ་མིག་འདི་ བདེན་པ་ཨིན་པ་ཅིན་རྐྱངམ་གཅིག་ འབྲེལ་བ་ཡོདཔ་ཨིན།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Γραμμές στην εφαρμογή εναλλαγής χώρων εργασίας</short>
+          <long>Κατά την προβολή όλων των χώρων εργασίας αυτό καθορίζει σε πόσες γραμμές (για οριζόντια διάταξη) ή στήλες (για κάθετη διάταξη) θα εμφανίζει η εφαρμογή εναλλαγής χώρων εργασίας τους χώρους. Το κλειδί έχει χρησιμότητα μόνο αν το κλειδί display_all_workspaces είναι αληθές.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑮𐑴𐑟 𐑦𐑯 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑕𐑢𐑦𐑗𐑻</short>
+          <long>𐑞𐑦𐑕 𐑒𐑰 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑟 𐑣𐑬 𐑥𐑧𐑯𐑦 𐑮𐑴𐑟 (𐑓𐑹 𐑣𐑪𐑮𐑦𐑟𐑪𐑯𐑑𐑩𐑤 𐑤𐑱𐑬𐑑) 𐑹 𐑒𐑪𐑤𐑩𐑥𐑟 (𐑓𐑹 𐑝𐑻𐑑𐑦𐑒𐑩𐑤 𐑤𐑱𐑬𐑑) 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑕𐑢𐑦𐑗𐑻 𐑖𐑴𐑟 𐑞 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟 𐑦𐑯. 𐑞𐑦𐑕 𐑒𐑰 𐑦𐑟 𐑴𐑯𐑤𐑦 𐑮𐑧𐑤𐑩𐑝𐑩𐑯𐑑 𐑦𐑓 𐑞 display_all_workspaces 𐑒𐑰 𐑦𐑟 𐑑𐑮𐑵.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Rows in workspace switcher</short>
+          <long>This key specifies how many rows (for horizontal layout) or columns (for vertical layout) the workspace switcher shows the workspaces in. This key is only relevant if the display_all_workspaces key is true.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Rows in workspace switcher</short>
+          <long>This key specifies how many rows (for horizontal layout) or columns (for vertical layout) the workspace switcher shows the workspaces in. This key is only relevant if the display_all_workspaces key is true.</long>
+        </locale>
+
+        <locale name="eo">
+          <short>Linioj en laborej-ŝanĝilo</short>
+          <long>Ĉi tiu ŝlosilo specifas en kiom da linioj (por horizontala aranĝo) aŭ kolumnoj (por vertikala aranĝo) la laborej-ŝanĝilo montras la laborejojn. Ĉi tiu ŝlosilo nur gravas, se la ŝlosilo montru_tutajn_laborejojn estas vera.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Filas en el selector de áreas de trabajo</short>
+          <long>Esta clave especifica cuántas filas (para la distribución horizontal) o columnas (para la distribución vertical) se muestran dentro del selector de áreas de trabajo. Esta clave sólo es relevante si el valor de la clave «display_all_workspaces» es «true».</long>
+        </locale>
+
+        <locale name="et">
+          <short>Töölauahalduri ridade arv</short>
+          <long>Selle võtmega määratakse, mitmes reas (rõhtasendi puhul) või veerus (püstasendi puhul) tööalade lüliti tööalasid näitab. See võti kehtib ainult juhul, kui võti display_all_workspaces on märgitud.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Laneko arearen aldatzailearen errenkadak</short>
+          <long>Zenbat errenkada (horizontalean bistaratzeko) edo zenbat zutabe (bertikalean bistaratzeko) erabiliko dituen aldatzaileak zehazten du gako honek. display_all_workspaces gakoa ezarrita dagoenean bakarrik erabiltzen da.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>ردیف‌های تعویش‌کننده‌ی فضای کاری</short>
+          <long>این کلید مشخص می‌کند تعویض‌کننده‌ی فضای کاری، فضاهای کاری را در چند ردیف (برای طرح‌های افقی) یا ستون (برای طرح‌های عمودی) نشان می‌دهد. این کلید فقط در صورتی کار می‌کند که display_all_workspaces درست باشد.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Rivejä työtilanvaihtimessa</short>
+          <long>Kun kaikki työtilat näkyvät, tämä määrittää kuinka monessa rivissä (vaaka-asettelu) tai sarakkeessa (pystyasettelu) ne ovat työtilanvaihtimessa. Tällä on merkitystä vain jos avaimen ”display_all_workspaces” arvo on tosi.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Rangées dans le sélecteur d&apos;espaces de travail</short>
+          <long>Cette clé indique le nombre de rangées (pour les agencements horizontaux) ou de colonnes (pour les agencements verticaux) que le sélecteur d&apos;espaces de travail utilise pour afficher les espaces de travail. Cette clé n&apos;est valable que si la clé display_all_workspaces est à vrai.</long>
+        </locale>
+
+        <locale name="fur">
+          <short>Riis tal seletôr arees di lavôr</short>
+          <long>Cheste clâf a specifiche tropis riis (par panei orizontâi) o colonis (par panei verticâi) a son visualizadis tal seletôr. Cheste clâf à un sens dome se la variabil display_all_workspaces a je impostade a TRUE.</long>
+        </locale>
+
+        <locale name="ga">
+          <short>Rónna sa mhalartóir spásanna oibre</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>Filas no selector do espazo de traballo</short>
+          <long>Esta chave especifica cantas filas (para a disposición horizontal) ou columnas (para a disposición vertical) utilizará o selector para mostrar os espazos de traballo. Esta chave só é relevante se a chave display_all_workspaces é verdadeira.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>કામ કરવાની જગ્યામાં ફેરબદલી કરનારમાં આવેલ હરોળો</short>
+          <long>આ કી સ્પષ્ટ કરે છે કે કામ કરવાની જગ્યાની ફેરબદલી કરનાર કેટલી હરોળો (આડા દેખાવ માટે) અથવા સ્તંભોમાં (ઉભા દેખાવ માટે) કામ કરવાની જગ્યા દર્શાવે છે. &apos;જો બધી કામ કરવાની જગ્યાઓ દર્શાવો&apos; કી સાચી હોય તો જ આ કી ઉપયોગી હોઇ શકે.</long>
+        </locale>
+
+        <locale name="ha">
+          <short>Layuka kwance cikin mai sauya filin aiki</short>
+          <long>Wannan maɓalli na ƙayyade yawan layuka kwance (wa tsari mai kwance) ko layuka tsaye (wa tsari mai tsaye) da mai sauya filin aiki zai nuna filayen aiki ciki. Wannan maɓallin na da amfani kawai idan maɓallin nuna_duk_filayenaiki, na gaske ne.</long>
+        </locale>
+
+        <locale name="he">
+          <short>שורות במחליף סביבות העבודה</short>
+          <long>מפתח זה מציין כמה שורות (לסידור אופקי) או עמודות (לסידור אנכי) בהן מחליף סביבות העבודה מציג את סביבות העבודה. מפתח זה רלוונטי רק אם המפתח display_all_workspaces הוא אמת.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>कार्यस्थान स्विचर मे पंक्तियाँ</short>
+          <long>जब सभी कार्यस्थान दिखाया जाए तो यह तय करता है कि कितनी आड़ी पंक्ति (क्षैतिज अभिन्यास हेतु) या खड़ी (लंबवत अभिन्यास हेतु) पंक्ति कार्यस्थान में कार्यस्थान स्विचर दिखाए. यह कुंजी सिर्फ तभी सम्बद्ध होगी यदि सभी-कार्यस्थान-दिखाएँ कुंजी सत्य होगी.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Broj redova u promijeni radnih površina</short>
+          <long>Ovaj ključ određuje koliko redova (za horizontalan raspored) ili kolona (za vertikalan raspored) će prikazivati izmjena radnih površina. Ovaj ključ ima značaja jedino ako je ključ display_all_workspaces postavljen.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>Munkaterület-váltó sorai</short>
+          <long>Minden munkaterület megjelenítésénél ez határozza meg, hogy a kisalkalmazás hány sorban (vízszintes elrendezés) vagy oszlopban (függőleges elrendezés) jeleníti meg a munkaterületeket.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Տողեր աշխատասեղանի փոխարկչում</short>
+          <long>Այս ստեղնը նշում է, թե քանի տող  (հորիզոնական դիրքով) կամ սյուն (ուղղահայաց դիրքով)  է աշխատասեղանի փոխարկիչը ցույց տալիս աշխասեղաններում։ Այս ստեղնը տեղին է, եթե  display_all_workspaces ստեղնը ճիշտ է։</long>
+        </locale>
+
+        <locale name="id">
+          <short>Banyaknya baris pada pengalih area kerja</short>
+          <long>ini mengatur banyaknya baris (pada layout horisontal) atau kolom (pada layout vertikal) yang akan ditampilkan oleh pengalih area kerja. Pengaturan ini berlaku bila display_all_area kerjas dipilih.</long>
+        </locale>
+
+        <locale name="ig">
+          <short>Mpagharauhie n&apos;ime wọkspeesi omembanye</short>
+          <long>Kii a na-egosi mpagharauhie ole (maka ndozi horizon) mọọbụ mpagharaogologo (maka ndozi vatịkal) omembanye wọkspeesi na-egosi wọkspeesi n&apos;ime. Kii a na-aba uru mgbe ngosi wọkspeesi kii_niile_ahụ bụ̀ eziokwu. </long>
+        </locale>
+
+        <locale name="is">
+          <short>Raðir í vinnusvæðaskiptara</short>
+          <long>Þessi lykill tilgreinir hve margar raðir (fyrir lárétt snið) eða dálka (fyrir lóðrétt snið) vinnusvæðaskiptarinn sýnir vinnusvæðin á. Þetta skiptir aðeins máli ef valið er að sýna öll vinnusvæðin.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Righe nel selettore spazio di lavoro</short>
+          <long>Questa chiave specifica quante righe (per pannelli orizzontali) o colonne (per pannelli verticali) sono visualizzate nel selettore. Questa chiave ha senso solo se la chiave display_all_workspaces è impostata a VERO.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>ワークスペース切り替え器の桁数</short>
+          <long>このキーは全てのワークスペースを表示する際に、ワークスペースが (縦方向に) 何行、(横方向) 何列あるかを指定します。このキーは display_all_workspaces が TRUE の場合にのみ有効になります。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>რიგთა რაოდენობა სივრცეთა ამომრჩევში</short>
+          <long>მოცემული გასაღები მიანიშნებს თუ რამდენ რიგად (ჰორიზონტალურად) ან სვეტად (ვერტიკალურად) გადამრთველი გამოსახავს სამუშაო გარემოებს. აქვს აზრი თუ ამორთულია display_all_workspaces გასაღები.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಕಾರ್ಯಕ್ಷೇತ್ರ ಬದಲಾವಣೆಗಾರನಲ್ಲಿರುವ ಸಾಲುಗಳು</short>
+          <long>ಕಾರ್ಯಕ್ಷೇತ್ರ ಬದಲಾವಣೆಗಾರನು ಕಾರ್ಯಕ್ಷೇತ್ರದಲ್ಲಿ ತೋರಿಸಬೇಕಿರುವ ಸಾಲುಗಳು (ಅಡ್ಡ ವಿನ್ಯಾಸಕ್ಕಾಗಿ) ಹಾಗು ಕಾಲಂಗಳನ್ನು(ಲಂಬ ವಿನ್ಯಾಸಕ್ಕಾಗಿ)ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ. ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳನ್ನು ತೋರಿಸು ಕೀಲಿಯು true ಆಗಿದ್ದಲ್ಲಿ ಈ ಕೀಲಿಯು ಸೂಕ್ತವೆನಿಸುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>작업 공간 바꾸기의 줄 개수</short>
+          <long>이 키는 작업 공간 바꾸기 프로그램에서 작업 공간을 몇 줄(가로 방향일 경우) 혹은 몇 열(세로 방향일 경우)로 보여줄 지 지정합니다.  이 키는 display_all_workspaces 키가 참일 경우에만 의미가 있습니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Di guherkera qada xebatê de hejmara rêzikan</short>
+          <long>Ev mifte diyar dike ku wê guherkerê qada xebatê ew ê qadên xebatê di hundirê çend rêzikan de (bo pergala serpahnayê) an jî stûnan de (bo pergala serdirêjahiyê) bide xuyanî.Heke hemû qadên xebatê werine xuyanî ev mifte watedar e.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Тандагычтагы саптардын саны</short>
+          <long>Бул ачкыч, тандагыч канча сапты (горизонталдык жайгашууда) же канча мамычаны (вертикалдык жайгашууда) чагылдыруусун аныктайт. display_all_workspaces ачкычы орнотулган убакта гана мааниси бар.</long>
+        </locale>
+
+        <locale name="lt">
+          <short>Eilučių skaičius darbalaukių keitiklyje</short>
+          <long>Rodant visus darbalaukius, tai nustato keliose eilutėse (horizontaliame išdėstyme) ar stulpeliuose (vertikaliame išdėstyme) darbalaukių keitiklis rodys darbalaukius</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Rindu skaits darba vietu pārslēdzējā</short>
+          <long>Šī vērtība nosaka cik daudz rindās (horizontālam izkārtojumam) vai kolonās (vertikālajam izkārtojumam) Darba vietu pārslēgs parāda darba vietas. Šī vērtība ir aktuāla vienīgi, ja ir izvēlēts display_all_workspaces.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>कार्यस्थान स्विचरमे पंक्तिसभ</short>
+          <long>जखन सबहि कार्यस्थान देखाओल जाए तँ ई तय करैत अछि जे कतेक आड़ा पंक्ति (क्षैतिज अभिन्यास लेल) अथवा ठाड़ (लंबवत अभिन्यास लेल) पंक्ति कार्यस्थानमे कार्यस्थान स्विचर देखओलक. ई कुँजी सिर्फ तखन सम्बद्ध हाएत जँ सभ-कार्यस्थान-देखाबू कुँजी सत्य हाएत.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Andalana anatin&apos;ny mpampisafidy workspace</short>
+          <long>Ity famaha ity dia mamaritra ny isan&apos;ny andalana (ho an&apos;ny layout mandry) na fariana (ho an&apos;ny layout mitsangana) hanehoan&apos;ny mpampifandimby workspace ireo workspace misy. Tsy mitombina io famaha io raha tsy marina ny famaha display_all_workspaces.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Скокач помеѓу простори за работа</short>
+          <long>Ова копче одредува колку редови (за хоризонтално) и колку колони (за вертикално) ќе прикаже скокачот помеѓу работни простори.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>പണിയറ സ്വിച്ചറിലുളള വരികള്‍</short>
+          <long>പണിയറ സ്വിച്ചര്‍ എത്ര നിരകള്‍ (നേരെയുള്ള ശൈലി) അല്ലെങ്കില്‍ വരികളില്‍ (കുറുകെയുള്ള ശൈലി) പണിയറകള്‍ കാണിക്കുന്നു എന്നു് ഈ കീ വ്യക്തമാക്കുന്നുdisplay_all_workspaces കീ true ആണെങ്കില്‍ മാത്രമേ ഈ കീയ്ക്കു് പ്രാധാന്യമുള്ളൂ.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Ажлыг горим сэлгэгчийн мөрүүд</short>
+          <long>Энэ түлхүүр ажлын талбарт ажлын талбар сэлгэгчийн хэдэн багана, мөр байгааг тодорхойлдог. Энэ нь зөвхөн дэлгэцийн бүх ажлын талбарууд үнэн байхад хүчинтэй.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>वर्कस्पेस् स्वीचरमधील ओळी</short>
+          <long>ही कळ खालच्या पातळीवर किती ओळी व स्तंभ आहेत ते दाखविते (उभ्या दिशेने) कार्यक्षेत्राचे बटण किती कार्यक्षेत्र आहेत ते दाखविते. ही कळ display_all_workspaces कि खरे असल्यावरच संबंधित ठरते.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Baris pada penukar ruangkerja</short>
+          <long>Kekunci ini menyatakan berapa banyak baris (bagi susunatur mengufuk) atau kolum (bagi susunatur menegak) penukar ruangkerja yang mepaparkan ruang kerja di dalamnya. Kekunci ini releven jika kekunci display_all_workspaces adalah benar.</long>
+        </locale>
+
+        <locale name="nb">
+          <short>Rader i arbeidsområdebytter</short>
+          <long>Denne nøkkelen spesifiserer hvor mange rader (for horisontal plassering) eller kolonner (for vertikal plassering) arbeidsområdebytteren viser arbeidsområdene i. Denne nøkkelen er kun relevant når nøkkelen «display_all_workspaces» er satt til «true».</long>
+        </locale>
+
+        <locale name="ne">
+          <short>कार्यस्थान स्विचकर्तामा पङ्क्ति</short>
+          <long>यस कुञ्जीले कार्यस्थान स्विचकर्ताले कार्यस्थान भित्र कति पङ्क्ति (तेर्सो सजावटका लागि) वा स्तम्भ (ठाडो सजावटका लागि) देखाउछ निर्दिष्ट गर्दछ । यो कुञ्जी प्रदर्शित सबै कार्यस्थान कुञ्जी ठीक भएमा मात्र सम्बन्धित हुन्छ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Rijen in werkbladwisselaar</short>
+          <long>Deze sleutel geeft aan in hoeveel rijen (voor horizontale lay-out) of kolommen (voor verticale lay-out) de werkbladwisselaar de werkbladen weergeeft. Deze sleutel is slechts relevant als de sleutel display_all_workspaces waar is.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Rader i arbeidsområdeskiftar</short>
+          <long>Denne nøkkelen styrer kor mange rader (i vassrett plassering) eller kolonner (i loddrett plassering) som arbeidsområdehandsamaren viser arbeidsområda i. Denne nøkkelen er berre relevant når «display_all_workspaces» er satt til «sann».</long>
+        </locale>
+
+        <locale name="nso">
+          <short>Methalo sefetoding sa sekgoba sa go šomela</short>
+          <long>Senotlelo se se laetša gore ke methalo e mekae (bakeng sa go bea mo go rapamego) goba dikholomo (bakeng sa go bea mo go tsepamego) sefetodi sa sekgoba sa go šomela se di bontšhago sekgoba sa go šomela go sona. Senotlelo se sepelelana feela ge eba senotlelo sa bontšha_dikgoba_ka moka tša go šomela e le therešo.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Linhas dins lo seleccionaire d&apos;espacis de trabalh</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>କାର୍ଯ୍ଯକ୍ଷେତ୍ର ଚୟକରେ ଧାଡ଼ିର ସଂଖ୍ଯା</short>
+          <long>ଏହି ଚାବି କାର୍ଯ୍ଯକ୍ଷେତ୍ର ଚୟକରେ ଧାଡ଼ିର ସଂଖ୍ଯା (ଭୂସମାନ୍ତର ବିନ୍ଯାସ ପାଇଁ) ବା ସ୍ତମ୍ଭର ସଂଖ୍ଯା (ଭୂଲମ୍ବ ବିନ୍ଯାସ ପାଇଁ) ନିର୍ଦ୍ଦିଷ୍ଟ କରେ. ସବୁ_କାର୍ଯ୍ଯକ୍ଷେତ୍ର_ପ୍ରଦର୍ଶିତ_କରନ୍ତୁ ଚାବି ସତ ଥିଲେ ହିଁ ଏହି ଚାବିର ପ୍ରଭାବ ହେବ.</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਵਰਕਸਪੇਸ ਸਵਿੱਚਰ ਵਿੱਚ ਕਤਾਰਾਂ</short>
+          <long>ਇਹ ਕੁੰਜੀ ਤਹਿ ਕਰਦੀ ਹੈ ਕਿ ਵਰਕਸਪੇਸ ਸਵਿੱਚਰ ਵਰਕਸਪੇਸ ਨੂੰ ਕਿੰਨੀਆ ਕਤਾਰਾਂ (ਲੇਟਵੇ ਰੂਪ ਵਿੱਚ) ਜਾਂ ਕਾਲਮਾਂ (ਲੰਬਕਾਰੀ ਰੂਪ ਵਿੱਚ) ਵਿੱਚ ਵੇਖਾਵੇ। ਇਹ ਸਿਰਫ ਤਾਂ ਹੀ ਸਹੀ ਹੈ, ਜੇਕਰ display_all_workspaces ਕੁੰਜੀ ਸੱਚ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Liczba wierszy w przełączniku obszarów roboczych</short>
+          <long>Klucz ten określa, ile wierszy (dla układu poziomego) lub kolumn (w przypadku układu pionowego) będzie zawierał przełącznik obszarów roboczych. Opcja ta ma zastosowanie tylko gdy ustawione jest display_all_workspaces.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>په کارشې ونجوونکي کښې د کيلونو شمېر</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Linhas no alternador de áreas</short>
+          <long>Esta chave especifica em quantas linhas (para disposição horizontal) ou colunas (para disposição vertical) o alternador de áreas os apresenta. Esta chave apenas é relevante se a chave display_all_workspaces for verdadeira.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Linhas no Alternador de espaços de trabalho</short>
+          <long>Essa chave especifica quantas linhas (para horizontal) ou colunas (para vertical) o Alternador de espaços de trabalho mostrará. Esta chave só é relevante se a chave display_all_workspaces for verdadeira.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Rânduri în comutatorul spațiilor de lucru</short>
+          <long>Această cheie specifică câte rânduri (la aranjarea orizontală) sau coloane (la aranjarea verticală) utilizează comutatorul spațiilor de lucru. Această valoare e relevantă doar dacă cheia „display_all_workspaces” este setată.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Строк в переключателе</short>
+          <long>Этот ключ определяет, во сколько рядов (при горизонтальном размещении) или столбцов (при вертикальном размещении) переключатель будет показывать рабочие места. Имеет смысл только если установлен ключ display_all_workspaces.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Počet riadkov v prepínaní plôch</short>
+          <long>Pri zobrazení všetkých plôch určuje, koľko riadkov (pre horizontálne rozloženie) a stĺpcov (pre vertikálne rozloženie) sa má zobraziť. Má zmysel iba pri zapnutí kľúča display_all_workspaces.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Vrstice v preklopniku delovnih površin</short>
+          <long>Ta ključ določa koliko vrstic (za vodoravno postavitev) ali stolpcev (za navpično postavitev) se pokaže v Preklopniku delovnih površin. Možnost je odvisna od možnosti prikaži vse delovne površine</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Rreshta tek zgjedhësi i hapësirës së punës</short>
+          <long>Kjo vlerë tregon numrin e rreshtave (për panelët horizontalë) apo të kollonave (për panelët vertikalë) që janë të shfaqur tek zgjedhësi. Ky kyç ka kuptim vetëm nëqoftëse kyçi display_all_workspaces është vendosur në &quot;e vërtetë&quot;.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Број редова у измени радних површина</short>
+          <long>Овај кључ одређује колико редова (за водоравно пружање) или колона (за усправно пружање) ће приказивати измена радних површина. Овај кључ има значаја једино ако је кључ display_all_workspaces постављен.</long>
+        </locale>
+
+        <locale name="sr@ije">
+          <short>Број редова у измјени радних површина</short>
+          <long>Овај кључ одређује колико редова (за хоризонталан распоред) или колона (за вертикалан распоред) ће приказивати измјена радних површина. Овај кључ има значаја једино ако је кључ display_all_workspaces постављен.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Broj redova u izmeni radnih površina</short>
+          <long>Ovaj ključ određuje koliko redova (za vodoravno pružanje) ili kolona (za uspravno pružanje) će prikazivati izmena radnih površina. Ovaj ključ ima značaja jedino ako je ključ display_all_workspaces postavljen.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Rader i arbetsyteväxlaren</short>
+          <long>Denna nyckel anger hur många rader (för horisontell layout) eller kolumner (för vertikal layout) som arbetsyteväxlaren visar arbetsytorna i. Denna nyckel är endast relevant om nyckeln display_all_workspaces är sann.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>வேலையிடம் மாற்றியில் வரிசைகள்</short>
+          <long>இந்த விசை எத்தனை வரிசை(கிடைமட்டம்) அல்லது நெடுவரிசை (செங்குத்து) வரிகள் பணியிடமாற்றியால் பணியிடத்தில் காட்ட முடியும் என்பதை காட்டும். display_all_workspaces  என்பதை உண்மை என அமைத்தால் இந்த தகவல்கள் காட்டப்படும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>కార్యక్షేత్రం మార్చదానిలో గల అడ్డువరుసలు</short>
+          <long>కార్యక్షేత్రం మార్చునది దానిలో గల కార్యక్షేత్రలను ఎన్ని అడ్డువరుసలలో(అడ్డ నమూనా కొరకు) లేదా నిలువువరుసలలో (నిలువు నమూనా కొరకు) చూపిస్తుందో ఈ కీ తెలియజేస్తుంది.ఈ కీ display_all_workspaces కీ నిజమైతే మాత్రమే సంభందితంగా ఉంటుంది.</long>
+        </locale>
+
+        <locale name="th">
+          <short>จำนวนแถวในช่องสลับพื้นที่ทำงาน</short>
+          <long>ค่านี้กำหนดจำนวนแถว (สำหรับการจัดวางแนวนอน) หรือจำนวนคอลัมน์ (สำหรับการจัดวางแนวตั้ง) ที่ช่องสลับพื้นที่ทำงานใช้แสดงพื้นที่ทำงาน ค่านี้ใช้ได้ก็ต่อเมื่อค่า display_all_workspaces เป็นจริง</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Çalışma alanı değiştiricisindeki satır sayısı</short>
+          <long>Bu anahtar çalışma alanı değiştiricisinin çalışma alanlarını kaç sıra (yatay düzen için), veya sütun (dikey düzen için) içinde göstereceğini belirtir. Bu anahtar sadece tüm çalışma alanları görüntüleniyorsa anlamlıdır.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Рядків у перемикачі робочих областей</short>
+          <long>Цей параметр визначає, скільки рядків (при горизонтальному розміщенні) чи стовпчиків (при вертикальному), показує перемикач робочих областей. Цей параметр має сенс лише коли встановлено параметр display_all_workspaces.</long>
+        </locale>
+
+        <locale name="uz">
+          <short>Tanlagichdagi qatorlar soni</short>
+          
+        </locale>
+
+        <locale name="uz@cyrillic">
+          <short>Танлагичдаги қаторлар сони</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>Các hàng trong Bộ chuyển vùng làm việc</short>
+          <long>Khoá này xác định bao nhiêu hàng (cho bố trí dọc) hoặc bao nhiêu cột (cho bố trí ngang) mà bộ chuyển vùng làm việc hiển thị các vùng làm việc trong nó. Khoá này chỉ có cần thiết nếu khoá display_all_workspaces (hiển thị mọi vùng làm việc) là true (thật).</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Izakhelo zemikrozo esuka ekhohlo kumvuli-mvali wezithuba zokusebenza</short>
+          
+        </locale>
+
+        <locale name="yo">
+          <short>Àwọn róòlù nínú ìjánu-ìsún ààyè-iṣẹ́</short>
+          <long>Bọ́́tìnì yìí ń sọ ní pàtó iye àwọn róòlù (fún ìlàálẹ̀ ìbú) tàbí àwọṅ kọ́lọ̀mù (fún ìlàálẹ̀òòró) tí ìjánu-ìsún ààyè-iṣẹ́ ń fihàn àwọn ààyè-iṣẹ́ náà. Bọ́tìnì yìí kàn sì wúlòtí bọ́tìnì àwọn ààyè-iṣẹ́_gbogbo_ìṣàfihàn bá jẹ́ òótọ́.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>工作区切换器中的行数</short>
+          <long>决定了工作区切换器将使用多少行(水平布局)或列(垂直布局)来显示工作区。此设置仅当显示所有工作区为 true 时生效。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>工作區切換程式的列數</short>
+          <long>本設定鍵會決定「工作區切換程式」使用多少列（水平排列）或多少行（垂直排列）來顯示工作區。本設定鍵會在 display_all_workspaces key 設定為‘true’時才生效。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>工作區切換程式的列數</short>
+          <long>本設定鍵會決定「工作區切換程式」使用多少列（水平排列）或多少行（垂直排列）來顯示工作區。本設定鍵會在 display_all_workspaces key 設定為‘true’時才生效。</long>
+        </locale>
+
+        <locale name="zu">
+          <short>Imidenda kumqhebezi endaweni yokusebenzela</short>
+          <long>Lenkinobho isho inani ledena (lokuqonde dindilizi) noma imihume (lokumile thwi) umqhebezi wendawo yokusebenzela ubonisa izindawo okusetshenzelwa khona. Lenkinobho ibaluleke uma inkinobho display_all_workspaces ziyiqniso.</long>
+        </locale>
+      </schema>
+
+  </schemalist>
+
+</gconfschemafile>

@@ -1,0 +1,10 @@
+34948cc8c2d878f9d44895aa154aa855  usr/lib/gtk-2.0/2.10.0/engines/libsvg.so
+6f0037319ca664bad745bacbe8943768  usr/lib/gtk-2.0/2.10.0/loader-files.d/librsvg2-common.loaders
+e0c9503f8323d284e3a9fecd5c801a7d  usr/lib/gtk-2.0/2.10.0/loaders/svg_loader.so
+eed264c141adad339f23ca6c40fdf8af  usr/share/doc/librsvg2-common/AUTHORS
+591279a3c36f7468ee6135cfe85fe5ef  usr/share/doc/librsvg2-common/NEWS.gz
+7169b98392b79863379c2388d717c662  usr/share/doc/librsvg2-common/README
+7e99b929be3d04fe538126f0d3117e2d  usr/share/doc/librsvg2-common/TODO
+b948469eb6485c9c26dd4a821760986e  usr/share/doc/librsvg2-common/changelog.Debian.gz
+e05a867c6467287beb897b0c0f610b77  usr/share/doc/librsvg2-common/changelog.gz
+5488763c3d42ef3601d362dc573dee91  usr/share/doc/librsvg2-common/copyright

@@ -1,0 +1,13 @@
+c383d8c5890d42e6a735d0b412001470  usr/lib/xf86-input-evtouch/calibrate.sh
+5c69517c3678265b32cd76b5b36d3105  usr/lib/xf86-input-evtouch/ev_calibrate
+dbd09fab56175f121c1039883a741ca5  usr/lib/xorg/modules/input/evtouch_drv.so
+df81a55914dcfb8f31a71ba087ed4269  usr/share/X11/xorg.conf.d/50-evtouch.conf
+a13ea728c7b2acb199c3800bd20a27cf  usr/share/doc/xserver-xorg-input-evtouch/README
+98be014e1b6a04386444cf7bbb436132  usr/share/doc/xserver-xorg-input-evtouch/README.Debian
+8938c034a4e93ed75f63f8893528105d  usr/share/doc/xserver-xorg-input-evtouch/README.calibration
+73a9ed0904b474a5f85806b548b4d10c  usr/share/doc/xserver-xorg-input-evtouch/TODO
+13ea5293349614c03fe052b2e575f534  usr/share/doc/xserver-xorg-input-evtouch/changelog.Debian.gz
+f4a379c2b2cec7b24b3ddbf870710839  usr/share/doc/xserver-xorg-input-evtouch/changelog.gz
+fe72aca44207e1e0b6409430c5a61788  usr/share/doc/xserver-xorg-input-evtouch/copyright
+b30229426b37a894f8f192f3be9de61d  usr/share/doc/xserver-xorg-input-evtouch/evtouch.html
+bf6a34d4c3c58a485b1c94be7b633bb6  usr/share/xf86-input-evtouch/empty_cursor.xbm

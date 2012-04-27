@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libapm.so.1.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libapm1
+/usr/share/doc/libapm1/AUTHORS
+/usr/share/doc/libapm1/copyright
+/usr/share/doc/libapm1/changelog.gz
+/usr/share/doc/libapm1/changelog.Debian.gz
+/usr/lib/libapm.so.1

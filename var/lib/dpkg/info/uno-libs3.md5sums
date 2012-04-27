@@ -1,0 +1,13 @@
+485044cc7c5196e4a5a0c0e910678b15  usr/lib/ure/lib/libuno_cppu.so.3
+82b1c80f6e94bf491bd41da8bf2b6fb5  usr/lib/ure/lib/libuno_cppuhelpergcc3.so.3
+fe8f432c401bcbc8c8b734c3cdd2669b  usr/lib/ure/lib/libuno_purpenvhelpergcc3.so.3
+2017cece6cb374a02d3cc298cd96259f  usr/lib/ure/lib/libuno_sal.so.3
+5fb730db1372e511ee6df39ff8a3d44f  usr/lib/ure/lib/libuno_salhelpergcc3.so.3
+89cb9ecd83b1679780a88ff35844f5f8  usr/share/bug/uno-libs3/presubj
+670505bff0aff7bc7286480c64a1f3f3  usr/share/doc/uno-libs3/NEWS.gz
+82984350200d4399f611a1fa4123be3c  usr/share/doc/uno-libs3/README.Debian.gz
+e28eb8ac9ef78ab3358db2180f1cb3f7  usr/share/doc/uno-libs3/README.gz
+24e19f1b232f8b7c7caec17b34d061b1  usr/share/doc/uno-libs3/changelog.Debian.gz
+7e570257b3058ac58fa3c05b49f31174  usr/share/doc/uno-libs3/changelog.gz
+90e6d3cc527dcc5523348c9574508db2  usr/share/doc/uno-libs3/copyright
+e73c5adff85fa70ef86a00f97ee63042  usr/share/lintian/overrides/uno-libs3

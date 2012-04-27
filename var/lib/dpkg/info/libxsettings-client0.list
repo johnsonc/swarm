@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libXsettings-client.so.0.0.0
+/usr/share
+/usr/share/linda
+/usr/share/linda/overrides
+/usr/share/linda/overrides/libxsettings-client0
+/usr/share/doc
+/usr/share/doc/libxsettings-client0
+/usr/share/doc/libxsettings-client0/copyright
+/usr/share/doc/libxsettings-client0/changelog.gz
+/usr/share/doc/libxsettings-client0/changelog.Debian.gz
+/usr/lib/libXsettings-client.so.0

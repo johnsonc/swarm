@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="Effects" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Effects">
+      <node oor:name="ooo-entrance-appear">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दृश्यमान होणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fly-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फ्लाय इन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-venetian-blinds">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वेनेशियन ब्लाईन्ड्स</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-box">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बॉक्स</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-checkerboard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चेकरबोर्ड</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वर्तुळ</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fly-in-slow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हळू फ्लाय ईन करा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हिरा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-dissolve-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मध्ये विरघळणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fade-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फीके पडणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-flash-once">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">एकदा फ्लैश</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-peek-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पीक ईन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-plus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अधिक</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-random-bars">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रॅन्डम पट्टी</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-spiral-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मध्ये चक्राकार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-split">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दुभागा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-stretchy">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विस्तारीत</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-diagonal-squares">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण चौरस</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वाइवल</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-wedge">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वेज</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-wheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्र</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-wipe">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुसा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लहान मोठे करा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-random">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रॅन्डम प्रभाव</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-boomerang">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बूमेरांग</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-bounce">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उसळी मारा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-colored-lettering">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रंगीत चिन्हांकन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-movie-credits">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मूवी क्रेडिट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-ease-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इझ-ईन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-float">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अस्थायी</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-turn-and-grow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वळवा व वाढा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-breaks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खंडित करा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-pinwheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पीनचक्र</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-rise-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उत्थापन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-falling-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">यांत पतन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-thread">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दोरा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-unfold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उलगडा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-whip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">व्हीप</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-ascend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उतरणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-center-revolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मध्यात फिरणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fade-in-and-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फीके होऊन स्वीवल होणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-descend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चढत्या</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-sling">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्लींग</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-spin-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आत स्पिन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-compress">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">संक्षिप्त </value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-magnify">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विवर्धन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-curve-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्र वरती</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fade-in-and-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फीके होणे व झूम</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-glide">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ग्लाईड</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-expand">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विस्तृत</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-flip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पलटी करा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">गुंडाळा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-fill-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">भरलेले रंग बदला</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट् बदला</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट रंग बदला</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font-size">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट परिमाण बदला</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font-style">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट शैली बदला</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-grow-and-shrink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वृद्धी व आकुंचन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-line-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेचा रंग बदला</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-spin">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्पिन </value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-transparency">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पारदर्शकता</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-bold-flash">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ठळक फ्लैश</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-color-over-by-word">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वर्ड द्वारा रंग समाप्ति</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-reveal-underline">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">प्रकटीत रेखांकन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-color-blend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रंग संमिश्रण</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-color-over-by-letter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पत्राद्वारे रंग समाप्ति</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-complementary-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पूरक रंग</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-complementary-color-2">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पूरक रंग २</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-contrasting-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विरोधाभास रंग</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-darken">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">गडद</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-desaturate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">व्याप्त नसलेले</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-flash-bulb">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फ्लैश बल्ब</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-lighten">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फिका करणे (हलका करणे)</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-vertical-highlight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उभ्या स्वरूपात आकर्षक</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-flicker">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फ्लीकर (लुकलुकणे)</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-grow-with-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रंगसह वृद्धी</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-shimmer">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लुकलुकणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-teeter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दोलायमान</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-blast">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्फोट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-blink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उघडझाप</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-style-emphasis">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शैलीवर जोर देणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-bold-reveal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ठळक प्रकटीत</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लाट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-venetian-blinds">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वेनेशियन ब्लाईन्ड्स</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-box">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बॉक्स</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-checkerboard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चेकरबोर्ड</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्र</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-crawl-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बाहेर सरपटणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हिरा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-disappear">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अदृश्य</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-dissolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विरघळणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-flash-once">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">एकदा फ्लैश</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fly-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फ्लाय आउट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-peek-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पीक आउट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-plus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अधिक</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-random-bars">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रॅन्डम पट्टी</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-random">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रॅन्डम प्रभाव</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-split">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दुभागा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-diagonal-squares">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण चौरस</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-wedge">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वेज</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-wheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्र</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-wipe">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुसा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-contract">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आकुंचन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fade-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फीके पडणे </value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fade-out-and-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फीके होऊन स्वीवल होणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fade-out-and-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फीके होणे व झूम</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-ascend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उतरणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-center-revolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मध्यात फिरणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-collapse">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ढासळणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-colored-lettering">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रंगीत चिह्नांकन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-descend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चढत्या</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-ease-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वस्थता</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-turn-and-grow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वळवा व वाढा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-sink-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली बुडणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-spin-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बाहेर फिरवणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-stretchy">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विस्तारीत</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-unfold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उलगडा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झूम</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-boomerang">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बूमेरांग</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-bounce">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उसळी मारा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-movie-credits">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मूवी क्रेडिट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-curve-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्र खाली </value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-flip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पलटी करा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-float">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अस्थायी</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">गुंडाळा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-glide">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">प्रसर्पण</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-breaks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खंडित करा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-magnify">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विवर्धन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-pinwheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पीनचक्र</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-sling">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्लींग</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-spiral-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्राकार बाहेरून </value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-swish">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सळसळणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वाइवल</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-thread">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दोरा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-whip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">व्हीप</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-4-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">4 बिंदु स्टार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-5-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">5 बिंदु स्टार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-6-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">6 बिंदु स्टार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-8-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">8 बिंदु स्टार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्र</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-crescent-moon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चंद्रकोर</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हिरा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-equal-triangle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">समान त्रिकोण</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-oval">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लंबगोल</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-heart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हृदय</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-hexagon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">षट्कोन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-octagon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अष्टकोन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-parallelogram">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">समांतरभुज चौकोन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-pentagon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पंचकोन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-right-triangle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">काटकोन त्रिकोण</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-square">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चौरस</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-teardrop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अश्रुथेंब</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-trapezoid">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विषम चतुर्भुज</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आर्क खाली</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आर्क डावा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आर्क उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आर्क वर</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-bounce-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डाव्या बाजूस उसळणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-bounce-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजव्या बाजूस उसळणे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curvy-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्राकार डावा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-spiral-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्राकार डावा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-spiral-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्राकार उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-sine-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">साइन लाट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-s-curve-1">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">S वक्र 1</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-s-curve-2">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">S वक्र 2</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-heartbeat">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हृदयाचा ठोका</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curvy-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्राकार उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-decaying-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ऱ्हसन लाट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-diagonal-down-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण खाली उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-diagonal-up-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण वरती उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-funnel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नसराळे</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-spring">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्प्रिंग</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-stairs-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पायरी खाली</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालच्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-down-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली उजव्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरच्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-up-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरती उजव्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वर</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लाट</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-zigzag">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नागमोडी</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-bean">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बीन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-buzz-saw">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बझ सॉ</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curved-square">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्राकार चौरस</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curved-x">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्राकार X</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curvy-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वक्राकार स्टार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-figure-8-four">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आकृति 8 चार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-horizontal-figure-8">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">समतल आकृति 8</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-inverted-square">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">व्युत्क्रांत चौरस</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-inverted-triangle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">व्युत्क्रांत त्रिकोण</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-loop-de-loop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लूप डी लूप</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-neutron">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">न्यूट्रॉन</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-peanut">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शेंगदाणा</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-clover">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्लोवर</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-pointy-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">टोकदार स्टार</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-swoosh">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वूश</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-vertical-figure-8">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लंबरूपी आकृति 8</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-media-start">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मिडीया प्रारंभ</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-media-stop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मिडीया समाप्त</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-media-toggle-pause">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">टॉगल स्तब्ध</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Properties">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मूळ</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विशेष</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">माफक</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खळबळजनक</value>
+        </prop>
+      </node>
+      <node oor:name="subtle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मार्मिक</value>
+        </prop>
+      </node>
+      <node oor:name="linesandcurves">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषा व वक्र</value>
+        </prop>
+      </node>
+      <node oor:name="vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लंबरूपी</value>
+        </prop>
+      </node>
+      <node oor:name="horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आडवे</value>
+        </prop>
+      </node>
+      <node oor:name="in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आंत</value>
+        </prop>
+      </node>
+      <node oor:name="across">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पलिकडे</value>
+        </prop>
+      </node>
+      <node oor:name="down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली</value>
+        </prop>
+      </node>
+      <node oor:name="up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वर</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तळा पासून</value>
+        </prop>
+      </node>
+      <node oor:name="from-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावी पासून</value>
+        </prop>
+      </node>
+      <node oor:name="from-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडून</value>
+        </prop>
+      </node>
+      <node oor:name="from-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरपासून</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालून डावा</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालून उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरून डावा</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरून उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="horizontal-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">समतल आंत</value>
+        </prop>
+      </node>
+      <node oor:name="horizontal-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">समतल बाहेर</value>
+        </prop>
+      </node>
+      <node oor:name="vertical-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लंबरूपी आंत</value>
+        </prop>
+      </node>
+      <node oor:name="vertical-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लंबरूपी बाहेर</value>
+        </prop>
+      </node>
+      <node oor:name="out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बाहेर</value>
+        </prop>
+      </node>
+      <node oor:name="out-from-screen-center">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पडद्याच्या मध्यभागातून बाहेर</value>
+        </prop>
+      </node>
+      <node oor:name="in-from-screen-center">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पडद्याच्या मध्यभागातून आंत</value>
+        </prop>
+      </node>
+      <node oor:name="in-slightly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">थोडे आतल्या बाजूस</value>
+        </prop>
+      </node>
+      <node oor:name="out-slightly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">थोडे बाहेरच्या बाजूस</value>
+        </prop>
+      </node>
+      <node oor:name="left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडे खाली </value>
+        </prop>
+      </node>
+      <node oor:name="left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडे वर</value>
+        </prop>
+      </node>
+      <node oor:name="right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडे वर</value>
+        </prop>
+      </node>
+      <node oor:name="right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडे खाली </value>
+        </prop>
+      </node>
+      <node oor:name="to-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तळाकडे</value>
+        </prop>
+      </node>
+      <node oor:name="to-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डाव्या बाजूस</value>
+        </prop>
+      </node>
+      <node oor:name="to-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजव्या बाजूस</value>
+        </prop>
+      </node>
+      <node oor:name="to-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरती</value>
+        </prop>
+      </node>
+      <node oor:name="to-bottom-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालून डावा</value>
+        </prop>
+      </node>
+      <node oor:name="to-bottom-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालून उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="to-top-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरून डावा</value>
+        </prop>
+      </node>
+      <node oor:name="to-top-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरून उजवा</value>
+        </prop>
+      </node>
+      <node oor:name="clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">घड्याळकाट्याच्या दिशेने</value>
+        </prop>
+      </node>
+      <node oor:name="counter-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">घड्याळकाट्याच्या विरुद्ध दिशेने</value>
+        </prop>
+      </node>
+      <node oor:name="downward">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालच्या दिशेने</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-right-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तळाच्या-उजवीकडे आडव्या स्वरूपापासून</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-right-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तळाच्या-उजवीकडे उभ्या स्वरूपापासून</value>
+        </prop>
+      </node>
+      <node oor:name="from-center-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">  घड्याळकाट्याच्या दिशेने मध्यापासून</value>
+        </prop>
+      </node>
+      <node oor:name="from-center-counter-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr"> घड्याळकाट्याच्या विरूद्ध दिशेने मध्यापासून</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">  घड्याळकाट्याच्या दिशेने वरून-डावीकडून</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">  वरून-डाव्याव्या आडव्या स्वरूपाकडून</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">  वरून-डाव्या उभ्या स्वरूपाकडून</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-right-counter-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरून-उजवीकडे घड्याळकाट्याच्या विरूद्धदिशेने</value>
+        </prop>
+      </node>
+      <node oor:name="left-to-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडून तळाकडे</value>
+        </prop>
+      </node>
+      <node oor:name="left-to-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडून वरती</value>
+        </prop>
+      </node>
+      <node oor:name="right-to-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडून तळाकडे</value>
+        </prop>
+      </node>
+      <node oor:name="right-to-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडून वरती</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Transitions">
+      <node oor:name="venetian-blinds-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">Venetian Blinds आडवे</value>
+        </prop>
+      </node>
+      <node oor:name="venetian-blinds-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">Venetian Blinds उभे</value>
+        </prop>
+      </node>
+      <node oor:name="box-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बॉक्स आंत</value>
+        </prop>
+      </node>
+      <node oor:name="box-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बॉक्स बाहेर</value>
+        </prop>
+      </node>
+      <node oor:name="checkerboard-across">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चेकरबोर्ड पलिकडे</value>
+        </prop>
+      </node>
+      <node oor:name="checkerboard-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चेकरबोर्ड खाली</value>
+        </prop>
+      </node>
+      <node oor:name="comb-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विंचरा समतल</value>
+        </prop>
+      </node>
+      <node oor:name="comb-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विंचरा लंबरूपी</value>
+        </prop>
+      </node>
+      <node oor:name="cover-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण खाली</value>
+        </prop>
+      </node>
+      <node oor:name="cover-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण डावीकडे</value>
+        </prop>
+      </node>
+      <node oor:name="cover-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण उजवीकडे</value>
+        </prop>
+      </node>
+      <node oor:name="cover-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण वरती</value>
+        </prop>
+      </node>
+      <node oor:name="cover-left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण डावीकडे-खाली</value>
+        </prop>
+      </node>
+      <node oor:name="cover-left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण डावीकडे-वर</value>
+        </prop>
+      </node>
+      <node oor:name="cover-right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण उजवीकडे-खाली</value>
+        </prop>
+      </node>
+      <node oor:name="cover-right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">झाकण उजवीकडे-वर</value>
+        </prop>
+      </node>
+      <node oor:name="cut">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कापा</value>
+        </prop>
+      </node>
+      <node oor:name="cut-through-black">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">काळ्यामधून कापा </value>
+        </prop>
+      </node>
+      <node oor:name="dissolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विरघळणे</value>
+        </prop>
+      </node>
+      <node oor:name="fade-smoothly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मृदुतेने फीके पडणे </value>
+        </prop>
+      </node>
+      <node oor:name="fade-through-black">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">काळ्यातून फीके पडणे</value>
+        </prop>
+      </node>
+      <node oor:name="zoom-rotate-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वृत्तफ्लैश</value>
+        </prop>
+      </node>
+      <node oor:name="push-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली ढकला</value>
+        </prop>
+      </node>
+      <node oor:name="push-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडे ढकला</value>
+        </prop>
+      </node>
+      <node oor:name="push-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडे ढकला</value>
+        </prop>
+      </node>
+      <node oor:name="push-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वर ढकला</value>
+        </prop>
+      </node>
+      <node oor:name="random-bars-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रॅन्डम पट्टी समतल</value>
+        </prop>
+      </node>
+      <node oor:name="random-bars-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रॅन्डम पट्टी लंबरूपी</value>
+        </prop>
+      </node>
+      <node oor:name="shape-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रूप वृत्त </value>
+        </prop>
+      </node>
+      <node oor:name="shape-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रूप हिरा</value>
+        </prop>
+      </node>
+      <node oor:name="shape-plus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रूप अधिक</value>
+        </prop>
+      </node>
+      <node oor:name="split-horizontal-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आडवे दुभाजन वाढवा</value>
+        </prop>
+      </node>
+      <node oor:name="split-horizontal-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आडवे दुभाजन कमी करा</value>
+        </prop>
+      </node>
+      <node oor:name="split-vertical-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उभे दुभाजन वाढवा</value>
+        </prop>
+      </node>
+      <node oor:name="split-vertical-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उभे दुभाजन कमी करा</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण चौरस डावीकडे-खाली</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण चौरस डावीकडे-वर</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण चौरस उजवीकडे-खाली</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्ण चौरस उजवीकडे-वर</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालचे अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडील अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवे अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरचे अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडील अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडून वरचे अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडून-खालचे अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडून-वरचे अशक्य करा</value>
+        </prop>
+      </node>
+      <node oor:name="wedge">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वेड्ज्</value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-1-spoke">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्र दक्षिणावर्ती,1 आरा</value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-2-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्र दक्षिणावर्ती, 2 आरे </value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-3-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्र दक्षिणावर्ती,  3 आरे </value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-4-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्र दक्षिणावर्ती, 4 आरे </value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-8-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चक्र दक्षिणावर्ती,  8 आरे</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली पुसणे</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावीकडे पुसणे</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवीकडे पुसणे</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरती पुसणे</value>
+        </prop>
+      </node>
+      <node oor:name="random-transition">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">यादृच्छिक परिवर्तन</value>
+        </prop>
+      </node>
+      <node oor:name="tile-flip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">टाईल्स् दुमडत आहे</value>
+        </prop>
+      </node>
+      <node oor:name="outside-cube">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फिरणाऱ्या क्यूबच्या बाहेर</value>
+        </prop>
+      </node>
+      <node oor:name="revolving-circles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फिरणारे गोलाकार</value>
+        </prop>
+      </node>
+      <node oor:name="turning-helix">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हेलीक्स् रूपात फिरवा</value>
+        </prop>
+      </node>
+      <node oor:name="inside-cube">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फिरणाऱ्या क्यूबमध्ये</value>
+        </prop>
+      </node>
+      <node oor:name="fall">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उतार</value>
+        </prop>
+      </node>
+      <node oor:name="turn-around">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फिरवा</value>
+        </prop>
+      </node>
+      <node oor:name="iris">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आयरीस</value>
+        </prop>
+      </node>
+      <node oor:name="turn-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली फिरवा</value>
+        </prop>
+      </node>
+      <node oor:name="rochade">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रॉकेड</value>
+        </prop>
+      </node>
+      <node oor:name="venetian3dv">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">Venetian Blinds 3D उभे</value>
+        </prop>
+      </node>
+      <node oor:name="venetian3dh">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">Venetian Blinds 3D आडवे</value>
+        </prop>
+      </node>
+      <node oor:name="static">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तात्पूर्ते</value>
+        </prop>
+      </node>
+      <node oor:name="finedissolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">योग्य एकाग्रता</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+  <node oor:name="Presets">
+    <node oor:name="Entrance">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मूळ</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विशेष</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">माफक</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खळबळजनक</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Emphasis">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मूळ</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विशेष</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">माफक</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खळबळजनक</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Exit">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मूळ</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विशेष</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">माफक</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खळबळजनक</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="MotionPaths">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मूळ</value>
+        </prop>
+      </node>
+      <node oor:name="linesandcurves">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषा व वक्र</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विशेष</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Misc">
+      <node oor:name="media">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मिडीया</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

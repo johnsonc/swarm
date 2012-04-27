@@ -1,0 +1,13 @@
+e41a40ec48b8e58332e023edaaa39cfd  usr/share/man/man1/ts_print_raw.1.gz
+896eea7a295cd7702b12c763e5d170b2  usr/share/man/man1/ts_harvest.1.gz
+d5e6f0ea3990e0dd9cbdae79bda74383  usr/share/man/man1/ts_print.1.gz
+29268ef7abc1bf0fc43a09c105bbb2d2  usr/share/man/man1/ts_calibrate.1.gz
+019d86653247cdf15b049959fcafe251  usr/share/man/man1/ts_test.1.gz
+e82889d82166d17d82bcdc95f0432be6  usr/share/doc/libts-bin/copyright
+3cafe1251c2f7bc10ab74b8e97cdf82e  usr/share/doc/libts-bin/changelog.gz
+4fa974fc2d23d5a6b9f3f51665c43f42  usr/share/doc/libts-bin/changelog.Debian.gz
+e1d38cc371c31433d9939c86a64495ac  usr/bin/ts_calibrate
+b99e327db6662a7830198617b61a5ca4  usr/bin/ts_print_raw
+54129fa7872a320c90062b203185e01f  usr/bin/ts_harvest
+673a2534a5f4f04f7ef32209f75d64bd  usr/bin/ts_print
+43da8dba5776de794f1298ddcf631d11  usr/bin/ts_test

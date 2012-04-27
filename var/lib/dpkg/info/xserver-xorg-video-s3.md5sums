@@ -1,0 +1,5 @@
+b6fa701a2a3d638ff0a438684270658f  usr/lib/xorg/modules/drivers/s3_drv.so
+c8b9fc5a31c2f0074a0285f9aba0f7c9  usr/share/doc/xserver-xorg-video-s3/changelog.Debian.gz
+fc27bcae484f110cfa8e9dc04e57654d  usr/share/doc/xserver-xorg-video-s3/changelog.gz
+6b2bea29522da7cbb81cadde3235024d  usr/share/doc/xserver-xorg-video-s3/copyright
+d3c4a5e92256b971cf294825981c1f37  usr/share/man/man4/s3.4.gz

@@ -1,0 +1,203 @@
+<!-- this file was installed to automatically upgrade your machine from using
+     mini-commander to using Deskbar.
+
+     If you wish to continue using mini-commander, please recompile
+     GNOME-Applets with -enable-minicommander and your mini-commander applets
+     should reappear.
+-->
+<oaf_info>
+
+<oaf_server iid="OAFIID:GNOME_MiniCommanderApplet"
+	    type="factory" 
+	    location="OAFIID:Deskbar_Applet_Factory">
+
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+		<item value="IDL:Bonobo/Control:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="Deskbar (formerly Mini-Commander)"/>
+	<oaf_attribute name="name-ar" type="string" value="شريط المكتب (ميني كوماندر سابقا)"/>
+	<oaf_attribute name="name-as" type="string" value="Deskbar (পূৰ্ববৰ্তী Mini-Commander)"/>
+	<oaf_attribute name="name-ast" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-be" type="string" value="Deskbar (былы Mini-Commander)"/>
+	<oaf_attribute name="name-be@latin" type="string" value="Deskbar (raniej nazyvaŭsia zahadnym mini-radkom)"/>
+	<oaf_attribute name="name-bg" type="string" value="Deskbar (преди беше Мини-командир)"/>
+	<oaf_attribute name="name-bn" type="string" value="Deskbar (পূর্ববর্তী Mini-Commander)"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="Deskbar (পূর্ববর্তী Mini-Commander)"/>
+	<oaf_attribute name="name-ca" type="string" value="Deskbar (anteriorment dit Mini-Commander)"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="Deskbar (anteriorment dit Mini-Commander)"/>
+	<oaf_attribute name="name-crh" type="string" value="Deskbar (önceden küçük komutandı)"/>
+	<oaf_attribute name="name-cs" type="string" value="Deskbar (dříve Mini-Commander)"/>
+	<oaf_attribute name="name-da" type="string" value="Kommandofelt (tidligere Mini-kommandolinje)"/>
+	<oaf_attribute name="name-de" type="string" value="Deskbar (ehemals Mini-Commander)"/>
+	<oaf_attribute name="name-dz" type="string" value="ཌེཀསི་ཕྲ་རིང་ (ཧེ་མར་གཙོ་དཔོན་ཆུང་བ་)"/>
+	<oaf_attribute name="name-el" type="string" value="Deskbar (πρώην Mini-Commander)"/>
+	<oaf_attribute name="name-en_CA" type="string" value="Deskbar (formerly Mini-Commander)"/>
+	<oaf_attribute name="name-en_GB" type="string" value="Deskbar (formerly Mini-Commander)"/>
+	<oaf_attribute name="name-es" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_AR" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_CL" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_CO" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_CR" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_DO" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_EC" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_ES" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_GT" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_HN" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_MX" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_NI" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_PA" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_PE" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_PR" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_SV" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_UY" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-es_VE" type="string" value="Deskbar (anterior Mini-Commander)"/>
+	<oaf_attribute name="name-et" type="string" value="Deskbar (endine Pisi-käsurida)"/>
+	<oaf_attribute name="name-eu" type="string" value="Mahai-barra (Mini-Commander)"/>
+	<oaf_attribute name="name-fi" type="string" value="Komentopalkki (aiemmin komentorivisovelma)"/>
+	<oaf_attribute name="name-fr" type="string" value="Deskbar (anciennement Mini-Commander)"/>
+	<oaf_attribute name="name-gl" type="string" value="Barra de escritorio (chamada Mini-Commander)"/>
+	<oaf_attribute name="name-gu" type="string" value="ડેસ્કબાર (પહેલાં Mini-Commander)"/>
+	<oaf_attribute name="name-he" type="string" value="‏Deskbar (לשעבר Mini-Commander)"/>
+	<oaf_attribute name="name-hi" type="string" value="डेस्कबार (पहले मिनी-कमांडर)"/>
+	<oaf_attribute name="name-hr" type="string" value="Deskbar (prije Mini-Commander)"/>
+	<oaf_attribute name="name-hu" type="string" value="Deskbar (korábban: parancssor)"/>
+	<oaf_attribute name="name-is" type="string" value="Tólstika (hét áður Mini-Commander)"/>
+	<oaf_attribute name="name-it" type="string" value="Deskbar (in precedenza Mini commander)"/>
+	<oaf_attribute name="name-ja" type="string" value="デスクバー (旧名: ミニコマンダー)"/>
+	<oaf_attribute name="name-kn" type="string" value="ಡೆಸ್ಕ್‌ಬಾರ್ (ಹಿಂದಿನ ಮಿನಿ-ಕಮಾಂಡರ್)"/>
+	<oaf_attribute name="name-ko" type="string" value="데스크바 (예전의 작은 명령 실행)"/>
+	<oaf_attribute name="name-lt" type="string" value="Deskbar (anksčiau Mini-Commander)"/>
+	<oaf_attribute name="name-lv" type="string" value="Deskbar (Mini-Commander)"/>
+	<oaf_attribute name="name-mai" type="string" value="डेस्कबार (पूर्ववर्ती मिनी-कमांडर)"/>
+	<oaf_attribute name="name-mk" type="string" value="Работна лента (претходно мини-командер)"/>
+	<oaf_attribute name="name-ml" type="string" value="ഡെസ്ക്ബാര്‍ (നേരത്തെ Mini-Commander)"/>
+	<oaf_attribute name="name-mr" type="string" value="डेस्कबार (पूर्वी मिनी-कमांडर)"/>
+	<oaf_attribute name="name-nb" type="string" value="Kommandolinje (tidligere Mini-Commander)"/>
+	<oaf_attribute name="name-ne" type="string" value="डेस्कपट्टी (औपचारिक रूपमा सानो-आदेशकर्ता)"/>
+	<oaf_attribute name="name-nl" type="string" value="Deskbar (voorheen Mini-Commander)"/>
+	<oaf_attribute name="name-nn" type="string" value="Skrivebordslinje (tidlegare mini-kommandør)"/>
+	<oaf_attribute name="name-or" type="string" value="ଡେସ୍କବାର (ପୂର୍ବେ ମିନି-କମାଣ୍ଡର)"/>
+	<oaf_attribute name="name-pa" type="string" value="ਡੈਸਕਬਾਰ (ਪੁਰਾਣਾ ਮਿੰਨੀ-ਕਮਾਂਡਰ)"/>
+	<oaf_attribute name="name-pl" type="string" value="Deskbar (poprzednio miniaturowy wiersz poleceń)"/>
+	<oaf_attribute name="name-pt" type="string" value="Applet em Barra (anteriormente Mini-Commander)"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="Deskbar (antigo Mini-Commander)"/>
+	<oaf_attribute name="name-ro" type="string" value="Deskbar (fostă Mini-Commander)"/>
+	<oaf_attribute name="name-ru" type="string" value="Deskbar (бывший Mini-Commander)"/>
+	<oaf_attribute name="name-si" type="string" value="Deskbar (පෙර නම Mini-Commander)"/>
+	<oaf_attribute name="name-sk" type="string" value="Deskbar (predtým Mini-Commander)"/>
+	<oaf_attribute name="name-sl" type="string" value="Deskbar (predhodno Mini-Commander)"/>
+	<oaf_attribute name="name-sq" type="string" value="Deskbar (më parë Mini-Commander)"/>
+	<oaf_attribute name="name-sr" type="string" value="Чаробна линија (раније Мали наредник)"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="Čarobna linija (ranije Mali narednik)"/>
+	<oaf_attribute name="name-sv" type="string" value="Skrivbordsrad (tidigare Mini-Commander)"/>
+	<oaf_attribute name="name-ta" type="string" value="பணிப்பட்டை (முன்பு மினிகமாண்டர்)"/>
+	<oaf_attribute name="name-te" type="string" value="డెస్క్‌బార్ ( చిన్న-ఆదేశిని)"/>
+	<oaf_attribute name="name-th" type="string" value="เดสก์บาร์ (เดิมคือแอพเพล็ตบรรทัดคำสั่ง)"/>
+	<oaf_attribute name="name-tr" type="string" value="Deskbar (önceden küçük komutandı)"/>
+	<oaf_attribute name="name-uk" type="string" value="Deskbar (раніше відомий як &quot;Мініатюрний командний рядок&quot;)"/>
+	<oaf_attribute name="name-vi" type="string" value="Deskbar (trước là Mini-Commander)"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="桌面栏(迷你指挥官)"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="Deskbar（前稱為小型命令列）"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="Deskbar（前稱為小型命令列）"/>
+	<oaf_attribute name="description" type="string" value="Deskbar (transparent upgrade from Mini-Commander)"/>
+	<oaf_attribute name="description-af" type="string" value="Skermbalk (deursigtige opgradering van Mini-Commander)"/>
+	<oaf_attribute name="description-ar" type="string" value="شريط المكتب"/>
+	<oaf_attribute name="description-as" type="string" value="Deskbar (Mini-Commander থেকে স্বচ্ছ্বৰূপে উন্নীত)"/>
+	<oaf_attribute name="description-ast" type="string" value="Barra d&apos;escritoriu (actualización tresparente de Mini-Commander)"/>
+	<oaf_attribute name="description-be" type="string" value="Дэскбар (празрыстая абноўка з Mini-Commander)"/>
+	<oaf_attribute name="description-be@latin" type="string" value="Deskbar (prazrystaja aktualizacyja z zahadnaha mini-radka)"/>
+	<oaf_attribute name="description-bg" type="string" value="Deskbar (още по-приятен вариант на Мини-командир)"/>
+	<oaf_attribute name="description-bn" type="string" value="Deskbar (Mini-Commander থেকে স্বচ্ছ্বরূপে উন্নীত)"/>
+	<oaf_attribute name="description-bn_IN" type="string" value="Deskbar (Mini-Commander থেকে স্বচ্ছ্বরূপে উন্নীত)"/>
+	<oaf_attribute name="description-ca" type="string" value="Deskbar (actualització transparent del Mini-Commander)"/>
+	<oaf_attribute name="description-ca@valencia" type="string" value="Deskbar (actualització transparent del Mini-Commander)"/>
+	<oaf_attribute name="description-crh" type="string" value="Deskbar (Küçük komutandan saydam geçiş)"/>
+	<oaf_attribute name="description-cs" type="string" value="Deskbar (transparentní přechod na vyšší verzi z Mini-Commander)"/>
+	<oaf_attribute name="description-cy" type="string" value="Bar penbwrdd (uwchraddiad tryloyw o Mini-Commander)"/>
+	<oaf_attribute name="description-da" type="string" value="Kommandofelt (naturlig opgradering fra Mini-kommandolinje)"/>
+	<oaf_attribute name="description-de" type="string" value="Deskbar (verbesserte Version des Mini-Commanders)"/>
+	<oaf_attribute name="description-dz" type="string" value="ཌེཀསི་ཕྲ་རིང་། (གཙོ་དཔོན་ཆུང་བ་ལས་ཡར་བསྐྱེད་འབད་མི་དྭངས་གསལ)"/>
+	<oaf_attribute name="description-el" type="string" value="Deskbar (διάφανη αναβάθμιση από το Mini-Commander)"/>
+	<oaf_attribute name="description-en_CA" type="string" value="Deskbar (transparent upgrade from Mini-Commander)"/>
+	<oaf_attribute name="description-en_GB" type="string" value="Deskbar (transparent upgrade from Mini-Commander)"/>
+	<oaf_attribute name="description-es" type="string" value="Barra de escritorio (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_AR" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_CL" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_CO" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_CR" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_DO" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_EC" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_ES" type="string" value="Barra de escritorio (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_GT" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_HN" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_MX" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_NI" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_PA" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_PE" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_PR" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_SV" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_UY" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-es_VE" type="string" value="Deskbar (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-et" type="string" value="Deskbar (sujuv uuendus Pisi-käsureale)"/>
+	<oaf_attribute name="description-eu" type="string" value="Mahai-barra (&apos; Mini-commander&apos;en gardentasun eguneratua)"/>
+	<oaf_attribute name="description-fi" type="string" value="Komentopalkki (päivitys komentorivisovelmasta)"/>
+	<oaf_attribute name="description-fr" type="string" value="Deskbar (mise à jour transparente depuis Mini-Commander)"/>
+	<oaf_attribute name="description-gl" type="string" value="Barra de escritorio (actualización transparente de Mini-Commander)"/>
+	<oaf_attribute name="description-gu" type="string" value="ડેસ્કબાર (Mini-Commander માંથી પારદર્શક સુધારો)"/>
+	<oaf_attribute name="description-he" type="string" value="‏Deskbar (עדכון שקוף מ־Mini Commander)"/>
+	<oaf_attribute name="description-hi" type="string" value="डेस्कबार (मिनी कमांडर से पारदर्शी उन्नत)"/>
+	<oaf_attribute name="description-hr" type="string" value="Deskbar (bezbolna nadogradnja na mini-commander)"/>
+	<oaf_attribute name="description-hu" type="string" value="Deskbar (áttetsző frissítés a parancssor kisalkalmazásról)"/>
+	<oaf_attribute name="description-id" type="string" value="Deskbar (peningkatan tersamar dari Mini Commander)"/>
+	<oaf_attribute name="description-is" type="string" value="Tólstika (Gagnsæ uppfærsla frá Mini-Commander)"/>
+	<oaf_attribute name="description-it" type="string" value="Deskbar (aggiornamento trasparente da Mini commander)"/>
+	<oaf_attribute name="description-ja" type="string" value="デスクバー (ミニコマンダーから透過的にアップグレード)"/>
+	<oaf_attribute name="description-ka" type="string" value="Deskbar (გამწვირვალე განახლება Mini-Commander)"/>
+	<oaf_attribute name="description-kn" type="string" value="ಡೆಸ್ಕ್‌ಬಾರ್ (ಮಿನಿ-ಕಮಾಂಡರಿನಿಂದ ಪಾರದರ್ಶಕ ನವೀಕರಣ)"/>
+	<oaf_attribute name="description-ko" type="string" value="데스크바 (작은 명령 실행에서 바로 업그레이드)"/>
+	<oaf_attribute name="description-ku" type="string" value="Deskbar (Ji Mini-Commander rojanekirina transparan)"/>
+	<oaf_attribute name="description-lt" type="string" value="Deskbar (atnaujinimas nuo Mini-Commander)"/>
+	<oaf_attribute name="description-lv" type="string" value="Deskbar (caurspīdīgs atjauninājums no Mini-Commander)"/>
+	<oaf_attribute name="description-mai" type="string" value="डेस्कबार (मिनी कमांडर सँ पारदर्शी उन्नत)"/>
+	<oaf_attribute name="description-mg" type="string" value="Deskbar (endrika tatera-pahazavana navaozina avy amin&apos;ny Mini-Commander)"/>
+	<oaf_attribute name="description-mk" type="string" value="Работна лента (транспаретна надградба на мини-командер)"/>
+	<oaf_attribute name="description-ml" type="string" value="Deskbar (transparent upgrade from Mini-Commander)"/>
+	<oaf_attribute name="description-mr" type="string" value="डेस्कबार (मिनी-कमांडर पासून पारदर्शी सुधारणा)"/>
+	<oaf_attribute name="description-nb" type="string" value="Kommandolinje (oppgradering fra Mini-commander)"/>
+	<oaf_attribute name="description-ne" type="string" value="डेस्कपट्टी (सानो-आदेशकर्ताबाट पारदर्शी स्तरवृद्धी)"/>
+	<oaf_attribute name="description-nl" type="string" value="Deskbar (de vervanger van Mini-Commander)"/>
+	<oaf_attribute name="description-nn" type="string" value="Deskbar (erstattar Mini-Commander)"/>
+	<oaf_attribute name="description-oc" type="string" value="Deskbar (mesa a jorn transparenta dempuèi Mini-Commander)"/>
+	<oaf_attribute name="description-or" type="string" value="ଡେସ୍କବାର (Mini-Commanderରୁ ସ୍ୱଚ୍ଛ ଭାବରେ ଉନ୍ନତତର ହୋଇଛି)"/>
+	<oaf_attribute name="description-pa" type="string" value="ਡੈਸਕਬਾਰ (ਮਿੰਨੀ-ਕਮਾਂਡਰ ਤੋਂ ਪਾਰਦਰਸ਼ੀ ਅੱਪਗਰੇਡ)"/>
+	<oaf_attribute name="description-pl" type="string" value="Deskbar (przezroczysta aktualizacja z miniaturowego wiersza poleceń)"/>
+	<oaf_attribute name="description-pt" type="string" value="Applet em Barra (actualização transparente do Mini-Commander)"/>
+	<oaf_attribute name="description-pt_BR" type="string" value="Deskbar (atualização transparente do Mini-Commander)"/>
+	<oaf_attribute name="description-ro" type="string" value="Deskbar (actualizare transparentă de la Mini commander)"/>
+	<oaf_attribute name="description-ru" type="string" value="Deskbar (прозрачное обновление Mini-Commander)"/>
+	<oaf_attribute name="description-si" type="string" value="Deskbar (Mini-Commander හි නව නිකුතුව)"/>
+	<oaf_attribute name="description-sk" type="string" value="Deskbar (transparentná aktualizácia z Mini-Commandera)"/>
+	<oaf_attribute name="description-sl" type="string" value="Deskbar (pregledna nadgradnja programa Mini-Commander)"/>
+	<oaf_attribute name="description-sq" type="string" value="Deskbar (freskim transparent nga Mini-Komanduesi)"/>
+	<oaf_attribute name="description-sr" type="string" value="Чаробна линија (неприметна надоградња Малог наредника)"/>
+	<oaf_attribute name="description-sr@latin" type="string" value="Čarobna linija (neprimetna nadogradnja Malog narednika)"/>
+	<oaf_attribute name="description-sv" type="string" value="Skrivbordsrad (uppgradering från Mini-Commander)"/>
+	<oaf_attribute name="description-ta" type="string" value="பணிப்பட்டை (மினி கமாண்டரின் வெளிபடையான மேலீடு)"/>
+	<oaf_attribute name="description-te" type="string" value="డెస్క్‌బార్ (చిన్న-ఆదేశిని నుండి పారదర్శక పురోగతి)"/>
+	<oaf_attribute name="description-th" type="string" value="เดสก์บาร์ (การปรับรุ่นอย่างเงียบๆ ของแอพเพล็ตบรรทัดคำสั่ง)"/>
+	<oaf_attribute name="description-tr" type="string" value="Deskbar (Küçük komutandan saydam geçiş)"/>
+	<oaf_attribute name="description-uk" type="string" value="Deskbar (прозоре оновлення аплету Мініатюрний командний рядок)"/>
+	<oaf_attribute name="description-vi" type="string" value="Deskbar (cập nhật trong suốt từ Mini-Commander)"/>
+	<oaf_attribute name="description-zh_CN" type="string" value="桌面栏(从迷你指挥官的透明升级)"/>
+	<oaf_attribute name="description-zh_HK" type="string" value="Deskbar（小型命令列的升級版本）"/>
+	<oaf_attribute name="description-zh_TW" type="string" value="Deskbar（小型命令列的升級版本）"/>
+	<oaf_attribute name="bugzilla:bugzilla" type="string" value="GNOME"/>
+        <oaf_attribute name="bugzilla:product" type="string" value="gnome-applets"/>
+        <oaf_attribute name="bugzilla:component" type="string" value="mini-commander"/>
+        <oaf_attribute name="bugzilla:other_binaries" type="string" value="mini_commander_applet"/>
+
+</oaf_server>
+
+</oaf_info>

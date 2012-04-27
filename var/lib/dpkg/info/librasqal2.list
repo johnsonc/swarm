@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/librasqal.so.2.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/librasqal2
+/usr/share/doc/librasqal2/AUTHORS
+/usr/share/doc/librasqal2/README.gz
+/usr/share/doc/librasqal2/NEWS.gz
+/usr/share/doc/librasqal2/changelog.Debian.gz
+/usr/share/doc/librasqal2/changelog.gz
+/usr/share/doc/librasqal2/NOTICE
+/usr/share/doc/librasqal2/copyright
+/usr/lib/librasqal.so.2

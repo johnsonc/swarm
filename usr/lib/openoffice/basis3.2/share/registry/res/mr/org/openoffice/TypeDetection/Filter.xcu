@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:install="http://openoffice.org/2004/installation" xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:package="org.openoffice.TypeDetection" oor:name="Filter">
+  <node oor:name="Filters">
+    <node oor:name="StarOffice XML (Base)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF माहितीकोश</value>
+      </prop>
+    </node>
+    <node oor:name="HTML (StarWriter)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">HTML दस्तऐवज (%productname% Writer)</value>
+      </prop>
+    </node>
+    <node oor:name="MS Word 95 Vorlage">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Word 95 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="MS Word 97 Vorlage">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Word 97/2000/XP साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarOffice XML (Writer)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% पाठ्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="Text">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">पाठ्य</value>
+      </prop>
+    </node>
+    <node oor:name="Text (encoded)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">पाठ्य एनकोडेड</value>
+      </prop>
+    </node>
+    <node oor:name="writer_StarOffice_XML_Writer_Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% पाठ्य दस्तऐवज साचा</value>
+      </prop>
+    </node>
+    <node oor:name="writer8">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF पाठ्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="writer8_template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF पाठ्य दस्तऐवजाचा साचा</value>
+      </prop>
+    </node>
+    <node oor:name="MS Word 2003 XML">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Word 2003 XML</value>
+      </prop>
+    </node>
+    <node oor:name="MS Word 2007 XML">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Word 2007 XML</value>
+      </prop>
+    </node>
+    <node oor:name="MS Word 2007 XML Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Word 2007 XML साचा</value>
+      </prop>
+    </node>
+    <node oor:name="HTML">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">HTML दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="Text (StarWriter/Web)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">पाठ्य (%productname% Writer/Web)</value>
+      </prop>
+    </node>
+    <node oor:name="Text (encoded) (StarWriter/Web)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">पाठ्य एनकोडेड (%productname% Writer/Web)</value>
+      </prop>
+    </node>
+    <node oor:name="writer_web_StarOffice_XML_Writer">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% पाठ्य दस्तऐवज (%productname% Writer/Web)</value>
+      </prop>
+    </node>
+    <node oor:name="writer_web_StarOffice_XML_Writer_Web_Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% HTML साचा</value>
+      </prop>
+    </node>
+    <node oor:name="writerweb8_writer_template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">HTML दस्तऐवज साचा</value>
+      </prop>
+    </node>
+    <node oor:name="writerweb8_writer">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% पाठ्य (%productname% Writer/Web)</value>
+      </prop>
+    </node>
+    <node oor:name="Text (encoded) (StarWriter/GlobalDocument)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">पाठ्य एनकोडेड (%productname% मुख्य दस्तऐवज)</value>
+      </prop>
+    </node>
+    <node oor:name="writer_globaldocument_StarOffice_XML_Writer">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% पाठ्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="writer_globaldocument_StarOffice_XML_Writer_GlobalDocument">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% मुख्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="writerglobal8">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF मुख्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="writerglobal8_writer">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF पाठ्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="HTML (StarCalc)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">HTML दस्तऐवज (%productname% Calc)</value>
+      </prop>
+    </node>
+    <node oor:name="MS Excel 4.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 4.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="MS Excel 5.0/95 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 5.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="MS Excel 95 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 95 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="MS Excel 97 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 97/2000/XP साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarOffice XML (Calc)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% स्प्रेडशीट</value>
+      </prop>
+    </node>
+    <node oor:name="Text - txt - csv (StarCalc)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">पाठ्य CSV</value>
+      </prop>
+    </node>
+    <node oor:name="calc_HTML_WebQuery">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">वेब पृष्ठ शंका (%productname% कॅल्क)</value>
+      </prop>
+    </node>
+    <node oor:name="calc_StarOffice_XML_Calc_Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% स्प्रेडशीट साचा</value>
+      </prop>
+    </node>
+    <node oor:name="calc8">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF स्प्रेडशीट</value>
+      </prop>
+    </node>
+    <node oor:name="calc8_template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF स्प्रेडशीटचा साचा</value>
+      </prop>
+    </node>
+    <node oor:name="MS Excel 2003 XML">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 2003 XML</value>
+      </prop>
+    </node>
+    <node oor:name="Calc MS Excel 2007 XML">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 2007 XML</value>
+      </prop>
+    </node>
+    <node oor:name="Calc MS Excel 2007 XML Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 2007 XML चा साचा</value>
+      </prop>
+    </node>
+    <node oor:name="Calc MS Excel 2007 Binary">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft Excel 2007 बैनरी</value>
+      </prop>
+    </node>
+    <node oor:name="StarOffice XML (Draw)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% रेखाचित्र </value>
+      </prop>
+    </node>
+    <node oor:name="draw_StarOffice_XML_Draw_Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% रेखाचित्र साचा</value>
+      </prop>
+    </node>
+    <node oor:name="draw8">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF रेखाचित्र</value>
+      </prop>
+    </node>
+    <node oor:name="draw8_template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF रेखाचित्र साचा</value>
+      </prop>
+    </node>
+    <node oor:name="MS PowerPoint 97 Vorlage">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft PowerPoint 97/2000/XP साचा</value>
+      </prop>
+    </node>
+    <node oor:name="impress_StarOffice_XML_Draw">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% रेखाचित्र  (%productname% Impress)</value>
+      </prop>
+    </node>
+    <node oor:name="StarOffice XML (Impress)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% सादरीकरण</value>
+      </prop>
+    </node>
+    <node oor:name="impress_StarOffice_XML_Impress_Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% सादरीकरण साचा</value>
+      </prop>
+    </node>
+    <node oor:name="impress8">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF सादरीकरण</value>
+      </prop>
+    </node>
+    <node oor:name="impress8_template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF सादरीकरण साचा</value>
+      </prop>
+    </node>
+    <node oor:name="impress8_draw">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF रेखाचित्र (Impress)</value>
+      </prop>
+    </node>
+    <node oor:name="Impress MS PowerPoint 2007 XML">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft PowerPoint 2007 XML</value>
+      </prop>
+    </node>
+    <node oor:name="Impress MS PowerPoint 2007 XML Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">Microsoft PowerPoint 2007 XML साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarOffice XML (Chart)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% कोष्टक</value>
+      </prop>
+    </node>
+    <node oor:name="chart8">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF कोष्टक</value>
+      </prop>
+    </node>
+    <node oor:name="StarOffice XML (Math)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">%productname% %formatversion% सूत्र</value>
+      </prop>
+    </node>
+    <node oor:name="math8">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">ODF सूत्र</value>
+      </prop>
+    </node>
+    <node oor:name="draw_html_Export">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">HTML दस्तऐवज (%productname% Draw)</value>
+      </prop>
+    </node>
+    <node oor:name="impress_html_Export">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">HTML दस्तऐवज (%productname% Impress)</value>
+      </prop>
+    </node>
+    <node oor:name="StarWriter 3.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarWriter 3.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarWriter 4.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarWriter 4.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarWriter 5.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarWriter 5.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarWriter/Web 4.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarWriter/Web 4.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarWriter/Web 5.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarWriter/Web 5.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarWriter 4.0/GlobalDocument">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarWriter 4.0 मुख्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="StarWriter 5.0/GlobalDocument">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarWriter 5.0 मुख्य दस्तऐवज</value>
+      </prop>
+    </node>
+    <node oor:name="StarCalc 3.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarCalc 3.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarCalc 4.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarCalc 4.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarCalc 5.0 Vorlage/Template">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarCalc 5.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarDraw 3.0 Vorlage">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarDraw 3.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarDraw 5.0 Vorlage">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarDraw 5.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarDraw 3.0 Vorlage (StarImpress)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarDraw 3.0 साचा (%productname% Impress)</value>
+      </prop>
+    </node>
+    <node oor:name="StarDraw 5.0 Vorlage (StarImpress)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarDraw 5.0 साचा (%productname% Impress)</value>
+      </prop>
+    </node>
+    <node oor:name="StarImpress 4.0 Vorlage">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarImpress 4.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarImpress 5.0 Vorlage">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarImpress 5.0 साचा</value>
+      </prop>
+    </node>
+    <node oor:name="StarImpress 5.0 (packed)">
+      <prop oor:name="UIName">
+        <value xml:lang="mr">StarImpress 5.0 पॅक्ड्</value>
+      </prop>
+    </node>
+  </node>
+</oor:component-data>

@@ -1,0 +1,1 @@
+update-rc.d apmd start 10 2 3 4 5 . stop 21 1 .

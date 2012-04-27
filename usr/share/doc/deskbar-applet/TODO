@@ -1,0 +1,82 @@
+Merge f&f and f&f-bookmarks ?
+--------------
+More categories
+------------------
+
+Release dependant:
+
+- Make the pref dialog non modal ?? i tried but it doesn't work.. ?
+- (TRIVIAL) Adjust max hits per handler (especially beagle-live should return a skazillion hits)
+
+Would be really really nice:
+- (MEDIUM) Show nests only for two or more nested results, or something like that
+- (MEDIUM) User defined (non-static) categories *WITHOUT PERFOMANCE HIT*
+- (?) Optimize memory and speed
+- (?) Multiscreen logic.
+- (EASY) Fine tune aligned window behavior for vertical panels
+ Should probably check the window.gravity and construct the popup window according to that;
+ - ie. entry at bottom, hits on top, for applets in lower half of the screen, and vice versa
+ for applets in the top half (this can be read frm the CuemiacAlignedWindow.gravity).
+
+
+Bonus features/Ideas
+- (HARD) Detach the search window to "save" the search
+- (MEDIUM) Drag hits onto desktop/nautilus to create links (likely to require additional Match api)
+- Go into shortcur mode when alt is pressed (with entry focus) and show flat list of avail
+ shortcuts. When match list is focussed bind shortcuts when user hits ctrl-*. 
+ Give visual clue like : http://raphael.slinckx.net/mocku.png
+
+Warn when keybinding fails
+
+Keyboard/Keyword shortcut framework:
+	* Smart bookmarks: ctrl+letter => search with xxx(letter) for text
+	* Directories/files/places/volumes ctrl+letter => open
+		dynamic registration when loaded, "static" matches
+		
+	* Path programs: ctrl+t => execute text in terminal
+		static registration from handler
+	
+	* All: ctrl+letter => action on bookmarked match
+		Used with the P.
+
+Ideas from the Net:
+	* Tab completions, where applicable, if it doesn't clash with usability
+
+UI TODOs:
+	* Translucency handling in applet mode, see mini-commander patch in bugzilla
+
+* Cache/Pickle indexes
+* Move indexing in a bonobo factory whatever that means
+* Hidden gconf key for alt-f2 dialog replacement
+
+Backends TODOs:
+	General:
+			
+	Browsers (ephy, ff, moz): [epiphany.py, mozilla.py]
+	* Use Mozilla/FF's history file to present history items
+	
+	Address Books [evolution.py]
+	* Index Thunderbird address book
+
+	Programs [programs.py, pathprograms.py]
+	* Monitor changes with gnome vfs
+	
+	Beagle [beagle.py, beagle-live.py]
+	* Use beagle to retreive metadata about files, for example in recent-files ?
+			
+	Recently-used files [todo]
+	* Index and present
+	* Wait until 2.14 bug code refactoring upstream
+	* Monitor changes with gnome vfs	
+	
+	Gaim contacts: [galago.py]
+	* Use galago instead of custom parsing (python bindings are coming)
+	* Allow Send IM to: and Send email to:
+	
+	File-system: (provide way to open file/dirs) [filesystem.py]
+	
+	Gtk Bookmarks [gtkbookmarks.py]
+	
+	Web Address, Email Address: [web_address.py, email_address.py]:
+	
+	Misc

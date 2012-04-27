@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+	  "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+	  "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+
+  <vendor>The GNOME Project</vendor>
+  <vendor_url>http://www.gnome.org/</vendor_url>
+  <icon_name>gnome-cpu-frequency-applet</icon_name>
+
+  <action id="org.gnome.cpufreqselector">
+    <description>Change CPU Frequency scaling</description>
+    <description xml:lang="af">Verander SVE-frekwensieskalering</description>
+    <description xml:lang="ar">غيّر قياس تردد المعالج</description>
+    <description xml:lang="as">CPU-ৰ ফ্ৰিকুয়েন্সি স্কেলিং পৰিবৰ্তন কৰক</description>
+    <description xml:lang="ast">Camudar la frecuencia d'escaláu de la CPU</description>
+    <description xml:lang="be@latin">Źmiani častatu pracy pracesara</description>
+    <description xml:lang="bg">Промяна на скоростта на процесора</description>
+    <description xml:lang="bn">সিপিইউ'র ফ্রিকুয়েন্সির আকার পরিবর্তন কর</description>
+    <description xml:lang="bn_IN">CPU-র ফ্রিকুয়েন্সি স্কেলিং পরিবর্তন করুন</description>
+    <description xml:lang="br">Cheñch talm ar c'hewerier</description>
+    <description xml:lang="ca">Canvia l'escalat de la freqüència de la CPU</description>
+    <description xml:lang="ca@valencia">Canvia l'escalat de la freqüència de la CPU</description>
+    <description xml:lang="crh">İşlemci Frekans ölçeklemesini değiştir</description>
+    <description xml:lang="cs">Změnit frekvenci CPU</description>
+    <description xml:lang="da">Ændr CPU-frekvensskalering</description>
+    <description xml:lang="de">Prozessortaktstufen ändern</description>
+    <description xml:lang="el">Αλλαγή της κλιμάκωσης συχνότητας CPU</description>
+    <description xml:lang="en@shaw">𐑗𐑱𐑯𐑡 CPU 𐑓𐑮𐑰𐑒𐑢𐑩𐑯𐑕𐑰 𐑕𐑒𐑱𐑤𐑦𐑙</description>
+    <description xml:lang="en_GB">Change CPU Frequency scaling</description>
+    <description xml:lang="es">Cambiar la frecuencia de escalado de la CPU</description>
+    <description xml:lang="es_ES">Cambiar la frecuencia de escalado de la CPU</description>
+    <description xml:lang="et">Protsessori takti skaleerimise muutmine</description>
+    <description xml:lang="eu">Aldatu PUZ maiztasunaren eskalatzea</description>
+    <description xml:lang="fi">Muuta prosessorin kellotaajuuden asetuksia.</description>
+    <description xml:lang="fr">Modifier la fréquence du processeur</description>
+    <description xml:lang="ga">Athraigh scálú Mhinicíocht an LAP</description>
+    <description xml:lang="gl">Cambiar o escalado de frecuencia da CPU</description>
+    <description xml:lang="gu">CPU આવૃત્તિ માપનને બદલો</description>
+    <description xml:lang="he">שנה את התאמת תדירות המעבד</description>
+    <description xml:lang="hi">CPU आवृति स्केलिंग मॉनीटर करें.</description>
+    <description xml:lang="hu">A CPU órajelének módosítása</description>
+    <description xml:lang="it">Cambia la variazione della frequenza della CPU</description>
+    <description xml:lang="ja">CPU 周波数の変更</description>
+    <description xml:lang="kn">CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಅನ್ನು ಬದಲಾಯಿಸು</description>
+    <description xml:lang="ko">CPU 클럭 스케일링 바꾸기</description>
+    <description xml:lang="lt">Keisti CPU dažnių reguliavimą</description>
+    <description xml:lang="lv">Maina CPU frekvences mērogošanu</description>
+    <description xml:lang="mk">Сменете ја фрекфенцијата на процесорот</description>
+    <description xml:lang="ml">സി.പി.യു ഫ്രിക്വന്‍സി സ്കെയിലിങ് മാറ്റുക</description>
+    <description xml:lang="mr">CPU वारंवारता प्रमाण बदलवा</description>
+    <description xml:lang="nb">Overvåk skalering av CPU-frekvens</description>
+    <description xml:lang="nl">Processorsnelheid aanpassen</description>
+    <description xml:lang="oc">Cambiar l'escala de la frequéncia de l'UCP</description>
+    <description xml:lang="or">CPU ବାରମ୍ବାରତା ମାପକୁ ପରିବର୍ତ୍ତନ କରନ୍ତୁ</description>
+    <description xml:lang="pa">CPU ਫਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਬਦਲੋ</description>
+    <description xml:lang="pl">Zmiany częstotliwości pracy procesora</description>
+    <description xml:lang="pt">Alterar a escala de Frequência do CPU</description>
+    <description xml:lang="pt_BR">Altera a graduação da freqüência da CPU</description>
+    <description xml:lang="ro">Modifică scalarea frecvenței procesorului</description>
+    <description xml:lang="ru">Изменить частоту процессора</description>
+    <description xml:lang="sk">Zmeniť škálovanie frekvencie procesora</description>
+    <description xml:lang="sl">Prilagajanje frekvence procesorja</description>
+    <description xml:lang="sq">Ndryshon shkallëzimin e frekuencës së CPU-së</description>
+    <description xml:lang="sr">Промене фреквенције процесора</description>
+    <description xml:lang="sr@latin">Promene frekvencije procesora</description>
+    <description xml:lang="sv">Ändra processorfrekvensskalning</description>
+    <description xml:lang="ta">CPU அலைவரிசை அளவிடுதலை மாற்றவும்</description>
+    <description xml:lang="te">CPU తరుచుదనం కొలమాన దర్శనము</description>
+    <description xml:lang="th">เปลี่ยนการปรับความถี่ของซีพียู</description>
+    <description xml:lang="tr">İşlemci Frekans ölçeklemesini değiştir</description>
+    <description xml:lang="uk">Змінити частоту процесора</description>
+    <description xml:lang="vi">Thay đổi tỷ lệ tần số CPU</description>
+    <description xml:lang="zh_CN">更改 CPU 频率范围</description>
+    <description xml:lang="zh_HK">調整 CPU 頻率</description>
+    <description xml:lang="zh_TW">調整 CPU 頻率</description>
+    <message>Privileges are required to change the CPU Frequency scaling.</message>
+    <message xml:lang="af">Voorregte word benodig om verandering aan te bring aan die SVE-frekwensieskalering.</message>
+    <message xml:lang="ar">الصلاحيات مطلوبة لتغيير قياس تردد المعالج</message>
+    <message xml:lang="as">CPU-ৰ ফ্ৰিকুয়েন্সি স্কেলিং পৰীবৰ্তনেৰ বাবে বিশেষ অনুমোদন আৱশ্যক ।</message>
+    <message xml:lang="ast">Necesítense privilexos pa camudar la frecuencia d'escaláu de la CPU</message>
+    <message xml:lang="be@latin">Dla źmieny častaty pracy pracesara patrebny dazvoł.</message>
+    <message xml:lang="bg">Необходими са права на администратор, за да променяте скоростта на процесора.</message>
+    <message xml:lang="bn">সিপিইউ'র ফ্রিকুয়েন্সির আকার পরিবর্তন করতে বিশেষ অধিকারের প্রয়োজন।</message>
+    <message xml:lang="bn_IN">CPU-র ফ্রিকুয়েন্সি স্কেলিং পরীবর্তনের জন্য বিশেষ অনুমোদন আবশ্যক।</message>
+    <message xml:lang="ca">Calen privilegis per canviar l'escalat de la freqüència de la CPU.</message>
+    <message xml:lang="ca@valencia">Calen privilegis per a canviar l'escalat de la freqüència de la CPU.</message>
+    <message xml:lang="crh">İşlemci Frekansı ölçeklemesini değiştirmek için yetkiler gerekli.</message>
+    <message xml:lang="cs">Ke změně frekvence CPU jsou vyžadována oprávnění.</message>
+    <message xml:lang="da">Der kræves rettigheder til at ændre CPU-frekvensskaleringen.</message>
+    <message xml:lang="de">Zum Ändern der Prozessortaktstufen sind weitergehende Rechte erforderlich.</message>
+    <message xml:lang="el">Απαιτούνται προνόμια για την παρακολούθηση της κλιμάκωσης συχνότητας CPU</message>
+    <message xml:lang="en@shaw">𐑐𐑮𐑦𐑝𐑤𐑩𐑡𐑩𐑟 𐑸 𐑮𐑦𐑒𐑢𐑲𐑼𐑛 𐑑 𐑗𐑱𐑯𐑡 𐑞 CPU 𐑓𐑮𐑰𐑒𐑢𐑩𐑯𐑕𐑰 𐑕𐑒𐑱𐑤𐑦𐑙.</message>
+    <message xml:lang="en_GB">Privileges are required to change the CPU Frequency scaling.</message>
+    <message xml:lang="es">Se necesitan privilegios para cambiar la frecuencia de escalado de la CPU</message>
+    <message xml:lang="es_ES">Se necesitan privilegios para cambiar la frecuencia de escalado de la CPU</message>
+    <message xml:lang="et">Protsessori takti skaleerimise muutmiseks on vaja õiguseid</message>
+    <message xml:lang="eu">Pribilegioak behar dira PUZ maiztasunaren eskalatzea aldatzeko</message>
+    <message xml:lang="fi">Prosessorin kellotaajuusasetusten muuttaminen vaatii lisäoikeuksia.</message>
+    <message xml:lang="fr">Des permissions sont nécessaires pour modifier la fréquence du processeur.</message>
+    <message xml:lang="ga">Tá gá le ceadanna chun scálú Mhinicíocht an LAP a athrú.</message>
+    <message xml:lang="gl">Son necesarios privilexios para cambiar o escalado de frecuencia da CPU.</message>
+    <message xml:lang="gu">CPU આવૃત્તિ માપનને બદલવા માટે વિશેષાધિકારની જરૂરિયાત છે.</message>
+    <message xml:lang="he">דרושות הרשאות כדי לשנות את התאמת תדירות המעבד</message>
+    <message xml:lang="hi">CPU आवृति स्केलिंग मॉनीटर करें.</message>
+    <message xml:lang="hu">A CPU órajelének módosításához jogosultság szükséges.</message>
+    <message xml:lang="it">Sono richiesti privilegi per cambiare la variazione della frequenza della CPU</message>
+    <message xml:lang="ja">CPU 周波数を変更する際に必要となる特権です</message>
+    <message xml:lang="kn">CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಅನ್ನು ಬದಲಾಯಿಸಲು ಸವಲತ್ತುಗಳ ಅಗತ್ಯವಿದೆ.</message>
+    <message xml:lang="ko">CPU 클럭 스케일링을 바꾸려면 권한이 필요합니다.</message>
+    <message xml:lang="lt">Norint keisti CPU dažnių reguliavimą reikia turėti administratoriaus teises.</message>
+    <message xml:lang="lv">CPU frekvences mērogošanai nepieciešamas lielākas privilēģijas.</message>
+    <message xml:lang="mk">Потребни се привилегии за менување на фрекфенцијата на процесорот</message>
+    <message xml:lang="ml">സി.പി.യു ഫ്രിക്വന്‍സി സ്കെയിലിങ് മാറ്റാന്‍ അനുമതികള്‍ ആവശ്യമാണു്.</message>
+    <message xml:lang="mr">CPU वारंवारता बदलविण्याकरीता परवानगी आवश्यक आहे.</message>
+    <message xml:lang="nb">Rettigheter kreves for å overvåke skalering av CPU-frekvens.</message>
+    <message xml:lang="nl">U heeft toegangsrechten nodig om de processorsnelheid aan te passen.</message>
+    <message xml:lang="or">CPU ବାରମ୍ବାରତା ମାପକୁ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ବିଶେଷ ଅଧିକାର ଆବଶ୍ୟକ।</message>
+    <message xml:lang="pa">CPU ਫਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਬਦਲਣ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ।</message>
+    <message xml:lang="pl">Zmiana częstotliwości procesora wymaga uprawnień.</message>
+    <message xml:lang="pt">Não necessárias permissões para alterar a escala de Frequência do CPU.</message>
+    <message xml:lang="pt_BR">Privilégios são necessários para mudar a graduação da freqüência da CPU.</message>
+    <message xml:lang="ro">Sunt nevoie de permisiuni pentru a modifica scalarea frecvenței procesorului.</message>
+    <message xml:lang="ru">Для изменения частоты процессора необходимы привилегии администратора.</message>
+    <message xml:lang="sk">Na zmenu škálovania frekvencie procesora sú potrebné oprávnenia.</message>
+    <message xml:lang="sl">Zahtevano je posebno dovoljenje za spreminjanje prilagajanja frekvence procesorja.</message>
+    <message xml:lang="sq">Për të ndryshuar shkallëzimin e frekuencës së CPU-së nevoiten të drejtat e duhura.</message>
+    <message xml:lang="sr">Потребна су овлашћења за промену фреквенције процесора.</message>
+    <message xml:lang="sr@latin">Potrebna su ovlašćenja za promenu frekvencije procesora.</message>
+    <message xml:lang="sv">Behörighet krävs för att ändra processorfrekvensskalningen.</message>
+    <message xml:lang="ta">CPU அலைவரிசை அளவிடுதலை மாற்ற முன்னுரிமைகள் தேவைப்படும்.</message>
+    <message xml:lang="te">CPU తరుచుదనం కొలమాన దర్శనము మార్చుటకు అనుమతులు అవసరము.</message>
+    <message xml:lang="th">ต้องมีสิทธิ์พิเศษของระบบจึงจะปรับความถี่ของซีพียูได้</message>
+    <message xml:lang="tr">İşlemci Frekansı ölçeklemesini değiştirmek için yetkiler gerekli.</message>
+    <message xml:lang="uk">Для зміни частоти процесора потрібні привілеї адміністратора.</message>
+    <message xml:lang="vi">Cần quyền đặc biệt để thay đổi tỷ lệ tần số CPU.</message>
+    <message xml:lang="zh_CN">要更改 CPU 频率范围，需要一定特权。</message>
+    <message xml:lang="zh_HK">要調整 CPU 頻率需要權限。</message>
+    <message xml:lang="zh_TW">要調整 CPU 頻率需要權限。</message>
+    <defaults>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+</policyconfig>

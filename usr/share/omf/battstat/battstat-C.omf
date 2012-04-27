@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Sun GNOME Documentation Team)</creator>
+    <creator>(Trevor Curtis)</creator>
+    <creator>(Jorgen   Pehrson)</creator>
+    <creator>(Angela Boyle)</creator>
+    <creator>(Davyd Madeley)</creator>
+    <maintainer>( GNOME Documentation Project )</maintainer>
+    <title>Battery Charge Monitor Manual</title>
+    <date>May 2002</date>
+    <version identifier="Battery Charge Monitor Applet Manual V2.0" date="May 2002"/>
+    <subject category="GNOME|Applets|Utility"/>
+    <description>
+      Battery Charge Monitor shows the current charge of the 
+        battery and provides notifications if charge drops below a certain
+        threshold.
+    </description>
+    <type>user's guide</type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/battstat/C/battstat.xml"/>
+    <language code="C"/>
+    <relation seriesid="01c4d5f0-6f7c-11d6-9d2a-d9f4212120ec"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Sun Microsystems"/>
+  </resource>
+</omf>

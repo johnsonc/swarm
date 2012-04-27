@@ -1,0 +1,10 @@
+/.
+/etc
+/etc/libosso
+/etc/libosso/sessionbus-libosso.conf
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libosso-dbus-conf
+/usr/share/doc/libosso-dbus-conf/changelog.Debian.gz
+/usr/share/doc/libosso-dbus-conf/copyright

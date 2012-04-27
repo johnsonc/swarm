@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>commons-compress</artifactId>
+	<version>debian</version>
+	<packaging>jar</packaging>
+	
+	<name>Commons Compress</name>
+	<url>http://commons.apache.org/compress/</url>
+	<description>Commons Compress is a component that contains Ar, Cpio, Jar, Tar, Zip and BZip2 packages</description>
+	<issueManagement>
+		<system>jira</system>
+		<url>http://issues.apache.org/jira/browse/COMPRESS</url>
+	</issueManagement>
+	<dependencies>
+	</dependencies>
+	<developers>
+		<developer>
+			<name>Torsten Curdt</name>
+			<id>tcurdt</id>
+			<email>tcurdt at apache.org</email>
+		</developer>
+		<developer>
+			<name>Stefan Bodewig</name>
+			<id>bodewig</id>
+			<email>bodewig at apache.org</email>
+		</developer>
+		<developer>
+			<name>Sebastian Bazley</name>
+			<id>sebb</id>
+			<email>sebb at apache.org</email>
+		</developer>
+		<developer>
+			<name>Christian Grobmeier</name>
+			<email>grobmeier at apache.org</email>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Wolfgang Glas</name>
+			<email>wolfgang.glas at ev-i.at</email>
+		</contributor>
+		<contributor>
+			<name>Christian Kohlsch??tte</name>
+			<email>ck@newsclub.de</email>
+		</contributor>
+	</contributors>
+	<scm>
+		<connection>scm:svn:http://svn.apache.org/repos/asf/commons/proper/compress/tags/commons-compress-1.0</connection>
+		<developerConnection>scm:svn:https://svn.apache.org/repos/asf/commons/proper/compress/tags/commons-compress-1.0</developerConnection>
+		<url>http://svn.apache.org/repos/asf/commons/proper/compress/tags/commons-compress-1.0</url>
+	</scm>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compile.source>1.4</maven.compile.source>
+		<maven.compile.target>1.4</maven.compile.target>
+		<commons.componentid>compress</commons.componentid>
+		<commons.jira.id>COMPRESS</commons.jira.id>
+		<commons.jira.pid>12310904</commons.jira.pid>
+		<commons.release.version>1.0</commons.release.version>
+		<commons.rc.version>RC2</commons.rc.version>
+		<debian.originalVersion>1.0</debian.originalVersion>
+		<debian.package>libcommons-compress-java</debian.package>
+	</properties>
+</project>

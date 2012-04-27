@@ -1,0 +1,2 @@
+libgtkhtml3.14-19: package-name-doesnt-match-sonames libgtkhtml-3.14-19
+libgtkhtml3.14-19: package-name-doesnt-match-sonames libgtkhtml-3.14-19 libgtkhtml-editor0

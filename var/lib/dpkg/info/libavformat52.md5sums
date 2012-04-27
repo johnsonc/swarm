@@ -1,0 +1,11 @@
+a8bf8af24cc924532f558bf4a621877f  usr/lib/libavformat.so.52.31.0
+12979c0d80fe62e44ab08c69536479bf  usr/lib/neon/vfp/libavformat.so.52.31.0
+538abb3aecf49e504212fc82ecfaf7bf  usr/lib/vfp/libavformat.so.52.31.0
+4263310f0087032d17bbf57d24cc982f  usr/share/doc/libavformat52/CREDITS
+cfb14a1b75f6825cece0d019fdde55f2  usr/share/doc/libavformat52/MAINTAINERS.gz
+5d4f3da091ed2960228e255391b6553c  usr/share/doc/libavformat52/README.Debian.gz
+5445eeb1b70893e88726cf7d9a0da1d7  usr/share/doc/libavformat52/TODO
+dce496c66d57f840c9f4ffdbbccb5ecd  usr/share/doc/libavformat52/changelog.Debian.gz
+f46207c2c8d152b571a05e44522aa6ab  usr/share/doc/libavformat52/changelog.gz
+a1dcc5382322f9332809f502cf7509c9  usr/share/doc/libavformat52/copyright
+4924335f44d99e135e663304d0a76561  usr/share/lintian/overrides/libavformat52

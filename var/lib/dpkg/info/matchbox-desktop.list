@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/bin
+/usr/bin/matchbox-desktop
+/usr/share
+/usr/share/doc
+/usr/share/doc/matchbox-desktop
+/usr/share/doc/matchbox-desktop/changelog.Debian.gz
+/usr/share/doc/matchbox-desktop/changelog.gz
+/usr/share/doc/matchbox-desktop/README
+/usr/share/doc/matchbox-desktop/AUTHORS
+/usr/share/doc/matchbox-desktop/copyright
+/usr/share/doc/matchbox-desktop/TODO
+/usr/share/doc/matchbox-desktop/NEWS.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/matchbox-desktop.1.gz

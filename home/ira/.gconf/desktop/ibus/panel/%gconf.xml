@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="show_im_name" mtime="1431542257" type="bool" value="true"/>
+	<entry name="custom_font" mtime="1431675898" type="string">
+		<stringvalue>Sans 10</stringvalue>
+	</entry>
+</gconf>

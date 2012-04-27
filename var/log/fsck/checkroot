@@ -1,0 +1,8 @@
+Log of fsck -C -a -t auto /dev/root 
+Thu May  7 10:52:26 2015
+
+fsck from util-linux-ng 2.17.2
+/dev/mmcblk0p2: clean, 84146/240960 files, 521257/963464 blocks
+
+Thu May  7 10:52:26 2015
+----------------

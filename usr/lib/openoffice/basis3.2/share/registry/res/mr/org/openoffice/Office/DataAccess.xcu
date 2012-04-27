@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="DataAccess" oor:package="org.openoffice.Office">
+  <node oor:name="DriverSettings">
+    <node oor:name="com.sun.star.comp.sdbc.MozabDriver">
+      <node oor:name="MozillaPreferences">
+        <prop oor:name="PabDescription">
+          <value xml:lang="mr">वैयक्तिक पत्ता पुस्तक</value>
+        </prop>
+        <prop oor:name="HisDescription">
+          <value xml:lang="mr">संग्रहित पत्ते</value>
+        </prop>
+      </node>
+      <node oor:name="ColumnAliases">
+        <prop oor:name="FirstName">
+          <value xml:lang="mr">पहिले नाव</value>
+        </prop>
+        <prop oor:name="LastName">
+          <value xml:lang="mr">अंतिम नाव</value>
+        </prop>
+        <prop oor:name="DisplayName">
+          <value xml:lang="mr">प्रदर्शन नाव</value>
+        </prop>
+        <prop oor:name="NickName">
+          <value xml:lang="mr">टोपण नाव</value>
+        </prop>
+        <prop oor:name="PrimaryEmail">
+          <value xml:lang="mr">ई-मेल</value>
+        </prop>
+        <prop oor:name="SecondEmail">
+          <value xml:lang="mr">ई-मेल (2)</value>
+        </prop>
+        <prop oor:name="PreferMailFormat">
+          <value xml:lang="mr">मेल स्वरूपण</value>
+        </prop>
+        <prop oor:name="WorkPhone">
+          <value xml:lang="mr">दूरध्वनी (कचेरी)</value>
+        </prop>
+        <prop oor:name="HomePhone">
+          <value xml:lang="mr">दूरध्वनी (घरचा)</value>
+        </prop>
+        <prop oor:name="FaxNumber">
+          <value xml:lang="mr">फॅक्स</value>
+        </prop>
+        <prop oor:name="PagerNumber">
+          <value xml:lang="mr">पेजर</value>
+        </prop>
+        <prop oor:name="CellularNumber">
+          <value xml:lang="mr">दूरध्वनी (मोबाईल)</value>
+        </prop>
+        <prop oor:name="HomeAddress">
+          <value xml:lang="mr">पत्ता 1</value>
+        </prop>
+        <prop oor:name="HomeAddress2">
+          <value xml:lang="mr">पत्ता 2</value>
+        </prop>
+        <prop oor:name="HomeCity">
+          <value xml:lang="mr">शहर</value>
+        </prop>
+        <prop oor:name="HomeState">
+          <value xml:lang="mr">राज्य</value>
+        </prop>
+        <prop oor:name="HomeZipCode">
+          <value xml:lang="mr">ZIP/पोस्टल (घरचा)</value>
+        </prop>
+        <prop oor:name="HomeCountry">
+          <value xml:lang="mr">देश</value>
+        </prop>
+        <prop oor:name="WorkAddress">
+          <value xml:lang="mr">कचेरीचा पत्ता</value>
+        </prop>
+        <prop oor:name="WorkAddress2">
+          <value xml:lang="mr">कचेरीचा पत्ता 2</value>
+        </prop>
+        <prop oor:name="WorkCity">
+          <value xml:lang="mr">शहर (कचेरी)</value>
+        </prop>
+        <prop oor:name="WorkState">
+          <value xml:lang="mr">राज्य (कचेरी)</value>
+        </prop>
+        <prop oor:name="WorkZipCode">
+          <value xml:lang="mr">Zip/पोस्टल (कचेरी)</value>
+        </prop>
+        <prop oor:name="WorkCountry">
+          <value xml:lang="mr">देश (कचेरी)</value>
+        </prop>
+        <prop oor:name="JobTitle">
+          <value xml:lang="mr">नोकरी शीर्षक</value>
+        </prop>
+        <prop oor:name="Department">
+          <value xml:lang="mr">विभाग</value>
+        </prop>
+        <prop oor:name="Company">
+          <value xml:lang="mr">कंपनी</value>
+        </prop>
+        <prop oor:name="WebPage1">
+          <value xml:lang="mr">वेब पान (कचेरी)</value>
+        </prop>
+        <prop oor:name="WebPage2">
+          <value xml:lang="mr">वेब पान (घर)</value>
+        </prop>
+        <prop oor:name="BirthYear">
+          <value xml:lang="mr">जन्म वर्ष</value>
+        </prop>
+        <prop oor:name="BirthMonth">
+          <value xml:lang="mr">जन्म महिना</value>
+        </prop>
+        <prop oor:name="BirthDay">
+          <value xml:lang="mr">जन्म दिवस</value>
+        </prop>
+        <prop oor:name="Custom1">
+          <value xml:lang="mr">मनपसंत 1</value>
+        </prop>
+        <prop oor:name="Custom2">
+          <value xml:lang="mr">मनपसंत 2</value>
+        </prop>
+        <prop oor:name="Custom3">
+          <value xml:lang="mr">मनपसंत 3</value>
+        </prop>
+        <prop oor:name="Custom4">
+          <value xml:lang="mr">मनपसंत 4</value>
+        </prop>
+        <prop oor:name="Notes">
+          <value xml:lang="mr">टिप्पणी</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

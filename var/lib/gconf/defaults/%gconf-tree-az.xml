@@ -1,0 +1,2922 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="Avtomatik vəkil quraşdırma URL-si">
+						<longdesc>Vəkil qurğu qiymətlərini verən URL</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCKS vəkil qapısı">
+						<longdesc>The port on the machine defined by &quot;/system/proxy/socks_host&quot; that you proxy through.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS vəkil qovşaq adı">
+						<longdesc>Socks üçün vəkilin sistem adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP vəkil qapısı">
+						<longdesc>The port on the machine defined by &quot;/system/proxy/ftp_host&quot; that you proxy through.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP vəkil qovşaq adı">
+						<longdesc>FTP üçün vəkilin sistem adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="E&apos;tibarlı HTTP vəkil qovşaq qapısı">
+						<longdesc>The port on the machine defined by &quot;/system/proxy/secure_host&quot; that you proxy through.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="E&apos;tibarlı HTTP vəkil qovşaq adı">
+						<longdesc>E&apos;tibarlı HTTP üçün vəkilin sistem adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Vəkil quraşdırma modu">
+						<longdesc>Vəkil quraşdırma modu. Dəstəklənən qiymətlər: &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Vəkil olmayan qovşaqlar">
+						<longdesc>This key contains a list of hosts which are connected to directly, rather than via the proxy (if it is active). The values can be hostnames, domains (using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and IPv6) and network addresses with a netmask (something like 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP vəkil şifrəsi">
+						<longdesc>HTTP vəkilləndirməsində göndəriləcək şifrə.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP vəkil istifadəçi adı">
+						<longdesc>HTTP vəkilləndirməsində göndəriləcək istifadəçi adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Vəkil vericisi bağlantılarını tanıt">
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP vəkil qapısı">
+						<longdesc>The port on the machine defined by &quot;/system/http_proxy/host&quot; that you proxy through.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP vəkil qovşaq adı">
+						<longdesc>HTTP üçün vəkilin sistem adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="HTTP vəkili işlət">
+						<longdesc>Enables the proxy settings when accessing HTTP over the Internet.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB iş qrupu">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Bu profilin istifadə ediləcəyi">
+									<longdesc>Bu profilin göstəriləcəyi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+									<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+									<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Audio profilin izahatı">
+									<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Audio profil üçün qısa ad">
+									<longdesc>Audio profil üçün qısa ad.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Bu profilin istifadə ediləcəyi">
+										<longdesc>Bu profilin göstəriləcəyi.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+										<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+										<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio profilin izahatı">
+										<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio profil üçün qısa ad">
+										<longdesc>Audio profil üçün qısa ad.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+										<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+										<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio profilin izahatı">
+										<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio profil üçün qısa ad">
+										<longdesc>Audio profil üçün qısa ad.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+										<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+										<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio profilin izahatı">
+										<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio profil üçün qısa ad">
+										<longdesc>Audio profil üçün qısa ad.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+										<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+										<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio profilin izahatı">
+										<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio profil üçün qısa ad">
+										<longdesc>Audio profil üçün qısa ad.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+										<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+										<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio profilin izahatı">
+										<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio profil üçün qısa ad">
+										<longdesc>Audio profil üçün qısa ad.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+										<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+										<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio profilin izahatı">
+										<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio profil üçün qısa ad">
+										<longdesc>Audio profil üçün qısa ad.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil üçün ön qurğulu fayl uzantısı">
+										<longdesc>Bu profil ilə kodlanan fayllar qeyd edildiyində işlədiləcək fayl uzantısı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="İşlədilən qismi GStreamer borusu">
+										<longdesc>Bu profildə işlədiləcək qismi GStreame borusu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio profilin izahatı">
+										<longdesc>Audio profil haqqında mə&apos;lumat daxil edən izahat</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio profil üçün qısa ad">
+										<longdesc>Audio profil üçün qısa ad.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Profil siyahısı">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="show_backup_files">
+						<local_schema short_desc="Ehtiyat nüsxəsi fayllarının göstərilməsi">
+							<longdesc>Seçilidirsə, Emacs kimi proqramlar tərəfindən yaradılan ehtiyat nüsxəsi faylları göstəriləcək. Hazırda, yalnız tilda (~) ilə bitən fayllar ehtiyat nüsxəsi faylı sayılır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Gizli faylların göstərilməsi">
+							<longdesc>TRUE isə, fayl idarəçisində gizli fayllar göstəriləcəkdir. Gizli fayllar ya nöqtə ilə başlayan fayllar ya da adları qovluqların içindəki .hidden faylının içində yer alan fayllardır.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Pəncərə İdarəçisi">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Çap qurğularını bağla">
+							<longdesc>Çap qurğularını dəyişdirməyə icazə vermə. Məsələn proqramların &quot;Çap Qurğuları&quot; dialoqlarını qeyri-fəallaşdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Çap imkanını bağla">
+							<longdesc>Çap etmə icazə vermə. Məsələn proqramların &quot;Çap Et&quot; dialoqlarını qeyri-fəallaşdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Diskə fayl qeyd etmə imkanını bağla">
+							<longdesc>Diskə qeyd etməyə icazə vermə. Məsələn proqramların &quot;Fərqli Qeyd Et&quot; dialoqlarını qeyri-fəallaşdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Əmr sətirini bağla">
+							<longdesc>Əmr icra etməyə ya da terminalı işlətməyə icazə vermə. Məsələn &quot;Proqram İcra Et&quot; dialoqlarını qeyri-fəallaşdır.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="Hadisələr üçün səslər">
+							<longdesc>İstifadəçi hadisələrində səslərin çalınıb çalınmaması.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ESD-ni Fəallaşdır">
+							<longdesc>Səs vericisi başladıla bilmədi.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Kursor böyüklüyü">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Kursor örtüyü">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Kursor yazı növü">
+								<longdesc>Kursorun yazı növü adı. Əgər seçilməyibsə ön qurğulu yazı növü işlədiləcək. Bu dəyərdəki dəyişmələr ancaq X-ə bir sonrakı girişinizdə fəal olacaq. Yəni, iclasın ortasında bunu dəyişmək o anda nəticə verməyəcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Oxun Yerini Göstər">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Cüt Tıqlama Zamanı">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Daşıma Başlanğıcı">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Hərəkət Başlanğıcı">
+								<longdesc>Sürətləndilirmiş siçan hərəkəti fəallaşdırılana qədər göstəricinin hərəkət etməsi məcbur olan piksel olaraq məsafə. -1 dəyəri sistemin ön qurğulu dəyəridir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Tək Tıq">
+								<longdesc>Sıçan hərəkəti üçün sürət artırma. -1 dəyəri sistemin ön qurğulu qiymətidir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Tək Tıq">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Sıçan düyməsinin istiqaməti">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Klaviatura Zınqırovu Özəl Fayl adı">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>mümkün qiymətlər &quot;fəal&quot;, &quot;qeyri-fəal&quot; və &quot;xüsusi&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Rəng Kölgələmə Növü">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="İkinci Rəng">
+							<longdesc>Gradientlər çəkilərkən Sağ ya da Aşağı rəng. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Əsas Rəng">
+							<longdesc>Qradientlər ya da sadə rəng çəkilərkən sol ya da üst rəng.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Rəsmin Matlığı">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Rəsmin fayl adı">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Rəsmin Seçənəkləri">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Masa Üstü Arxa Planını Çək">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Fayl Timsal Örtüyü">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>İki düymə eyni anda basılsa qeyri fəallaşdır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="millisaniyə olaraq minimal interval">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Başlanğıc Yardımcı Texnoloji Tə&apos;minatları">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="webcal">
+						<entry name="need-terminal">
+							<local_schema short_desc="Proqramı terminalda icra et">
+								<longdesc>Bu URL-ni açan proqram terminalda icra edilməlidirsə, true</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="webcal uri-ləri üçün URL tutucusu">
+								<longdesc>webcal uri-ləri üçün URL tutucusu</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="webcal URL-lərinin necə açılacağı">
+								<longdesc>webcal URL-lərini açan əmri təyin etmək üçün buranı true seçin</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Klaviyatura qıfıllamasının fəal olması">
+							<longdesc>Klaviyatura qıfıllamasının fəal olması.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Fasilələrin təxirə salınmasına icazə ver">
+							<longdesc>Yazma fasiləsi ekranının təxirə salına bilməsi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Fasilə vaxtı">
+							<longdesc>Yazma fasiləsinin davam edəcəyi vaxt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Yazma vaxtı">
+							<longdesc>Fasilənin başlaması üçün keçməsi lazım olan vaxt.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Səyyah uzaqdakini başa düşür">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Səyyahın terminala ehtiyacı var">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Əsas Səyyah">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Ön qurğulu tərkib hissəsi nümayiş proqramı">
+								<longdesc>The application to use for viewing files that require a component to view them. The parameter %s will be replaced by the file&apos;s URIs, the parameter %c will be replaced by the component IID.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Exec Arqumentləri">
+								<longdesc>Terminalda proqramları icra etmək üçün &apos;exec&apos; açarı tərəfindən tə&apos;yin edilən arqument.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Terminal proqramı">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="GtkFileChooser üçün modul">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Vəziyyət Çubuğu Sağda Olsun">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Şəxsi yazı növü işlət">
+							<longdesc>gtk+ proqramlarında çəxsi yazı növünün işlədilib işlədilməməsi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Sabit enli yazı növü">
+							<longdesc>Terminal kimi mövqelərdə işlətmək üçün sabit enli yazı növü.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM Vəziyyət Tərzi">
+							<longdesc>GTK+ tərəfindən işlədilən gtk+ giriş üsulunun Vəziyyət Tərzi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM Önredaktə Tərzi">
+							<longdesc>GTK+ tərəfindən işlədilən gtk+ giriş üsulunun Önredaktə Tərzi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Əsas Yazı Növü">
+							<longdesc>gtk+ tərəfindən istifadə edilən ön qurğulu yazı növünün adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ Örtüyü">
+							<longdesc>gtk+ nın əsas örtüsünün əsas adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ Örtüyü">
+							<longdesc>gtk+ nın əsas örtüsünün əsas adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Timsal Örtüyü">
+							<longdesc>Panel, nautilus və s. ilə işlədiləcək timsal örtüsü.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Oxun Yanıb-Sönmə Zamanı">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Ox Yanıb-Sönən">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Ləvazimat Çubuğu Timsallarının Böyüklüyü">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Ləvazimat çubuğu ayrıla bilsin">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Menyu çubuğu ayrıla bilsin">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Menyularda Timsallar Olsun">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Ləvazimat Çubuğu Tərzi">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Sürət dəyişdirilə bilsin">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Menyularda Qopardma Yerləri Olsun">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Animasiyaları Fəallaşdır">
+							<longdesc>Animasiyaların göstərilməsi. Diqqət: Bu qlobal açardır, o pəncərə idarəçisinin, panelin və s. davranışlarını dəyişdirir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Yetişmə Qabiliyyətini Fəallaşdır">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Bütün xarici ön nümayişçiləri qeyri-fəallaşdır">
+							<longdesc>Bütün xarici ön nümayişçiləri qeyri-fəallaşdırmaq üçün seçin</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-font-otf">
+						<entry name="enable">
+							<local_schema short_desc="OpenType yazı növlərinin ön nümayişlərinin göstərilməsi">
+								<longdesc>Seçilirsə, OpenType yazı növlərinin ön nümayişləri göstəriləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="OpenType yazı növlərinin ön nümayiş əmri">
+								<longdesc>Bu düyməni OpenType yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-font-pcf">
+						<entry name="enable">
+							<local_schema short_desc="PCF yazı növlərinin ön nümayişlərinin göstərilməsi">
+								<longdesc>Seçilirsə, PCF yazı növlərinin ön nümayişləri göstəriləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="PCF yazı növlərinin ön nümayiş əmri">
+								<longdesc>Bu düyməni PCF yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-font-type1">
+						<entry name="enable">
+							<local_schema short_desc="Type1 yazı növlərinin ön nümayişlərinin göstərilməsi">
+								<longdesc>Seçilirsə, Type1 yazı növlərinin ön nümayişləri göstəriləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Type1 yazı növlərinin ön nümayiş əmri">
+								<longdesc>Bu düyməni Type1 yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-font-ttf">
+						<entry name="enable">
+							<local_schema short_desc="TrueType yazı növlərinin ön nümayişlərinin göstərilməsi">
+								<longdesc>Seçilirsə, TrueType yazı növlərinin ön nümayişləri göstəriləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="TrueType yazı növlərinin ön nümayiş əmri">
+								<longdesc>Bu düyməni TrueType yazı növlərinin ön nümayişlərini yaratmaq üçün işlədilən əmrə bağlayın.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="netstatus_applet">
+				<entry name="config_tool">
+					<local_schema short_desc="Şəbəkə quraşdırma vasitəsi">
+						<longdesc>This key specifies the name of the network configuration tool which should be invoked when the &quot;Configure&quot; button in the properties dialog is clicked. If the configuration tool can take a parameter of the interface to configure you may use %i in the string and it will be substituted with the interface name before invoking the configuration tool. For example, gnome-system-tool&apos;s network-admin tool takes the interface name through a --configure parameter. Thus, you could set the value of this key to be: &quot;network-admin --configure %i&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="prefs">
+					<entry name="interface">
+						<local_schema short_desc="Şəbəkə ara üzü">
+							<longdesc>Şəbəkə İzləyicisi tərəfindən izlənən Şəbəkə Ara Üzü.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="totem">
+				<entry name="window_on_top">
+					<local_schema short_desc="Əsas pəncərənin həmişə üstdə olması">
+						<longdesc>Əsas pəncərənin həmişə başqa pəncərələrin üstündə olması</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="audio_output_type">
+					<local_schema short_desc="İstifadə ediləcək audio çıxış növü">
+						<longdesc>İstifadə ediləcək audio çıxış növü: &quot;0&quot; stereo üçün , &quot;1&quot; 4-kanallı çıxış üçün, &quot;2&quot; 5.0 kanallı çıxış üçün, &quot;3&quot; 5.1 kanallı çıxış üçün, &quot;4&quot;  AC3 Passthrough üçün.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Oxuma motoru üçün xəta ayırmanın fəal edilməsi">
+					</local_schema>
+				</entry>
+				<entry name="deinterlace">
+					<local_schema short_desc="Qarışmanı ləğv etmə fəal">
+					</local_schema>
+				</entry>
+				<entry name="shuffle">
+					<local_schema short_desc="Qarışdırma modu">
+					</local_schema>
+				</entry>
+				<entry name="repeat">
+					<local_schema short_desc="Tərkarlama modu">
+					</local_schema>
+				</entry>
+				<entry name="auto_resize">
+					<local_schema short_desc="Fayl açılanda kanvası avtomatik ölçüləndir">
+					</local_schema>
+				</entry>
+				<entry name="saturation">
+					<local_schema short_desc="Videonun doyğunluğu">
+					</local_schema>
+				</entry>
+				<entry name="hue">
+					<local_schema short_desc="Videonun çöhrəsi">
+					</local_schema>
+				</entry>
+				<entry name="contrast">
+					<local_schema short_desc="Videonun kontrastı">
+					</local_schema>
+				</entry>
+				<entry name="brightness">
+					<local_schema short_desc="Videonun parlaqlığı">
+					</local_schema>
+				</entry>
+				<entry name="visual">
+					<local_schema short_desc="Əyani effekt əlavələrinin adı">
+					</local_schema>
+				</entry>
+				<entry name="show_vfx">
+					<local_schema short_desc="Əyani effektləri video göstərilməyəndə işlət">
+						<longdesc>Əyani effektləri yalnız audio fayl çalınanda işlət.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="loadavg_color1">
+						<local_schema short_desc="Yük göstəricisi arxa plan rəngi">
+						</local_schema>
+					</entry>
+					<entry name="loadavg_color0">
+						<local_schema short_desc="Yük göstəricisi üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color1">
+						<local_schema short_desc="Dəyiş-toqquş göstəricisi arxa plan rəngi">
+						</local_schema>
+					</entry>
+					<entry name="swapload_color0">
+						<local_schema short_desc="İstifadəçi ilə əlaqəli dəyiş-toqquş sahəsi istifadəsi üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="netload2_color3">
+						<local_schema short_desc="Şəbəkə göstəricisi arxa plan rəngi">
+						</local_schema>
+					</entry>
+					<entry name="memload_color4">
+						<local_schema short_desc="Yaddaş göstəricisi arxa plan rəngi">
+						</local_schema>
+					</entry>
+					<entry name="memload_color3">
+						<local_schema short_desc="Ara yaddaşa alınmış yaddaş üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="memload_color2">
+						<local_schema short_desc="Buffer yaddaşı üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="memload_color1">
+						<local_schema short_desc="Bölüşülmüş yaddaş üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="memload_color0">
+						<local_schema short_desc="İstifadəçi ilə əlaqəli yaddaş istifadəsi üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color4">
+						<local_schema short_desc="CPU qrafikası arxa plan rəngi">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color2">
+						<local_schema short_desc="Nice ilə əlaqəli CPU fəallığı üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color1">
+						<local_schema short_desc="Sistem ilə əlaqəli CPU fəallığı üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="cpuload_color0">
+						<local_schema short_desc="İstifadəçi ilə əlaqəli CPU fəallığı üçün qrafika rəngi">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Qrafika böyüklüyü">
+							<longdesc>Üfüqi panellər üçün, qrafikaların piksel olaraq eni. Şaquli panellər üçün, bu qrafikaların hündürlüyüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Appletin millisaniyə olaraq yeniləmə aralığı">
+						</local_schema>
+					</entry>
+					<entry name="view_loadavg">
+						<local_schema short_desc="Yük göstərici qrafikasını fəallaşdır">
+						</local_schema>
+					</entry>
+					<entry name="view_swapload">
+						<local_schema short_desc="Dəyiş-toqquş sahəsi göstərici qrafikasını fəallaşdır">
+						</local_schema>
+					</entry>
+					<entry name="view_netload">
+						<local_schema short_desc="Şəbəkə göstərici qrafikasını fəallaşdır">
+						</local_schema>
+					</entry>
+					<entry name="view_memload">
+						<local_schema short_desc="Yaddaş göstərici qrafikasını fəallaşdır">
+						</local_schema>
+					</entry>
+					<entry name="view_cpuload">
+						<local_schema short_desc="CPU yük göstəricisini fəallaşdır">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="geyes">
+				<dir name="prefs">
+					<entry name="theme_path">
+						<local_schema short_desc="Örtüyün mövcud olduğu cərgə">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="battstat-applet">
+				<dir name="prefs">
+					<entry name="drain_from_top">
+						<local_schema short_desc="Yuxarıdan boşalt">
+						</local_schema>
+					</entry>
+					<entry name="beep">
+						<local_schema short_desc="Xəbərdarlıqlarda səs çixart">
+						</local_schema>
+					</entry>
+					<entry name="full_battery_notification">
+						<local_schema short_desc="Dolu Batareya Xəbərdarlığı">
+						</local_schema>
+					</entry>
+					<entry name="low_battery_notification">
+						<local_schema short_desc="Alçaq Batareya Xəbərdarlığı">
+						</local_schema>
+					</entry>
+					<entry name="red_value">
+						<local_schema short_desc="Qırmızı qiymət səviyyəsi">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="mixer_applet">
+				<dir name="prefs">
+					<entry name="vol">
+						<local_schema short_desc="Başlayanda geri yükləmək üçün qeyd edilmiş səs həcmi">
+						</local_schema>
+					</entry>
+					<entry name="mute">
+						<local_schema short_desc="Qeyd edilmiş səssiz vəziyyət">
+						</local_schema>
+					</entry>
+					<entry name="channel">
+						<local_schema short_desc="Applet tərəfindən idarə edilən kanal. Ancaq OSS qurğuları üçün">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="drivemount-applet">
+				<dir name="prefs">
+					<entry name="interval">
+						<local_schema short_desc="Bağlama nöqtəsinin vəziyyətini yoxlama qecikməsi">
+							<longdesc>Vəziyyət yeniləmələri aralarındakı saniyə</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="Mövcud palitraların siyahısı">
+						</local_schema>
+					</entry>
+					<entry name="current_list">
+						<local_schema short_desc="Aplet başlayanda göstəriləcək hərflər">
+							<longdesc>Appletin son istifadə edildiyi vaxt istifadəçinin seçdiyi qatar. Bu qatar istifadəçi appleti başladanda göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_list">
+						<local_schema short_desc="İSTİFADƏ EDİLMİR - Aplet başlayanda göstəriləcək hərflər">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="settings">
+					<entry name="confirm_deletion">
+						<local_schema short_desc="Qeydi siləndə təstiq istənməsi">
+						</local_schema>
+					</entry>
+					<entry name="force_default">
+						<local_schema short_desc="Bütün qeydlərdə ön qurğulu rəng və yazı növünü işlətmə məcburiyyəti">
+							<longdesc>Bu qurğu fəaldırsa, yapışqan qeydlərə verilən xüsusi yazı növü və rənglər rədd ediləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_font">
+						<local_schema short_desc="Sistemin ön qurğulu yazı növünün işlədilməsi">
+							<longdesc>Bu qurğu qeyri-fəaldırsa, bütün yapışqan qeydlər üçün xüsusi bir yazı növü ön qurğulu yazı növü olaraq işlədilə bilər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_color">
+						<local_schema short_desc="Ön qurğulu sistem rənginin istifadə ediləcəyi">
+							<longdesc>Bu qurğu qeyri-fəaldırsa, bütün yapışqan qeydlər üçün xüsusi bir rəng ön qurğulu rəng olaraq işlədilə bilər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Qeyd başlıqlarının tarix şəkli">
+							<longdesc>Ön qurğulu olaraq, yapışqan qeydlər yaradılanda onların başlığı hazırkı tarix olur. Bu şəkil istifadə edilir. strftime() tərəfindən oxuna bilən başqa şəkillər də istifadə edilə bilər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Yapışqan qeydlərin qıfıllı vəziyyəti">
+							<longdesc>Yapışqan qeydlərin qıfıllı (dəyişdirilə bilməyən) olub olmamalarını müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sticky">
+						<local_schema short_desc="Yapışqan qeydlərin iş sahəsinə yapışma dərəcəsi">
+							<longdesc>Yapışqan qeydlərin masa üstündəki bütün iş sahələrində göstərilib göstərilməmələrini müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="defaults">
+					<entry name="font">
+						<local_schema short_desc="Yeni qeydlər üçün ön qurğulu yazı növü">
+						</local_schema>
+					</entry>
+					<entry name="color">
+						<local_schema short_desc="Yeni qeydlər üçün ön qurğulu rəng">
+							<longdesc>Yeni yapışqan qeydlər üçün ön qurğulu rəng. Bu html hex şəklində olmalıdır, mis. &quot;#30FF50&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="height">
+						<local_schema short_desc="Yeni qeydlər üçün ön qurğulu hündürlük">
+							<longdesc>Yeni yapışqan qeydlər üçün piksel olaraq ön qurğulu hündürlük.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="Yeni qeydlər üçün ön qurğulu en">
+							<longdesc>Yeni yapışqan qeydlər üçün piksel olaraq ön qurğulu en.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Masa üstündəki zibil qutusu timsalının adı">
+							<longdesc>Masa üstündəki zibil qutusu timsalının adını dəyişdirmək üçün bundan istifadə edə bilərsiniz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Masa üstündəki ev timsalının adı">
+							<longdesc>Masa üstündəki ev timsalının adını dəyişdirmək üçün bundan istifadə edə bilərsiniz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_name">
+						<local_schema short_desc="Masa üstündəki kompüter timsalının adı">
+							<longdesc>Masa üstündəki kompüter timsalının adını dəyişdirmək üçün bundan istifadə edə bilərsiniz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="volumes_visible">
+						<local_schema short_desc="Sürücü timsalları masa üstündə göstərilsin">
+							<longdesc>Seçilidirsə, masa üstündə bağlanmış sürücülərə körpü verən timsal göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Zibil qutusu masa üstündə göstərilsin">
+							<longdesc>Seçilidirsə, masa üstündə zibil qutusuna körpü verən timsal göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Kompüter timsalı masa üstündə göstərilsin">
+							<longdesc>TRUE isə, masa üstündə kompüterə körpü verən timsal göstəriləcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Ev timsalı masa üstündə göstərilsin">
+							<longdesc>TRUE isəə, masa üstündə ev qovluğuna körpü verən timsal göstəriləcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema>
+								<longdesc>TRUE isə, Nautilus yan paneldə yalnız qovluqları göstərəcəkdir. Əks halda o həm qovluq həm də faylları göstərəcək.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="Siyahı nümayişi üçün ön qurğulu sütun ardıcıllığı">
+							<longdesc>Siyahı nümayişi üçün ön qurğulu sütun ardıcıllığı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="Siyahı nümayişində göstərilən ön qurğulu sütun siyahısı">
+							<longdesc>Siyahı nümayişində göstərilən ön qurğulu sütun siyahısı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Ön qurğulu siyahı yaxınlaşdırma dərəcəsi">
+							<longdesc>Siyahı nümayişi üçün ön qurğulu yaxınlaşdırma dərəcəsi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Yeni pəncərələrdə tərs sıralama ardıcıllığı">
+							<longdesc>Seçilidirsə, yeni pəncərələrdəki fayllar tərs ardıcıllıqda sıralanacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Ön qurğulu sıralama ardıcıllığı">
+							<longdesc>Üzvlərin siyahı görünüşündəki ön qurğulu düzülüş qaydası. Mümükün qiymətlər: &quot;name&quot;, &quot;size&quot;, &quot;type&quot; və &quot;modification_date&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Ön qurğulu timsal yaxınlaşdırma dərəcəsi">
+							<longdesc>Timsal nümayişi üçün ön qurğulu yaxınlaşdırma dərəcəsi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema short_desc="Yeni pəncərələrdə əllə düzülüşü işlət">
+							<longdesc>Seçilidirsə, yeni pəncərələrdəki fayllar əllə düzüləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="labels_beside_icons">
+						<local_schema short_desc="Timsal adlarını yanda göstər">
+							<longdesc>Seçilidirsə, adlar timsalların altında deyil yanlarında göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_tighter_layout">
+						<local_schema short_desc="Yeni pəncərələrdə gərgin düzülüş işlət">
+							<longdesc>TRUE isə, yeni pəncərələrdəki timsallar birbirinə daha yaxın yerləşdiriləcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Yeni pəncərələrdə tərs sıralama ardıcıllığı">
+							<longdesc>Seçilidirsə, yeni pəncərələrdəki fayllar tərs ardıcıllıqda sıralanacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Ön qurğulu sıralama ardıcıllığı">
+							<longdesc>Üzvlərin timsal görünüşündəki ön qurğulu düzülüş qaydası. Mümkün qiymətlər: &quot;name&quot;, &quot;size&quot;, &quot;type&quot;, &quot;modification_date&quot; və &quot;emblems&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Timsalların mümkün olan adlarının siyahısı">
+							<longdesc>Timsal nümayişi və masa üstündə timsalların altında göstəriləcək mə&apos;lumat. Bunların miqdarı yaxınlaşdırma səviyyəsinə bağlıdır. Mümkün qiymətlər: &quot;size&quot;, &quot;type&quot;, &quot;date_modified&quot;, &quot;date_changed&quot;, &quot;date_accessed&quot;, &quot;owner&quot;, &quot;group&quot;, &quot;permissions&quot;, &quot;octal_permissions&quot; və &quot;mime_type&quot;. </longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Yan panel nümayişi">
+							<longdesc>Yeni açılan pəncərələrdə göstəriləcək yan panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Yeni pəncərələrdə yan paneli göstər">
+							<longdesc>Seçilidirsə, yeni açılan pəncərələrin yan panelləri göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Yeni pəncərələrdə vəziyyət çubuğunu göstər">
+							<longdesc>Seçilidirsə, yeni açılan pəncərələrin vəziyyət çubuqları göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Yeni pəncərələrdə mövqe çubuğunu göstər">
+							<longdesc>Seçilidirsə, yeni açılan pəncərələrin mövqe çubuqları göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Yeni pəncərələrdə vasitə çubuğunu göstər">
+							<longdesc>Seçilidirsə, yeni açılan pəncərələrin vasitə çubuqları göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Yan çubuğun eni">
+							<longdesc>Yeni pəncərələrdəki yan panelin ön qurğulu eni</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Tarix Şəkli">
+							<longdesc>Fayl tarixlərinin formatı. Mümükün qiymətlər: &quot;locale&quot;, &quot;iso&quot; və&quot;informal&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Ön qurğulu cərgə nümayişçisi">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Yan Panelin Ön Qurğulu Arxa Plan Rəsmi">
+							<longdesc>Yan panelin ön qurğulu arxa plan rəsmi. Yalnız side_pane_background_set seçilidirsə istifadə edilir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Yan Panelin Ön Qurğulu Arxa Plan Rəngi">
+							<longdesc>Yan panelin ön qurğulu arxa plan rəsmi. Yalnız side_pane_background_set seçilidirsə istifadə edilir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Xüsusi Yan Panel Arxa Planı">
+							<longdesc>Yan panel üçün xüsusi arxa planının seçildiyi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Ön Qurğulu Arxa Plan Rəsmi">
+							<longdesc>Ön qurğulu qovluq arxa plan rəsmi. Yalnız background_set true isə istifadə edilir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Ön Qurğulu Arxa Plan Rəngi">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema>
+							<longdesc>Qovluq üçün xüsusi arxa planının seçildiyi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="search_bar_type">
+						<local_schema short_desc="Axtarış çubuğu axtarışı qaydaları">
+							<longdesc>Axtarış çubuğundan axtarılan faylların axtarış qaydası. &quot;search_by_text&quot; seçilidirsə, Nautilus faylları yalnız onların fayl adlarına görə axtaracaq. Əgər &quot;search_by_text_and_properties&quot; seçilidirsə, Nautilus faylları adları və xassələrinə görə axtaracaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Nautilus istifadəçinin ev cərgəsini masa üstü olaraq istifadə edir">
+							<longdesc>TRUE isə, Nautilus istifadəçinin ev qovluğunu masa üstü olaraq istifadə edəcəkdir. Deyilsə, onun yerinə ~/Desktop işlədiləcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Masa üstü yazı növü">
+							<longdesc>Masa üstündəki timsallar üçün işlədilən yazı növünün izahatı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Masa üstünü Nautilus göstərsin">
+							<longdesc>İşarəli isə, Nautilus masa üstündə timsalları göstərəcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Pəncərələrdə əvvəlcə qovluqları göstər">
+							<longdesc>TRUE isə, Nautilus həm timsal həm də siyahı görünüşündə qovluqları fayllardan əvvəl göstərəcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preview_sound">
+						<local_schema short_desc="Timsalın üstünə siçanla gələndə səslərin nümayiş edilməsi">
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Qovluqdakı maksimal fayl ədədi">
+							<longdesc>Bu böyüklüyün üstündə olan qovluqlar bu böyüklüyə yaxın qısaldılacaqdır. Bu, həddindən artıq böyük qovluqlarda Nautilis-un iflas etməməsi üçündür. Mənfi qiymət hüdud yoxdur deməkdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Ön nümayiş üçün maksimal rəsm böyüklüyü">
+							<longdesc>Bu böyüklükdən böyük (bayt olaraq) olan rəsimlər ön nümayiş edilməyəcək. Bunun səbəbi uzun zaman alan və küllü miqdarda yaddaş işlədən böyük rəsimlərin ön nümayişinin göstərilməməsidir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Rəsm fayllarının ön nümayişlərinin göstərilməsi">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Hazırkı Nautilus Örtüyü (artıq istifadə edilmir)">
+							<longdesc>İstifadə ediləcək Nautilus örtüyü. Bu xüsusiyyət Nautilus 2.2-dən bəri istifadə edilmir. Xahiş edirik bunun yerinə timsal örtüyünü işlədin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="İcra edilə bilən mətn faylları tıqlandıqlarında nə edilsin">
+							<longdesc>İcra edilə bilən mətn fayllarına tıqlananda (tək ya da cüt) nə edilsin. Mümükün qiymətlər: proqram kimi başladmaq üçün &quot;launch&quot;, nə ediləcəyini dialoqla soruşulması üçün &quot;ask&quot; və mətn faylını nümayiş etdirmək üçün &quot;display&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema short_desc="Faylları açmaq/başladmaq üçün istifadə ediləcək tıqlama tərzi">
+							<longdesc>Mümkün qiymətlər, faylları tək tıqlamayla açmaq üçün&quot;single&quot;, cüt tıqlama ilə açmaq üçün isə &quot;double&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Qovluqdakı üzvlərin ədədinin nə vaxt göstəriləcəyi">
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Timsallarda ön nümayiş mətninin nə zaman göstəriləcəyi">
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Birbaşa silmənin fəal olması">
+							<longdesc>Seçilidirsə, Nautilus sizə fayl və qovluqları zibil qutusuna atmadan birbaşa silmə imkanı tanıyacaq. Bu təhlükəli ola bilər, ona görə də bu xüsusiyyəti diqqətli işlədin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Bütün pəncərələrin səyyah olduğu klassik Nautilus modunu fəallaşdırır">
+							<longdesc>True isə, Nautilus 2.6 buraxılışından əvvəlki klassik modda işləyəcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="internet_time">
+						<local_schema short_desc="İnternet vaxtını işlət">
+							<longdesc>The use of this key was deprecated in GNOME 2.6 in favour of the &apos;format&apos; key. The schema is retained for compatibility with older versions.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Unix vaxtından istifadə et">
+							<longdesc>The use of this key was deprecated in GNOME 2.6 in favour of the &apos;format&apos; key. The schema is retained for compatibility with older versions.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Saat formatı">
+							<longdesc>The use of this key was deprecated in GNOME 2.6 in favour of the &apos;format&apos; key. The schema is retained for compatibility with older versions.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Zaman quraşdırma vasitəsi">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="UTC istifadə et">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Saatı ehkam olaraq göstər">
+							<longdesc>Seçilidirsə, sıçan saatın üstünə gələndə tarixi ehkam olaraq göstər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Saatda tarixi göstər">
+							<longdesc>Seçilidirsə, saatda vaxtla bərabər tarixi də göstər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Saadı saniyələrlə birlikdə göstər">
+							<longdesc>Seçilidirsə, saatda saniyələri göstər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Saat üçün xüsusi format">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Saat formatı">
+							<longdesc>This key specifies the hour format used by the clock applet. Possible values are &quot;12-hour&quot;, &quot;24-hour&quot;, &quot;internet&quot;, &quot;unix&quot; and &quot;custom&quot;. If set to &quot;internet&quot;, the clock will display internet time. The internet time system divides the day into 1000 &quot;.beats&quot;. There are no time zones in this system, so time is the same all over the world. If set to &quot;unix&quot;, the clock will display time in seconds since Epoch, i.e. 1970-01-01. If set to &quot;custom&quot;, the clock will display time according to the format specified in the custom_format key.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="syntax_highlighting">
+						<entry name="enable">
+							<local_schema short_desc="Sintaksis İşıqlandırmasını Fəallaşdır">
+								<longdesc>Sintaksis işıqlandırmasının fəal olması.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema short_desc="Menyuda göstərilən kodlamalar">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema short_desc="Çap Üçün Sətir Nömrəsi Yazı Növü">
+									<longdesc>Sətir nümrələrinin çap ediləcəyi yazı növünü müəyyən edir. Bu ancaq &quot;Print Line Numbers&quot; qiyməti sıfırdan fərqlidirsə mümkün olacaq.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema short_desc="Çap üçün Başlıq Yazı Növü">
+									<longdesc>Səhifələrin üst mə&apos;lumatlarının çap ediləcəyi yazı növünü müəyyən edir. Bu ancaq &quot;Print Header&quot; qiyməti seçilidirsə mümkün olacaq.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema short_desc="Çap Üçün Əsas Qismin Yazı Növü">
+									<longdesc>Sənədin əsas hissəsinin çap ediləcəyi yazı növünü müəyyən edir.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="page">
+							<entry name="print_line_numbers">
+								<local_schema short_desc="Sətir Nömrələrini Çap Et">
+									<longdesc>Bu qiymət 0 isə, sənəd çap edilərkən sətir nömrələri çap edilməyəcək. Əks halda Gedit sətirləri verilən hər sətirdən sonra çap edəcək.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_wrap_mode">
+								<local_schema short_desc="Sətir Qırma Modu Çap Edilir">
+									<longdesc>Çap üçün uzun sətirlərin necə qırılacağı. Sətirləri qətiyyən qırmamaq üçün &quot;GTK_WRAP_NONE&quot;, sətirləri söz sonlarında qırmaq üçün &quot;GTK_WRAP_WORD&quot;, sətirləri müəyyən hərflərdən sonra qırmaq üçün &quot;GTK_WRAP_CHAR&quot; istifadə edin.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_header">
+								<local_schema short_desc="Başlığı Çap Et">
+									<longdesc>Sənədlər çap edilirkən sənədin üst mə&apos;lumatının da çap edilməsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_syntax_highlighting">
+								<local_schema short_desc="Sintaksis İşıqlandırmasını Çap Et">
+									<longdesc>Sənədlər çap edilirkən sintaksis işıqlandırılmasının da çap edilməsi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="ui">
+						<dir name="recents">
+							<entry name="max_recents">
+								<local_schema short_desc="Maksimal Təzəlikçə İşlədilən Fayl">
+									<longdesc>&quot;Təzəlikçə İşlədilən Fayllar&quot; alt menyusunda göstəriləcək maksimal fayl miqdarını müəyyən edir.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="statusbar">
+							<entry name="statusbar_visible">
+								<local_schema short_desc="Vəziyyət Çubuğu Göstərilsin">
+									<longdesc>Alttakı vəziyyət çubuğunun göstərilməsi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbar">
+							<entry name="toolbar_buttons_style">
+								<local_schema short_desc="Vasitə Çubuğu Düymələrinin Tərzi">
+									<longdesc>Vasitə çubuğu düymələrinin tərzi. Mümkün qiymətlər: &quot;GEDIT_TOOLBAR_SYSTEM&quot; sistemin ön qurğulu tərzini işlətmək üçün, &quot;GEDIT_TOOLBAR_ICONS&quot; ancaq timsalları göstərmək üçün, &quot;GEDIT_TOOLBAR_ICONS_AND_TEXT&quot; timsal və mətnləri göstərmək üçün, və &quot;GEDIT_TOOLBAR_ICONS_BOTH_HORIZ&quot; timsalların yanında daha vacib olan mətnləri göstərmək üçün.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="toolbar_visible">
+								<local_schema short_desc="Vasitə Çubuğu Göstərilsin">
+									<longdesc>Vasitə çubuğunun göstərilməsi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="right_margin">
+							<entry name="right_margin_position">
+								<local_schema short_desc="Sağ Kənar Mövqeyi">
+									<longdesc>Sağ kənarın mövqeyini bildir.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="display_right_margin">
+								<local_schema short_desc="Sağ Kənarı Göstər">
+									<longdesc>Yazma sahəsində sağ kənarın göstərilməsi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="Sətir Nömrələrini Göstər">
+									<longdesc>Yazma sahəsində sətir nömrələrinin göstərilməsi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="tabs">
+							<entry name="insert_spaces">
+								<local_schema short_desc="Boşluqlar daxil et">
+									<longdesc>Tablar yerinə boşluqların daxil edilməsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="tabs_size">
+								<local_schema short_desc="Səkmə Böyüklüyü">
+									<longdesc>Tab yerinə göstəriləcək boşluqların miqdarını müəyyən edir.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="wrap_mode">
+							<entry name="wrap_mode">
+								<local_schema short_desc="Sətir Qırma Modu">
+									<longdesc>Yazma sahəsi üçün uzun sətirlərin necə qırılacağı. Sətirləri qətiyyən qırmamaq üçün &quot;GTK_WRAP_NONE&quot;, sətirləri söz sonlarında qırmaq üçün &quot;GTK_WRAP_WORD&quot;, sətirləri müəyyən hərflərdən sonra qırmaq üçün &quot;GTK_WRAP_CHAR&quot; istifadə edin.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="save">
+							<entry name="create_backup_copy">
+								<local_schema short_desc="Ehtiyat Nüsxələrini Yarat">
+									<longdesc>Qeyd edilən faylların Gedit tərəfindən avtomatik ehtiyat nüsxəsinin yaradılması. Bu faylların uzantısını &quot;Ehtiyat Nüsxəsi Uzantısı&quot; qiymətindən seçə bilərsiniz.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="Editor Yazı Növü">
+									<longdesc>Yazma sahəsi üçün istifadə ediləcək xüsusi yazı növü. Bu yalnız&quot;Use Default Font&quot; seçimi bağlıdırsa mümkün olacaq.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="use_default_font">
+								<local_schema short_desc="Ön Qurğulu Yazı Növünü İşlət">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="maximize_horizontally">
+						<local_schema short_desc="Pəncərəni üfqi istiqamətdə böyüt">
+						</local_schema>
+					</entry>
+					<entry name="maximize_vertically">
+						<local_schema short_desc="Pəncərəni şaquli istiqamətdə böyüt">
+						</local_schema>
+					</entry>
+					<entry name="lower">
+						<local_schema short_desc="Pəncərənin digər pəncərələrin arxasına qoy">
+						</local_schema>
+					</entry>
+					<entry name="raise">
+						<local_schema short_desc="Pəncərəni digər pəncərələrin üstünə gətir">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_down">
+						<local_schema short_desc="Pəncərəni bir iş sahəsi aşağı daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_up">
+						<local_schema short_desc="Pəncərəni bir iş sahəsi yuxarı daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_right">
+						<local_schema short_desc="Pəncərəni bir iş sahəsi sağa daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_left">
+						<local_schema short_desc="Pəncərəni bir iş sahəsi sola daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_12">
+						<local_schema short_desc="Pəncərəni 12-ci iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_11">
+						<local_schema short_desc="Pəncərəni 11-ci iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_10">
+						<local_schema short_desc="Pəncərəni 10-cu iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_9">
+						<local_schema short_desc="Pəncərəni 9-cu iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_8">
+						<local_schema short_desc="Pəncərəni 8-ci iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_7">
+						<local_schema short_desc="Pəncərəni 7-ci iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_6">
+						<local_schema short_desc="Pəncərəni 6-cı iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_5">
+						<local_schema short_desc="Pəncərəni 5-ci iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_4">
+						<local_schema short_desc="Pəncərəni 4-cü iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_3">
+						<local_schema short_desc="Pəncərəni 3-cü iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_2">
+						<local_schema short_desc="Pəncərəni 2-ci iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="move_to_workspace_1">
+						<local_schema short_desc="Pəncərəni 1-ci iş sahəsinə daşı">
+						</local_schema>
+					</entry>
+					<entry name="begin_resize">
+						<local_schema short_desc="Pəncərəni ölçüləndir">
+						</local_schema>
+					</entry>
+					<entry name="begin_move">
+						<local_schema short_desc="Pəncərəni daşı">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Pəncərəni bağla">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="Pəncərəni kiçilt">
+						</local_schema>
+					</entry>
+					<entry name="toggle_shaded">
+						<local_schema short_desc="Burulu vəziyyəti aç">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="Pəncərəni böyüt">
+						</local_schema>
+					</entry>
+					<entry name="toggle_maximized">
+						<local_schema short_desc="Maksimumlaşdırma vəziyyətini aç">
+						</local_schema>
+					</entry>
+					<entry name="toggle_fullscreen">
+						<local_schema short_desc="Tam ekran nümayiş modunu aç">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="keybinding_commands">
+					<entry name="command_window_screenshot">
+						<local_schema short_desc="Pəncərə görüntüsü əmri">
+							<longdesc>/apps/metacity/global_keybindings/run_command_window_screenshot açarı, buaçar ilə müəyyən edilən əmri icra edən qısa yolu müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command_screenshot">
+						<local_schema short_desc="Ekran görüntüsü əmri">
+							<longdesc>/apps/metacity/global_keybindings/run_command_screenshot açarı, buaçar ilə müəyyən edilən əmri icra edən qısa yolu müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Klaviatura qısa yollarına cavabla icra ediləcək əmrlər">
+							<longdesc>/apps/metacity/global_keybindings/run_command_N açarları bu əmrlərə uyğun gələn qısa yolları müəyyən edir. run_command_N üçün klaviatura qısa yoluna basaraq command_N icra edilə bilər.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="global_keybindings">
+					<entry name="run_command_window_screenshot">
+						<local_schema short_desc="Pəncərənin görüntüsünü al">
+						</local_schema>
+					</entry>
+					<entry name="run_command_screenshot">
+						<local_schema short_desc="Ekran görüntüsünü al">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels_backward">
+						<local_schema short_desc="Panellər və masa üstü arasında cəld geri hərəkət et">
+						</local_schema>
+					</entry>
+					<entry name="cycle_panels">
+						<local_schema short_desc="Panellər və masa üstü arasında cəld hərəkət et">
+						</local_schema>
+					</entry>
+					<entry name="cycle_windows">
+						<local_schema short_desc="Pəncərələr arasında cəld hərəkət et">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_12">
+						<local_schema short_desc="12-ci iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_11">
+						<local_schema short_desc="11-ci iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_10">
+						<local_schema short_desc="10-cu iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_9">
+						<local_schema short_desc="9-cu iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_8">
+						<local_schema short_desc="8-ci iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_7">
+						<local_schema short_desc="7-ci iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_6">
+						<local_schema short_desc="6-cı iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_5">
+						<local_schema short_desc="5-ci iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_4">
+						<local_schema short_desc="4-cü iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_3">
+						<local_schema short_desc="3-cü iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_2">
+						<local_schema short_desc="2-ci iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="switch_to_workspace_1">
+						<local_schema short_desc="1-ci iş sahəsinə keç">
+						</local_schema>
+					</entry>
+					<entry name="run_command">
+						<local_schema short_desc="Tə&apos;yin edilmiş əmri icra et">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="workspace_names">
+					<entry name="name">
+						<local_schema short_desc="İş sahəsinin adı">
+							<longdesc>İş sahəsinin adı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="disable_workarounds">
+						<local_schema short_desc="Köhnə pozulmuş tə&apos;minatların pis xassələrini qeyri-fəallaşdırır">
+						</local_schema>
+					</entry>
+					<entry name="application_based">
+						<local_schema short_desc="(Yazılmayıb) Naviqasiya tə&apos;minatlar qaydasında işləyir, pəncərələr qaydasında yox">
+						</local_schema>
+					</entry>
+					<entry name="reduced_resources">
+						<local_schema short_desc="Əgər true isə, daha az ehtiyat/mənbə işlət">
+						</local_schema>
+					</entry>
+					<entry name="visual_bell_type">
+						<local_schema short_desc="Əyani Zəng Növü">
+							<longdesc>Metacity&apos;yə sistem ya da başqa proqramın səsinin çaldığını əyani şəkildə necə bildiriləcəyini müəyyən edir. Hazırda iki qiymət mümkündür. &quot;fullscreen&quot; tam ekran modunda ikən proqramın yanıb sönməyə məcbur edir. &quot;frame_flash&quot; isə siqnalı göndərən proqramın etiket çubuğunu yanıb sönməyə məcbur edir. Əgər səsi çalan proqram mə&apos;lum deyilsə, hazırda fokusa malik olan pəncərənin etiket çubuğu yanıb sönəcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="audible_bell">
+						<local_schema short_desc="Sistem Zəngi Eşidilsin">
+							<longdesc>Eşidilən bip səslərini proqramların ya da sistemin çala bilməsinini müəyyən edir; &apos;sakit bipləri&apos; fəallaşdırmaq üçün &apos;əyani zəng&apos; ilə bərabər istifadə edilə bilər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="visual_bell">
+						<local_schema short_desc="Əyani Zəngi Fəallaşdır">
+						</local_schema>
+					</entry>
+					<entry name="num_workspaces">
+						<local_schema short_desc="İş sahələri ədədi">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_font">
+						<local_schema short_desc="Pəncərə başlığının yazı növü">
+						</local_schema>
+					</entry>
+					<entry name="titlebar_uses_system_font">
+						<local_schema short_desc="Pəncərə başlıqlarında standart sistem yazı növünü işlət">
+							<longdesc>Seçilidirsə, titlebar_font seçimini rədd et və pəncərə başlıqları üçün proqramların standart yazı növünü işlət.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Hazırkı örtük">
+							<longdesc>Örtük pəncərə kənarlarının, başlıq çubuqlarının və s. görünüşünü müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise_delay">
+						<local_schema short_desc="Avtomatik üstə gəlmə xassəsi üçün millisaniyə olaraq gecikmə">
+							<longdesc>auto_raise true seçilidirsə, pəncərəni üstə gətirmədən əvvəlki gecikmə. Bu gecikmə saniyənin mində biri ilə ölçülür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_raise">
+						<local_schema short_desc="Fokus sahibi olan pəncərəni avtomatik olaraq üstə gətirir">
+						</local_schema>
+					</entry>
+					<entry name="action_double_click_titlebar">
+						<local_schema short_desc="Başlıq çubuğuna cüt tıqlama gedişatı">
+						</local_schema>
+					</entry>
+					<entry name="focus_mode">
+						<local_schema short_desc="Pəncərə Fokus Modu">
+							<longdesc>Pəncərə fokusu pəncərələrin necə fəal vəziyyətə keçəcəklərini müəyyən edir. Üç mümkün qiymət ala bilər;&quot;click&quot; - pəncərəyə fokus vermək üçün ona tıqlamaq lazımdır, &quot;sloppy&quot; - pəncərəyə fokus vermək üçün siçanın pəncərənin sahəsinə daxil olması lazımdır, &quot;mouse&quot; - siçan pəncərə sahəsinə daxil olanda pəncərə fokusa malik olacaq, siçan pəncərə sahəsindən çıxanda isə fokusu itirəcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="button_layout">
+						<local_schema short_desc="Başlıq çubuğundakı düymələrin ardıcıllığı">
+						</local_schema>
+					</entry>
+					<entry name="mouse_button_modifier">
+						<local_schema short_desc="Dəyişdirilmiş pəncərə tıqlama gedişatları üçün istifadə ediləcək düymə">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="keybindings">
+					<entry name="zoom_normal">
+						<local_schema short_desc="Yazı növünü normal böyüklüyə gətirmək üçün klaviatura qısa yolu">
+							<longdesc>Yazı növünü normal böyüklüyə gətirmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="zoom_out">
+						<local_schema short_desc="Yazı növünü kiçiltmək üçün klaviatura qısa yolu">
+							<longdesc>Yazı növünü kiçiltmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="zoom_in">
+						<local_schema short_desc="Yazı növünü böyütmək üçün klaviatura qısa yolu">
+							<longdesc>Yazı növünü böyütmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="Yardımı işə salmaq üçün klaviatura qısa yolu">
+							<longdesc>Yardımı başladmaq üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_12">
+						<local_schema short_desc="On ikinci səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>On ikinici səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_11">
+						<local_schema short_desc="On birinci səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>On birinci səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_10">
+						<local_schema short_desc="Onuncu səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Onuncu səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_9">
+						<local_schema short_desc="Doqquzuncu səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Doqquzuncu səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_8">
+						<local_schema short_desc="Səkkizinci səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Səkkizinci səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_7">
+						<local_schema short_desc="Yeddinci səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Yeddinci səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_6">
+						<local_schema short_desc="Altıncı səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Altıncı səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_5">
+						<local_schema short_desc="Beşinci səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Beşinci səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_4">
+						<local_schema short_desc="Dördüncü səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Dördüncü səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_3">
+						<local_schema short_desc="Üçüncü səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Üçüncü səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_2">
+						<local_schema short_desc="İkinci səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>İkinci səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_1">
+						<local_schema short_desc="Birinci səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Birinci səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="next_tab">
+						<local_schema short_desc="Sonrakı səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Sonrakı səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="prev_tab">
+						<local_schema short_desc="Öncəki səkməyə keçmək üçün klaviatura qısa yolu">
+							<longdesc>Öncəki səkməyə keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="reset_and_clear">
+						<local_schema short_desc="Terminalı sıfırlamaq və təmizləmək üçün klaviatura qısa yolu">
+							<longdesc>Terminalı sıfırlamaq və təmizləmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="reset">
+						<local_schema short_desc="Terminalı sıfırlamaq üçün üçün klaviatura qısa yolu">
+							<longdesc>Terminalı sıfırlamaq üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="set_terminal_title">
+						<local_schema short_desc="Terminal başlığını dəyişdirmək üçün klaviatura qısa yolu">
+							<longdesc>Terminala başlıq vermək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toggle_menubar">
+						<local_schema short_desc="Menyu çubuğunun göstərilməsi üçün klaviatura qısa yolu">
+							<longdesc>Menyu çubuğunu gizlədib göstərmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="full_screen">
+						<local_schema short_desc="Tam ekran moduna keçmək üçün klaviatura qısa yolu">
+							<longdesc>Tam ekran moduna keçmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paste">
+						<local_schema short_desc="Mətni yapışdırmaq üçün klaviatura qısa yolu">
+							<longdesc>Ara yaddaşdakı mətni yapışdırmaq üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="copy">
+						<local_schema short_desc="Mətni köçürmək üçün klaviatura qısa yolu">
+							<longdesc>Seçili mətni ara yaddaşa köçürmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="close_window">
+						<local_schema short_desc="Pəncərəni bağlamaq klaviatura qısa yolu">
+							<longdesc>Pəncərəni bağlamaq üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="close_tab">
+						<local_schema short_desc="Səkməni bağlamaq üçün klaviatura qısa yolu">
+							<longdesc>Səkməni bağlamaq üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="new_profile">
+						<local_schema short_desc="Yeni profil yaradmaq üçün klaviatura qısa yolu">
+							<longdesc>Profil yaradma dialoqunu göstərmək üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="new_window">
+						<local_schema short_desc="Yeni pəncərə açmaq üçün klaviatura qısa yolu">
+							<longdesc>Yeni pəncərə açmaq üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="new_tab">
+						<local_schema short_desc="Yeni səkmə açmaq üçün klaviatura qısa yolu">
+							<longdesc>Yeni səkmə açmaq üçün sür&apos;ətləndirici düymə. Əgər bu seçimi &quot;disabled&quot; olaraq müəyyən etsəniz, bu gedişat üçün heç bir qısa yol mövcud olmayacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="use_system_font">
+							<local_schema short_desc="Sistem yazı növünün istifadə edilməsi">
+								<longdesc>Seçilidirsə, terminal masa üstünün ön qurğulu tə&apos;yin edilmiş sabit enli yazı növünü işlədəcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="use_theme_colors">
+							<local_schema short_desc="Terminal pəncərəsi üçün örtük rənglərinin istifadə edilməsi">
+								<longdesc>Seçilidirsə, istifadəçi tə&apos;yinli rənglər yerinə mətn giriş qutuları üçün işlədilən rəng sxemi terminal üçün də istifadə ediləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="delete_binding">
+							<local_schema short_desc="Delete düyməsinin tə&apos;siri">
+								<longdesc>Delete düyməsinin hansı kodu yaradacağını müəyyən edir. Mümkün qiymətlər: &quot;ascii-del&quot; ASCII DEL hərfi üçün, &quot;control-h&quot; Control-H (ASCII BS hərfi adı ilə də bilinən) üçün, &quot;escape-sequence&quot; qaçış sekvensini Backspace ya da Del düymələrinə bağlamaq üçün. Ümumiyyətlə &quot;escape-sequence&quot; Delete düyməsi üçün düzgün qurğu sayılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="backspace_binding">
+							<local_schema short_desc="Backspace düyməsinin tə&apos;siri">
+								<longdesc>Backspace düyməsinin hansı kodu yaradacağını müəyyən edir. Mümkün qiymətlər: &quot;ascii-del&quot; ASCII DEL hərfi üçün, &quot;control-h&quot; Control-H (ASCII BS hərfi adı ilə də bilinən) üçün, &quot;escape-sequence&quot; qaçış sekvensini Backspace ya da Del düymələrinə bağlamaq üçün. Ümumiyyətlə &quot;ascii-del&quot; Backspace düyməsi üçün düzgün qurğu sayılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_darkness">
+							<local_schema short_desc="Arxa plan rəsminin nə qədər tüntləşdiriləcəyi">
+								<longdesc>Rəsmin nə qədər tündləşdiriləcəyini müəyyən edən 0.0 ilə 1.0 arasındakı qiymət. 0.0 tündləşdirmə yoxdur deməkdir, 1.0 tamamilə tünd deməkdir. </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scroll_background">
+							<local_schema short_desc="Arxa plan rəsminin sürüşməsi">
+								<longdesc>Seçilidirsə, yazı ilə bərabər arxa plan rəsmini də sürüşdür. Əks halda isə, rəsmi sabit tut və mətni onun üstündə sürüşdür.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_image">
+							<local_schema short_desc="Arxa plan rəsmi">
+								<longdesc>Arxa plan rəsminin fayl adı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_type">
+							<local_schema short_desc="Arxa plan növü">
+							</local_schema>
+						</entry>
+						<entry name="font">
+							<local_schema short_desc="Yazı növü">
+								<longdesc>Pango yazı növü adı. Məsələn: &quot;Sans 12&quot;ya da &quot;Monospace Bold 14&quot;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="palette">
+							<local_schema short_desc="Terminal tə&apos;minatları üçün palitra">
+								<longdesc>Terminal içində icra edilən tə&apos;minatların işlətməsi üçün terminallar 16 rəngli palitraya sahib olur. Bu palitrada rəng adları vergüllə biri birindən ayrılıb. RƏng adları səkkizli şəkildə olmalıdır. Mis.: &quot;#FF00FF&quot;</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="icon">
+							<local_schema short_desc="Terminal pəncərəsi üçün timsal">
+								<longdesc>Bu profili daxil edən səkmə/pəncərələr üçün timsal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="custom_command">
+							<local_schema short_desc="Qabıq yerinə istifadə ediləcək xüsusi əmr">
+								<longdesc>use_custom_command seçilidirsə, bu əmri qabıq yerinə icra et.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_blink_mode">
+							<local_schema short_desc="Kursorun yanıb sönməsi">
+							</local_schema>
+						</entry>
+						<entry name="use_custom_command">
+							<local_schema short_desc="Qabıq yerinə xüsusi əmrin icra edilməsi">
+								<longdesc>Seçilidirsə, xüsusi_əmr qurğusunun qiyməti qabıq icrası yerinə istifadə ediləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="update_records">
+							<local_schema short_desc="Terminal əmri icra ediləndə giriş qeydlərinin yenilənməsi">
+								<longdesc>Seçilidirsə, terminal içində əmr işə salınanda utmp/wtmp yenilənəcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="login_shell">
+							<local_schema short_desc="Terminalda əmrin giriş qabığı olaraq icra edilməsi">
+								<longdesc>Seçilidirsə, terminal içindəki əmr giriş qabığı olaraq icra ediləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exit_action">
+							<local_schema short_desc="Törəmə əmrdən çıxılanda terminal ilə nə ediləcəyi">
+								<longdesc>Mümkün qiymətlər: &quot;close&quot; terminalı bağlamaq üçün, və &quot;restart&quot; əmri yenidən başlatmaq üçün.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scroll_on_output">
+							<local_schema short_desc="Yeni çıxış alınanda alta sürüşməsi">
+								<longdesc>Seçilidirsə, terminaldakı hər yeni çıxışda, terminal aşağı sürüşəcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scroll_on_keystroke">
+							<local_schema short_desc="Düymə basılanda alta sürüşməsi">
+								<longdesc>Seçilidirsə, düyməyə basaraq sürüşdürmə çubuğu ən alta gətirilə bilər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scrollback_lines">
+							<local_schema short_desc="Arxaya sürüşmədə saxlanılacaq sətir miqdarı">
+							</local_schema>
+						</entry>
+						<entry name="scrollbar_position">
+							<local_schema short_desc="Sürüşmə çubuğunun mövqeyi">
+								<longdesc>Terminal sürüşmə çubuğunu hara yerləşdiriləcəyi. Mümkün qiymətlər: sol üçün &quot;left&quot;, sağ üçün &quot;right&quot; və çubuğun göstərilməməsi üçün &quot;disabled&quot;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="word_chars">
+							<local_schema short_desc="&quot;sözün parçası&quot; qəbul edilən hərflər">
+								<longdesc>Mətni kəlmələrlə seçəndə, bu hərflərin düzülüşləri tək kəlmə sayılır. Aralıqlar &quot;A-Z&quot; olaraq verilə bilər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="silent_bell">
+							<local_schema short_desc="Terminal zənginin səssiz olması">
+								<longdesc>Seçilidirsə, tə&apos;minatlar terminal zənginə Escape sekvensi verəndə səs çıxartma.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="allow_bold">
+							<local_schema short_desc="Qalın yazıya icazə ver">
+								<longdesc>Seçilidirsə, terminaldakı tə&apos;minatlara yazını qalın etmə icazəsi ver.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="title">
+							<local_schema short_desc="Terminalın başlığı">
+								<longdesc>Terminal pəncərəsi ya da səkməsi üçün göstəriləcək etiket. Bu etiket title_mode qurğusuna bağlı olaraq fərqli mə&apos;lumatlar ilə dəyişdirilə bilər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="title_mode">
+							<local_schema short_desc="Dinamik etiket ilə nə ediləcəyi">
+								<longdesc>Əgər terminaltadı tə&apos;minat başlığı seçirsə, dinamik olaraq seçilən başlıq quraşdırılar başlığı silə bilər, ondan əvvəl gələ bilər, ondan sonra gələ bilər ya da onu əvəz edə bilər. Mümkün qiymətlər: &quot;replace&quot;, &quot;before&quot;, &quot;after&quot;, və &quot;ignore&quot;</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_color">
+							<local_schema short_desc="Terminalın ön qurğulu arxa plan rəngi">
+								<longdesc>Terminal arxa planının ön qurğulu rəngi. HTML tərzi HEX ədədlər ya da &quot;red&quot; kimi rəng adı işlədilə bilər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="foreground_color">
+							<local_schema short_desc="Terminaldakı mətnin ön qurğulu rəngi">
+								<longdesc>Terminaldakı mətnin ön qurğulu rəngi. HTML tərzi HEX ədədlər ya da &quot;red&quot; kimi rəng adı işlədilə bilər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default_show_menubar">
+							<local_schema short_desc="Yeni pəncərə/səkmələrdə menyu çubuğunun göstərilməsi">
+								<longdesc>Bu profilə sahib olan pəncərə/səkmələrində menyu çubuğunun göstərilməsiüçün bu qiymət seçili olmalıdır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema short_desc="Profilin insan tərəfindən oxuna bilən adı">
+								<longdesc>Profilin insan tərəfindən oxuna bilən adı.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="confirm_window_close">
+						<local_schema short_desc="Terminal pəncərələri bağlanırkən təsdiq istənməsi">
+							<longdesc>Birdən çox səkməsi olan terminal pəncərəsi bağlanırkən təsdiq istənməsi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active_encodings">
+						<local_schema short_desc="Mövcud kodlamalar siyahısı">
+							<longdesc>Kodlamalar menyusunda mövcud olan mümkün kodlamalar dəstəsi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_accelerators">
+						<local_schema short_desc="Menyu çubuğuna standart GTK yetişmə qısa yolunun fəallığı">
+							<longdesc>Əsasən menyu çubuğuna F10 düyməsi ilə yetişə bilərsiniz. Bunu gtkrc vasitəsiylə də xüsusiləşdirə bilərsiniz. (gtk-menu-bar-accel = &quot;düymə&quot;). Bu seçim, standart menyu çubuğu qısa yolunu bağlama imkanı verir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_mnemonics">
+						<local_schema short_desc="Menyu çubuğunun yetişmə düymələrinə malikiyyəti">
+							<longdesc>Menyu çubuğu üçün Alt+hərf yetişmə düymələrinin olması. Bə&apos;zən bunlar terminalda icra edilən tə&apos;minatlarla toqquşa bilər ona görə də qeyri-fəallaşdırıla bilərlər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_profile">
+						<local_schema short_desc="Yeni terminal işə salınarkən istifadə ediləcək profil">
+							<longdesc>Yeni pəncərə ya da səkmə açarkən istifadə ediləcək profil. profile_list&apos;də yer almalıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="profile_list">
+						<local_schema short_desc="Profil siyahısı">
+							<longdesc>gnome-terminal&apos;a mə&apos;lum olan profillər siyahısı. Bu siyahıda /apps/gnome-terminal/profiles ünvanına görə sıralanmış qovluqların adları mövcuddur.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Masa üstü dəyişdiricisindəki sətir">
+							<longdesc>Bu qiymət iş sahəsi dəyişdiricisin iş sahələrini neçə sütun (şaquli düzülüş üçün) ya da sətirdə (üfüqi düzülüş üçün) göstərəcəyini müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Bütün iş sahələrini göstər">
+							<longdesc>Seçilidirsə, iş sahəsi dəyişdiricisi bütün iş sahələrini göstərəcək, əks halda ancaq hazırkı iş sahəsi göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="İş sahələrinin adlarını göstər">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Maximal pəncərə siyahısı böyüklüyü">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Minimal pəncərə siyahısı böyüklüyü">
+						</local_schema>
+					</entry>
+					<entry name="move_unminimized_windows">
+						<local_schema short_desc="Pəncərələri geri böyüdərkən hazırkı iş sahəsinə daşı">
+							<longdesc>Seçilidirsə, pəncərələri geri böyüdərkən pəncərələr hazırkı iş sahəsinə daşınacaq, əks halda pəncərənin olduğu iş sahəsinə daşınacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Pəncərələri qruplama vaxtı">
+							<longdesc>Pəncərə Siyahısındakı eyni proqramın pəncərələrinin nə vaxt qruplanacağına qərar verir. Mümkün qiymətlər: &quot;qətiyyən&quot;, &quot;avtomatik&quot; and &quot;həmişə&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Bütün iş sahələrindəki pəncərələri göstər">
+							<longdesc>Seçilidirsə, pəncərə siyahısı bütün iş sahələrindəki pəncərələri, əks halda ancaq hazırkı iş sahəsindəki pəncərələri göstərəcək.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Proqramı Sonlandırma Xassəsini İşlətmə">
+							<longdesc>If true, the panel will not allow a user to force an application to quit by removing access to the force quit button.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Hesabdan Çıxış Xassəsini Bağla">
+							<longdesc>If true, the panel will not allow a user to log out, by removing access to the log out menu entries.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="Yüklənməsi qadağan edilən appletlərin IID-ləri">
+							<longdesc>Panelin rədd edəcəyi appletlərin IID siyahısı. Bu yolla, istədiyiniz appletlərin yüklənməsini ya da menyuda göstərilməsini bağlaya bilərsiniz. Məsələn, mini-commander appletini qeyri-fəallaşdırmaq üçün siyahıya &apos;OAFIID:GNOME_MiniCommanderApplet&apos; sətrini əlavə edin. Bunun fəal olması üçün panel yenidən başladılmalıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Tam panel qıfıllaması">
+							<longdesc>Seçilidirsə, paneldə dəyişiklik etməyə icazə verilməyəcək. Lakin bə&apos;zi appletlər xüsusi olaraq qıfıllanmaq məcburiyyətində ola bilər. Bunun fəal olması üçün panel yenidən başladılmalıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Başladıcıların üstünə siçan gələndə onları işıqlandır">
+							<longdesc>Seçilidirsə, üstünə siçanla gələndə başladıcı işıqlandırılacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Panelin silinməsinin təsdiqi">
+							<longdesc>Seçilidirsə, panel silinmək istənəndə istifadəçiyə təsdiq pəncərəsi göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Siyirtməni avtomatik bağla">
+							<longdesc>Seçilidirsə, üstündəki başladıcıya basılanda siyirtmə avtomatik bağlanacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Animasiyalar fəal">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="Ehkamlar fəal">
+							<longdesc>Seçilidirsə, paneldəki obyektlər üçün ehkamlar göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Gedişat düyməsi növü">
+							<longdesc>Bu düymənin təmsil etdiyi gedişat növü. Mümküd qiymətlər  &quot;qıfılla&quot;, &quot;çıx&quot;, &quot;icra et&quot;, &quot;axtar&quot; və &quot;ekran görüntüsü&quot;. Bu qiymət ancaq object_type açarının qiymətinin &quot;action-applet&quot; olduğu zaman hökmlüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Başladıcı yeri">
+							<longdesc>Başladıcını təmsil edən .desktop faylının yeri. Bu qiymət ancaq object_type açarının qiymətinin &quot;launcher-object&quot; olduğu zaman hökmlüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Menyu məzmunu yolu">
+							<longdesc>Menyu məzmununun hansı cığırdan inşa ediləcəyi. Bu qiymət ancaq use_menu_path açarı seçili isə və object_type açarının qiyməti olaraq &quot;menu-object&quot; seçilidirsə hökmlüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Menyunun məzmunu üçün xüsusi yol işlət">
+							<longdesc>Seçilidirsə, menu_path qiyməti menyu üzvlərinin insa ediləcəyi istifadə ediləcək yolu müəyyən edəcək. Deyilsə, menu_path qiyməti diqqətə alınmayacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Obyektin düyməsi üçün işlədiləcək timsal">
+							<longdesc>Obyektin düyməsi üçün istifadə ediləcək rəsm faylının yeri. Bu qiymət ancaq object_type açarının qiyməti  &quot;drawer-object&quot; ya da &quot;menu-object&quot; isə və use_custom_icon açarı seçilidirsə hökmlüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Obyektin düyməsi üçün xüsusi timsal işlət">
+							<longdesc>Seçilidirsə, custom_icom qiyməti düymə üçün xüsusi timsal olaraq işlədiləcək. Deyilsə, custom_icon qiyməti diqqətə alınmayacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Siyirtmə üçün göstəriləcək məsləhət">
+							<longdesc>Bu siyirtmə üçün məsləhət olaraq göstəriləcək mətn. Bu qiymət ancaq object_type açarının qiymətinin &quot;drawer-object&quot; olduğu zaman hökmlüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Siyirtməyə bağlanmış panel">
+							<longdesc>Bu siyirtməyə bağlanmış panelin bildiricisi. Bu qiymət ancaq object_type açarının qiymətinin &quot;drawer-object&quot; olduğu zaman hökmlüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="Applet Bonobo IID&apos;si">
+							<longdesc>Appletin BONOBO yerinə yetirmə ID&apos;si. Misal üçün &quot;OAFIID:GNOME_ClockApplet&quot;. Bu qiymət ancaq object_type açarının qiymətinin &quot;bonobo-applet&quot; olduğu zaman hökmlüdür.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Obyekti panelə qıfılla">
+							<longdesc>Seçilidirsə, istifadəçi obyektin qıfılını &quot;Qıfılı Aç&quot; menyu üzvünü istifadə edərək açmadan appleti yerindən tərpədə bilməz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="panel_right_stick">
+						<local_schema short_desc="Alt/sağ kənara görə mövqeni tap">
+							<longdesc>Seçilidirsə, obyektin mövqeyi panelin sağ tərəfinə (şaquli isə alt tərəfinə) nisbən hesablanacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Obyektin panel üstündəki mövqeyi">
+							<longdesc>Bu panel obyektinin mövqeyi. Mövqe, soldan (şaquli isə yuxarıdan) olan piksel miqdarı ilə müəyyən edilir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Obyekti daxil edən üst səviyyə paneli">
+							<longdesc>Bu obyekti daxil edən üst səviyyə panelinin bildiricisi. </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Panel obyekt növü">
+							<longdesc>Bu panel obyektinin növü. Mümkün qiymətlər &quot;siyirtmə-obyekti&quot;, &quot;menyu-obyekti&quot;, &quot;başladıcı-obyekti&quot;, &quot;bonobo-appleti&quot;, &quot;gedişat-appleti&quot; və &quot;menuu-çubuğu&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="object_id_list">
+						<local_schema short_desc="Panel obyektlərinin ID siyahısı">
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Panel appletlərinin ID siyahısı">
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Panel ID siyahısı">
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="&quot;Proqram İcra Et&quot; dialoqunda proqram siyahısını aç">
+							<longdesc>Seçilidirsə, &quot;Proqram İcra Et&quot; dialoqu açılanda &quot;Mövcud Proqramlar&quot; siyahısı açıq olacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="&quot;Proqram İcra Et&quot; dialoqunda proqram siyahısını fəallaşdır">
+							<longdesc>Seçilidirsə, &quot;Proqram İcra Et&quot; dialoqnda &quot;Mövcud Proqramlar&quot; siyahısı göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Animasiya sürəti">
+							<longdesc>Panel animasiyalarının sür&apos;əti. Mümkün qiymətlər &quot;yavaş&quot;, &quot;normal&quot; və &quot;sür&apos;ətli&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="Gizli ikən görünən piksellər">
+							<longdesc>Panel avtomatik küncə gizlənəndə görsənəcək pisel miqdarını müəyyən edir. Bu qiymət ancaq auto_hide açarı seçilidirsə hökmlü olacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="Panelin avtomatik geri-göstərmə gecikməsi">
+							<longdesc>Siçan oxunun panelin sahəsinə girməsi ilə panelin avtomatik yenidən göstərilməsi arasındakı millisaniyə miqdarını müəyyən edir. Bu qiymət ancaq auto_hide açarı seçilidirsə hökmlü olacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="Panelin avtomatik gizlətmə gecikməsi">
+							<longdesc>Siçan oxunun paneli tərk etməsi ilə panelin avtomatik küncə gizlənməsi arasındakı millisaniyə miqdarını müəyyən edir. Bu qiymət ancaq auto_hide açarı seçilidirsə hökmlü olacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Gizlətmə düymələri üstündə oxu göstər">
+							<longdesc>Seçilidirsə, gizlətmə düymələrinin üstündə oxlar göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Gizlətmə düymələrini göstər">
+							<longdesc>Seçilidirsə, düymələr panelin iki tərəfində də göstəriləcək. Bu sizə paneli istədiyiniz istiqamətdə gizlətmə imkanı tanıyacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Animasiyalar fəal">
+							<longdesc>Seçilidirsə, bu panelin gizlədilməsi və geri göstərilməsi anında olmaq yerinə animasiyalı olacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Paneli avtomatik küncə gizlət">
+							<longdesc>Seçilidirsə, siçan oxu panelin sahəsindən çıxanda panel avtomatik olaraq küncə gizlədiləcək. Siçan oxu o küncə aparılanda panel yenidən göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Paneli y istiqamətində ortala">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Paneli x istiqamətində ortala">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Panelin Y mövqeyi">
+							<longdesc>Y-oxu boyunca panelin mövqeyi. Bu qiymət ancaq genişlədilməmiş modda fəaldır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="Panelin X mövqeyi">
+							<longdesc>X-oxu boyunca panelin mövqeyi. Bu qiymət ancaq genişlədilməmiş modda fəaldır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Panelin böyüklüyü">
+							<longdesc>Panelin hündürlürü (şaquli panel üçün eni). Panel istifadə zamanında yazı növü və başqa göstəricilərə baxaraq ən kiçik böyüklüyü tə&apos;yin edəcək. Maksimal böyüklük isə sabitdir və ekran hündürlüyünün (eninin) dörddə birinə bərabərdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="Panelin istiqaməti">
+							<longdesc>Panelin istiqaməti. Mümkün qiymətlər &quot;üst&quot;, &quot;alt&quot;, &quot;sol&quot;, &quot;sağ&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Bütün ekranın eninə sığmaq üçün genişlət">
+							<longdesc>Seçilidirsə, panel ekranın bütün enini zəpt edəcək (şaquli panel üçün hündürlüyü). Bu modda paneli ancaq ekranın kənarlarına yerləşdirə biləcəksiniz. Seçili deyilsə, panel ancaq üstündəkiləri sığışdıra biləcəyi qədər böyük olacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="Panelin göstəriləcəyi Xinerama monitoru">
+							<longdesc>Xinerama qurğusunda, hər ayrı monitorda panelləriniz ola bilər. Bu qiymət panelin hazırda hansı monitorda göstərildiyini müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="Panelin göstəriləcəyi X ekranı">
+							<longdesc>Birdən çox ekranlı quraşdırmada hər birində ayrı ayrı panellərə sahib ola bilərsiniz. Bu qiymət panelin göstərildiyi hazırkı ekranı müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Panelə ad verin">
+							<longdesc>Paneli ayırd edə bilmək üçün ona verə biləcəyiniz insan tərəfindən oxuna bilən bir ad. Onun əsas məqsədi panellər arasında gəzərkən panelin pəncərə başlığı olaraq xidmət etməsidir.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="rotate">
+							<local_schema short_desc="Şaquli panellərdəki rəsmləri döndər">
+								<longdesc>Seçilidirsə, panel şaquli olaraq istiqamətlənəndə arxa plan rəsmi də çeviriləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stretch">
+							<local_schema short_desc="Rəsmi çəkişdirərək panelə uyğunlaşdır">
+								<longdesc>Seçilidirsə, rəsm panelin ölçülərinə görə uyğunlaşdırılacaq. Rəsmin görünüş nisbəti qorunmayacaq.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="Rəsmi panelə miqyaslandır">
+								<longdesc>Seçilidirsə, panelin hündürlüyünə uyğunlaşmaq üçün rəsm görünüş nisbəti qorunaraq ölçüləndiriləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Arxa plan rəsmi">
+								<longdesc>Arxa plan rəsmi olaraq istifadə ediləcək faylı müəyyən edir. Əgər rəsmdə alfa kanal mövcuddursa, rəsm ilə arxa plan rəngi birlikdə işlədiləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Arxa plan rənginin şəffaflığı">
+								<longdesc>Arxa plan rənginin şəffaflığını müəyyən edir. Əgər rəng tam şəffaf deyilsə (65535&apos;dən daha kiçik), rəng masa üstü arxa plan rəsmi ilə birləşdiriləcək.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Arxa plan rəngi">
+								<longdesc>Panel üçün #RGB formatında arxa plan rəngini müəyyən edir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Arxa plan növü">
+								<longdesc>Bu panel üçün istifadə ediləcək arxa plan növü. Mümkün qiymətlər &quot;gtk&quot; - ön qurğulu GTK+ arxa plan rəsmciyi istifadə ediləcək, &quot;color&quot; - arxa plan olaraq bir rəng istifadə ediləcək ya da &quot;image&quot; - rəsm qiyməti tərəfindən tə&apos;yin edilən rəsm arxa plan olaraq istifadə ediləcək.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Şaquli Panellərdə döndər">
+							<longdesc>Seçilidirsə, balıq animasiyası şaquli panellərdə çevirilmiş olaraq göstəriləcək.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Kadrlar _arasındakı fasilə">
+							<longdesc>Bu qiymət, hər kadrın göstəriləcəyi saniyə miqdarını müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Balıq animasiyasındaki kadr miqdarı">
+							<longdesc>Bu düymə balıq animasiyasındaki kadr miqdarını tə&apos;yin edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Tıqlandığında icra ediləcək əmr">
+							<longdesc>Bu düymə balıq tıqlandığında icra ediləcək əmri tə&apos;yin edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="Balığın animasiya rəsmi">
+							<longdesc>Bu qiymət, balıq animasiyasında istifadı ediləcək animasiya piksməpinin fayl edını müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Balığın adı">
+							<longdesc>Adsız balıq, cansıxıcıdır.Balığınıza ad qoyaraq ona həyat bəxş edin.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="logout_prompt">
+						<local_schema short_desc="Çıxış təstiqi">
+							<longdesc>Bu fəallaşdırılıbsa, GNOME iclası sonlandırmadan öncə təsdiq istəyəcəkdir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="İclasları qeyd et">
+							<longdesc>Bu fəallaşdırılıbsa, GNOME iclası avtomatik olaraq qeyd edəcək. Əks halda çıxış təsdiqi dialoqunda iclası qeyd etmə seçimi olacaq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Sıçrayan ekranı göstər">
+							<longdesc>İclas başlarkən sıçrayan ekranı göstər</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_toolbar_editing">
+						<local_schema>
+							<longdesc>İstifadəçilərə vasitə çubuqlarını dəyişdirmə hüququ vermə.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="additional_safe_protocols">
+						<local_schema short_desc="Əlavə etibarlı protokollar">
+							<longdesc>A list of protocols to be considered safe in addition to the default, when disable_unsafe_protocols is enabled.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_unsafe_protocols">
+						<local_schema short_desc="Etibarlı olmayan protokollara icazə vermə">
+						</local_schema>
+					</entry>
+					<entry name="hide_menubar">
+						<local_schema short_desc="Ön qurğulu olaraq menyu çubuğunu gizlət">
+							<longdesc>Ön qurğulu olaraq menyu çubuğunu gizlət.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_javascript_chrome">
+						<local_schema short_desc="Javascript İlə Pəncərə İdarəsini Qeyri-Fəallaşdır">
+							<longdesc>Javascript İlə Pəncərə İdarəsini Qeyri-Fəallaşdır</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="directories">
+					<entry name="downloads_folder">
+						<local_schema short_desc="Endirilən fayllar qovluğu">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="browse_with_caret">
+						<local_schema short_desc="Caret ilə gəz">
+						</local_schema>
+					</entry>
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Javascript Fəal">
+						</local_schema>
+					</entry>
+					<entry name="allow_popups">
+						<local_schema short_desc="Popup pəncərələrə icazə ver">
+							<longdesc>Javascript fəal isə saytlara Javascript işlədərək yeni pəncərələr açmasına icazə ver.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cookie_accept">
+						<local_schema short_desc="Kökələri qəbulu">
+							<longdesc>Kökələrin haradan qəvul ediləcəyi. Mümkün qiymətlər: &quot;anywhere&quot;, &quot;current site&quot; və &quot;nowhere&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Dillər">
+							<longdesc>Seçilən dillər, iki hərfli kodlar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cache_size">
+						<local_schema short_desc="Disk ara yaddaşının böyüklüyü (cache)">
+							<longdesc>Disk ara yaddaşının böyüklüyü, MB olaraq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_font_type">
+						<local_schema short_desc="Ön qurğulu yazı növü">
+							<longdesc>Ön qurğulu yazı növü. Mümkün qiymətlər &quot;serif&quot; və &quot;sans-serif&quot;dir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema short_desc="Ön qurğulu kodlama">
+							<longdesc>Ön qurğulu kodlama. Qəbul edilən qiymətlər: &quot;armscii-8&quot;, &quot;Big5&quot;, &quot;Big5-HKSCS&quot;, &quot;EUC-JP&quot;, &quot;EUC-KR&quot;, &quot;gb18030&quot;, &quot;GB2312&quot;, &quot;geostd8&quot;, &quot;HZ-GB-2312&quot;, &quot;IBM850&quot;, &quot;IBM852&quot;, &quot;IBM855&quot;, &quot;IBM857&quot;, &quot;IBM862&quot;, &quot;IBM864&quot;, &quot;IBM866&quot;, &quot;ISO-2022-CN&quot;, &quot;ISO-2022-JP&quot;, &quot;ISO-2022-KR&quot;, &quot;ISO-8859-1&quot;, &quot;ISO-8859-2&quot;, &quot;ISO-8859-3&quot;, &quot;ISO-8859-4&quot;, &quot;ISO-8859-5&quot;, &quot;ISO-8859-6&quot;, &quot;ISO-8859-7&quot;, &quot;ISO-8859-8&quot;, &quot;ISO-8859-8-I&quot;, &quot;ISO-8859-9&quot;, &quot;ISO-8859-10&quot;, &quot;ISO-8859-11&quot;, &quot;ISO-8859-13&quot;, &quot;ISO-8859-14&quot;, &quot;ISO-8859-15&quot;, &quot;ISO-8859-16&quot;, &quot;ISO-IR-111&quot;, &quot;KOI8-R&quot;, &quot;KOI8-U&quot;, &quot;Shift_JIS&quot;, &quot;TIS-620&quot;, &quot;UTF-7&quot;, &quot;UTF-8&quot;, &quot;VISCII&quot;, &quot;windows-874&quot;, &quot;windows-1250&quot;, &quot;windows-1251&quot;, &quot;windows-1252&quot;, &quot;windows-1253&quot;, &quot;windows-1254&quot;, &quot;windows-1255&quot;, &quot;windows-1256&quot;, &quot;windows-1257&quot;, &quot;windows-1258&quot;, &quot;x-euc-tw&quot;, &quot;x-gbk&quot;, &quot;x-johab&quot;, &quot;x-mac-arabic&quot;, &quot;x-mac-ce&quot;, &quot;x-mac-croatian&quot;, &quot;x-mac-cyrillic&quot;, &quot;x-mac-devanagari&quot;, &quot;x-mac-farsi&quot;, &quot;x-mac-greek&quot;, &quot;x-mac-gujarati&quot;, &quot;x-mac-gurmukhi&quot;, &quot;x-mac-hebrew&quot;, &quot;x-mac-icelandic&quot;, &quot;x-mac-roman&quot;, &quot;x-mac-romanian&quot;, &quot;x-mac-turkish&quot;, &quot;x-mac-ukrainian&quot;, &quot;x-user-defined&quot;, &quot;x-viet-tcvn5712&quot;, &quot;x-viet-vps&quot; və &quot;x-windows-949&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="Xüsusi yazı növlərini işlət">
+							<longdesc>Səhifənin yazı növləri yerinə xüsusi yazı növlərini işlət.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="Xüsusi rəngləri işlət">
+							<longdesc>Səhifənin rəngləri yerinə xüsusi rəngləri işlət.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="print_page_numbers">
+						<local_schema short_desc="Səhifənin altlıq qismində səhifə nömrələrinin (x dənə toplamdan)çap ediləcəyi">
+						</local_schema>
+					</entry>
+					<entry name="print_date">
+						<local_schema short_desc="Səhifənin altlıq qismində tarixin çap ediləcəyi">
+						</local_schema>
+					</entry>
+					<entry name="print_page_url">
+						<local_schema short_desc="Səhifənin başlıq qismində səhifənin ünvanının çap ediləcəyi">
+						</local_schema>
+					</entry>
+					<entry name="print_page_title">
+						<local_schema short_desc="Səhifənin başlıq qismində səhifənin başlığının çap ediləcəyi">
+						</local_schema>
+					</entry>
+					<entry name="preferences_font_language">
+						<local_schema short_desc="Hazırda seçili yazı növünün dili">
+							<longdesc>Hazırda seçili yazı növünün dili. Mümkün qiymətlər: &quot;ar&quot; (ərəb dili), &quot;x-baltic&quot; (baltika dilləri), &quot;x-central-euro&quot; (mərkəzi avropa dilləri), &quot;x-cyrillic&quot; (kiril əlifbası işlədən dillər), &quot;el&quot; (yunan dili), &quot;he&quot; (yəhudi dili), &quot;ja&quot; (yapon dili), &quot;k&quot;o (koreya dili), &quot;zh-CN&quot; (bəsidləşdirilmiş çin dili), &quot;th&quot; (tay dili), &quot;zh-TW&quot; (ənənəvi çin dili), &quot;tr&quot; (türk dili), &quot;x-unicode&quot; (başqa dillər), &quot;x-western&quot; (latın əlifbasını işlədən dillər), &quot;x-tamil&quot; (tamil) və &quot;x-devanagari&quot; (devanaqari).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="history_date_filter">
+						<local_schema short_desc="Keçmiş səhifələrinin vaxt aralığı">
+							<longdesc>Bu vaxtlarda ziyarət edilmiş səhifələri göstər:&quot;ever&quot;, &quot;last_two_days&quot;, &quot;last_three_days&quot;, &quot;today&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="show_statusbar">
+						<local_schema short_desc="Ön qurğulu olaraq vəziyyət çubuğunu göstər">
+						</local_schema>
+					</entry>
+					<entry name="show_bookmarks_bar">
+						<local_schema short_desc="Ön qurğulu olaraq nişanlar çubuğunu göstər">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbars">
+						<local_schema short_desc="Ön qurğulu olaraq vasitə çubuqlarını göstər">
+						</local_schema>
+					</entry>
+					<entry name="middle_click_open_url">
+						<local_schema short_desc="Hazırda seçili mətnin göstərdiyi veb səhifəsini açmaq üçün siçanın orta düyməsinə basın">
+							<longdesc>Hazırda seçili mətnin göstərdiyi veb səhifəsini açmaq üçün əsas nümayiş sahəsinə siçanın orta düyməsinə basın.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="automatic_downloads">
+						<local_schema short_desc="Avtomatik endirmələr">
+							<longdesc>Fayllar səyyah ilə açıla bilmədiyində endiriləcək və uyğun proqramla açılacaqdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="Səkmə çubuğunu həmişə göstər">
+							<longdesc>Yalnız bir səkmə açıq olanda belə səkmə çubuğunu göstər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Ana səhifə">
+							<longdesc>İstifadəçinin ana səhifəsinin ünvanı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="full_screen">
+					<entry name="seconds">
+						<local_schema short_desc="Növbəti rəsmin göstərilincəyə dək saniyə olaraq gecikmə">
+						</local_schema>
+					</entry>
+					<entry name="upscale">
+						<local_schema short_desc="Başlanğıcda 100%-dən böyük yaxınlıq dərəcəsinə icazə ver">
+						</local_schema>
+					</entry>
+					<entry name="loop">
+						<local_schema short_desc="Rəsmlər arasında ilgəklə">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="Şəffaflıq rəngi">
+							<longdesc>Əgər şəffaflıq açarının qiyməti COLOR isə, bu zaman bu açar şəffaflığı göstərən rəngi müəyyən edər.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="Şəffaflıq işarəsi">
+							<longdesc>Şəffaflığın necə göstəriləcəyini müəyyən edir. Hökmlü qiymətlər CHECK_PATTERN, COLOR və NONE-dur. Əgər COLOR seçilərsə, trans_color açarı işlədilən rəngin qitmətini müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="Rəsmi İnterpolyasiya et">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome_settings_daemon">
+				<entry name="volume_step">
+					<local_schema short_desc="Səs addımı">
+						<longdesc>Səs həcmi faizi olaraq səs addımı.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="keybindings">
+					<entry name="play">
+						<local_schema short_desc="Çal (ya da çal/fasilə ver)">
+						</local_schema>
+					</entry>
+					<entry name="www">
+						<local_schema short_desc="Veb səyyahını başlat">
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="Yardım aəyyahını başlat">
+						</local_schema>
+					</entry>
+					<entry name="screensaver">
+						<local_schema short_desc="Ekranı qıfılla">
+						</local_schema>
+					</entry>
+					<entry name="search">
+						<local_schema short_desc="Axtar">
+						</local_schema>
+					</entry>
+					<entry name="home">
+						<local_schema short_desc="Ev qovluğu">
+						</local_schema>
+					</entry>
+					<entry name="eject">
+						<local_schema short_desc="Çıxart">
+						</local_schema>
+					</entry>
+					<entry name="power">
+						<local_schema short_desc="İclası sonlandır">
+						</local_schema>
+					</entry>
+					<entry name="volume_up">
+						<local_schema short_desc="Səsi artır">
+						</local_schema>
+					</entry>
+					<entry name="volume_down">
+						<local_schema short_desc="Səsi azalt">
+						</local_schema>
+					</entry>
+					<entry name="volume_mute">
+						<local_schema short_desc="Səsi bağla">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="radar">
+						<local_schema short_desc="Radar xəritəsi üçün url">
+							<longdesc>Radar xəritəsinin alınması üçün xüsusi url.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_radar_url">
+						<local_schema short_desc="Radar xəritəsi üçün xüsusi url işlət">
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="enable_radar_map">
+						<local_schema short_desc="Radar xəritəsini göstər">
+							<longdesc>Hər yeniləmədə radar xəritəsini öyrən.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_detailed_forecast">
+						<local_schema short_desc="Artıq istifadə edilmir">
+						</local_schema>
+					</entry>
+					<entry name="speed_unit">
+						<local_schema>
+							<longdesc>İşlədiləcək külək sürəti vahidi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="pressure_unit">
+						<local_schema>
+							<longdesc>İşlədiləcək təzyiq vahidi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="distance_unit">
+						<local_schema>
+							<longdesc>İşlədiləcək görünüş vahidi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_metric">
+						<local_schema short_desc="Metrik sistem vahidllərini işlət">
+							<longdesc>İngilis vahidləri yerinə metrik vahidllərini işlət</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update_interval">
+						<local_schema short_desc="Yeniləmə aralığı">
+							<longdesc>Avtomatik yeniləmələr arasındakı saniyə olaraq aralıq.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_update">
+						<local_schema short_desc="Mə&apos;lumatı avtomatik olaraq yenilə">
+							<longdesc>Appletin avtomatik olaraq hava təxminlərini yeniləməsini müəyyən edir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="evolution">
+				<dir name="addressbook">
+					<dir name="select_names">
+						<entry name="last_used_uri">
+							<local_schema short_desc="Adları seç dialoqunda ən son işlədilən qovluğun URI-si">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="shell">
+					<entry name="start_offline">
+						<local_schema short_desc="Xətdən qopuq modda başla">
+						</local_schema>
+					</entry>
+					<dir name="view_defaults">
+						<entry name="window_height">
+							<local_schema short_desc="Ön qurğulu pəncərə hündürlüyü">
+							</local_schema>
+						</entry>
+						<entry name="window_width">
+							<local_schema short_desc="Ön qurğulu pəncərə eni">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="mail">
+					<entry name="licenses">
+						<local_schema short_desc="Qəbul edilən lisenziyaların siyahısı">
+						</local_schema>
+					</entry>
+					<entry name="accounts">
+						<local_schema short_desc="Hesabların siyahısı">
+						</local_schema>
+					</entry>
+					<entry name="labels">
+						<local_schema short_desc="Etiketlərin siyahısı və onların rəngləri">
+						</local_schema>
+					</entry>
+					<dir name="trash">
+						<entry name="empty_date">
+							<local_schema short_desc="Zibilin ən son boşaldıldığı tarix">
+							</local_schema>
+						</entry>
+						<entry name="empty_on_exit_days">
+							<local_schema short_desc="Çıxışda zibilin boşaldılması üçün minimal gün">
+								<longdesc>Çıxışda zibilin boşaldılması üçün minimal zaman, gün olaraq.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="empty_on_exit">
+							<local_schema short_desc="Çıxışda zibil qovluqlarını boşalt">
+								<longdesc>Proqramdan çıxışda bütün zibil qovluqlarını boşalt.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="prompts">
+						<entry name="unwanted_html">
+							<local_schema short_desc="İstənməyən HTML göndərildiyində təsdiq istə">
+								<longdesc>HTML məktublarını bu tərz məktub istəməyən əlaqələrə göndərdiyimdə təsdiq istə.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="only_bcc">
+							<local_schema short_desc="Təkcə Bcc doldurulduğunda təsdiq istə">
+								<longdesc>Alıcı və Cc alıcıları bildirilməyən ismarış yollamağa çalışdığında təsdiq istə</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="expunge">
+							<local_schema short_desc="Silmək istənildiyində təsdiq istə">
+								<longdesc>İstifadəçi qovluğu silmək istədiyində təsdiq istə</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="empty_subject">
+							<local_schema short_desc="Mövzu boş buraxılanda təsdiq istə">
+								<longdesc>İstifadəçi məktubu mövzusuz göndərmək istədiyində təsdiq istə</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="format">
+						<entry name="reply_style">
+							<local_schema short_desc="Ön qurğulu cavab tərzi">
+							</local_schema>
+						</entry>
+						<entry name="forward_style">
+							<local_schema short_desc="Ön qurğulu ötürmə tərzi">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="filters">
+						<entry name="logfile">
+							<local_schema short_desc="Süzgəc gedişatlarını qeydə alınacağı fayl">
+								<longdesc>Süzgəc gedişatlarını qeydə alınacağı fayl.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="log">
+							<local_schema short_desc="Süzgəc gedişatlarını qeydə al">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="thread_subject">
+							<local_schema short_desc="Mövzuya görə ismarış siyahısını ilgəklə">
+							</local_schema>
+						</entry>
+						<entry name="show_deleted">
+							<local_schema short_desc="İsmarış siyahısında silinən məktubları göstər.">
+								<longdesc>İsmarış siyahısında silinən məktubları (cızılmış olaraq) göstər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mark_seen">
+							<local_schema short_desc="Verilən müddət sonra Görüldü olaraq işarələ">
+								<longdesc>Verilən müddət sonra Görüldü olaraq işarələ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="animate_images">
+							<local_schema short_desc="Animasiyalı Göstər">
+								<longdesc>Oynayan rəsmləri animasiya olaraq göstər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="charset">
+							<local_schema short_desc="Ön qurğulu olaraq məktubların göstəriləcəyi hərf dəstəsi">
+								<longdesc>Ön qurğulu olaraq məktubların göstəriləcəyi hərf dəstəsi.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="citation_colour">
+							<local_schema short_desc="Sitat işıqlandırma rəngi">
+								<longdesc>Sitat işıqlandırma rəngi.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mark_citations">
+							<local_schema short_desc="Sitatları ismarışın &quot;Ön İzləməsinə&quot; işarələ">
+								<longdesc>Sitatları ismarışın &quot;Ön İzləməsinə&quot; işarələ.</longdesc>
+							</local_schema>
+						</entry>
+						<dir name="fonts">
+							<entry name="use_custom">
+								<local_schema short_desc="Xüsusi yazı növlərini işlət">
+								</local_schema>
+							</entry>
+							<entry name="monospace">
+								<local_schema short_desc="Terminal yazı növü">
+								</local_schema>
+							</entry>
+							<entry name="variable">
+								<local_schema short_desc="Dəyişən enli yazı növü:">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="composer">
+						<entry name="height">
+							<local_schema short_desc="Tərtib pəncərəsinin hündürlüyü">
+							</local_schema>
+						</entry>
+						<entry name="width">
+							<local_schema short_desc="Tərtib pəncərəsinin eni">
+							</local_schema>
+						</entry>
+						<entry name="send_html">
+							<local_schema short_desc="Ön qurğulu olaraq HTML məktub göndər">
+								<longdesc>Ön qurğulu olaraq HTML məktub göndər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="magic_links">
+							<local_schema short_desc="Avtomatik körpü aşkarı">
+								<longdesc>Mətnlərdəki körpüləri aşkar et və onları əvəz et.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="inline_spelling">
+							<local_schema short_desc="Daxili imla yoxlaması">
+								<longdesc>Yazarkən kəlmələrdəki səhv imlanı göstər.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="charset">
+							<local_schema short_desc="Ön qurğulu olaraq məktubların yazılacağı hərf dəstəsi">
+								<longdesc>Ön qurğulu olaraq məktubların yazılacağı hərf dəstəsi.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="junk">
+						<entry name="check_incoming">
+							<local_schema short_desc="Gələn məktubların Spam olduğunu yoxla">
+							</local_schema>
+						</entry>
+						<dir name="sa">
+							<entry name="local_only">
+								<local_schema short_desc="Təkcə yerli Spam sınaqlarını işlət.">
+									<longdesc>Təkcə yerli Spam sınaqlarını işlət.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+  <!ENTITY applet "Deskbar">
+  <!ENTITY appletversion "2.20">
+  <!ENTITY manrevision   "2.1">
+  <!ENTITY date "January 2008">
+
+  <!-- Information about the entities.
+       The legal.xml file contains legal information, there is no need to edit the file. 
+       Use the appletversion entity to specify the version of the applet.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the applet entity to specify the name of the applet. -->
+
+]>
+<!-- 
+  This is a GNOME documentation template, designed by the GNOME
+  Documentation Project Team. Please use it for writing GNOME
+  documentation, making obvious changes. In particular, all the words
+  written in UPPERCASE (with the exception of GNOME) should be
+  replaced. As for "legalnotice", please leave the reference
+  unchanged.
+
+  Remember that this is a guide, rather than a perfect model to follow
+  slavishly. Make your manual logical and readable.  And don't forget
+  to remove these comments in your final documentation!  ;-)
+-->
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 3.0 beta
+  Template last modified 2006-12-10 and whatever it says in CVS
+-->
+<!-- =============Document Header ============================= -->
+
+<article id="index" lang="en">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+	  <title>&applet; Applet Manual</title> 
+
+    <copyright> 
+      <year>2007</year> 
+      <holder>GNOME Documentation Project</holder> 
+    </copyright> 
+
+    <!-- An address can be added to the publisher information. -->
+    <publisher role="maintainer"> 
+      <publishername>GNOME Documentation Project</publishername> 
+    </publisher>
+
+	  <xi:include href="legal.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <!-- The file legal.xml contains link to license for the documentation, 
+        and other legal stuff such as "NO WARRANTY" statement. 
+        Please do not change any of this. -->
+
+    <abstract role="description">
+      <para>&applet; is a quick access and search applet.</para>
+    </abstract>
+    <authorgroup> 
+    <author> 
+    		<firstname>Qing</firstname> 
+    		<surname>Gan</surname> 
+    		<affiliation> 
+  	  		<orgname>Ubuntu Documentation Project</orgname> 
+    		</affiliation> 
+      </author>
+      <author> 
+    		<firstname>Phil</firstname> 
+    		<surname>Bull</surname> 
+    		<affiliation> 
+  	  		<orgname>Ubuntu Documentation Project</orgname> 
+  			<address> <email>philbull@gmail.com</email> </address> 
+    		</affiliation> 
+      </author>  
+    </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+<!-- Remember to remove the &manrevision; entity from the revision entries other
+-->
+<!-- than the current revision. -->
+<!-- The revision numbering system for GNOME manuals is as follows: -->
+<!-- * the revision number consists of two components -->
+<!-- * the first component of the revision number reflects the release version of the GNOME desktop. -->
+<!-- * the second component of the revision number is a decimal unit that is incremented with each revision of the manual. -->
+<!-- For example, if the GNOME desktop release is V2.x, the first version of the manual that -->
+<!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
+<!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
+<!-- to V3.0, and so on. -->  
+	 <revhistory>
+		<revision> 
+		  <revnumber>&applet; Applet Manual V&manrevision;</revnumber> 
+		  <date>January 2008</date> 
+		  <revdescription> 
+			  <para role="author">Qing Gan</para>
+			  <para role="author">Phil Bull
+				<email>philbull@gmail.com</email></para>
+			  <para role="publisher">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+		<revision> 
+		  <revnumber>Deskbar Applet Manual V2.0</revnumber> 
+		  <date>December 2006</date> 
+		  <revdescription> 
+			 <para role="author">GNOME Documentation Project
+				<email>gnome-doc-list@gnome.org</email></para> 
+			 <para role="publisher">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+	 </revhistory> 
+	 <releaseinfo> This manual describes version &appletversion; of &applet;.
+		</releaseinfo> 
+		
+    <legalnotice> 
+      <title>Feedback</title> 
+      <para>To report a bug or make a suggestion regarding the &applet; applet or
+      this manual, follow the directions in the 
+      <ulink url="ghelp:user-guide?feedback-bugs" type="help">Feedback section of the GNOME User Guide</ulink>. 
+      </para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+    
+  </articleinfo> 
+  <indexterm zone="index"> 
+	 <primary>DESKBAR-APPLET</primary> 
+  </indexterm> 
+  <indexterm zone="index"> 
+	 <primary>deskbar-applet</primary> 
+  </indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<!-- Use the Introduction section to give a brief overview of what
+     the applet is and what it does. -->
+  <sect1 id="deskbar-introduction"> 
+    <title>Introduction</title> 
+	<para>The &applet; Applet can be loaded with specific extensions that allow the user
+	to easily and quickly search various search engines and websites, lookup words
+	in the dictionary, search for files on the computer, or run programs, among
+	other things.</para>
+  </sect1>
+
+  <sect1 id="deskbar-adding"> 
+	<title>Adding &applet; to the panel</title> 
+	<para>To add &applet; to a panel:</para>
+	<procedure>
+		<step>
+			<para>Right-click on the panel to open the panel popup menu, then choose 
+			<menuchoice> 
+			<guimenu>Add to Panel</guimenu>
+			</menuchoice>.
+			</para>
+		</step>
+		<step>
+			<para>Select &applet; in the <guilabel>Add to Panel</guilabel> dialog, then click <guibutton>Add</guibutton>.</para>
+			<para>Alternatively, just drag the applet from the dialog to a location on the panel.</para>
+		</step>
+	</procedure>
+	<para>
+	For more information on adding applets to a panel, see the <ulink url="ghelp:user-guide?panels-addobject" type="help">GNOME User Guide</ulink>.
+	</para>
+
+  </sect1>
+	
+ <sect1 id="deskbar-activating">
+	<title>Activating &applet;</title>
+	<para>To activate &applet;, press the &applet; icon on the panel (see the picture below).</para>
+	    <!-- ==== Figure ============================================= -->
+	    <informalfigure id="deskbar-fig"> 
+	    <screenshot> 
+	      <mediaobject> 
+	    	 <imageobject><imagedata fileref="figures/deskbar-applet.png"
+	    		format="PNG"/> 
+	    	 </imageobject>
+	    	 <textobject> 
+	    		<phrase>Shows the &applet; applet.
+	    		</phrase> 
+	    	 </textobject> 
+	      </mediaobject> 
+	    </screenshot> 
+	    </informalfigure> 
+	    <!-- ==== End of Figure ======================================= -->
+	    
+	<para>Alternatively, press <keycombo><keycap>Alt</keycap><keycap>F3</keycap></keycombo> to activate &applet;.</para>
+	
+	<sect2 id="deskbar-sticktopanel">
+		<title>Sticking the search box to the panel</title>
+		<para>By default, activating &applet; will open a new window with a search box in it. If you would prefer the search box to remain attached to the panel when you activate &applet;:</para>
+		<procedure>
+			<step>
+				<para>Right-click the &applet; icon on the panel and select <guilabel>Preferences</guilabel>.</para>
+			</step>
+			<step>
+				<para>Select the <guilabel>General</guilabel> tab and click <guilabel>Stick to panel</guilabel>.</para>
+			</step>
+		</procedure>
+	</sect2>
+	
+	<sect2 id="deskbar-changeshortcut">
+		<title>Changing the keyboard shortcut</title>
+		<para>You can change the keyboard shortcut used to activate &applet;:</para>
+		<procedure>
+			<step>
+				<para>Right-click the &applet; icon on the panel and select <guilabel>Preferences</guilabel>.</para>
+			</step>
+			<step>
+				<para>Select the <guilabel>General</guilabel> tab.</para>
+			</step>
+			<step>
+				<para>Click the text entry labelled <guilabel>Keyboard shortcut to focus</guilabel>. 
+				The text should change to say <guilabel>New accelerator...</guilabel></para>
+			</step>
+			<step>
+				<para>Type the new keyboard shortcut that you would like to use. The change will take effect immediately.</para>
+			</step>
+		</procedure>
+		<para>To cancel editing the keyboard shortcut, click anywhere outside the text entry or press <keycap>Escape</keycap>.</para>
+	</sect2>	
+</sect1>
+
+<sect1 id="deskbar-searching">
+	<title>Searching for items</title>
+	<sect2 id="deskbar-searchingforsomething">
+		<title>Performing a search</title>
+		<procedure>
+        	<step>
+			    <para>Activate &applet; and type some search terms into the search box.</para>
+        	</step>
+    		<step>
+			    <para>&applet; will recommend some items depending on the search terms you entered. </para>
+    		</step>
+   		    <step>
+			    <para>Click the item of your choice. &applet; will perform the appropriate action for that item; for example, clicking a web link will cause it to be opened in your web browser.</para>
+    		</step>
+	    </procedure>
+	    <para>Some search results have more than one possible action. In this case, a <quote><guilabel>&gt;</guilabel></quote> is displayed to the right of the item. When you click on the <quote><guilabel>&gt;</guilabel></quote> you will get a list of available actions.</para>
+    </sect2>
+    <sect2 id="deskbar-enablinganddisablingsearchextensions">
+        <title>Enabling and disabling search extensions</title>
+        <para>You can enable and disable search extensions in order to change what types of search are displayed in the search results. 
+For example, you might wish to enable the Dictionary extension so that you can look up word definitions using Deskbar.</para>
+        <procedure>
+            <step>
+				<para>Right-click the &applet; icon on the panel and select <guilabel>Preferences</guilabel>.</para>
+			</step>
+            <step>
+				<para>Select the <guilabel>Searches</guilabel> tab.</para>
+			</step>
+            <step>
+                <para>To enable a search extension, select it from the list. To disable a search extension, deselect it.</para>
+            </step>
+        </procedure>
+        <para>For some search extensions you can click <guibutton>More...</guibutton> to set additional settings.</para>
+    </sect2>
+    <sect2 id="deskbar-changetheorderofsearchextensions">
+        <title>Changing the order of search extensions</title>
+        <para>You can change the order of the search extensions, so that types of search which are more important to you are displayed at the start of the search results.</para>
+        <procedure>
+            <step>
+				<para>Right-click the &applet; icon on the panel and select <guilabel>Preferences</guilabel>.</para>
+			</step>
+            <step>
+				<para>Select the <guilabel>Searches</guilabel> tab.</para>
+			</step>
+            <step>
+                <para>Select the search extension, then click <guibutton>Top</guibutton>, <guibutton>Up</guibutton>, <guibutton>Down</guibutton> or <guibutton>Bottom</guibutton> to change the search extension's order. </para>
+                 <para>Alternatively, drag and drop the search extensions to change their order.</para>
+            </step>
+        </procedure>
+    </sect2>
+    <sect2 id="deskbar-extensionswitherrors">
+        <title>Extensions with errors</title>
+        <para>If an extension does not appear in the search results as expected, there may be a problem with it.</para>
+        <procedure>
+            <step>
+				<para>Right-click the &applet; icon on the panel and select <guilabel>Preferences</guilabel>.</para>
+			</step>
+            <step>
+				<para>Select the <guilabel>Extensions with Errors</guilabel> tab.</para>
+			</step>
+            <step>
+				<para>To see the reason for an error, select the affected extension from the list. Information on the error will be shown below the list.</para>
+			</step>
+        </procedure>
+    </sect2>
+</sect1>
+
+<sect1 id="deskbar-history">
+	<title>Search history</title>
+	<sect2 id="deskbar-usingthehistory">
+	        <title>Using the history</title>
+	        <para>The search history is a list of searches which you have made before. Instead of inputting the same search terms again, you can select a previous search from the history.</para>
+	        <procedure>
+	            <step>
+		        <para>Activate &applet;.</para>
+		    </step>
+	            <step>
+	                <para>Click <guibutton>Choose action</guibutton> and select a previous search from the list.</para>
+	            </step>
+	            <step>
+	            	<para>The search you selected will be performed again.</para>
+	            </step>
+	        </procedure>
+	</sect2>
+    <sect2 id="deskbar-clearhistory">
+        <title>Clearing the history</title>
+        <para>Sometimes you may want to clear your search history. There are two ways of achieving this:</para>
+        <itemizedlist>
+		<listitem>
+			<para>Activate &applet; and click the <guilabel>Clear</guilabel> button to the right of the <guibutton>Choose action</guibutton> drop-down list.</para>
+		</listitem>
+		<listitem>
+			<para>Right-click the &applet; icon on the panel and select <guilabel>Clear History</guilabel>.</para>
+		</listitem>
+	    </itemizedlist>
+    </sect2>
+</sect1>
+
+<sect1 id="deskbar-install-module">
+	<title>Installing new extensions</title>
+    <para>You can install new search extensions for &applet;.</para>
+	<para>Drag and drop a search extension onto the <application>Preferences</application> dialog to install it. This works with <filename>.py</filename>, <filename>.tar.gz</filename>, <filename>.tar.bz2</filename>, <filename>.tar</filename> and <filename>.zip</filename> files.</para>
+    <para>Alternatively, you can drag and drop an URL from your web browser onto the <application>Preferences</application> dialog. The file will be downloaded and installed automatically.
+    </para>
+</sect1>
+
+
+<!-- ============= About ================================== -->
+<!-- This section contains info about the program (not docs), such as
+     author's name(s), web page, license, feedback address. This
+     section is optional: primary place for this info is "About.." box of
+     the program. However, if you do wish to include this info in the
+     manual, this is the place to put it. Alternatively, you can put this 
+     information in the title page.-->
+
+  <sect1 id="deskbar-about">
+  	<title>About &applet;</title>
+      <para>
+		  &applet; was written by Nigel Tao (<email>nigel.tao@myrealbox.com</email>), Raphael Slinckx (<email>raphael@slinckx.net</email>), Mikkel Kamstrup Erlandsen (<email>kamstrup@daimi.au.dk</email>),
+		  Sebastian Pölsterl (<email>marduk@k-d-w.org</email>). To find more information about
+        &applet;, please visit the <ulink
+          url="http://www.gnome.org/projects/deskbar-applet/" type="http">&applet; Web page</ulink>. 
+      </para>  
+      
+      <para>
+      To report a bug or make a suggestion regarding this application or
+      this manual, follow the directions in the
+      <ulink url="ghelp:user-guide?feedback-bugs" type="help">Feedback section of the GNOME User Guide</ulink>.
+      </para>
+
+      <para> This program is distributed under the terms of the GNU
+      General Public license as published by the Free Software
+      Foundation; either version 2 of the License, or (at your option)
+      any later version. A 
+      <ulink url="ghelp:gpl" type="help">copy of this license</ulink>
+      is included with this documentation; another can be found in the file
+      COPYING included with the source code of this program.
+      </para>     
+      
+  </sect1> 
+
+</article> 

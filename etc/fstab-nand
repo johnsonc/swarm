@@ -1,0 +1,10 @@
+#/dev/root	/	auto	defaults	0 1
+proc            /proc           proc    defaults        0       0
+#/dev/mmcblk0p2	/	auto	defaults	0 1
+/dev/mtdblock11	/	yaffs2	defaults	0 0
+#proc            /proc           proc    defaults        0       0
+/dev/mtdblock16 /usr	yaffs2	defaults	0 0
+/dev/mtdblock14 /usr/share	yaffs2	defaults	0 0
+/dev/mtdblock15 /home	yaffs2	defaults	0 0
+
+/swap		swap	swap	defaults	0 0

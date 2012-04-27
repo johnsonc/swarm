@@ -1,0 +1,10 @@
+3b8d130afdd860172298756f0c79481e  usr/share/doc/libfftw3-3/changelog.Debian.gz
+076e28bb229b7acfa07e90cd7e0d4451  usr/share/doc/libfftw3-3/README.Debian
+666a64b943f2258e356bcce437bd2ef1  usr/share/doc/libfftw3-3/changelog.gz
+c617d71ffd736fc7021942bf8f13d23c  usr/share/doc/libfftw3-3/README
+4f3bcf35a8f17cf325ab9a4e988812d2  usr/share/doc/libfftw3-3/copyright
+99ee95130884b84b4c6be4e83ad9c678  usr/share/doc/libfftw3-3/NEWS.gz
+d25645898a92ba0eaa77c2c72283dbbd  usr/lib/libfftw3f_threads.so.3.2.4
+d660b0a42e517e574c60894d20f05323  usr/lib/libfftw3.so.3.2.4
+ff4ed3e763f2b10ab415ed32d54a2978  usr/lib/libfftw3_threads.so.3.2.4
+2de27452ccd63feffa511bc3a8d14098  usr/lib/libfftw3f.so.3.2.4

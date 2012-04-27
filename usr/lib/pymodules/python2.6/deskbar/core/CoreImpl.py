@@ -1,0 +1,1 @@
+/usr/share/pyshared/deskbar/core/CoreImpl.py

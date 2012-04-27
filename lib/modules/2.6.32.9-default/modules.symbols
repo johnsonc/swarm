@@ -1,0 +1,6 @@
+# Aliases for symbols, used by symbol_request().
+alias symbol:wm9712_poll_sample_battery wm9715_api
+alias symbol:wm9712_poll_sample wm9715_api
+alias symbol:wm9715_pendown_detect wm9715_api
+alias symbol:wm9715_gpio_config wm9715_api
+alias symbol:wm9715_pen_down wm9715_api

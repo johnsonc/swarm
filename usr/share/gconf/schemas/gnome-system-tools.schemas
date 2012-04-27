@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/gnome-system-tools/users/showall</key>
+      <applyto>/apps/gnome-system-tools/users/showall</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Whether the users-admin tool should show system users in the users list</short>
+        <long></long>
+      </locale>
+
+      <locale name="ar">
+        <short>فيما إذا يفترض أن تُظهر أداة users-admin مستخدمي النظام في قائمة المستخدمين</short>
+        
+      </locale>
+
+      <locale name="ast">
+        <short>Conseña si la ferramienta d&apos;alministración d&apos;usuarios tien d&apos;amosar los usuarios del sistema na llista d&apos;usuarios</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Ці паказваць сыстэмных карыстальнікаў у агульным сьпісе ў праграме наладкі карыстальнікаў</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Дали инструментът за настройка на потребителите да показва и системните потребители в списъците с потребители</short>
+        
+      </locale>
+
+      <locale name="bn">
+        <short>ব্যবহারকারী-প্রশাসক টুল ব্যবহারকারীর তালিকায় সিস্টেম ব্যবহারকারীদের প্রদর্শন করবে কি না</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Si l&apos;eina d&apos;administració d&apos;usuaris hauria de mostrar els usuaris del sistema a la llista d&apos;usuaris</short>
+        
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Si l&apos;eina d&apos;administració d&apos;usuaris hauria de mostrar els usuaris del sistema a la llista d&apos;usuaris</short>
+        
+      </locale>
+
+      <locale name="cs">
+        <short>Zda by měl nástroj pro správu uživatelů zobrazovat systémové uživatele v seznamu uživatelů</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Om værktøjet users-admin skal vise systembrugere i brugerlisten</short>
+        
+      </locale>
+
+      <locale name="de">
+        <short>Soll das Benutzer-Administrationswerkzeug die Systembenutzer in der Benutzerliste anzeigen?</short>
+        
+      </locale>
+
+      <locale name="el">
+        <short>Αν το εργαλείο users-admin θα προβάλει ή όχι τους χρήστες στη λίστα χρηστών</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Whether the users-admin tool should show system users in the users list</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Indica si la herramienta de administración de usuarios debe mostrar los usuarios del sistema en la lista de usuarios</short>
+        
+      </locale>
+
+      <locale name="et">
+        <short>Kas kasutajate haldamise vahend peab kasutajate nimekirjas näitama ka süsteemseid kasutajaid või mitte</short>
+        
+      </locale>
+
+      <locale name="eu">
+        <short>Erabiltzaileak administratzeko tresnak sistemako erabiltzaileak erakutsiko dituen erabiltzaileen zerrendan ala ez adierazten du</short>
+        
+      </locale>
+
+      <locale name="fi">
+        <short>Pitäisikö käyttäjähallintatyökalun näyttää järjestelmäkäyttäjät käyttäjäluettelossa</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Indique si l&apos;outil de configuration des utilisateurs doit afficher les utilisateurs système dans la liste des utilisateurs</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Indica se a ferramenta de administración de usuarios debe mostrar os usuarios do sistema na lista de usuarios</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>Az users-admin megjelenítse-e a rendszerfelhasználókat a felhasználólistában</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>Indica se lo strumento di amministrazione degli utenti dovrebbe mostrare gli utenti di sistema nella lista degli utenti</short>
+        
+      </locale>
+
+      <locale name="ko">
+        <short>사용자 관리 도구의 사용자 목록에서 시스템 사용자를 표시할지 여부</short>
+        
+      </locale>
+
+      <locale name="lt">
+        <short>Ar users-admin įrankis turėtų rodyti sistemos naudotojus sąraše</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Om verktøyet users-admin skal vise alle brukere og grupper i brukerlisten</short>
+        
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੀ users-admin ਟੂਲ  ਯੂਜ਼ਰ ਲਿਸਟ ਵਿੱਚ ਸਿਸਟਮ ਯੂਜ਼ਰਾਂ ਨੂੰ ਵੇਖਾਏ ਜਾਣ</short>
+        
+      </locale>
+
+      <locale name="pl">
+        <short>Określa, czy narzędzie users-admin powinno wyświetlać użytkowników systemowych na liście użytkowników</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Se a ferramenta users-admin deverá ou não apresentar utilizadores de sistema na lista de utilizadores</short>
+        
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a lista de todos os usuários do sistema na ferramenta de administração de usuários</short>
+        
+      </locale>
+
+      <locale name="ro">
+        <short>Specifică dacă instrumentul „users-admin” va afișa utilizatorii de sistem în lista de utilizatori</short>
+        
+      </locale>
+
+      <locale name="ru">
+        <short>Показывать ли системных пользователей в общем списке в программе настройки пользователей</short>
+        
+      </locale>
+
+      <locale name="sl">
+        <short>Ali naj orodje user-admin pokaže sistemske račune na seznamu uporabnikov</short>
+        
+      </locale>
+
+      <locale name="sr">
+        <short>Да ли програм users-admin треба да прикаже системске кориснике и групе у списку корисника</short>
+        
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Da li program users-admin treba da prikaže sistemske korisnike i grupe u spisku korisnika</short>
+        
+      </locale>
+
+      <locale name="sv">
+        <short>Huruvida användaradministrationsverktyget ska visa systemanvändare i användarlistan</short>
+        
+      </locale>
+
+      <locale name="ta">
+        <short>users-admin கருவி எல்லா கணினி பயனீட்டாளரையும் பயனர் பட்டியலில்  காட்ட வேண்டுமா</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Чи буде утиліта users-admin показувати усіх користувачі у списку користувачів</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>用户管理工具是否在用户列表中显示系统用户</short>
+        
+      </locale>
+
+      <locale name="zh_HK">
+        <short>「使用者-管理」工具應否顯示在使用者清單中的系統使用者</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>「使用者-管理」工具應否顯示在使用者清單中的系統使用者</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gnome-system-tools/users/showroot</key>
+      <applyto>/apps/gnome-system-tools/users/showroot</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Whether the users-admin tool should show the root user in the users list</short>
+        <long></long>
+      </locale>
+
+      <locale name="ar">
+        <short>فيما إذا يفترض أن تظهر أداة users-admin المستخدم الجذر في قائمة المستخدمين</short>
+        
+      </locale>
+
+      <locale name="ast">
+        <short>Conseña si la ferramienta d&apos;alministración d&apos;usuarios tien d&apos;amosar l&apos;usuariu root na llista d&apos;usuarios</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Ці паказваць карыстальніка root у агульным сьпісе ў праграме наладкі карыстальнікаў</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Дали инструментът за настройка на потребителите да показва и администраторът в списъците с потребители</short>
+        
+      </locale>
+
+      <locale name="bn">
+        <short>ব্যবহারকারী-প্রশাসক টুল ব্যবহারকারীর তালিকায় প্রশাসক ব্যবহারকারীকে প্রদর্শন করবে কি না</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Si l&apos;eina d&apos;administració d&apos;usuaris hauria de mostrar l&apos;usuari primari a la llista d&apos;usuaris</short>
+        
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Si l&apos;eina d&apos;administració d&apos;usuaris hauria de mostrar l&apos;usuari primari a la llista d&apos;usuaris</short>
+        
+      </locale>
+
+      <locale name="cs">
+        <short>Zda by měl nástroj pro správu uživatelů zobrazovat uživatele root v seznamu uživatelů</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Om værktøjet users-admin skal vise superbrugeren root i brugerlisten</short>
+        
+      </locale>
+
+      <locale name="de">
+        <short>Soll das Benutzer-Administrationswerkzeug den Root-Benutzer in der Benutzerliste anzeigen?</short>
+        
+      </locale>
+
+      <locale name="el">
+        <short>Αν το εργαλείο users-admin θα προβάλει ή όχι τον χρήστη root στη λίστα χρηστών</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Whether the users-admin tool should show the root user in the users list</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Indica si la herramienta de administración de usuarios debe mostrar el usuario root en la lista de usuarios</short>
+        
+      </locale>
+
+      <locale name="et">
+        <short>Kas kasutajate haldamise vahend peab kasutajate nimekirjas näitama ka juurkasutajat või mitte</short>
+        
+      </locale>
+
+      <locale name="eu">
+        <short>Erabiltzaileak administratzeko tresnak root erabiltzailea erakutsiko duen erabiltzaileen zerrendan ala ez adierazten du</short>
+        
+      </locale>
+
+      <locale name="fi">
+        <short>Pitäisikö käyttäjähallintatyökalun näyttää pääkäyttäjä käyttäjäluettelossa</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Indique si l&apos;outil de configuration des utilisateurs doit afficher l&apos;utilisateur root dans la liste des utilisateurs</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Indica se a ferramenta de administración de usuarios debe mostrar o usuario root na lista de usuarios</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>Az users-admin megjelenítse-e a root felhasználót a felhasználólistában</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>Indica se lo strumento di amministrazione degli utenti dovrebbe mostrare l&apos;utente root nell&apos;elenco degli utenti</short>
+        
+      </locale>
+
+      <locale name="ko">
+        <short>사용자 관리 도구의 사용자 목록에서 루트 사용자를 표시할지 여부</short>
+        
+      </locale>
+
+      <locale name="lt">
+        <short>Ar users-admin įrankis turėtų rodyti root naudotoją naudotojų sąraše</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Om verktøyet users-admin skal vise root-bruker i brukerlisten</short>
+        
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੀ users-admin ਟੂਲ ਯੂਜ਼ਰ ਲਿਸਟ ਵਿਚਲੇ ਰੂਟ ਯੂਜ਼ਰ ਨੂੰ ਵੇਖਾਏ ਜਾਣ</short>
+        
+      </locale>
+
+      <locale name="pl">
+        <short>Określa, czy narzędzie users-admin powinno wyświetlać użytkownika root na liście użytkowników</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Se a ferramenta users-admin deverá ou não apresentar o utilizador root na lista de utilizadores</short>
+        
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar o usário root na lista de usuários da ferramenta de administração de usuários</short>
+        
+      </locale>
+
+      <locale name="ro">
+        <short>Specifică dacă instrumentul „users-admin” va afișa utilizatorul „root” în lista de utilizatori</short>
+        
+      </locale>
+
+      <locale name="ru">
+        <short>Показывать ли суперпользователя в общем списке в программе настройки пользователей</short>
+        
+      </locale>
+
+      <locale name="sl">
+        <short>Ali naj orodje user-admin pokaže skrbniški račun na seznamu uporabnikov</short>
+        
+      </locale>
+
+      <locale name="sr">
+        <short>Да ли програм users-admin треба да прикаже администратора у списку корисника</short>
+        
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Da li program users-admin treba da prikaže administratora u spisku korisnika</short>
+        
+      </locale>
+
+      <locale name="sv">
+        <short>Huruvida användaradministrationsverktyget ska visa root-användaren i användarlistan</short>
+        
+      </locale>
+
+      <locale name="ta">
+        <short>users-admin கருவி ரூட் பயனீட்டாளரை பயனர் பட்டியலில்  காட்ட வேண்டுமா</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Чи буде утиліта users-admin показувати усі групи у списку груп</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>用户管理工具是否在用户列表中显示 root 用户</short>
+        
+      </locale>
+
+      <locale name="zh_HK">
+        <short>「使用者-管理」工具應否顯示在使用者清單中的 root 使用者</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>「使用者-管理」工具應否顯示在使用者清單中的 root 使用者</short>
+        
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>
+

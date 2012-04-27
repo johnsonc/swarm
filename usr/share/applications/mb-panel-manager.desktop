@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Panel Manager
+Comment=Manage panel configuration 
+Exec=matchbox-panel-manager
+Type=Application
+Icon=mbpanelmgr.png
+Categories=Application;SystemSettings;MB
+StartupNotify=True
+SingleInstance=True

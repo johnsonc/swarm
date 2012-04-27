@@ -1,0 +1,1 @@
+/usr/share/pyshared/deskbar/interfaces/__init__.py

@@ -1,0 +1,13 @@
+b57b383245b7f42aec92108685da9e95  usr/bin/tcplisten
+c0b0776d73f1f2ae70ab96a8883a3bef  usr/bin/mini-inetd
+9a1b169947393cd194ec9860033b61a7  usr/bin/getpeername
+1cbd435d4a2cd177c05bb2d5e4345e00  usr/bin/tcpbug
+a55fbdc700ea76fa5078ddcfcafaed1d  usr/bin/tcpconnect
+df5de8d43ff880f90ff5a4009f079110  usr/share/doc/tcputils/changelog.Debian.gz
+96f2760045bf9239dbdcbf4bb53a9d39  usr/share/doc/tcputils/README
+64162913fe9431bdcf3d9f153c24ecab  usr/share/doc/tcputils/copyright
+89d8fc0515caae667af8b3f3eb66380f  usr/share/man/man1/mini-inetd.1.gz
+30d978e7b709835716dd16cea115a659  usr/share/man/man1/getpeername.1.gz
+2f6eedba36ca3aa6fce40c4df1ed16dc  usr/share/man/man1/tcpbug.1.gz
+c44ae367a707ef718364e8c337e7e5f5  usr/share/man/man1/tcpconnect.1.gz
+006b9a560dbb15c52363666e7ced721d  usr/share/man/man1/tcplisten.1.gz

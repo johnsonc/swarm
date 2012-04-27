@@ -1,0 +1,32 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+  configure)
+    case "`uname -s`" in
+      Linux)
+        # Remove symlink on upgrades. Newer versions of module-init-tools
+        # require a .conf suffix.
+        [ -L /etc/modprobe.d/oss-compat ] && rm -f /etc/modprobe.d/oss-compat
+
+        ln -sf /lib/oss-compat/linux /etc/modprobe.d/oss-compat.conf
+
+        if lsmod | grep -q "^snd " ; then
+          modprobe snd-seq-oss || true
+          modprobe snd-mixer-oss || true
+          modprobe snd-pcm-oss || true
+        fi
+      ;;
+    esac
+  ;;
+  abort-upgrade|abort-remove|abort-deconfigure)
+  ;;
+  *)
+    echo "postinst called with unknown argument \`$1'" >&2
+    exit 1
+  ;;
+esac
+
+
+
+exit 0

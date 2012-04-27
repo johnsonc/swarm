@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/jvm
+/usr/lib/jvm/java-1.5.0-gcj-4.4
+/usr/lib/jvm/java-1.5.0-gcj-4.4/lib
+/usr/lib/gcj-4.4-10
+/usr/lib/gcj-4.4-10/libjawt.so
+/usr/lib/gcj-4.4-10/libgtkpeer.so
+/usr/share
+/usr/share/doc
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libgcj10-awt
+/usr/lib/jvm/java-1.5.0-gcj-4.4/lib/libjawt.so
+/usr/share/doc/libgcj10-awt

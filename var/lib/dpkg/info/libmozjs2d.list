@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmozjs2d
+/usr/share/doc/libmozjs2d/changelog.Debian.gz
+/usr/share/doc/libmozjs2d/copyright
+/usr/share/doc/libmozjs2d/MPL.gz
+/usr/lib
+/usr/lib/libmozjs.so.2d

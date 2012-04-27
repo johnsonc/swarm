@@ -1,0 +1,12 @@
+61952c450ba96787ce061797dbc54ea1  usr/share/doc/libbonobo2-0/changelog.Debian.gz
+02b0e3c6887ff507a1e07760a89fc7d3  usr/share/doc/libbonobo2-0/changelog.gz
+407df2e4dc4c2cf7b260e1796f98c58a  usr/share/doc/libbonobo2-0/README
+d35430acaf5f2dc915972e117e45c34d  usr/share/doc/libbonobo2-0/AUTHORS
+34fa5e4ae4c16acc85067f6fabfbf1f5  usr/share/doc/libbonobo2-0/copyright
+6d316eb460e3aa7aac452b3bcc37e1ec  usr/share/doc/libbonobo2-0/TODO
+9d59dbc7ebfd8280479978d749873280  usr/share/doc/libbonobo2-0/NEWS.gz
+a0036905891fbc7e0ac6c4db31303dbc  usr/lib/orbit-2.0/Bonobo_module.so
+3473f50c01dc10853d5d2916cd0a33b5  usr/lib/bonobo/monikers/libmoniker_std_2.so
+73cc20b82912335c15fdf6040e6d59a4  usr/lib/libbonobo-activation.so.4.0.0
+aaf359df8e2522e19f19f2f274e9cb54  usr/lib/libbonobo-2.so.0.0.0
+e1d78b2b54384bb81f884438af82f969  usr/lib/bonobo-activation/bonobo-activation-server

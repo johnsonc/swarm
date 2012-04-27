@@ -1,0 +1,64 @@
+This package was debianized by Sebastien Bacher <seb128@debian.org> on
+Wed, 16 Feb 2005 16:07:44 +0100.
+
+It was downloaded from http://ftp.gnome.org/pub/GNOME/sources/gnome-backgrounds/
+
+Copyright:
+    Copyright © 2005 Jens Ansorg <jens@ansorg-web.de>
+    Copyright © 2005 Timothy Schellhase
+    Copyright © 2007 Marco Cogoni <cogoni@gmail.com>
+    Copyright © 2008 Andrea Cimitan
+    Copyright © 2008 "blackcombwhistler07" <blackcombwhistler07@googlemail.com>
+    Copyright © 2008 Charles Barbin <barbinch@free.fr>
+    Copyright © 2008 Daniel Galleguillos <dnlgalleguillos@gmail.com>
+    Copyright © 2008 Hylke Bons <hylkebons@gmail.com>
+    Copyright © 2008 Jean-François Fortin Tam <nekohayo@gmail.com>
+    Copyright © 2008 Lapo Calamandrei
+    Copyright © 2008 Lennart Poettering <mztabzr@0pointer.de>
+    Copyright © 2008 Patryk Zawadzki <patrys@pld-linux.org>
+    Copyright © 2008 Sergey Nazarov <phearnot@renee.ru>
+
+Upstream Authors:
+
+Maintainers:
+ - Thomas Wood <thos@gnome.org>
+
+Abstract:
+ - Silk.png, Spring.png, Waves.png:  Patryk Zawadzki <patrys@pld-linux.org>
+ - Flow.png, Gulp.png:  Daniel Galleguillos <dnlgalleguillos@gmail.com>
+
+Nature:
+ - Aqua.jpg: Charles Barbin <barbinch@free.fr>
+ - Blinds.jpg: Lennart Poettering <mztabzr@0pointer.de>
+ - Dunes.jpg: Marco Cogoni cogoni@gmail.com
+ - FreshFlower.jpg: Jens Ansorg <jens@ansorg-web.de>
+ - Garden.jpg: Charles Barbin <barbinch@free.fr>
+ - GreenMeadow.jpg: Timothy Schellhase, retouched by Lapo Calamandrei
+ - LadyBird.jpg: Charles Barbin <barbinch@free.fr>
+ - OpenFlower.jpg: Garrett LeSage <garrett@linuxart.com>
+ - RainDrops.jpg: "blackcombwhistler07" <blackcombwhistler07@googlemail.com>
+ - Storm.jpg: Sergey Nazarov <phearnot@renee.ru>
+ - TwoWings.jpg: Charles Barbin <barbinch@free.fr>
+ - Wood.jpg: Jean-François Fortin Tam <nekohayo@gmail.com>
+ - YellowFlower.jpg: Charles Barbin <barbinch@free.fr>
+
+License:
+
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+

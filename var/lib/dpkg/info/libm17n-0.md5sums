@@ -1,0 +1,15 @@
+1b3a668daaac184a445fa6c2f75c612b  usr/lib/libm17n-core.so.0.4.0
+d9446e4957ffef677f12c813e09981f1  usr/lib/libm17n-flt.so.0.4.0
+e3441c7cc0a5ca5f8b240ee07b88423c  usr/lib/libm17n-gui.so.0.4.0
+d44d357e99e395b3783fb496ee0487b1  usr/lib/libm17n.so.0.4.0
+b2be2e40aaa49f1111eb3f3c48839751  usr/lib/m17n/1.0/libm17n-X.so
+d1b74d1aff7e6376ac667ec4c8d6f66f  usr/lib/m17n/1.0/libm17n-gd.so
+a1879d657b873f69bf05a87647b2a49b  usr/lib/m17n/1.0/libmimx-anthy.so
+5bafe7759b6a70243381ec556b2602d9  usr/lib/m17n/1.0/libmimx-ispell.so
+a3fec622f5ddd01daad0bb75781296a1  usr/share/doc/libm17n-0/AUTHORS
+b07bf1b2a96092e6e41515e29939f851  usr/share/doc/libm17n-0/NEWS.gz
+aac4d1bdf42f5142b9cf8fc219f458fd  usr/share/doc/libm17n-0/README.gz
+a821515159032da66cfb7db08ab9f185  usr/share/doc/libm17n-0/TODO
+a6c21cf4dae1280cd10c8a7064ea0d16  usr/share/doc/libm17n-0/changelog.Debian.gz
+70693e9cc9db4651c8d9b3239f0d34fe  usr/share/doc/libm17n-0/changelog.gz
+ccb51a0bb964750467c5892859e41495  usr/share/doc/libm17n-0/copyright

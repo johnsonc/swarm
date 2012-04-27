@@ -1,0 +1,323 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/evolution/mail/junk/bogofilter/unicode</key>
+      <applyto>/apps/evolution/mail/junk/bogofilter/unicode</applyto>
+      <owner>bf-eplugin</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Convert mail messages to Unicode</short>
+        <long>
+          Convert message text to Unicode UTF-8 to unify spam/ham tokens
+          coming from different character sets.
+        </long>
+      </locale>
+
+      <locale name="af">
+        <short>Skep posboodskappe om na Unicode</short>
+        <long>Skep boodskapteks om na Unicode UTF-8 om elemente van gemors en goeie pos vanuit verskillende karakterstelle dieselfde te maak.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>حوّل رسائل البريد إلى يونيكود</short>
+        <long>حوّل نص الرسالة إلى يونيكود UTF-8 لتوحيد مفردات البريد المزعج القادم من مجموعات حرفية مختلفة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ইউনিকোড</short>
+        <long>বাৰ্তা ইউনিকোড.</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Convertir el testu de los correos a Unicode</short>
+        
+      </locale>
+
+      <locale name="be@latin">
+        <short>Kanvertuj listy ŭ Unicode</short>
+        <long>Kanvertuje tekst listoŭ na Unicode UTF-8, kab nie zhubić nivodnaha znaku ź inšych kadavańniaŭ.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Преобразуване на текста на писмата в „Уникод“</short>
+        <long>Преобразува текста на писмото в UTF-8 с цел уеднаквяване на признаците за спам/различно от спам при различните кодирания на знаците.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>বার্তার বিষয়বস্তু Unicode-এ রূপান্তর করুন</short>
+        <long>ভিন্ন ক্যারেক্টার-সেট প্রয়োগকারী স্প্যাম/হ্যাম টোকেনগুলোকে একত্রিত করার জন্য সকল বার্তাগুলি Unicode UTF-8-এ রূপান্তর করা হবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>বার্তার বিষয়বস্তু Unicode-এ রূপান্তর করুন</short>
+        <long>ভিন্ন ক্যারেক্টার-সেট প্রয়োগকারী স্প্যাম/হ্যাম টোকেনগুলিকে একত্রিত করার জন্য সকল বার্তাগুলি Unicode UTF-8-এ রূপান্তর করা হবে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Converteix el text dels correus a Unicode</short>
+        <long>Converteix el text dels missatges a Unicode (codificació UTF-8) per unificar els elements d&apos;spam/ham provinents de jocs de caràcters diferents.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Converteix el text dels correus a Unicode</short>
+        <long>Converteix el text dels missatges a Unicode (codificació UTF-8) per unificar els elements d&apos;spam/ham provinents de jocs de caràcters diferents.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Převést všechny poštovní zprávy do Unicode</short>
+        <long>Převést text zprávy do Unicode UTF-8, aby se sjednotily spam/ham tokeny přicházející s různými znakovými sadami.</long>
+      </locale>
+
+      <locale name="cy">
+        
+        <long>Trosi neges destun i UTF-8 Unicode er mwyn uno tocynnau sothach/ddim-yn-sothach sydd wedi&apos;u creu mewn setiau nodau gwahanol.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Konvertér brevtekst til Unicode</short>
+        <long>Konvertér brevtekst til Unicode UTF-8 for at forene spam-tekstbidder som kommer fra forskellige tegnsæt.</long>
+      </locale>
+
+      <locale name="de">
+        <short>E-Mails nach Unicode konvertieren</short>
+        <long>E-Mail-Text in Unicode/UTF-8 umwandeln, um die unerwünschten Elemente aus verschiedenen Zeichenkodierungen einheitlich zu erkennen.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཡུ་ནི་ཀོཌི་ལུ་ ཡིག་འཕྲིན་ འཕྲིན་དོན་ཚུ་ གཞི་བསྒྱུར་འབདཝ་ཨིན་ </short>
+        <long>འཕྲིན་དོན་ཚིག་ཡིག་འདི་ཡུ་ཊི་ཨེཕ་-༨་ གཞི་བསྒྱུར་འབད་ དེ་ཡང་ སི་པམ་/ཧེམ་ངོ་རྟགས་ཚུ་ ཡིག་འབྲུ་གཞི་སྒྲིག་ཚུ་སོ་སོ་ལས་འོང་ནི་འདི་གི་ཨིན།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Μετατροπή κειμένου μηνύματος σε Unicode</short>
+        <long>Μετατροπή μηνύματος κειμένου σε Unicode UTF-8, ώστε να γίνει πιο εύκολος εντοπισμός ανεπιθύμητων μηνυμάτων που χρησιμοποιούν διάφορες κωδικοποίησεις χαρακτήρων.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑒𐑩𐑯𐑝𐑻𐑑 𐑥𐑱𐑤 𐑥𐑧𐑕𐑦𐑡𐑩𐑟 𐑑 ·𐑿𐑯𐑦𐑒𐑴𐑛</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Convert mail messages to Unicode</short>
+        <long>Convert message text to Unicode UTF-8 to unify spam/ham tokens coming from different character sets.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Convertir el texto de los correos a Unicode</short>
+        <long>Convertir el mensaje de texto a Unicode UTF-8 para unificar los tokens SPAM/correo normal provenientes de diferentes juegos de caracteres.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Sõnumite teisendamine Unicode kooditabelisse</short>
+        <long>Sõnumi tekstiosa teisendamine Unicode UTF-8 kooditabelile vastavaks, et (rämps)postifiltrid saaksid universaalselt käsitseda erinevates kooditabelites olevaid sõnumeid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Bihurtu mezuaren testua Unicode</short>
+        <long>Bihurtu mezuaren testua Unicode UTF-8 kodeketara karaktere-multzo ezberdinak dituzten token mezu normalen/baztergarrien tokenak bateratzeko.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Muunna sähköpostiviestit Unicode-muotoon</short>
+        <long>Muunna viestin teksti Unicode UTF-8-muotoon, jotta roskapostin tunnistavat merkinnät eivät eroa merkistöjen välillä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Convertit les messages en Unicode</short>
+        <long>Convertit le texte des messages en Unicode UTF-8 pour unifier les balises spam/ham provenant de différents jeux de caractères.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Tiontaigh teachtaireachtaí poist go Unicode</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Converter as mensaxes de correo a Unicode</short>
+        <long>Converter o texto da mensaxe a Unicode UTF-8 para unificar os tokens spam/ham que veñen de diferentes conxuntos de caracteres.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>મેઈલ સંદેશાઓને યુનિકોડમાં રૂપાંતરિત કરો</short>
+        <long>spam/ham ટોકનોને વિવિધ અક્ષર સમૂહોમાંથી આવતા એકત્રિત કરવા માટે લખાણ સંદેશાઓને યુનિકોડ UTF-8 માં રૂપાંતરિત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Convert mail messages to Unicode</short>
+        <long>Convert message text to Unicode UTF-8 to unify spam/ham tokens coming from different character sets.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>डाक संदेश यूनीकोड में बदलें</short>
+        <long>भिन्न वर्ण स्रोत से स्पैम/हैम टोकन में समानता लाने के लिए संदेश पाठ यूनीकोड UTF-8 में बदलें.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Levélüzenetek Unicode-dá alakítása</short>
+        <long>Az üzenet szövegének Unicode UTF-8 kódolásúvá alakítása a különböző karakterkészletű spam/ham karaktersorozatok egységesítése érdekében.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Converte i messaggi di posta in Unicode</short>
+        <long>Converte il testo del messaggio in Unicode UTF-8 per unificare i token di spam/ham che provengono da diversi set di caratteri.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>メールの本文を Unicode に変換するかどうか</short>
+        <long>メールの本文を Unicode の UTF-8 に変換して、いろいろな文字集合から構成された &quot;スパム&quot; や &quot;ハム&quot; の語句を一元化するかどうかです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಮೈಲ್ ಸಂದೇಶಗಳನ್ನು ಯುನಿಕೋಡ್‍ಗೆ ಬದಲಾಯಿಸು</short>
+        <long>ಬೇರೆ ಬೇರೆ ಕ್ಯಾರೆಕ್ಟರ್ ಸೆಟ್‌ಗಳಿಂದ ಬರುವ ಸ್ಪ್ಯಾಮ್/ಹ್ಯಾಮ್ ಟೋಕನ್‌ಗಳನ್ನು ಒಗ್ಗೂಡಿಸಲು ಸಂದೇಶ ಪಠ್ಯವನ್ನು ಯುನಿಕೋಡ್ UTF-8 ಗೆ ಬದಲಾಯಿಸುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>메시지 텍스트를 유니코드로 변환</short>
+        <long>메시지 텍스트를 유니코드 UTF-8로 변환하여 여러가지 문자셋으로 된 스팸/햄 토큰을 통일합니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Konvertuoti laiško tekstą į Unikodą</short>
+        <long>Laiško tekstą konvertuoti į UTF-8 tam, kad būtų suvienodinti brukalo atpažinimo žodžiai, parašyti skirtingomis koduotėmis.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Pārveidot vēstules tekstu uz Unicode</short>
+        <long>Pārveidot vēstuli uz Unicode UTF-8, lai samazinātu dažādo simbolu tabulu slikto ietekmi.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Конвертирај го текстот од поштата во уникод</short>
+        <long>Конвертирај го текстот од поштата во уникод UTF-8 за да се обединат знаците за спам/неспам од различните множества на знаци.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സന്ദേശങ്ങള്‍ യൂണികോഡായി വേര്‍തിരിക്കുക</short>
+        
+      </locale>
+
+      <locale name="mr">
+        <short>मेल संदेश युनिकोड मध्ये रूपांतरीत करा</short>
+        <long>विविध अक्षर संच पासून येणारे स्पॅम/हॅम टोकन एकत्र करण्याकरीता संदेश पाठ्य Unicode UTF-8 मध्ये रूपांतरीत करा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Konverter meldinger til Unicode</short>
+        <long>Konverter meldingstekst til Unicode UTF-8 for å gjøre innsamling av egenskaper for uønskede meldinger mer enhetlig.</long>
+      </locale>
+
+      <locale name="ne">
+        
+        <long>विभिन्न क्यारेक्टर सेटहरूबाट आईरहेको रद्दी/हानी टोकनहरू एकिकृत गर्न सन्देश पाठलाई युनिकोड यूटीएफ-८ मा रूपान्तरण गर्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>E-mail omzetten naar Unicode</short>
+        <long>Berichten naar UTF-8 omzetten om spamdetectie te verbeteren.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ମେଲ ସନ୍ଦେଶକୁ ୟୁନିକୋଡରେ ରୂପାନ୍ତର କରନ୍ତୁ</short>
+        <long>ବିଭିନ୍ନ ବର୍ଣ୍ଣ ସେଟରୁ ଆସିଥିବା ସନ୍ଦେଶ ପାଠ୍ଯକୁ ୟୁନିକୋଡ UTF-8 ରେ ରୂପାନ୍ତର କରନ୍ତୁ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਮੇਲ ਸੁਨੇਹਿਆਂ ਨੂੰ ਯੂਨੀਕੋਡ &apos;ਚ ਬਦਲੋ</short>
+        <long>ਸੁਨੇਹੇ ਟੈਕਸਟ ਨੂੰ ਯੂਨੀਕੋਡ UTF-੮ ਤੋਂ ਯੂਨੀਫਾਈ ਸਪਮ/ਹਮ ਟੋਕਨ ਵਿੱਚ ਬਦਲੋ, ਜੋ ਕਿ ਵੱਖਰੇ ਅੱਖਰ ਸੈੱਟ ਤੋਂ ਆਉਦੇ ਹਨ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Konwertuje tekst wiadomości do Unicode</short>
+        <long>Konwertuje tekst wiadomości do Unicode UTF-8 aby nie pominąć żadnych znaków z innych kodowań.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Converter as mensagens de correio para Unicode</short>
+        <long>Converter o texto da mensagem para UTF-8 Unicode para unificar as expressões de spam/ham (não solicitado/solicitado) oriundas de diferentes codificações de caracteres.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Converter mensagem para Unicode</short>
+        <long>Converter a mensagem de texto para Unicode UTF-8 para unificar os tokens spam/ham oriundos de diferentes conjuntos de caracteres.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Conversie text mesaj la Unicode</short>
+        <long>Transformă textul mesajului la Unicode UTF-8 pentru a unifica elementele de spam/ham provenind din seturi diferite de caractere.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Преобразовывать почтовые сообщения в Юникод</short>
+        <long>Преобразовывать текст сообщения в кодировку UTF-8 для облегчения работы фильтров спама, имеющих проблемы с различными кодировками.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Pretvorba besedilne pošte v unicode nabor</short>
+        <long>Pretvori sporočilo v Unicode UTF-8 za poenotenje oznak neželene pošte, ki so oblikovane po določilih drugih naborov znakov pisave.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Пребацује поруке поште у Уникод</short>
+        <long>Пребацује текст поруке у Уникод UTF-8 ради обједињавања spam/ham предмета чији су узрок различити кодни распореди.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Prebacuje poruke pošte u Unikod</short>
+        <long>Prebacuje tekst poruke u Unikod UTF-8 radi objedinjavanja spam/ham predmeta čiji su uzrok različiti kodni rasporedi.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Konvertera e-postmeddelanden till Unicode</short>
+        <long>Konvertera meddelandetexten till Unicode UTF-8 för att förenkla kontroll av skräppost/icke-skräppost när flera teckenuppsättningar används.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>அஞ்சல் உரை ஐ யூனிக்கோடுக்கு மாற்றுக</short>
+        <long>அஞ்சல் உரை ஐ யூனிக்கோடுக்கு மாற்றுக. இதனால் எரிதம் ஹாம் டோக்கன்கள் மற்ற எழுத்துருகளில் வருவதை ஒருங்கிணைக்கலாம்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>మెయిల్ సందేశాలను యునికోడ్ కు మార్చుము</short>
+        <long>వేర్వేరు అక్షర సమితుల నుండి వచ్చు spam/ham టోకెన్సు ను యూనిఫై చేయుటకు సందేశం పాఠ్యమును Unicode UTF-8 కు మార్చుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>แปลงข้อความเมลเป็นยูนิโค้ด</short>
+        <long>แปลงข้อความเป็นยูนิโค้ด UTF-8 เพื่อทำชิ้นข้อมูลสำหรับแยกแยะเมลดี/เมลขยะที่ใช้รหัสอักขระต่างกันให้เหมือนกัน</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Mektup iletilerini Unikod&apos;a çevirir</short>
+        <long>İleti metnini farklı karakter kümelerinden gelen spam/ham işaretlerini tekleştirmek için Unikod UTF-8&apos;e çevirir.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Перетворювати поштові повідомлення на Unicode</short>
+        <long>Перетворити текст повідомлення на кодування UTF-8 для полегшення роботи фільтрів спаму, які мають проблему з різними кодуваннями.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Chuyển đổi thư sang Unicode</short>
+        <long>Chuyển đổi văn bản của thư sang UTF-8 Unicode, để hợp nhất các hiệu bài rác đến từ các bộ ký tự khác nhau.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>将邮件消息转换为 Unicode</short>
+        <long>将信件文本转换到 Unicode UTF-8 以一致化来自于不同字符集的垃圾信件特征。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>將郵件轉換為 Unicode</short>
+        <long>將郵件文字轉換為 Unicode UTF-8 以統一來自不同字集的 spam/ham 特徵。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>將郵件轉換為 Unicode</short>
+        <long>將郵件文字轉換為 Unicode UTF-8 以統一來自不同字集的 spam/ham 特徵。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

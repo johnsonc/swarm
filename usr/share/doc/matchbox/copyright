@@ -1,0 +1,21 @@
+This package was originally debianized by Matthew Allum <mallum@10.am>
+on Tue, 5 Mar 2002 11:09:57 +0000.
+
+It was later re-debianised and maintained by Paul Hedderly <prh@debian.org>.
+
+It is currently a task package, since the Matchbox applications have been
+split out into individual packages in recent upstream Matchbox releases.
+
+
+Upstream Matchbox author: Matthew Allum <mallum@o-hand.com>
+
+Package copyright information:
+
+    Copyright: (c) 2002-2003 Matthew John Christopher Allum
+    Copyright (C) 2004 Moray Allan
+
+    You are free to distribute this software under the terms of
+    the GNU General Public License.
+
+On Debian systems, the complete text of the GNU General Public
+License can be found in the file '/usr/share/common-licenses/GPL'.

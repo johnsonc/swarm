@@ -1,0 +1,1188 @@
+<gconfschemafile>
+    <schemalist>
+                                                                                
+      <schema>
+        <key>/schemas/apps/mixer_applet/prefs/channel</key>
+        <owner>mixer-applet</owner>
+        <type>int</type>
+        <default>0</default>
+        <locale name="C">
+          <short>Channel controlled by applet. Only for OSS setups</short>
+        </locale>
+
+        <locale name="ar">
+          <short>القنوات التي يتحطم فيها بريمجك. فقط لإعدادات OSS</short>
+        </locale>
+
+        <locale name="as">
+          <short>এপ্লেট দ্বাৰা নিয়ন্ত্ৰিত চ্যানেল । অকল OSS ভিত্তিক সেট-আপে ব্যৱহৃত</short>
+        </locale>
+
+        <locale name="ast">
+          <short>Canal controláu pola aplicación. Namái pa configuraciones d&apos;OSS</short>
+        </locale>
+
+        <locale name="az">
+          <short>Applet tərəfindən idarə edilən kanal. Ancaq OSS qurğuları üçün</short>
+        </locale>
+
+        <locale name="be">
+          <short>Канал, які кантралюецца аплетам. Толькі для працы праз OSS.</short>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Kanał kantralujecca apletam. Tolki ŭ systemach z OSS</short>
+        </locale>
+
+        <locale name="bg">
+          <short>Каналът е контролиран от аплет. Само за настройка на OSS</short>
+        </locale>
+
+        <locale name="bn">
+          <short>অ্যাপ্লেট দ্বারা নিয়ন্ত্রিত চ্যানেল। শুধুমাত্র OSS ভিত্তিক সেট-আপে ব্যবহৃত</short>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>অ্যাপ্লেট দ্বারা নিয়ন্ত্রিত চ্যানেল। শুধুমাত্র OSS ভিত্তিক সেট-আপে ব্যবহৃত</short>
+        </locale>
+
+        <locale name="bs">
+          <short>Konal koji kontroliše aplet. Samo za OSS postavke</short>
+        </locale>
+
+        <locale name="ca">
+          <short>Canal controlat per la miniaplicació. Només per a configuracions OSS</short>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Canal controlat per la miniaplicació. Només per a configuracions OSS</short>
+        </locale>
+
+        <locale name="crh">
+          <short>Uygulamacık tarafından kontrol edilen kanal. Sadece OSS kurulumları için</short>
+        </locale>
+
+        <locale name="cs">
+          <short>Kanál ovládaný appletem. Pouze pro konfigurace OSS.</short>
+        </locale>
+
+        <locale name="cy">
+          <short>Y sianel a reolir gan y rhaglennig. Systemau OSS yn unig</short>
+        </locale>
+
+        <locale name="da">
+          <short>Kanal kontrolleret af panelprogram. Kun for OSS-opsætninger</short>
+        </locale>
+
+        <locale name="de">
+          <short>Vom Applet geregelter Kanel. Nur für OSS-Umgebungen.</short>
+        </locale>
+
+        <locale name="dz">
+          <short>ཨེཔ་ལེཊི་གིས་ ཚད་འཛིན་འབད་མི་རྒྱུ་ལམ། ཨོ་ཨེསི་ཨེསི་ གཞི་སྒྲིག་གི་དོན་ལུ་རྐྱངམ་ཅིག</short>
+        </locale>
+
+        <locale name="el">
+          <short>Κανάλι που ελέγχεται από τη μικροεφαρμογή. Μόνο για ρυθμίσεις OSS</short>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑗𐑨𐑯𐑩𐑤 𐑒𐑩𐑯𐑑𐑮𐑴𐑤𐑛 𐑚𐑲 𐑨𐑐𐑤𐑩𐑑. 𐑴𐑯𐑤𐑦 𐑓𐑹 𐑪𐑕 𐑕𐑧𐑑𐑩𐑐𐑕</short>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Channel controlled by applet. Only for OSS setups</short>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Channel controlled by applet. Only for OSS setups</short>
+        </locale>
+
+        <locale name="es">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_AR">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_CL">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_CO">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_CR">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_DO">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_EC">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_ES">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_GT">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_HN">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_MX">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_NI">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_PA">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_PE">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_PR">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_SV">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_UY">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="es_VE">
+          <short>Canal controlado por la miniaplicación. Sólo para configuraciones de OSS</short>
+        </locale>
+
+        <locale name="et">
+          <short>Rakendi poolt juhitav kanal. Ainult OSS seadistusele</short>
+        </locale>
+
+        <locale name="eu">
+          <short>Miniaplikazioak kontrolatutako kanala. OSS konfigurazioetarako bakarrik</short>
+        </locale>
+
+        <locale name="fa">
+          <short>کانال کنترل‌شده توسط برنامک. فقط برای برپاسازی‌های OSS</short>
+        </locale>
+
+        <locale name="fi">
+          <short>Sovelman hallinnoima kanava. Vain OSS:ää käyttäville järjestelmille</short>
+        </locale>
+
+        <locale name="fr">
+          <short>Canal contrôlé par l&apos;applet. Seulement pour les réglages OSS</short>
+        </locale>
+
+        <locale name="gl">
+          <short>Canal controlado polo miniaplicativo. Só para configuracións de OSS</short>
+        </locale>
+
+        <locale name="gu">
+          <short>માધ્યમ એપ્લેટ દ્વારા નિયંત્રિત છે. માત્ર OSS ગોઠવણીઓ માટે</short>
+        </locale>
+
+        <locale name="he">
+          <short>Channel controlled by applet. Only for OSS setups</short>
+        </locale>
+
+        <locale name="hi">
+          <short>एप्लेट द्वारा नियंत्रित चैनल. सिर्फ ओएसएस सेटअप हेतु</short>
+        </locale>
+
+        <locale name="hr">
+          <short>Kanalom upravlja applet. Samo za OSS sisteme.</short>
+        </locale>
+
+        <locale name="hu">
+          <short>A kisalkalmazás által vezérelt csatornák. Csak OSS használata esetén</short>
+        </locale>
+
+        <locale name="hy">
+          <short>Ապլետով կառավարվող ալիք։  Միայն OSS կայանքների համար</short>
+        </locale>
+
+        <locale name="id">
+          <short>Kanal diatur oleh applet. Hanya untuk OSS</short>
+        </locale>
+
+        <locale name="is">
+          <short>Rás stýrt af smáforriti. Aðeins fyrir OSS uppsetningu</short>
+        </locale>
+
+        <locale name="it">
+          <short>Canali controllati dall&apos;applet. Solo per OSS</short>
+        </locale>
+
+        <locale name="ja">
+          <short>アプレットで調節するチャンネル (OSS の設定でのみ有効)</short>
+        </locale>
+
+        <locale name="ka">
+          <short>აპლეტის მიერ კონტროლირებადი არხი. მხოლოდ OSS რეგულაციისთვის</short>
+        </locale>
+
+        <locale name="kn">
+          <short>ಆಫ್ಲೆಟ್‌ನಿಂದ ನಿಯಂತ್ರಿಸಲಾದ ಚಾನಲ್. ಕೇವಲ OSS ಸಿದ್ಧತೆಗಳಿಗೆ ಮಾತ್ರ</short>
+        </locale>
+
+        <locale name="ko">
+          <short>애플릿이 컨트롤하는 채널. OSS 설정에서만 사용 가능</short>
+        </locale>
+
+        <locale name="ku">
+          <short>Qanala ku ji aliyê sepanokê tê kontrolkirin. Tenê ji bo sazkirinên OSS</short>
+        </locale>
+
+        <locale name="lt">
+          <short>Kanalas valdomas įtaiso. Tinka tik naudojant OSS.</short>
+        </locale>
+
+        <locale name="mai">
+          <short>एप्लेट द्वारा नियंत्रित चैनल. सिर्फ OSS सेटअप लेल</short>
+        </locale>
+
+        <locale name="mg">
+          <short>Ny canal fehezin&apos;ilay applet. Ho an&apos;ny kirakira OSS ihany</short>
+        </locale>
+
+        <locale name="mk">
+          <short>Каналот е контролиран од страна на аплетот. Само за OSS поставувања</short>
+        </locale>
+
+        <locale name="ml">
+          <short>ലഘുപ്രയോഗം നിയന്ത്രിത ചാനല്‍. OSS സെറ്റപ്പുകള്‍ക്ക് മാത്രം</short>
+        </locale>
+
+        <locale name="mr">
+          <short>वाहिनी एप्लेटद्वारे नियंत्रीत. फक्त OSS व्यवस्थेसाठी</short>
+        </locale>
+
+        <locale name="ms">
+          <short>Saluran dikawal oleh aplet. Hanya bagi tetapan OSS</short>
+        </locale>
+
+        <locale name="nb">
+          <short>Kanal som kontrolleres av panelprogrammet. Kun for systemer som bruker OSS</short>
+        </locale>
+
+        <locale name="ne">
+          <short>एप्लेटद्वारा नियन्त्रित च्यानल । OSS सेटअपका लागि मात्र</short>
+        </locale>
+
+        <locale name="nl">
+          <short>Door applet beheerd kanaal. Alleen voor OSS-versie</short>
+        </locale>
+
+        <locale name="nn">
+          <short>Kanalen som panelprogrammet styrer. Berre for OSS</short>
+        </locale>
+
+        <locale name="or">
+          <short>ଆପଲେଟ୍ ଦ୍ବାରା ନିୟନ୍ତ୍ରିତ ଉପପଥ। କେବଳ OSS ବିନ୍ଯାସ ପାଇଁ</short>
+        </locale>
+
+        <locale name="pa">
+          <short>ਐਪਲਿਟ ਰਾਹੀਂ ਕੰਟਰੋਲ ਚੈਨਲ। ਸਿਰਫ OSS ਸੈੱਟਅੱਪ ਲਈ</short>
+        </locale>
+
+        <locale name="pl">
+          <short>Kanał obsługiwany przez aplet. Tylko w systemach z OSS</short>
+        </locale>
+
+        <locale name="pt">
+          <short>Canal controlado pela applet. Apenas para configurações OSS</short>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Canal controlado pelo miniaplicativo. Somente para configurações OSS.</short>
+        </locale>
+
+        <locale name="ro">
+          <short>Canalul controlat de miniaplicație. Doar pentru sisteme bazate pe OSS</short>
+        </locale>
+
+        <locale name="ru">
+          <short>Канал, управляемый апплетом. Только для настроек OSS</short>
+        </locale>
+
+        <locale name="sk">
+          <short>Kanál ovládaný apletom. Iba pre systémy s OSS</short>
+        </locale>
+
+        <locale name="sl">
+          <short>Kanal nadzorovan s strani vstavka. Le pri uporabi OSS</short>
+        </locale>
+
+        <locale name="sq">
+          <short>Kanali i kontrolluar nga applet. Vetëm për OSS</short>
+        </locale>
+
+        <locale name="sr">
+          <short>Каналом управља програмче. Само за ОСС системе</short>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Kanalom upravlja programče. Samo za OSS sisteme</short>
+        </locale>
+
+        <locale name="sv">
+          <short>Kanal styrs av panelprogram. Endast för OSS-konfigurationer</short>
+        </locale>
+
+        <locale name="ta">
+          <short>சிறுநிரல்கள் மூலம் கட்டுப்படுத்தப்பட்ட அலைவரிசைகள். OSS அமைப்புகளுக்கு மட்டுமே</short>
+        </locale>
+
+        <locale name="te">
+          <short>యాప్లెట్ నియంత్రించే ప్రసారమార్గం. OSS అమరికకు మాత్రమే</short>
+        </locale>
+
+        <locale name="th">
+          <short>ช่องที่แอพเพล็ตควบคุม  ใช้เฉพาะกับ OSS</short>
+        </locale>
+
+        <locale name="tr">
+          <short>Uygulamacık tarafından kontrol edilen kanal. Sadece OSS kurulumları için</short>
+        </locale>
+
+        <locale name="uk">
+          <short>Канал контролюється аплетом. Лише для OSS.</short>
+        </locale>
+
+        <locale name="vi">
+          <short>Kênh điều khiển bởi tiểu dụng. Chỉ cho thiết lập OSS (phần mềm nguồn mở).</short>
+        </locale>
+
+        <locale name="xh">
+          <short>Isiqhagamshelisi silwulwa yinkqutyana yekhompyutha. Kuphela kumiselo lwe-OSS</short>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>用小程序控制声道。仅对 OSS 设置</short>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>面皮程式能夠控制的聲道，只適用於 OSS</short>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>面皮程式能夠控制的聲道，只適用於 OSS</short>
+        </locale>
+      </schema>
+ 
+      <schema>
+        <key>/schemas/apps/mixer_applet/prefs/mute</key>
+        <owner>mixer-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Saved mute state</short>
+        </locale>
+
+        <locale name="ar">
+          <short>حالة الصمت المحفوظة</short>
+        </locale>
+
+        <locale name="as">
+          <short>সংৰক্ষিত নিঃশব্দ অৱস্থা</short>
+        </locale>
+
+        <locale name="ast">
+          <short>Guardáu l&apos;estáu de silenciu</short>
+        </locale>
+
+        <locale name="az">
+          <short>Qeyd edilmiş səssiz vəziyyət</short>
+        </locale>
+
+        <locale name="be">
+          <short>Захаваны абязгучаны стан</short>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Zapisany stan abiazhučanaści</short>
+        </locale>
+
+        <locale name="bg">
+          <short>Запазване на състоянието на заглушаване</short>
+        </locale>
+
+        <locale name="bn">
+          <short>সংরক্ষিত নিঃশব্দ অবস্থা</short>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>সংরক্ষিত নিঃশব্দ অবস্থা</short>
+        </locale>
+
+        <locale name="br">
+          <short>Stad mut enrollet</short>
+        </locale>
+
+        <locale name="bs">
+          <short>Snimljeno prigušeno stanje</short>
+        </locale>
+
+        <locale name="ca">
+          <short>Estat de silenciat desat</short>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Estat de silenciat alçat</short>
+        </locale>
+
+        <locale name="crh">
+          <short>Sessiz durumu kaydedildi</short>
+        </locale>
+
+        <locale name="cs">
+          <short>Uložený stav ztlumení</short>
+        </locale>
+
+        <locale name="cy">
+          <short>Cyflwr myd cadw</short>
+        </locale>
+
+        <locale name="da">
+          <short>Gemt stum-tilstand</short>
+        </locale>
+
+        <locale name="de">
+          <short>Gespeicherter Stummschaltstatus</short>
+        </locale>
+
+        <locale name="dz">
+          <short>སྐད་མེད་ཀྱི་གནས་ལུགས་ སྲུང་བཞག་འབད་ཡོད།</short>
+        </locale>
+
+        <locale name="el">
+          <short>Αποθηκευμένη σιωπηλή κατάσταση</short>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑕𐑱𐑝𐑛 𐑥𐑿𐑑 𐑕𐑑𐑱𐑑</short>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Saved mute state</short>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Saved mute state</short>
+        </locale>
+
+        <locale name="es">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_AR">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_CL">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_CO">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_CR">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_DO">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_EC">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_ES">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_GT">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_HN">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_MX">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_NI">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_PA">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_PE">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_PR">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_SV">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_UY">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="es_VE">
+          <short>Estado de silencio guardado</short>
+        </locale>
+
+        <locale name="et">
+          <short>Vaigistatud oleku salvestamine</short>
+        </locale>
+
+        <locale name="eu">
+          <short>Gordetako mutu-egoera</short>
+        </locale>
+
+        <locale name="fa">
+          <short>وضعیت ساکت ذخیره شد</short>
+        </locale>
+
+        <locale name="fi">
+          <short>Vaimennus tallennettu</short>
+        </locale>
+
+        <locale name="fr">
+          <short>État de sourdine enregistré</short>
+        </locale>
+
+        <locale name="gl">
+          <short>Gardouse o estado de silencio</short>
+        </locale>
+
+        <locale name="gu">
+          <short>શાંત સ્થિતિ સંગ્રહાયેલી છે</short>
+        </locale>
+
+        <locale name="he">
+          <short>Saved mute state</short>
+        </locale>
+
+        <locale name="hi">
+          <short>सहेजी गई मूक स्थिति</short>
+        </locale>
+
+        <locale name="hr">
+          <short>Spremljeno mutirano stanje</short>
+        </locale>
+
+        <locale name="hu">
+          <short>Elmentett némítási állapot</short>
+        </locale>
+
+        <locale name="hy">
+          <short>Համր ձայնի կարգավիճակի պահպանում</short>
+        </locale>
+
+        <locale name="id">
+          <short>Simpan kondisi bisu</short>
+        </locale>
+
+        <locale name="is">
+          <short>Vistaði þagnarstöðu</short>
+        </locale>
+
+        <locale name="it">
+          <short>Stato audio escluso salvato</short>
+        </locale>
+
+        <locale name="ja">
+          <short>ミュートの ON/OFF です</short>
+        </locale>
+
+        <locale name="ka">
+          <short>გამოთიშული ხმის მდგომარეობა</short>
+        </locale>
+
+        <locale name="kn">
+          <short>ಉಳಿಸಲಾದ ಮೂಕ ಸ್ಥಿತಿ</short>
+        </locale>
+
+        <locale name="ko">
+          <short>음 소거 상태 저장</short>
+        </locale>
+
+        <locale name="ku">
+          <short>Rewşa bêdeng hate tomarkirin</short>
+        </locale>
+
+        <locale name="lt">
+          <short>Išsaugota tyli būklė</short>
+        </locale>
+
+        <locale name="mai">
+          <short>सहेजल गेल मूक स्थिति</short>
+        </locale>
+
+        <locale name="mg">
+          <short>Toetra tsy heno feo voaraikitra</short>
+        </locale>
+
+        <locale name="mk">
+          <short>Ја зачував исклучената состојба</short>
+        </locale>
+
+        <locale name="ml">
+          <short>നിശബ്ദമായ അവസ്ഥ സൂക്ഷിച്ചിരിക്കുന്നു</short>
+        </locale>
+
+        <locale name="mr">
+          <short>मौन अवस्था सुरक्षित करा</short>
+        </locale>
+
+        <locale name="ms">
+          <short>keadaan mute disimpan</short>
+        </locale>
+
+        <locale name="nb">
+          <short>Lagret status for demping</short>
+        </locale>
+
+        <locale name="ne">
+          <short>बचत गरिएको मौन स्थिति</short>
+        </locale>
+
+        <locale name="nl">
+          <short>Dempstatus opgeslagen</short>
+        </locale>
+
+        <locale name="nn">
+          <short>Lagra dempa tilstand</short>
+        </locale>
+
+        <locale name="oc">
+          <short>Estat de silencia enregistrat</short>
+        </locale>
+
+        <locale name="or">
+          <short>ନୀରବ ସ୍ଥିତି ସଂଚିତ ହେଲା</short>
+        </locale>
+
+        <locale name="pa">
+          <short>ਸੰਭਾਲੀ ਚੁੱਪ ਹਾਲਤ</short>
+        </locale>
+
+        <locale name="pl">
+          <short>Zapisany stan wyciszenia</short>
+        </locale>
+
+        <locale name="pt">
+          <short>Estado mudo gravado</short>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Estado mudo salvo</short>
+        </locale>
+
+        <locale name="ro">
+          <short>Stare fără sunet salvată</short>
+        </locale>
+
+        <locale name="ru">
+          <short>Сохранённое состояние выключенного звука</short>
+        </locale>
+
+        <locale name="sk">
+          <short>Uložený stav potichu</short>
+        </locale>
+
+        <locale name="sl">
+          <short>Shranjeno utišano stanje</short>
+        </locale>
+
+        <locale name="sq">
+          <short>Gjendja pa zë u ruajt</short>
+        </locale>
+
+        <locale name="sr">
+          <short>Сачувај утишано стање</short>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Sačuvaj utišano stanje</short>
+        </locale>
+
+        <locale name="sv">
+          <short>Sparat tyst tillstånd</short>
+        </locale>
+
+        <locale name="ta">
+          <short>ஒலிநிறுத்தம் நிலையை சேமி</short>
+        </locale>
+
+        <locale name="te">
+          <short>నిశ్శబ్ద స్థితి దాచబడినది</short>
+        </locale>
+
+        <locale name="th">
+          <short>สถานะการปิดเสียงที่บันทึกไว้</short>
+        </locale>
+
+        <locale name="tr">
+          <short>Sessiz durumu kaydedildi</short>
+        </locale>
+
+        <locale name="uk">
+          <short>Збережено стан з вимкненим звуком</short>
+        </locale>
+
+        <locale name="vi">
+          <short>Trạng thái câm được lưu</short>
+        </locale>
+
+        <locale name="xh">
+          <short>Gcina ikubume bokuthula</short>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>保存静音状态</short>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>儲存靜音狀態</short>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>儲存靜音狀態</short>
+        </locale>
+      </schema> 
+      
+      <schema>
+        <key>/schemas/apps/mixer_applet/prefs/vol</key>
+        <owner>mixer-applet</owner>
+        <type>int</type>
+        <default>-1</default>
+        <locale name="C">
+          <short>Saved volume to restore on startup</short>
+        </locale>
+
+        <locale name="af">
+          <short>Volume gestoor om op volgende begin in te stel</short>
+        </locale>
+
+        <locale name="ar">
+          <short>شدة الصوت المحفوظة لاسترجاعها عند تشغيل النظام</short>
+        </locale>
+
+        <locale name="as">
+          <short>প্ৰাৰম্ভকালে পুনৰায় স্থাপনাৰ বাবে সংৰক্ষিত শব্দেৰ মাত্ৰা</short>
+        </locale>
+
+        <locale name="ast">
+          <short>Volume guardáu pa restauralu nel entamu</short>
+        </locale>
+
+        <locale name="az">
+          <short>Başlayanda geri yükləmək üçün qeyd edilmiş səs həcmi</short>
+        </locale>
+
+        <locale name="be">
+          <short>Захаваная гучнасьць для аднаўленьня падчас запуску</short>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Zapisanaja hučnaść, kab hrać pry starcie</short>
+        </locale>
+
+        <locale name="bg">
+          <short>Запазване на нивото на звука за възстановяване при стартиране</short>
+        </locale>
+
+        <locale name="bn">
+          <short>প্রারম্ভকালে পুনরায় স্থাপনার জন্য সংরক্ষিত শব্দের মাত্রা</short>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>প্রারম্ভকালে পুনরায় স্থাপনার জন্য সংরক্ষিত শব্দের মাত্রা</short>
+        </locale>
+
+        <locale name="br">
+          <short>Ampled enrollet da vezañ assavet e-pad al loc&apos;hañ</short>
+        </locale>
+
+        <locale name="bs">
+          <short>Snimljena jačina za postavljanje pri pokretanju</short>
+        </locale>
+
+        <locale name="ca">
+          <short>Volum desat que es restaurarà en iniciar</short>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Volum alçat que es restaurarà en iniciar</short>
+        </locale>
+
+        <locale name="crh">
+          <short>Başlangıçta geri getirilecek seviye kaydedildi</short>
+        </locale>
+
+        <locale name="cs">
+          <short>Uložená hlasitost, kterou obnovit při startu</short>
+        </locale>
+
+        <locale name="cy">
+          <short>Y cyflwr lefel sain cadw i&apos;w adfer wrth gychwyn</short>
+        </locale>
+
+        <locale name="da">
+          <short>Gemt lydstyrke at genoprette ved start</short>
+        </locale>
+
+        <locale name="de">
+          <short>Gespeicherte, beim Neustart wiederherzustellende Lautstärke</short>
+        </locale>
+
+        <locale name="dz">
+          <short>འགོ་བཙུགསཔ་ད་ སོར་ཆུད་འབད་ནིའི་དོན་ལུ་ སྐད་ཤུགས་སྲུང་བཞག་འབད་ཡོད།</short>
+        </locale>
+
+        <locale name="el">
+          <short>Αποθηκευμένη ένταση για επαναφορά στην εκκίνηση</short>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑕𐑱𐑝𐑛 𐑝𐑪𐑤𐑿𐑥 𐑑 𐑮𐑩𐑕𐑑𐑹 𐑪𐑯 𐑕𐑑𐑸𐑑𐑳𐑐</short>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Saved volume to restore on startup</short>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Saved volume to restore on startup</short>
+        </locale>
+
+        <locale name="es">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_AR">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_CL">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_CO">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_CR">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_DO">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_EC">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_ES">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_GT">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_HN">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_MX">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_NI">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_PA">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_PE">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_PR">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_SV">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_UY">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="es_VE">
+          <short>Volumen guardado para restaurar durante el inicio</short>
+        </locale>
+
+        <locale name="et">
+          <short>Salvestatud helitugevused taastatakse käivitamisel</short>
+        </locale>
+
+        <locale name="eu">
+          <short>Abioan leheneratzeko gordetako bolumena</short>
+        </locale>
+
+        <locale name="fa">
+          <short>بلندی صدا برای بازگرداندن در موقع راه‌اندازی ذخیره شد</short>
+        </locale>
+
+        <locale name="fi">
+          <short>Käynnistettäessä palautettava äänenvoimakkuus tallennettu</short>
+        </locale>
+
+        <locale name="fr">
+          <short>Volume enregistré à restaurer au démarrage</short>
+        </locale>
+
+        <locale name="gl">
+          <short>Gardouse o volume para restabelecer ao iniciar</short>
+        </locale>
+
+        <locale name="gu">
+          <short>શરૂઆતમાં ફરીથી લાવવા માટે સંગ્રહાયેલો અવાજ</short>
+        </locale>
+
+        <locale name="he">
+          <short>Saved volume to restore on startup</short>
+        </locale>
+
+        <locale name="hi">
+          <short>प्रारंभ में पुनर्स्थापित करने हेतु सहेजा वॉल्यूम</short>
+        </locale>
+
+        <locale name="hr">
+          <short>Spremljena jačina zvuka koja će se postaviti pri pokretanju</short>
+        </locale>
+
+        <locale name="hu">
+          <short>Indításkor való betöltéshez elmentett hangerő</short>
+        </locale>
+
+        <locale name="hy">
+          <short>Ձայնի բարձրության պահպանված մակարդակը հաջորդ գործարկման ժամանակ վերականգնվելու համար</short>
+        </locale>
+
+        <locale name="id">
+          <short>Simpan volume dan aktifkan saat komputer dinyalakan</short>
+        </locale>
+
+        <locale name="is">
+          <short>Vistaði hljóðstyrk til að endursetja við ræsingu</short>
+        </locale>
+
+        <locale name="it">
+          <short>Volume salvato da ripristinare all&apos;avvio</short>
+        </locale>
+
+        <locale name="ja">
+          <short>起動時に復元する音量</short>
+        </locale>
+
+        <locale name="ka">
+          <short>ხმის პარამეტრების შენახვა მომავალი ჩართვისთვის</short>
+        </locale>
+
+        <locale name="kn">
+          <short>ಆರಂಭಗೊಳಿಕೆಯನ್ನು ಮರಳಿ ಸ್ಥಾಪಿಸಲು ಉಳಿಸಲಾದ ಪರಿಮಾಣ</short>
+        </locale>
+
+        <locale name="ko">
+          <short>저장했던 볼륨 복구</short>
+        </locale>
+
+        <locale name="ku">
+          <short>Asta ku di destpêkê de dikare paş de vegere hate tomarkirin</short>
+        </locale>
+
+        <locale name="lt">
+          <short>Išsaugotas garsumo lygis atstatomas paleidmo metu</short>
+        </locale>
+
+        <locale name="mai">
+          <short>प्रारंभमे पुनर्स्थापित करब लेल सहेजल आवाज</short>
+        </locale>
+
+        <locale name="mg">
+          <short>Hamafim-peo voaraikitra izay iverenana amin&apos;ny fiantombohana</short>
+        </locale>
+
+        <locale name="mk">
+          <short>Јачината на гласот е зачувана за да се поврати при подигнувањето</short>
+        </locale>
+
+        <locale name="ml">
+          <short>വീണ്ടും ആരംഭിക്കുമ്പോള്‍ ലഭ്യമാകുന്നതിന് വോള്യം സംരക്ഷിക്കുക</short>
+        </locale>
+
+        <locale name="mn">
+          <short>Эхлэхэд хадгалагдсан нэр сэргээгдэх</short>
+        </locale>
+
+        <locale name="mr">
+          <short>प्रारंभी पुनःस्थापित करण्यासाठी सुरक्षित ध्वनिमान</short>
+        </locale>
+
+        <locale name="ms">
+          <short>Volum disimpan untuk dipulihkan pada permulaan</short>
+        </locale>
+
+        <locale name="nb">
+          <short>Lagret volum som skal gjenopprettes ved oppstart</short>
+        </locale>
+
+        <locale name="ne">
+          <short>सुरुआतमा पूर्व अवस्थामा ल्याउन भोल्युममा बचत गरियो</short>
+        </locale>
+
+        <locale name="nl">
+          <short>Opgeslagen geluidsvolume dat hersteld wordt bij opstarten</short>
+        </locale>
+
+        <locale name="nn">
+          <short>Lagra volum som skal gjenopprettast ved oppstart</short>
+        </locale>
+
+        <locale name="oc">
+          <short>Enregistrar lo volum de restaurar a l&apos;aviada</short>
+        </locale>
+
+        <locale name="or">
+          <short>ଆରମ୍ଭ ସମଯରେ ପୂର୍ବାବସ୍ଥାକୁ ଆଣିବା ପାଇଁ ଭଲ୍ଯୁମ ସଂଚିତ ହେଲା</short>
+        </locale>
+
+        <locale name="pa">
+          <short>ਸ਼ੁਰੂ ਵੇਲੇ ਸੰਭਾਲੀ ਆਵਾਜ਼ ਨੂੰ ਮੁੜ ਖੋਲ੍ਹੋ।</short>
+        </locale>
+
+        <locale name="pl">
+          <short>Zapisana głośność do odtworzenia podczas uruchomienia</short>
+        </locale>
+
+        <locale name="pt">
+          <short>Volume gravado para repor ao reiniciar</short>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Volume salvo, a ser restauraudo no início da sessão</short>
+        </locale>
+
+        <locale name="ro">
+          <short>Volum salvat pentru restaurarea la pornire</short>
+        </locale>
+
+        <locale name="ru">
+          <short>Сохранённый уровень громкости для восстановления при следующем запуске</short>
+        </locale>
+
+        <locale name="sk">
+          <short>Uložená hlasitosť, bude obnovená pri štarte</short>
+        </locale>
+
+        <locale name="sl">
+          <short>Shranjena glasnost za obnovitev ob zagonu</short>
+        </locale>
+
+        <locale name="sq">
+          <short>Ruajti rivendosjen e volumit në nisje e sipër</short>
+        </locale>
+
+        <locale name="sr">
+          <short>Сачувана јачина која се поставља при покретању</short>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Sačuvana jačina koja se postavlja pri pokretanju</short>
+        </locale>
+
+        <locale name="sv">
+          <short>Sparad volym att återställa vid uppstart</short>
+        </locale>
+
+        <locale name="ta">
+          <short>துவக்குகையில் சேமிக்கப்பட்ட தொகுதிகளை மீள் கொணர்க</short>
+        </locale>
+
+        <locale name="te">
+          <short>ప్రారంభముపై పునఃప్రతిష్టించుటకు దాచబడిన శబ్దము</short>
+        </locale>
+
+        <locale name="th">
+          <short>ความดังเสียงที่บันทึกไว้ใช้เมื่อเริ่มทำงาน</short>
+        </locale>
+
+        <locale name="tr">
+          <short>Başlangıçta geri getirilecek seviye kaydedildi</short>
+        </locale>
+
+        <locale name="uk">
+          <short>Збережено гучність для відновлення при наступному запуску</short>
+        </locale>
+
+        <locale name="vi">
+          <short>Âm lượng được lưu để phục hồi khi khởi động</short>
+        </locale>
+
+        <locale name="xh">
+          <short>Isandi esigciniweyo sokuba sigcinwe kwakhona kuqalo</short>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>保存音量以便在启动时恢复</short>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>儲存各個音量，待下次啟動時再使用</short>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>儲存各個音量，待下次啟動時再使用</short>
+        </locale>
+      </schema> 
+
+    </schemalist>
+                                                                                
+</gconfschemafile>

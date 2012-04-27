@@ -1,0 +1,4342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:install="http://openoffice.org/2004/installation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="TableWizard" oor:package="org.openoffice.Office">
+  <node oor:name="TableWizard">
+    <node oor:name="business">
+      <prop oor:name="Name">
+        <value xml:lang="mr">व्यवसाय</value>
+      </prop>
+      <node oor:name="Tables">
+        <node oor:name="categories">
+          <prop oor:name="Name">
+            <value xml:lang="mr">समान वर्ग</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्ग   (ID)</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्ग  (ID)</value>
+              </prop>
+            </node>
+            <node oor:name="categoryname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्ग नाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्ग नाव</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="products">
+          <prop oor:name="Name">
+            <value xml:lang="mr">उत्पादन</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="productID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उत्पादन ID </value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उत्पादन  ID </value>
+              </prop>
+            </node>
+            <node oor:name="productname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उत्पादननाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उत्पादननाव</value>
+              </prop>
+            </node>
+            <node oor:name="productdescription">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उत्पादन वर्णन</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उत्पादनवर्णन</value>
+              </prop>
+            </node>
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्ग  ID </value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्ग  ID </value>
+              </prop>
+            </node>
+            <node oor:name="supplierID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुरवठादारID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुरवठादारID</value>
+              </prop>
+            </node>
+            <node oor:name="serialnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अनुक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अनुक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="unitsinstock">
+              <prop oor:name="Name">
+                <value xml:lang="mr">स्टॉक मधील एकक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">स्टॉक एकक</value>
+              </prop>
+            </node>
+            <node oor:name="unitsonorder">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अनुक्रम एकक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अनुक्रम एकक</value>
+              </prop>
+            </node>
+            <node oor:name="unitprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकक दर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकक दर</value>
+              </prop>
+            </node>
+            <node oor:name="reorderlevel">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुनःअनुक्रम स्तर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुनःअनुक्रम स्तर</value>
+              </prop>
+            </node>
+            <node oor:name="discontinued">
+              <prop oor:name="Name">
+                <value xml:lang="mr">थांबविणे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">थांबविणे</value>
+              </prop>
+            </node>
+            <node oor:name="leadtime">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अग्रवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अग्रवेळ</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="suppliers">
+          <prop oor:name="Name">
+            <value xml:lang="mr">पुरवठादार</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="supplierID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुरवठादारID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुरवठादारID</value>
+              </prop>
+            </node>
+            <node oor:name="suppliername">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुरवठादाराचे नाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुरवठादार नाव</value>
+              </prop>
+            </node>
+            <node oor:name="contactname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संपर्क नाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संपर्क नाव</value>
+              </prop>
+            </node>
+            <node oor:name="contacttitle">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संपर्क शीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संपर्क शीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राज्य किंवा प्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राज्यप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहरकिंवाप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहरप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="paymentterms">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयअटी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयअटी</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपां</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="mailinglist">
+          <prop oor:name="Name">
+            <value xml:lang="mr">मेल पाठविण्याची यादी</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="mailinglistID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मेल यादी ID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मेलींगID</value>
+              </prop>
+            </node>
+            <node oor:name="prefix">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उपसर्ग</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उपसर्ग</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="middlename">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मधलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मधलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="lastlame">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+            </node>
+            <node oor:name="suffix">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रत्यय</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रत्यय</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="organizationname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संस्थेचेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संस्थेचेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राज्य किंवा प्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राज्यप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहरकिंवाप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहरप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="nationality">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राष्ट्रीयत्व</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राष्ट्रीयत्व</value>
+              </prop>
+            </node>
+            <node oor:name="dateupdated">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दिनांकअद्ययावत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दिनांकअद्ययावत</value>
+              </prop>
+            </node>
+            <node oor:name="datejoined">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जोडदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जोडदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="membershipstatus">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सदस्यत्ववस्तुस्थिती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सदस्यवस्तुस्थिती</value>
+              </prop>
+            </node>
+            <node oor:name="pledgeamount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रतिज्ञारक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रतिज्ञारक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="pledgepaiddate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रतिज्ञारक्कमफेडदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रतिज्ञारक्कमफेडदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="duesamount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयरक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयरक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="duespaiddate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयरक्कमफेडदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयरक्कमफेडदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="contacts">
+          <prop oor:name="Name">
+            <value xml:lang="mr">संपर्क</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="contactID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संपर्कID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संपर्कID</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राज्य किंवा प्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राज्यप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहरकिंवाप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहरप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="salutation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अभिनंदन</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अभिनंदन</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="contacttypeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संपर्कप्रकारID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संपर्कप्रकारID</value>
+              </prop>
+            </node>
+            <node oor:name="maritalstatus">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वैवाहिकस्थिती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वैवाहिकस्थिती</value>
+              </prop>
+            </node>
+            <node oor:name="spousename">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जोडीदाराचेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जोडीदाराचेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="spousesinterests">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जोडीदाराच्याआवडी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जोडीदाराच्याआवडी</value>
+              </prop>
+            </node>
+            <node oor:name="contactsinterests">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संपर्कआवडी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संपर्कआवडी</value>
+              </prop>
+            </node>
+            <node oor:name="childrennames">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मुलांचीनावे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मुलाचेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="customers">
+          <prop oor:name="Name">
+            <value xml:lang="mr">ग्राहक</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="companyname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कंपनीचेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कंपनीचेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+            </node>
+            <node oor:name="department">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विभाग</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विभाग</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राज्य किंवा प्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राज्यप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहरकिंवाप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहरप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="employees">
+          <prop oor:name="Name">
+            <value xml:lang="mr">कर्मचारी</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="middlename">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मधलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मधलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="department">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विभाग</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विभाग</value>
+              </prop>
+            </node>
+            <node oor:name="socialsecuritynumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सामाजिकसुरक्षाक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सामाजिकसुरक्षाक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="employeenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ईमेलपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="extension">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विस्तारण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विस्तारण</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राज्य किंवा प्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राज्यप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहरकिंवाप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहरप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="datehired">
+              <prop oor:name="Name">
+                <value xml:lang="mr">भाड्यानेघेतल्याचादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">भाड्यानेघेतल्याचादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="departmentID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विभागID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विभागID</value>
+              </prop>
+            </node>
+            <node oor:name="salary">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पगार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पगार</value>
+              </prop>
+            </node>
+            <node oor:name="billingrate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बिलाचादर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बिलाचादर</value>
+              </prop>
+            </node>
+            <node oor:name="deductions">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वजाबाकी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वजाबाकी</value>
+              </prop>
+            </node>
+            <node oor:name="supervisorID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पर्यवेक्षकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पर्यवेक्षकID</value>
+              </prop>
+            </node>
+            <node oor:name="spousename">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जोडीदाराचेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जोडीदाराचेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="officelocation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कार्यालयस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कार्यालयस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="orders">
+          <prop oor:name="Name">
+            <value xml:lang="mr">ऑर्डर</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="orderdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऑर्डरदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऑर्डरदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseordernumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीऑर्डरक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीऑर्डरक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="requiredbydate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दिनांकानुसारजरूरी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दिनांकानुसारजरूरी</value>
+              </prop>
+            </node>
+            <node oor:name="promisedbydate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दिनांकानुसारवचनबद्धता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दिनांकानुसारवचनबद्धता</value>
+              </prop>
+            </node>
+            <node oor:name="shipname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजनाव</value>
+              </prop>
+            </node>
+            <node oor:name="shipaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="shipcity">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजशहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजशहर</value>
+              </prop>
+            </node>
+            <node oor:name="shipstateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजराज्यकिंवाप्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजराज्यकिंवाप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="shippostalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजपोस्टलकोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजपोस्टलकोड</value>
+              </prop>
+            </node>
+            <node oor:name="shipcountryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजदेशकिंवाप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजदेशकिंवाप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="shipphonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजदूरध्वनीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजदूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="shipdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="shippingmethodID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजपद्धतID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजपद्धतID</value>
+              </prop>
+            </node>
+            <node oor:name="freightcharge">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मालवाहतूकभाडे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मालवाहतूकभाडे</value>
+              </prop>
+            </node>
+            <node oor:name="salestaxrate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विक्रीकरदर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विक्रीकरदर</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="orderdetails">
+          <prop oor:name="Name">
+            <value xml:lang="mr">ऑर्डरतपशील</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="orderdetailID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऑर्डरतपशीलID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऑर्डरतपशीलID</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+            </node>
+            <node oor:name="productID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उत्पादनID </value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उत्पादन ID </value>
+              </prop>
+            </node>
+            <node oor:name="datesold">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विक्रीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विक्रीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="quantity">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मात्रा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मात्रा</value>
+              </prop>
+            </node>
+            <node oor:name="unitprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकक दर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकक दर</value>
+              </prop>
+            </node>
+            <node oor:name="discount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सूट</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सूट</value>
+              </prop>
+            </node>
+            <node oor:name="saleprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विक्रीकिंमत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विक्रीकिंमत</value>
+              </prop>
+            </node>
+            <node oor:name="salestax">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विक्रीकर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विक्रीकर</value>
+              </prop>
+            </node>
+            <node oor:name="linetotal">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणरेषा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणरेषा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="payments">
+          <prop oor:name="Name">
+            <value xml:lang="mr">देय</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="paymentID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयID</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="workorderID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कार्यमागणीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कार्यमागणीID</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+            </node>
+            <node oor:name="reservationID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आरक्षणID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आरक्षणID</value>
+              </prop>
+            </node>
+            <node oor:name="memberID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सदस्यID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सदस्यID</value>
+              </prop>
+            </node>
+            <node oor:name="registrationID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">नोंदणीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">नोंदणीID</value>
+              </prop>
+            </node>
+            <node oor:name="projectID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रकल्पID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रकल्पID</value>
+              </prop>
+            </node>
+            <node oor:name="paymentamount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयरक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयरक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="paymentdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="paymentmethod">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयपद्धति</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयपद्धति</value>
+              </prop>
+            </node>
+            <node oor:name="checknumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">तपासणीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">तपासणीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardtype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">क्रेडिटकार्डप्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">क्रेडिटकार्डप्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">क्रेडिटकार्डक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">क्रेडिटकार्डक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="cardholder">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कार्डधारक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कार्डधारक</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardExpdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">क्रेडिटकार्डसमाप्तीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">क्रेडिटकार्डसमाप्तीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardauthorizationnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">क्रेडिटकार्डअधिकारपत्रक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">क्रेडिटकार्डअधिकारपत्रक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="paymentterms">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयअटी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयअटी</value>
+              </prop>
+            </node>
+            <node oor:name="paymentmethodID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयपद्धतID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयपद्धतID</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="invoices">
+          <prop oor:name="Name">
+            <value xml:lang="mr">इनवॉइस</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="invoiceID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इनवॉइसID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इनवॉइसID</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="deliveryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वितरणID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वितरणID</value>
+              </prop>
+            </node>
+            <node oor:name="status">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वस्तुस्थिती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वस्तुस्थिती</value>
+              </prop>
+            </node>
+            <node oor:name="invoicedate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इनवॉइसदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इनवॉइसदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="salesperson">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विक्रेता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विक्रेता</value>
+              </prop>
+            </node>
+            <node oor:name="shipdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="shippedto">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजानेयेथेपाठविले</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजानेयेथेपाठविले</value>
+              </prop>
+            </node>
+            <node oor:name="shippedvia">
+              <prop oor:name="Name">
+                <value xml:lang="mr">द्वाराजहाजानेपाठविले</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">द्वाराजहाजानेपाठविले</value>
+              </prop>
+            </node>
+            <node oor:name="shippingcost">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजातूनपाठविण्याचीकिंमत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजातूनपाठविण्याचीकिंमत</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="invoicedetails">
+          <prop oor:name="Name">
+            <value xml:lang="mr">इनवॉइसतपशील</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="invoicedetailID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इनवॉइसतपशीलID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इनवॉइसतपशीलID</value>
+              </prop>
+            </node>
+            <node oor:name="invoiceID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इनवॉइसID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इनवॉइसID</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+            </node>
+            <node oor:name="productID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उत्पादनID </value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उत्पादनID </value>
+              </prop>
+            </node>
+            <node oor:name="quantity">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मात्रा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मात्रा</value>
+              </prop>
+            </node>
+            <node oor:name="unitprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकक दर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकक दर</value>
+              </prop>
+            </node>
+            <node oor:name="discount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सूट</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सूट</value>
+              </prop>
+            </node>
+            <node oor:name="paymentterms">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयअटी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयअटी</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="projects">
+          <prop oor:name="Name">
+            <value xml:lang="mr">प्रकल्प</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="projectID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रकल्पID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रकल्पID</value>
+              </prop>
+            </node>
+            <node oor:name="projectname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रकल्पनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रकल्पनाव</value>
+              </prop>
+            </node>
+            <node oor:name="projectdescription">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रकल्पाचेविवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रकल्पाचेविवरण</value>
+              </prop>
+            </node>
+            <node oor:name="clientID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseordernumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीऑर्डरक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीऑर्डरक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="totalbillingestimate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणबिलअंदाजे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणबिलअंदाजे</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="begindate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रारंभदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रारंभदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="enddate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">समापनदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">समापनदिनांक</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="events">
+          <prop oor:name="Name">
+            <value xml:lang="mr">घटना</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="eventID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घटनाID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घटनाID</value>
+              </prop>
+            </node>
+            <node oor:name="eventname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घटनानाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घटनानाव</value>
+              </prop>
+            </node>
+            <node oor:name="eventdescription">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घटनाविवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घटनाविवरण</value>
+              </prop>
+            </node>
+            <node oor:name="eventtypeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घटनाप्रकारID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घटनाप्रकारID</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="status">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वस्तुस्थिती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वस्तुस्थिती</value>
+              </prop>
+            </node>
+            <node oor:name="location">
+              <prop oor:name="Name">
+                <value xml:lang="mr">स्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">स्थान</value>
+              </prop>
+            </node>
+            <node oor:name="begindate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रारंभदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रारंभदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="begintime">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रारंभवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रारंभवेळ</value>
+              </prop>
+            </node>
+            <node oor:name="enddate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">समापनदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">समापनदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="endtime">
+              <prop oor:name="Name">
+                <value xml:lang="mr">समापनवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">समापनवेळ</value>
+              </prop>
+            </node>
+            <node oor:name="requiredstaffing">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आवश्यक स्टाफ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आवश्यक स्टाफ</value>
+              </prop>
+            </node>
+            <node oor:name="confirmation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुष्टी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुष्टी</value>
+              </prop>
+            </node>
+            <node oor:name="availablespaces">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उपलब्धजागा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उपलब्धजागा</value>
+              </prop>
+            </node>
+            <node oor:name="costperperson">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रतिव्यक्तिखर्च</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रतिव्यक्तिखर्च</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="reservations">
+          <prop oor:name="Name">
+            <value xml:lang="mr">आरक्षणे</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="reservationID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आरक्षणID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आरक्षणID</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="eventID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घटनाID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घटनाID</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="quantityreserved">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आरक्षितमात्रा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आरक्षितमात्रा</value>
+              </prop>
+            </node>
+            <node oor:name="reservationdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आरक्षणदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आरक्षणदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="reservationtime">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आरक्षणवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आरक्षणवेळ</value>
+              </prop>
+            </node>
+            <node oor:name="depositdue">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ठेवबाकी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ठेवबाकी</value>
+              </prop>
+            </node>
+            <node oor:name="totaldue">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणबाकी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणबाकी</value>
+              </prop>
+            </node>
+            <node oor:name="amountpaid">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फेडलेलीरक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फेडलेलीरक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="confirmation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुष्टी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुष्टी</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="timebilled">
+          <prop oor:name="Name">
+            <value xml:lang="mr">बिलाचीवेळ</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="timebilledID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बिलाचीवेळID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बिलाचीवेळID</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="projectID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रकल्पID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रकल्पID</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="billingdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बिलाचादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बिलाचादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="rateperhour">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दरप्रतितास</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दरप्रतितास</value>
+              </prop>
+            </node>
+            <node oor:name="billablehours">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बिलबनविण्याचेतास</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बिलबनविण्याचेतास</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="expenses">
+          <prop oor:name="Name">
+            <value xml:lang="mr">खर्च</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="expenseID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खर्चID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खर्चID</value>
+              </prop>
+            </node>
+            <node oor:name="expensetype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खर्चप्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खर्चप्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="purpose">
+              <prop oor:name="Name">
+                <value xml:lang="mr">हेतू</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">हेतू</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="datesubmitted">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अधिनतादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अधिनतादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="amountspent">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खर्चरक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खर्चरक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="advanceamount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उचलरक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उचलरक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="paymentmethod">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयपद्धति</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयपद्धति</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="deliveries">
+          <prop oor:name="Name">
+            <value xml:lang="mr">वितरणे</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="deliveryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वितरणID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वितरणID</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राहकID</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऑर्डरID</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="shippedfrom">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजापसूननिघाले</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजापसूननिघाले</value>
+              </prop>
+            </node>
+            <node oor:name="shippedvia">
+              <prop oor:name="Name">
+                <value xml:lang="mr">द्वाराजहाजानेपाठविले</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">द्वाराजहाजानेपाठविले</value>
+              </prop>
+            </node>
+            <node oor:name="trackingcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बचावमूल्य</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बचावमूल्य</value>
+              </prop>
+            </node>
+            <node oor:name="shipdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जहाजादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="shipperphonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शिप्परदूरध्वनिक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जहाजदूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="destinationaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इष्टस्थानपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इष्टस्थानपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="destinationcity">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इष्टस्थानशहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इष्टस्थानशहर</value>
+              </prop>
+            </node>
+            <node oor:name="destinationstateprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इष्टस्थानराज्यप्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इष्टस्थानराज्यप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="destinationpostalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इष्टस्थानपोस्टलकोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इष्टस्थानपोस्टलकोड</value>
+              </prop>
+            </node>
+            <node oor:name="destinationcountryregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इष्टस्थानदेशप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इष्टस्थानदेशप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="arrivaldate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आगमनदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आगमनदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="arrivaltime">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आगमनवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आगमनवेळ</value>
+              </prop>
+            </node>
+            <node oor:name="currentlocation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्तमानस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्तमानस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="packagedimensions">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पैकेजपरिमाण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पैकेजपरिमाण</value>
+              </prop>
+            </node>
+            <node oor:name="packageweight">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पैकेजवजन</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पैकेजवजन</value>
+              </prop>
+            </node>
+            <node oor:name="pickuplocation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उचलणेस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उचलणेस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="pickupdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जमाकरण्याचादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जमाकरण्याचादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="pickuptime">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जमाकरण्याचीवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जमाकरण्याचीवेळ</value>
+              </prop>
+            </node>
+            <node oor:name="receivedby">
+              <prop oor:name="Name">
+                <value xml:lang="mr">च्याद्वारेप्राप्त</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">च्याद्वारेप्राप्त</value>
+              </prop>
+            </node>
+            <node oor:name="freightcharge">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मालवाहतूकभाडे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फ्राइटकिंमत</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="assets">
+          <prop oor:name="Name">
+            <value xml:lang="mr">मालमत्ता</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="assetID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मालमत्ताID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मालमत्ताID</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="assetcategoryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मालमत्तासमानवर्गID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मालमत्तासमानवर्गID</value>
+              </prop>
+            </node>
+            <node oor:name="statusID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वस्तुस्थितिID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वस्तुस्थितिID</value>
+              </prop>
+            </node>
+            <node oor:name="departmentID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विभागID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विभागID</value>
+              </prop>
+            </node>
+            <node oor:name="vendorID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">निर्माताID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">निर्माताID</value>
+              </prop>
+            </node>
+            <node oor:name="make">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बनवा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बनवा</value>
+              </prop>
+            </node>
+            <node oor:name="model">
+              <prop oor:name="Name">
+                <value xml:lang="mr">नमुना</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">नमुना</value>
+              </prop>
+            </node>
+            <node oor:name="modelnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">नमुना क्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">नमुना क्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="serialnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अनुक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अनुक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="barcodenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बारकोडक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बारकोड क्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="dateacquired">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मिळविणेदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मिळविणेदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="datesold">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विक्रीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विक्रीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="depreciationmethod">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विवरणपध्दती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विवरणपध्दती</value>
+              </prop>
+            </node>
+            <node oor:name="depreciablelife">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घटजीवनकाल</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घटजीवनकाल</value>
+              </prop>
+            </node>
+            <node oor:name="salvagevalue">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बचावमूल्य</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बचावमूल्य</value>
+              </prop>
+            </node>
+            <node oor:name="currentvalue">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्तमानमूल्य</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्तमानमूल्य</value>
+              </prop>
+            </node>
+            <node oor:name="comments">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टिप्पणी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टिप्पणी</value>
+              </prop>
+            </node>
+            <node oor:name="nextscheduledmaintenance">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुढिलयोजनानिर्वाह</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुढिलयोजनानिर्वाह</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="transactions">
+          <prop oor:name="Name">
+            <value xml:lang="mr">ट्रान्साक्शन</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="transactionID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ट्रान्साक्शनID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ट्रान्साक्शनID</value>
+              </prop>
+            </node>
+            <node oor:name="paymentID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">देयID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">देयID</value>
+              </prop>
+            </node>
+            <node oor:name="transactionnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आवकजावकक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आवकजावकक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="date">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+            </node>
+            <node oor:name="amount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="accountID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खातेID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खातेID</value>
+              </prop>
+            </node>
+            <node oor:name="referencenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संदर्भक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संदर्भक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="numberofunits">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एककसंख्या</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एककसंख्या</value>
+              </prop>
+            </node>
+            <node oor:name="withdrawalamount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">काढलेलीरक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">काढलेलीरक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="depositamount">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जमारक्कम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जमारक्कम</value>
+              </prop>
+            </node>
+            <node oor:name="interestearned">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जमाव्याज</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जमाव्याज</value>
+              </prop>
+            </node>
+            <node oor:name="buyselldate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीविक्रीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीविक्रीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="buysellprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीविक्रीदर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीविक्रीदर</value>
+              </prop>
+            </node>
+            <node oor:name="servicecharge">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सेवाकिंमत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सेवाकिंमत</value>
+              </prop>
+            </node>
+            <node oor:name="taxable">
+              <prop oor:name="Name">
+                <value xml:lang="mr">करयोग्य</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">करयोग्य</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="tasks">
+          <prop oor:name="Name">
+            <value xml:lang="mr">काम घटना</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="taskID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कामID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कामID</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+            </node>
+            <node oor:name="startdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रारंभदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रारंभदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="enddate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">समापनदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">समापनदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="employeestasks">
+          <prop oor:name="Name">
+            <value xml:lang="mr">कर्मचारीकाम</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="employeetaskID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीकामID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीकामID</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कर्मचारीID</value>
+              </prop>
+            </node>
+            <node oor:name="taskID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कामID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कामID</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node oor:name="private">
+      <prop oor:name="Name">
+        <value xml:lang="mr">खासगी</value>
+      </prop>
+      <node oor:name="Tables">
+        <node oor:name="categories">
+          <prop oor:name="Name">
+            <value xml:lang="mr">समान वर्ग</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्ग ओळख (ID)</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्ग ओळख (ID)</value>
+              </prop>
+            </node>
+            <node oor:name="categoryname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्ग नाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्ग नाव</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="addresses">
+          <prop oor:name="Name">
+            <value xml:lang="mr">पत्ते</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="addressID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्ताID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्ताID</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहर</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पोस्टल कोड</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राज्य किंवा प्रांत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राज्यप्रांत</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शहरकिंवाप्रदेश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शहरप्रदेश</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दूरध्वनीक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फॅक्सक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मोबाईलक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">इमेलपत्ता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">इमेलपत्ता</value>
+              </prop>
+            </node>
+            <node oor:name="salutation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अभिनंदन</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अभिनंदन</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="sendcard">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पत्रपाठवा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पत्रपाठवा</value>
+              </prop>
+            </node>
+            <node oor:name="maritalstatus">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वैवाहिकस्थिती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वैवाहिकस्थिती</value>
+              </prop>
+            </node>
+            <node oor:name="spousename">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जोडीदाराचेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जोडीदाराचेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="nickname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टोपण नाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टोपण नाव</value>
+              </prop>
+            </node>
+            <node oor:name="hobbies">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छंद</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छंद</value>
+              </prop>
+            </node>
+            <node oor:name="childrennames">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मुलांचीनावे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मुलाचेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+            <node oor:name="dateupdated">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दिनांकअद्ययावत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अद्ययावतकेल्याचादिनांक</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="householdinventory">
+          <prop oor:name="Name">
+            <value xml:lang="mr">गृहोपयोगीसामानयादी</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="inventoryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सामानयादीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सामानयादीID</value>
+              </prop>
+            </node>
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्ग ओळख (ID)</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्ग ओळख (ID)</value>
+              </prop>
+            </node>
+            <node oor:name="roomID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खोलीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खोलीID</value>
+              </prop>
+            </node>
+            <node oor:name="item">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ऍटम </value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ऍटम </value>
+              </prop>
+            </node>
+            <node oor:name="itemtype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एटमप्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एटमप्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+            </node>
+            <node oor:name="manufacturer">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उत्पादक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उत्पादक</value>
+              </prop>
+            </node>
+            <node oor:name="model">
+              <prop oor:name="Name">
+                <value xml:lang="mr">नमुना</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">नमुना</value>
+              </prop>
+            </node>
+            <node oor:name="modelnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">नमुना क्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">नमुना क्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="serialnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अनुक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अनुक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="placepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="appraisedvalue">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वाढिवमूल्य</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वाढिवमूल्य</value>
+              </prop>
+            </node>
+            <node oor:name="insured">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विमाआहे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विमाआहे</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="recipes">
+          <prop oor:name="Name">
+            <value xml:lang="mr">रेसिपीज</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="recipeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रेसिपीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रेसिपीID</value>
+              </prop>
+            </node>
+            <node oor:name="name">
+              <prop oor:name="Name">
+                <value xml:lang="mr">नाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">नाव</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+            </node>
+            <node oor:name="source">
+              <prop oor:name="Name">
+                <value xml:lang="mr">स्त्रोत</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">स्त्रोत</value>
+              </prop>
+            </node>
+            <node oor:name="whichmeal">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कोणतेजेवण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कोणतेजेवण</value>
+              </prop>
+            </node>
+            <node oor:name="vegetarian">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शाकहारी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शाकहारी</value>
+              </prop>
+            </node>
+            <node oor:name="timetoprepare">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बनविण्याचाकलावधी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बनविण्याचाकलावधी</value>
+              </prop>
+            </node>
+            <node oor:name="numberofservings">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणवाढप</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणवाढप</value>
+              </prop>
+            </node>
+            <node oor:name="caloriesperserving">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रतीवाढपकैलरीज</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रतीवाढपकैलरीज</value>
+              </prop>
+            </node>
+            <node oor:name="nutritionalinformation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पोषणविषयकमाहिती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पोषणविषयकमाहिती</value>
+              </prop>
+            </node>
+            <node oor:name="ingredients">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घटक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घटक</value>
+              </prop>
+            </node>
+            <node oor:name="instructions">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सूचना</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सूचना</value>
+              </prop>
+            </node>
+            <node oor:name="utensils">
+              <prop oor:name="Name">
+                <value xml:lang="mr">भांडी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">भांडी</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="plants">
+          <prop oor:name="Name">
+            <value xml:lang="mr">वनस्पती</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="plantID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वनस्पतीID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वनस्पतीID</value>
+              </prop>
+            </node>
+            <node oor:name="commonname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सामान्यनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सामान्यनाव</value>
+              </prop>
+            </node>
+            <node oor:name="genus">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जातीवर्ग</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जातीवर्ग</value>
+              </prop>
+            </node>
+            <node oor:name="species">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रजाती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रजाती</value>
+              </prop>
+            </node>
+            <node oor:name="flowering">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सपुष्प</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सपुष्प</value>
+              </prop>
+            </node>
+            <node oor:name="lightpreference">
+              <prop oor:name="Name">
+                <value xml:lang="mr">उजेडपसंती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">उजेडपसंती</value>
+              </prop>
+            </node>
+            <node oor:name="temperaturepreference">
+              <prop oor:name="Name">
+                <value xml:lang="mr">तापमानपसंती</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">तापमानपसंती</value>
+              </prop>
+            </node>
+            <node oor:name="fertilizefrequency">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सुपीकवारंवारीता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सुपीकवारंवारीता</value>
+              </prop>
+            </node>
+            <node oor:name="wateringfrequency">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पाणीवारंवारीता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पाणीवारंवारीता</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="placepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="dateplanted">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रोपलावणीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रोपलावणीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="daterepotted">
+              <prop oor:name="Name">
+                <value xml:lang="mr">परतलावणीकेल्याचादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">परतलावणीकेल्याचादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="datepruned">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छाटणीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छाटणीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="datewatered">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पाणीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पाणीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="photographs">
+          <prop oor:name="Name">
+            <value xml:lang="mr">छायाचित्र</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="photoID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छायाचित्रID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छायाचित्रID</value>
+              </prop>
+            </node>
+            <node oor:name="filmID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फिल्मID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फिल्मID</value>
+              </prop>
+            </node>
+            <node oor:name="datetaken">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घेतल्याचादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घेतल्याचादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="timetaken">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणवेळ</value>
+              </prop>
+            </node>
+            <node oor:name="placetaken">
+              <prop oor:name="Name">
+                <value xml:lang="mr">घेतल्याचेस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">घेतल्याचेस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="lensused">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वापरलेलेभिंग</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वापरलेलेभिंग</value>
+              </prop>
+            </node>
+            <node oor:name="aperture">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छिद्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छिद्र</value>
+              </prop>
+            </node>
+            <node oor:name="shutterspeed">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शुटरवेग</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शुटरवेग</value>
+              </prop>
+            </node>
+            <node oor:name="filterused">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वापरलेलेफिल्टर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वापरलेलेफिल्टर</value>
+              </prop>
+            </node>
+            <node oor:name="flash">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फ्लैश</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फ्लैश</value>
+              </prop>
+            </node>
+            <node oor:name="printsize">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छपाईपरिमाण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छपाईपरिमाण</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="miniaturefilms">
+          <prop oor:name="Name">
+            <value xml:lang="mr">लघुप्रतिकृतीफिल्म</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="filmID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फिल्मID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फिल्मID</value>
+              </prop>
+            </node>
+            <node oor:name="make">
+              <prop oor:name="Name">
+                <value xml:lang="mr">बनवा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">बनवा</value>
+              </prop>
+            </node>
+            <node oor:name="photosensitivity">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रकाशसंवेदना</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रकाशसंवेदना</value>
+              </prop>
+            </node>
+            <node oor:name="numberofphotos">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणछायाचित्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणछायाचित्र</value>
+              </prop>
+            </node>
+            <node oor:name="colorfilm">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रंगीतफिल्म</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रंगीतफिल्म</value>
+              </prop>
+            </node>
+            <node oor:name="filmexpirationdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">फिल्ममुदतबाह्यहोण्याचादिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">फिल्ममुदतबाह्यहोण्याचादिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="datedeveloped">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विकसनदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विकसनदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="developedby">
+              <prop oor:name="Name">
+                <value xml:lang="mr">द्वाराविकसित</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">द्वाराविकसित</value>
+              </prop>
+            </node>
+            <node oor:name="camera">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कैमेरा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कैमेरा</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="dvdcollection">
+          <prop oor:name="Name">
+            <value xml:lang="mr">DVD-संग्रह</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="dvdcollectionID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संग्रहID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संग्रहID</value>
+              </prop>
+            </node>
+            <node oor:name="movietitle">
+              <prop oor:name="Name">
+                <value xml:lang="mr">चित्रपटशीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">चित्रपटशीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="actress">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जेनेरी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जेनेरी</value>
+              </prop>
+            </node>
+            <node oor:name="actor">
+              <prop oor:name="Name">
+                <value xml:lang="mr">नट</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">नट</value>
+              </prop>
+            </node>
+            <node oor:name="director">
+              <prop oor:name="Name">
+                <value xml:lang="mr">दिग्दर्शक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">दिग्दर्शक</value>
+              </prop>
+            </node>
+            <node oor:name="producer">
+              <prop oor:name="Name">
+                <value xml:lang="mr">निर्माता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">निर्माता</value>
+              </prop>
+            </node>
+            <node oor:name="releaseyear">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रदर्शनवर्ष</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रदर्शनवर्ष</value>
+              </prop>
+            </node>
+            <node oor:name="rating">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्गीकरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्गीकरण</value>
+              </prop>
+            </node>
+            <node oor:name="subject">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विषय</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विषय</value>
+              </prop>
+            </node>
+            <node oor:name="length">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लांबी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लांबी</value>
+              </prop>
+            </node>
+            <node oor:name="dateacquired">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मिळविणेदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मिळविणेदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="purchasedat">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लाखरेदी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लाखरेदी</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="review">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रिव्ह्यू</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रिव्ह्यू</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="cdcollection">
+          <prop oor:name="Name">
+            <value xml:lang="mr">CD-संग्रह</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="cdcollectionID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संग्रहID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संग्रहID</value>
+              </prop>
+            </node>
+            <node oor:name="albumtitle">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अल्बमशीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अल्बमशीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="artist">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कलाकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कलाकार</value>
+              </prop>
+            </node>
+            <node oor:name="musiccategoryID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">संगीतसमानवर्गID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">संगीतसमानवर्गID</value>
+              </prop>
+            </node>
+            <node oor:name="recordlabel">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रेकॉर्डलेबल</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रेकॉर्डलेबल</value>
+              </prop>
+            </node>
+            <node oor:name="producer">
+              <prop oor:name="Name">
+                <value xml:lang="mr">निर्माता</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">निर्माता</value>
+              </prop>
+            </node>
+            <node oor:name="releaseyear">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रदर्शनवर्ष</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रदर्शनवर्ष</value>
+              </prop>
+            </node>
+            <node oor:name="rating">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्गीकरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्गीकरण</value>
+              </prop>
+            </node>
+            <node oor:name="format">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रचना</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रचना</value>
+              </prop>
+            </node>
+            <node oor:name="numberoftracks">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणट्रैक्स</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणट्रैक्स</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="purchasedat">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लाखरेदी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लाखरेदी</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="review">
+              <prop oor:name="Name">
+                <value xml:lang="mr">रिव्ह्यू</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">रिव्ह्यू</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="library">
+          <prop oor:name="Name">
+            <value xml:lang="mr">वाचनालय</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="bookID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पुस्तकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पुस्तकID</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शीर्षक</value>
+              </prop>
+            </node>
+            <node oor:name="topic">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जेनेरी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जेनेरी</value>
+              </prop>
+            </node>
+            <node oor:name="authorID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लेखकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लेखकID</value>
+              </prop>
+            </node>
+            <node oor:name="copyrightyear">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मुद्रणाधिकारवर्ष</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मुद्रणाधिकारवर्ष</value>
+              </prop>
+            </node>
+            <node oor:name="isbnnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ISBNNक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ISBNNक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="publisher">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रकाशक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रकाशक</value>
+              </prop>
+            </node>
+            <node oor:name="rating">
+              <prop oor:name="Name">
+                <value xml:lang="mr">वर्गीकरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">वर्गीकरण</value>
+              </prop>
+            </node>
+            <node oor:name="translator">
+              <prop oor:name="Name">
+                <value xml:lang="mr">अनुवादक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">अनुवादक</value>
+              </prop>
+            </node>
+            <node oor:name="pages">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पृष्ठ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पृष्ठ</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="purchasedat">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लाखरेदी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लाखरेदी</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खरेदीदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="covertype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">झाकणप्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">झाकणप्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="editionnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आवृत्तिक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आवृत्तिक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="authors">
+          <prop oor:name="Name">
+            <value xml:lang="mr">लेखक</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="authorID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लेखकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लेखकID</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">पहिलेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आडनाव</value>
+              </prop>
+            </node>
+            <node oor:name="nationality">
+              <prop oor:name="Name">
+                <value xml:lang="mr">राष्ट्रीयत्व</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">राष्ट्रीयत्व</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="birthplace">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जन्मस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जन्मस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="dateofdeath">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जन्मदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मृत्युदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="traininglocation">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रशिक्षणस्थान</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रशिक्षणस्थान</value>
+              </prop>
+            </node>
+            <node oor:name="majorinfluences">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मुख्यपरिणाम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मुख्यपरिणाम</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">छायाचित्र</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="accounts">
+          <prop oor:name="Name">
+            <value xml:lang="mr">खाते</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="accountID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खातेID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खातेID</value>
+              </prop>
+            </node>
+            <node oor:name="accountnumber">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खातेक्रमांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खातेक्रमांक</value>
+              </prop>
+            </node>
+            <node oor:name="accountname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खातेनाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खातेनाव</value>
+              </prop>
+            </node>
+            <node oor:name="accounttypeID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खातेप्रकारID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खातेप्रकारID</value>
+              </prop>
+            </node>
+            <node oor:name="accounttype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खातेप्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खातेप्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">विवरण</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="investments">
+          <prop oor:name="Name">
+            <value xml:lang="mr">गुंतवणूक</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="investmentID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">गुंतवणूकID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">गुंतवणूकID</value>
+              </prop>
+            </node>
+            <node oor:name="accountID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">खातेID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">खातेID</value>
+              </prop>
+            </node>
+            <node oor:name="securityname">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सुरक्षानाव</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सुरक्षानाव</value>
+              </prop>
+            </node>
+            <node oor:name="securitysymbol">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सुरक्षाचिन्ह</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सुरक्षाचिन्ह</value>
+              </prop>
+            </node>
+            <node oor:name="securitytype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">सुरक्षाप्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">सुरक्षाप्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="sharesowned">
+              <prop oor:name="Name">
+                <value xml:lang="mr">शेयर्समालकी</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">शेयर्समालकी</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="exerciselog">
+          <prop oor:name="Name">
+            <value xml:lang="mr">ExerciseLog</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="exerciselogID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लॉगID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लॉगID</value>
+              </prop>
+            </node>
+            <node oor:name="personID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">व्यक्तिID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">व्यक्तिID</value>
+              </prop>
+            </node>
+            <node oor:name="activity">
+              <prop oor:name="Name">
+                <value xml:lang="mr">क्रिया</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">क्रिया</value>
+              </prop>
+            </node>
+            <node oor:name="workoutdate">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कार्यदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कार्यदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="exercisetype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कसरत प्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कसरत प्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="timeexercised">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कसरतकरण्याचीवेळ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कसरतकरण्याचीवेळ</value>
+              </prop>
+            </node>
+            <node oor:name="distancetraveled">
+              <prop oor:name="Name">
+                <value xml:lang="mr">प्रवास अंतर</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">प्रवास अंतर</value>
+              </prop>
+            </node>
+            <node oor:name="restingpulse">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आरामपल्स</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आरामपल्स</value>
+              </prop>
+            </node>
+            <node oor:name="maximumpulse">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आधिकतमपल्स</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आधिकतमपल्स</value>
+              </prop>
+            </node>
+            <node oor:name="caloriesburned">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जळलेल्या कैलरीज</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जळलेल्या कैलरीज</value>
+              </prop>
+            </node>
+            <node oor:name="hourssleep">
+              <prop oor:name="Name">
+                <value xml:lang="mr">तासझोप</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">तासझोप</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="dietlog">
+          <prop oor:name="Name">
+            <value xml:lang="mr">आहारलॉग</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="dietlogID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">लॉगID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">लॉगID</value>
+              </prop>
+            </node>
+            <node oor:name="personID">
+              <prop oor:name="Name">
+                <value xml:lang="mr">व्यक्तिID</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">व्यक्तिID</value>
+              </prop>
+            </node>
+            <node oor:name="dietype">
+              <prop oor:name="Name">
+                <value xml:lang="mr">आहारप्रकार</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">आहारप्रकार</value>
+              </prop>
+            </node>
+            <node oor:name="dateacquired">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मिळविणेदिनांक</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मिळविणेदिनांक</value>
+              </prop>
+            </node>
+            <node oor:name="whichmeal">
+              <prop oor:name="Name">
+                <value xml:lang="mr">कोणतेजेवण</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">कोणतेजेवण</value>
+              </prop>
+            </node>
+            <node oor:name="gramscarbohydrates">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्रामकर्बोदके</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्रामकर्बोदके</value>
+              </prop>
+            </node>
+            <node oor:name="gramsprotein">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्रामप्रथिने</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्रामप्रथिने</value>
+              </prop>
+            </node>
+            <node oor:name="gramsfat">
+              <prop oor:name="Name">
+                <value xml:lang="mr">ग्राममेद</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">ग्राममेद</value>
+              </prop>
+            </node>
+            <node oor:name="totalcalories">
+              <prop oor:name="Name">
+                <value xml:lang="mr">एकूणकैलरीज</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">एकूणकैलरीज</value>
+              </prop>
+            </node>
+            <node oor:name="milligramssodium">
+              <prop oor:name="Name">
+                <value xml:lang="mr">मिलीग्रामसोडियम</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">मिलीग्रामसोडियम</value>
+              </prop>
+            </node>
+            <node oor:name="vitamins">
+              <prop oor:name="Name">
+                <value xml:lang="mr">जीवनसत्वे</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">जीवनसत्वे</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="mr">टीपा</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

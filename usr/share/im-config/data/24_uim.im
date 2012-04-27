@@ -1,0 +1,34 @@
+# start uim
+# vim: set sts=4 expandtab:
+
+# start uim-xim daemon
+/usr/bin/uim-xim &
+
+# set variables for the plain XIM
+XMODIFIERS=@im=uim
+
+# Starting GUI
+if [ -x /usr/bin/uim-toolbar-gtk-systray ]; then
+    (sleep 10; uim-toolbar-gtk-systray) &
+elif [ -x /usr/bin/uim-toolbar-gtk]; then
+    (sleep 10; uim-toolbar-gtk) &
+elif [ -x /usr/bin/uim-toolbar-qt]; then
+    (sleep 10; uim-toolbar-qt) &
+fi
+
+GTK_IM_MODULE=xim
+# use immodule when available for GTK
+for IM_CONFIG_MARKER in /usr/lib/gtk-2.0/*/immodules/im-uim.so ; do
+    if [ -e $IM_CONFIG_MARKER ]; then
+        GTK_IM_MODULE=uim
+    fi
+done
+
+QT_IM_MODULE=xim
+# use immodule when available for QT
+for IM_CONFIG_MARKER in /usr/lib/qt4/plugins/inputmethods/libuiminputcontextplugin.so /usr/lib/qt3/plugins/inputmethods/libquiminputcontextplugin.so ; do
+    if [ -e $IM_CONFIG_MARKER ]; then
+        QT_IM_MODULE=uim
+    fi
+done
+

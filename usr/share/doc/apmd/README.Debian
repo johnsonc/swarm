@@ -1,0 +1,31 @@
+Important note for Debian package maintainers
+---------------------------------------------
+
+If your package needs to be notified of APM events then it should
+install a script or scripts under /etc/apm/ as follows.
+
+If the order of execution of a set of scripts does not need to depend
+on the event then place the scripts in /etc/apm/scripts.d/ and
+symlink to them from /etc/apm/event.d/ .
+
+If the order of execution of a set of scripts needs to depend on the
+event then place the scripts in /etc/apm/scripts.d/ and symlink to
+them from /etc/apm/suspend.d/, /etc/apm/resume.d/ and /etc/apm/other.d/
+with names that (due to their lexicographical order) result in the
+correct sequencing of the scripts.
+
+For example, suppose you want to run a before b on suspend, but a
+after b on resume.  Then put scripts a and b in /etc/apm/scripts.d/
+and create the following symlinks:
+
+    /etc/apm/suspend.d/20a --> ../scripts.d/a
+    /etc/apm/suspend.d/80b --> ../scripts.d/b
+    /etc/apm/resume.d/20b --> ../scripts.d/b
+    /etc/apm/resume.d/80a --> ../scripts.d/a
+
+Do not put anything but symlinks in /etc/apm/suspend.d/,
+/etc/apm/resume.d/ and /etc/apm/other.d/ .
+
+Links in /etc/apm/event.d/ are run in their lexicographical order
+_after_ all the links in /etc/apm/suspend.d/, /etc/apm/resume.d/ and
+/etc/apm/other.d/ .

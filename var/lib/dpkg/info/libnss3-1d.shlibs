@@ -1,0 +1,4 @@
+libsmime3 1d libnss3-1d (>= 3.12.7)
+libssl3 1d libnss3-1d (>= 3.12.7)
+libnss3 1d libnss3-1d (>= 3.12.7)
+libnssutil3 1d libnss3-1d (>= 3.12.7)

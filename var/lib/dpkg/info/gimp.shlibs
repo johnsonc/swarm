@@ -1,0 +1,10 @@
+libdisplay-filter-color blind gimp
+libdisplay-filter gamma gimp
+libdisplay-filter lcms gimp
+libcontroller midi gimp
+libdisplay-filter-high contrast gimp
+libcontroller-linux input gimp
+libdisplay-filter proof gimp
+libcolor-selector water gimp
+libcolor-selector wheel gimp
+libcolor-selector cmyk gimp

@@ -1,0 +1,1698 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="session">
+					<entry name="required_components_list">
+						<local_schema short_desc="د ناستې اړين رغتوکي">
+						</local_schema>
+					</entry>
+					<entry name="default_session">
+						<local_schema short_desc="تلواله ناسته">
+							<longdesc>.د هغو کاريالونو لړ چې د تلوالې ناستې برخه دي</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="required_components">
+						<entry name="filemanager">
+							<local_schema short_desc="دوتنه سمبالګر">
+							</local_schema>
+						</entry>
+						<entry name="panel">
+							<local_schema short_desc="پاڼه">
+							</local_schema>
+						</entry>
+						<entry name="windowmanager">
+							<local_schema short_desc="کړکۍ سمبالګر">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="webcal">
+						<entry name="need-terminal">
+							<local_schema short_desc="کړنلار په پایالي کې پرانيستل">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="سمبالوونکی URL لپاره uris د وېبکال ">
+								<longdesc>سمبالوونکی URL لپاره uris د وېبکال </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="څنګه سمبال کړی شي URLs وېبکال">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="لاسوندونو لپاره بټه نوکی بولۍ PDF د">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="لاسوندونو بټه نوکونه توانول PDF د">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="لاسوندونو لپاره بټه نوکی بولۍ PDF د">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="لاسوندونو بټه نوکونه توانول PDF د">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="لاسوندونو لپاره بټه نوکی بولۍ PDF د">
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="لاسوندونو بټه نوکونه توانول PDF د">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="netstatus_applet">
+				<entry name="config_tool">
+					<local_schema short_desc="د ځال د سازونې توکی">
+					</local_schema>
+				</entry>
+				<dir name="prefs">
+					<entry name="interface">
+						<local_schema short_desc="ځال برسېر">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="procman">
+				<entry name="cpu_color3">
+					<local_schema short_desc="د منځى بهيريز يوون د ګراف تلواله رنګ">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color2">
+					<local_schema short_desc="د منځى بهيريز يوون د ګراف تلواله رنګ">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color1">
+					<local_schema short_desc="د منځى بهيريز يوون د ګراف تلواله رنګ">
+					</local_schema>
+				</entry>
+				<entry name="cpu_color0">
+					<local_schema short_desc="د منځى بهيريز يوون د ګراف تلواله رنګ">
+					</local_schema>
+				</entry>
+				<entry name="smooth_refresh">
+					<local_schema short_desc="ښويه تاندونه توانول/ناتوانول">
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="د ارې کړکۍ لوړوالی">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="د ارې کړکۍ پلنوالی">
+					</local_schema>
+				</entry>
+				<dir name="memmapstree">
+					<entry name="sort_order">
+						<local_schema short_desc="د بهير ليد اڼلو اوډون">
+						</local_schema>
+					</entry>
+					<entry name="sort_col">
+						<local_schema short_desc="د بهير ليد اڼلو ستن">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="disktreenew">
+					<entry name="columns_order">
+						<local_schema short_desc="د ټيکلي ليد ستنو اوډون">
+						</local_schema>
+					</entry>
+					<entry name="sort_order">
+						<local_schema short_desc="د بهير ليد اڼلو اوډون">
+						</local_schema>
+					</entry>
+					<entry name="sort_col">
+						<local_schema short_desc="د بهير ليد اڼلو ستن">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="proctree">
+					<entry name="col_14_visible">
+						<local_schema short_desc="بهير &apos;ارزښتمنۍ&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_14_width">
+						<local_schema short_desc="د بهير &apos;ارزښتمنۍ&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_12_visible">
+						<local_schema short_desc="بهير &apos;بهير پېژند&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_12_width">
+						<local_schema short_desc="د بهير &apos;بهير پېژند&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_11_visible">
+						<local_schema short_desc="بهير &apos;ښاېسته&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_11_width">
+						<local_schema short_desc="د بهير &apos;ښاېسته&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_10_visible">
+						<local_schema short_desc="بهير &apos;پېل مهال&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_10_width">
+						<local_schema short_desc="د بهير &apos;پېل مهال&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_9_visible">
+						<local_schema short_desc="بهير &apos;منځي بهيريز يوون مهال&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_9_width">
+						<local_schema short_desc="د بهير &apos;د منځي بهيريز يوون مهال&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_8_visible">
+						<local_schema short_desc="بهير &apos;% منځى بهيريز يوون&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_8_width">
+						<local_schema short_desc="د بهير &apos;% منځى بهيريز يوون&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_6_visible">
+						<local_schema short_desc="بهير &apos;ونډول شوی ياد&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_6_width">
+						<local_schema short_desc="د بهير &apos;ونډول شوی ياد&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_5_visible">
+						<local_schema short_desc="بهير &apos;ليکوړی ياد&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_5_width">
+						<local_schema short_desc="د بهير &apos;ليکوړی ياد&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_4_visible">
+						<local_schema short_desc="بهير &apos;استوګن ياد&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_4_width">
+						<local_schema short_desc="د بهير &apos;استوګن ياد&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_3_visible">
+						<local_schema short_desc="بهير &apos;اوڅاريز ياد&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_3_width">
+						<local_schema short_desc="د بهير &apos;اوڅاريز ياد&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_2_visible">
+						<local_schema short_desc="بهير &apos;انکړ&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_2_width">
+						<local_schema short_desc="د بهير &apos;انکړ&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_1_visible">
+						<local_schema short_desc="بهير &apos;خاوند&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_1_width">
+						<local_schema short_desc="د بهير &apos;خاوند&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="col_0_visible">
+						<local_schema short_desc="بهير &apos;نوم&apos; ستن په پېلنګ کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="col_0_width">
+						<local_schema short_desc="د بهير &apos;نوم&apos; ستن پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="sort_order">
+						<local_schema short_desc="د بهير ليد اڼلو اوډون">
+						</local_schema>
+					</entry>
+					<entry name="columns_order">
+						<local_schema short_desc="د بهير ليد ستنو اوډون">
+						</local_schema>
+					</entry>
+					<entry name="sort_col">
+						<local_schema short_desc="د بهير ليد اڼلو ستن">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-screensaver">
+				<entry name="lock_dialog_theme">
+					<local_schema short_desc="د کولپ کړکۍ کونده">
+						<longdesc>.د کولپ کړکۍ لپاره د کارولو کونده</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="user_switch_enabled">
+					<local_schema short_desc="کارن ونجونه پرېښل">
+					</local_schema>
+				</entry>
+				<entry name="logout_command">
+					<local_schema short_desc="وتون بولۍ">
+					</local_schema>
+				</entry>
+				<entry name="logout_enabled">
+					<local_schema short_desc="وتون پرېښل">
+					</local_schema>
+				</entry>
+				<entry name="embedded_keyboard_command">
+					<local_schema short_desc="راتاوه کيليدړه بولۍ">
+					</local_schema>
+				</entry>
+				<entry name="lock_delay">
+					<local_schema short_desc="د کولپېدو مخکښې مهال">
+					</local_schema>
+				</entry>
+				<entry name="cycle_delay">
+					<local_schema short_desc="د کوندې بدلېدو مخکښې مهال">
+					</local_schema>
+				</entry>
+				<entry name="themes">
+					<local_schema short_desc="د پرده ساتونکي کوندې">
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="د پرده ساتونکي کوندې ټاکنې اکر">
+					</local_schema>
+				</entry>
+				<entry name="lock_enabled">
+					<local_schema short_desc="پر چارندېدو کولپول">
+					</local_schema>
+				</entry>
+				<entry name="idle_activation_enabled">
+					<local_schema short_desc="د وزګارېدو پر مهال چارندول">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="multiload">
+				<dir name="prefs">
+					<entry name="size">
+						<local_schema short_desc="کښنيز کچ">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="yelp">
+				<entry name="variable_font">
+					<local_schema short_desc="د ليکنې لپاره ليکبڼه">
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="د غونډال ليکبڼې کارول">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="charpick">
+				<dir name="prefs">
+					<entry name="chartable">
+						<local_schema short_desc="د شته رنګدبلو لړ">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="stickynotes_applet">
+				<dir name="defaults">
+					<entry name="font">
+						<local_schema short_desc="د نوي يادښتونو لپاره تلواله ليکبڼه">
+						</local_schema>
+					</entry>
+					<entry name="font_color">
+						<local_schema short_desc="د ليکبڼې تلواله رنګ">
+						</local_schema>
+					</entry>
+					<entry name="color">
+						<local_schema short_desc="د نوي يادښتونو تلواله رنګ">
+						</local_schema>
+					</entry>
+					<entry name="height">
+						<local_schema short_desc="د نوي يادښتونو لپاره تلواله اوږدوالی">
+						</local_schema>
+					</entry>
+					<entry name="width">
+						<local_schema short_desc="د نوي يادښتونو لپاره تلواله پلنوالی">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="volumes_visible">
+						<local_schema short_desc="درول شوي ډکونونه په سرپاڼه ښودل">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="څنګ چوکاټ کوت">
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="په نوې کړکېو کې پته پټه ښودل">
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="توکپټه په نوې کړکېو کې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="د څنګ چوکاټ پلنوالی">
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="د نېټې بڼه">
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="تلواله شاليد دوتنه نوم">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="تلواله شاليد رنګ">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema short_desc="دوديز شاليد">
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="د سرپاڼې ليکبڼه">
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="په کړکېو کې لومړی پوښۍ ښودل">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="speed_unit">
+						<local_schema short_desc="چټکتيا يوون">
+							<longdesc>.هغه يوون چې د باد د چټکتيا ښودلو لپاره وکارول شي</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="تودوخې يوون">
+							<longdesc>.هغه يوون چې د تودوخې ښودلو لپاره وکارول شي</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cities">
+						<local_schema short_desc="د ځايونو لړ">
+							<longdesc>.په کليز کړکۍ کښې د ښودلو لپاره د ځايونو لړ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="internet_time">
+						<local_schema short_desc="د انټرنېټ مهال کارول">
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="مهال کارول UNIX د">
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="ګنټې بڼه">
+						</local_schema>
+					</entry>
+					<entry name="expand_locations">
+						<local_schema short_desc="د ځايونو لړ غځول">
+							<longdesc>.که سم وي، په کليز کړکۍ کښې د ځايونو لړ وغځوه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_weather">
+						<local_schema short_desc="د هوا د خبرتياوو لړ غځول">
+							<longdesc>.که سم وي، په کليز کړکۍ کښې د هوا د خبرتياوو لړ وغځوه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_tasks">
+						<local_schema short_desc="د دندو لړ غځول">
+							<longdesc>.که سم وي، په کليز کړکۍ کښې د دندو لړ وغځوه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_birthdays">
+						<local_schema short_desc="د زوکړو لړ غځول">
+							<longdesc>.که سم وي، په کليز کړکۍ کښې د زوکړو لړ وغځوه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_appointments">
+						<local_schema short_desc="د ټاکنو لړ غځول">
+							<longdesc>.که سم وي، په کليز کړکۍ کښې د ټاکنو لړ وغځوه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="په کليز کښې د اونۍ شمېرې ښودل">
+							<longdesc>.که سم وي، په کليز کښې د اونۍ شمېرې وښيه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="مهال سازونې توکی">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="کارول UTC">
+						</local_schema>
+					</entry>
+					<entry name="show_temperature">
+						<local_schema short_desc="په ګړيال کښې تودوخه ښودل">
+							<longdesc>.که سم وي، تودوخه د هوا انځورن په خوا کښې وښيه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_weather">
+						<local_schema short_desc="په ګړيال کښې هوا ښودل">
+							<longdesc>.که سم وي، د هوا يو انځورن وښيه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="په توک نکته کښې نېټه ښودل">
+							<longdesc>که سم وي، کله چې نغوتګر د ګړيال دپاسه وي په توک نکته کښې .نېټه وښيه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="په ګړيال کښې نېټه ښودل">
+							<longdesc>.که سم وي، په ګړيال کښې د مهال سره، سره نېټه هم وښيه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="مهال د سېکېنډونو سره ښودل">
+							<longdesc>.که سم وي، په مهال کښې سېکېنډونه هم وښيه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="د ګړيال دوديزه بڼه">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="ګنټې بڼه">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="plugins">
+					<entry name="active-plugins">
+						<local_schema short_desc="چارنده لګونونه">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema short_desc="هغه کوډييزونې چې په غورنۍ کې ښکاري">
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema short_desc="د چاپولو لپاره د ليکو د شمېرو ليکبڼه">
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema short_desc="د چاپولو لپاره سرۍ ليکبڼه">
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema short_desc="د چاپولو لپاره تنه ليکبڼه">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="page">
+							<entry name="print_line_numbers">
+								<local_schema short_desc="د ليکو شمېرې چاپول">
+								</local_schema>
+							</entry>
+							<entry name="print_header">
+								<local_schema short_desc="سرۍ چاپول">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="ui">
+						<dir name="recents">
+							<entry name="max_recents">
+								<local_schema short_desc="ټولوډېر اوسنۍ دوتنې">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="bottom_panel">
+							<entry name="bottom_panel_visible">
+								<local_schema short_desc="لاندنی چوکاټ ښکاري">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="side_pane">
+							<entry name="side_pane_visible">
+								<local_schema short_desc="څنګ چوکاټ ښکاري">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="statusbar">
+							<entry name="statusbar_visible">
+								<local_schema short_desc="انکړ پټه ښکاري">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbar">
+							<entry name="toolbar_buttons_style">
+								<local_schema short_desc="د توکپټې د تڼېو ډول">
+								</local_schema>
+							</entry>
+							<entry name="toolbar_visible">
+								<local_schema short_desc="توکپټه ښکاري">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="right_margin">
+							<entry name="right_margin_position">
+								<local_schema short_desc="د ښي مورګې ځای">
+								</local_schema>
+							</entry>
+							<entry name="display_right_margin">
+								<local_schema short_desc="ښي مورګه ښودل">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="current_line">
+							<entry name="highlight_current_line">
+								<local_schema short_desc="اوسنۍ ليکه ځلول">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="د ليکې شمېرې ښودل">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="tabs">
+							<entry name="insert_spaces">
+								<local_schema short_desc="تشې ورننويستل">
+								</local_schema>
+							</entry>
+							<entry name="tabs_size">
+								<local_schema short_desc="ټوپ کچ">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="wrap_mode">
+							<entry name="wrap_mode">
+								<local_schema short_desc="ليکه نغاړلو اکر">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="save">
+							<entry name="create_backup_copy">
+								<local_schema short_desc="شاتړ لمېسې جوړول">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="سمونګره ليکبڼه">
+								</local_schema>
+							</entry>
+							<entry name="use_default_font">
+								<local_schema short_desc="تلواله ليکبڼه کارول">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="keybindings">
+					<entry name="zoom_normal">
+						<local_schema short_desc="د ليکنې لېوی-کچ کولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="zoom_out">
+						<local_schema short_desc="د ليکنې وړولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="zoom_in">
+						<local_schema short_desc="د ليکنې لويولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="د مرستې پرانيستلو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="next_tab">
+						<local_schema short_desc="راتلونکي ټوپ ته ونجولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="prev_tab">
+						<local_schema short_desc="مخکني ټوپ ته ونجولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="reset_and_clear">
+						<local_schema short_desc="د پايالي د بياټاکلو او پاکولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="reset">
+						<local_schema short_desc="د پايالي د بياټاکلو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="set_terminal_title">
+						<local_schema short_desc="د پايالي د سرليک ټاکلو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="toggle_menubar">
+						<local_schema short_desc="د غورنۍ پټې د ښکارېدنې څرنګتياونجولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="full_screen">
+						<local_schema short_desc="د ټولې پردې اکر څرګنتياونجولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="paste">
+						<local_schema short_desc="د ليکنې سرېښلو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="copy">
+						<local_schema short_desc="د ليکنې لمېسلو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="close_window">
+						<local_schema short_desc="د کړکۍ بندولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="close_tab">
+						<local_schema short_desc="د ټوپ بندولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="new_profile">
+						<local_schema short_desc="د نوي پېژنيال جوړولو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="new_window">
+						<local_schema short_desc="د نوې کړکۍ پرانيستلو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+					<entry name="new_tab">
+						<local_schema short_desc="د نوي ټوپ پرانيستلو لپاره د کليدړې لنډلار">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="use_system_font">
+							<local_schema short_desc="که چېرې غونډال ليکبڼه کارول پکار وي">
+							</local_schema>
+						</entry>
+						<entry name="delete_binding">
+							<local_schema short_desc="د ړنګول کيلۍ اغېزه">
+							</local_schema>
+						</entry>
+						<entry name="backspace_binding">
+							<local_schema short_desc="کيلۍ اغېزه Backspace د">
+							</local_schema>
+						</entry>
+						<entry name="background_image">
+							<local_schema short_desc="شاليد انځور">
+								<longdesc>.د شاليد انځور دوتنه نوم</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_type">
+							<local_schema short_desc="شاليد ډول">
+							</local_schema>
+						</entry>
+						<entry name="font">
+							<local_schema short_desc="ليکبڼه">
+								<longdesc>.دي &quot;Monospace Bold 14&quot; يا &quot;Sans 12&quot; يو پېنګو ليکبڼه نوم. بېلګې يې</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="palette">
+							<local_schema short_desc="د پايالو کاريالونو لپاره رنګدبلی">
+							</local_schema>
+						</entry>
+						<entry name="icon">
+							<local_schema short_desc="د پايال کړکۍ لپاره انځورن">
+								<longdesc>.انځورن چې د هغه ټوپونو/کړکېو لپاره وکارول شي چې دا پېژنيال لري</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="custom_command">
+							<local_schema short_desc="هغه دوديزه بولۍ چې د سيپۍ په ځای وکارول شي">
+							</local_schema>
+						</entry>
+						<entry name="cursor_blink_mode">
+							<local_schema short_desc="که چېرې ځری پړکول پکار وي">
+							</local_schema>
+						</entry>
+						<entry name="use_custom_command">
+							<local_schema short_desc="که چېرې د سيپۍ په ځای کوم دوديزه بولۍ ځغلول پکار وي">
+							</local_schema>
+						</entry>
+						<entry name="scrollbar_position">
+							<local_schema short_desc="د رغښتپټې ځای">
+							</local_schema>
+						</entry>
+						<entry name="allow_bold">
+							<local_schema short_desc="که چېرې ډبله ليکنه پرېښودل پکار وي">
+							</local_schema>
+						</entry>
+						<entry name="title">
+							<local_schema short_desc="د پايالي سرليک">
+							</local_schema>
+						</entry>
+						<entry name="title_mode">
+							<local_schema short_desc="خوځند سرليک سره څه وکړو">
+							</local_schema>
+						</entry>
+						<entry name="background_color">
+							<local_schema short_desc="د پايالي شاليد تلواله رنګ">
+							</local_schema>
+						</entry>
+						<entry name="foreground_color">
+							<local_schema short_desc="په پايالي کې د ليکنې تلواله رنګ">
+							</local_schema>
+						</entry>
+						<entry name="default_show_menubar">
+							<local_schema short_desc="که چېرې په نويو کړکېو/ټوپونو کې غورنۍ پټه ښودل پکار وي">
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema short_desc=".د دې پېژنيال لوستل کېدونکی نوم">
+								<longdesc>.د دې پېژنيال لوستل کېدونکی نوم</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="confirm_window_close">
+						<local_schema short_desc="د پايال کړکېو د بندولو پر مهال که د باورييلو پوښتنه پکار وي">
+							<longdesc>.د هغه پايال کړکېو د بندولو پر مهال چې د يو نه ډېر ټوپونه ولري که د باورييلو پوښتنه پکار وي</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active_encodings">
+						<local_schema short_desc="د شته کوډييزونو لړ">
+						</local_schema>
+					</entry>
+					<entry name="use_mnemonics">
+						<local_schema short_desc="که چېرې د غورنۍ پټې لپاره لاسرس کيلۍ پکار وي">
+						</local_schema>
+					</entry>
+					<entry name="default_profile">
+						<local_schema short_desc="هغه پېژنيال چې د نويو پايالو لپاره وکارول شي">
+						</local_schema>
+					</entry>
+					<entry name="profile_list">
+						<local_schema short_desc="د پېژنيالونو لړ">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="په کارشې ونجوونکي کښې د کيلونو شمېر">
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="ټول کارتشې ښودل">
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="کارتشو نومونه ښودل">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="د کړکيو د لړ ټولوجګه کچ">
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="د کړکيو د لړ ټولولږه کچ">
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="کله بايد کړکۍ ډله شي">
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="د ټولو کارتشو کړکۍ ښودل">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="ځواکيزه بندونه ناوړول">
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="وتون ناوړول">
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="چې د لېښلو نه ناوړ شي IIDs هغه څېرمه کړنلار">
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="بشپړ چوکاټ کولپونه">
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="د موږک په تېرېدو پېلوونکي ځلول">
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="د چوکاټ ړنګونه باورييل">
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="خپلبنده خونه">
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="سېلنونه وړول">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="منځتللی">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="توک نکتې وړول">
+							<longdesc>که سم وي، په چوکاټونو کښې د څېزونو توک نکتې ښکاري</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="چار تڼۍ ډول">
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="پېلوونکي ځای">
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="غورنۍ منځپانګې يونلور">
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="د غورنۍ د منځپانګو لپاره دوديز يونلور کارول">
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="هغه انځورن چې د څيز د تڼۍ لپاره کارول کيږي">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="د څيز د تڼۍ لپاره دوديز انځورن کارول">
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="د خونې يا غورنۍ لپاره ښکارېدونکې توک نکته">
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="خونې سره نښتی چوکاټ">
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="IID بنوبو څېرمه کړنلار">
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="څيز په چوکاټ کښې کولپول">
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="په چوکاټ کښې د څيز ځای">
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="جګکچی څيز لرونکی چوکاټ">
+							<longdesc>.د هغه جګکچي چوکاټ پېژندوال چې دا څيز لري</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="چوکاټ څيز ډول">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="object_id_list">
+						<local_schema short_desc="چوکاټ څيز پېژند لړ">
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="چوکاټ څېرمه کړنلار پېژند لړ">
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="چوکاټ پېژند لړ">
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="په &quot;کاريال پرانيستل&quot; کړکۍ کښې خپلبشپړېدل وړول">
+							<longdesc>.که سم وي، په &quot;کاريال پرانيستل&quot; کړکۍ کښې خپلبشپړېدل وړول کيږي</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="په &quot;کاريال پرانيستل&quot; کړکۍ کښې د پروګرامونو لړ غځول">
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="په &quot;کاريال پرانيستل&quot; کړکۍ کښې د پروګرامونو لړ وړول">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="سېلن چټکتيا">
+						</local_schema>
+					</entry>
+					<entry name="auto_hide_size">
+						<local_schema short_desc="د پټېدو پر مهال ښکارېدونکي پېکسلې">
+						</local_schema>
+					</entry>
+					<entry name="unhide_delay">
+						<local_schema short_desc="د چوکاټ خپلناپټېدو ټال">
+						</local_schema>
+					</entry>
+					<entry name="hide_delay">
+						<local_schema short_desc="د چوکاټ خپلپټېدو ټال">
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="په پټو تڼيو غشي وړول">
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="تڼۍ پټول وړول">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="سېلنونه وړول">
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="چوکاټ پخپله په څنډه کښې پټول">
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="څاښ منځول-y چوکاټ په">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="څاښ منځول-x چوکاټ په">
+						</local_schema>
+					</entry>
+					<entry name="y_bottom">
+						<local_schema short_desc="همغږون، چې د پردې د لاندې نه پېل کيږي Y د چوکاټ">
+						</local_schema>
+					</entry>
+					<entry name="x_right">
+						<local_schema short_desc="همغږون، چې د پردې د ښي لورې نه پېل کيږي X د چوکاټ">
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="همغږون Y د چوکاټ">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="همغږون X د چوکاټ">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="چوکاټ کچه">
+						</local_schema>
+					</entry>
+					<entry name="orientation">
+						<local_schema short_desc="جوکاټ لوموندنه">
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="د پردې بشپړ پلنوالي نيولو لپاره غځول ">
+						</local_schema>
+					</entry>
+					<entry name="monitor">
+						<local_schema short_desc="ليدانی چېرته چې چوکاټ ښکاري Xinerama">
+						</local_schema>
+					</entry>
+					<entry name="screen">
+						<local_schema short_desc="پرده چې چوکاټ په کښې ښکاري X هغه">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="د چوکاټ پېژندلو لپاره نوم">
+							<longdesc>دا يو لوستل کېدونکی نوم دی چې د چوکاټ پېژندلو لپاره يې کارولی شئ. د دې اره موخه دا ده چې د چوکاټ د .کړکۍ سرليک په توګه وکارول شي چې د چوکاټونو ترمنځ چلولو کښې په کار راځي</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="stretch">
+							<local_schema short_desc="انځور چوکاټ ته غځول">
+							</local_schema>
+						</entry>
+						<entry name="fit">
+							<local_schema short_desc="انځور چوکاټ ته برابرول">
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="شاليد انځور">
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="د شاليد رنګ څرګندتيا">
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="شاليد رنګ">
+								<longdesc>.بڼې ټاکي #RGB د چوکاټ شاليد رنګ په</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="شاليد ډول">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="speed">
+						<local_schema short_desc="ځنډ پر چوکاټ">
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="د کب په سېلن کښې چوکاټونه">
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="هغه بولۍ چې په کېکاږلو سره وځغلي">
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="د کب د سېلن پېکسمېپ">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="د کب نوم">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="د ننوتون پېلوونکې پردې لپاره د خوښې انځور">
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="وتون پارليکه">
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="ناستې ساتل">
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="پېلوونکې پرده ښودل">
+							<longdesc>د ناستې د پېلېدو پر مهال پېلوونکې پرده ښودل</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-search-tool">
+				<entry name="default_window_height">
+					<local_schema short_desc="د څنګپټې تلواله اوږدوالی">
+					</local_schema>
+				</entry>
+				<entry name="default_window_width">
+					<local_schema short_desc="د کړکۍ تلواله پلنوالی">
+					</local_schema>
+				</entry>
+				<entry name="disable_quick_search">
+					<local_schema short_desc="ژر لټون ناتوانول">
+					</local_schema>
+				</entry>
+				<entry name="show_additional_options">
+					<local_schema short_desc="زياتي غوراوي ښودل">
+					</local_schema>
+				</entry>
+				<dir name="select">
+					<entry name="follow_symbolic_links">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Follow symbolic links&quot;">
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files_and_folders">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Show hidden files and folders&quot;">
+						</local_schema>
+					</entry>
+					<entry name="name_matches_regular_expression">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Name matches regular expression&quot;">
+						</local_schema>
+					</entry>
+					<entry name="name_does_not_contain">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Name does not contain&quot;">
+						</local_schema>
+					</entry>
+					<entry name="owner_is_unrecognized">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Owner is unrecognized&quot;">
+						</local_schema>
+					</entry>
+					<entry name="owned_by_group">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Owned by group&quot;">
+						</local_schema>
+					</entry>
+					<entry name="owned_by_user">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Owned by user&quot;">
+						</local_schema>
+					</entry>
+					<entry name="file_is_empty">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;File is empty&quot;">
+						</local_schema>
+					</entry>
+					<entry name="size_at_most">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Size at most&quot;">
+						</local_schema>
+					</entry>
+					<entry name="size_at_least">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Size at least&quot;">
+						</local_schema>
+					</entry>
+					<entry name="date_modified_more_than">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Date modified more than&quot;">
+						</local_schema>
+					</entry>
+					<entry name="date_modified_less_than">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Date modified less than&quot;">
+						</local_schema>
+					</entry>
+					<entry name="contains_the_text">
+						<local_schema short_desc="لټون غوراوی ټاکل &quot;Contains the text&quot;">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-screenshot">
+				<entry name="border_effect">
+					<local_schema short_desc="بريد اغېز">
+					</local_schema>
+				</entry>
+				<entry name="include_pointer">
+					<local_schema short_desc="نغوتګر ننويستل">
+						<longdesc>په پرده انځور کې نغوتګر ننويستل</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="include_border">
+					<local_schema short_desc="بريد ننويستل">
+					</local_schema>
+				</entry>
+				<entry name="last_save_directory">
+					<local_schema short_desc="پرده انځور پوښۍ">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gdm">
+				<dir name="simple-greeter">
+					<entry name="wm_use_compiz">
+						<local_schema short_desc="د کړکۍ سمبالګر په توګه کارول compiz">
+							<longdesc>.سم ته يې واړوﺉ چې کامپېز د کړکۍ سمبالګر په توګه وکاروﺉ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_list">
+						<local_schema short_desc="په ننوتنې کړکۍ کې پېژندل شوي کارنان نه ښودل">
+						</local_schema>
+					</entry>
+					<entry name="disable_restart_buttons">
+						<local_schema short_desc="د بياپېلولو تڼۍ ښودنه ناتوانول">
+						</local_schema>
+					</entry>
+					<entry name="banner_message_text">
+						<local_schema short_desc="د ليکتوغ استوزې ليکنه">
+							<longdesc>.په ننوتنې کړکۍ کې د ښودلو لپاره ليکنيزه ليکتوغ استوزه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="banner_message_enable">
+						<local_schema short_desc="د ليکتوغ استوزې ښودنه توانول">
+							<longdesc>.سم ته يې واړوﺉ چې د ليکتوغ استوزې ليکنه وښيي</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="settings-manager-plugins">
+						<dir name="a11y-keyboard">
+							<entry name="active">
+								<local_schema short_desc="د رسوړتيا کليدړې لګون توانول">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="accessibility">
+						<entry name="screen_magnifier_enabled">
+							<local_schema short_desc="پرده زيږاند توانول">
+							</local_schema>
+						</entry>
+						<entry name="screen_reader_enabled">
+							<local_schema short_desc="پرده لوستونکی توانول">
+							</local_schema>
+						</entry>
+						<entry name="screen_keyboard_enabled">
+							<local_schema short_desc="په-پرده کليدړه توانول">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_history">
+						<local_schema short_desc="مخينه ناوړول">
+						</local_schema>
+					</entry>
+					<entry name="disable_bookmark_editing">
+						<local_schema short_desc="د ليکنښو سمونه ناوړول">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="language">
+						<local_schema short_desc="ژبې">
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="خپلې ليکبڼې کارول">
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="خپل رنګونه کارول">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="ټوپ پټه تل ښودل">
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="کور پاڼه">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="deskbar">
+				<entry name="window_y">
+					<local_schema short_desc="همغږون-Y د کړکۍ">
+					</local_schema>
+				</entry>
+				<entry name="window_x">
+					<local_schema short_desc="همغږون-X د کړکۍ">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="د کړکۍ اوږدوالی">
+						<longdesc>د کړکۍ تلواله اوږدوالی په پېکسلو</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="د کړکۍ پلنوالی">
+						<longdesc>د کړکۍ تلواله پلنوالی په پېکسلو</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="collapsed_cat">
+					<local_schema short_desc="وېجاړې ټولۍ">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="eog">
+				<dir name="plugins">
+					<entry name="active_plugins">
+						<local_schema short_desc="چارنده لګونونه">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="full_screen">
+					<entry name="seconds">
+						<local_schema short_desc="د راتلونکي انځور تر ښودلو ډلو په سېکېنډونو کې ">
+						</local_schema>
+					</entry>
+					<entry name="upscale">
+						<local_schema short_desc="په لومړيو کې د ۱۰۰٪ نه لويوالی ډېرول پرېښل">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="د روڼوالي رنګ">
+						</local_schema>
+					</entry>
+					<entry name="zoom_multiplier">
+						<local_schema short_desc="د لويوالي ګڼوونکی">
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="د روڼوالي نغوتاند">
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="انځور کې اچونه کول">
+						</local_schema>
+					</entry>
+					<entry name="autorotate">
+						<local_schema short_desc="خپلکارې لورموندنه">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="evolution">
+				<entry name="version">
+					<local_schema short_desc="د سازونې نسخه">
+					</local_schema>
+				</entry>
+				<dir name="addressbook">
+					<dir name="display">
+						<entry name="show_preview">
+							<local_schema short_desc="مخليد چوکاټ ښودل">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="shell">
+					<entry name="start_offline">
+						<local_schema short_desc="په ناليکه اکر کې پېلول">
+						</local_schema>
+					</entry>
+					<dir name="network_config">
+						<entry name="use_http_proxy">
+							<local_schema short_desc="ګوډاګی کارول HTTP">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="view_defaults">
+						<entry name="statusbar_visible">
+							<local_schema short_desc="انکړپټه ښکاري">
+							</local_schema>
+						</entry>
+						<entry name="sidebar_visible">
+							<local_schema short_desc="څنګپټه ښکاري">
+							</local_schema>
+						</entry>
+						<entry name="toolbar_visible">
+							<local_schema short_desc="توکپټه ښکاري">
+							</local_schema>
+						</entry>
+						<entry name="buttons_style">
+							<local_schema short_desc="د کړکۍ تڼۍ ډول">
+							</local_schema>
+						</entry>
+						<entry name="buttons_visible">
+							<local_schema short_desc="د کړکۍ تڼۍ ښکاري">
+							</local_schema>
+						</entry>
+						<entry name="window_maximized">
+							<local_schema short_desc="د کړکۍ تلواله دريځ">
+							</local_schema>
+						</entry>
+						<entry name="window_height">
+							<local_schema short_desc="د څنګپټې تلواله اوږدوالی">
+							</local_schema>
+						</entry>
+						<entry name="window_width">
+							<local_schema short_desc="د کړکۍ تلواله پلنوالی">
+							</local_schema>
+						</entry>
+						<dir name="folder_bar">
+							<entry name="width">
+								<local_schema short_desc="د څنګپټې تلواله پلنوالی">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="eplugin">
+					<dir name="mail-notification">
+						<entry name="sound-enabled">
+							<local_schema short_desc="د نوې استوزې د رسېدو پر مهال غږ غږول">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="external-editor">
+						<entry name="editor-command">
+							<local_schema short_desc="تلواله بهرنی سمبالګر">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="calendar">
+					<dir name="notify">
+						<entry name="programs">
+							<local_schema short_desc="خبرونې کړنلارې">
+							</local_schema>
+						</entry>
+						<entry name="last_notification_time">
+							<local_schema short_desc="د وروستۍ خبرونې مهال">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="other">
+						<entry name="default_reminder_units">
+							<local_schema short_desc="تلواله رايادوونکي يوونونه">
+							</local_schema>
+						</entry>
+						<entry name="default_reminder_interval">
+							<local_schema short_desc="تلواله رايادوونکي ارزښت">
+							</local_schema>
+						</entry>
+						<entry name="use_default_reminder">
+							<local_schema short_desc="تلواله ټاکنې رايادوونکی">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="prompts">
+						<entry name="confirm_delete">
+							<local_schema short_desc="د توکيو د ړنګولو پر مهال د باورييلو لپاره پوښتل">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tasks">
+						<entry name="hide_completed_value">
+							<local_schema short_desc="دنده ارزښت پټول">
+							</local_schema>
+						</entry>
+						<entry name="hide_completed_units">
+							<local_schema short_desc="دنده يوونونه پټول">
+							</local_schema>
+						</entry>
+						<entry name="hide_completed">
+							<local_schema short_desc="بشپړې شوې دندې پټول">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="working_days">
+							<local_schema short_desc="دنده ورځې">
+							</local_schema>
+						</entry>
+						<entry name="vpane_position">
+							<local_schema short_desc="د نېغ چوکاټ ځای">
+							</local_schema>
+						</entry>
+						<entry name="hpane_position">
+							<local_schema short_desc="د پروت چوکاټ ځای">
+							</local_schema>
+						</entry>
+						<entry name="time_divisions">
+							<local_schema short_desc="مهال وېشنې">
+							</local_schema>
+						</entry>
+						<entry name="day_end_minute">
+							<local_schema short_desc="د دندې ورځې وروستی مېنټ">
+							</local_schema>
+						</entry>
+						<entry name="day_end_hour">
+							<local_schema short_desc="د دندې ورځې وروستۍ ګېنټه">
+							</local_schema>
+						</entry>
+						<entry name="day_start_minute">
+							<local_schema short_desc="د دندې ورځې پېل مېنټ">
+							</local_schema>
+						</entry>
+						<entry name="day_start_hour">
+							<local_schema short_desc="د دندې ورځې پېل ګېنټه">
+							</local_schema>
+						</entry>
+						<entry name="week_start_day">
+							<local_schema short_desc="د اونۍ پېل">
+							</local_schema>
+						</entry>
+						<entry name="timezone">
+							<local_schema short_desc="مهالسېمه">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="mail">
+					<entry name="save_dir">
+						<local_schema short_desc="پوښۍ ساتل">
+						</local_schema>
+					</entry>
+					<entry name="licenses">
+						<local_schema short_desc="د منل شويو منښليکونو لړ">
+						</local_schema>
+					</entry>
+					<entry name="accounts">
+						<local_schema short_desc="د ګڼونونو لړ">
+						</local_schema>
+					</entry>
+					<dir name="format">
+						<entry name="reply_style">
+							<local_schema short_desc="د ځوابولو تلواله ډول">
+							</local_schema>
+						</entry>
+						<entry name="forward_style">
+							<local_schema short_desc="د مخکې کولو تلواله ډول">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="filters">
+						<entry name="log">
+							<local_schema short_desc="د چاڼ چارونه خبرالول">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="subscribe_window">
+						<entry name="height">
+							<local_schema>
+								<longdesc>د ګډون کړکۍ تلواله اوږدوالی</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="width">
+							<local_schema>
+								<longdesc>.د ګډون کړکۍ تلواله پلنوالی</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="display">
+						<entry name="paned_size">
+							<local_schema short_desc="د استوزه-لړ چوکاټ اوږدوالی">
+								<longdesc>.د استوزه-لړ چوکاټ اوږدوالی</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="sender_photo">
+							<local_schema short_desc="د استوونکي انځور ښودل">
+							</local_schema>
+						</entry>
+						<entry name="animate_images">
+							<local_schema short_desc="سېلنونه ښودل">
+							</local_schema>
+						</entry>
+						<dir name="fonts">
+							<entry name="use_custom">
+								<local_schema short_desc="دوديزې ليکبڼې کارول">
+									<longdesc>.د ليک ښودلو لپاره دوديزې ليکبڼې کارول</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="monospace">
+								<local_schema short_desc="پايالي ليکبڼه">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="composer">
+						<entry name="height">
+							<local_schema short_desc="د ليکونکې کړکۍ تلواله اوږدوالی">
+								<longdesc>.د ليکونکې کړکۍ تلواله اوږدوالی</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="width">
+							<local_schema short_desc="د ليکونکې کړکۍ تلواله پلنوالی">
+								<longdesc>.د ليکونکې کړکۍ تلواله پلنوالی</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="spell_languages">
+							<local_schema short_desc="د ليکدود کتنې ژبه">
+							</local_schema>
+						</entry>
+						<entry name="spell_color">
+							<local_schema short_desc="د ليکدود کتنې رنګ">
+							</local_schema>
+						</entry>
+						<entry name="send_html">
+							<local_schema short_desc="ليک لېږل HTML په تلواله توګه">
+								<longdesc>.ليک لېږل HTML په تلواله توګه</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

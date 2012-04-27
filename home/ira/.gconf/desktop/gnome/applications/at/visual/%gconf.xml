@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="startup" mtime="1431537224" type="bool" value="true"/>
+	<entry name="exec" mtime="1431537200" type="string">
+		<stringvalue>espeak</stringvalue>
+	</entry>
+</gconf>

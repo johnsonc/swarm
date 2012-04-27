@@ -1,0 +1,16 @@
+e55c2319b882d3f022743660a9fb6e96  usr/bin/gnome-session
+b1b49be71e7af5aec1908154a0e13048  usr/bin/gnome-session-properties
+2e9d7c0d855ee6aac56b8c5a6bc9f4bd  usr/bin/gnome-session-save
+25a32345628fbe7b1928e14e96ce064a  usr/lib/gnome-session/helpers/gnome-settings-daemon-helper
+b2f28aeb809c173216af20c30fcbc801  usr/share/doc/gnome-session-bin/AUTHORS
+c7ec54c8e36b35e10a39f8203a7aef8d  usr/share/doc/gnome-session-bin/NEWS.gz
+07b2131d83beecc32b44fb8c8546c6d3  usr/share/doc/gnome-session-bin/README
+b7d930f82bf49dac7f5c37481f5b8253  usr/share/doc/gnome-session-bin/changelog.Debian.gz
+1517cc9af3448cde60ae3a92955939d6  usr/share/doc/gnome-session-bin/changelog.gz
+6d6a45f6ac60957a3bf94687aee0a289  usr/share/doc/gnome-session-bin/copyright
+dd4141178aa2ba54e3c15f589889b821  usr/share/gconf/schemas/gnome-session.schemas
+9c770a2fd6eb4e799b8426d43698767b  usr/share/gnome-session/gsm-inhibit-dialog.ui
+05bc3f0c6e38ff60c215ed742b678add  usr/share/gnome-session/session-properties.ui
+0714a01a436248949c8c50c5e492dbbd  usr/share/man/man1/gnome-session-properties.1.gz
+a604aafcf9815d6479b33368983a3bf8  usr/share/man/man1/gnome-session-save.1.gz
+950366aae87e56ee2c81f635327b27c0  usr/share/man/man1/gnome-session.1.gz

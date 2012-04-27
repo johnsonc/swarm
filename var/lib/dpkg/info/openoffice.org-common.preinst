@@ -1,0 +1,94 @@
+#!/bin/sh
+
+set -e
+
+THIS_PACKAGE=openoffice.org-common
+THIS_SCRIPT=preinst
+
+
+# Prepare to move a conffile without triggering a dpkg question
+prep_rm_conffile() {
+    CONFFILE="$1"
+
+    if [ -e "$CONFFILE" ]; then
+        md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
+        old_md5sum="`dpkg-query -W -f='${Conffiles}' $2 | grep $CONFFILE | awk '{print $2}'`"
+        if [ "$md5sum" = "$old_md5sum" ]; then
+            mv "$CONFFILE" "$CONFFILE.${THIS_PACKAGE}-tmp"
+        fi
+    fi
+}
+
+rm_conffile_commit() {
+  CONFFILE="$1"
+
+  if [ -e $CONFFILE.${THIS_PACKAGE}-tmp ]; then
+    rm $CONFFILE.${THIS_PACKAGE}-tmp
+  fi
+}
+
+# Remove a no-longer used conffile
+rm_conffile() {
+    CONFFILE="$1"
+
+    if [ -e "$CONFFILE" ]; then
+        md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
+        old_md5sum="`dpkg-query -W -f='${Conffiles}' $2 | grep $CONFFILE | awk '{print $2}'`"
+        if [ "$md5sum" != "$old_md5sum" ]; then
+            echo "Obsolete conffile $CONFFILE has been modified by you."
+            echo "Saving as $CONFFILE.dpkg-bak ..."
+            mv -f "$CONFFILE" "$CONFFILE".bak
+        else
+            echo "Removing obsolete conffile $CONFFILE ..."
+            rm -f "$CONFFILE"
+        fi
+    fi
+}
+
+case "$1" in install|upgrade)
+	if dpkg --compare-versions "$2" lt "2.0.0-2"; then
+		rm_conffile "/etc/bash_completion.d/openoffice" $THIS_PACKAGE
+		rm_conffile "/etc/openoffice/autoresponse.conf" $THIS_PACKAGE
+		rm_conffile "/etc/openoffice/openoffice.conf" $THIS_PACKAGE
+	fi
+	if dpkg --compare-versions "$2" lt "2.0.2-2"; then
+		rm_conffile "/etc/bash_completion.d/ooo-wrapper.sh" $THIS_PACKAGE
+	fi
+	# obsolete. no conffile.
+	rm -f /etc/openoffice/dictionary.lst /etc/openoffice/dictionary.lst-old
+	
+	# try to recover. No idea whether that completely helps but it
+	# at least gets the bogus dir away.
+	if [ -e /usr/lib/openoffice/basis-link -a \
+		! -L /usr/lib/openoffice/basis-link ] && \
+		[ -e /usr/lib/openoffice/basis-link/share/config/javasettingsunopkginstall.xml ]; then
+		rm -f /usr/lib/openoffice/basis-link/share/config/javasettingsunopkginstall.xml
+		rmdir --ignore-fail-on-non-empty /usr/lib/openoffice/basis-link/share/config
+		rmdir --ignore-fail-on-non-empty /usr/lib/openoffice/basis-link/share
+		rmdir --ignore-fail-on-non-empty /usr/lib/openoffice/basis-link
+	fi
+
+	# move a already-filled in javasettingsunopkginstall.xml to the new
+ 	# location on upgrades
+	if [ ! -e `echo /usr/lib/openoffice/basis3.2 | sed -e s/usr/var/`/share/config/javasettingsunopkginstall.xml ]; then
+		if [ ! -d `echo /usr/lib/openoffice/basis3.2 | sed -e s/usr/var/`/share/config ]; then
+			mkdir -p `echo /usr/lib/openoffice/basis3.2 | sed -e s/usr/var/`/share/config
+		fi
+		if [ -e /var/lib/openoffice/javasettingsunopkginstall.xml ]; then
+			mv /var/lib/openoffice/javasettingsunopkginstall.xml \
+				 `echo /usr/lib/openoffice/basis3.2 | sed -e s/usr/var/`/share/config/javasettingsunopkginstall.xml
+		fi
+		if [ -e /var/lib/openoffice/share/config/javasettingsunopkginstall.xml ]; then
+			mv /var/lib/openoffice/share/config/javasettingsunopkginstall.xml \
+				 `echo /usr/lib/openoffice/basis3.2 | sed -e s/usr/var/`/share/config/javasettingsunopkginstall.xml
+		fi
+	else
+		rm -f /var/lib/openoffice/javasettingsunopkginstall.xml
+		rm -f /var/lib/openoffice/share/config/javasettingsunopkginstall.xml
+	fi
+	;;
+esac
+
+
+
+exit 0

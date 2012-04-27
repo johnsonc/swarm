@@ -1,0 +1,11 @@
+70c2798b260627e7b1003b098fe426a1  usr/lib/pkgconfig/gnome-js-common.pc
+e4ca28f4bfeec701ad25f531bd99530b  usr/share/doc/gnome-js-common/copyright
+852b4f62979311d2132c6ffced8eb5ec  usr/share/doc/gnome-js-common/changelog.gz
+4522fc0045c99fd93712fc7d92f61ed0  usr/share/doc/gnome-js-common/changelog.Debian.gz
+6747aeb3a9193a8f8561c719851b86ad  usr/share/gnome-js/lang.js
+75b1053642d4a7752d69506011288cef  usr/share/gnome-js/tweener/tweenList.js
+87cd7e25a9648d567ee3669a20c8c7d5  usr/share/gnome-js/tweener/equations.js
+17f053b51891448163dd0567ceeb56ce  usr/share/gnome-js/tweener/tweener.js
+5537473b4a951bdc1dcfa32f736b84db  usr/share/gnome-js/ArrayUtils.js
+7ba335c48e128e05512d37a448db0eb9  usr/share/gnome-js/signals.js
+5d2541641d66c738439c35f6eb66a5d3  usr/share/gnome-js/JSON.js

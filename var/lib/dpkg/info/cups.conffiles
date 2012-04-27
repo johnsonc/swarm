@@ -1,0 +1,8 @@
+/etc/default/cups
+/etc/pam.d/cups
+/etc/logrotate.d/cups
+/etc/cups/snmp.conf
+/etc/cups/cupsd.conf
+/etc/cups/cupsd.conf.default
+/etc/fonts/conf.d/99pdftoopvp.conf
+/etc/init.d/cups

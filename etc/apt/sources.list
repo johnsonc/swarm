@@ -1,0 +1,2 @@
+deb http://http.us.debian.org/debian/ stable main contrib non-free
+#deb http://ports.ubuntu.com/ubuntu-ports/ precise  main multiverse restricted universe

@@ -1,0 +1,19 @@
+#!/bin/bash
+Fs_root=`cat /proc/mtd | grep filesystem-NAND | cut -f 1 -d:`
+echo root partition = $Fs_root
+Fs_usr=`cat /proc/mtd | grep LocalDisk | cut -f 1 -d:`
+echo usr partition = $Fs_usr
+Fs_disk2=`cat /proc/mtd | grep android-data | cut -f 1 -d:`
+echo disk2 partition=$Fs_disk2
+Fs_android_cache=`cat /proc/mtd | grep android-cache | cut -f 1 -d:`
+echo Fs_android_cache partition=$Fs_android_cache
+
+root_part_num=`echo $Fs_root | cut -dd -f2`
+usr_part_num=`echo $Fs_usr | cut -dd -f2`
+disk2_part_num=`echo $Fs_disk2 | cut -dd -f2`
+home_part_num=`echo $Fs_android_cache | cut -dd -f2`
+
+mount /dev/mtdblock$root_part_num /disk1
+mount /dev/mtdblock$usr_part_num /disk1/usr
+mount /dev/mtdblock$disk2_part_num /disk2
+mount /dev/mtdblock$home_part_num /disk1/home

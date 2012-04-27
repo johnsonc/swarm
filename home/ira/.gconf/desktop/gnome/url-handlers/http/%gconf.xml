@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="command" mtime="1428490146" type="string">
+		<stringvalue>sensible-browser %s</stringvalue>
+	</entry>
+</gconf>

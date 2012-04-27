@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ] || [ "$1" = "triggered" ] ||
+   [ "$1" = "abort-upgrade" ]; then
+    touch /usr/lib/xulrunner-1.9.1/.autoreg
+    rm -f /usr/lib/xulrunner-1.9.1/components/compreg.dat \
+          /usr/lib/xulrunner-1.9.1/components/xpti.dat
+    cd /usr/lib/xulrunner-1.9.1
+    export HOME=`mktemp -d`
+    ./run-mozilla.sh ./xpcshell -e "" ||
+    rm -f /usr/lib/xulrunner-1.9.1/components/compreg.dat \
+          /usr/lib/xulrunner-1.9.1/components/xpti.dat
+    rm -rf "$HOME"
+fi
+
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] ; then
+    update-alternatives --install /usr/bin/xulrunner-stub \
+        xulrunner-stub /usr/lib/xulrunner-1.9.1/xulrunner-stub 100 \
+        --slave /usr/share/man/man1/xulrunner-stub.1.gz xulrunner-stub.1.gz \
+        /usr/share/man/man1/xulrunner-stub-1.9.1.1.gz
+fi
+
+
+

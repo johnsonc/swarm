@@ -1,0 +1,74 @@
+The source code was downloaded from http://libopenraw.freedesktop.org
+
+Files: debian/*
+Copyright: © 2007-2010, David Paleino <dapal@debian.org>
+License: GPL-3+
+ This program is free software: you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation, either version 3
+ of the License, or (at your option) any later version.
+
+Files: *
+Copyright: © 2005-2009, Hubert Figuiere <hub@figuiere.net>
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+
+Files: lib/ifd.h
+Copyright: © 2006, Hubert Figuiere <hub@figuiere.net>
+           © 2001, Lutz Müller <lutz@users.sourceforge.net>
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+
+Files: lib/ljpegdecompressor.cpp
+Copyright: © 2007, Hubert Figuiere <hub@figuiere.net>
+ © 1994, Kongji Huang and Brian C. Smith, Cornell University. All rights reserved.
+ © 1993, Brian C. Smith, The Regents of the University of California. All rights reserved.
+ © 1991-1992, Thomas G. Lane, Part of the Independent JPEG Group's software.
+License: LGPL-2.1+, other
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ ---
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose, without fee, and without written agreement is
+ hereby granted, provided that the above copyright notice and the following
+ two paragraphs appear in all copies of this software.
+ .
+ IN NO EVENT SHALL CORNELL UNIVERSITY BE LIABLE TO ANY PARTY FOR
+ DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT
+ OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF CORNELL
+ UNIVERSITY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ CORNELL UNIVERSITY SPECIFICALLY DISCLAIMS ANY WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ ON AN "AS IS" BASIS, AND CORNELL UNIVERSITY HAS NO OBLIGATION TO
+ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS. 
+
+Files: test/fileio.t.c
+Copyright: © 2005, Hubert Figuiere <hub@figuiere.net>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+Files: test/ljpegtest.cpp
+Copyright: © 2007, Hubert Figuiere <hub@figuiere.net>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+On Debian systems, the complete text of the licenses can be found in:
+GNU Lesser General Public License - `/usr/share/common-licenses/LGPL-2.1',
+GNU General Public License v2 - `/usr/share/common-licenses/GPL-2',
+GNU General Public License v3 - `/usr/share/common-licenses/GPL-3'

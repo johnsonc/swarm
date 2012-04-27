@@ -1,0 +1,874 @@
+<gconfschemafile>
+  <schemalist>
+
+    <schema>
+      <key>/schemas/apps/control-center/appearance/more_backgrounds_url</key>
+      <applyto>/apps/control-center/appearance/more_backgrounds_url</applyto>
+      <owner>control-center</owner>
+      <type>string</type>
+      <default>http://art.gnome.org/backgrounds/</default>
+      <locale name="C">
+        <short>More backgrounds URL</short>
+        <long>
+          URL for where to get more desktop backgrounds.  If set to an
+          empty string the link will not appear.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>مسار جلب المزيد من الخلفيات</short>
+        <long>مسار لجلب المزيد من خلفيات سطح المكتب. إذا ترك فارغا لن يظهر.</long>
+      </locale>
+
+      <locale name="as">
+        <short>অতিরিক্ত পটভূমির ছবি প্রাপ্ত করার URL</short>
+        <long>ডেস্কটপের জন্য পটভূমির অতিরিক্ত ছবি প্রাপ্ত করার URL। এই ক্ষেত্রে একটি ফাঁকা পংক্তি চিহ্নিত হলে লিংক প্রদর্শন করা হবে না।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>URL pa más fondos</short>
+        <long>URL na qu&apos;obtener más fondos pal escritoriu. Si s&apos;afita a una cadena balera, l&apos;enllaz nun apaez.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Адрес за допълнителни фонове</short>
+        <long>Адрес, от който могат да се изтеглят допълнителни фонове за работното място. Ако този ключ е празен низ, връзката няма да се показва.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>আরও পটভূমির ইউআরএল</short>
+        <long>আরও ডেক্সটপ পটভূমি যেখানে পাওয়া যাবে তার ইউআরএল। যদি ফাঁকা স্ট্রিং হিসেবে নির্ধারণ করা থাকে তবে লিংকটি দৃশ্যমান হবে না।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>অতিরিক্ত পটভূমির ছবি প্রাপ্ত করার URL</short>
+        <long>ডেস্কটপের জন্য পটভূমির অতিরিক্ত ছবি প্রাপ্ত করার URL। এই ক্ষেত্রে একটি ফাঁকা পংক্তি চিহ্নিত হলে লিংক প্রদর্শন করা হবে না।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Més URL d&apos;imatges de fons</short>
+        <long>L&apos;URL des d&apos;on obtenir més imatges de fons de l&apos;escriptori. Si s&apos;estableix a una cadena buida l&apos;enllaç no apareixerà.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Més URL d&apos;imatges de fons</short>
+        <long>L&apos;URL des d&apos;on obtindre més imatges de fons de l&apos;escriptori. Si s&apos;estableix a una cadena buida l&apos;enllaç no apareixerà.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Daa çoq arqa-zeminler içün URL</short>
+        <long>Daa çoq masaüstü arqa-zeminleriniñ alınabilecegi URL. Boş bir tizgige tesbit etilse ilişim körülmeycek.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Adresa s dalšími pozadími</short>
+        <long>URL, na kterém lze získat další pozadí pracovní plochy. Je-li nastaveno na prázdný řetězec, odkaz se nezobrazí.</long>
+      </locale>
+
+      <locale name="da">
+        <short>URL med yderligere baggrunde</short>
+        <long>URL hvorfra der kan hentes yderligere skrivebordsbaggrunde. Hvis denne sættes til en tom streng, vil linket ikke blive vist.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Adresse für weitere Hintergründe</short>
+        <long>Adresse, unter der weitere Arbeitsflächen-Hintergründe zu finden sind. Wenn man die Zeichenkette leer lässt, erscheint kein Link.</long>
+      </locale>
+
+      <locale name="el">
+        <short>URL για περισότερες εικόνες παρασκηνίου</short>
+        <long>URL για την λήψη περισσότερων παρασκηνίων επιφάνειας εργασίας. Αν ορισθεί σε κενό τότε δεν θα εμφανίζεται κανένας δεσμός.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑥𐑹 𐑚𐑨𐑒𐑜𐑮𐑬𐑯𐑛𐑟 URL</short>
+        <long>URL 𐑓𐑹 𐑢𐑺 𐑑 𐑜𐑧𐑑 𐑥𐑹 𐑛𐑧𐑕𐑒𐑑𐑪𐑐 𐑚𐑨𐑒𐑜𐑮𐑬𐑯𐑛𐑟. 𐑦𐑓 𐑕𐑧𐑑 𐑑 𐑩𐑯 𐑧𐑥𐑐𐑑𐑦 𐑕𐑑𐑮𐑦𐑙 𐑞 𐑤𐑦𐑙𐑒 𐑢𐑦𐑤 𐑯𐑪𐑑 𐑩𐑐𐑽.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>More backgrounds URL</short>
+        <long>URL for where to get more desktop backgrounds. If set to an empty string the link will not appear.</long>
+      </locale>
+
+      <locale name="es">
+        <short>URL para más fondos</short>
+        <long>URL donde obtener más fondos para el escritorio. Si se establece a una cadena vacía el enlace no aparecerá.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Lisataustade URL</short>
+        <long>Töölaua lisataustapiltide hankimise URL. Tühjaksjäetuna seda viita ei kuvata.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Atzeko planoko URL gehiago</short>
+        <long>URLa mahaigaineko atzeko planoko irudi gehiago eskuratzeko. Katea hutsik uzten bada, esteka ez da agertuko.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Lisää taustakuvia-URL</short>
+        <long>URL, josta noudetaan lisää työpöydän taustakuvia. Jos tämä on tyhjä merkkijono, linkkiä ei näytetä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>URL pour plus d&apos;images d&apos;arrière-plan</short>
+        <long>URL où il est possible de récupérer plus d&apos;images d&apos;arrière-plan pour le bureau. Si la chaîne est vide, le lien n&apos;apparaît pas.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>URL onde obter máis fondos</short>
+        <long>URL dende onde obter máis fondos de escritorio. Se o deixa en branco a ligazón non aparecerá.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>વધારે પાશ્ર્વભાગો URL</short>
+        <long>ક્યાં વધારે ડેસ્કટોપ પાશ્ર્વભાગો મળે છે તે માટે URL, જો ખાલી શબ્દમાળા માં સુયોજિત હોય તો કડી દેખાશે નહિં.</long>
+      </locale>
+
+      <locale name="he">
+        <short>More backgrounds URL</short>
+        <long>URL for where to get more desktop backgrounds. If set to an empty string the link will not appear.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>अधिक पृष्ठभूमि URL</short>
+        <long>URL जहाँ से अधिक डेस्कटॉप पृष्ठभूमि पाना है. यदि रिक्त स्ट्रिंग पर सेट किया जाता है कड़ी प्रकट नहीं होगा.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>További háttérképek URL</short>
+        <long>További hátterek letöltésére használt URL. Ha nincs megadva, a hivatkozás nem jelenik meg.</long>
+      </locale>
+
+      <locale name="id">
+        <short>URL latar belakang lain</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>URL sfondi aggiuntivi</short>
+        <long>URL della posizione da cui ottenere sfondi aggiuntivi. Se impostata alla stringa vuota, il collegamento non viene mostrato.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>背景を入手できるURL</short>
+        <long>デスクトップの背景を入手できる場所のURLです。空文字列ならば、リンクは表示されません。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಹೆಚ್ಚಿನ ಹಿನ್ನಲೆ ಚಿತ್ರಗಳ URL</short>
+        <long>ಎಲ್ಲಿಂದ ಹೆಚ್ಚಿನ ಗಣಕತೆರೆ ಹಿನ್ನಲೆ ಚಿತ್ರಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಬೇಕೊ ಅಲ್ಲಿಯ URL. ಖಾಲಿಯಾಗಿ ಇರಿಸಿದಲ್ಲಿ ಕೊಂಡಿಯು ಕಾಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>배경 다운로드 URL</short>
+        <long>데스크톱 배경을 받을 수 있는 URL. 빈 문자열이면 링크가 나타나지 않습니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Daugiau fono paveikslėlių URL</short>
+        <long>URL, kur gauti daugiau darbastalio fono paveikslėlių. Jeigu reikšmė tuščia, ši nuoroda nebus rodoma.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>URL papildu fona attēliem</short>
+        <long>Tīmekļa URL, kur var iegūt vairāk darbvirsmas fona attēlu. Ja šeit ir tukša virkne, attiecīgā saite neparādās.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>കൂടുതല്‍ പശ്ചാത്തല യുആര്‍എലുകള്‍</short>
+        <long>കൂടതല്‍ പണിയിട പശ്ചാതലങ്ങള്‍ ലഭ്യമാകുന്ന യുആര്‍എല്‍. ശൂന്യമായ സ്ട്രിങായി സജ്ജമാക്കിയാല്‍ ലിങ്ക് കാണുവാന്‍ സാധ്യമല്ല.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>एकापेक्षाजास्त पार्श्वभूमीचे URL</short>
+        <long>आणखी डेस्कटॉप पार्श्वभूमी प्राप्त करण्यासाठी URL. रिकामे अक्षरसंच करीता सेट केल्यास दुवा आढळणार नाही.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>URL til flere bakgrunner</short>
+        
+      </locale>
+
+      <locale name="nds">
+        <short>Mehr Achtergründe URL</short>
+        
+      </locale>
+
+      <locale name="nn">
+        <short>Adresse til fleire bakgrunnar</short>
+        <long>Adresse til å finna fleire skrivebordsbakgrunnar. Dersom ho er sett til ei tom streng vil ikkje lenkja visast.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଅଧିକ ପୃଷ୍ଠଭୂମି URL</short>
+        <long>କେଉଁଠି ଅଧିକ ଡେସ୍କଟପ ପୃଷ୍ଠଭୂମି ମିଳିବ ତାହାର URL. ଯଦି କୌଣସି ଖାଲି ବାକ୍ୟଖଣ୍ଡରେ ସେଟ କରାଯାଏ ତେବେ ସଂଯୋଗଟି ଦୃଶ୍ୟମାନ ହେବ ନାହିଁ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਹੋਰ ਬੈਕਗਰਾਊਂਡ URL</short>
+        <long>URL, ਜਿੱਥੋ ਡੈਸਕਟਾਪ ਬੈਕਗਰਾਊਂਡ ਮਿਲ ਸਕਦੀਆਂ ਹਨ। ਜੇ ਇੱਕ ਖਾਲੀ ਲਾਈਨ ਦਿੱਤੀ ਤਾਂ ਲਿੰਕ ਮੌਜੂਦ ਨਹੀਂ ਰਹੇਗਾ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Więcej adresów URL teł</short>
+        <long>Adres URL, pod jakim można uzyskać więcej teł pulpitu. Jeśli pozostawiona zostanie pusta wartość, odnośnik się nie pojawi.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>URL de mais imagens de fundo</short>
+        <long>URL de onde obter mais fundos para a área de trabalho. Se definida como uma expressão vazia, não será apresentado o link.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>URL para mais planos de fundo</short>
+        <long>URL para onde obter mais planos de fundo para a área de trabalho. Se deixado em branco, o atalho não irá aparecer.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>URL pentru mai multe imagini de fundal</short>
+        <long>URL-ul de la care să fie aduse mai multe imagini de fundal. Dacă este lăsat gol, legătura nu va apărea.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>URL хранилища фоновых рисунков</short>
+        <long>URL для получения дополнительных обоев рабочего стола. Если установить в пустую строку - ссылка не будет отображаться.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Naslov URL strani z več ozadji</short>
+        <long>Naslov URL do mesta, kjer je mogoče pregledati več ozadij namizja. V primeru, da je niz prazen, povezava ne bo prikazana.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Још адреса са позадинама</short>
+        <long>Адреса са које се преузимају додатне позадине за радну површ. Уколико оставите празно, веза се неће приказати.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Još adresa sa pozadinama</short>
+        <long>Adresa sa koje se preuzimaju dodatne pozadine za radnu površ. Ukoliko ostavite prazno, veza se neće prikazati.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>URL för fler bakgrundsbilder</short>
+        <long>URL där fler skrivbordsbakgrunder kan hämtas. Om inställd till en tom sträng så kommer länken inte att visas.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கூடுதல் பின்னணிகள் இணைய முகவரி</short>
+        <long>எங்கு பணிமேடை பின்னணிகளை பெறுவதற்கான URL. ஒரு வெற்று சரமாக அமைத்தால் இணைப்பு தோன்றாது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>మరిన్ని బ్యాక్‌గ్రౌండ్ల URL</short>
+        <long>ఎక్కడ మరిన్ని డెస్కుటాప్ బ్యాక్‌గ్రౌండులను పొందగలమో దాని URL. ఖాళీ స్ట్రింగునకు అమర్చితే లింకు కనిపించదు.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Daha fazla arkaplan URL&apos;si</short>
+        <long>Daha fazla masaüstü arka planı almak için URL. Eğer boş bir dizgi ise bağ gösterilmez.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Додаткові URL для тла</short>
+        <long>URL за яким можна отримати додаткові зображення для тла робочого столу. Якщо вказано порожній рядок, посилання не буде виводитись.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>更多的背景网址</short>
+        <long>获得更多桌面背景的网址。如果设定为空字符串，那么链接将不会出现。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>更多背景 URL</short>
+        <long>可以取得更多桌面背景的 URL。如果設定為空字串則不會顯示連結。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>更多背景 URL</short>
+        <long>可以取得更多桌面背景的 URL。如果設定為空字串則不會顯示連結。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/control-center/appearance/more_themes_url</key>
+      <applyto>/apps/control-center/appearance/more_themes_url</applyto>
+      <owner>control-center</owner>
+      <type>string</type>
+      <default>http://art.gnome.org/themes/</default>
+      <locale name="C">
+        <short>More themes URL</short>
+        <long>
+          URL for where to get more desktop themes.  If set to an
+          empty string the link will not appear.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>مسار جلب المزيد من السمات</short>
+        <long>مسار لجلب المزيد من سمات سطح المكتب. إذا ترك فارغا لن يظهر.</long>
+      </locale>
+
+      <locale name="as">
+        <short>অতিরিক্ত থিম প্রাপ্ত করার URL</short>
+        <long>ডেস্কটপের জন্য অতিরিক্ত থিম প্রাপ্ত করার URL। এই ক্ষেত্রে একটি ফাঁকা পংক্তি চিহ্নিত হলে লিংক প্রদর্শন করা হবে না।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>URL pa más temes</short>
+        <long>URL na qu&apos;obtener más temes pal escritoriu. Si s&apos;afita a una cadena balera, l&apos;enllaz nun apaez.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Адрес за допълнителни теми</short>
+        <long>Адрес, от който могат да се изтеглят допълнителни теми за работното място. Ако този ключ е празен низ, връзката няма да се показва.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>আরও থিমের ইউআরএল</short>
+        <long>আরও ডেক্সটপ থিম যেখানে পাওয়া যাবে তার ইউআরএল। যদি ফাঁকা স্ট্রিং হিসেবে নির্ধারণ করা থাকে তবে লিংকটি দৃশ্যমান হবে না।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>অতিরিক্ত থিম প্রাপ্ত করার URL</short>
+        <long>ডেস্কটপের জন্য অতিরিক্ত থিম প্রাপ্ত করার URL। এই ক্ষেত্রে একটি ফাঁকা পংক্তি চিহ্নিত হলে লিংক প্রদর্শন করা হবে না।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Més URL de temes</short>
+        <long>L&apos;URL des d&apos;on obtenir més temes de l&apos;escriptori. Si s&apos;estableix a una cadena buida l&apos;enllaç no apareixerà.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Més URL de temes</short>
+        <long>L&apos;URL des d&apos;on obtindre més temes de l&apos;escriptori. Si s&apos;estableix a una cadena buida l&apos;enllaç no apareixerà.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Daa çoq temalar içün URL</short>
+        <long>Daa çoq masaüstü temalarınıñ alınabilecegi URL. Boş bir tizgige tesbit etilse ilişim körülmeycek.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Adresa s dalšími motivy</short>
+        <long>URL, na kterém lze získat další motivy pracovního prostředí. Je-li nastaveno na prázdný řetězec, odkaz se nezobrazí.</long>
+      </locale>
+
+      <locale name="da">
+        <short>URL med yderligere temaer</short>
+        <long>URL hvorfra der kan hentes yderligere skrivebordstemaer. Hvis denne sættes til en tom streng, vil linket ikke blive vist.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Adresse für weitere Themen</short>
+        <long>Adresse, unter der weitere Arbeitsflächen-Themen zu finden sind. Wenn man die Zeichenkette leer lässt, erscheint kein Link.</long>
+      </locale>
+
+      <locale name="el">
+        <short>URL για περισσότερα θέματα</short>
+        <long>URL για την λήψη περισσότερων θεμάτων επιφάνειας εργασίας. Αν ορισθεί σε κενό τότε δεν θα εμφανίζεται κανένας δεσμός.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑥𐑹 𐑔𐑰𐑥𐑟 URL</short>
+        <long>URL 𐑓𐑹 𐑢𐑺 𐑑 𐑜𐑧𐑑 𐑥𐑹 𐑛𐑧𐑕𐑒𐑑𐑪𐑐 𐑔𐑰𐑥𐑟. 𐑦𐑓 𐑕𐑧𐑑 𐑑 𐑩𐑯 𐑧𐑥𐑐𐑑𐑦 𐑕𐑑𐑮𐑦𐑙 𐑞 𐑤𐑦𐑙𐑒 𐑢𐑦𐑤 𐑯𐑪𐑑 𐑩𐑐𐑽.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>More themes URL</short>
+        <long>URL for where to get more desktop themes. If set to an empty string the link will not appear.</long>
+      </locale>
+
+      <locale name="es">
+        <short>URL para más temas</short>
+        <long>URL donde obtener más temas para el escritorio. Si se establece a una cadena vacía el enlace no aparecerá.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Lisateemade URL</short>
+        <long>Töölaua lisateemade hankimise URL. Tühjaksjäetuna seda viita ei kuvata.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>URL gai gehiago</short>
+        <long>URLa mahaigaineko gai gehiago eskuratzeko. Katea hutsik uzten bada, esteka ez da agertuko.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Lisää teemoja-URL</short>
+        <long>URL, josta noudetaan lisää työpöytäteemoja. Jos tämä on tyhjä merkkijono, linkkiä ei näytetä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>URL pour plus de thèmes</short>
+        <long>URL où il est possible de récupérer plus de thèmes de bureau. Si la chaîne est vide, le lien n&apos;apparaît pas.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>URL onde obter máis temas</short>
+        <long>URL dende onde obter máis temas. Se o deixa en branco a ligazón non aparecerá.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>વધારે થીમો URL</short>
+        <long>ક્યાં વધારે ડેસ્કટોપ થીમો મળે છે તે માટે URL. જો ખાલી શબ્દમાળા માટે સુયોજિત હોય તો કડી દેખાશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>More themes URL</short>
+        <long>URL for where to get more desktop themes. If set to an empty string the link will not appear.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>अधिक प्रसंग URL</short>
+        <long>URL जहाँ से अधिक डेस्कटॉप प्रसंग पाना है. यदि रिक्त स्ट्रिंग पर सेट किया जाता है कड़ी प्रकट नहीं होगा.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>További témák URL</short>
+        <long>További asztali témák letöltésére használt URL. Ha nincs megadva, a hivatkozás nem jelenik meg.</long>
+      </locale>
+
+      <locale name="id">
+        <short>URL tema lain</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>URL temi aggiuntivi</short>
+        <long>URL della posizione da cui ottenere temi del desktop aggiuntivi. Se impostata alla stringa vuota, il collegamento non viene mostrato.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>テーマを入手できるURL</short>
+        <long>デスクトップのテーマを入手できる場所のURLです。空文字列ならば、リンクは表示されません。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಹೆಚ್ಚಿನ ಪರಿಸರ ವಿನ್ಯಾಸಗಳ URL</short>
+        <long>ಎಲ್ಲಿಂದ ಹೆಚ್ಚಿನ ಗಣಕತೆರೆ ಪರಿಸರವಿನ್ಯಾಸಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಬೇಕೊ ಅಲ್ಲಿಯ URL. ಖಾಲಿಯಾಗಿ ಇರಿಸಿದಲ್ಲಿ ಕೊಂಡಿಯು ಕಾಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>테마 다운로드 URL</short>
+        <long>데스크톱 테마를 받을 수 있는 URL. 빈 문자열이면 링크가 나타나지 않습니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Nuoroda į daugiau temų</short>
+        <long>URL, kur gauti daugiau darbo aplinkos temų. Jeigu reikšmė tuščia, ši nuoroda nebus rodoma.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>URL papildu tēmām</short>
+        <long>Tīmekļa URL, kur var iegūt vairāk darbvirsmas tēmu. Ja šeit ir tukša virkne, attiecīgā saite neparādās.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>കൂടുതല്‍ രംഗവിതാനങ്ങള്‍ക്കുള്ള യുആര്‍എല്‍</short>
+        <long>കൂടതല്‍ പണിയിട രംഗവിതാനങ്ങള്‍ ലഭ്യമാകുന്ന യുആര്‍എല്‍. ശൂന്യമായ സ്ട്രിങായി സജ്ജമാക്കിയാല്‍ ലിങ്ക് കാണുവാന്‍ സാധ്യമല്ല.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>एकापेक्षाजास्त योजनाचे URL</short>
+        <long>आणखी डेस्कटॉप योजना प्राप्त करण्यासाठी URL. रिकामे अक्षरसंच करीता सेट केल्यास दुवा आढळणार नाही.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>URL til flere tema</short>
+        
+      </locale>
+
+      <locale name="nds">
+        <short>Mehr Themen URL</short>
+        
+      </locale>
+
+      <locale name="nn">
+        <short>Adresse til fleire tema</short>
+        <long>Adresse til å finne skrivebordsdrakt. Dersom ho er sett til ei tom streng vil ikkje lenkja visast.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଅଧିକ ପ୍ରସଙ୍ଗ URL</short>
+        <long>କେଉଁଠି ଅଧିକ ଡେସ୍କଟପ ପ୍ରସଙ୍ଗ ମିଳିବ ତାହାର URL. ଯଦି କୌଣସି ଖାଲି ବାକ୍ୟଖଣ୍ଡରେ ସେଟ କରାଯାଏ ତେବେ ସଂଯୋଗଟି ଦୃଶ୍ୟମାନ ହେବ ନାହିଁ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਹੋਰ ਥੀਮ URL</short>
+        <long>URL, ਜਿੱਥੋ ਡੈਸਕਟਾਪ ਥੀਮ ਮਿਲ ਸਕਦੇ ਹਨ। ਜੇ ਇੱਕ ਖਾਲੀ ਲਾਈਨ ਦਿੱਤੀ ਤਾਂ ਲਿੰਕ ਮੌਜੂਦ ਨਹੀਂ ਰਹੇਗਾ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Więcej adresów URL motywów</short>
+        <long>Adres URL, pod jakim można uzyskać więcej motywów pulpitu. Jeśli pozostawiona zostanie pusta wartość, odnośnik się nie pojawi.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>URL de mais temas</short>
+        <long>URL de onde obter mais temas para a área de trabalho. Se definida como uma expressão vazia, não será apresentado o link.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>URL para mais temas</short>
+        <long>URL para onde obter mais temas para a área de trabalho. Se deixado em branco, o atalho não irá aparecer.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>URL pentru mai multe teme</short>
+        <long>URL-ul de la care să fie aduse mai multe teme. Dacă este lăsat gol, legătura nu va apărea.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>URL хранилища тем</short>
+        <long>URL для получения дополнительных тем рабочего стола. Если установить в пустую строку - ссылка не будет отображаться.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Naslov URL do več zbranih tem</short>
+        <long>Naslov URL do mesta, kjer je mogoče pregledati več tem namizja. V primeru, da je niz prazen, povezava ne bo prikazana.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Још адреса са темама</short>
+        <long>Адреса са које се преузимају додатне теме. Уколико оставите празно, веза се неће приказати.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Još adresa sa temama</short>
+        <long>Adresa sa koje se preuzimaju dodatne teme. Ukoliko ostavite prazno, veza se neće prikazati.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>URL för fler teman</short>
+        <long>URL där fler skrivbordsteman kan hämtas. Om inställd till en tom sträng så kommer länken inte att visas.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கூடுதல் தீம்கள் URL</short>
+        <long>எங்கு பணிமேடை தீம்களை பெறுவதற்கான URL. ஒரு வெற்று சரமாக அமைத்தால் இணைப்பு தோன்றாது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>మరిన్ని థీమ్ల URL</short>
+        <long>ఎక్కడ మరిన్ని డెస్కుటాప్ థీమ్‌లను పొందగలమో దాని URL. ఖాళీ స్ట్రింగునకు అమర్చితే లింకు కనిపించదు.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Daha fazla tema URL&apos;si</short>
+        <long>Daha fazla masaüstü teması almak için URL. Eğer boş bir dizgi ise bağ olarak görünmez.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Додаткові URL з темами</short>
+        <long>URL за яким можна отримати додаткові теми. Якщо вказано порожній рядок, посилання не буде виводитись.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>更多主题网址</short>
+        <long>获得更多桌面主题的网址。如果设定为空字符串，那么链接将不会出现。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>更多佈景主題 URL</short>
+        <long>可以取得更多桌面主題的 URL。如果設定為空字串則不會顯示連結。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>更多佈景主題 URL</short>
+        <long>可以取得更多桌面主題的 URL。如果設定為空字串則不會顯示連結。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/control-center/network/current_location</key>
+      <applyto>/apps/control-center/network/current_location</applyto>
+      <owner>control-center</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Current network location</short>
+        <long>
+          Set this to your current location name.  This is used to
+          determine the appropriate network proxy configuration.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>مكان الشبكة الحالي</short>
+        <long>يحدد هذا اسما لمكانك الحالي. يستخدم هذا لتحديد إعدادات وسيط الشبكة المناسبة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>নেটওয়ার্কের বর্তমান অবস্থান</short>
+        <long>বর্তমান অবস্থানের নাম হিসাবে এটি ধার্য করা হয়। নেটওয়ার্ক প্রক্সির যথাযত কনফিগারেশন সনাক্ত করার জন্য এটি প্রয়োগ করা হয়।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Allugamientu de la rede actual</short>
+        <long>Afítalo al nome del so allugamientu actual. Úsase pa determinar la configuración afayadiza del proxy de rede</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Текущо местоположение</short>
+        <long>Задайте да е текущото ви местоположение. Използва се за определянето на подходящ сървър-посредник.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>বর্তমান নেটওয়ার্কের অবস্থান</short>
+        <long>এটাকে আপনার বর্তমান অবস্থান হিসেবে নির্ধারণ করুন। যথার্থ নেটওয়ার্কের প্রক্সি কনফিগারেশন নিরূপন করতে এটি ব্যবহৃত হয়।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>নেটওয়ার্কের বর্তমান অবস্থান</short>
+        <long>বর্তমান অবস্থানের নাম হিসাবে এটি ধার্য করুন। নেটওয়ার্ক প্রক্সির যথাযত কনফিগারেশন সনাক্ত করার জন্য এটি প্রয়োগ করা হয়।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Ubicació de la xarxa actual</short>
+        <long>Establiu-ho al nom de la ubicació actual. S&apos;utilitza per determinar la configuració apropiada del servidor intermediari de xarxa.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Ubicació de la xarxa actual</short>
+        <long>Establiu-ho al nom de la ubicació actual. S&apos;utilitza per determinar la configuració apropiada del servidor intermediari de xarxa.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Ağımdaki şebeke qonumı</short>
+        <long>Bunı ağımdaki qonum ismiñizge tesbit etiñiz. Bu, munasip şebeke proksisi yapılandırmasını belgilemek içün qullanılır.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Vytvořit síťové umístění</short>
+        <long>Toto nastavte na název aktuálního umístění. Používá se k určení nastavení příslušné síťové proxy.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Aktuelle netværksplacering</short>
+        <long>Sæt denne til dit aktuelle stednavn. Dette bruges til at bestemme den rigtige indstilling af netværksproxy.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Aktueller Ort im Netzwerk</short>
+        <long>Legen Sie hier den aktuellen Ortsnamen fest. Er wird zur Bestimmung der richtigen Konfiguration des Netzwerk-Proxys verwendet.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Τρέχουσα τοποθεσία δικτύου</short>
+        <long>Προσθέστε αυτό στο όνομα της τρέχουσας τοποθεσίας σας. Αυτό χρησιμοποιείται για τον καθορισμό της ρύθμισης του διαμεσολαβητή δικτύου.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑒𐑳𐑮𐑩𐑯𐑑 𐑯𐑧𐑑𐑢𐑻𐑒 𐑤𐑴𐑒𐑱𐑖𐑩𐑯</short>
+        <long>𐑕𐑧𐑑 𐑞𐑦𐑕 𐑑 𐑿𐑼 𐑒𐑳𐑮𐑩𐑯𐑑 𐑤𐑴𐑒𐑱𐑖𐑩𐑯 𐑯𐑱𐑥. 𐑞𐑦𐑕 𐑦𐑟 𐑿𐑟𐑛 𐑑 𐑛𐑦𐑑𐑻𐑥𐑦𐑯 𐑞 𐑩𐑐𐑮𐑴𐑐𐑮𐑦𐑩𐑑 𐑯𐑧𐑑𐑢𐑻𐑒 𐑐𐑮𐑪𐑒𐑕𐑦 𐑒𐑩𐑯𐑓𐑦𐑜𐑘𐑼𐑱𐑖𐑩𐑯.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Current network location</short>
+        <long>Set this to your current location name. This is used to determine the appropriate network proxy configuration.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Ubicación de red actual</short>
+        <long>Establézcalo al nombre de su ubicación actual. Se usa para determinar la configuración apropiada del proxy de red.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Praegune võrguasukoht</short>
+        <long>Määra siia oma praeguse asukoha nimi. Seda kasutatakse sobilike proksisätete tuvastamiseks.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Uneko sarearen kokalekua</short>
+        <long>Ezarri hau zure uneko kokalekuaren izenarekin. Sareko proxy-aren konfigurazio egokia zehazteko erabiltzen da hau.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Nykyinen verkkosijainti</short>
+        <long>Aseta tähän nykyisen sijaintisi nimi. Tätä käytetään määrittämään soveltuva verkkon välipalvelinasetus.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Emplacement réseau actuel</short>
+        <long>À définir comme votre nom d&apos;emplacement actuel. Sert à déterminer la configuration réseau appropriée du serveur mandataire.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Localización de rede actual</short>
+        <long>Estabeleza isto ao nome da súa localización actual. Isto é empregado para determinar a configuración de proxy de rede axeitada.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>હાલનું નેટવર્ક સ્થાન</short>
+        <long>તમારા હાલનાં સ્થાન નામમાં આને સુયોજિત કરો. આ અનૂકુળ નેટવર્ક પ્રોક્સી રૂપરેખાંકનને નક્કી કરવા માટે વપરાયેલ છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Current network location</short>
+        <long>Set this to your current location name. This is used to determine the appropriate network proxy configuration.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>मौजूदा संजाल स्थान</short>
+        <long>अपने मौजूदा स्थान नाम में इसे सेट करें. यह उचित संजाल प्रॉक्सी विन्यास को निर्धारित करने के लिए प्रयुक्त होता है.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Jelenlegi hálózati hely</short>
+        <long>Állítsa ezt a jelenlegi hely nevére. Ezt a megfelelő proxybeállítások meghatározására használja a program.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Lokasi jaringan kini</short>
+        <long>Tata ini ke nama lokasi Anda kini. Ini dipakai untuk menentukan konfigurasi proksi jaringan yang tepat.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Postazione di rete attuale</short>
+        <long>Impostare questa chiave al nome dell&apos;attuale postazione. Viene usato per determinare la configurazione appropriata per il proxy di rete.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>現在のネットワークの場所</short>
+        <long>これを現在の場所の名前にセットしてください。適切なネットワーク・プロキシの設定を決定するのに使われます。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಪ್ರಸಕ್ತ ಜಾಲಬಂಧ ಸ್ಥಳ</short>
+        <long>ಇದನ್ನು ನಿಮ್ಮ ಪ್ರಸಕ್ತ ಸ್ಥಳದ ಹೆಸರಿಗೆ ಹೊಂದಿಸಿ. ಇದನ್ನು ಸೂಕ್ತವಾದ ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆಯನ್ನು ನಿರ್ಧರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>현재 네트워크 위치</short>
+        <long>현재 위치의 이름입니다. 이 설정은 네트워크 프록시를 맞추는데 이용됩니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Dabartinė vieta tinkle</short>
+        <long>Nustatykite tai į jūsų dabartinį vietovardį. Tai yra naudojama siekiant nustatyti atitinkamą tarpinio tinklo serverio konfigūraciją.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Pašreizējā tīkla vieta</short>
+        <long>Iestatiet šeit savas vietas nosaukumu. Tas tiks izmantots, lai noteiktu aptuveno starpniekservera konfigurāciju.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>നിലവിലുള്ള നെറ്റ്‌വര്‍ക്ക് സ്ഥാനം</short>
+        <long>ഇതു് നിങ്ങളുടെ നിലവിലുള്ള സ്ഥാന പേരിലേക്ക് സജ്ജമാക്കുക. ശരിയായ നെറ്റ്‌വര്‍ക്ക് പ്രോക്സി ക്രമീകരണം കണ്ടുപിടിക്കന്നതിനായി ഇതുപയോഗിക്കുന്നു.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>सध्याचे नेटवर्क ठिकाण</short>
+        <long>यांस सध्याच्या ठिकाण नावाशी सेट करा. याचा वापर योग्य नेटवर्क प्रॉक्सी संयोजना ओळखण्यासाठी केला जातो.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Aktiv nettverkslokasjon</short>
+        
+      </locale>
+
+      <locale name="nds">
+        <short>Aktueller Netwarkort</short>
+        
+      </locale>
+
+      <locale name="nn">
+        <short>Noverande nettverksadresse</short>
+        <long>Set denne til ditt noverande lokasjonsnamn. Denne vert brukt til å bestemma rett mellomtenarinnstilling.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ପ୍ରଚଳିତ ନେଟୱର୍କ ଅବସ୍ଥାନ</short>
+        <long>ଏହାକୁ ଆପଣଙ୍କର ପ୍ରଚଳିତ ଅବସ୍ଥାନ ନାମରେ ସେଟ କରନ୍ତୁ। ଏହା ସଠିକ ନେଟୱର୍କ ପ୍ରକ୍ସି ସଂରଚନାକୁ ନିର୍ଦ୍ଧାରଣ କରିବା ପାଇଁ ବ୍ୟବହାର ହୋଇଥାଏ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਮੌਜੂਦਾ ਨੈੱਟਵਰਕ ਟਿਕਾਣਾ</short>
+        <long>ਆਪਣੇ ਮੌਜੂਦਾ ਨਾਂ ਲਈ ਇਹ ਸੈੱਟ ਕਰੋ। ਇਸ ਨੂੰ ਨੈੱਟਵਰਕ ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਦਾ ਅੰਦਾਜ਼ਾ ਲਾਉਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Obecne położenie sieciowe</short>
+        <long>Należy ustawić tę wartość na obecną nazwę położenia. Jest używane do określania odpowiedniej konfiguracji pośrednika sieciowego.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Localização de rede actual</short>
+        <long>Defina esta chave para o nome da sua localização actual. É utilizada para determina a configuração adequada de proxy de rede.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Localização da rede atual</short>
+        <long>Defina isto para o nome de sua localização atual. Isto é usado para determinar a configuração do proxy de rede apropriada.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Locația de rețea curentă</short>
+        <long>Scrieți numele locației curente de rețea. Această valoare este folosită pentru a determina configurația potrivită pentru proxyul de rețea.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Текущее расположение в сети</short>
+        <long>Установить название вашего текущего местоположения.  Оно используется для определения соответствующей настройки прокси-сервера.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Trenutno omrežno mesto</short>
+        <long>Določite vrednost na trenutno ime mesta. Možnost se uporablja za določevanje ustreznih nastavitev posredovalnega omrežja.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Тренутно мрежно место</short>
+        <long>Поставите ово на назив ваше тренутне локације. Она се користи за одређивање подешавања мрежног посредника.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Trenutno mrežno mesto</short>
+        <long>Postavite ovo na naziv vaše trenutne lokacije. Ona se koristi za određivanje podešavanja mrežnog posrednika.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktuell nätverksplats</short>
+        <long>Ställ in detta till namnet på din aktuella plats. Detta används för att bestämma lämplig konfiguration för nätverksproxyserver.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>நடப்பு பிணைய இடம்</short>
+        <long>உங்கள் நடப்பு இட பெயருக்கு இதனை அமை. இது தொடர்புடைய பிணைய ப்ராக்ஸி கட்டமைப்பை வரையறுக்க பயன்படுகிறது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ప్రస్తుత నెట్వర్కు స్థానము</short>
+        <long>దీనిని మీ ప్రస్తుత స్థానము నామమునకు అమర్చుము. సరైన నెట్వర్కు ప్రోక్సీ ఆకృతీకరణను నిర్ణయించుటకు యిది వుపయోగించబడింది.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Mevcut ağ konumu</short>
+        <long>Bunu mevcut konum adınıza ayarlayın. Bu uygun ağ vekil yapılandırmasını belirlemek için kullanılır.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Поточна мережна адреса</short>
+        <long>Вкажіть поточне розташування у мережі. Це значення використовується для визначення відповідної конфігурації проксі-сервера. </long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>当前网络位置</short>
+        <long>设定这个为您当前的位置名称。这将在检测正确的网络代理配置时有用。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>目前的網絡位置</short>
+        <long>將此項設定為你目前的位置名稱。這是用來決定合適的網絡代理伺服器組態。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>目前的網路位置</short>
+        <long>將此項設定為您目前的位置名稱。這是用來決定合適的網路代理伺服器組態。</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>
+

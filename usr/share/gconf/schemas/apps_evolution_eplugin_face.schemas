@@ -1,0 +1,213 @@
+<gconfschemafile>
+  <schemalist>
+
+    <schema>
+      <key>/schemas/apps/evolution/eplugin/face/insert_by_default</key>
+      <applyto>/apps/evolution/eplugin/face/insert_by_default</applyto>
+      <owner>org.gnome.evolution.plugins.face</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Insert Face picture by default</short>
+        <long>Whether insert Face picture to outgoing messages by default. The picture should be set before checking this, otherwise nothing happens.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Вмъкване на портретна снимка</short>
+        <long>Дали по подразбиране да се вмъква портретна снимка в изходящите писма. Преди да отбележите тази опция, снимката трябва да бъде избрана.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ব্যবহারকারী &apos;%1$s&apos; আপনার সাথে একটি ফোল্ডার যৌথরূপে ব্যবহার করতে ইচ্ছুক
+
+&apos;%2$s&apos; থেকে প্রাপ্ত বার্তা
+
+
+%3$s
+
+
+যৌথ ব্যবহারের ফোল্ডারটি ইনস্টল করার জন্য &apos;পরবর্তী&apos; টিপুন</short>
+        <long>ব্যবহারকারী &apos;%1$s&apos; আপনার সাথে একটি ফোল্ডার যৌথরূপে ব্যবহার করতে ইচ্ছুক
+
+&apos;%2$s&apos; থেকে প্রাপ্ত বার্তা
+
+
+%3$s
+
+
+যৌথ ব্যবহারের ফোল্ডারটি ইনস্টল করার জন্য &apos;পরবর্তী&apos; টিপুন</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Afegeix una foto de la cara de manera predeterminada</short>
+        <long>Si de manera predeterminada s&apos;ha d&apos;inserir una imatge de cara als missatges que s&apos;enviïn. La imatge s&apos;haurà d&apos;establir abans de seleccionar aquesta opció, atès que en cas contrari no s&apos;utilitzarà.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Afig una foto de la cara de manera predeterminada</short>
+        <long>Si de manera predeterminada s&apos;ha d&apos;inserir una imatge de cara als missatges que s&apos;envien. La imatge s&apos;haurà d&apos;establir abans de seleccionar esta opció, atès que en cas contrari no s&apos;utilitzarà.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Standardně vkládat obrázek obličeje</short>
+        <long>Zda standardně vkládat obrázek obličeje do odchozích zpráv. Obrázek musí být před zatrhnutím tohoto nastaven, jinak se nic nestane.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Indsæt ansigtsbillede som standard</short>
+        <long>Hvorvidt et ansigtsbillede som standard skal tilføjes udgående breve. Billedet bør indstilles før dette vælges, ellers vil der ikke ske noget.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Porträtfoto standardmäßig einfügen</short>
+        <long>Legt fest, ob ein Porträtfoto in ausgehende Nachrichten eingefügt wird. Das Bild sollte eingerichtet werden, bevor diese Funktion aktiviert wird, ansonsten passiert nichts.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Να εισάγεται πάντα η εικόνα προσώπου</short>
+        <long>Εάν θα εισάγεται η εικόνα προσώπου στα εξερχόμενα μηνύματα ως προεπιλογή. Η εικόνα πρέπει να οριστεί πριν ενεργοποιηθεί αυτό εδώ, διαφορετικά δεν θα συμβεί τίποτα.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑦𐑯𐑕𐑻𐑑 𐑓𐑱𐑕 𐑐𐑦𐑒𐑗𐑼 𐑚𐑲 𐑛𐑦𐑓𐑷𐑤𐑑</short>
+        <long>𐑢𐑧𐑞𐑼 𐑦𐑯𐑕𐑻𐑑 𐑓𐑱𐑕 𐑐𐑦𐑒𐑗𐑼 𐑑 𐑬𐑑𐑜𐑴𐑦𐑙 𐑥𐑧𐑕𐑦𐑡𐑩𐑟 𐑚𐑲 𐑛𐑦𐑓𐑷𐑤𐑑. 𐑞 𐑐𐑦𐑒𐑗𐑼 𐑖𐑫𐑛 𐑚𐑰 𐑕𐑧𐑑 𐑚𐑦𐑓𐑹 𐑗𐑧𐑒𐑦𐑙 𐑞𐑦𐑕, 𐑳𐑞𐑼𐑢𐑲𐑟 𐑯𐑳𐑔𐑦𐑙 𐑣𐑨𐑐𐑩𐑯𐑟.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Insert Face picture by default</short>
+        <long>Whether insert Face picture to outgoing messages by default. The picture should be set before checking this, otherwise nothing happens.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Insertar imagen de rostro de forma predeterminada</short>
+        <long>Indica si se debe insertar una imagen de rostro a los correos salientes de forma predeterminada. La imagen debería establecerse antes de seleccionar esto, de otra forma no sucederá nada.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Näopildi vaikimisi sisestamine</short>
+        <long>Kas väljuvatele sõnumitele peaks vaikimisi näopildi lisama. Enne selle märkimist peaks pilt olema määratud või midagi ei juhtu.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Txertatu aurpegiaren argazkia lehenetsi gisa</short>
+        <long>Irteerako mezuetan aurpegiaren argazkia lehenetsi gisa txertatzea ala ez. Hau aktibatu aurretik argazkia ezarri beharko litzateke, bestela ez baita ezer gertatuko.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Insérer une image portrait par défaut</short>
+        <long>Indique s&apos;il faut insérer par défaut une image portrait aux messages sortants. L&apos;image doit être définie avant d&apos;activer ce paramètre, sinon rien ne se produit.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Inserir a imaxe da cara predefinida</short>
+        <long>Indica se inserir unha imaxe de cara ás mensaxes saíntes de forma predefinida. A imaxe debe estabelecerse antes de activar isto, doutro xeito non acontecerá nada.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Insert Face picture by default</short>
+        <long>Whether insert Face picture to outgoing messages by default. The picture should be set before checking this, otherwise nothing happens.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Arckép beszúrása alapértelmezésben</short>
+        <long>Arckép beszúrása a kimenő üzenetekbe alapértelmezésben. Ezt a képet ezen szolgáltatás engedélyezése előtt kell beállítani, különben nem történik semmi.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Inserire immagine &quot;faccia&quot; in modo predefinito</short>
+        <long>Indica se inserire in modo predefinito ai messaggi in uscita una immagine &quot;faccia&quot;. L&apos;immagine dovrebbe essere stata impostata prima di attivare questa opzione, altrimenti non funzionerà.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>얼굴 그림 기본값으로 포함</short>
+        <long>보내는 메시지에 얼굴 그림을 기본으로 포함할지 여부. 그림은 미리 지정해 놓아야 합니다. 그림을 지정하지 않았으면 아무 일도 하지 않습니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įterpti veido paveikslėlį, jei nenurodyta kitaip</short>
+        <long>Ar įterpti veido paveikslėlį išsiunčiamuose laiškuose, jei nenurodyta kitaip. Prieš pažymint šią parinktį turėtų būti nustatytas paveikslėlis, antraip nieko nenutiks.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Ievietot sejas bildi pēc noklusējuma</short>
+        <long>Vai izejošajām vēstulēm pievienot sejas bildi pēc noklusējuma. Pirms šī ieķeksēšanas vajadzētu iestatīt bildi, citādi nekas nenotiks.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Sett inn ansiktsbilde som forvalg</short>
+        
+      </locale>
+
+      <locale name="pa">
+        <short>ਮੂਲ ਰੂਪ ਵਿੱਚ ਚਿਹਰਾ ਤਸਵੀਰ ਲਾਓ</short>
+        <long>ਕੀ ਭੇਜੇ ਜਾ ਰਹੇ ਸੁਨੇਹਿਆਂ ਵਿੱਚ ਚਿਹਰਾ ਤਸਵੀਰ ਮੂਲ ਰੂਪ ਵਿੱਚ ਜੋੜਨੀ ਹੈ। ਤਸਵੀਰ ਨੂੰ ਇਹ ਕਲਿੱਕ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ, ਨਹੀਂ ਤਾਂ ਕੁਝ ਨਹੀਂ ਹੋਵੇਗਾ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Domyślnie wstawia obraz twarzy</short>
+        <long>Określa, czy domyślnie wstawiać do wychodzących wiadomości obraz twarzy. Obraz powinien być ustawiony przed zaznaczeniem tej opcji. W przeciwnym wypadku przestawianie opcji nie ma skutku.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Inserir por omissão imagem de Face</short>
+        <long>Se inserir ou não por omissão a imagem de Face nas mensagens enviadas. A imagem tem de ser definida antes de activar esta opção, caso contrário não acontece nada.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Inserir imagem da face por padrão</short>
+        <long>Inserir imagem da face para mensagens de saída por padrão. A foto deve ser definida antes de definir esta configuração, ou então nada irá acontecer.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Introdu implicit poza personală</short>
+        <long>Dacă să fie introdusă implicit poza personală mesajelor trimise. Înainte de a defini această opțiune va trebui să definiți o poză, altfel nu se va întâmpla nimic.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Вставлять по умолчанию личную фотографию</short>
+        <long>Вставлять ли по умолчанию изображение лица в исходящие сообщения. Перед этим необходимо установить изображение, иначе ничего не произойдёт.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Privzeto vstavi sličico obraza odhajajočemu sporočilu.</short>
+        <long>Ali naj se privzeto pripne sličica obraza odhajaočemu sporočilu. Sliko je treba določiti pred izbiro te možnosti.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Подразумевано умеће слику контакта</short>
+        <long>Да ли да подразумевано умеће слику контакта у поруке. Пре овога је потребно поставити слику, иначе се ништа неће десити.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Podrazumevano umeće sliku kontakta</short>
+        <long>Da li da podrazumevano umeće sliku kontakta u poruke. Pre ovoga je potrebno postaviti sliku, inače se ništa neće desiti.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முன்னிருப்பாக  முகப்படத்தை சொருகுக</short>
+        <long>முன்னிருப்பாக வெளி செல்லும் செய்திகளுடன் முக படத்தை அனுப்புவதா. இதை தேர்வு செய்யுமுன் படத்தை அனுப்பி இருக்க வேண்டும். இல்லையேல் ஏதும் நிகழாது.</long>
+      </locale>
+
+      <locale name="th">
+        <short>แทรกรูปถ่ายโดยปริยาย</short>
+        <long>กำหนดว่าจะแทรกรูปถ่ายในข้อความขาออกโดยปริยายหรือไม่ ควรกำหนดรูปถ่ายก่อนเปิดตัวเลือกนี้ มิฉะนั้น ก็จะไม่มีผลอะไร</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Типово вставляти особисту фотографію</short>
+        <long>Чи вставляти типово зображення обличчя у повідомлення. Перед цим треба встановити зображення, інакше нічого не відбуватиметься.</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>預設插入大頭照</short>
+        <long>是否預設在外寄郵件中插入大頭照。在核取這個選項之前必須先設定好相片，否則不會有任何效果。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>預設插入大頭照</short>
+        <long>是否預設在外寄郵件中插入大頭照。在核取這個選項之前必須先設定好相片，否則不會有任何效果。</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

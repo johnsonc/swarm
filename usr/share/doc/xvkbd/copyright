@@ -1,0 +1,34 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=121
+Upstream Author: Tom Sato <VEF00200@nifty.ne.jp>
+Packaged-By: Francois Gurin <matrix@spic.net>
+Packaged-Date: Mon, 10 Dec 2001 13:11:03 -0500.
+Original-Source-Location: http://member.nifty.ne.jp/tsato/xvkbd/
+
+Files: findwidget.c, resources.h
+Copyright: Copyright (C) 2000 by Tom Sato <VEF00200@nifty.ne.jp>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or any later version.
+
+Files: xvkbd.c
+Copyright: Copyright (C) 2000-2006 by Tom Sato <VEF00200@nifty.ne.jp>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or any later version.
+
+Files: debian/*
+Copyright:
+ Copyright (C) 2001-2006 Francois Gurin <matrix@spic.net>
+ Copyright (C) 2008 Peter Pentchev <roam@ringlet.net>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or any later version.
+
+On Debian systems, the complete text of the GNU General Public License
+can be found in file "/usr/share/common-licenses/GPL".

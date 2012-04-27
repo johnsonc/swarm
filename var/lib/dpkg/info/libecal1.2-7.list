@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libecal-1.2.so.7.2.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libecal1.2-7
+/usr/share/doc/libecal1.2-7/NEWS.gz
+/usr/share/doc/libecal1.2-7/TODO
+/usr/share/doc/libecal1.2-7/changelog.Debian.gz
+/usr/share/doc/libecal1.2-7/changelog.gz
+/usr/share/doc/libecal1.2-7/README
+/usr/share/doc/libecal1.2-7/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libecal1.2-7
+/usr/lib/libecal-1.2.so.7

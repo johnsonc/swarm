@@ -1,0 +1,24 @@
+logrotate state -- version 2
+"/var/log/ConsoleKit/history" 2015-5-8
+"/var/log/syslog" 2015-5-19
+"/var/log/dpkg.log" 2015-5-18
+"/var/log/auth.log" 2015-5-18
+"/var/log/apt/term.log" 2015-5-18
+"/var/log/cups/error_log" 2015-5-15
+"/var/log/apt/history.log" 2015-5-18
+"/var/log/alternatives.log" 2010-3-16
+"/var/log/debug" 2015-5-18
+"/var/log/mail.log" 2015-5-7
+"/var/log/kern.log" 2015-5-18
+"/var/log/cups/access_log" 2015-5-6
+"/var/log/aptitude" 2015-4-7
+"/var/log/wtmp" 2015-5-8
+"/var/log/daemon.log" 2015-5-18
+"/var/log/mail.warn" 2015-5-7
+"/var/log/btmp" 2015-5-8
+"/var/log/lpr.log" 2015-5-7
+"/var/log/mail.err" 2015-5-7
+"/var/log/user.log" 2015-5-18
+"/var/log/mail.info" 2015-5-7
+"/var/log/cron.log" 2015-5-7
+"/var/log/messages" 2015-5-18

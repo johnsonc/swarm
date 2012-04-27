@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="show_backup_files">
+						<local_schema>
+							<longdesc>Ingeval waor, waere backup besjtenj wie gemaak door Emacs getuind. Noe waere allein dokkemènter op eine tilde (~) gezeen es backup besjtenj.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Naam van papeerkörf-piktogram op wirkblaad">
+							<longdesc>Deze naam kèn ingesjtèld waere est geer eine aangepasde naam wilt veur de verwiezing nao &apos;t papeerkörf-piktogram op &apos;t wirkblaad.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Naam van persoenlike map-piktogram op wirkblaad">
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Papeerkörf-piktogram zichbaar op wirkblaad">
+							<longdesc>Ingeval waor, weurt ein piktogram mit ein koppeling nao de papeerkörf op &apos;t beroblaad gezat.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Persoenlike map-piktogram zichbaar op wirkblaad">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_zoom_level">
+						<local_schema>
+							<longdesc>Sjtanderd zoomfaktor van liesweergaaf</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Sorteerresem ómdrieje in nuuj vinsters">
+							<longdesc>Ingeval waor, waere besjtenj in nuuj vinsters gesorteerd in ómgekierde resem. B.v., wen zie gesorteerd zeen van &quot;a&quot; nao &quot;z&quot;, waere zie gesorteerd van &quot;z&quot; nao &quot;a&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Sjtanderd sorteerresem">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema>
+							<longdesc>Sjtanderd zoomfactor van piktogramweergaaf</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_use_manual_layout">
+						<local_schema>
+							<longdesc>Ingeval waor, gebroeke nuuj vinsters sjtanderd handjmesige opmaak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Sorteerresem ómdrieje in nuuj vinsters">
+							<longdesc>Ingeval waor, waere besjtenj in nuuj vinsters gesorteerd in ómgekierde resem. B.v., wen zie gesorteerd zeen van &quot;a&quot; nao &quot;z&quot;, waere zie gesorteerd van &quot;z&quot; nao &quot;a&quot;; wen zie gesorteerd zeen nao gruutde, waere zie aafloupend in plaats van oploupend gesorteerd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Sjtanderd sorteerresem">
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Lies van mäögelike biesjrifte bie piktogramme">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Ziejpeniel-weergaaf">
+							<longdesc>De ziejpenielweergaaf veur in nuuj geäöpende vinsters te tuine.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Sjtatusbalk tuine in nuuj vinsters">
+							<longdesc>Ingeval waor, is bie nuuj geäöpende vinsters de sjtatusbalk zichbaar</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="lokasiebalk tuine in nuuj vinsters">
+							<longdesc>Ingeval waor, höbbe nuuj geäöpende vinsters ein zichbare lokasiebalk.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Wirkbalk tuine in nuuj vinsters">
+							<longdesc>Ingeval waor, is bie nuuj geäöpende vinsters de getuugbalk zichbaar</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Sjtanderd mapweergaaf">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Sjtanderd ziejpeniel-achtergróndjbesjtandjnaam">
+							<longdesc>Besjtandjnaam veur sjtanderd ziejpeniel-achtergróndj. Allein gebroek wen side_pane_background_set waor is.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Sjtanderd ziejpeniel-achtergróndjkleur">
+							<longdesc>Besjtandjnaam veur sjtanderd ziejpeniel-achtergróndj. Allein gebroek wen side_pane_background_set waor is.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Aangepasde ziejpeniel-achtergróndjset">
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Sjtanderd achtergróndjbesjtandjnaam">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Sjtanderd achtergróndjkleur">
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Wirkblaad-booksjtaaftiep">
+							<longdesc>De booksjtaaftiepómsjrieving veur de piktogramme op &apos;t wirkblaad.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Nautilus zörg veur &apos;t teikene van &apos;t wirkblaad">
+						</local_schema>
+					</entry>
+					<entry name="thumbnail_limit">
+						<local_schema short_desc="Maksimum aafbiljingsgruutde veur verkleind tuine">
+							<longdesc>Aafbiljinge groeter es dees gruutde (in bytes) waere neet verkleind getuind. D&apos;n aafzich hievan is &apos;t veurkómme van te lange laajtieje of &apos;t gebroek van te väöl ónthaud veur &apos;t laje van deze te groete aafbiljinge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_image_thumbnails">
+						<local_schema short_desc="Wienie miniature van aafbiljingsbesjtenj te tuine">
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Huijig Nautilus-tema (verauwerd)">
+							<longdesc>Naam van &apos;t te gebroeke Nautilus-tema. Dit is verauwerd sins Nautilus 2.2. Gebroek esuchbleef &apos;t piktogramtema in plaats daovan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="Waat te doon mit oetveurbare teksbesjtenj bie aktivering">
+							<longdesc>Waat te doon mit oetveurbare teksbesjtenj bie aktivering (inkel- of döbbelklik). Mäögelike waerdes zeen &quot;sjtarte&quot; veur ze es programme te sjtarte, &quot;vraoge&quot; veur via ein dialoog te vraoge waat te doon, en &quot;tuine&quot; veur ze es teksbesjtenj te tuine.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="click_policy">
+						<local_schema>
+							<longdesc>Mäögelike waerdes zeen &quot;single&quot; veur besjtenj mit ein inkele klik te sjtarte, of &quot;double&quot; veur zie mit ein döbbelklik te stjarte.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Wienie tekssjtaal in piktogramme te tuine">
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema>
+							<longdesc>Ingeval waor, haet Nautilus de mäögelikheid eur toe te sjtaon det besjtenj sebiet eweggedaon waere, zónger zie iers in de papeerkörf te sjmiete. Dees toepassing kèn gevaerlik zeen, pas hiemit dus op.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="unix_time">
+						<local_schema short_desc="UNIX-tied gebroeke">
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Oer-formaat">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="UTC gebroeke">
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Datem tuine in eine sjwevende tip">
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Tied tuine inkluzief sekónde">
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Oer-formaat">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="group_windows">
+						<local_schema short_desc="Wen vinsters gegróppeerd waere">
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Tuin vinsters van alle wirkblajer">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Kwinkele in vertikale peniele">
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Poes per bildje">
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="&apos;t animasiepiktogram van de vèsj">
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="De naam van de vèsj">
+							<longdesc>Eine vèsj zónger naam is äörtelik saai. Geuf &apos;t bieske ei naam veur &apos;t get mie laeve te gaeve.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="web">
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Javaskrip gebroeke">
+						</local_schema>
+					</entry>
+					<entry name="allow_popups">
+						<local_schema short_desc="Popups toesjtaon">
+							<longdesc>Wèbpagina&apos;s toesjtaon óm nuuj vinsters te äöpene mit javaskrip (wen javaskrip gebroek weurt).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cookie_accept">
+						<local_schema short_desc="Cookie akseptere">
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Sjpräök">
+							<longdesc>Veurkeurssjpräök, twielètterige kodes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cache_size">
+						<local_schema short_desc="Sjiefbuffergruutde">
+						</local_schema>
+					</entry>
+					<entry name="default_font_type">
+						<local_schema short_desc="Sjtanderd booksjtaaftiep">
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema short_desc="sjtanderdkodering">
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="Eige booksjtaaftiep gebroeke">
+							<longdesc>Gebroek eige booksjtaaftiep i.p.v door dokkemènt aangegaeve booksjtaaftiep.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="Eige kleure gebroeke">
+							<longdesc>Eige kleure gebroeke i.p.v door dokkemènt aangegaeve kleure.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="print_page_url">
+						<local_schema short_desc="Of &apos;t adres van de pagina moot waere aafgedrök in de kopteks.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="show_statusbar">
+						<local_schema short_desc="Sjtanderd de sjtatusbalk tuine">
+						</local_schema>
+					</entry>
+					<entry name="show_bookmarks_bar">
+						<local_schema short_desc="Sjtanderd de blaadwiezerwirkbalke tuine">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbars">
+						<local_schema short_desc="Sjtanderd de wirkbalke tuine">
+						</local_schema>
+					</entry>
+					<entry name="middle_click_open_url">
+						<local_schema short_desc="Ein middelste moesklik op &apos;t huidsjirm zal de wèbpagina die op &apos;t klembord sjteit äöpene.">
+							<longdesc>Ein middelste moesklik op &apos;t huidsjirm zal de wèbpagina die op &apos;t klembord sjteit äöpene.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Sjtartpagina">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

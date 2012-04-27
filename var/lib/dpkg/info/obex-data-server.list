@@ -1,0 +1,4 @@
+/etc
+/etc/obex-data-server
+/etc/obex-data-server/capability.xml
+/etc/obex-data-server/imaging_capabilities.xml

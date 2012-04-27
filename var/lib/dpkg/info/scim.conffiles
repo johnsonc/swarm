@@ -1,0 +1,4 @@
+/etc/scim/global
+/etc/scim/config
+/etc/X11/xinit/xinput.d/scim
+/etc/X11/xinit/xinput.d/scim-immodule

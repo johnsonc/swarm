@@ -1,0 +1,43 @@
+GNOME Utilities - "God's Dice"
+===============================================================================
+Version: 2.30.0
+
+GNOME Utilities for the GNOME 2.30 Desktop contains the following -
+
+	gnome-system-log	[logview]
+	gnome-search-tool	[gseachtool]
+	gnome-dictionary	[gnome-dictionary]
+	gnome-screenshot	[gnome-screenshot]
+	baobab                  [baobab]
+
+Requirements -
+
+	intltool	>= 0.40.0
+	gnome-common	>= 2.3.0
+	glib		>= 2.20.0
+        gio             >= 2.16.0
+	gtk+            >= 2.17.0
+	libpanel-applet >= 2.13.4
+	libgtop         >= 2.12.0
+	gconf
+        libcanberra-gtk >= 0.4
+
+
+The following configure flags can be used -
+
+  --enable-zlib                   Enable ZLib support for Logview [default=yes]
+  --with-grep                     Specify the path to the grep
+                                  command [default=find it ourselves]
+  --enable-debug                  Enable debug messages [default=no]
+
+Installation -
+
+See the file 'INSTALL'
+
+How to report bugs -
+
+See the file 'BUGS'
+
+How to contribute -
+
+See the file 'HACKING'

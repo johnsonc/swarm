@@ -1,0 +1,1224 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Window Manager">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Tipo sfumadure colôr">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Colôr secondari">
+							<longdesc>Colôr a gjestre o in bas cuant ch&apos;a si dopre un gradient, opûr il colôr pa tinte unide.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Colôr primari">
+							<longdesc>Colôr in alt o a bande çampe cuant ch&apos;a si dopre un gradient, opûr il colôr pa tinte unide.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Opacitât da l&apos;imagjine">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Nom dal file di imagjine">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opzions da l&apos;imagjine">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Disegne fondâl dal desktop">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Teme icone dai files">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Disabilite se doi botons a son fracâts insiemit.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Interval minimo in milliseconds">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Ritart iniziâl in milliseconds">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Trop ch&apos;a dure l&apos;acelerazion in milliseconds">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Pixel al second">
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="Interval minimo in milliseconds">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Inviament aplicazions di tecnologjie assistive">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Inviament aplicazions di tecnologjies assistives par moto-disabî preferidis">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Aplicazions di tecnologjie assistive par moto-disabî">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Inviament aplicazion di tecnologjie assistive par video-disabî preferide">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Aplicazion di tecnologjie assistive par video-disabî predefinide">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="browser">
+						<entry name="needs_term">
+							<local_schema short_desc="Al browser al covente il terminâl">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Browser predefinît">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Noms dai spazis di lavôr (deprecât)">
+								<longdesc>Une liste cui noms dai spazis di lavôr dal window manager primari. Cheste clâf je stade deprecade a partì di Gnome 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Il numar dai spazis di lavôr (deprecât)">
+								<longdesc>Il numar dai spazis di lavôr che il window manager al vares di doprâ. Cheste clâf je stade deprecade a partì di Gnome 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Window manager da l&apos;utent (deprecât)">
+								<longdesc>Window manager di doprâ par prin. Cheste clâf je stade deprecade a partì di Gnome 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Window manager di ripiego (deprecât)">
+								<longdesc>Window manager di doprâ come ripiego se chel sielt da l&apos;utent nol ven cjatât. Cheste clâf je stade deprecade a partì di Gnome 2.12.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Argoments Exec">
+								<longdesc>Argoment doprât par inviâ programs tal terminâl definît da clâf &apos;exec&apos;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Aplicazion di terminâl">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Mostre il menu &quot;Caratàrs di control Unicode&quot;&quot;">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Mostre il menu &quot;Metodos di input&quot;&quot;">
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Aceleradôr da bare dai menu">
+							<longdesc>Scurtadorie di tastiere par vierzi lis baris dai menu</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modul par GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Bare di stât a gjestre">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Dopre caràtar personalizât">
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Carâtar Monospace">
+							<longdesc>Il nom di un carâtar monospace (largjece fisse) di doprâ in posizions come i terminâi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Tipo di carâtar par i documents">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema>
+							<longdesc>Nom dal metodo di input des GTK+ Status Style doprât.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema>
+							<longdesc>Nom dal metodo di input des GTK+ Status Style doprât.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema>
+							<longdesc>Nom dal metodo di input des GTK+ Preedit Style doprât.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Tipo di caràtar predefinît">
+							<longdesc>Nom dal tipo di caràtar doprât in mût predefinit des GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Teme GTK+">
+							<longdesc>Nom di base dal teme predefinît doprât das GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Teme GTK+">
+							<longdesc>Nom di base dal teme predefinît doprât das GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Teme des iconis">
+							<longdesc>Teme des iconis doprât par il panel, nautilus, ecc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Interval di lampament dal cursôr">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Cursôr ch&apos;al lampe">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Dimension des iconis ta bare dai imprescj">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Bare dai imprescj stacabil">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Bare dai menu stacabil">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Menu cun iconis">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stîl da bare dai imprescj">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Lasse gambiâ i aceleradôrs">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="menu cun stacadôr">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Abilite animazions">
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Abilite acessibilitât">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="netstatus_applet">
+				<entry name="config_tool">
+					<local_schema short_desc="Imprest pe configurazion de rêt">
+						<longdesc>Cheste clâf e specifiche il non dal imprest di configurazion de rêt che al à di jessi inviât cuant che al ven fracât il boton &quot;Configure&quot; intal barcon des propietâts. Se l&apos;imprest di configurazion al pues ricevi il parametri de interface di configurâ, tu puedis doprâ %i inte stringhe, e al vignarà sostituît cul non de interface prime di inviâ il program. Par esempli, l&apos;imprest network-admin tai gnome-system-tool al cjape il non de interface par mieç di un parametri --configure. Duncje, tu puedis meti il valôr di chest clâf su: &quot;network-admin --configure %i&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="prefs">
+					<entry name="interface">
+						<local_schema short_desc="Interface di rêt">
+							<longdesc>La interface di rêt tignude di voli dal Monitor di rêt.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="yelp">
+				<entry name="fixed_font">
+					<local_schema short_desc="Caratar pal test fis">
+						<longdesc>Caratar pal test cun largjece fisse.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="variable_font">
+					<local_schema short_desc="Caratar pal test">
+						<longdesc>Caratar pal test cun largjece variabil.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_system_fonts">
+					<local_schema short_desc="Dopre caratars di sisteme">
+						<longdesc>Dopre i caratars predeterminâts dal sisteme.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Icone de scovacere sul Scritori">
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Icone dal ordenadôr visibile sul Scritori">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="compact_view">
+					<entry name="all_columns_have_same_width">
+						<local_schema short_desc="Dutis lis colonis cu la stesse largjece">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Mostre bare di stât tai gnûfs barcons">
+						</local_schema>
+					</entry>
+					<entry name="date_format">
+						<local_schema short_desc="Formât date">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema short_desc="Fondâl personalizât">
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Caratar Scritori">
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Mostre prime lis cartelis tai barcons">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="speed_unit">
+						<local_schema short_desc="Unitât di velocitât">
+							<longdesc>L&apos;unitât di misure di doprâ tal mostrâ la velocitât tal svint.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="temperature_unit">
+						<local_schema short_desc="Unitât di temperadure">
+							<longdesc>L&apos;unitât di misure di doprâ tal mostrâ lis temperaduris.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cities">
+						<local_schema short_desc="Liste localitâts">
+							<longdesc>Liste di localitâts di mostrâ tal barcon dal calendari.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="internet_time">
+						<local_schema short_desc="Dopre ore internet">
+							<longdesc>Doprâ cheste clâf in GNOME 2.6 nol è conseât, par favorî la clâf &quot;format&quot;. Cheste clâf je lassade par vê compatibilitât cun lis versions plui vecjes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="unix_time">
+						<local_schema short_desc="Dopre ore UNIX">
+							<longdesc>Doprâ cheste clâf in GNOME 2.6 nol è conseât, par favorî la clâf &quot;format&quot;. Cheste clâf je lassade par vê compatibilitât cun lis versions plui vecjes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hour_format">
+						<local_schema short_desc="Formât da l&apos;ore">
+							<longdesc>Doprâ cheste clâf in GNOME 2.6 nol è conseât, par favorî la clâf &quot;format&quot;. Cheste clâf je lassade par vê compatibilitât cun lis versions plui vecjes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_locations">
+						<local_schema short_desc="Svuluzze la liste des localitâts">
+							<longdesc>Se impostât a TRUE, al svuluzze la liste des localitâts tal barcon dal calendari.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_weather">
+						<local_schema short_desc="Svuluzze la liste des informazions meteo">
+							<longdesc>Se impostât a TRUE, a mostre tal calendari i numars di setemane.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_tasks">
+						<local_schema short_desc="Svuluzze la liste dai compits">
+							<longdesc>Se impostât a TRUE, al svuluzze la liste des informazions meteo tal barcon dal calendari.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_birthdays">
+						<local_schema short_desc="Svuluzze la liste dai compleans">
+							<longdesc>Se impostât a TRUE, al svuluzze la liste dai compleans tal barcon dal calendari.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="expand_appointments">
+						<local_schema short_desc="Svuluzze la liste dai apontaments">
+							<longdesc>Se impostât a TRUE, al svuluzze la liste dai apontaments tal barcon dal calendari.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_week_numbers">
+						<local_schema short_desc="Mostre i numars di setemane tal calendari">
+							<longdesc>Se impostât a TRUE, a mostre tal calendari i numars di setemane.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="config_tool">
+						<local_schema short_desc="Imprest di configurazion date e ore">
+						</local_schema>
+					</entry>
+					<entry name="gmt_time">
+						<local_schema short_desc="Dopre UTC">
+						</local_schema>
+					</entry>
+					<entry name="show_temperature">
+						<local_schema short_desc="Mostre la temperadure ta l&apos;orloi">
+							<longdesc>Se impostât a TRUE, a mostre la temperadure dongje l&apos;icone dal meteo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_weather">
+						<local_schema short_desc="Mostre condizions meteo ta l&apos;orloi">
+							<longdesc>Se impostât a TRUE, mostre une icone des condizions meteo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_tooltip">
+						<local_schema short_desc="Mostre la date tal sugjeriment">
+							<longdesc>Se impostât a TRUE, a mostre la date intun sugjeriment al passaç dal mouse su l&apos;orloi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_date">
+						<local_schema short_desc="Mostre la date ta l&apos;orloi">
+							<longdesc>Se impostât a TRUE, mostre ta l&apos;orloi ancje la date oltri a l&apos;ore.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_seconds">
+						<local_schema short_desc="Mostre la ore cun i seconds">
+							<longdesc>Se impostât a TRUE, l&apos;orloi al mostre ancje i seconds.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_format">
+						<local_schema short_desc="Formât personalizât da l&apos;orloi">
+							<longdesc>Cheste clâf a specifiche il formât doprât da l&apos;applet orloi cuant che la clâf &quot;format&quot; je impostade a &quot;custom&quot;. Se tu vuelis un formât diferent a puedin jessi doprâts indicadôrs di conversion gjestîts di strftime(). Viôt il manuâl di strftime() par vê plui informazions.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="format">
+						<local_schema short_desc="Formât da l&apos;ore">
+							<longdesc>Cheste clâf a specifiche il formât orari doprât da l&apos;applet orloi. Valôrs pussibî a son &quot;12-hour&quot;, &quot;24-hour&quot;, &quot;internet&quot;, &quot;unix&quot; and &quot;custom&quot;. Se impostade a &quot;internet&quot;, l&apos;orloi al mostre la ore di internet. Il sisteme internet al taze la zornade in 1000 &quot;.beats&quot;. No esistin fuso orariis in chest sisteme, cussì la ore je la stesse in dut il mont. Se impostade a &quot;unix&quot;, l&apos;orloi al mostre la ore come seconds passâts podopo Epoch, ven a stai dal prin di zanâr dal 1970. Se impostade a &quot;custom&quot;, l&apos;orloi al mostre la ore intal formât specificât in &quot;custom_format&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-terminal">
+				<dir name="keybindings">
+					<entry name="zoom_normal">
+						<local_schema short_desc="Scurtadorie di tastiere par imposta il caràtar a la dimension normâl">
+							<longdesc>Scurtadorie di tastiere par impostâ il caràtar a la dimension normâl, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="zoom_out">
+						<local_schema short_desc="Scurtadorie di tastiere par fâ plui piçul il caràtar">
+							<longdesc>Scurtadorie di tastiere par fâ plui piçul il caràtar, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="zoom_in">
+						<local_schema short_desc="Scurtadorie di tastiere par fâ plui grant il caràtar">
+							<longdesc>Scurtadorie di tastiere par fâ plui grant il caràtar, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="help">
+						<local_schema short_desc="Scurtadorie di tastiere par vierzi la guide">
+							<longdesc>Scurtadorie di tastiere par domandâ jutori, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_12">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 12">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 12, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_11">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 11">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 11, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_10">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 10">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 10, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_9">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 9">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 9, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_8">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 8">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 8, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_7">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 7">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 7, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_6">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 6">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 6, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_5">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 5">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 5, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_4">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 4">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 4, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_3">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 3">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 3, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_2">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 2">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 2, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="switch_to_tab_1">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede 1">
+							<longdesc>Scurtadorie di tastiere par passâ a la schede 1, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="detach_tab">
+						<local_schema short_desc="Aceleradôr par stacâ la schede curint.">
+							<longdesc>Scurtadorie di sisteme par stacâ la schede curint, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_tab_right">
+						<local_schema short_desc="Aceleradôr par spostâ la schede curint a gjestre.">
+							<longdesc>Scurtadorie di sisteme par spostâ la schede curint bande gjestre dal terminâl, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_tab_left">
+						<local_schema short_desc="Aceleradôr par spostâ la schede curint a çampe.">
+							<longdesc>Scurtadorie di sisteme par spostâ la schede curint bande çampe dal terminâl, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="next_tab">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede sucesive">
+							<longdesc>Scurtadorie di tastiere par passa a la schede sucesive, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="prev_tab">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a la schede di prime">
+							<longdesc>Scurtadorie di tastiere par passa a la schede di prime, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="reset_and_clear">
+						<local_schema short_desc="Scurtadorie di tastiere par ripristinâ e netâ il terminâl">
+							<longdesc>Scurtadorie di tastiere par ripristinâ e netâ il terminâl, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="reset">
+						<local_schema short_desc="Scurtadorie di tastiere par ripristinâ il terminâl">
+							<longdesc>Scurtadorie di tastiere par ripristinâ il terminâl, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="set_terminal_title">
+						<local_schema short_desc="Scurtadorie di tastiere par impostâ il titul dal terminâl">
+							<longdesc>Scurtadorie di tastiere par impostâ il titul dal terminâl, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toggle_menubar">
+						<local_schema short_desc="Scurtadorie di tastiere par abilitâ la visualizazion da bare dai menu">
+							<longdesc>Scurtadorie di tastiere par impostâ la visibilitât da bare dai menu, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="full_screen">
+						<local_schema short_desc="Scurtadorie di tastiere par passâ a dut schermo">
+							<longdesc>Scurtadorie di tastiere par abilitâ la modalitât a dut schermo, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paste">
+						<local_schema short_desc="Scurtadorie di tastiere par taca il test">
+							<longdesc>Scurtadorie di tastiere par tacâ il contignût tai aponts, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="copy">
+						<local_schema short_desc="Scurtadorie di tastiere par cupiâ il test">
+							<longdesc>Scurtadorie di tastiere par cupiâ il test selezionât tai aponts, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="close_window">
+						<local_schema short_desc="Scurtadorie di tastiere par sierâ un barcon">
+							<longdesc>Scurtadorie di tastiere par sierâ un barcon, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="close_tab">
+						<local_schema short_desc="Scurtadorie di tastiere par sierâ une schede">
+							<longdesc>Scurtadorie di tastiere par sierâ une schede, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="new_profile">
+						<local_schema short_desc="Scurtadorie di tastiere par creâ un gnûf profîl">
+							<longdesc>Scurtadorie di tastiere par vierzi il barcon di dialogo pa creazion dal profîl, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="new_window">
+						<local_schema short_desc="Scurtadorie di tastiere par vierzi un gnûf barcon">
+							<longdesc>Scurtadorie di tastiere par vierzi un gnûf barcon, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="new_tab">
+						<local_schema short_desc="Scurtadorie di tastiere par vierzi une gnove schede">
+							<longdesc>Scurtadorie di tastiere par vierzi une gnove schede, mostrade tal stes formât doprât dal file di risorses par GTK+. Se l&apos;opzion a je impostade a la stringhe speciâl &quot;disabled&quot;, nol esist nissun colegament cun botons par cheste azion.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="use_skey">
+							<local_schema short_desc="Highlight S/Key challenges">
+								<longdesc>Al vierç un barcon di dialogo cuant che une richieste di rispueste S/Key challenge a je intercetade e fracade. Scrivint la password tal barcon di dialogo cheste a ven mandade tal terminâl.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="use_system_font">
+							<local_schema>
+								<longdesc>Se TRUE, il terminâl al doprarâ il caràtar predefinît se al è a spaziadure fisse (altrimentri il caràtar ch&apos;al vâ plui dongje ch&apos;a si rive a cjatâ).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="use_theme_colors">
+							<local_schema>
+								<longdesc>Se TRUE, il schema dai colôrs dal teme al vegnarâ doprât par il test dal terminâl, invezit dai colôrs furnîts da l&apos;utent.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="delete_binding">
+							<local_schema short_desc="Efiet dal boton CANC">
+								<longdesc>Imposte il codic gjenerât dal boton CANC. Valôrs pussibî a son &quot;ascii-del&quot; par il caràtar DEL ASCII, &quot;control-h&quot; par Control-H (ven a stai il caràtar BS ASCII), &quot;escape-sequence&quot; par la secuence di escape gjeneralmentri leade al boton BACKSPACE o CANC. &quot;ascii-del&quot; al è gjeneralmentri considerât il valôr coret par il boton CANC.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="backspace_binding">
+							<local_schema short_desc="Efiet dal boton BACKSPACE">
+								<longdesc>Imposte il codic gjenerât dal boton BACKSPACE. Valôrs pussibî a son &quot;ascii-del&quot; par il caràtar DEL ASCII, &quot;control-h&quot; par Control-H (ven a stai il caràtar BS ASCII), &quot;escape-sequence&quot; par la secuence di escape gjeneralmentri leade al boton BACKSPACE o CANC. &quot;ascii-del&quot; al è gjeneralmentri considerât il valôr coret par il boton BACKSPACE.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_darkness">
+							<local_schema short_desc="Di trop scurî l&apos;imagjine di fondâl">
+								<longdesc>Un valôr framieç 0.0 e 1.0 al segne di trop scurî l&apos;imagjine di fondâl. 0.0 al segne nissun scuriment, 1.0 al segne scûr patoc. Ta l&apos;implementazion curint, a son doi livei di scuriment pussibî, par chest chist parametro al funzione dome come boolean, indulà che 0.0 al disabilite l&apos;efiet di scuriment.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scroll_background">
+							<local_schema short_desc="A mostre se fâ scori l&apos;imagjine di fondâl">
+								<longdesc>Se TRUE, l&apos;imagjine a scrô cul test; se FALSE, l&apos;imagjine a reste fisse intant ch&apos;al scôr il test parsore.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_image">
+							<local_schema short_desc="Imagjine di fondâl">
+								<longdesc>Nom dal file da imagjine di fondâl.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_type">
+							<local_schema short_desc="Tipo di fondâl">
+							</local_schema>
+						</entry>
+						<entry name="font">
+							<local_schema short_desc="Tipo di caràtar">
+								<longdesc>Un nom di tipo di caràtar di Pango. Esemplis a son &quot;Sans 12&quot; o &quot;Monospace Bold 14&quot;</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="palette">
+							<local_schema short_desc="Taule di colôrs pes aplicazions dal terminâl">
+								<longdesc>I terminai an taulis di 16 colôrs che lis aplicazions inviadis dentri il terminâl a puedin doprâ. Cheste je chê taule di colôrs separâts cui doi ponts (:). I noms dai colôrs an di jessi in formât esadecimâl, par esempli &quot;#FF00FF&quot;</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="icon">
+							<local_schema short_desc="Icone pal barcon dal terminâl">
+								<longdesc>Icone di doprâ ta lis schedis o tai barcons ch&apos;an dentri chest profîl.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="custom_command">
+							<local_schema short_desc="Comant personalizât di doprâ invezir da shell">
+								<longdesc>Eseguis chest comant al puest da shell se use_custom_command al è TRUE.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_blink_mode">
+							<local_schema short_desc="A mostre se il cursôr al à di lampâ">
+							</local_schema>
+						</entry>
+						<entry name="use_custom_command">
+							<local_schema short_desc="A mostre se eseguî un comant personalizât invezit da shell">
+								<longdesc>Se TRUE, al vegnarâ doprât il valôr da impostazion custom_command invezit di inviâ une shell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="update_records">
+							<local_schema>
+								<longdesc>Se TRUE, i records di sisteme utmp e wtmp a vegnaran agjornats cuant che il comant dentri il terminâl al vegnara inviât.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="login_shell">
+							<local_schema short_desc="A mostre se inviâ il comant tal terminâl come shell di login">
+								<longdesc>Se TRUE, il comant tal terminâl al vegnarâ inviât al puest da shell di login. (argv[0] al varâ un piçul trat denant).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exit_action">
+							<local_schema short_desc="Ce fâ cul terminâl cuant che il proces fî al finis">
+								<longdesc>Valôrs pussibî a son &quot;close&quot; par sierâ il terminâl, e &quot;restart&quot; par tornâ a inviâ il comant.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scroll_on_output">
+							<local_schema>
+								<longdesc>Se TRUE, cuant ch&apos;al saltarâ fûr un gnûf output il terminâl al scorarâ viers il bas.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scroll_on_keystroke">
+							<local_schema>
+								<longdesc>Se TRUE, môf la bare di scoriment viers la fin podopo vê fracât un boton.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="scrollback_lines">
+							<local_schema short_desc="Numar di ries di mantignî par scori denant-daûr">
+							</local_schema>
+						</entry>
+						<entry name="scrollbar_position">
+							<local_schema short_desc="Posizion da bare di scoriment">
+								<longdesc>Indulà meti la bare di scoriment. Lis pussibilitâts a son &quot;left&quot;, &quot;right&quot;, e &quot;disabled&quot;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="word_chars">
+							<local_schema short_desc="Caràtars ch&apos;a son considerâts &quot;par di une peraule&quot;">
+								<longdesc>Selezionant il test par peraule, la sequence di caràtars a son viodûts come peraule singule. A puedin jessi doprâts ancje intervai come &quot;A-Z&quot;. Il caràtar tratut (-) se nol segne un interval, al scugne jessi il prin caràtar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="silent_bell">
+							<local_schema>
+								<longdesc>Se TRUE, nol mande sûns cuant che i programes a mandin la secuence di escape par il bip dal terminâl.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="allow_bold">
+							<local_schema short_desc="A mostre se consentî il test in grasut">
+								<longdesc>Se TRUE, permet ai programes tal tarminâl di mostrâ il test in grassut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="title">
+							<local_schema short_desc="Titul dal terminâl">
+								<longdesc>Titul di mostrâ tal barcon dal terminâl o ta schede. Chest titul al pues jessi rimplaçât opûr cumbinasi cul titul impostât da l&apos;aplicazion dentri dal terminâl a seconde dal valôr di title_mode.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="title_mode">
+							<local_schema short_desc="Ce fâ cuntun titul dinamic">
+								<longdesc>Se l&apos;aplicazion tal terminâl à imposte il titul (gjeneralmentri lis personis an scripts ch&apos;a fasin chest), il titul impostât dinamicamentri al pos elimina chel configurât, lâ prime, dopo opûr rimplaçalu. I pussibî valôrs a son &quot;replace&quot;, &quot;before&quot;, &quot;after&quot;, and &quot;ignore&quot;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="background_color">
+							<local_schema short_desc="Colôr predefinît dal fondâl dal terminâl">
+								<longdesc>Colôr predefinît dal fondâl dal terminâl, come specifiche di colôr (al pos jessi un numar esadecimâl in stîl HTML opûr il nom di un colôr come &quot;red&quot;).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="foreground_color">
+							<local_schema short_desc="Colôr predefinît dal test tal terminâl">
+								<longdesc>Colôr predefinît dal test tal terminâl, come specifiche di colôr (al pos jessi un numar esadecimâl in stîl HTML opûr il nom di un colôr come &quot;red&quot;).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default_show_menubar">
+							<local_schema>
+								<longdesc>Vêr se la bare di menu a pues jessi visualizade tai gnûfs barcons, par barcon/schede cun chest profîl.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema short_desc="Nom mnemonic pal profîl">
+								<longdesc>Nom mnemonic pal profîl.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="confirm_window_close">
+						<local_schema short_desc="A mostre se domandâ conferme cuan ch&apos;a vegnin sierâts i barcons dal terminâl">
+							<longdesc>A mostre se domandâ conferme cuant che il barcon dal terminâl che al à plui di une schede vierte a ven sierade.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active_encodings">
+						<local_schema short_desc="Liste des codifichis pussibilis">
+							<longdesc>Tal sottomenu &quot;Codifiche dai caràtars&quot; a son saltadis fûr pussibilis codifichis. Cheste je la liste des codifichis ch&apos;a ven mostrade. Il nom speciâl &quot;current&quot; al segne di mostrâ la codifiche da localizazion ch&apos;a si dopre.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_accelerators">
+						<local_schema short_desc="A mostre se la scurtadorie predefinide di GTK par acedi a la bare di menu a je abilitade">
+							<longdesc>Normalmentri al è pussibil acedi a la bare di menu cun F10. Chest al pues jessi personalizât cun gtkrc (gtk-menu-bar-accel = &quot;whatever&quot;). Cun cheste opzion si pues disabilitâ l&apos;aceleradôr predefinît par la bare di menu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_mnemonics">
+						<local_schema short_desc="A mostre se ta bare di menu a son aceleradôrs">
+							<longdesc>A mostre se a son scurtadoriis Alt+letare pa bare di menu. Chest al podares interferì cun ciertis aplicazions ch&apos;a son stadis inviadis dentri il terminâl, cussì si pues disabilitâ.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_profile">
+						<local_schema short_desc="Profîl di doprâ par un gnûf terminâl">
+							<longdesc>Profîl di doprâ intant ch&apos;a si vierç un gnûf barcon o une gnove schede. Al scugne jessi ta liste dai profî.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="profile_list">
+						<local_schema short_desc="Liste dai profî">
+							<longdesc>Liste dai profî cognossûts di gnome-terminal. La liste a jà dentri i noms des sottodirectory relatives a /apps/gnome-terminal/profiles.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="workspace_switcher_applet">
+				<dir name="prefs">
+					<entry name="num_rows">
+						<local_schema short_desc="Riis tal seletôr arees di lavôr">
+							<longdesc>Cheste clâf a specifiche tropis riis (par panei orizontâi) o colonis (par panei verticâi) a son visualizadis tal seletôr. Cheste clâf à un sens dome se la variabil display_all_workspaces a je impostade a TRUE.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Mostre dutis lis arees di lavôr">
+						</local_schema>
+					</entry>
+					<entry name="display_workspace_names">
+						<local_schema short_desc="Mostre i noms des arees di lavôr">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="window_list_applet">
+				<dir name="prefs">
+					<entry name="maximum_size">
+						<local_schema short_desc="Dimension massime elenco barcons">
+							<longdesc>Miôr no doprâ cun GNOME 2.20. Lassât pes versions di prime.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimum_size">
+						<local_schema short_desc="Dimension minime elenco barcons">
+							<longdesc>Miôr no doprâ cun GNOME 2.20. Lassât pes versions di prime.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="group_windows">
+						<local_schema short_desc="Al mostre cuant meti dongje i barcons">
+							<longdesc>Al mostre cuant meti dongje i barcons di une stesse aplicazion ta l&apos;elenco dai barcons. Valôrs pussibî a son &quot;never&quot;, &quot;auto&quot; e &quot;always&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="display_all_workspaces">
+						<local_schema short_desc="Mostre i barcons di dutis lis arees di lavôr">
+							<longdesc>Se impostât a TRUE, ta l&apos;elenco dai barcons a son metûts dentri i barcons di ogni aree di lavôr. In câs contrari dome i barcons da l&apos;aree di lavôr ch&apos;a si sta doprant.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="panel">
+				<dir name="global">
+					<entry name="disable_force_quit">
+						<local_schema short_desc="Disabilite il sfuarçâ a lâ fûr">
+							<longdesc>Se impostade a TRUE, al ven scancelât l&apos;aces al boton &quot;Sieradure sfuarçade&quot;: l&apos;utent nol pues cussì doprâ il panel par sfuarçâ la sieradure di une aplicazion.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_log_out">
+						<local_schema short_desc="Finis la session disabilitât">
+							<longdesc>Se impostade a TRUE, al ven scancelât l&apos;aces a lis vôs di menu par finî la session: l&apos;utent nol pues cussì doprâ il panel par il logout.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="disabled_applets">
+						<local_schema short_desc="IID des applet disabilitadis al cjamament">
+							<longdesc>Une liste di IID di applet che il panel al lasse sta. Cussì al è pussibil disabilitâ il cjamament e la disponibilitât di cualchi applet tai menu. Par esempli par disabilitâ l&apos;applet mini-commander zontâ a cheste liste &quot;OAFIID:GNOME_MiniCommanderApplet&quot;. Bisugne tornâ a inviâ il panel parcè che cheste modifiche a vedi efiet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked_down">
+						<local_schema short_desc="Disativazion totâl dal panel">
+							<longdesc>Se impostade a TRUE, il panel non lasse fâ nissune modifiche a la sô configurazion. Lis singulis applet a puedin ognicâs domandâ di jessi disativadis separatamentri. Torna a invia il panel parcè che cheste opzion a vedi efiet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="highlight_launchers_on_mouseover">
+						<local_schema short_desc="Evidenzie i inviadôrs cuant ch&apos;al passe parsore il mouse">
+							<longdesc>Se impostade a TRUE, i inviadôrs a vegnaran evidenziâts cuant che l&apos;utent al môf il pontadôr dal mouse parsore di lôr.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="confirm_panel_remove">
+						<local_schema short_desc="Conferme rimozion dal panel">
+							<longdesc>Se impostade a TRUE, a ven mostrât un barcon di dialogo par confermâ la rimozion di un panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="drawer_autoclose">
+						<local_schema short_desc="Sieradure automatiche dal scansel">
+							<longdesc>Se impostade a TRUE, i scansei a vegnaran automaticamentri sierâts cuant che si frache su di un inviadôr ch&apos;al è dentri.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="window_screenshot_key">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="screenshot_key">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="run_key">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="menu_key">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="enable_key_bindings">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="panel_hide_delay">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="panel_animation_speed">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="panel_show_delay">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="panel_minimized_size">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Abilite animazions">
+						</local_schema>
+					</entry>
+					<entry name="keep_menus_in_memory">
+						<local_schema short_desc="Nol è conseât">
+						</local_schema>
+					</entry>
+					<entry name="tooltips_enabled">
+						<local_schema short_desc="Abilite sugjeriments">
+							<longdesc>Se impostade a TRUE, a vegnaran mostrâts i sugjeriments par i ogjets tai panei.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="objects">
+					<entry name="action_type">
+						<local_schema short_desc="Tipo di boton di azion">
+							<longdesc>Il tipo di azion che chest boton al rapresente. Valôrs pussibî a son &quot;lock&quot;, &quot;logout&quot;, &quot;run&quot;, &quot;search&quot; e &quot;screenshot&quot;. Cheste clâf à un sens dome se la clâf object_type key a jè &quot;action-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="launcher_location">
+						<local_schema short_desc="Posizion da l&apos;inviadôr">
+							<longdesc>La posizion dal file .desktop ch&apos;al descrîf l&apos;inviadôr. Cheste clâf à sens dome se la variabil object_type a je&quot;launcher-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menu_path">
+						<local_schema short_desc="Percors contignût menu">
+							<longdesc>Il percors par costruî il contignût dal menu. Cheste clâf à sens dome se la variabil use_menu_path a je impostade a TRUE e la variabil object_type a je &quot;menu-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_menu_path">
+						<local_schema short_desc="Dopre percors personalizât pal contignût da l&apos;ogjiet">
+							<longdesc>Se impostade a TRUE, la clâf menu_path je doprade come percors par costruî il contignût dal menu. Se FALSE, la clâf menu_path a ven ignorade. Cheste impostazionà un sens dome se la clâf object_type a je &quot;menu-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="custom_icon">
+						<local_schema short_desc="Icone doprade par il boton da l&apos;ogjet">
+							<longdesc>La posizion dal file imagjine dopræt come icone pal boton da l&apos;ogjiet. Cheste clâf à sens dome se la variabil object_type a je &quot;drawer-object&quot; o &quot;menu-object&quot; e la variabil use_custom_icon a je impostade a TRUE.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_icon">
+						<local_schema short_desc="Dopre icone personalizade par il boton da l&apos;ogjiet">
+							<longdesc>Se impostade a TRUE, la clâf custom_icon je doprade come icone personalizade dal boton. Se FALSE la clâf custom_icon a ven ignorade. Cheste impostazion à un sens dome se la clâf object_type a je &quot;menu-object&quot; o &quot;drawer-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="tooltip">
+						<local_schema short_desc="Sugjeriment mostrât par il scansel o pal menu">
+							<longdesc>Test di mostrâ intun sugjeriment par chest scansel o menu. Cheste clâf à sens dome se la variabil object_type a je &quot;drawer-object&quot; o &quot;menu-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="attached_toplevel_id">
+						<local_schema short_desc="Panel tacât tal scansel">
+							<longdesc>L&apos;identificadôr dal panel tacât a chest scansel. Cheste clâf à sens dome se la variabil obiect_type a je &quot;drawer-object&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bonobo_iid">
+						<local_schema short_desc="IID applet Bonobo">
+							<longdesc>L&apos;ID Bonobo implementation da l&apos;applet - par esempli &quot;OAFIID:GNOME_ClockApplet&quot;. Cheste clâf je considerade dome se la clâf object_type a jè &quot;bonobo-applet&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="locked">
+						<local_schema short_desc="Bloche l&apos;ogjet sul panel">
+						</local_schema>
+					</entry>
+					<entry name="position">
+						<local_schema short_desc="Posizion da l&apos;ogjet sul panel">
+							<longdesc>La posizion di chest ogjiet tal panel. Cheste posizion a je metude come numar di pixels misurâts da l&apos;ôr di çampe (o superiôr se verticâl) dal panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id">
+						<local_schema short_desc="Panel di livel superiôr con dentri l&apos;ogjiet">
+							<longdesc>L&apos;identificadôr dal panel di livel superiôr ch&apos;al à dentri chest ogjet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_type">
+						<local_schema short_desc="Tipo ogjet panel">
+							<longdesc>Il tipo di chest ogjiet dal panel. Valôrs pussibî a son: &quot;drawer-object&quot;, &quot;menu-object&quot;, &quot;launcher-object&quot;, &quot;bonobo-applet&quot;, &quot;action-applet&quot; e &quot;menu-bar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="profiles_migrated">
+						<local_schema short_desc="Profî vecjos di configurazion migrâts">
+							<longdesc>Une opzion booleane ch&apos;a mostre se la configurazion da l&apos;utent di prime in /apps/panel/profiles/default je stade cupiade ta gnove posizion /apps/panel.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="object_id_list">
+						<local_schema short_desc="Liste ID ogjiets dal panel">
+							<longdesc>Une liste di ID di ogjets dal panel. Ognidun ID al identifiche un singul ogjet dal panel (par esempli un inviadôr, un boton di azion opûr un boton/bare di menu). Lis impostazions par ognidun di chescj ogjets a son memorizadis in /apps/panel/objects/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="applet_id_list">
+						<local_schema short_desc="Liste ID applet dal panel">
+							<longdesc>Une liste di ID di applet di panel. Ognidun ID al identifiche une singule applet di panel. Lis impostazions par ognidune di chestis applets a son memorizadis in /apps/panel/applets/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toplevel_id_list">
+						<local_schema short_desc="Liste ID panel">
+							<longdesc>Une liste di ID di panel. Ognidun ID al identifiche un singul panel di livel superiôr. Lis impostazions par ognidun di chescj panei a son memorizadis in /apps/panel/toplevels/$(id).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_autocompletion">
+						<local_schema short_desc="Ative il completament automatic tal dialogo &quot;Invie aplicazion&quot;">
+							<longdesc>Se impostade a TRUE, al è disponibil il completament automatic tal dialogo &quot;Invie aplicazion&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_program_list">
+						<local_schema short_desc="Svuluzze la liste dai programs tal dialogo &quot;Invie aplicazion&quot;">
+							<longdesc>Se impostade a TRUE, la liste &quot;Aplicazions cognossudis&quot; tal barcon di dialogo &quot;Invie aplicazion&quot; a ven slargjade cuant che si vierç il barcon. Cheste clâf a jà sens dome se la variabil enable_program_listing a je impostade a TRUE.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_program_list">
+						<local_schema short_desc="Ative la liste dai programs tal dialogo &quot;Invie aplicazion&quot;">
+							<longdesc>Se impostade a TRUE, tal barcon di dialogo &quot;Invie aplicazion&quot; a je disponibil la liste &quot;Aplicazions cognossudis&quot;. Cheste liste a je o no je svuluzzade tal barcon di dialogo in base a cemût ch&apos;a je definide in ta clâf show_program_list key.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="toplevels">
+					<entry name="animation_speed">
+						<local_schema short_desc="Velocitât animazion">
+						</local_schema>
+					</entry>
+					<entry name="enable_arrows">
+						<local_schema short_desc="Abilite lis frecis sui botons par taponâ">
+						</local_schema>
+					</entry>
+					<entry name="enable_buttons">
+						<local_schema short_desc="Abilite i botons par taponâ">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Abilite animazions">
+						</local_schema>
+					</entry>
+					<entry name="auto_hide">
+						<local_schema short_desc="Al tapone automaticamentri il panel intun cjanton">
+						</local_schema>
+					</entry>
+					<entry name="y_centered">
+						<local_schema short_desc="Centre il panel su Y">
+						</local_schema>
+					</entry>
+					<entry name="x_centered">
+						<local_schema short_desc="Centre il panel su X">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Dimension panel">
+						</local_schema>
+					</entry>
+					<entry name="expand">
+						<local_schema short_desc="Al svuluzze par doprâ dute la largjece dal schermo">
+						</local_schema>
+					</entry>
+					<dir name="background">
+						<entry name="fit">
+							<local_schema short_desc="Regole la piture dentri il panel">
+							</local_schema>
+						</entry>
+						<entry name="image">
+							<local_schema short_desc="Piture di fondâl">
+							</local_schema>
+						</entry>
+						<entry name="opacity">
+							<local_schema short_desc="Opacitât dal colôr di fondâl">
+							</local_schema>
+						</entry>
+						<entry name="color">
+							<local_schema short_desc="Colôr di fondâl">
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Tipo di fondâl">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="fish_applet">
+				<dir name="prefs">
+					<entry name="rotate">
+						<local_schema short_desc="Zire tai panei verticâi">
+							<longdesc>Se impostât a TRUE, l&apos;animazion dal pès a je zirade tai panei verticâi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Durade fotogram">
+							<longdesc>Cheste clâf a mostre il numar di seconds che al à di durâ ogni fotogram.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="frames">
+						<local_schema short_desc="Fotograms ta l&apos;animazion dal pès">
+							<longdesc>Cheste clâf a mostre il numar di fotograms ch&apos;a si viodin ta l&apos;animazion dal pès.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="command">
+						<local_schema short_desc="Comant di eseguî cuant che si frache">
+							<longdesc>Cheste clâf a mostre il comant che si volares inviâ cuant ch&apos;a di frache sul pès.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="image">
+						<local_schema short_desc="La piture pixmap par l&apos;animazion dal pès">
+							<longdesc>Cheste clâf a mostre il nom dal pès, tes directory des pitures, da pixmap doprade par visualizâ l&apos;animazion dal pès.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="name">
+						<local_schema short_desc="Il nom dal pès">
+							<longdesc>Un pès cence nom al reste incazzât. Rindilu content cuntun biel nom.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="splash_image">
+						<local_schema short_desc="Imagjine preferide di doprâ pa la schermade di inviament">
+							<longdesc>Chest al è un valôr di percors relatîf basât suntune directory $datadir/pixmaps/. Noms di sot-directory e di imagjinis a son valôrs valids. La modifiche di chest valôr à varâ efiet al prossim login.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="logout_prompt">
+						<local_schema short_desc="Conferme fin da session">
+							<longdesc>Se abilitât, gnome-session al domandarâ conferme prin di finî la session.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="auto_save_session">
+						<local_schema short_desc="Salve sessions">
+							<longdesc>Se abilitât, gnome-session al salvarâ la session automaticamentri. Se no il barcon di dialogo par finî la session al mostrarâ une opzion pal salvale.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_splash_screen">
+						<local_schema short_desc="Mostre schermade di inviament">
+							<longdesc>Mostre la schermade di inviament cuant ch&apos;a ven inviade la session</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="plugins">
+					<entry name="active_plugins">
+						<local_schema short_desc="Plugins atîfs">
+							<longdesc>Liste dai plugins atîfs. No conten la &quot;Posizion&quot; dai plugins atîfs. Cjale il file .eog-plugin par viodi dulà che a son logâts sul disc i plugins.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="ui">
+					<entry name="image_collection_position">
+						<local_schema short_desc="Posizion dal panel de colezion des figuris. 0 par vêlu in bas; 1 a çampe; 2 in alt; 3 a diestre.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="full_screen">
+					<entry name="seconds">
+						<local_schema short_desc="Ritart in seconts prime di mostrâ la figure dopo">
+							<longdesc>Un valôr plui grant di 0 al determine trops seconts une figure e à di sta sul visôr prime che chê dopo e vignedi mostrade in automatic. Un valôr di zero al disative il scoriment automatic.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="upscale">
+						<local_schema short_desc="Permèt un zoom iniziâl plui grant dal 100%">
+							<longdesc>Se al è FALSE lis figuris piçulis no vignaran slargjadis par adatâsi al visôr cuant che a son viertis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="loop">
+						<local_schema short_desc="Continue a scori al infinît te secuence di figuris">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="Colôr trasparence">
+							<longdesc>Se la clâf de trasparence e à il valôr COLOR, alore cheste clâf e determine il colôr di doprâ par indicâ la trasparence.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="zoom_multiplier">
+						<local_schema short_desc="Moltiplicatôr zoom">
+							<longdesc>Il moltiplicatôr di aplicâ cuant che tu dopris la ravuedute dal surîs pal zoom. Chest valôr al definìs i increments dal zoom. Par esempli, 0.05 al vûl dî un aument dal zoom dal 5% par ogni event di scoriment e 1.00 intun aument dal 100% par ogni event di scoriment.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scroll_wheel_zoom">
+						<local_schema short_desc="Zoom cun la ravuedute dal surîs">
+						</local_schema>
+					</entry>
+					<entry name="transparency">
+						<local_schema short_desc="Indicatôr trasparence">
+							<longdesc>Determine cemût che la trasparence e à di jessi indicade. I valôrs valits a son CHECK_PATTERN, COLOR e NONE. Se al ven sielt COLOR, alore la clâf trans_color e determine il valôr dal colôr doprât.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="interpolate">
+						<local_schema short_desc="Interpolazion figure">
+						</local_schema>
+					</entry>
+					<entry name="autorotate">
+						<local_schema short_desc="Orientament automatic">
+							<longdesc>Se la figure e à di jessi zirade in automatic in base al orientament EXIF.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

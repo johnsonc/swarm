@@ -1,0 +1,13 @@
+c10e262c61f6b901ffc36b6939cc6f33  usr/bin/brasero
+ae1926e1e0c06836c166c70a51d3ff53  usr/lib/nautilus/extensions-2.0/libnautilus-brasero-extension.so
+5c96457d18edef86139dc6fd46ff127a  usr/share/applications/brasero-copy-medium.desktop
+f778765b0ffb57f6cfaad5bd565aebda  usr/share/applications/brasero-nautilus.desktop
+27feeba5bc7fe0ce6cbb3e69c0f739ae  usr/share/applications/brasero.desktop
+b071ec99b9eafcb6e92a163c50da8584  usr/share/doc/brasero/AUTHORS
+84b0265b6c3bd21d4a0a61bc4df31c68  usr/share/doc/brasero/NEWS.gz
+db9c3aacec5673720cc5d7ae94b2578d  usr/share/doc/brasero/README
+2254c6d01f09f80204316f2f66b0f939  usr/share/doc/brasero/changelog.Debian.gz
+6c47799264c76df0623a3b6a22ac2518  usr/share/doc/brasero/changelog.gz
+ae81a4e80a24fb2dc80c1934c6e334be  usr/share/doc/brasero/copyright
+87d5b1c7fbec4f6572c4653155618e49  usr/share/man/man1/brasero.1.gz
+833ef42fa8436183fc653cb5a10e0684  usr/share/menu/brasero

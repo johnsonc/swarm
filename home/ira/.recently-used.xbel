@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///usr/share/sounds/startup3.wav" added="2015-05-08T00:11:31Z" modified="2015-05-13T19:12:52Z" visited="2015-05-08T00:11:31Z">
+    <title>startup3.wav</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/x-wav"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="टोटेम मूवी खिलाड़ी" exec="&apos;totem %u&apos;" modified="2015-05-08T00:11:31Z" count="1"/>
+          <bookmark:application name="Totem Movie Player" exec="&apos;totem %u&apos;" modified="2015-05-13T19:12:52Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/sounds/card_shuffle.wav" added="2015-05-13T19:12:44Z" modified="2015-05-13T19:12:44Z" visited="2015-05-13T19:12:44Z">
+    <title>card_shuffle.wav</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/x-wav"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Totem Movie Player" exec="&apos;totem %u&apos;" modified="2015-05-13T19:12:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

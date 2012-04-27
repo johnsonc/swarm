@@ -1,0 +1,4 @@
+wm9715-ts_800_480.ko: wm9715-api.ko
+wm9715-api.ko:
+rt3070sta.ko:
+proc-gpio.ko:

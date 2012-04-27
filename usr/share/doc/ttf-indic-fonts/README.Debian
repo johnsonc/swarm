@@ -1,0 +1,9 @@
+README for Debian
+-----------------
+
+ With ttf-indic-fonts (1:0.5.11), we removed versioned confilct with
+ (<< 1:0.4.1) version. You are advised to upgrade to Lenny (1:0.5.4) before
+ upgrading to version (>= 1.0.5.11) to avoid any possible breakage.
+
+ -- Debian-IN Team <debian-in-workers@lists.alioth.debian.org>  Thu, 26 Aug 2010 12:34:00 +0530
+

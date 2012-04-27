@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="WriterCommands" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Commands">
+      <node oor:name=".uno:EditGlossary">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वयंमजकूर (~x)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PrintLayout">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">छपाई मांडणी (~P)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertHeader">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शीर्षलेख अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFooter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चरणलेख अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ExpandGlossary">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वयं मजकूर नोंद चालवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowHiddenParagraphs">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अदृष्य परिच्छेद (~H)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowAnnotations">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">टिपण्णी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertScript">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लिपी (~c)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertGraphicRuler">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">समतल रूलर (~z)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetAnchorAtChar">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अक्षराप्रमाणे स्थानधारक</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">अक्षरामध्ये (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageOffsetDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ क्रमांक</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPageHeader">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शीर्षलेख (~a)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPageFooter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चरणलेख (~r)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewPrintOptions">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">छपाई पर्याय पृष्ठ दृश्य</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewZoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पूर्वदृश्य झूम करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertEndnote">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अंतिम टिपणी प्रत्यक्ष अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableNumberRecognition">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक  ओळखणे</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertSection">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">भाग (~S)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertMultiIndex">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुक्रमणिका व तक्ते (~I)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertAuthoritiesEntry">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ग्रंथसूची नोंद (~B)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShadowCursor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">थेट कर्सर सुरु/बंद</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StartAutoCorrect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वयंदुरुस्ती</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FontColor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट रंग</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateAllIndexes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सर्व अनुक्रमणिका व तक्ता (~A)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateCurIndex">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सध्याची अनुक्रमणीका (~I)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RemoveTableOf">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुक्रमणिका नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ProtectTraceChangeMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नोंदी सुरक्षित करा (~P)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateAllLinks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दुवा (~L)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TrackChanges">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नोंद (~R)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowTrackedChanges">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दाखवा (~S)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">An der Seite</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CommentChangeTracking">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">टिप्पणी (~C)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateAll">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सर्व सुधारीत करा (~U)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertEnvelope">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लिफाफा (~v)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AcceptTrackedChanges">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वीकारा किंवा नाकारा (~A)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditCurIndex">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुक्रमणिका संपादन</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AuthoritiesEntryDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ग्रंथ-सूची नोंद (~B)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateCharts">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सर्व कोष्टके (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditHyperlink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हाइपरलिंक (~y)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RemoveHyperlink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हायपरलिंक काढूण टाका</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CopyHyperlinkLocation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हायपरलिंक ठिकाणचे प्रत बनवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AcceptChange">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बदल स्वीकारा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RejectChange">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बदल नकारा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertBookmark">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठखूण (~k)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेद अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertBreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मॅन्यूअल खंडन (~B)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertColumnBreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ खंडन अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इतर (~O)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ChangeDatabaseField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">माहितीकोषाची अदला-बदल करा (~h)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertCaptionDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कॅप्शन...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFootnoteDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चरणलेख/समाप्तटीप~...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertReferenceField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रोस-संदर्भ...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertHyperlinkDlg">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हाइपरलिंक अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertLinebreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मॅन्युअल रांग खंडन अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertObjectDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इतर वस्तू अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPagebreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मॅन्युअल पृष्ठ खंडन अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertAnnotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">टिपण्णी (~t)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता (~T)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFrameInteract">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चौकट  मॅन्यूअली अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFrame">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चौकट (~m)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertIndexesEntry">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नोंद (~E)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFrameInteractNoColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">एक-स्तंभी चौकट मॅन्युअली अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToggleAnchorType">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्थानधारक बदला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetAnchorToPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठाप्रमाणे स्थानधारक</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठामध्ये (~a)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetAnchorToPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदाप्रमाणे स्थानधारक</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदामध्ये (~P)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToggleObjectLayer">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्थिती बदला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MergeDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मेल मर्ज (~M)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MailMergeWizard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मेल मर्ज सहाय्यक (~z)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetAnchorToFrame">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चौकट प्रमाणे स्थानधारक</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">चौकटमध्ये (~F)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertObjectStarMath">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सूत्र (~F)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मजकूर गुणधर्म</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetAnchorToChar">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अक्षराप्रमाणे स्थानधारक</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">अक्षरा सारखे (~h)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertCtrl">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertObjCtrl">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वस्तु अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFieldCtrl">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षेत्र अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertDateField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दिनांक (~D)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NewGlobalDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मास्टर दस्तऐवज निर्माण करा (~D)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertTimeField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वेळ (~T)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPageNumberField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ क्रमांक (~P)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPageCountField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ प्रमाण (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertTopicField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विषय (~S)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertTitleField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शीर्षक (~i)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertAuthorField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लेखक (~A)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFootnote">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पदस्थ टिपणी प्रत्यक्ष अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoFormatApply">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लागू करा (~y)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OnlineAutoFormat">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">टंकलेखनाच्या वेळी (~W)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StatePageNumber">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ क्रमांक</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Grow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट वाढवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Shrink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट छोटा करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageStyleName">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ शैली</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UnderlineDouble">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दुहेरी अधोरेखन</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoFormatRedlineApply">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बदल लागू करा व संपादीत करा (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectionMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">निवड मोड</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ExecHyperlinks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सक्रिय हाइपरलिंक</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SuperScript">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सूपरलिपी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SubScript">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सबलिपी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CharLeftSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डाव्या बाजूचे अक्षर निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CharRightSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजव्या बाजूचे अक्षर निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineUpSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरची रेषा निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineDownSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खाली निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StartOfLineSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेची सुरुवात निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EndOfLineSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेचा शेवट निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StartOfDocumentSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दस्तऐवजाची सुरूवात निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EndOfDocumentSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दस्तऐवजाचा शेवट निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfNextPageSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या पानाची सुरुवात निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfNextPageSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या पानाचा शेवट निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfPrevPageSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या पानाची सुरुवात निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfPrevPageSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या पानाचा शेवट निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfPageSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पानाची सुरुवात निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendOutlineToStarImpress">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">प्रस्तुतीकरणमधील रूपरेषा (~P)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfPageSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पानाचा शेवट निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FlipHorizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुलंब प्रकारे पलटी करा </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendOutlineToClipboard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्लिपबोर्डमधील रूपरेषा (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FlipVertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षैतिज प्रकारे पलटी करा </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NewHtmlDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">HTML दस्तऐवज निर्माण करा (~H)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StartOfParaSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदाची सुरुवात निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EndOfParaSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदाचा शेवट निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WordRightSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवा शब्द निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WordLeftSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्दाची सुरुवात निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoNextSentenceSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढचे वाक्य निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPrevSentenceSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागचे वाक्य निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageUpSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागचे पान निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageDownSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढचे पान निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextRegion">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या विभागामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToPrevRegion">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या विभागामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableNumberFormatDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LoadStyles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शैली लोड करा...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CreateAbstract">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वयंसारांश निर्माण करा (~u)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendAbstractToStarImpress">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">प्रस्तुतीसाठी स्वयंसारांश (~r)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ObjectTitleDescription">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वर्णन...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NameGroup">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नाव...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:BorderDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">किनारी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageColumnDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ स्तंभ</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:BackgroundDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पार्श्र्वभूमी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ स्थापिते</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ (~P)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FormatColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ (~l)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FormatDropcap">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मोठ्या अक्षरांना ड्रॉप करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FrameDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चौकट गुणधर्म</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">चौकट/वस्तु (~m)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GraphicDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चित्र...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">चित्र (~u)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता वैशिष्ठे (~b)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FootnoteDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तळटीप/समाप्तीटीप (~F)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ResetAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पूर्वनिर्धारीत रूपण (~D)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapOff">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रचनाबध्द बंद करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapOn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ रचनाबध्द (~P)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowTwoPages">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठाचे पूर्वदृश्य- दोन पृष्ठे</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapThrough">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मधून रचनाबध्द करा (~W)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowMultiplePages">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठाचे पूर्वदृश्य- अनेक पृष्ठ</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PrintPagePreView">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">छपाई पृष्ठ दृश्य</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डाव्या बाजूस संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ClosePreview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पूर्वदृश्य बन्द करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजव्या बाजूस संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignHorizontalCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षैतिज मध्य</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरील भागाचे संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालच्या भागाचे संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignVerticalCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुलंबित मध्याचे संरेषण करा </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageStyleApply">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठ शैली लागू करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FieldDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षेत्रे (~i)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LinkDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दुवा (~k)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTableText">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मजकूर &lt;-&gt; तक्ता (~x)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTableToText">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मजकूरात तक्ता (~a)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTextToTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्त्यामधील मजकूर (~T)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HeadingRowsRepeat">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुन्हा येणारया शीर्षलेख ओळी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableSort">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमावारीत लावा (~r)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertRowDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ओळी (~R)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रांग अंतर्भुत करा </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertColumnDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ (~C)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ अंतर्भूत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PasteUnformatted">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अपूरे मजकूर चिकटवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PasteSpecial">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चिकटवा विशेष (~S)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रांग नष्ट करा</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">ओळी (~R)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ नष्ट करा</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता (~T)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SplitCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कक्ष दुभागणे</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MergeCells">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कप्पे एकत्र करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetRowHeight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रांग ऊंची...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetColumnWidth">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ रुंदी (~C)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OptimizeTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">योग्य करणे</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:BulletsAndNumberingDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बुल्लेट्स व क्रमांकन (~B)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अक्षराच्या डाव्या बाजूस</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:IndexEntryDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुक्रमणिका नोंद (~y)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवी कडे जा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EntireRow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ओळी निवडा</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">ओळी (~R)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EntireCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कक्ष (~e)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoUp">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरच्या रेषेमध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EntireColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ निवडा</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभ (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateFields">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षेत्र (~F)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता निवडा</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता (~T)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoDown">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालच्या रेषेमध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषारंभामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ExecuteMacroField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मॅक्रो क्षेत्र चालवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Protect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कक्षांची सुरक्षा करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFormula">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सूत्र (~r)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दस्तऐवजाच्या सुरूवातीला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Calc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्त्याची  गणना करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UnsetCellsReadOnly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">असुरक्षित कक्ष</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दस्तऐवजाच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DecrementLevel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">एक स्तराने कमी करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfNextPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या पृष्ठाच्या सुरुवातीला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:IncrementLevel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">एका स्तराने वाढवणे</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetOptimalColumnWidth">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">योग्य स्तंभ रुंदी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpUpThisLevel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या स्तरातील परिच्छेदात</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfNextPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या पृष्ठाच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfPrevPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागील पृष्ठाच्या सुरुवातीला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpDownThisLevel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या स्तरातील परिच्छेदामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MoveUp">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वरच्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfPrevPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागील पृष्ठाच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MoveDown">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">खालच्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठाच्या प्रारंभी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठाच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertNeutralParagraph">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांकरहित नोंद अंतर्भुत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RemoveBullets">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांकन बंद</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetOptimalRowHeight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">योग्य रांग ऊंची</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभाच्या प्रारंभी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DecrementSubLevels">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उपबिंदूच्या साहाय्याने एका स्तराने कमी करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभाच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:IncrementSubLevels">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उपबिंदूच्या साहाय्याने एका स्तराने वाढवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MoveUpSubItems">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उपबिन्दुंसहित वरच्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदारंभी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MoveDownSubItems">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उपबिन्दुंसहित खालच्या बाजूस हलवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदाच्या अंती</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateInputFields">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इनपुट क्षेत्र सुधारीत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToNextWord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्दाच्या उजव्या बाजूस</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToPrevWord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्दाच्या डाव्या बाजूस</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToNextSentence">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढचा वाक्यामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberOrNoNumber">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांकन सुरु /बंद</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToPrevSentence">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या वाक्यामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoNextInputField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या आदान क्षेत्रात</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SwBackspace">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बॅकस्पेस</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPrevInputField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या आदान क्षेत्रामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToEndOfSentence">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वाक्याचा शेवट नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RepeatSearch">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शोध पुन्हा करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToStartOfSentence">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वाक्याची सुरुवात नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToEndOfWord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्दाचा शेवट नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToStartOfWord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्दाची सुरुवात नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToEndOfLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेचा शेवट नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToStartOfLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेची सुरुवात नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToEndOfPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदाचा शेवट नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelToStartOfPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेदाची सुरुवात नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रांग नष्ट करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageUp">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागचे पृष्ठ</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageDown">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढील पृष्ठ</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetMultiSelection">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनेक निवड सुरु </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Repaginate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पृष्ठाचे रूपण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetExtSelection">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विस्तृत निवड सुरु</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditFootnote">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चरणलेख/तललेख~...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Escape">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रद्द करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShiftBackspace">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बॅकस्पेस</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectWord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्द निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatStandard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण : ठराविक</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditRegion">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">भाग (~S)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToReference">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">संदर्भामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoNextObject">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या वस्तुमध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatDecimal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण : दशमान</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPrevObject">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या वस्तूमध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatScientific">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण :घातांकी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextBookmark">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या पृष्ठसंकेतामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatDate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण : दिनांक</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToPrevBookmark">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या पृष्ठसंकेताकडे</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्त्याच्या प्रारंभला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ResetTableProtection">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">असुरक्षित शीट्</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatTime">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण : वेळ</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्त्याच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatCurrency">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण : मुद्रा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या तक्त्यापर्यंत</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatPercent">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांक रूपण : टक्केवारी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToPrevTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागील तक्त्यापर्यंत</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfNextColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढील स्तंभाच्या सुरुवातीला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapIdeal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अखंड पृष्ठ रचनाबध्द करा (~O)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfNextColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढील स्तंभाच्या शेवटी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapThroughTransparent">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पार्श्र्वभूमीत (~B)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToStartOfPrevColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागील स्तंभाच्या सुरुवातीला</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToEndOfPrevColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या स्तंभामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignRowTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेच्या डोक्याशी संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToFootnoteOrAnchor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पदस्थ टीप स्थानधारक</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignRowBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेच्या तळाशी संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextFootnote">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या पदस्थ टीपेमध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignVerticalRowCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषेच्या लंबरूपी मध्याचे संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToPrevFootnote">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागील पदस्थ टीपेमध्ये </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignCharTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अक्षरांच्या डोक्याशी संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextFrame">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या चौकटीत</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ChainFrames">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चौकट लिंक करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignCharBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अक्षरांच्या तळांशी संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UnhainFrames">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चौकट कड़ी काढून टाका</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToAnchor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कर्सरला स्थानधारकामध्ये स्थापित करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignVerticalCharCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अक्षरांच्या लंबरूपी मध्याशी संरेषण करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberingStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमांकन पुनः प्रारंभ करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToHeader">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शीर्षलेखामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">डावे रचनाबध्द करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToFooter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पदस्थ टिपेमध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उजवे रचनाबध्द करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MirrorOnEvenPages">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सम पानांवर आरसा वस्तू करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:IndexMarkToIndex">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुक्रमणिकेसाठी अनुक्रमणिय खुणा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToFootnoteArea">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पदस्थ टिपणी/अंतिम टिपणी संपादन</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MirrorGraphicOnEvenPages">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सम पानांवर ग्राफिक पलटी करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SplitTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता विभाजीत करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapAnchorOnly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पहिला परिच्छेद गुंडाळा</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">पहिला परिच्छेद (~F)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DistributeColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्तंभचे सम वितरण करा (~D)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:IncrementIndentValue">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इन्डेन्ट मूल्य वाढवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DistributeRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ओळींचे सम वितरण करा </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapContour">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">वलय रचनाबध्द करा</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">वलये (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DecrementIndentValue">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इन्डेन्ट मूल्य घटवा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MergeTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता एकत्र करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToPrevPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या परिच्छेदात</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CellVertTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शीर्ष</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RowSplit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रांगेसाठी पलिकडील पृष्ठ व स्तंभांचे खंडन शक्य होऊ द्या</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectText">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">परिच्छेद निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToNextPara">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या परिच्छेदामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CellVertCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मध्यभाग (अनुलंबित)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoNextPlacemarker">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या स्थानधारकामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CellVertBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तळ</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPrevPlacemarker">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागच्या स्थानधारकामध्ये</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableModeFix">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता: ठरलेले</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToStartOfDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">थेट दस्तऐवजाच्या सुरुवातीला </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableModeFixProp">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता: ठरलेले, अनुरूप</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RefreshView">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पूर्वस्थितीत दृष्य</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToEndOfDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">थेट दस्तऐवजाच्या शेवटी </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableModeVariable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता: वेरीयबल</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextWrap">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मजकूर गुंडाळणे...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="mr">संपादीत करा (~E)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoNextIndexMark">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या अनुक्रमणिय चिन्हाकडे जा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPrevIndexMark">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मागील अनुक्रमणिय चिन्हाकडे जा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoSum">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बेरीज</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoNextTableFormula">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या तक्ता सूत्राकडे जा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPrevTableFormula">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आधीच्या तक्ता सूत्राकडे जा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoNextWrongTableFormula">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुढच्या चुकीच्यातक्ता सूत्राकडे जा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GotoPrevWrongTableFormula">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आधीच्या चुकीच्या तक्ता सूत्राकडे जा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectTextMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मजकूर निवडा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Ruler">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रूलर (~R)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineNumberingDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रेषा क्रमांकन (~L)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Graphic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ग्राफिक सुरु/बंद</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CharColorExt">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फॉन्ट्चे रंग भरा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ViewBounds">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मजकूर सीमारेषा (~x)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ThesaurusDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्दकोश (~T)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:BackColor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लक्षवेधक</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Fields">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षेत्र</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CharBackgroundExt">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रंगभरणे लक्षवेधी करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:VRuler">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लंबरूप फूट पट्टी</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Hyphenate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">संयोगचिह्नांकन (~H)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:VScroll">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">लंबरूपी स्क्रॉल बार</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AddAllUnknownWords">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अज्ञात शब्द समावेश करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HScroll">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">समतल दिशेने स्क्रोल करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ChapterNumberingDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रूपरेषा क्रमांकन (~N)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ControlCodes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">छपाई अयोग्य अक्षरें (~N)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SortDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्रमावारीत लावा (~r)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Marks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षेत्र छटांकन (~l)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CalculateSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">गणना करा (~e)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Fieldnames">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">क्षेत्र नाव (~F)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableBoundaries">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता सीमा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowBookview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पुस्तकाचे पूर्वदृश्य</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RemoveDirectCharFormats">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">थेट अक्षर रूपण काडून टाका</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMailDocAsMS">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इमेल मायक्रोसॉफ्ट वर्ड प्रमाणे करा (~M)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMailDocAsOOo">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">इमेल ओपनदस्तऐवज मजकूर प्रमाणे करा (~O)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectionModeDefault">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मानक (~S)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectionModeBlock">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ब्लॉक क्षेत्र (~B)</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Popups">
+      <node oor:name=".uno:TableMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">तक्ता (~a)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableInsertMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अंतर्भुत करा (~I)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableDeleteMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नष्ट करा (~D)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableSelectMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">निवडा (~S)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableAutoFitMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वयं बसणे (~u)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableConvertMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रूपांतरीत करा (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">सुधारीत करा (~U)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:IndexesMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">अनुक्रमणिका व तक्ता (~x)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WordCountDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शब्द गणना (~W)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StylesMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">शैली (~e)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">रचणाबध्द (~W)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoFormatMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">स्वयंयोग्य करा (~e)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectionModeMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">निवड मोड</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SaveGraphic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">ग्राफिक्स साठवा...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ContinueNumbering">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पूर्वीचे क्रमांकन चालू ठेवा</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

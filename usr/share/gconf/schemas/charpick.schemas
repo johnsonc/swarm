@@ -1,0 +1,1536 @@
+<gconfschemafile>
+    <schemalist>
+                
+      <schema>
+        <key>/schemas/apps/charpick/prefs/default_list</key>
+        <owner>charpick_applet2</owner>
+        <type>string</type>
+        <locale name="C">
+          <short>DEPRECATED - Characters shown on applet startup</short>
+          <long></long>
+        </locale>
+
+        <locale name="af">
+          <short>UIGEDIEN - karakters wat tydens laai van miniprogram vertoon word</short>
+          
+        </locale>
+
+        <locale name="ar">
+          <short>ملغى - المحارِف المعروضة عند بدأ البريمج</short>
+          
+        </locale>
+
+        <locale name="as">
+          <short>অবচিত - এপ্লেট প্ৰাৰম্ভৰ সময়ত প্ৰদৰ্শিত অক্ষৰ</short>
+          
+        </locale>
+
+        <locale name="ast">
+          <short>OBSOLETU - Carauteres amosaos al entamar l&apos;aplicación</short>
+          
+        </locale>
+
+        <locale name="az">
+          <short>İSTİFADƏ EDİLMİR - Aplet başlayanda göstəriləcək hərflər</short>
+          
+        </locale>
+
+        <locale name="be">
+          <short>САСТАРЭЛА - Сымбалі, якія будуць паказаны адразу пасьля запуску аплета</short>
+          
+        </locale>
+
+        <locale name="be@latin">
+          <short>SASTAREŁAJE – Znaki, bačnyja pry ŭklučeńni apletu</short>
+          
+        </locale>
+
+        <locale name="bg">
+          <short>остаряло и да не се използва — знаци показвани при стартирането на аплета</short>
+          
+        </locale>
+
+        <locale name="bn">
+          <short>অবচিত - অ্যাপ্লেট প্রারম্ভ কালে প্রদর্শিত অক্ষর</short>
+          
+        </locale>
+
+        <locale name="bn_IN">
+          <short>অবচিত - অ্যাপ্লেট প্রারম্ভ কালে প্রদর্শিত অক্ষর</short>
+          
+        </locale>
+
+        <locale name="br">
+          <short>DIAMZERET - Arouezennoù hewel en ur loc&apos;hañ an arloadig</short>
+          
+        </locale>
+
+        <locale name="bs">
+          <short>ZASTARJELO - Prikazani znakovi pri pokretanju apleta</short>
+          
+        </locale>
+
+        <locale name="ca">
+          <short>DESACONSELLAT - Caràcters mostrats en iniciar la miniaplicació</short>
+          
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>DESACONSELLAT - Caràcters mostrats en iniciar la miniaplicació</short>
+          
+        </locale>
+
+        <locale name="crh">
+          <short>GEÇERSİZ - Uygulamacık başlangıcında gösterilecek karakterler</short>
+          
+        </locale>
+
+        <locale name="cs">
+          <short>ZASTARALÉ - Znaky zobrazované při spuštění appletu</short>
+          
+        </locale>
+
+        <locale name="cy">
+          <short>ANARGYMHELLIR - Nodau a ddangosir wrth i&apos;r rhaglennig gychwyn</short>
+          
+        </locale>
+
+        <locale name="da">
+          <short>FORÆLDET - tegn som vises når panelprogrammet starter</short>
+          
+        </locale>
+
+        <locale name="de">
+          <short>VERALTET - Beim Start des Applets anzuzeigende Zeichen</short>
+          
+        </locale>
+
+        <locale name="dz">
+          <short>ངོས་ལེན་མེདཔ་-ཨེཔ་ལེཊི་ འགོ་བཙུགས་སྐབས་སྟོན་མི་ ཡིག་འབྲུ་ཚུ།</short>
+          
+        </locale>
+
+        <locale name="el">
+          <short>DEPRECATED - Χαρακτήρες που εμφανίζονται κατά την εκκίνηση της μικροεφαρμογής</short>
+          
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑛𐑧𐑐𐑮𐑩𐑒𐑱𐑑𐑩𐑛 - 𐑒𐑸𐑩𐑒𐑑𐑼𐑟 𐑖𐑴𐑯 𐑪𐑯 𐑨𐑐𐑤𐑩𐑑 𐑕𐑑𐑸𐑑𐑳𐑐</short>
+          
+        </locale>
+
+        <locale name="en_CA">
+          <short>DEPRECATED - Characters shown on applet startup</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+          <short>DEPRECATED — Characters shown on applet startup</short>
+          
+        </locale>
+
+        <locale name="es">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_AR">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_GT">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+          <short>OBSOLETO - Caracteres mostrados al iniciar la miniaplicación</short>
+          
+        </locale>
+
+        <locale name="et">
+          <short>AEGUNUD - ümbolid, mida näidata rakendi käivitamisel</short>
+          
+        </locale>
+
+        <locale name="eu">
+          <short>ZAHARKITUA - Miniaplikazioa abiaraztean bistaratutako karaktereak</short>
+          
+        </locale>
+
+        <locale name="fa">
+          <short>منسوخ شده ـ نویسه‌هایی که هنگام برپاسازی برنامک نشان داده شوند</short>
+          
+        </locale>
+
+        <locale name="fi">
+          <short>VANHENTUNUT - Sovelman käynnistyessä näytettävät merkit</short>
+          
+        </locale>
+
+        <locale name="fr">
+          <short>DÉCONSEILLÉ - Caractères affichés au démarrage de l&apos;applet</short>
+          
+        </locale>
+
+        <locale name="gl">
+          <short>OBSOLETO - Caracteres mostrados ao iniciar o miniaplicativo</short>
+          
+        </locale>
+
+        <locale name="gu">
+          <short>અણગમો - અક્ષરો એપ્લેટની શરૂઆતમાં દેખાય છે</short>
+          
+        </locale>
+
+        <locale name="he">
+          <short>DEPRECATED - Characters shown on applet startup</short>
+          
+        </locale>
+
+        <locale name="hi">
+          <short>विरोधित - एप्लेट प्रारंभ होने पर दिखाए जाने वाले अक्षर</short>
+          
+        </locale>
+
+        <locale name="hr">
+          <short>ZASTARJELO — Znakovi koji se prikazuju po pokretanju appleta</short>
+          
+        </locale>
+
+        <locale name="hu">
+          <short>Nem ajánlott - A kisalkalmazás indításakor megjelenítendő karakterek</short>
+          
+        </locale>
+
+        <locale name="hy">
+          <short>ԽՈՐՀՈՒՐԴ ՉԻ ՏՐՎՈՒՄ – Ապլետը գործարկելիս ցուցադրվող նիշեր</short>
+          
+        </locale>
+
+        <locale name="id">
+          <short>DEPRECATED - Karakter terlihat pada saat memulai applet</short>
+          
+        </locale>
+
+        <locale name="is">
+          <short>ÚRELT - Tákn sýnd við ræsingu forrits</short>
+          
+        </locale>
+
+        <locale name="it">
+          <short>DEPRECATA - Caratteri mostrati all&apos;avvio dell&apos;applet</short>
+          
+        </locale>
+
+        <locale name="ja">
+          <short>DEPRECATED (廃止)- アプレット起動時に文字を表示します</short>
+          
+        </locale>
+
+        <locale name="ka">
+          <short>არ არის სასურველი - სიმბოლოები რომლებიც აპლეტის ჩართვისთანავე ჩნდებიან</short>
+          
+        </locale>
+
+        <locale name="kn">
+          <short>ತೆಗೆದುಹಾಕಲಾಗಿದೆ - ಆಪ್ಲೆಟ್‌ ಆರಂಭಗೊಂಡಾಗ ತೋರಿಸಲಾಗುವ ಅಕ್ಷರಗಳು</short>
+          
+        </locale>
+
+        <locale name="ko">
+          <short>DEPRECATED - 애플릿 시작할 때 보일 글자</short>
+          
+        </locale>
+
+        <locale name="ku">
+          <short>NE DERBASDAR - Tîpên dê di destpêka sepankar de bên nîşan</short>
+          
+        </locale>
+
+        <locale name="ky">
+          <short>СУНУШТАЛБАЙТ - Апплетти иштеткен учурда көрсөтүлүүчү символдор</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>NENAUDOJAMA - Simboliai rodomi įtaiso paleidimo metu</short>
+          
+        </locale>
+
+        <locale name="lv">
+          <short>DEPRECATED - Rakstzīmes, kas rādāmas pie apleta starta</short>
+          
+        </locale>
+
+        <locale name="mai">
+          <short>पदावनत - एप्लेट प्रारंभ हए पर देखाओल जाएबला संप्रतीक</short>
+          
+        </locale>
+
+        <locale name="mg">
+          <short>TSY AMPIASAINA INTSONY - Ireo marika aseho am-piantombohan&apos;ilay applet</short>
+          
+        </locale>
+
+        <locale name="mk">
+          <short>ЗАОСТАНАТО - Карактери прикажани при подигање на аплет</short>
+          
+        </locale>
+
+        <locale name="ml">
+          <short>ലഘുപ്രയോഗത്തിന്റെ തുടക്കത്തില്‍ കാണിക്കുന്ന അക്ഷരങ്ങള്‍ - ഈ സവിശേഷത എടുത്ത് മാറ്റിയിരിക്കുന്നു.</short>
+          
+        </locale>
+
+        <locale name="mn">
+          <short>DEPRECATED Тэмдэгтүүд аплет эхлэхэд үзүүлэгдэнэ</short>
+          
+        </locale>
+
+        <locale name="mr">
+          <short>नापसंत - एप्लेट आरंभासह दाखवली जाणारी अक्षरे</short>
+          
+        </locale>
+
+        <locale name="ms">
+          <short>DEPRECATED - Aksara dipapar pada permulaan aplet</short>
+          
+        </locale>
+
+        <locale name="nb">
+          <short>UTGÅTT - tegn som vises ved oppstart av programmet</short>
+          
+        </locale>
+
+        <locale name="ne">
+          <short>छोडिएको - एप्लेट सुरुआतमा देखाइएको क्यारेक्टरहरू</short>
+          
+        </locale>
+
+        <locale name="nl">
+          <short>VEROUDERD - Weer te geven tekens bij starten</short>
+          
+        </locale>
+
+        <locale name="nn">
+          <short>UTGÅTT - Teikn som er viste når programmet startar</short>
+          
+        </locale>
+
+        <locale name="oc">
+          <short>OBSOLET - Caractèrs mostrats a l&apos;aviada de l&apos;aplet</short>
+          
+        </locale>
+
+        <locale name="or">
+          <short>ଅପସନ୍ଦ - ଆପଲେଟ୍ ପ୍ରାରମ୍ଭ ହେବା ସମୟରେ ପ୍ରଦର୍ଶିତ ଅକ୍ଷର ଗୁଡିକ</short>
+          
+        </locale>
+
+        <locale name="pa">
+          <short>ਬਰਤਰਫ਼ - ਐਪਲਿਟ ਦੀ ਸ਼ੁਰੂਆਤ ਸਮੇਂ ਅੱਖਰ ਵੇਖਾਉਣੇ</short>
+          
+        </locale>
+
+        <locale name="pl">
+          <short>PRZESTARZAŁE - Znaki widoczne podczas uruchamiania apletu</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>OBSOLETO - Caracteres apresentados ao iniciar a applet</short>
+          
+        </locale>
+
+        <locale name="pt_BR">
+          <short>OBSOLETO - Caracteres mostrados ao iniciar o miniaplicativo</short>
+          
+        </locale>
+
+        <locale name="ro">
+          <short>ÎNVECHIT - Caractere afișate la pornirea miniaplicației</short>
+          
+        </locale>
+
+        <locale name="ru">
+          <short>НЕ РЕКОМЕНДУЕТСЯ - Символы, показываемые при запуске апплета</short>
+          
+        </locale>
+
+        <locale name="sk">
+          <short>ZASTARALÉ - Znaky zobrazené v aplete po spustení</short>
+          
+        </locale>
+
+        <locale name="sl">
+          <short>ZASTARELO - Znaki, ki se pokažejo ob zagonu vstavka</short>
+          
+        </locale>
+
+        <locale name="sq">
+          <short>NUK PËRDORET MË·-·Shkronjat e shfaqura në lëshimin e applet</short>
+          
+        </locale>
+
+        <locale name="sr">
+          <short>ЗАСТАРЕЛО — Знакови који се приказују по покретању програмчета</short>
+          
+        </locale>
+
+        <locale name="sr@latin">
+          <short>ZASTARELO — Znakovi koji se prikazuju po pokretanju programčeta</short>
+          
+        </locale>
+
+        <locale name="sv">
+          <short>FÖRÅLDRAT - Tecken som visas vid uppstart av panelprogrammet</short>
+          
+        </locale>
+
+        <locale name="ta">
+          <short>கைவிடப் பட்டது- சிறு நிரல்கள் துவக்கும் போது காட்டும் எழுத்துருக்கள்</short>
+          
+        </locale>
+
+        <locale name="te">
+          <short>యాప్లెట్ ప్రారంభంలో వారించవలసిన అక్షరాలు</short>
+          
+        </locale>
+
+        <locale name="th">
+          <short>โปรดเลิกใช้ - อักขระที่แสดงเมื่อเริ่มใช้แอพเพล็ต</short>
+          
+        </locale>
+
+        <locale name="tr">
+          <short>GEÇERSİZ - Uygulamacık başlangıcında gösterilecek karakterler</short>
+          
+        </locale>
+
+        <locale name="uk">
+          <short>НЕ РЕКОМЕНДУЮТЬСЯ - Символи, що показуватимуться після запуску</short>
+          
+        </locale>
+
+        <locale name="vi">
+          <short>BỊ PHẢN ĐỐI - Ký tự hiện lúc khởi động tiểu dụng</short>
+          
+        </locale>
+
+        <locale name="xh">
+          <short>EZALIWEYO - iimpawu eziboniswe kuqalo lwenkqutyana yekhompyutha</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+          <short>不推荐 - 小程序启动时显示的字符</short>
+          
+        </locale>
+
+        <locale name="zh_HK">
+          <short>面板程式啟動時所顯示的字符</short>
+          
+        </locale>
+
+        <locale name="zh_TW">
+          <short>面板程式啟動時所顯示的字元</short>
+          
+        </locale>
+      </schema>
+      
+      <schema>
+        <key>/schemas/apps/charpick/prefs/current_list</key>
+        <owner>charpick_applet2</owner>
+        <type>string</type>
+        <locale name="C">
+          <short>Characters shown on applet startup</short>
+          <long>The string that the user had selected when the applet was last used. This string will be displayed when the user starts the applet.</long>
+        </locale>
+
+        <locale name="af">
+          <short>Karakters wat tydens laai van miniprogram vertoon word</short>
+          <long>Die string wat die gebruiker geselekteer het toe die miniprogram die vorige keer gebruik is. Die string sal vertoon word wanneer die gebruiker die miniprogram laai.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>المحارف التي ستعرض عند بدأ البريمج</short>
+          <long>السلسلة التي اختارها المستخدم آخر مرة استخدم فيها البريمج. ستعرض هذه السلسلة عند بدأ المستخدم للبريمج</long>
+        </locale>
+
+        <locale name="as">
+          <short>এপ্লেট প্ৰাৰম্ভৰ সময়ত প্ৰদৰ্শিত অক্ষৰ</short>
+          <long>এপ্লেট সৰ্বশেষ ব্যৱহৃত হোৱাৰ সময়ত ব্যৱহাৰকৰোঁতাৰ দ্বাৰা নিৰ্বাচিত পংক্তি । ব্যৱহাৰকৰোঁতাৰ দ্বাৰা এপ্লেটটি আৰম্ভ কৰাৰ সময়ত এই পংক্তি প্ৰদৰ্শন কৰা হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Carauteres amosaos al entamar l&apos;aplicación</short>
+          <long>Cadena escoyida pol usuariu la cabera vegada que usó l&apos;aplicación. Esta cadena amosaráse cuando&apos;l usuariu arrenque l&apos;aplicación</long>
+        </locale>
+
+        <locale name="az">
+          <short>Aplet başlayanda göstəriləcək hərflər</short>
+          <long>Appletin son istifadə edildiyi vaxt istifadəçinin seçdiyi qatar. Bu qatar istifadəçi appleti başladanda göstəriləcək.</long>
+        </locale>
+
+        <locale name="be">
+          <short>Сымбалі, якія будуць паказаны адразу пасьля запуску аплета</short>
+          <long>Радок, які вылучыў карыстальнік падчас апошняга выкарыстаньня аплета. Гэты радок будзе паказаны, калі карыстальнік запусьціць аплет.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Znaki, bačnyja pry ŭklučeńni apletu</short>
+          <long>Radok, jaki karystalnik vybraŭ padčas apošniaha karystańnia apletam. Hety radok budzie pakazany pry ŭklučeńni apletu.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Знаци показани при стартирането на аплета</short>
+          <long>Низ, който е посочен от потребителя последния път, когато аплетът е бил използван. Този низ ще се изобразява когато потребителят стартира аплета.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>অ্যাপ্লেট প্রারম্ভ কালে প্রদর্শিত অক্ষর</short>
+          <long>অ্যাপ্লেট সর্বশেষ ব্যবহৃত হওয়ার সময়, ব্যবহারকারী দ্বারা নির্বাচিত পংক্তি। ব্যবহারকারী দ্বারা অ্যাপ্লেটটি আরম্ভ করার সময় এই পংক্তি প্রদর্শন করা হবে।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>অ্যাপ্লেট প্রারম্ভ কালে প্রদর্শিত অক্ষর</short>
+          <long>অ্যাপ্লেট সর্বশেষ ব্যবহৃত হওয়ার সময়, ব্যবহারকারী দ্বারা নির্বাচিত পংক্তি। ব্যবহারকারী দ্বারা অ্যাপ্লেটটি আরম্ভ করার সময় এই পংক্তি প্রদর্শন করা হবে।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Arouezennoù hewel en ur loc&apos;hañ an arloadig</short>
+          <long>Ar chadenn a oa bet diuzet ar wech diwezhañ e oa bet implijet an arloadig. Ar chadenn-mañ a vo diskouezet pa vo loc&apos;het an arloadig gant un arveriad.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Prikazani znakovi pri pokretanju apleta</short>
+          <long>String koji je korsnik izabrao pri zadnjem korištenju apleta. Ovaj string će se prikazati kada korisnik pokrene aplet.</long>
+        </locale>
+
+        <locale name="ca">
+          <short>Caràcters mostrats en iniciar la miniaplicació</short>
+          <long>La cadena que l&apos;usuari tenia seleccionada quan es va utilitzar la miniaplicació per darrer cop. Aquesta cadena es mostrarà quan l&apos;usuari iniciï la miniaplicació.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Caràcters mostrats en iniciar la miniaplicació</short>
+          <long>La cadena que l&apos;usuari tenia seleccionada quan es va utilitzar la miniaplicació per darrer cop. Esta cadena es mostrarà quan l&apos;usuari inicie la miniaplicació.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Uygulamacık başlangıcında gösterilecek karakterler</short>
+          <long>Uygulamacık en son kullanıldığında kullanıcının seçtiği dizgi. Bu dizgi kullanıcı uygulamacığı başlattığı zaman gösterilecek.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Znaky zobrazované při spuštění appletu</short>
+          <long>Řetězec, který uživatel vybral při posledním použití appletu. Tento řetězec bude zobrazen, když uživatel spustí applet.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Nodau a ddangosir wrth i&apos;r rhaglennig gychwyn</short>
+          <long>Y llinyn dewisodd y defnyddiwr y tro diwethaf defnyddiwyd y rhaglennig hwn. Caiff y llinyn yma ei ddangos pan mae&apos;r defnyddiwr yn cychwyn y rhaglennig.</long>
+        </locale>
+
+        <locale name="da">
+          <short>Tegn som vises fra start</short>
+          <long>Den streng som brugeren havde valgt da panelprogrammet sidst blev brugt. Denne streng vil blive vist når programmet starter.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Beim Applet-Start anzuzeigende Zeichen</short>
+          <long>Die Zeichenkette, die der Benutzer beim letzten Einsatz des Applets gewählt hat. Diese Zeichenkette wird angezeigt, sobald der Benutzer das Applet startet.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>ཨེཔ་ལེཊི་ འགོ་བཙུགས་སྐབས་སྟོན་མི་ ཡིག་འབྲུ་ཚུ།</short>
+          <long>ལག་ལེན་པ་གིས་ མཐའ་མཇུག་གི་པེ་ལེཊི་དེ་ ལག་ལེན་འཐབ་པའི་སྐབས་ སེལ་འཐུ་འབད་མི་ཡིག་རྒྱུན། ལག་ལེན་པ་གིས་ པེ་ལེཊི་དེ་ འགོ་བཙུགསཔ་ད་ ཡིག་རྒྱུན་དེ་བཀྲམ་སྟོན་འབད་འོང་།</long>
+        </locale>
+
+        <locale name="el">
+          <short>Χαρακτήρες που εμφανίζονται κατά την εκκίνηση της μικροεφαρμογής</short>
+          <long>Το αλφαριθμητικό που ο χρήστης έχει επιλέξει όταν χρησιμοποιήθηκε η μικροεφαρμογή για τελευταία φορά. Αυτό το αλφαριθμητικό θα εμφανίζεται όταν ο χρήστης ξεκινά η μικροεφαρμογή.</long>
+        </locale>
+
+        <locale name="en@shaw">
+          <short>𐑒𐑸𐑩𐑒𐑑𐑼𐑟 𐑖𐑴𐑯 𐑪𐑯 𐑨𐑐𐑤𐑩𐑑 𐑕𐑑𐑸𐑑𐑳𐑐</short>
+          <long>𐑞 𐑕𐑑𐑮𐑦𐑙 𐑞𐑨𐑑 𐑞 𐑿𐑟𐑼 𐑣𐑨𐑛 𐑕𐑩𐑤𐑧𐑒𐑑𐑩𐑛 𐑢𐑧𐑯 𐑞 𐑨𐑐𐑤𐑩𐑑 𐑢𐑪𐑟 𐑤𐑭𐑕𐑑 𐑿𐑕𐑑. 𐑞𐑦𐑕 𐑕𐑑𐑮𐑦𐑙 𐑢𐑦𐑤 𐑚𐑰 𐑛𐑩𐑕𐑐𐑤𐑱𐑛 𐑢𐑧𐑯 𐑞 𐑿𐑟𐑼 𐑕𐑑𐑸𐑑𐑕 𐑞 𐑨𐑐𐑤𐑩𐑑.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>Characters shown on applet startup</short>
+          <long>The string that the user had selected when the applet was last used. This string will be displayed when the user starts the applet.</long>
+        </locale>
+
+        <locale name="en_GB">
+          <short>Characters shown on applet startup</short>
+          <long>The string that the user had selected when the applet was last used. This string will be displayed when the user starts the applet.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_AR">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_CL">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_CO">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_CR">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_DO">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_EC">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_ES">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_GT">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_HN">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_MX">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_NI">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_PA">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_PE">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_PR">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_SV">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_UY">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="es_VE">
+          <short>Caracteres mostrados al iniciar la miniaplicación</short>
+          <long>La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.</long>
+        </locale>
+
+        <locale name="et">
+          <short>Sümbolid, mida näidata rakendi käivitamisel</short>
+          <long>String, mille kasutaja valis kui rakendit viimati kasutati. Seda stringi kuvatakse siis, kui kasutaja käivitab rakendi.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Miniaplikazioa abiaraztean bistaratutako karaktereak</short>
+          <long>Miniaplikazioa azken aldiz erabili zenean erabiltzaileak hautatu zuen katea. Miniaplikazioa abiaraztean kate hori bistaratuko da.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>نویسه‌هایی که موقع راه‌اندازی برنامک نمایش داده می‌شوند</short>
+          <long>رشته‌ای که کاربر در آخرین باری که برنامک استفاده شده، انتخاب کرده است. این رشته وقتی که کاربر برنامک را آغاز کند نمایش داده می‌شود.</long>
+        </locale>
+
+        <locale name="fi">
+          <short>Sovelman käynnistyessä näytettävät merkit</short>
+          <long>Merkkijono, jonka käyttäjä valitsi, kun sovelmaa viimeksi käytettiin. Tämä merkkijono näytetään kun sovelma käynnistetään.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Caractères affichés au démarrage de l&apos;applet</short>
+          <long>La chaîne que l&apos;utilisateur a sélectionnée lorsque l&apos;applet a été utilisée la dernière fois. Cette chaîne sera affichée quand l&apos;utilisateur démarrera l&apos;applet.</long>
+        </locale>
+
+        <locale name="gl">
+          <short>Caracteres que se mostran ao iniciar o miniaplicativo</short>
+          <long>A cadea que o usuario seleccionou cando se utilizou o miniaplicativo por última vez. Mostrarase esta cadea cando o usuario inicie o miniaplicativo.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>એપ્લેટની શરૂઆતમાં અક્ષરો દેખાય છે</short>
+          <long>છેલ્લે જ્યારે એપ્લેટ વપરાઇ હતી ત્યારે વપરાશકર્તાએ શબ્દમાળા પસંદ કરી હતી. વપરાશકર્તા જ્યારે એપ્લેટ શરૂ કરે છે ત્યારે આ શબ્દમાળા દેખાય છે.</long>
+        </locale>
+
+        <locale name="he">
+          <short>Characters shown on applet startup</short>
+          <long>The string that the user had selected when the applet was last used. This string will be displayed when the user starts the applet.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>एप्लेट प्रारंभ होने पर दिखाए जाने वाले अक्षर</short>
+          <long>स्ट्रिंग जोकि उपयोगकर्ता ने चुना है जब एप्लेट अंतिम बार उपयोग में लिया गया. यह स्ट्रिंग प्रदर्शित होगा जब उपयोगकर्ता एप्लेट प्रारंभ करेगा.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Znakovi koji se prikazuju prilikom pokretanja appleta</short>
+          <long>Znakovni niz koji je odabrao korisnik pri posljednjoj upotrebi appleta. Ovaj znakovni niz će biti prikazan kada korisnik pokrene applet.</long>
+        </locale>
+
+        <locale name="hu">
+          <short>A kisalkalmazás indításakor megjelenített karakterek</short>
+          <long>A felhasználó által a kisalkalmazás utolsó futtatásakor kiválasztott karakterlánc. Ez a karakterlánc meg lesz jelenítve, ha a felhasználó elindítja a kisalkalmazást.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Ապլետը գործարկելիս ցուցադրվող նիշեր</short>
+          <long>Գործարկողի կողմից վերջին օգտագործման ժամանակ ընտրված տողը։ Այս տողը կհայտնվի հետագա գործարկման ժամանակ </long>
+        </locale>
+
+        <locale name="id">
+          <short>Karakter yang diperlihatkan pada saat memulai applet</short>
+          <long>String yang dipilih pengguna ketika terakhir kali applet dipergunakan. String ini akan ditampilkan ketika pengguna menjalankan applet.</long>
+        </locale>
+
+        <locale name="is">
+          <short>Tákn sýnd við ræsingu forrits</short>
+          <long>Strengurinn sem notandinn valdi síðast þegar forritið var notað. Þessi strengur verður sýndur þegar notandinn ræsir forritið.</long>
+        </locale>
+
+        <locale name="it">
+          <short>Caratteri mostrati all&apos;avvio dell&apos;applet</short>
+          <long>La stringa selezionata dall&apos;utente l&apos;ultima volta che è stata avviata l&apos;applet. Questa stringa è mostrata quando viene avviata l&apos;applet.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>アプレット起動時に文字を表示する</short>
+          <long>アプレットが最後に使用していた際に選択していた文字列です。この文字列はアプレットを起動する際に表示されます。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>ასოები რომლებიც პროგრამის გაშვებისთანავე უნდა გამოჩნდნენ</short>
+          <long>აპლეტის ბოლოს გამოყენების დროს შერჩეული სტრიქონი. გამოჩნდება როდესაც მომხმარებელი ჩართავს აპლეტს.</long>
+        </locale>
+
+        <locale name="kn">
+          <short>ಆಪ್ಲೆಟ್‌ನ ಆರಂಭದಲ್ಲಿ ತೋರಿಸಲಾಗುವ ಅಕ್ಷರಗಳು</short>
+          <long>ಆಪ್ಲೆಟ್‌ ಅನ್ನು ಕೊನೆಯ ಬಾರಿಗೆ ಬಳಸಿದಾಗ ಬಳಕೆದಾರರು ಆಯ್ಕೆ ಮಾಡಿದ ವಾಕ್ಯ. ಬಳಕೆದಾರರು ಆಪ್ಲೆಟ್‌ ಅನ್ನು ಆರಂಭಿಸಿದಾಗ ಈ ವಾಕ್ಯವನ್ನು ತೋರಿಸಲಾಗುವುದು.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>애플릿 시작할 때 보일 글자</short>
+          <long>애플릿이 마지막으로 사용되었을 때 선택한 스트링. 애플릿을 시작할 때 이 스트링이 보여집니다.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Tîpên dê di destpêka sepankarê de bête nîşan</short>
+          <long>Tîprêziya ku herî dawî dema sepankar hate bikaranîn bikarhêner hilbijartiye. Ev tîprêzî dema bikarhêner sepankarê bide destpêkirin dê nîşan bike.</long>
+        </locale>
+
+        <locale name="ky">
+          <short>Апплетти иштеткен учурда көрсөтүлүүчү символдор</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Simboliai rodomi įtaiso paleidimo metu</short>
+          <long>Eilutė kurią vartotojas buvo pažymėjęs paskutinio įtaiso naudojimo metu. Ši eilutė bus rodoma kai vartotojas vėl paleis įtaisą.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Rakstzīmes, kas rādāmas pie apleta starta</short>
+          <long>Virkne, kuru lietotājs pēdējo reizi izvēlējās kad aplets pēdējo reizi tika lietots. Šī virkne tiks attēlota, kad lietotājs startēs apletu.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>एप्लेट प्रारंभ हए पर देखाओल जाएबला संप्रतीक</short>
+          <long>स्ट्रिंग जे प्रयोक्ता चुनने अछि जखन एप्लेट अंतिम बार उपयोगमे लेल गेल . ई स्ट्रिंग प्रदर्शित हाएत जखन प्रयोक्ता एप्लेट प्रारंभ करताह.</long>
+        </locale>
+
+        <locale name="mg">
+          <short>Ireo marika aseho am-piantombohan&apos;ilay applet</short>
+          <long>Ny laha-daza nofaritan&apos;ny mpampiasa tamin&apos;ny fotoana nampiasana ilay applet farany. Haseho io laha-daza io rehefa mandefa ilay applet ny mpampiasa.</long>
+        </locale>
+
+        <locale name="mk">
+          <short>Знаци прикажани при подигање на аплет</short>
+          <long>Стрингот кој корисникот го избрал кога аплтетот бил вклучен за последен пат. Овојстринг ќе се прикаже кога корисникот ќе го вклучи аплетот.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ലഘുപ്രയോഗത്തിന്റെ തുടക്കത്തില്‍ കാണിക്കുന്ന അക്ഷരങ്ങള്‍</short>
+          <long>ഉപഭോക്താവ് ഏറ്റവും ഒടുവില്‍ ലഘുപ്രയോഗം ഉപയോഗിച്ചപ്പോള്‍ തെരഞ്ഞെടുത്ത സ്ട്രിങ്. അടുത്ത തവണ ഈ ആപ്-ലെറ്റ് തുടങ്ങുമ്പോള്‍ ഈ സ്ട്രിങ് ആയിരിക്കും കാണുക.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Тэмдэгтүүд аплет эхлэхэд үзүүлэгдэнэ</short>
+          <long>Хэрэглэгчийн хамгийн сүүлд аплетийг ашиглахдаа сонгосон мөр. Энэ нь хэрэглэгч аплетийг эхлүүлэх үед үзүүлэгдэнэ.</long>
+        </locale>
+
+        <locale name="mr">
+          <short>एप्लेट आरंभावेळी दाखवली जाणारी अक्षरे</short>
+          <long>मागील वेळी एप्लेट वापरले असताना उपयोक्त्याने निवडलेली ओळ. ही ओळ उपयोक्त्याने एप्लेट सुरू केल्यावर दर्शवली जाईल.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Aksara dipapar pada permulaan aplet</short>
+          
+        </locale>
+
+        <locale name="nb">
+          <short>Tegn som vises ved oppstart</short>
+          <long>Strengen som brukeren valgte når programmet ble brukt sist. Denne strengen vil vises når brukeren starter programmet.</long>
+        </locale>
+
+        <locale name="ne">
+          <short>एप्लेट सुरुआतमा देखाइएको क्यारेक्टरहरू</short>
+          <long>एप्लेट अन्तिम पटक प्रयोग गरिएको बेला प्रयोगकर्ताले चयन गरेको स्ट्रिङ । यो स्ट्रिङ प्रयोगकर्ताले एप्लेट सुरू गर्दा प्रदर्शित हुनेछ ।</long>
+        </locale>
+
+        <locale name="nl">
+          <short>Weer te geven tekens bij starten</short>
+          <long>De laatst gekozen tekst. Deze tekst zal weergegeven worden wanneer de gebruiker het applet start.</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Teikn som vert vist når panelprogrammet startar</short>
+          <long>Strengen som brukaren valde sist panelprogrammet vart brukt. Denne strengen vert vist når brukaren startar programmet.</long>
+        </locale>
+
+        <locale name="oc">
+          <short>Caractèrs mostrats a l&apos;aviada de l&apos;aplet</short>
+          <long>La cadena que l&apos;utilizaire a seleccionada a la darrièra utilizacion de l&apos;aplet. La cadena s&apos;aficha quand l&apos;utilizaire àvia l&apos;aplet.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ଆପଲେଟ୍ ପ୍ରାରମ୍ଭ ହେବା ସମୟରେ ପ୍ରଦର୍ଶିତ ଅକ୍ଷର ଗୁଡିକ</short>
+          <long>ଆପଲେଟ ଶେଷ ଥର ଉପୟୋଗ ହୋଇଥିବା ବେଳେ ଉପୟୋଗକର୍ତ୍ତାଙ୍କ ଦ୍ବାରା ମନୋନୀତ ହୋଇଥିବା ସ୍ଟ୍ରିଙ୍ଗ ୤ ଏହି ସ୍ଟ୍ରିଙ୍ଗ, ୟେବେ ଉପୟୋଗକର୍ତ୍ତା ଆପଲେଟକୁ ଆରମ୍ଭ କରିବେ ପ୍ରଦର୍ଶିତ ହେବ ୤</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਐਪਲਿਟ ਦੀ ਸ਼ੁਰੂਆਤ ਸਮੇਂ ਅੱਖਰ ਵੇਖੋ</short>
+          <long>ਸਤਰ, ਜੋ ਕਿ ਯੂਜ਼ਰ ਨੇ ਚੁਣੀ ਸੀ, ਜਦੋ ਕਿ ਐਪਲਿਟ ਆਖਰੀ ਵਾਰ ਵਰਤਿਆ ਗਿਆ ਸੀ। ਇਹ ਸਤਰ ਵੇਖਾਈ ਜਾਵੇਗੀ, ਜਦੋਂ ਕਿ ਯੂਜ਼ਰ ਐਪਲਿਟ ਨੂੰ ਸ਼ੁਰੂ ਕਰੇਗਾ।</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Znaki widoczne podczas uruchamiania apletu</short>
+          <long>Ciąg znaków, jaki użytkownik wybrał podczas ostatniego użycia apletu. Ciąg ten zostanie wyświetlony podczas uruchomienia apletu.</long>
+        </locale>
+
+        <locale name="pt">
+          <short>Caracteres apresentados ao iniciar a applet</short>
+          <long>A expressão que o utilizador seleccionou da última vez que a applet foi utilizada. Esta expressão será apresentada quando o utilizador iniciar a applet.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Caracteres mostrados ao iniciar o miniaplicativo</short>
+          <long>A string que o usuário selecionou da última vez que o miniaplicativo foi usado. Esta string será mostrada quando o usuário iniciar o miniaplicativo.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Caractere afișate la pornirea miniaplicației</short>
+          <long>Șirul folosit de utilizator la ultima folosire a miniaplicației. Acest șir va fi afișat atunci când utilizatorul va porni această miniaplicație.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Символы, показываемые при запуске</short>
+          <long>Строка, выбранная пользователем при последнем использовании. Эта строка будет показываться при дальнейших запусках.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Znaky zobrazené po spustení apletu</short>
+          <long>Reťazec, ktorý vybral používateľ pri poslednom použití apletu. Bude zobrazený pri budúcom spustení.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Znaki prikazani ob zagonu vstavka</short>
+          <long>Niz, ki ga je izbral uporabnik, ko je bil vstavek zadnjič uporabljen. Ta niz bo prikazan, ko uporabnik zažene vstavek.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Shkronjat e shfaqura në lëshimin e applet</short>
+          <long>Stringa që përdoruesi ka zgjedhur kur applet u përdor për herë të fundit. Kjo stringë do të përdoret kur applet do riniset.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Знакови који се приказују по покретању програмчета</short>
+          <long>Ниска коју је изабрао корисник при последњој употреби програмчета. Ова ниска ће бити приказана када корисник покрене програмче.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Znakovi koji se prikazuju po pokretanju programčeta</short>
+          <long>Niska koju je izabrao korisnik pri poslednjoj upotrebi programčeta. Ova niska će biti prikazana kada korisnik pokrene programče.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Tecken som visas vid uppstart av panelprogrammet</short>
+          <long>Strängen som användaren hade markerat då panelprogrammet senast användes. Denna sträng kommer att visas då användaren startar panelprogrammet.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>குறுநிரலில் காண்பிக்கப்பட்ட எழுத்துருக்களை காண்பிக்கவும்</short>
+          <long>பயனர் கடைசியாக குறும்பயனில் தேர்ந்தெடுத்த சரம். இந்த சரம் குறும்பயனை துவக்கும் போது காட்டப் படும்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>యాప్లెట్ ప్రారంభంలో చూపబడే అక్షరాలు</short>
+          <long>ఆప్లెట్ ను చివరి సారిగా ఉపయోగించినపుడు వినియోగదారు ఎంచుకొన్నపదబంధము. వినియోగదారు ఆప్లెట్ ను ప్రారంభించినపుడు ఈ పదబంధము ప్రదర్శించబడును</long>
+        </locale>
+
+        <locale name="th">
+          <short>อักขระที่แสดงเมื่อเริ่มใช้แอพเพล็ต</short>
+          <long>ข้อความที่ผู้ใช้เลือกครั้งสุดท้ายที่แอพเพล็ตนี้ถูกใช้ ข้อความนี้จะถูกแสดงเมื่อผู้ใช้เปิดแอพเพล็ต</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Uygulamacık başlangıcında gösterilecek karakterler</short>
+          <long>Uygulamacık en son kullanıldığında kullanıcının seçtiği dizgi. Bu dizgi kullanıcı uygulamacığı başlattığı zaman gösterilecek.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Символи, що відображаються після запуску</short>
+          <long>Рядок, який вибрав користувач під час останнього використання аплету. Цей рядок відображатиметься після наступного запуску.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Ký tự hiện lúc khởi động tiểu dụng</short>
+          <long>Chuỗi người dùng đã chọn khi tiểu dụng được dùng lần cuối. Chuỗi này sẽ được hiển thị khi người dùng khởi động tiểu dụng ấy.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Iimpawu eziboniswe kuqalo lwenkqutyana yekhompyutha</short>
+          <long>Uluhlu lwamagama umsebenzisi awakhethileyo xa kwagqityelwa ukusetyenziswa inkqutyana yekhompyutha. Olu luhlu lwamagama luyakubonakaliswa xa umsebenzisi eqala inkqutyana yekhompyutha.</long>
+        </locale>
+
+        <locale name="zh_CN">
+          <short>小程序启动时显示的字符</short>
+          <long>小程序上次使用时用户所选的字符串。此字符串将会在用户启动小程序时显示。</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>面板程式啟動時所顯示的字符</short>
+          <long>這是使用者在上次啟動面板程式時選擇的字串。使用者下次啟動面板程式時會再顯示這個字串。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>面板程式啟動時所顯示的字元</short>
+          <long>這是使用者在上次啟動面板程式時選擇的字串。使用者下次啟動面板程式時會再顯示這個字串。</long>
+        </locale>
+      </schema>
+      
+      <schema>
+        <key>/schemas/apps/charpick/prefs/chartable</key>
+        <owner>charpick_applet2</owner>
+        <type>list</type>
+        <list_type>string</list_type>
+        <locale name="C">
+          <short>List of available palettes</short>
+          <long>List of strings containing the available palettes.</long>
+        </locale>
+
+        <locale name="af">
+          <short>Lys van beskikbare palette</short>
+          <long>Lys van stringe wat die beskikbare palette bevat.</long>
+        </locale>
+
+        <locale name="ar">
+          <short>قائمة للوائح المتوفرة</short>
+          <long>قائمة السلاسل المحتوية على لوحات الألوان المتوفرة.</long>
+        </locale>
+
+        <locale name="as">
+          <short>উপলব্ধ পেলেটৰ তালিকা</short>
+          <long>উপলব্ধ প্যালেট ধাৰণকৰ্তা পংক্তিৰ তালিকা ।</long>
+        </locale>
+
+        <locale name="ast">
+          <short>Llista de paletes afayaíces</short>
+          <long>Llista de cadenes que contienen les paletes disponibles.</long>
+        </locale>
+
+        <locale name="az">
+          <short>Mövcud palitraların siyahısı</short>
+          
+        </locale>
+
+        <locale name="be">
+          <short>Сьпіс даступных палітраў</short>
+          <long>Сьпіс радкоў, якія ўтрымліваюць даступныя палітры.</long>
+        </locale>
+
+        <locale name="be@latin">
+          <short>Śpis dastupnych palitraŭ</short>
+          <long>Śpis łancuhoŭ znakaŭ z dastupnymi palitrami.</long>
+        </locale>
+
+        <locale name="bg">
+          <short>Списък от възможните палитри</short>
+          <long>Списък от низове, които съдържат познатите палитри.</long>
+        </locale>
+
+        <locale name="bn">
+          <short>উপলব্ধ প্যালেটের তালিকা</short>
+          <long>বিদ্যমান প্যালেট ধারণকারী স্ট্রিং-এর তালিকা।</long>
+        </locale>
+
+        <locale name="bn_IN">
+          <short>উপলব্ধ প্যালেটের তালিকা</short>
+          <long>উপলব্ধ প্যালেট ধারণকারী পংক্তির তালিকা।</long>
+        </locale>
+
+        <locale name="br">
+          <short>Roll an taolennoù hegerz</short>
+          <long>Listennad gant hedadoù eskemm a zo.</long>
+        </locale>
+
+        <locale name="bs">
+          <short>Lista dostupnih paleta</short>
+          
+        </locale>
+
+        <locale name="ca">
+          <short>Llista de paletes disponibles</short>
+          <long>Llista de cadenes que contenen les paletes disponibles.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+          <short>Llista de paletes disponibles</short>
+          <long>Llista de cadenes que contenen les paletes disponibles.</long>
+        </locale>
+
+        <locale name="crh">
+          <short>Kullanılabilir paletlerin listesi</short>
+          <long>Kullanılabilir paletleri içeren dizgilerin listesi.</long>
+        </locale>
+
+        <locale name="cs">
+          <short>Seznam dostupných palet</short>
+          <long>Seznam řetězců obsahujících dostupné palety.</long>
+        </locale>
+
+        <locale name="cy">
+          <short>Rhestr o&apos;r paletau sydd ar gael</short>
+          
+        </locale>
+
+        <locale name="da">
+          <short>Liste af tilgængelige paletter</short>
+          <long>Liste af strenge der indeholder de tilgængelige paletter.</long>
+        </locale>
+
+        <locale name="de">
+          <short>Liste der verfügbaren Paletten</short>
+          <long>Liste der Zeichenketten, die die verfügbaren Paletten enthalten.</long>
+        </locale>
+
+        <locale name="dz">
+          <short>འཐོབ་ཚུགས་པའི་ པེ་ལེཊིསི་གི་ ཐོ་ཡིག</short>
+          <long>འཐོབ་ཚུགས་པའི་ པེ་ལེཊིསི་ཡོད་པའི་ ཡིག་རྒྱུན་ཚུ་གི་ཐོ་ཡིག། </long>
+        </locale>
+
+        <locale name="el">
+          <short>Λίστα διαθέσιμων παλετών</short>
+          <long>Λίστα αλφαριθμητικών που περιέχει τις διαθέσιμες παλέτες.</long>
+        </locale>
+
+        <locale name="en_CA">
+          <short>List of available palettes</short>
+          
+        </locale>
+
+        <locale name="en_GB">
+          <short>List of available palettes</short>
+          <long>List of strings containing the available palettes.</long>
+        </locale>
+
+        <locale name="es">
+          <short>Lista de paletas disponibles</short>
+          <long>Lista de cadenas que contienen las paletas disponibles.</long>
+        </locale>
+
+        <locale name="es_AR">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_CL">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_CO">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_CR">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_DO">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_EC">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_ES">
+          <short>Lista de paletas disponibles</short>
+          <long>Lista de cadenas que contienen las paletas disponibles.</long>
+        </locale>
+
+        <locale name="es_GT">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_HN">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_MX">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_NI">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_PA">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_PE">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_PR">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_SV">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_UY">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="es_VE">
+          <short>Lista de paletas disponibles</short>
+          
+        </locale>
+
+        <locale name="et">
+          <short>Saadaolevate palettide loend</short>
+          <long>Saadaolevaid palette sisaldavate stringide loend.</long>
+        </locale>
+
+        <locale name="eu">
+          <short>Paleta erabilgarrien zerrenda</short>
+          <long>Paleta erabilgarriak dituzten kateen zerrenda.</long>
+        </locale>
+
+        <locale name="fa">
+          <short>فهرست پالت‌های موجود</short>
+          
+        </locale>
+
+        <locale name="fi">
+          <short>Luettelo saatavilla olevista paleteista</short>
+          <long>Luettelo merkkijonoista, jotka sisältävät saatavilla olevat paletit.</long>
+        </locale>
+
+        <locale name="fr">
+          <short>Liste des palettes disponibles</short>
+          <long>Liste des chaînes contenant les palettes disponibles.</long>
+        </locale>
+
+        <locale name="gl">
+          <short>Lista de paletas dispoñíbeis</short>
+          <long>Lista de cadeas que conteñen as paletas dispoñíbeis.</long>
+        </locale>
+
+        <locale name="gu">
+          <short>ઉપલબ્ધ પેલેટોની યાદી</short>
+          <long>ઉપલબ્ધ પેલેટો સમાવતી શબ્દમાળાઓની યાદી.</long>
+        </locale>
+
+        <locale name="he">
+          <short>List of available palettes</short>
+          <long>List of strings containing the available palettes.</long>
+        </locale>
+
+        <locale name="hi">
+          <short>उपलब्ध पटल सूची</short>
+          <long>उपलब्ध रंगपट्टिकाएँ रखी हुईं स्ट्रिंग्स की सूची.</long>
+        </locale>
+
+        <locale name="hr">
+          <short>Popis dostupnih paleta</short>
+          
+        </locale>
+
+        <locale name="hu">
+          <short>Elérhető paletták listája</short>
+          <long>Az elérhető palettákat tartalmazó karakterláncok listája.</long>
+        </locale>
+
+        <locale name="hy">
+          <short>Առկա ներկապնակների ցանկ</short>
+          
+        </locale>
+
+        <locale name="id">
+          <short>Daftar dari palet yang tersedia</short>
+          
+        </locale>
+
+        <locale name="is">
+          <short>Listi tiltækra spjalda</short>
+          <long>Listi strengja sem innihalda tiltækt litaval</long>
+        </locale>
+
+        <locale name="it">
+          <short>Lista delle tavolozze disponibili</short>
+          <long>Lista di stringhe contenute nelle tavolozze disponibili.</long>
+        </locale>
+
+        <locale name="ja">
+          <short>利用可能なパレットのリスト</short>
+          <long>利用可能なパレットを表す文字列のリストです。</long>
+        </locale>
+
+        <locale name="ka">
+          <short>არსებული პალიტრების სია</short>
+          
+        </locale>
+
+        <locale name="kn">
+          <short>ಲಭ್ಯವಿರುವ ಫಲಕಗಳ ಪಟ್ಟಿ</short>
+          <long>ಲಭ್ಯವಿರುವ ಫಲಕಗಳ ಪಟ್ಟಿಯನ್ನು ಹೊಂದಿರುವ ಸಾಲುಗಳ ಪಟ್ಟಿ.</long>
+        </locale>
+
+        <locale name="ko">
+          <short>사용 가능한 팔레트 목록</short>
+          <long>사용 가능한 팔레트가 들어 있는 스트링 목록.</long>
+        </locale>
+
+        <locale name="ku">
+          <short>Lîsteya paletên dikarin bên bikaranîn</short>
+          
+        </locale>
+
+        <locale name="ky">
+          <short>Мүмкүн болгон палитралар тизмеси</short>
+          
+        </locale>
+
+        <locale name="lt">
+          <short>Galimų palečių sąrašas</short>
+          <long>Eilučių, turinčių prieinamas paletes, sąrašas.</long>
+        </locale>
+
+        <locale name="lv">
+          <short>Pieejamo palešu saraksts</short>
+          <long>Virkņu saraksts, kas satur pieejamās paletes.</long>
+        </locale>
+
+        <locale name="mai">
+          <short>उपलब्ध पैलेट सूची</short>
+          
+        </locale>
+
+        <locale name="mg">
+          <short>Lisitry ny takela-pisaka misy</short>
+          
+        </locale>
+
+        <locale name="mk">
+          <short>Листа на достапни палети</short>
+          <long>Листа на стрингови кои ги содржат достапните палети.</long>
+        </locale>
+
+        <locale name="ml">
+          <short>ലഭ്യമായ നിറക്കൂട്ടുകളുടെ പട്ടിക</short>
+          <long>ലഭ്യമായ നിറക്കൂട്ടുകളുള്‍പ്പെടുന്ന വാചകങ്ങളുടെ പട്ടിക.</long>
+        </locale>
+
+        <locale name="mn">
+          <short>Боломжтой палетуудын жагсаалт</short>
+          
+        </locale>
+
+        <locale name="mr">
+          <short>उपलब्ध पटलांची यादी</short>
+          <long>उपलब्ध पटलांचा समावेश असलेल्या स्ट्रींग्स ची यादी.</long>
+        </locale>
+
+        <locale name="ms">
+          <short>Senarai palet yang ada</short>
+          
+        </locale>
+
+        <locale name="nb">
+          <short>Liste med tilgjengelige paletter</short>
+          <long>Liste med strenger som inneholder de tilgjengelige paletttene</long>
+        </locale>
+
+        <locale name="ne">
+          <short>उपलब्ध रङ्गदानीहरूको सूची</short>
+          
+        </locale>
+
+        <locale name="nl">
+          <short>Lijst met beschikbare paletten</short>
+          <long>Lijst van karakters op de beschikbare paletten</long>
+        </locale>
+
+        <locale name="nn">
+          <short>Liste over tilgjengelege palettar</short>
+          
+        </locale>
+
+        <locale name="oc">
+          <short>Tièra de las paletas disponiblas</short>
+          <long>Tièra de las cadenas que contenon las paletas disponiblas.</long>
+        </locale>
+
+        <locale name="or">
+          <short>ଉପଲବ୍ଧ ପାଲେଟ୍ସ ର ତାଲିକା</short>
+          <long>ଉପଲବ୍ଧ ପ୍ୟାଲେଟଗୁଡ଼ିକୁ ଧରିଥିବା ବାକ୍ୟଖଣ୍ଡର ତାଲିକା।</long>
+        </locale>
+
+        <locale name="pa">
+          <short>ਉਪਲੱਬਧ ਪਲੈਅਟ ਦੀ ਲਿਸਟ</short>
+          <long>ਸਤਰਾਂ ਦੀ ਲਿਸਟ, ਜੋ ਕਿ ਉਪਲੱਬਧ ਪਲੈਅਟ ਰੱਖਦੀ ਹੈ</long>
+        </locale>
+
+        <locale name="pl">
+          <short>Lista dostępnych palet</short>
+          <long>Lista ciągów znaków zawierających dostępne palety.</long>
+        </locale>
+
+        <locale name="ps">
+          <short>د شته رنګدبلو لړ</short>
+          
+        </locale>
+
+        <locale name="pt">
+          <short>Lista de paletas disponíveis</short>
+          <long>Lista de expressões que contêm as paletas disponíveis.</long>
+        </locale>
+
+        <locale name="pt_BR">
+          <short>Lista de paletas disponíveis</short>
+          <long>Lista de strings contendo as paletas disponíveis.</long>
+        </locale>
+
+        <locale name="ro">
+          <short>Lista paletelor disponibile</short>
+          <long>Lista șirurilor care conțin paletele disponibile.</long>
+        </locale>
+
+        <locale name="ru">
+          <short>Список доступных шаблонов символов</short>
+          <long>Список строк, содержащих доступные шаблоны.</long>
+        </locale>
+
+        <locale name="sk">
+          <short>Zoznam dostupných paliet</short>
+          <long>Zoznam reťazcov obsahujúcich dostupné palety.</long>
+        </locale>
+
+        <locale name="sl">
+          <short>Seznam palet, ki so na voljo</short>
+          <long>Seznam nizov, ki vsebujejo palete na voljo.</long>
+        </locale>
+
+        <locale name="sq">
+          <short>Lista e paletave në dispozicion</short>
+          <long>Lista e vargjeve që përmbajnë paletat në dispozicion.</long>
+        </locale>
+
+        <locale name="sr">
+          <short>Списак доступних палета</short>
+          <long>Списак ниски које садрже доступне палете.</long>
+        </locale>
+
+        <locale name="sr@latin">
+          <short>Spisak dostupnih paleta</short>
+          <long>Spisak niski koje sadrže dostupne palete.</long>
+        </locale>
+
+        <locale name="sv">
+          <short>Lista med tillgängliga paletter</short>
+          <long>Lista med strängar som innehåller de tillgängliga paletterna.</long>
+        </locale>
+
+        <locale name="ta">
+          <short>இருக்கும் வண்ணத்தட்டின் பட்டியல்கள் </short>
+          <long>சரங்களின் இருக்கும் வண்ணத்தட்டுகளை கொண்டுள்ள பட்டியல்.</long>
+        </locale>
+
+        <locale name="te">
+          <short>అందుబాటులో వున్న పలకాల చిట్టా</short>
+          <long>అందుబాటులో వున్న పలకాలను తెలిపేటి పదకోశాల చిట్టా</long>
+        </locale>
+
+        <locale name="th">
+          <short>รายชื่อแท่นอักขระที่มี</short>
+          <long>รายการข้อความบรรยายแท่นอักขระที่มี</long>
+        </locale>
+
+        <locale name="tr">
+          <short>Kullanılabilir paletlerin listesi</short>
+          <long>Kullanılabilir paletleri içeren dizgilerin listesi.</long>
+        </locale>
+
+        <locale name="uk">
+          <short>Список наявних палітр</short>
+          <long>Список рядків, що містять доступні шаблони.</long>
+        </locale>
+
+        <locale name="vi">
+          <short>Danh sách bảng chọn hiện có</short>
+          <long>Danh sách chuỗi chứa các bảng chọn sẵn sàng.</long>
+        </locale>
+
+        <locale name="xh">
+          <short>Uluhlu lwengqokelela yezixhobo ezifumanekayo</short>
+          
+        </locale>
+
+        <locale name="zh_CN">
+          <short>可用字符板列表</short>
+          <long>包含可用字符板的字符串列表</long>
+        </locale>
+
+        <locale name="zh_HK">
+          <short>可供選用的選字盤</short>
+          <long>列出所有可供選用的選字盤。</long>
+        </locale>
+
+        <locale name="zh_TW">
+          <short>可供選用的選字盤</short>
+          <long>列出所有可供選用的選字盤。</long>
+        </locale>        
+      </schema>
+      
+    </schemalist>
+</gconfschemafile>  

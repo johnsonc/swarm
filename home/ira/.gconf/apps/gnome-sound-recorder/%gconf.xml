@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="last-input" mtime="1431543908" type="string">
+		<stringvalue>Capture PGA</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,16 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: ttf-indic-fonts
+Maintainer: Debian-IN Team <debian-in-workers@lists.alioth.debian.org>
+Authors: See respective package.copyright files for details.
+
+Files: *
+License:
+ See respective package.copyright for detailed license terms and explanations.
+Copyright:
+ See respective package.copyright for detailed license terms and explanations.
+
+Files: debian/*
+Copyright: This collection itself is hereby assigned to the public domain by
+the compilers, Jaldhar H. Vyas <jaldhar@braincells.com> and Soumyadip Modak
+<soumyadip@softhome.net>
+License: Public Domain

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="StartModuleCommands" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Commands">
+      <node oor:name=".uno:AddDirect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">नवीन (~N)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CloseDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बंद करा (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CloseWin">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">विंडो बंद करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Copy">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">प्रत बनवा (~C)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Cut">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">कापा (~t)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ExtendedHelp">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">हे काय आहे (~T)?</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HelpIndex">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">%PRODUCTNAME मदत (~H)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NewDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">प्रारुपातून नवीन दस्तऐवज</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Open">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उघडा (~O)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OpenUrl">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">URL लोड करा</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Paste">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">चिकटवा (~P)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Print">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">छपाई (~P)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PrinterSetup">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मुद्रक संरचना (~r)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Quit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">बाहेर पडा (~x)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Save">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">साठवा (~S)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SaveAs">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">असे साठवा (~A)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMail">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दस्तऐवज E-mail सारखे (~E)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetDocumentProperties">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">गुणधर्म (~i)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Undo">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">आधीची कृती रद्द करु शकत नाही</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Popups">
+      <node oor:name=".uno:EditMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">संपादन (~E)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HelpMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मदत (~H)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MacrosMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">मॅक्रोज (~M)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PickList">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">फाइल (~F)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToolsMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">उपकरणे (~T)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ViewMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">दृष्य (~V)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WindowList">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="mr">पटल (~W)</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

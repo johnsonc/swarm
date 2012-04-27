@@ -1,0 +1,455 @@
+/etc/gdm3/Xsession: Beginning session setup...
+script for ibus started.
+script for auto started.
+script for default started.
+GNOME_KEYRING_CONTROL=/tmp/keyring-hq37CU
+SSH_AUTH_SOCK=/tmp/keyring-hq37CU/ssh
+GNOME_KEYRING_PID=1749
+GNOME_KEYRING_CONTROL=/tmp/keyring-hq37CU
+SSH_AUTH_SOCK=/tmp/keyring-hq37CU/ssh
+GNOME_KEYRING_CONTROL=/tmp/keyring-hq37CU
+SSH_AUTH_SOCK=/tmp/keyring-hq37CU/ssh
+
+** (gnome-power-backlight-helper:1756): WARNING **: failed to find any devices: Error opening directory '/sys/class/backlight': No such file or directory
+** (<unknown>:1743): DEBUG: Client registered with session manager: /org/gnome/SessionManager/Client3
+Internal error:   Could not resolve keysym dead_V
+Window manager warning: Failed to read saved session file /home/ira/.config/metacity/sessions/106318117ae4009292143206149883118100000016920015.ms: Failed to open file '/home/ira/.config/metacity/sessions/106318117ae4009292143206149883118100000016920015.ms': No such file or directory
+
+(gnome-settings-daemon:1752): GLib-GObject-WARNING **: IA__g_object_notify: object class `GkbdStatus' has no property named `name'
+
+(polkit-gnome-authentication-agent-1:1783): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:1783): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+Initializing nautilus-gdu extension
+
+(nautilus:1772): GdkPixbuf-CRITICAL **: gdk_pixbuf_format_get_name: assertion `format != NULL' failed
+
+(gnome-power-manager:1748): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+** (gnome-power-manager:1748): WARNING **: Failed to send buffer
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-power-manager:1748): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-power-manager:1748): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-power-manager:1748): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-power-manager:1748): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(cellwriter:1790): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(cellwriter:1790): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(cellwriter:1790): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(cellwriter:1790): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: IOR not set.
+
+(cellwriter:1790): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(cellwriter:1790): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: IOR not set.
+
+(cellwriter:1790): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(cellwriter:1790): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: IOR not set.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: IOR not set.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(cellwriter:1790): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(cellwriter:1790): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-settings-daemon:1752): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(gnome-panel:1766): atk-bridge-WARNING **: IOR not set.
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(polkit-gnome-authentication-agent-1:1783): polkit-gnome-1-WARNING **: Error enumerating temporary authorizations: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.EnumerateTemporaryAuthorizations() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.PolicyKit1.Error.Failed: Cannot determine session the caller is in
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+** Message: Got disconnected from the session message bus; retrying to reconnect every 10 seconds
+
+(nautilus:1772): atk-bridge-WARNING **: AT_SPI_REGISTRY was not started at session startup.
+
+(nautilus:1772): atk-bridge-WARNING **: IOR not set.
+
+(gnome-panel:1766): GVFS-RemoteVolumeMonitor-WARNING **: cannot remove match rule 'type='signal',interface='org.gtk.Private.RemoteVolumeMonitor',sender='org.gtk.Private.AfcVolumeMonitor',': org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+(gnome-panel:1766): GVFS-RemoteVolumeMonitor-WARNING **: cannot remove match rule 'type='signal',interface='org.freedesktop.DBus',member='NameOwnerChanged',arg0='org.gtk.Private.AfcVolumeMonitor'': org.freedesktop.DBus.Error.Disconnected: Connection is closed
+
+(gnome-panel:1766): GVFS-RemoteVolumeMonitor-WARNING **: cannot remove match rule 'type='signal',interface='org.gtk.Private.RemoteVolumeMonitor',sender='org.gtk.Private.GPhoto2VolumeMonitor',': org.freedesktop.DBus.Error.Disconnected: Connection is closed
+
+(gnome-panel:1766): GVFS-RemoteVolumeMonitor-WARNING **: cannot remove match rule 'type='signal',interface='org.freedesktop.DBus',member='NameOwnerChanged',arg0='org.gtk.Private.GPhoto2VolumeMonitor'': org.freedesktop.DBus.Error.Disconnected: Connection is closed
+
+(gnome-panel:1766): GVFS-RemoteVolumeMonitor-WARNING **: cannot remove match rule 'type='signal',interface='org.gtk.Private.RemoteVolumeMonitor',sender='org.gtk.Private.GduVolumeMonitor',': org.freedesktop.DBus.Error.Disconnected: Connection is closed
+
+(gnome-panel:1766): GVFS-RemoteVolumeMonitor-WARNING **: cannot remove match rule 'type='signal',interface='org.freedesktop.DBus',member='NameOwnerChanged',arg0='org.gtk.Private.GduVolumeMonitor'': org.freedesktop.DBus.Error.Disconnected: Connection is closed
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+gnome-screensaver: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+polkit-gnome-authentication-agent-1: Fatal IO error 2 (No such file or directory) on X server :0.0.
+gdu-notification-daemon: Fatal IO error 2 (No such file or directory) on X server :0.0.
+cellwriter: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+The application 'gnome-panel' lost its connection to the display :0.0;
+most likely the X server was shut down or you killed/destroyed
+the application.
+cellwriter: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.

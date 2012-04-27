@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file_views">
+					<entry name="show_backup_files">
+						<local_schema short_desc="Zapas faýllaryň görkezilişi">
+							<longdesc>Eger true bolsa, Emacsiň nusga faýllary ýaly zapas faýllar görkeziler. häzirçe, diňe telpek (~) bilen gutarýan faýllar zapas faýl saýylýar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_hidden_files">
+						<local_schema short_desc="Gizlin faýllaryň görkezilişi">
+							<longdesc>Eger true bolsa, faýl müdirinde gizlin faýllar görkeziler. Gizlin faýllar nokatly faýllar ýa haltalariň .hidden faýllary dir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="session">
+					<dir name="required_components">
+						<entry name="windowmanager">
+							<local_schema short_desc="Äpişge Müdiri">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="nautilus">
+				<dir name="desktop">
+					<entry name="trash_icon_name">
+						<local_schema short_desc="Desktap üstinde ýerleşen zibil tymsalynyň ady">
+							<longdesc>Siz desktapda zibil tymsaly üçin şahsy bir ad goýjak bolsaňiz bu ad düzümlenip biler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_name">
+						<local_schema short_desc="Desktap üstinde ýerleşen öý tymsalynyň ady">
+							<longdesc>Siz desktapda öý tymsaly üçin şahsy bir ad goýjak bolsaňiz bu ad düzümlenip biler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="trash_icon_visible">
+						<local_schema short_desc="Zibil tymsaly desktapda görkezilsin">
+							<longdesc>Eger bu true bolsa, öý zibile bir baglaýyş tymsal desktapda goýular.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="computer_icon_visible">
+						<local_schema short_desc="Kompýuter tymsaly desktapda görkezilsin">
+							<longdesc>Eger bu true bolsa, kompýuter ýeryne bir baglaýyş tymsal desktapda goýular.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="home_icon_visible">
+						<local_schema short_desc="Öý tymsaly desktapda görkezilsin">
+							<longdesc>Eger bu true bolsa, öý halatasyna bir baglaýyş tymsal desktapda goýular.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sidebar_panels">
+					<dir name="tree">
+						<entry name="show_only_directories">
+							<local_schema>
+								<longdesc>Eger true bolsa, Nautilus böwür jamda diňe halatalary görkezer. Ýogsa hem faýllary  we hem haltalary görkezer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="list_view">
+					<entry name="default_column_order">
+						<local_schema short_desc="List görnöşde ön bellenen sütün tertibi">
+							<longdesc>List görnöşde ön bellenen sütün tertibi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_visible_columns">
+						<local_schema short_desc="List görnöşinde ön bellenen görkezilýãn sütünler listi">
+							<longdesc>List görnöşinde ön bellenen görkezilýãn sütünler listi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Ön bellenen list ulaldyş derejesi">
+							<longdesc>List görnöşinde ön bellenen ulaldyş derejesi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Täze äpişgelerde tersine tertiblkemek">
+							<longdesc>Eger true bolsa, täze äpişgeler içinde faýllar tersine tertiblener. meselen, eger ad hesibine tertiblenen bolsalar, &quot;a&quot; dan &quot;z&quot; ýerine &quot;z&quot; dan &quot;a&quot; eçenli tertiblenerler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Ön bellenen tertiblemek tertibi">
+							<longdesc>Täze äpişgelerde list görnöşinde ön bellenen tertiblemek hesibi. Mümkin mykdarlar &quot;ad&quot;, &quot;ululyk&quot;, &quot;hil&quot;, &quot;üýtgemek_tarihi&quot;, we &quot;alamatlar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="icon_view">
+					<entry name="default_zoom_level">
+						<local_schema short_desc="Ön bellenen tymsal ulaldyş derejesi">
+							<longdesc>Tymsal görnöşinde ön bellenen ulaldyş derejesi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_in_reverse_order">
+						<local_schema short_desc="Täze äpişgelerde tersine tertiblkemek">
+							<longdesc>Eger true bolsa, täze äpişgeler içinde faýllar tersine tertiblener. meselen, eger ad hesibine tertiblenen bolsalar, &quot;a&quot; dan &quot;z&quot; ýerine &quot;z&quot; dan &quot;a&quot; eçenli tertiblenerler. eger ululyk hesibine tertiblenel bölsa ulalamak ýerine kiçilik hesibine tertiblenerler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_sort_order">
+						<local_schema short_desc="Ön bellenen tertiblemek tertibi">
+							<longdesc>Täze äpişgelerde tymsal görnöşinde ön bellenen tertiblemek hesibi. Mümkin mykdarlar &quot;ad&quot;, &quot;ululyk&quot;, &quot;hil&quot;, &quot;üýtgemek_tarihi&quot;, we &quot;alamatlar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="captions">
+						<local_schema short_desc="Tymsallarýazyň mümkin ýazylar listi">
+							<longdesc>Tymsal görnöşi we desktapda bir tymsalyň astyndaky ýazylar.  Görkezilen ýazylar sany ulaldyş derejesine bagly dir. Mümkin mykdarlar: &quot;size&quot;, &quot;type&quot;, &quot;date_modified&quot;, &quot;date_changed&quot;, &quot;date_accessed&quot;, &quot;owner&quot;, &quot;group&quot;, &quot;permissions&quot;, &quot;octal_permissions&quot; and &quot;mime_type&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="side_pane_view">
+						<local_schema short_desc="Böwür jamynyň görnöşi">
+							<longdesc>Täze açylan äpişgelerde görkezmek üçin böwür jamiň görnöşi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_sidebar">
+						<local_schema short_desc="Böwür zolakyny täze äpişgelerde görkez">
+							<longdesc>Eger true bolsa, tãze açylan ãpişgeleriň böwür jamy görkezilsin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_status_bar">
+						<local_schema short_desc="Durum zolakyny täze äpişgelerde görkez">
+							<longdesc>Eger true bolsa, tãze açylan ãpişgeleriň durum zolaky görkezilsin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_location_bar">
+						<local_schema short_desc="Ýer zolakyny täze äpişgelerde görkez">
+							<longdesc>Eger true bolsa, tãze açylan ãpişgeleriň ýer zolaky görkezilsin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_with_toolbar">
+						<local_schema short_desc="Esbap zolakyny täze äpişgelerde görkez">
+							<longdesc>Eger true bolsa, tãze açylan ãpişgeleriň esbap zolaky görkezilsin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sidebar_width">
+						<local_schema short_desc="Böwür jamiň giňliki">
+							<longdesc>Täze äpişgelerde böwür jamiň ön bellenen giňliki</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_folder_viewer">
+						<local_schema short_desc="Ön Bellenen halta namaýyşçysy">
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_filename">
+						<local_schema short_desc="Ön Bellenen Böwür Jam Arkaplan Faýl ady">
+							<longdesc>Ön bellenen böwür jam arkaplaniň faýl ady. eger side_pane_background_set true bolsa ullanlýar</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_color">
+						<local_schema short_desc="Ön Bellenen Böwür Jam Arkaplan Renki">
+							<longdesc>Ön bellenen böwür jam arkaplaniň faýl ady. eger side_pane_background_set true bolsa ullanlýar</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="side_pane_background_set">
+						<local_schema short_desc="Şahsy Böwür Jam Arkaplani">
+							<longdesc>Şahsy ön bellenen böwür jamiň arkaplani düzümlenşi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_filename">
+						<local_schema short_desc="Ön Bellenen Arkaplan Faýl ady">
+							<longdesc>Ön bellenen halta arkaplaniň faýl ady. Eger kground_set true bolsa ullanylýar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Ön Bellenen Arkaplan Renki">
+						</local_schema>
+					</entry>
+					<entry name="background_set">
+						<local_schema>
+							<longdesc>Şahsy ön bellenen haltaniň arkaplani düzümlenşi</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_is_home_dir">
+						<local_schema short_desc="Nautilus ullançylaryň öý haltasyndan desktapa ullanýar.">
+							<longdesc>Eger true bolsa, Nautilus ullançy öýi haltasyndan desktap üçin ullanar. Eger false bolsa, ol ~/Desktop haltasyndan ullanar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="desktop_font">
+						<local_schema short_desc="Desktap kalamy">
+						</local_schema>
+					</entry>
+					<entry name="show_desktop">
+						<local_schema short_desc="Nautilus desktapi çekmekini elleýär.">
+							<longdesc>Eger true bolsa, Nautilus tymsallary dekstapda çekip başarar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sort_directories_first">
+						<local_schema short_desc="Äpişgelerde haltalry ilkinjde görkez">
+							<longdesc>Eger true bolsa, Nautilus tymsal we list görnöşde haltalery faýllardan öňinçä görkezýãr</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="directory_limit">
+						<local_schema short_desc="Bir halta içinde iň kop ellenen faýllar">
+							<longdesc>Bu ululykdan ullakan ãpişgeler bu ululyka yakyn edilip kesiler. Ondan yzlanylýan maksat bu ki ullakan haltalarda nautilusi öldürip topbakiň beter ulalamakynyň ewine geçilsin. Menfy myjdar hiçbir hed goýmaýar. ???????????????????????????????</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Hãzirki nautilus temi (ullanylmýar)">
+						</local_schema>
+					</entry>
+					<entry name="executable_text_activation">
+						<local_schema short_desc="Işeňger faýllar janlaşdyrylanda olar bilen näme edilmeli">
+							<longdesc>Işeňger faýllar janlaşdyrylanda olar bilen näme edilmeli (birje ya iki tiklenende). ??????????????????????????????????????????????????????????</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_directory_item_counts">
+						<local_schema short_desc="Haltaniň içinde aýtemleriň görközilşi">
+						</local_schema>
+					</entry>
+					<entry name="show_icon_text">
+						<local_schema short_desc="Haltaniň içinde metinlön namaýyş ön namaýyş görközilşi">
+						</local_schema>
+					</entry>
+					<entry name="enable_delete">
+						<local_schema short_desc="Faýllary zöwwe pozmaki mümkin etmesi">
+							<longdesc>Eger true bolsa, Nautilus size bir faýly zibile göçirmãni ony duran ýerinde pozmak ymkanyny berer. Bu ymkan hatarly. Öndan ãtýaç bilen ullanyň.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="always_use_browser">
+						<local_schema short_desc="Ehli äpişgeler ahtaçy bolsalar klasik nautilus boluşyny etginleşdir">
+							<longdesc>Eger true bolsa, ehli Nautilus äpişgeleri ahtarçy äpişgeleri bolar. Bu Nautilusiň 2.6 den oň boluşidi, we bireme halk bu boluşi halaýa.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="syntax_highlighting">
+						<entry name="enable">
+							<local_schema short_desc="Sintaks Ýagtylamagny Mümkin Et">
+								<longdesc>Geditiň sintaksy ýagtylamaky mümkin edşi.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema short_desc="Menüde görközilen ködlemeler">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema short_desc="Çap üçin Hat Sanynyň Kalamy">
+									<longdesc>Çapda hat sanlaary üçin kalamy takyklaýar. Bu eger &quot;Print Line Numbers&quot; seçgisi 0 bölsa eser goyar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema short_desc="Çap üçin Başlyg Kalamy">
+									<longdesc>Sened çaplananda oniň sahypalarniň başlygy üçin ullanyljak kalamy takyklaýar.Bu eger &quot;Print Header&quot; işledilen bölsa eser goyar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema short_desc="Çap üçin Beden Kalamy">
+									<longdesc>Sened çaplananda oniň beden üçin ullanyljak kalamy takyklaýar.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="page">
+							<entry name="print_line_numbers">
+								<local_schema short_desc="Hat Sanlarny Çapla">
+									<longdesc>Eger bu mykdar 0 bolsa, çapda hat sanlary çaplanmar. Ýogsa gedit her hat üçin hat sany çaplar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_wrap_mode">
+								<local_schema short_desc="Hat Dolamak Modini Çaplamak">
+									<longdesc>Çap üçin uzin hat lariň nähilli dolanşi. dolanmasyzlyk üçin &quot;GTK_WRAP_NONE&quot;&apos;den, sözleriň söňinda dolamak üçin &quot;GTK_WRAP_WORD&quot;&apos;den, we bellei harplariň söňinda dolamak üçin &quot;GTK_WRAP_CHAR&quot;&apos;den ullanyň. Mykdarlar kiçi/beýik harpa eserdeň, onsoň harplary edil bu ýerde agzalan ýaly görünşine ytmynan tapiň.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_header">
+								<local_schema short_desc="Başlygy Çapla">
+									<longdesc>Geditiň çapda sened başlygyny girişdirişi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="print_syntax_highlighting">
+								<local_schema short_desc="Sintaks Ýagtylygny Çapla">
+									<longdesc>Geditiň sened aplananda syntaks ýagtylygny çaplaşi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="ui">
+						<dir name="recents">
+							<entry name="max_recents">
+								<local_schema short_desc="Ýakynda Ullanylan iň kop Faýllar">
+									<longdesc>&quot;Ýakynda Ullanylan Faýllar&quot; submenüsinda ýakynda ullanylan faýllariň iň kop görköziljek sanyny takyklaýar.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="statusbar">
+							<entry name="statusbar_visible">
+								<local_schema short_desc="Durum Zolaky Görkezilsin">
+									<longdesc>Durum zolaky etitlenýän äpişge siniň astynda görkezilşi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbar">
+							<entry name="toolbar_buttons_style">
+								<local_schema short_desc="Esbap zolak Batunlarnyň Biçimi">
+									<longdesc>Esbap zolak batunlarnyň biçimi. Mümkin mykdarlar: &quot;GEDIT_TOOLBAR_SYSTEM&quot; sistemiň ön bellenen biçiminden ullanmak üçin, &quot;GEDIT_TOOLBAR_ICONS&quot; diňe tymsallary görkezmek üçin, &quot;GEDIT_TOOLBAR_ICONS_AND_TEXT&quot; hem tymsal we hem metini görkezmek üçin, we &quot;GEDIT_TOOLBAR_ICONS_BOTH_HORIZ&quot; möhüm tymsallariň ýanynda metini görkezmek üçin. Mykdarlar kiçi/beýik harpa eserdeň, onsoň harplary edil bu ýerde agzalan ýaly görünşine ytmynan tapiň.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="toolbar_visible">
+								<local_schema short_desc="Esbap zolaky Görkezilsin">
+									<longdesc>Esbap zolaky etitlenýän äpişge sinde görkezilşi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="right_margin">
+							<entry name="right_margin_position">
+								<local_schema short_desc="Sag Gabdal Jaýy">
+									<longdesc>Sag gabdaliň jaýyny takyklaýar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="display_right_margin">
+								<local_schema short_desc="Sag Gabdaly Görköz">
+									<longdesc>Geditiň sag gabdaly edit meýdançasynda görkezşi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="line_numbers">
+							<entry name="display_line_numbers">
+								<local_schema short_desc="Hat Sanlaryny Görköz">
+									<longdesc>Geditiň hat sanlaryny edit meýdançasynda görkezşi.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="tabs">
+							<entry name="insert_spaces">
+								<local_schema short_desc="Seleň Girdir">
+									<longdesc>Geditiň täb karakterlerniň ýerine seleň girdirşi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="tabs_size">
+								<local_schema short_desc="Täb Ululyky">
+									<longdesc>Täb karakterleriň ýerine görközilmeli seleňleri takyklaýar.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="wrap_mode">
+							<entry name="wrap_mode">
+								<local_schema short_desc="Hat Dolomak Modi">
+									<longdesc>Edit meýdançasynda uzin hat lariň nähilli dolanşi. dolanmasyzlyk üçin &quot;GTK_WRAP_NONE&quot;&apos;den, sözleriň söňinda dolamak üçin &quot;GTK_WRAP_WORD&quot;&apos;den, we bellei harplariň söňinda dolamak üçin &quot;GTK_WRAP_CHAR&quot;&apos;den ullanyň. Mykdarlar kiçi/beýik harpa eserdeň, onsoň harplary edil bu ýerde agzalan ýaly görünşine ytmynan tapiň.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="save">
+							<entry name="create_backup_copy">
+								<local_schema short_desc="Zapas Nusgasyny Bejer">
+									<longdesc>Geditiň gaýd eden faýllary üçin zapas bejerşi. Siz zapas faýllarynyň ??? &quot;Zapas Nusga ???&quot; seçgisi bilen düzip bilersiňiz.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema short_desc="Editçi Kalamy">
+									<longdesc>Edit meýdançasynda ullanynljak şahsy kalam. Bu eger &quot;Use Default Font&quot; söndürilen bölsa eser goyar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="use_default_font">
+								<local_schema short_desc="Ön bellenen Kalamdan Ullan">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="metacity">
+				<dir name="window_keybindings">
+					<entry name="begin_move">
+						<local_schema short_desc="Äpişgäni Göçir">
+						</local_schema>
+					</entry>
+					<entry name="close">
+						<local_schema short_desc="Äpişgäni Bagla">
+						</local_schema>
+					</entry>
+					<entry name="minimize">
+						<local_schema short_desc="Äpişgäni Kiçelt">
+						</local_schema>
+					</entry>
+					<entry name="maximize">
+						<local_schema short_desc="Äpişgäni Ulalt">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-session">
+				<dir name="options">
+					<entry name="auto_save_session">
+						<local_schema short_desc="Oturuşyky gaýd et">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="epiphany">
+				<dir name="lockdown">
+					<entry name="disable_toolbar_editing">
+						<local_schema>
+							<longdesc>Ullançylaryň esbap zolaklary editlek başaryşlaryny söndir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hide_menubar">
+						<local_schema short_desc="Menübari öň bellençe ýigşir">
+							<longdesc>Menübari öň bellençe ýigşir</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="web">
+					<entry name="javascript_enabled">
+						<local_schema short_desc="Jawaskripti Mümkin Et">
+						</local_schema>
+					</entry>
+					<entry name="cookie_accept">
+						<local_schema short_desc="Kökeleri kabul et">
+							<longdesc>Kökeler nirede kabul edilsin. Mümin mykdarlar &quot;her ýer&quot;, &quot;häzyrky meýdança&quot; we &quot;hiç ýerde&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="language">
+						<local_schema short_desc="Diller">
+						</local_schema>
+					</entry>
+					<entry name="default_font_type">
+						<local_schema short_desc="Öň bellenen kalam hili">
+							<longdesc>Öň bellenen kalam hili. Mümkin mykdarlar: &quot;serif&quot; and &quot;sans-serif&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_encoding">
+						<local_schema short_desc="Öň bellenen ködleme">
+							<longdesc>Öň bellenen ködlemeler. Kabul edilen mykdarlar: &quot;armscii-8&quot;, &quot;Big5&quot;, &quot;Big5-HKSCS&quot;, &quot;EUC-JP&quot;, &quot;EUC-KR&quot;, &quot;gb18030&quot;, &quot;GB2312&quot;, &quot;geostd8&quot;, &quot;HZ-GB-2312&quot;, &quot;IBM850&quot;, &quot;IBM852&quot;, &quot;IBM855&quot;, &quot;IBM857&quot;, &quot;IBM862&quot;, &quot;IBM864&quot;, &quot;IBM866&quot;, &quot;ISO-2022-CN&quot;, &quot;ISO-2022-JP&quot;, &quot;ISO-2022-KR&quot;, &quot;ISO-8859-1&quot;, &quot;ISO-8859-2&quot;, &quot;ISO-8859-3&quot;, &quot;ISO-8859-4&quot;, &quot;ISO-8859-5&quot;, &quot;ISO-8859-6&quot;, &quot;ISO-8859-7&quot;, &quot;ISO-8859-8&quot;, &quot;ISO-8859-8-I&quot;, &quot;ISO-8859-9&quot;, &quot;ISO-8859-10&quot;, &quot;ISO-8859-11&quot;, &quot;ISO-8859-13&quot;, &quot;ISO-8859-14&quot;, &quot;ISO-8859-15&quot;, &quot;ISO-8859-16&quot;, &quot;ISO-IR-111&quot;, &quot;KOI8-R&quot;, &quot;KOI8-U&quot;, &quot;Shift_JIS&quot;, &quot;TIS-620&quot;, &quot;UTF-7&quot;, &quot;UTF-8&quot;, &quot;VISCII&quot;, &quot;windows-874&quot;, &quot;windows-1250&quot;, &quot;windows-1251&quot;, &quot;windows-1252&quot;, &quot;windows-1253&quot;, &quot;windows-1254&quot;, &quot;windows-1255&quot;, &quot;windows-1256&quot;, &quot;windows-1257&quot;, &quot;windows-1258&quot;, &quot;x-euc-tw&quot;, &quot;x-gbk&quot;, &quot;x-johab&quot;, &quot;x-mac-arabic&quot;, &quot;x-mac-ce&quot;, &quot;x-mac-croatian&quot;, &quot;x-mac-cyrillic&quot;, &quot;x-mac-devanagari&quot;, &quot;x-mac-farsi&quot;, &quot;x-mac-greek&quot;, &quot;x-mac-gujarati&quot;, &quot;x-mac-gurmukhi&quot;, &quot;x-mac-hebrew&quot;, &quot;x-mac-icelandic&quot;, &quot;x-mac-roman&quot;, &quot;x-mac-romanian&quot;, &quot;x-mac-turkish&quot;, &quot;x-mac-ukrainian&quot;, &quot;x-user-defined&quot;, &quot;x-viet-tcvn5712&quot;, &quot;x-viet-vps&quot; and &quot;x-windows-949&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_fonts">
+						<local_schema short_desc="Oz kalamlarny ullan">
+							<longdesc>Sahypa isleýän kalamlary ýerine oz kalamlaryňy ullan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_own_colors">
+						<local_schema short_desc="Oz renklerni ullan">
+							<longdesc>Sahypa isleýän renki ýerine oz renklerňi ullan.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="dialogs">
+					<entry name="print_page_url">
+						<local_schema short_desc="Sahypa adresi başlygda çaplanmasy">
+						</local_schema>
+					</entry>
+					<entry name="print_page_title">
+						<local_schema short_desc="Sahypa sözbaşy başlygda çaplanmasy">
+						</local_schema>
+					</entry>
+					<entry name="preferences_font_language">
+						<local_schema short_desc="Häzirçe saýlanan kalamlar dili">
+							<longdesc>Häzirçe saýlanan kalamlar dili. Mumkin mykdarlarŇ &quot;ar&quot; (arabça), &quot;x-baltic&quot; (baltik dilleri), &quot;x-central-euro&quot; (orta avrupa dilleri), &quot;x-cyrillic&quot; (kiril elipbi bilen ýazylýan diller), &quot;el&quot; (ýunança), &quot;he&quot; (ýähüd dili), &quot;ja&quot; (japonça), &quot;ko&quot; (köreçe), &quot;zh-CN&quot; (besitlendirlen çinçe), &quot;th&quot; (taýça), &quot;zh-TW&quot; (däpli çinçe), &quot;tr&quot; (türkçe), &quot;x-unicode&quot; (başga diller), &quot;x-western&quot; (latin elipbi bilen ýazylýan diller), &quot;x-tamil&quot; (tamil) we &quot;x-devanagari&quot; (devanagari).</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="show_statusbar">
+						<local_schema short_desc="Durum zolaky öň bellenen edip görkez">
+						</local_schema>
+					</entry>
+					<entry name="show_bookmarks_bar">
+						<local_schema short_desc="Nişanlary öň bellenen edip görkez">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbars">
+						<local_schema short_desc="Esbap zolaky öň bellenen edip görkez">
+						</local_schema>
+					</entry>
+					<entry name="automatic_downloads">
+						<local_schema short_desc="Otomatik duşurmekler">
+						</local_schema>
+					</entry>
+					<entry name="always_show_tabs_bar">
+						<local_schema short_desc="Hemişe täb zolakyny görkez">
+						</local_schema>
+					</entry>
+					<entry name="homepage">
+						<local_schema short_desc="Öý sahypasy">
+							<longdesc>Ullançynyň öý sahypasy.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="eog">
+				<dir name="view">
+					<entry name="trans_color">
+						<local_schema short_desc="Durjalyk renki">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

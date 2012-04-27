@@ -1,0 +1,149 @@
+This package was debianized by Edd Dumbill on 14 Feb 2003.
+
+It was downloaded from <http://ftp.gnome.org/pub/gnome/sources/epiphany>
+
+Upstream authors:
+    Marco Pesenti Gritti <marco@gnome.org>
+    Xan Lopez <xan@gnome.org>
+    Christian Persch <chpe@gnome.org>
+    Adam Hooper <adamh@cvs.gnome.org>
+    Jean-François Rameau <jframeau@cvs.gnome.org>
+    Crispin Flowerday <crispin@flowerday.cx>
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+  --------------------------------------------------------------------------
+
+The contents of the help/ directory are licensed under the GNU FDL
+version 1.1 and above. On Debian systems the complete text of the GNU
+FDL can be found in `/usr/share/common-licenses/GFDL'. The following
+are the copyright holders for the various files in this directory, and
+the license block:
+
+    Copyright (C) 2003 Patanjali Somayaji
+    Copyright (C) 2003 David Bordoley
+    Copyright (C) 2005 Piers Cornwell
+    Copyright (C) 2006,2009 Reinout van Schouwen
+    Copyright (C) 2006 Victor Osadci
+    Copyright (C) 2007 Cosimo Cecchi
+    Copyright (C) 2008 Diana Horqque
+    Copyright (C) 2008 Diego Escalante Urrelo
+    Copyright (C) 2008 Loic Froidmont
+
+   Permission is granted to copy, distribute and/or modify this
+   document under the terms of the GNU Free Documentation License
+   (GFDL), Version 1.1 or any later version published by the Free
+   Software Foundation with no Invariant Sections, no Front-Cover
+   Texts, and no Back-Cover Texts.
+
+   This manual is part of a collection of GNOME manuals
+   distributed under the GFDL.  If you want to distribute this
+   manual separately from the collection, you can do so by adding
+   a copy of the license to the manual, as described in section 6
+   of the license.
+
+   Many of the names used by companies to distinguish their
+   products and services are claimed as trademarks. Where those
+   names appear in any GNOME documentation, and the members of the
+   GNOME Documentation Project are made aware of those trademarks,
+   then the names are in capital letters or initial capital
+   letters.
+
+   DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+   UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE
+   FURTHER UNDERSTANDING THAT:
+
+   DOCUMENT IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTY OF
+   ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT
+   LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF
+   THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A
+   PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE
+   QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED
+   VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+   MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE
+   INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF
+   ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+   OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO
+   USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS
+   AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND UNDER NO
+   CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT
+   (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE
+   AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF
+   THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY
+   SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR
+   ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+   DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES
+   FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+   MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT
+   OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF
+   THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+   THE POSSIBILITY OF SUCH DAMAGES.
+
+  --------------------------------------------------------------------------
+
+'flashblock.tar' was checked out on Friday April 4th at 18:36 UTC with the
+following command: 'cvs -d :pserver:guest@mozdev.org:/cvs co flashblock/source'
+(having previous logged in with the password 'guest'.  The following license
+statement was taken from <http://flashblock.mozdev.org/licences.html>:
+
+    ***** BEGIN LICENSE BLOCK *****
+    Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+    The contents of this collection are subject to the Mozilla Public License Version 
+    1.1 (the "License"); you may not use this file except in compliance with 
+    the License. You may obtain a copy of the License at 
+    http://www.mozilla.org/MPL/
+
+    Software distributed under the License is distributed on an "AS IS" basis,
+    WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+    for the specific language governing rights and limitations under the
+    License.
+
+    The Original Code is the "Flashblock" extension for Mozilla and Firefox.
+
+    The Initial Developer of the Original Code is
+    Ted Mielczarek <luser_mozdev@perilith.com>.
+
+    Portions created by the Initial Developer are Copyright (C) 2004
+    the Initial Developer. All Rights Reserved.
+
+    Contributor(s):
+      Ted Drake
+      Przemyslaw Bialik
+      Lorenzo Colitti
+      Philip Chee <philip.chee@gmail.com>
+
+    Alternatively, the contents of this file may be used under the terms of
+    either the GNU General Public License Version 2 or later (the "GPL"), or
+    the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+    in which case the provisions of the GPL or the LGPL are applicable instead
+    of those above. If you wish to allow use of your version of this file only
+    under the terms of either the GPL or the LGPL, and not to allow others to
+    use your version of this file under the terms of the MPL, indicate your
+    decision by deleting the provisions above and replace them with the notice
+    and other provisions required by the GPL or the LGPL. If you do not delete
+    the provisions above, a recipient may use your version of this file under
+    the terms of any one of the MPL, the GPL or the LGPL.
+
+    ***** END LICENSE BLOCK *****
+
+The Debian packaging is (C) 2003-2007, the Debian GNOME team 
+<pkg-gnome-maintainers@lists.alioth.debian.org> and
+is licensed under the GPL, see above.

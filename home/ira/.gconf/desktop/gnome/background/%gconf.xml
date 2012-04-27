@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="primary_color" mtime="1428490112" type="string">
+		<stringvalue>#6666baba0000</stringvalue>
+	</entry>
+	<entry name="secondary_color" mtime="1428490112" type="string">
+		<stringvalue>#1262e62fa008</stringvalue>
+	</entry>
+	<entry name="picture_filename" mtime="1428490070" type="string">
+		<stringvalue>/usr/share/backgrounds/cosmos/background-1.xml</stringvalue>
+	</entry>
+	<entry name="color_shading_type" mtime="1428490113" type="string">
+		<stringvalue>horizontal-gradient</stringvalue>
+	</entry>
+	<entry name="picture_options" mtime="1428490070" type="string">
+		<stringvalue>zoom</stringvalue>
+	</entry>
+</gconf>

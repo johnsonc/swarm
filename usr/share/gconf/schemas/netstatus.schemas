@@ -1,0 +1,870 @@
+<gconfschemafile>
+  <schemalist>    
+
+    <schema>
+      <key>/schemas/apps/netstatus_applet/prefs/interface</key>
+      <owner>netstatus-applet</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Network interface</short>
+        <long>The Network Interface monitored by the Network Monitor.</long>
+      </locale>
+
+      <locale name="af">
+        <short>Netwerkkoppelvlak</short>
+        <long>Die netwerkkoppelvlak deur Netwerkmonitor gemonitor.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>واجهة الشبكة</short>
+        <long>واجهة الشبكة المراقبة من قبل مراقب الشبكة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>নেটৱৰ্ক প্ৰেক্ষাপট</short>
+        <long>Network Monitor দ্বাৰা নিৰীক্ষণ কৰা নেটৱৰ্ক প্ৰেক্ষাপট</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Interface de rede</short>
+        <long>La interface de red emonitorizada pol Monitor de rede.</long>
+      </locale>
+
+      <locale name="az">
+        <short>Şəbəkə ara üzü</short>
+        <long>Şəbəkə İzləyicisi tərəfindən izlənən Şəbəkə Ara Üzü.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Sietkavy interfejs</short>
+        <long>Sietkavy interfejs, za jakim naziraje Sietkavy manitor.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Мрежов интерфейс</short>
+        <long>Мрежовият интерфейс е наблюдаван от датчикът на мрежата</long>
+      </locale>
+
+      <locale name="bn">
+        <short>নেটওয়ার্ক ইন্টারফেস</short>
+        <long>নেটওয়ার্ক মনিটর যে নেটওয়ার্ক ইন্টারফেস-এর উপর নজর রাখবে</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>নেটওয়ার্ক প্রেক্ষাপট</short>
+        <long>Network Monitor দ্বারা নিরীক্ষণ করা নেটওয়ার্ক প্রেক্ষাপট</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Mrežno okruženje</short>
+        <long>Mrežno okruženje nadzirano mrežnim nadzorom.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Interfície de la xarxa</short>
+        <long>La interfície de xarxa monitoritzada pel monitor de xarxa.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Interfície de la xarxa</short>
+        <long>La interfície de xarxa monitoritzada pel monitor de xarxa.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Şebeke arayüzü</short>
+        <long>Şebeke İzleyici tarafından izlengen Şebeke Arayüzü.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Síťové rozhraní</short>
+        <long>Síťové rozhraní sledované Sledováním sítě</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Rhyngwyneb rhwydwaith</short>
+        <long>Y Rhyngwyneb Rhwydwaith sy&apos;n cael ei fonitro gan y Monitr Rhwydwaith.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Netværksforbindelse</short>
+        <long>Den netværksforbindelse som overvåges af netværksovervågeren.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Netzwerkschnittstelle</short>
+        <long>Die von der Netzwerküberwachung überwachte Netzwerkschnittstelle.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཡོངས་འབྲེལ་གྱི་ངོས་འདྲ་བ།</short>
+        <long>ཡོངས་འབྲེལ་ལྟ་རྟོག་པ་གིས་ ལྟ་རྟོག་འབད་ཡོད་པའི་ ཡོངས་འབྲེལ་གྱི་ངོས་འདྲ་བ་།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Διεπαφή δικτύου</short>
+        <long>Η διεπαφή δικτύου που παρακολουθείται από την Παρακολούθηση Δικτύου.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑯𐑧𐑑𐑢𐑻𐑒 𐑦𐑯𐑑𐑼𐑓𐑱𐑕</short>
+        <long>𐑞 𐑯𐑧𐑑𐑢𐑻𐑒 𐑦𐑯𐑑𐑼𐑓𐑱𐑕 𐑥𐑭𐑯𐑩𐑑𐑻𐑛 𐑚𐑲 𐑞 𐑯𐑧𐑑𐑢𐑻𐑒 𐑥𐑪𐑯𐑦𐑑𐑼.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Network interface</short>
+        <long>The Network Interface monitored by the Network Monitor.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Network interface</short>
+        <long>The Network Interface monitored by the Network Monitor.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Interfaz de red</short>
+        <long>La interfaz de red monitorizado por el Monitor de red.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Võrguliides</short>
+        <long>Võrguliides, mida võrgumonitor jälgib.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Sareko interfazea</short>
+        <long>Sareko interfazearen monitorizazioa Sareko monitorearen eskutik.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>رابط شبکه</short>
+        <long>رابط شبکه توسط پایشگر شبکه پایش شد.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Verkkorajapinta</short>
+        <long>Verkkorajapinta, jota verkonseurannalla tarkkaillaan. </long>
+      </locale>
+
+      <locale name="fr">
+        <short>Interface réseau</short>
+        <long>L&apos;interface réseau surveillée par le moniteur réseau.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Interface di rêt</short>
+        <long>La interface di rêt tignude di voli dal Monitor di rêt.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Interface de rede</short>
+        <long>A interface de rede monitorizada polo monitor de rede.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>નેટવર્ક ઈન્ટરફેસ</short>
+        <long>નેટવર્ક મોનિટર દ્વારા નેટવર્ક ઈન્ટરફેસનું ધ્યાન રખાય છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Network interface</short>
+        <long>The Network Interface monitored by the Network Monitor.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>नेटवर्क इंटरफ़ेस</short>
+        <long>नेटवर्क मॉनीटर द्वारा मॉनीटर किए गये नेटवर्क इंटरफ़ेस.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Mrežni uređaj</short>
+        <long>Mrežni uređaj kojeg prati nadzornik mreže.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Hálózati felület</short>
+        <long>A Hálózatfigyelő által figyelt hálózati felület.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Antar muka jaringan</short>
+        <long>Antar muka jaringan dimonitor oleh Monitor Jaringan.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Netkerfisviðmót</short>
+        <long>Netkerfisviðmótið er vaktað af netkerfisvaktaranum.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Interfaccia di rete</short>
+        <long>L&apos;interfaccia di rete controllata dal Monitor di rete.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ネットワーク・インタフェース</short>
+        <long>ネットワーク監視アプレットで監視するネットワーク・インタフェース (デバイス) です。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ქსელის ინტერფეისი</short>
+        
+      </locale>
+
+      <locale name="kn">
+        <short>ಜಾಲಬಂಧ ಸಂಪರ್ಕಸಾಧನ</short>
+        <long>ಜಾಲಬಂಧ ಮೇಲ್ವಿಚಾರಕನಿಂದ ಪರಿವೀಕ್ಷಿಸಲ್ಪಡುವ ಜಾಲಬಂಧ ಸಂಪರ್ಕಸಾಧನ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>네트워크 인터페이스</short>
+        <long>네트워크 모니터에서 감시할 네트워크 인터페이스.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Rûyê torê</short>
+        <long>Navbênkarê tora çavdêr ji alî çavdêrê torê ve</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Tinklo sąsaja</short>
+        <long>Tinklo sąsaja, stebima Tinklo stebėjimo programos.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Tīkla saskarne</short>
+        <long>Tīkla saskarne tiek pārraudzīta ar Network Monitor.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>संजाल अंतरफलक</short>
+        <long>नेटवर्क मोनीटर द्वारा मोनीटर कएल गेल संजाल अंतरफलक.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Mpanera rezo</short>
+        <long>Ilay mpanera rezo arahana maso.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>നെറ്റ്‍വര്‍ക്കുമായി ബന്ധപ്പെടുന്ന ഉപകരണം (നെറ്റ്‍വര്‍ക്ക് ഇന്‍റര്‍ഫെയിസ്)</short>
+        <long>നെറ്റ്‍വര്‍ക്കുമായി ബന്ധപ്പെടുന്ന ഉപകരണം നിരീക്ഷിക്കുന്ന നെറ്റ്‍വര്‍ക്ക് മോണിറ്റര്‍.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Сүлжээний интерфэйс</short>
+        <long>Сүлжээний интерфэйс Сүлжээний Чагнагчаар чагнагдсан</long>
+      </locale>
+
+      <locale name="mr">
+        <short>नेटवर्क इंटरफेस</short>
+        <long>नेटवर्क मॉनिटरद्वारे मॉनिटर केला गेलेला नेटवर्क इंटरफेस.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Antaramuka rangkaian</short>
+        <long>Antaramuka Rangkaian dimonitor oleh Monitor Rangkaian.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Nettverksgrensesnitt</short>
+        <long>Nettverksgrensesnitt som overvåkes av nettverksmonitor.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>सञ्जाल इन्टरफेस</short>
+        <long>सञ्जाल अनुगमनद्वारा अनुगमन गरिएको सञ्जाल इन्टरफेस ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Netwerkverbinding</short>
+        <long>De netwerkverbinding die door Netwerkmonitor geobserveerd wordt.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Nettverkseining</short>
+        <long>Nettverkseininga nettverksovervakaren ser på.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Interfaç ret</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ନେଟଓ୍ବାର୍କ ଅନ୍ତରାପ୍ରୁଷ୍ଠ</short>
+        <long>ନେଟଓ୍ବାର୍କ ଅନ୍ତରାପ୍ରୁଷ୍ଠ ଉପରେ ନେଟଓ୍ବାର୍କ ପ୍ରଦର୍ଶିକା ଦ୍ରୁଷ୍ଟି ରଖିଅଛି।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਨੈੱਟਵਰਕ ਇੰਟਰਫੇਸ</short>
+        <long>ਨੈੱਟਵਰਕ ਨਿਗਾਰਨ ਰਾਹੀਂ ਪੜਤਾਲ ਅਧੀਨ ਨੈੱਟਵਰਕ ਇੰਟਰਫੇਸ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Interfejs sieciowy</short>
+        <long>Interfejs sieciowy monitorowany przez monitora sieci.</long>
+      </locale>
+
+      <locale name="ps">
+        <short>ځال برسېر</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Interface de rede</short>
+        <long>O Interface de Rede monitorizado pelo Monitor Rede.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Interface de rede</short>
+        <long>A interface de rede monitorada pelo Monitor de Rede.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Interfață de rețea</short>
+        <long>Interfața de rețea monitorizată de această aplicație.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Сетевой интерфейс</short>
+        <long>Сетевой интерфейс, наблюдаемый с помощью монитора сети.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Sieťové rozhranie</short>
+        <long>Sieťové rozhranie sledované Sieťovým sledovačom.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Vmesnik omrežja</short>
+        <long>Vmesnik omrežja nadzorovan preko Omrežnega nadzornika.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Interfaqja e rrjetit</short>
+        <long>Interfaqja e rrjetit e monitoruar nga Monitoruesi i Rrjetit.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Мрежни уређај</short>
+        <long>Мрежни прикључак који прати Надзорник мреже.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Mrežni uređaj</short>
+        <long>Mrežni priključak koji prati Nadzornik mreže.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Nätverksgränssnitt</short>
+        <long>Nätverksgränssnittet som övervakas av nätverksövervakaren.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>பிணைய இடைமுகம்</short>
+        <long>பிணைய இடைமுக கண்காணிப்பியால் கண்காணிக்கப்பட்ட பிணைய இடைமுகம்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>అల్లిక సంవిధానము</short>
+        <long>అల్లిక దర్శిని ద్వారా అల్లిక సంవిధానం నిర్వహించబడుతుంది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>อินเทอร์เฟซเครือข่าย</short>
+        <long>อินเทอร์เฟซเครือข่ายที่แอพเพล็ตติดตามการใช้เครือข่ายติดตามอยู่</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Ağ arabirimi</short>
+        <long>Ağ İzleyici tarafından takip edilen Ağ Arabirimi.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Мережний інтерфейс</short>
+        <long>Мережний інтерфейс, що контролюється монітором мережі.</long>
+      </locale>
+
+      <locale name="uz">
+        <short>Tarmoq interfeysi</short>
+        
+      </locale>
+
+      <locale name="uz@cyrillic">
+        <short>Тармоқ интерфейси</short>
+        
+      </locale>
+
+      <locale name="vi">
+        <short>Giao diện mạng</short>
+        <long>Giao diện mạng được theo dõi bởi Bộ Theo Dõi Mạng.</long>
+      </locale>
+
+      <locale name="wa">
+        
+        <long>L&apos; eterface rantoele corwaiteye på corwaitoe.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Umdibaniso-mida wothungelwano</short>
+        <long>Umdibaniso wemida woThungelwano wonganyelwe nguMongameli woThungelwano.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>网卡</short>
+        <long>被网络监视器监视的网络接口。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>網絡介面</short>
+        <long>被網絡監控器監控的網絡介面。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>網路介面</short>
+        <long>被網路監控器監控的網路介面。</long>
+      </locale>
+    </schema>
+
+    <!-- Yes, this key is purposely global to all instances of the applet -->
+    <schema>
+      <key>/schemas/apps/netstatus_applet/config_tool</key>
+      <applyto>/apps/netstatus_applet/config_tool</applyto>
+      <owner>netstatus-applet</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Network configuration tool</short>
+        <long>
+	  This key specifies the name of the network configuration tool
+	  which should be invoked when the "Configure" button in the
+	  properties dialog is clicked.
+
+	  If the configuration tool can take a parameter of the interface
+	  to configure you may use %i in the string and it will be
+	  substituted with the interface name before invoking the
+	  configuration tool.
+
+	  For example, gnome-system-tool's network-admin tool takes
+          the interface name through a --configure parameter. Thus,
+          you could set the value of this key to be:
+                  "network-admin --configure %i".
+	</long>
+      </locale>
+
+      <locale name="af">
+        <short>Netwerk-opstellingprogram</short>
+        
+      </locale>
+
+      <locale name="ar">
+        <short>أداة إعداد الشبكة</short>
+        <long>يحدد هذا المفتاح اسم أداة إعداد الشبكة التي ستستحضرعند نقر زر &quot;إعداد&quot; في حوار الخصائص. إذا كان يمكن لأداة الإعداد أخذ متغير من الواجهة لإعداده فلربما تريد كتابة %i في السلسلة وسيتم استبدالها باسم الواجهة قبل استحضار أداة الإعداد. مثلا،أداة إدارة الشبكة لأداة نظام جنوم تستحضر اسم الواجهة عبر متغير--configure. يمكنك بالتالي ضبط قيمة هذا المفتاح لـ:&quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="as">
+        <short>নেটৱৰ্ক বিন্যাস ব্যবস্থা</short>
+        <long>বৈশিষ্ট্যাবলীৰ ডায়ালগত &quot;বিন্যাস কৰক&quot; বুটাম ক্লিক কৰিলে যি নেটৱৰ্ক বিন্যাস সামগ্ৰী আৰম্ভ কৰা হ&apos;ব সেইটো এই চাবি দ্বাৰা নিৰ্ধাৰিত হয় ।  বিন্যাস সামগ্ৰীৰ দ্বাৰা বিন্যাস কৰাৰ বাবে চিহ্নিত প্ৰেক্ষাপট সংক্ৰান্ত স্থিতিমাপত গৃহীত হ&apos;লে আপুনি %i ব্যবহাৰ কৰিবলৈ পাৰিব আৰু বিন্যাস সামগ্ৰী আৰম্ভ কৰাৰ পূৰ্বে প্ৰেক্ষাপটৰ নাম প্ৰতিস্থাপিত হ&apos;ব ।  উদাহৰণস্বৰূপ, gnome-system-tool&apos;ৰ network-admin সামগ্ৰীৰ ক্ষেত্ৰত --configure স্থিতিমাপৰ মাধ্যমে প্ৰেক্ষাপটৰ  নাম গ্ৰহণ কৰা হয় ।  অৰ্থাৎ এই ক্ষেত্ৰত এই চাবিৰ মান নিৰ্ধাৰণৰ বাবে প্ৰয়োগ কৰক: &quot;network-admin --configure %i&quot; । </long>
+      </locale>
+
+      <locale name="ast">
+        <short>Ferramienta de configuración de rede</short>
+        <long>Esta contraseña especifica&apos;l nome de la ferramienta de configuración de rede que tendría d&apos;invocase cuando se calca&apos;l botón «Configurar» nel diálogu de propiedaes. Si la ferramienta de configuración puede tomar un parámetru de la interface pa configurar, puedes usar %i na cadena y sustituyiráse pol nome de la interface enantes d&apos;invocar la ferramienta de configuración. Por exemplu, la ferramienta de configuración network-admin de gnome-system-tools toma&apos;l nome de la interface a traviés d&apos;un parámetru de configuración --. D&apos;esti mou puedes afitar el valor d&apos;esta contraseña como: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="az">
+        <short>Şəbəkə quraşdırma vasitəsi</short>
+        <long>This key specifies the name of the network configuration tool which should be invoked when the &quot;Configure&quot; button in the properties dialog is clicked. If the configuration tool can take a parameter of the interface to configure you may use %i in the string and it will be substituted with the interface name before invoking the configuration tool. For example, gnome-system-tool&apos;s network-admin tool takes the interface name through a --configure parameter. Thus, you could set the value of this key to be: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="be@latin">
+        <short>Pryłada kanfihuracyi sietki</short>
+        <long>Hety kluč akreślaje nazvu pryłady dla kanfihuracyi sietki, jakuju treba ŭruchomić pry kliku pa knopcy &quot;Kanfihuruj&quot; u vaknie ŭłaścivaściaŭ. Kali pryłada dla kanfihuracyi moža pryniać parametar z interfejsam, kab skanfihuravać jaho, tady ty možaš užyć radok %i, jaki budzie zamienieny nazvaj interfejsu pierad uruchamleńniem pryłady dla kanfihuracyi. Naprykład, pryłada network-admin z pakunku gnome-system-tools pryjmaje nazvu interfejsu z dapamohaj parametra --configure. U takim razie ty možaš akreślić vartaść dla hetaha kluča jak: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Програма за настройване на мрежата</short>
+        <long>Този ключ определя името на програмата за мрежова настройка, която да се пусне при натискане на бутона „Настройки“. Ако тази програма може да поема параметри от интерфейса за настройка, може да използвате името %i в низа, което ще бъде заменено с името на интерфейса преди да бъде пусната програмата. Например, програмата за настройки на мрежата на GNOME взима името от параметър. Следователно, може да настроите стойността на този ключ да бъде „network-admin --configure %i“.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>নেটওয়ার্ক কনফিগারেশন টুল</short>
+        <long>বৈশিষ্ট্যাবলীর ডায়ালগে &quot;কনফিগার&quot; বাটন ক্লিক করা হলে, কোন নেটওয়ার্ক কনফিগারেশন টুল চালু করা হবে তা এই কী নির্ধারন করে। কনফিগারেশন টুলটি ইন্টারফেস থেকে যদি কোন কনফিগারেশন প্যারামিটার গ্রহন করতে পারে, আপনি স্ট্রিং এ %i ব্যবহার করেত পারেন যা কিনা কনফিগারেশন টুলটি চালু করার পূর্বে ইন্টারফেস নাম দিয়ে প্রতিস্থাপিত হবে। যেমন, গুহ্নোম-সিস্টেম-টুল এর নেটওয়ার্ক-অ্যাডমিন টুল --configure প্যারামিটারটির মাধ্যমে ইন্টারফেস নাম গ্রহন করে। অতএব, আপনি এই কী-টির মান এইভাবে সেট করতে পারেন: &quot;network-admin --configure %i&quot;।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>নেটওয়ার্ক কনফিগারেশন ব্যবস্থা</short>
+        <long>বৈশিষ্ট্যাবলীর ডায়ালগে &quot;কনফিগার করুন&quot; বাটন ক্লিক করা হলে যে নেটওয়ার্ক কনফিগারেশন সামগ্রী চালু করা হবে তা এই কি দ্বারা নির্ধারিত হয়। কনফিগারেশন সামগ্রীর দ্বারা কনফিগার করার জন্য চিহ্নিত প্রেক্ষাপট সংক্রান্ত পরামিতিত গৃহীত হলে আপনি %i ব্যবহার করতে পারবেন এবং কনফিগারেশন সামগ্রী আরম্ভ করার পূর্বে প্রেক্ষাপটের নাম প্রতিস্থাপিত হবে। উদাহরণস্বরূপ, gnome-system-tool&apos;র network-admin সামগ্রীর ক্ষেত্রে --configure পরামিতির মাধ্যমে প্রেক্ষাপটের  নাম গ্রহণ করা হয়। অর্থাৎ এই ক্ষেত্রে এই কি&apos;র মান নির্ধারণের জন্য প্রয়োগ করুন: &quot;network-admin --configure %i&quot;।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Alat za konfiguraciju mreže</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Eina de configuració de la xarxa</short>
+        <long>Aquesta clau especifica el nom de l&apos;eina de configuració de xarxa que s&apos;hauria d&apos;executar en clicar el botó «Configura» de la finestra de propietats. Si l&apos;eina de configuració pot prendre un paràmetre de la interfície que voleu configurar, podeu utilitzar %i a la cadena i se substituirà pel nom de la interfície abans d&apos;executar l&apos;eina de configuració. Per exemple, l&apos;eina d&apos;administració de xarxa del gnome-system-tool pren el nom de la interfície a través del paràmetre --configure. Per tant, podríeu definir el valor d&apos;aquesta clau fent: «network-admin --configure %i».</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Eina de configuració de la xarxa</short>
+        <long>Esta clau especifica el nom de l&apos;eina de configuració de xarxa que s&apos;hauria d&apos;executar en clicar el botó «Configura» de la finestra de propietats. Si l&apos;eina de configuració pot prendre un paràmetre de la interfície que voleu configurar, podeu utilitzar %i a la cadena i se substituirà pel nom de la interfície abans d&apos;executar l&apos;eina de configuració. Per exemple, l&apos;eina d&apos;administració de xarxa del gnome-system-tool pren el nom de la interfície a través del paràmetre --configure. Per tant, podríeu definir el valor d&apos;esta clau fent: «network-admin --configure %i».</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Şebeke ayarlama aleti</short>
+        <long>Bu anahtar, hasiyetler dialogında yer alğan &quot;Ayarla&quot; dögmesine çertilgeninde çağırılacaq olğan şebeke ayarlama aletini belirtir. Eger ayarlama aleti, ayarlanacaq şebeke arayüzüniñ adını bir parametr olaraq ala bile eken, tizgi içerisinde %i yer tutucısını qullana bilirsiñiz ve o, ayarlama aleti çağırılğanda, arayüz adı ile deñiştirilecek. Meselâ, gnome-system-tools paketiniñ network-admin aleti arayüz adını --configure parametri ile alır. Böylece, bu anahtarnıñ qıymetini &quot;network-admin --configure %i&quot; olaraq tesbit ete bilirsiñiz.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Nástroj pro nastavení sítě</short>
+        <long>Tento klíč určuje název nástroje pro nastavení sítě, který by měl být spuštěn po kliknutí na tlačítko „Nastavit“ v dialogu vlastností. Pokud nástroj pro konfigurace může dostat název nastavovaného rozhraní jako parametr, můžete v řetězci použít %i, které bude před spuštěním nástroje pro nastavení nahrazeno názvem rozhraní. Například nástroj network-admin z gnome-system-tools přijímá název rozhraní v parametru --configure. Takže můžete nastavit hodnotu tohoto klíče na „network-admin --configure %i“.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Teclyn cyflunio rhwydwaith</short>
+        <long>Mae&apos;r allwedd hon yn penodi enw&apos;r teclyn cyflunio rhwydwaith y dylid ei gychwyn pan glicir y botwm &quot;Cyflunio&quot; yn y deialog briodweddau. Os medr y teclyn cyflunio dderbyn paramedr sy&apos;n dangos pa ryngwyneb i&apos;w gyflunio, medrwch ddefnyddio %i yn y llinyn, ac fe roddir enw&apos;r rhyngwyneb yn lle&apos;r %i cyn dechrau&apos;r teclyn cyflunio. Er enghraifft, mae&apos;r teclyn cyflunio o fewn gnome-system-tool yn derbyn enw&apos;r rhyngwyneb trwy baramedr --configure. Felly, gallech osod gwerth yr allwedd hon i: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Værktøj til netværkskonfiguration</short>
+        <long>Denne nøgle angiver navnet på det netværkskonfigurationsværktøj som skal startes når der klikkes på knappen &quot;Konfigurér&quot; i vinduet med indstillinger. Hvis konfigurationsværktøjet kan tage i mod en parameter der angiver hvilken forbindelse der skal konfigureres, kan du indsætte %i i strengen - det vil så blive erstattet med forbindelsesnavnet før konfigurationsværktøjet bliver startet. For eksempel tager netværksadministrationsværktøjet i Gnomes systemværktøjer mod forbindelsesnavnet gennem tilvalget --configure så denne nøgle kan sættes til værdien &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Werkzeug zur Netzwerkkonfiguration</short>
+        <long>Dieses Werkzeug gibt den Namen des Werkzeugs zur Netzwerkkonfiguration an, das aufgerufen werden soll, sobald der »Konfigurieren«-Knopf angeklickt wird. Falls das Konfigurationswerkzeug einen Parameter erwartet, der die zu konfigurierende Schnittstelle angibt, können Sie in der Zeichenkette »%i« einfügen, das dann vor dem Aufruf mit dem Schnittstellennamen versehen wird. Beispielsweise erwartet das Werkzeug »network-admin« der GNOME-Systemwerkzeuge den Schnittstellennamen nach dem Parameter »--configure«. In diesem Falle müsste der Schlüsselwert also »network-admin --configure %i« sein.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཡོངས་འབྲེལ་ རིམ་སྒྲིག་ལག་ཆས།</short>
+        <long>ལྡེ་མིག་འདི་གིས་ ཡོངས་འབྲེལ་རིམ་སྒྲིག་ལག་ཆས་ཀྱི་མིང་ གསལ་བཀོད་འབདཝ་ཨིན། དེ་ཡང་རྒྱུ་དངོས་ཀྱི་ཌའི་ལོག་ནང་  &quot;Configure&quot;ཨེབ་རྟ་ལུ་ ཨེབ་གཏང་འབདཝ་ད་ ལེན་ཚུགསཔ་ཨིན། རིམ་སྒྲིག་ལག་ཆས་ཀྱིས་ ངོས་འདྲ་བའི་ ཚད་བཟུང་ཅིག་ རིམ་སྒྲིག་ལུ་འབག་ཚུགས་པ་ཅིན་ ཁྱོད་ཀྱིས་ཚིག་རྒྱུན་ནང་ལུ་%iལག་ལེན་འཐབ་བཏུབ། དེ་ལས་རིམ་སྒྲིག་ལག་ཆས་མ་ལེན་པའི་ཧེ་མར་ དེ་གི་ཚབ་ལུ་ངོས་འདྲ་བའི་མིང་འཐོན་འོང་། དེ་ཡང་དཔེར་ན་ ཇི་ནོམ་-རིམ་ལུགས་-ལག་ཆས་ཀྱི་ ཡོངས་འབྲེལ་-བདག་སྐྱོང་ལག་ཆས་ཟེར་མི་གིས་ རིམ་སྒྲིག་གི་ཚད་བཟུང་ཅིག་བརྒྱུད་དེ་ ངོས་འདྲ་བའི་མིང་ལེནམ་ཨིན། དེ་གིས་འབད་ ཁྱོད་ཀྱིས་ལྡེ་མིག་འདི་གི་བེ་ལུ་དེ་ &quot;network-admin --configure %i&quot; ལུ་ གཞི་སྒྲིག་འབད་ཚུགས།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εργαλείο ρύθμισης δικτύου</short>
+        <long>Αυτό το κλειδί καθορίζει το όνομα του εργαλείου ρύθμισης δικτύου που θα κληθεί όταν πατηθεί το κουμπί  &quot;Ρύθμιση&quot; στο διάλογο ιδιοτήτων. Αν το εργαλείο ρύθμισης μπορεί να λάβει μια παράμετρο από τη διεπαφή για ρύθμιση, μπορείτε να χρησιμοποιήσετε το  %i στο αλφαριθμητικό, το οποίο θα αντικατασταθεί με το όνομα της διεπαφής πριν να κληθεί το εργαλείο ρύθμισης. Για παράδειγμα το εργαλείο  network-admin του gnome-system-tool παίρνει το όνομα της διεπαφής μέσω της παραμέτρου --configure. Έτσι λοιπόν μπορείτε να ορίσετε την τιμή του κλειδιού να είναι : &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="en@shaw">
+        <short>𐑯𐑧𐑑𐑢𐑻𐑒 𐑒𐑩𐑯𐑓𐑦𐑜𐑘𐑼𐑱𐑖𐑩𐑯 𐑑𐑵𐑤</short>
+        
+      </locale>
+
+      <locale name="en_CA">
+        <short>Network configuration tool</short>
+        <long>This key specifies the name of the network configuration tool which should be invoked when the &quot;Configure&quot; button in the properties dialogue is clicked. If the configuration tool can take a parameter of the interface to configure you may use %i in the string and it will be substituted with the interface name before invoking the configuration tool. For example, gnome-system-tool&apos;s network-admin tool takes the interface name through a --configure parameter. Thus, you could set the value of this key to be: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Network configuration tool</short>
+        <long>This key specifies the name of the network configuration tool which should be invoked when the &quot;Configure&quot; button in the properties dialogue is clicked. If the configuration tool can take a parameter of the interface to configure you may use %i in the string and it will be substituted with the interface name before invoking the configuration tool. For example, gnome-system-tool&apos;s network-admin tool takes the interface name through a --configure parameter. Thus, you could set the value of this key to be: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Herramienta de configuración de red</short>
+        <long>Esta clave especifica el nombre de la herramienta de configuración de red que debería ser invocada cuando se pulse el botón «Configurar» en el diálogo de propiedades. si la herramienta de configuración puede tomar un parámetro de la interfaz para configurar, puede usar %i en la cadena y será sustituida por el nombre de la interfaz antes de invocar la herramienta de configuración. Por ejemplo, la herramienta de configuración network-admin de gnome-system-tools toma el nombre de la interfaz a través de un parámetro de configuración --. De este modo puede establecer el valor de esta clave como: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Võrguseadistamise vahend</short>
+        <long>See võti määrab ära võrguseadistuse tööriista, mis käivitatakse omaduste dialoogil asuval &quot;Seadista&quot; nupul klikkides. Kui seadistustööriistale saab õelda, millist liidest seadistada, siis selleks saab käsus kasutada &apos;%i&apos; parameetrit, mis vahetatakse enne programmi väljakutsumist liidese nime vastu. Näiteks gnome-system-tools&apos;i võrguhalduri tööriistale (network-admin) saab anda liidese --configure parameetriga. Seega oleks selle võtme väärtus: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Sarea konfiguratzeko tresna</short>
+        <long>Giltza honek sarea konfiguratzeko erabiltzen den tresnaren izena zehazten du, propietatea elkarrizketa-koadroko &quot;Konfiguratu&quot; botoian klik egitean deituko zaiona. Konfigurazioko tresnak interfazeko argumentu bat jaso badezake, katean %i erabili eta interfazearen izenarekin ordeztuko da (konfigurazioko tresnari deitu aurretik). Adibide gisa, &quot;gnome-system-tool&quot;-eko &quot;network-admin&quot;administrazioko tresnak interfazearen izena jasotzen du konfigurazioko parametroaren bitartez. Honela, gako honen balioa honela ezar dezakezu:
+	 &quot;network-admin --configure %i&quot;</long>
+      </locale>
+
+      <locale name="fa">
+        <short>ابزار پیکربندی شبکه</short>
+        <long>این کلید نام ابزار پیکربندی شبکه را مشخص می‌کند که زمانی که دکمه «پیکربندی» در جعبه محاوره‌ای ویژگی‌ها کلیک شد باید فراخوانده شود. اگر ابزار پیکربندی بتواند برای پیکربندی پارامتری از رابط بگیرد، می‌توانید در رشته از ‎%i استفاده کنید که قبل از فراخوانی ابزار پیکربندی، با نام رابط جایگزین می‌شود. برای مثال،  ابزار network-admin از gnome-system-tool نام رابط را از طریق یک پارامتر «‎--configure» می‌گیرد. بدین ترتیب شما می‌توانید مقدار این کلید را به صورت «network-admin --configure %i» تنظیم کنید.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Verkkoasetustyökalu</short>
+        <long>Tämä avain määrittää verkkoasetustyökalun nimen, joka käynnistetään napsautettaessa &quot;Asetukset&quot;-painiketta ominaisuudet-ikkunassa. Jos asetustyökalu voi ottaa asetettavan rajapinnan parametrina, voit lisätä merkkijonoon %i, joka korvataan rajapinnan nimellä ennen asetustyökalun käynnistämistä. Esimerkiksi gnome-system-toolin verkonylläpitotyökalu ottaa rajanpinnan nimen valitsimella --configure. Siispä tämän avaimen arvoksi voi asettaa &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Outil de configuration réseau</short>
+        <long>Indique le nom de l&apos;outil de configuration réseau qui sera appelé lors de l&apos;activation du bouton « Configurer » dans la fenêtre de propriétés. Si l&apos;outil de configuration peut prendre en argument le nom de l&apos;interface à configurer, vous pourrez utiliser la valeur %i qui sera remplacée par le nom de l&apos;interface lors de l&apos;appel. Par exemple l&apos;outil de configuration réseau des outils système gnome utilise l&apos;option --configure pour prendre le nom le l&apos;interface. Vous pouvez alors définir la valeur cette clé avec « network-admin --configure %i ».</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Imprest pe configurazion de rêt</short>
+        <long>Cheste clâf e specifiche il non dal imprest di configurazion de rêt che al à di jessi inviât cuant che al ven fracât il boton &quot;Configure&quot; intal barcon des propietâts. Se l&apos;imprest di configurazion al pues ricevi il parametri de interface di configurâ, tu puedis doprâ %i inte stringhe, e al vignarà sostituît cul non de interface prime di inviâ il program. Par esempli, l&apos;imprest network-admin tai gnome-system-tool al cjape il non de interface par mieç di un parametri --configure. Duncje, tu puedis meti il valôr di chest clâf su: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Ferramenta de configuración da rede</short>
+        <long>Esta chave especifica o nome da ferramenta de configuración de rede que se debe chamar cando se preme o botón &quot;Configurar&quot; na caixa de diálogo de propiedades. Se a ferramenta de configuración pode tomar un parámetro da interface para configurar, pódese usar %i na cadea e será substituída polo nome da interface antes de invocar a ferramenta de configuración. Por exemplo, a ferramenta network-admin de gnome-system-tools toma o nome da interface a través dun parámetro --configure. Deste modo pode estabelecer o valor da chave como: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>નેટવર્ક રુપરેખાંકન સાધન</short>
+        <long>આ કી નેટવર્ક રુપરેખાંકન સાધનનું નામ સ્પષ્ટ કરે છે કે જે જ્યારે ગુણધર્મ સંવાદમાં &quot;રુપરેખાંકન&quot; બટન ચિહ્નિત કરાય ત્યારે જાગૃત થાય છે. જો રુપરેખાંકન કરવા માટે રુપરેખાંકન સાધન ઈન્ટરફેસના પરિમાણ લે તો તમે %i મા શબ્દમાળા વાપરી શકો છો અને તે રુપરેખાંકન સાધન જાગૃત કર્યા પહેલાં તેમાં મૂકવામાં આવે છે. ઉદારહરણ તરીકે જીનોમ સિસ્ટમ સાધનોના નેટવર્ક સંચાલક સાધનો ઈન્ટરફેસનું નામ રુપરેખાંકન પરિમાણો તરફથી -- દ્વારા લઈ શકે છે. આ રીતે, તમે આ કીની કિંમત આ સુયોજિત કરી શક્યા હોત: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Network configuration tool</short>
+        <long>This key specifies the name of the network configuration tool which should be invoked when the &quot;Configure&quot; button in the properties dialog is clicked. If the configuration tool can take a parameter of the interface to configure you may use %i in the string and it will be substituted with the interface name before invoking the configuration tool. For example, gnome-system-tool&apos;s network-admin tool takes the interface name through a --configure parameter. Thus, you could set the value of this key to be: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>नेटवर्क कान्फ़िगरेशन उपकरण</short>
+        <long>यह कुंजी संजाल विन्यास उपकरण को निर्दिष्ट करता है जो &quot;Configure&quot; क्लिक किये बटन संवाद को गुण में लाया जा सकता है. अगर एक विन्यास उपकरण अंतरफलक का पैरामीटर विन्यास के लिये से सकता है तो आप %i को स्ट्रिंग में प्रयोग कर सकते हैं और यह अंतरफलक नाम के साथ दिया जा सकता है विन्यास उपकरण को लाये जाने के पहले. उदाहरण के लिये, gnome-system-tool का  network-admin उपकरण अंतरफलक नाम --पैरामीटर विन्यस्त करें के द्वारा होकर लेता है. इसलिये, आप इस कुंजी को मान इसके लिये सेट कर सकते हैं: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Alat za podešavanje mreže</short>
+        <long>Ova stavka određuje ime alata za postavljanje mreže koji će se pokretati pomoću &quot;Postavi&quot; tipke u dijalogu postavki. Ako alat prihvaća parametre sučelja, onda možete koristiti %i umjesto imena sučelja koje se konfigurira. Na primjer, u network-adminu se sučelje definira putem --configure naredbe, pa će onda ova stavka biti &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Hálózatbeállító eszköz</short>
+        <long>Ez a kulcs megadja, a tulajdonságok párbeszédablakban a „Beállítás” gombra kattintáskor meghívandó hálózati beállítóeszköz nevét. Ha a beállítóeszköz paraméterként képes felvenni a beállítandó felületet, használhatja a %i-t a karakterláncban és az be lesz helyettesítve a felület nevével a beállítóeszköz meghívása előtt. Például a gnome-system-tool hálózatadminisztrációs eszköze a felület nevét egy --configure paraméteren keresztül veszi fel. Így a kulcs értékét Ön a következőre állíthatja be: „network-admin --configure %i”.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Alat mengkonfigurasikan Jaringan</short>
+        <long>Kunci ini menjelaskan nama dari alat pengkonfigurasi jaringan yang harus di bangkitkan ketika tombol &quot;konfigurasi&quot; pada dialog informasi di klik. Jika alat konfigurasi dapat mengambil parameter dari antar muka untuk dikonfigurasi anda mungkin menggunakan %i pada string dan akan di gantikan dengan nama antar muka sebelum memanggil alat pengkonfigurasi. Sebagai contoh, gnome-system-tool&apos;s·network-admin·tool mengambil nama antar muka melalui parameter konfigurasi. Sehingga, anda dapat menetapkan nilai dari kunci ini menjadi: &quot;network-admin --configure %i&quot;.·</long>
+      </locale>
+
+      <locale name="is">
+        <short>Netkerfisstillingatól</short>
+        <long>Þessi lykill skilgreinir nafn netkerfisstillingatólsins sem ætti að vera kallað á þegar ýtt er á &quot;Stillingar&quot; takkann í eiginleikasvarglugganum. Ef stillingatólið getur tekið við stika viðmótsins fyrir stillingar getur þú notað %i í strengnum og því verður skipt út fyrir viðmótsnafnið áður en kallað er á stillingatólið. Til dæmis, network-admin í gnome-system-tool tekur við nafni viðmótsins í gegnum --configure stika. Þannig getur þú sett gildi þessa lykils sem: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Strumento di configurazione della rete</short>
+        <long>La chiave specifica il nome dello strumento di configurazione della rete che dovrebbe essere lanciato quando si preme il pulsante &quot;Configura&quot; nel dialogo delle proprietà. Se lo strumento di configurazione accetta come parametro l&apos;interfaccia da configurare è possibile usare %i nella stringa e verrà sostituito con il nome dell&apos;interfaccia prima di lanciare lo strumento di configurazione. Per esempio, lo strumento network-admin di gnome-system-tool prende il nome dell&apos;interfaccia attraverso il parametro --configure. Perciò è possibile impostare il valore di questa chiave a: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ネットワーク設定ツール</short>
+        <long>このキーはネットワーク設定ツールの名前を表し、プロパティ・ダイアログにある [設定] ボタンをクリックすると呼び出されるものです。その設定ツールが対象となるインタフェースを引数にとる場合、文字 %i でコマンドラインの中で指定でき、設定ツールを実行する際にインタフェース名に置き換わります。たとえば、gnome-system-tool の `network-admin` はオプション --configure を使ってインタフェース名を受け取ります。この場合、このキーの値は &quot;netowrk-admin --configure %i&quot; をセットすれば良いことになります。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ქსელის კონფიგურაციის ხელსაწყო</short>
+        
+      </locale>
+
+      <locale name="kn">
+        <short>ಜಾಲಬಂಧ ಸಂರಚನಾ ಉಪಕರಣ</short>
+        <long>ಗುಣಲಕ್ಷಣಗಳ ಸಂವಾದದಲ್ಲಿನ &quot;ಸಂರಚಿಸು&quot; ಗುಂಡಿಯನ್ನು ಕ್ಲಿಕ್ಕಿಸಿದಾಗ ಕೋರ ಬೇಕಿರುವ ಜಾಲಬಂಧ ಸಂರಚನೆಯ ಉಪಕರಣವನ್ನು ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ. ಸಂರಚನಾ ಉಪಕರಣವು ಸಂರಚಿಸುವ ಸಲುವಾಗಿ ಸಂಪರ್ಕಸಾಧನದ ಒಂದು ನಿಯತಾಂಕವನ್ನು ಕೊಳ್ಳುವುದಾದರೆ ವಾಕ್ಯದಲ್ಲಿ ನೀವು %i ಅನ್ನು ಬಳಸಬಹುದು ಹಾಗು ಸಂರಚನಾ ಉಪಕರಣವನ್ನು ಕೋರುವ ಮೊದಲು ಅದನ್ನು ಸಂಪರ್ಕಸಾಧನದ ಹೆಸರಿನಿಂದ ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, gnome-system-tool ನ ಜಾಲಬಂಧ-ವ್ಯವಸ್ಥಾಪಕ ಉಪಕರಣವು ಒಂದು  --configure ನಿಯತಾಂಕದ ಮೂಲಕ ಸಂಪರ್ಕಸಾಧನದ ಹೆಸರನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ. ಅಂದರೆ, ನೀವು ಈ ಕೀಲಿಗೆ ಹೊಂದಿಸಲಾದ ಮೌಲ್ಯವು ಇದಾಗಿರುತ್ತದೆ: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>네트워크 설정 도구</short>
+        <long>이 키는 네트워크 설정 도구의 이름을 지정합니다. 속성 대화 상자의 &quot;설정&quot; 단추를 누르면 지정한 이름의 프로그램을 실행합니다. 이 설정 도구에 설정할 인터페이스를 인자로 넘겨야 한다면 %i을(를) 쓰면 됩니다. %i을(를) 인터페이스 이름으로 바꿔서 설정 도구를 실행합니다. 예를 들어, gnome-system-tool의 네트워크 관리 도구는 --configure 인자를 통해 인터페이스 이름을 받습니다. 그러면 이 키의 값을 다음과 같이 하면 됩니다: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Alava amadekirina torê</short>
+        <long>Ev mifte navê alava amadekirina torê destnîşandike, dema pêlêkirina bişkoka &quot;amadekirin&quot;ê ya diyaloga taybetmendiyan de tê pêkanîn.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Tinklo konfigūracijos įrankis</short>
+        <long>Šis raktas nurodo tinklo konfigūravimo įrankį, kuris turėtų būti paleistas, kai nustatymų lange paspaudžiamas mygtukas „Konfigūruoti“. Jei konfigūravimo įrankis konfigūravimui gali priimti parametrą iš sąsajos, Jūs eilutėje galite naudoti %i ir jis bus pakeistas į sąsajos vardą, prieš paleidžiant konfigūravimo įrankį. Pavyzdžiui network-admin iš gnome-system-tools, priima sąsajos vardą per --configure parametrą.Taigi, Jūs galite šio rakto vertę nustatyti į: „network-admin --configure %i“.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Tīkla konfigurēšanas rīks</short>
+        <long>Šī atslēga norāda vārdu tīkla konfigurācijas rīkam, kuru vajadzētu izsaukt, kad poga  &quot;Konfigurēt&quot; parametru diologā ir nospiesta. Ja konfigurācijas rīks var paņemt parametru no saskarnes konfigurēšanai, jums vajadzēs lietot  %i simbolu virknē un tas tiks aizstāts ar saskarnes vārdu pirms izsauks konfigurēšanas rīku. Kā piemērs, gnome-system-tool tīkla-administratora rīks paņem saskarnes vārdu caur a --configure parametru. Tāda veidā jūs variet iestādīt šīs atslēgas vertību uz: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>नेटवर्क बिन्यास अओजार</short>
+        <long>ई कुँजी संजाल विन्यास अओजार केँ निर्दिष्ट करैत अछि जे &quot;बिन्यास&quot; क्लिक कएल बटन समादकेँ गुणमे आनल जाए सकैत अछि. जँ एकटा विन्यास अओजार अंतरफलक क&apos; पैरामीटर विन्यास क&apos;लए सकैत अछि तँ अहाँ %i केँ स्ट्रिंगमे प्रयोग कए सकैत छी आओर ई अंतरफलक नाम क&apos; सँग देल जाए सकैत अछि विन्यास अओजारकेँ आनल जाए क&apos; पहिने. उदाहरण क&apos;लेल , gnome-system-tool क&apos;  network-admin अओजार अंतरफलक नाम --पैरामीटर बिन्यस्त करू क&apos; द्वारा भ&apos;कए लेत अछि एहिलेल, अहाँ एहि कुँजीकेँ मान एहि क&apos;लेल सेट कए सकैत अछि: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Fitaovana fikirakirana rezo</short>
+        <long>Io famaha io dia mamaritra ny anaran&apos;ny fitaovana fikirakirana rezo tokony hantsoina rehefa voatsindry ny safidy &quot;Hikirakira&quot; ao amin&apos;ny takilan&apos;ny toetoetra. Raha afaka mikirakira mpizahaky ny mpanera iray ny fitaovana fikirakirana, dia azonao atao ny mampiasa ny %i anatin&apos;ilay laha-daza izay hosoloina ny anaran&apos;ilay mpanera alohan&apos;ny hiantsoana ilay fitaovana fikirakirana. Ohatra: ny fitaovana fitantanana rezon&apos;ny gnome-system-tool izao maka ny anaran&apos;ilay mpanera amin&apos;ny alalan&apos;ny mpizahaka --configure. Azonao atao amin&apos;izay fotoana izay ny mamaritra ny sandan&apos;io famaha io ho &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>നെറ്റ്‍വര്‍ക്ക് ക്രമീകരിക്കുന്നതിനുളള ഉപകരണം</short>
+        <long>സവിശേഷതകള്‍-ല്‍ ഉളള &quot;ക്രമീകരിക്കുക&quot; ബട്ടണ്‍ അമര്‍ത്തുന്പോള്‍ പ്രവര്‍ത്തിപ്പിക്കേണ്ട നെറ്റ്‍വര്‍ക്ക്  ക്രമീകരിക്കുന്ന ഉപകരണത്തിന്‍റെ പേരാണ് ഈ കീ വ്യക്തമാക്കുന്നത്. ക്രമീകരണത്തിനായി ഈ ഉപകരണത്തിന് സംയോജനഘടകത്തില്‍(ഇന്‍റര്‍ഫെയ്സ്) നിന്നും, ഒരു പരാമീറ്റര്‍ എടുക്കാന്‍ സാധിക്കുമെങ്കില്‍, നിങ്ങള്‍ക്ക് സ്ട്രിങില്‍ %i ഉപയോഗിക്കാവുന്നതാണ്. ഉപകരണം പ്രവര്‍ത്തിക്കുന്നതിന് മുന്പ് സ്ട്രിങില്‍ അതിന് പകരം ഘടകത്തിന്‍റെ പേര് ഉപയോഗിക്കുന്നതാണ്. ഉദാഹരണത്തിന്, ഒരു --configure പരാമീറ്റര്‍ വഴി gnome-system-tool-ന്‍റെ നെറ്റ്‍വര്‍ക്ക് ഉപകരണം, ഘടകനാമം എടുക്കുന്നു. നിങ്ങള്‍ക്ക് അങ്ങനെ ഈ കീയുടെ മൂല്ല്യം &quot;network-admin --configure %i&quot; എന്ന് സെറ്റ് ചെയ്യാവുന്നതാണ്.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Сүлжээ тохируулах хэрэгсэл</short>
+        <long>Энэ түлхүүр тодруулга диалог сонгогдоход байдаг &quot;Тохируулга&quot; товч дарахад дуудагдах сүлжээ тохируулах хэрэгслийн нэрийг заана. Хэрвээ тохируулах хэрэгсэл тохиргоондоо интерфейс параметр авдаг бол та тэмдэгт мөрөндөө %i хэрэглэж болох ба энэ нь тохируулах хэрэгсэл дуудагдахын өмнө интерфейс нэрээр орлуулагдана. Жишээлбэл, гноме-систем-хэрэгслийн сүлжээ-удирдах хэрэгсэл --configure параметрээр интерфейс·нэр авдаг. Тиймээс та энэ түлхүүрт утга оноохдоо : &quot;network-admin --configure %i&quot; гэж өгнө.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>नेटवर्क व्यूहरचना उपकरण</short>
+        <long>ही किल्ली नेटवर्क संयोजना साधनाचे नाव निश्चित करते जे गुणधर्म संवाद मधील &quot;संयोजना&quot; बटण दाबल्यावर प्रारंभ व्हायला हवे. संयोजना साधन संयोजीत करण्याजोगी संवादाचे घटक प्राप्त करू शकत असल्यास तुम्ही अक्षरमाळा मध्ये %i वापरू शकता व संयोजना साधन प्रारंभ करण्यापूर्वी त्यास संवाद नावाशी बदलवू जाऊ शकते. उदाहरणार्थ, gnome-system-tool चे network-admin साधन --configure याच्या द्वारे संवाद नाव प्राप्त करतो. अशा प्रकारे, तुम्ही या किल्लीचे मूल्य: &quot;network-admin --configure %i&quot; असे निश्चित करू शकता.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Alat konfigurasi rangkaian</short>
+        <long>Kekunci ini menyatakan nama bagi alat konfigurasi rangkaian yang anda panggil bila butang &quot;Konfigurasi&quot; pada dialog ciri-ciri diklik. Jika alat konfigurasi boleh menerima parameter bagi antaramuka untuk dikonfigurasikan, anda boleh menggunakan  %i pada rentetan dan ia akan digantikan dengan nama antaramuka sebelum memangguk alat konfigurasi. Sebagai contoh, alat network-admin gnome-system-tool&apos;s  mengambil nama antaramuka melalui parameter --configure. Oleh itu, anda boleh menetapkan nilai bagi kekunci ini menjadi: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Konfigurasjonsverktøy for nettverk</short>
+        <long>Denne nøkkelen spesifiserer navnet på nettverkskonfigurasjonsverktøyet som skal kjøres når man aktiverer «Konfigurer»-knappen i egenskaper-dialogen. Hvis konfigurasjonsverktøyet kan ta en parameter for å angi grensesnitt som skal konfigureres kan du bruke %i i strengen for å oppnå dette. For eksempel, gnome-system-tool&apos;s nettverkskonfigurasjonsverktøy tar navn på grensesnitt via en --configure parameter. I dette tilfellet vil man kunne sette verdien til å være «network-admin --configure %i».</long>
+      </locale>
+
+      <locale name="ne">
+        <short>सञ्जाल कन्फिगरेसन उपकरण</short>
+        <long>यस कुञ्जीले सञ्जाल कन्फिगरेसन उपकरण नाम निश्चित गर्दछ जुन गुण संवादको &quot;कन्फिगर&quot; बटन क्लिक गर्दा देखाउनु पर्दछ । यदि कन्फिगरेसन उपकरणले इन्टरफेसको परामिति लिन सक्दछ भने तपाईँले स्ट्रिङमा %i प्रयोग गर्न सक्नुहुन्छ र यसलाई इन्टरफेस नामको बदलामा कन्फिगरेसन उपकरणको अगाडि राख्न सकिन्छ । उदाहरणका लागि जिनोम-प्रणाली- उपकरणको सञ्जाल-प्रशासन उपकरणले कन्फिगर परामितिबाट इन्टरफेस नाम लिन्छ । यसैले, तपाईँले यस कुञ्जीको: &quot;सञ्जाल-प्रशासन --कन्फिगर %i&quot; हुने मान सेट गर्न सक्नुहुन्छ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Netwerk configuratieprogramma</short>
+        <long>Deze sleutel geeft de naam van het netwerkconfiguratie-programma dat uitgevoerd wordt als op de knop &quot;Configureren&quot; in het dialoogvenster Eigenschappen wordt geklikt. Als het configuratieprogramma als parameter de in te stellen netwerkverbinding kan ontvangen, kunt u %i in de tekst gebruiken; dit zal dan worden vervangen door de naam van de verbinding bij het uitvoeren van het programma. Bijvoorbeeld: gnome-system-tool&apos;s netwerkbeheer programma krijgt de naam van de verbinding via een configureerparameter. U kunt de waarde van deze sleutel dus zo instellen: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Verktøy for å stilla inn nettverket</short>
+        <long>Denne nøkkelen inneheld namnet på oppsettsverktøyet som skal startast når knappen «Still inn» i eigenskapar-dialogen vert klikka på. Dersom oppsettsverktøyet kan ta nettverkseininga som ein ein parameter, kan du bruka «%i» i strengen, og det vil verta byta ut med namnet på eininga før oppsettsverktøyet startar. Til dømes vil gnome-system-tools sitt nettverksadministrasjonsprogram ta imot namnet på grensesnittet som ein parameter «--configure». Dermed kan du setja denne nøkkelen til  vera «network-admin --configure %i».</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Esplech de configuracion de la ret</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ନେଟଓ୍ବାର୍କ ବିନ୍ଯାସ ଉପକରଣ</short>
+        <long>ଏହି ଚାବିଟି ନେଟଓ୍ବାର୍କ ବିନ୍ଯାସ ଉପକରଣର ନାମ ଉଲ୍ଲେଖ କରିଥାଏ ଯାହାକି ଗୁଣଧର୍ମ ସଂଳାପରେ ଥିବା &quot;ବିନ୍ଯାସ&quot; ବଟନକୁ ଦବାଇଲେ ଚାଳିତ ହେବା ଉଚିତ। ଯଦି ବିନ୍ଯାସ ଉପକରଣ ବିନ୍ଯାସ କରିବା ପାଇଁ ଅନ୍ତରାପ୍ରୁଷ୍ଠର କୌଣସି ପାରାମିଟରକୁ ବାଛି ପାରିବ ନାହିଁ, ତାହାହେଲେ ଆପଣ ବାକ୍ଯଖଣ୍ଡରେ %i କୁ ବ୍ଯବହାର କରିପାରିବେ ଏବଂ ବିନ୍ଯାସ ଉପକରଣ କୁ ଚଳାଇବା ପୂର୍ବରୁ ଏହାକୁ ଅନ୍ତରାପ୍ରୁଷ୍ଠର ନାମ ବଦଳରେ ବ୍ଯବହାର କରାଯିବ। ଉଦାହରଣ ସ୍ବରୂପ, gnome-system-tool ର network-admin ଉପକରଣ ଅନ୍ତରାପ୍ରୁଷ୍ଠ ନାମକୁ ଗୋଟିଏ --configure ପାରାମିଟର ଦ୍ବାରା ନେଇଥାଏ। ତେଣୁ, ଆପଣ ଏହି ଚାବିର ମୂଲ୍ଯକୁ ଏଭଳି ଭାବରେ ବିନ୍ଯାସ କରିବା ଉତିତ: &quot;network-admin --configure %i&quot;।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ ਸੰਦ    </short>
+        <long>ਇਹ ਕੁੰਜੀ ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ ਸੰਦ ਦਾ ਨਾਂ ਦਰਸਾਉਦੀ ਹੈ, ਜਿਹਡ਼ਾ ਵਿਸ਼ੇਸਤਾ ਵਾਰਤਾਲਾਪ ਵਿੱਚ &quot;ਸੰਰਚਨਾ&quot;ਬਟਨ ਦਬਾਉਣ ਤੇ ਖੁੱਲਦਾ ਹੈ। ਜੇਕਰ ਸੰਰਚਨਾ ਸੰਦ ਇੰਟਰਫੇਸ ਤੋਂ ਇੱਕ ਮੁੱਲ ਲੈਂਦਾ ਹੈ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ %i ਸਤਰ ਵਰਤ ਸਕਦੇ ਹੋ ਅਤੇ ਸੰਰਚਨਾ ਸੰਦ ਦੇ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਇੰਟਰਫੇਸ ਨਾਂ ਲਈ ਇਸਤੇਮਾਲ ਕਰ ਸਕਦੇ ਹੋ। ਉਦਾਹਰਨ ਲਈ, ਗਨੋਮ-ਸਿਸਟਮ-ਸੰਦ ਵਿੱਚ ਨੈੱਟਵਰਕ-ਪ੍ਰਬੰਧਕ (network-admin) ਸੰਦ --configure ਮੁੱਲ ਰਾਹੀਂ ਨੈਟਵਰਕ ਮੁੱਲ ਲੈ ਸਕਦਾ ਹੈ। ਇਸਕਰਕੇ, ਤੁਸੀਂ ਇਸ ਕੁੰਜੀ ਲਈ ਮੁੱਲ ਇਸਤਰਾਂ ਦੇ ਸਕਦੇ ਹੋ: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Narzędzie konfiguracji sieci</short>
+        <long>Klucz ten opisuje nazwę narzędzia konfiguracji sieci, które powinno zostać uruchomione po przyciśnięciu przycisku &quot;Konfiguruj&quot; w oknie właściwości.Jeżeli narzędzie konfiguracyjne może pobrać jako parametr, nazwę interfejsu sieciowego do konfiguracji, można użyć parametru %i, który zostanie podmieniony na nazwę interfejsu przed uruchomieniem narzędzia konfiguracji sieci. Np.: narzędzie network-admin z pakietu gnome-system-tools, pobiera nazwę interfejsu sieciowego poprzez parametr --configure. Wtedy, jako wartość klucza można ustawić: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="ps">
+        <short>د ځال د سازونې توکی</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Ferramenta de configuração de rede</short>
+        <long>Esta chave especifica o nome da ferramenta de configuração de rede que deverá ser invocada ao premir o botão &quot;Configurar&quot; no diálogo de propriedades. Se a ferramenta de configuração receber um parâmetro indicando o interface a configurar, poderá utilizar %i na expressão e esta será substituída pelo nome do interface antes de invocar a ferramenta. Por exemplo, a ferramenta network-admin, do gnome-system-tool, recebe o nome do interface através de um parâmetro de configuração --. Assim poderia definir o valor para esta chave como: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Ferramenta de configuração de rede</short>
+        <long>Essa chave especifica o nome da ferramenta de configuração de rede que deve ser chamada quando o botão &quot;Configurar&quot; do diálogo de propriedades for clicado. Se a ferramenta de configuração precisar receber o parâmetro da interface a ser configurada, você deve usar %i na string, que será substituída pelo nome da interface antes da chamada à ferramenta de configuração. Por exemplo, gnome-system-tool recebe o nome da interface através de um parâmetro de configuração. Então, você pode colocar o valor desta chave como sendo: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Unealtă de configurare rețea</short>
+        <long>Această cheie specifică numele uneltei de configurare a rețelei care va fi pornită la apăsarea butonului „Configurare” în fereastra proprietăților. Dacă uneltei de configurare i se poate specifica o anumită interfață de rețea în linia de comandă, puteți substitui %i pentru numele interfeței în comanda aleasă pentru invocarea uneltei de configurare. De exemplu, unealta „network-admin” din „gnome-system-tool” are un parametru „--configure” pentru numele interfeței de rețea. Astfel, puteți seta o comandă de genul: „network-admin --configure %i”.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Утилита настройки сети</short>
+        <long>Этот ключ определяет имя утилиты настройки сети, которая будет вызвана по нажатию кнопки «Настроить» в диалоге настроек. Если утилита настройки может принимать параметр интерфейса для конфигурации, можно использовать шаблон %i в строке, и он будет заменён именем интерфейса. Например, утилита gnome-system-tool принимает интерфейс через параметр --configure. Таким образом, значение этого ключа может иметь вид «network-admin --configure %i».</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Nástroj na konfiguráciu siete</short>
+        <long>Tento kľúč určuje názov nástroja pre konfiguráciu siete, ktorý má byť spustený pri kliknutí na tlačidlo &quot;Konfigurovať&quot; v dialógovom okne vlastností. Ak môže konfiguračný nástroj dostať parameter s rozhraním, ktoré bude konfigurovať, môžete použiť %i v reťazci a bude nahradené s názvom rozhrania pred spustením konfiguračného nástroja. Napríklad: Nástroj network-admin z gnome-system-tools dostáva názov rozhrania cez parameter --configure. Teda môžete nastaviť hodnotu tohoto kľúča na: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Orodje za nastavljanje omrežja</short>
+        <long>Ta ključ določa ime orodja za nastavljanje omrežja, ki se zažene ob kliku na gumb &quot;Nastavi&quot; v pogovornem oknu z nastavitvami. Če orodje za nastavljanje lahko nastavi parameter vmesnika, lahko v nizu uporabite %i, ki se bo pred zagonom orodja za nastavljanje zamenjal z imenom vmesnika. Na primer, orodje network-admin iz gnome-system-tool uporablja ime vmesnika preko parametra --configure. Tako lahko vrednost ključa nastavite na: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Instrument për konfigurimin e rrjetit</short>
+        <long>Kjo vlerë specifikon emrin e instrumentit për konfigurimin e rrjetit që duhet thërritur kur klikohet pulsanti &quot;Konfiguro&quot; tek dritarja e dialogut të pronësive. Nëse instrumenti i konfigurimit mund të marrë parametrat nga interfaqja që duhet konfiguruar ju duhet të përdorni %i tek vlera dhe kjo do të zevendësohet me emrin e interfaqes para se të thërritet instrumenti i konfigurimit. Për shembull, instrumenti network-admin i instrumenteve të gnome-system e merr emrin e interfaqes me anë të parametrit --configure. Kështu, ju duhet të rregulloni vlerën e këtij çelsi që të jetë: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Алат за подешавање мреже</short>
+        <long>Овај кључ одређује име алата за подешавање мреже који се позива када се притисне дугме &quot;Подеси&quot; у прозорчету са особинама. Уколико алат за подешавање прима параметар за уређај који се подешава, можете користити „%i“ које ће бити замењено именом уређаја пре покретања алата за подешавање. На пример, алат network-admin из gnome-system-tools-а прима име уређаја помоћу параметра „--configure“. Тако, можете поставити вредност овог кључа на &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Alat za podešavanje mreže</short>
+        <long>Ovaj ključ određuje ime alata za podešavanje mreže koji se poziva kada se pritisne dugme &quot;Podesi&quot; u prozorčetu sa osobinama. Ukoliko alat za podešavanje prima parametar za uređaj koji se podešava, možete koristiti „%i“ koje će biti zamenjeno imenom uređaja pre pokretanja alata za podešavanje. Na primer, alat network-admin iz gnome-system-tools-a prima ime uređaja pomoću parametra „--configure“. Tako, možete postaviti vrednost ovog ključa na &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Verktyg för nätverkskonfiguration</short>
+        <long>Denna nyckel anger namnet på det verktyg för nätverkskonfiguration som ska startas då du klickar på knappen &quot;Konfigurera&quot; i egenskapsdialogen. Om konfigurationsverktyget kan ta en parameter med gränssnittet som ska konfigureras kan du använda %i i strängen, vilket kommer att bytas ut med gränssnittsnamnet innan konfigurationsverktyget startas. Till exempel tar nätverksadministrationsverktyget i gnome-system-tools gränssnittsnamnet genom en --configure-parameter. Därför kan du ställa in värdet av denna nyckel till att vara: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>பிணைய அமைப்பு கருவி</short>
+        <long>பண்புகள் உரையாடலில் &quot;Configure&quot; பொத்தான் சொடுக்கப்பட்ட போது துவங்க வேண்டிய வலை வடிவமைப்பு கருவியின் பெயரை இந்த விசை குறிக்கிறது. அந்த கருவி ஒரு இடைமுகத்தின் அளவுருவை எடுத்துக்கொள்ள முடியுமானால் நீங்கள் %i ஐ சரத்தில் பயன்படுத்தலாம். அது வடிவமைப்பு கருவியை துவங்கு முன் இடைமுகத்தின் பெயரால் மாற்றப்படும். உதாரணமாக க்னோம் அமைப்பு கருவியின் வலை நிர்வாக கருவி இடைமுகத்தின் பெயரை ஒரு -- அளபுருவால் எடுத்துக்கொள்ளும். அதாவது நீங்கள் இந்த விசைக்கு மதிப்பாக இந்த அளபுருவை பயன்படுத்தலாம்: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="te">
+        <short>అల్లిక రూపకరణ పనిముట్టు</short>
+        <long>లక్షణముల డైలాగు నందలి బటన్ &quot;Configure&quot; నొక్కినప్పుడు ప్రేరణ పొందు నెట్వర్కు ఆకృతీకరణ సాధనము యొక్క నామమును ఈ కీ తెలుపుతుంది. ఆకృతీకరణ సాధనము ఇంటర్ఫేస్ యొక్క పారామితిని ఆకృతీకరించుటకు తీసుకొనగలిగితే మీరు %iను స్ట్రింగునందు వుపయోగించవచ్చు అది ఆకృతీకరణ సాధనము ప్రేరేపించటకు ముందుగా ఇంటర్ఫేసు నామముతో ప్రతిక్షేపించబడుతుంది. ఉదాహరణకు, gnome-system-tool యొక్క network-admin సాధనము ఇంటర్ఫేస్ నామమును --configure పారామితి ద్వారా తీసుకొనబడుతుంది. మీరు ఈ కీయొక్క విలువను దీనికి అమర్చవచ్చును: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เครื่องมือปรับแต่งเครือข่าย</short>
+        <long>คีย์นี้บอกชื่อเครื่องมือปรับแต่งการติดต่อเครือข่าย ที่ควรเรียกเมื่อผู้ใช้กดปุ่ม &quot;ปรับแต่ง&quot; ในหน้าต่างคุณสมบัติ  ถ้าเครื่องมือปรับแต่ง สามารถรับพารามิเตอร์ บอกอินเทอร์เฟซที่จะปรับแต่ง ใช้ %i ตรงที่ต้องการ ชื่ออินเทอร์เฟซที่ควรปรับแต่ง  ตัวอย่างเช่น &quot;network-admin --configure %i&quot;</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Ağ yapılandırma aracı</short>
+        <long>Bu anahtar &quot;Özellikler&quot; penceresinde yer alan &quot;Yapılandır&quot; düğmesine basıldığında çalıştırılacak olan ağ yapılandırma aracını belirtir. Eğer yapılandırma aracı, yapılandırılacak ağ arabiriminin adını komut satırından parametre olarak alabiliyorsa metin içerisinde yapılandırma aracı çalıştırılırken yapılandırılacak ağ arabiriminin adı ile değiştirilecek olan %i değerini kullanabilirsiniz. Örneğin, gnome-system-tools paketinde yer alan network-admin aracı arabirim adını --configure parametresi ile alabilir. Bu durumda, bu anahtarın değerini &quot;network-admin --configure %i&quot; olarak tanımlayabilirsiniz.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Утиліта налаштовування мережі</short>
+        <long>Цей ключ вказує назву програми налаштовування мережі, яка викликатиметься при натисканні на кнопку &quot;Налаштувати&quot; діалогового вікна. Якщо утиліта налаштовування може приймати параметр, в якому вказується інтерфейс, що налаштовується, ви можете використовувати у цьому рядку %i, куди підставлятиметься назва інтерфейсу. Наприклад, у програмі gnome-system-tool інтерфейс вказується у параметрі --configure. Таким чином, значення цього ключа буде: &quot;network-admin --configure %i&quot;.</long>
+      </locale>
+
+      <locale name="uz">
+        <short>Tarmoqni moslash vositasi</short>
+        
+      </locale>
+
+      <locale name="uz@cyrillic">
+        <short>Тармоқни мослаш воситаси</short>
+        
+      </locale>
+
+      <locale name="vi">
+        <short>Công cụ cấu hình mạng</short>
+        <long>Khoá này xác định tên của công cụ cấu hình mạng mà nên được gọi khi cái nút « Cấu hình » trong hộp thoại thuộc tính được bấm. Nếu công cụ cấu hình có khả năng chấp nhận một tham số là giao diện cần cấu hình thì người dùng có thể sử dụng « %i » trong chuỗi, và nó sẽ được thay thế bằng tên giao diện trước khi gọi công cụ cấu hình. Ví dụ, công cụ network-admin (quản lý mạng) của gnome-system-tool (công cụ hệ thống GNOME) lấy tên giao diện thông qua một tham số « --configure ». Vì thế người dùng có thể đặt giá trị của khoá này thành:
+« network-admin --configure %i ».</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Isixhobo sokumisela inkqubo yothungelwano</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>网络配置工具</short>
+        <long>此键指定了网络配置工具的名称，在单击属性对话框中的“配置”按钮时会调用此工具。如果配置工具可以从接口中接收参数，您可以在字符串中使用 %i。在调用配置工具之前，%i 会被替换为接口名称。例如， gnome-system-tool 的 network-admin 工具通过 --configure 参数接收接口名称。所以，您可以将此键的值设置为：“network-admin --configure %i”。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>網絡設置工具</short>
+        <long>這個鍵指定了當屬性對話方塊中的「配置」按鈕被按下時所啟動網絡設定工具的名稱。如果設定工具可以由參數中指定要配置的介面，你可以在這值加上 %i。在啟動設定工具前，介面名稱將會取代 %i。例如，gnome-system-tool 的網絡管理工具 (network-admin) 用 --configure 選項取得要配置的介面名稱，所以你可以把這個鍵的值設定為： “network-admin --configure %i”。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>網路設置工具</short>
+        <long>這個鍵指定了當屬性對話方塊中的「配置」按鈕被按下時所啟動網路設定工具的名稱。如果設定工具可以由參數中指定要配置的介面，你可以在這值加上 %i。在啟動設定工具前，介面名稱將會取代 %i。例如，gnome-system-tool 的網路管理工具 (network-admin) 用 --configure 選項取得要配置的介面名稱，所以你可以把這個鍵的值設定為： “network-admin --configure %i”。</long>
+      </locale>
+    </schema>
+                 
+  </schemalist>
+</gconfschemafile>

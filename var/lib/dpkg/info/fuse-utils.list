@@ -1,0 +1,4 @@
+/etc
+/etc/fuse.conf
+/etc/init.d
+/etc/init.d/fuse

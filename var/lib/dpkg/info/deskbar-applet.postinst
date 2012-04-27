@@ -1,0 +1,20 @@
+#!/bin/sh -e
+
+# Version 2.18.1-1 started shipping /var/lib/scrollkeeper erroneously,
+# hence the database was overwritten and needs a full rebuild.
+if [ "$1" = "configure" ] \
+    && dpkg --compare-versions "$2" ge-nl "2.18.1-1" \
+    && dpkg --compare-versions "$2" lt-nl "2.18.1-2" \
+    && which scrollkeeper-rebuilddb >/dev/null 2>&1; then
+    echo "Upgrade from broken deskbar-applet version detected, running scrollkeeper-rebuilddb..."
+    scrollkeeper-rebuilddb -q
+fi
+
+# Automatically added by dh_pysupport
+if which update-python-modules >/dev/null 2>&1; then
+	update-python-modules  deskbar-applet.public deskbar-applet.private
+fi
+# End automatically added section
+
+
+exit 0

@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/gnome
+/usr/share/gnome/shutdown
+/usr/share/gnome/shutdown/libcanberra-logout-sound.sh
+/usr/share/gnome/autostart
+/usr/share/gnome/autostart/libcanberra-login-sound.desktop
+/usr/share/doc
+/usr/share/doc/gnome-session-canberra
+/usr/share/doc/gnome-session-canberra/README.gz
+/usr/share/doc/gnome-session-canberra/changelog.Debian.gz
+/usr/share/doc/gnome-session-canberra/copyright

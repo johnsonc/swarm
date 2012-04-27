@@ -1,0 +1,16 @@
+This package was debianized by Björn Brenander bjorn@debian.org on
+Tue, 14 Apr 1998 23:30:00 +0200.
+
+It was downloaded from ftp://ftp.lysator.liu.se/pub/unix/tcputils/
+
+Copyright:
+
+These programs are released into the public domain.  You may do
+anything you like with them, including modifying them and selling
+the binaries without source for ridiculous amounts of money without
+saying who made them originally.
+
+However, I would be happy if you release your works with complete
+source for free use.
+
+(From original README by Thomas Bellman <bellman@lysator.liu.se>)

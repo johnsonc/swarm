@@ -1,0 +1,4 @@
+/etc/init.d/apmd
+/etc/logcheck/ignore.d.paranoid/apmd
+/etc/apm/apmd_proxy
+/etc/default/apmd

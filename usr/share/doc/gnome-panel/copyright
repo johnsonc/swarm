@@ -1,0 +1,64 @@
+This package was debianized by Jim Pick jim@jimpick.com on Sat, 14 Mar
+1998 20:12:23 -0800. Taken over by Raphael Hertzog
+<hertzog@debian.org> on Wed, 22 Sep 1999 13:24:34 +0200, and taken
+over again by James LewisMoss on October 26, 1999.
+and again by Marc Dequènes (Duck) <Duck@DuckCorp.org> on 2003-03-26.
+
+It was downloaded from http://ftp.gnome.org/pub/GNOME/sources/gnome-panel/
+
+Upstream Authors and Copyright holders:
+  Too many to list here, but the full list is in:
+    /usr/share/doc/gnome-panel/AUTHORS
+
+License for the panel:
+
+   This program is free software; you can redistribute it and/or
+   modify it under the terms of the GNU General Public License as
+   published by the Free Software Foundation; either version 2 of the
+   License, or (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful, but
+   WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 
+   02110-1301 USA.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+
+License for the library:
+
+   This library is free software; you can redistribute it and/or
+   modify it under the terms of the GNU Library General Public
+   License as published by the Free Software Foundation; either
+   version 2 of the License, or (at your option) any later version.
+
+   This library is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Library General Public License for more details.
+
+   You should have received a copy of the GNU Library General Public
+   License along with this library; if not, write to the
+   Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+   Boston, MA  02110-1301 USA.
+
+On Debian systems, the complete text of the GNU Library General
+Public License can be found in `/usr/share/common-licenses/LGPL-2'.
+
+
+License for the documentation:
+
+   Permission is granted to copy, distribute and/or modify this
+   document under the terms of the GNU Free Documentation
+   License (GFDL), Version 1.1 or any later version published
+   by the Free Software Foundation with no Invariant Sections,
+   no Front-Cover Texts, and no Back-Cover Texts.
+
+On Debian systems, the complete text of the GNU Free Documentation
+License can be found in `/usr/share/common-licenses/GFDL-1.2'.

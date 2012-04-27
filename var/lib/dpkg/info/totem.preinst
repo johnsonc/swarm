@@ -1,0 +1,13 @@
+#! /bin/sh
+set -e
+
+# can be dropped after squeeze is released
+if [ "$1" = upgrade ] && dpkg --compare-versions "$2" lt "2.30.1-1" ; then
+        update-alternatives --quiet --remove-all gnome-video-thumbnailer || true
+        update-alternatives --quiet --remove-all totem || true
+fi
+
+
+
+exit 0
+

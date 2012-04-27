@@ -1,0 +1,2 @@
+evolution-common: desktop-command-not-in-package /usr/share/applications/evolution.desktop evolution
+evolution-common: desktop-command-not-in-package /usr/share/applications/evolution-settings.desktop evolution-settings

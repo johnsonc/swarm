@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libgweather.so.1.6.10
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgweather1
+/usr/share/doc/libgweather1/AUTHORS
+/usr/share/doc/libgweather1/NEWS.gz
+/usr/share/doc/libgweather1/changelog.Debian.gz
+/usr/share/doc/libgweather1/changelog.gz
+/usr/share/doc/libgweather1/README
+/usr/share/doc/libgweather1/copyright
+/usr/lib/libgweather.so.1

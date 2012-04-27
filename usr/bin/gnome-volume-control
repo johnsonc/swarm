@@ -1,0 +1,6 @@
+#! /bin/sh
+
+if xprop -root | grep -q ^PULSE_SERVER ; then
+    exec gnome-volume-control.pulse "$@"
+fi
+exec gnome-volume-control.gstreamer "$@"

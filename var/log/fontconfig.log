@@ -1,0 +1,31 @@
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 3 dirs
+/usr/share/fonts/X11: skipping, existing cache is valid: 0 fonts, 6 dirs
+/usr/share/fonts/X11/100dpi: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/X11/75dpi: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/X11/Type1: skipping, existing cache is valid: 8 fonts, 0 dirs
+/usr/share/fonts/X11/encodings: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/X11/encodings/large: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/X11/misc: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/X11/util: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 0 fonts, 15 dirs
+/usr/share/fonts/truetype/freefont: skipping, existing cache is valid: 12 fonts, 0 dirs
+/usr/share/fonts/truetype/openoffice: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-bengali-fonts: caching, new cache contents: 8 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-dejavu: skipping, existing cache is valid: 21 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-devanagari-fonts: skipping, existing cache is valid: 15 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-gujarati-fonts: caching, new cache contents: 7 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-kannada-fonts: caching, new cache contents: 9 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-liberation: skipping, existing cache is valid: 12 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-malayalam-fonts: caching, new cache contents: 8 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-oriya-fonts: caching, new cache contents: 3 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-punjabi-fonts: caching, new cache contents: 2 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-sil-gentium: skipping, existing cache is valid: 4 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-sil-gentium-basic: skipping, existing cache is valid: 8 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-tamil-fonts: caching, new cache contents: 9 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-telugu-fonts: caching, new cache contents: 3 fonts, 0 dirs
+/usr/share/fonts/type1: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/type1/gsfonts: skipping, existing cache is valid: 35 fonts, 0 dirs
+/usr/X11R6/lib/X11/fonts: skipping, no such directory
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+fc-cache: succeeded

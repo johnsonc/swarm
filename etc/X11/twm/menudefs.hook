@@ -1,0 +1,181 @@
+# Automatically generated file. Do not edit (see /usr/share/doc/menu/html/index.html)
+
+menu "/Debian/Applications/Accessibility"
+{
+  "CellWriter"    f.exec  "/usr/bin/cellwriter &"
+  "Xmag"    f.exec  "xmag &"
+  "xvkbd"    f.exec  "/usr/bin/xvkbd &"
+}
+menu "/Debian/Applications/Editors"
+{
+  "Gedit"    f.exec  "/usr/bin/gedit &"
+  "Nano"    f.exec  "x-terminal-emulator  -T \"Nano\" -e sh -c \"/bin/nano\" &"
+  "Xedit"    f.exec  "xedit &"
+}
+menu "/Debian/Applications/File Management"
+{
+  "Brasero"    f.exec  "/usr/bin/brasero &"
+  "File-Roller"    f.exec  "/usr/bin/file-roller &"
+  "GNOME Search Tool"    f.exec  "/usr/bin/gnome-search-tool &"
+  "mc"    f.exec  "x-terminal-emulator  -T \"mc\" -e sh -c \"/usr/bin/mc\" &"
+  "Nautilus"    f.exec  "/usr/bin/nautilus &"
+}
+menu "/Debian/Applications/Graphics"
+{
+  "GNOME Screenshot Tool"    f.exec  "/usr/bin/gnome-panel-screenshot &"
+  "OpenOffice.org Draw"    f.exec  "/usr/bin/oodraw &"
+  "The GIMP"    f.exec  "/usr/bin/gimp &"
+  "X Window Snapshot"    f.exec  "xwd | xwud &"
+}
+menu "/Debian/Applications/Network/Communication"
+{
+  "Evolution"    f.exec  "/usr/bin/evolution &"
+  "Xbiff"    f.exec  "xbiff &"
+}
+menu "/Debian/Applications/Network/Web Browsing"
+{
+  "Epiphany web browser"    f.exec  "/usr/bin/epiphany-browser &"
+  "Iceweasel"    f.exec  "iceweasel &"
+}
+menu "/Debian/Applications/Network"
+{
+  "Communication" f.menu "/Debian/Applications/Network/Communication"
+  "Web Browsing" f.menu "/Debian/Applications/Network/Web Browsing"
+}
+menu "/Debian/Applications/Office"
+{
+  "OpenOffice.org Calc"    f.exec  "/usr/bin/oocalc &"
+  "OpenOffice.org Impress"    f.exec  "/usr/bin/ooimpress &"
+  "OpenOffice.org Writer"    f.exec  "/usr/bin/oowriter &"
+}
+menu "/Debian/Applications/Programming"
+{
+  "Python (v2.6)"    f.exec  "x-terminal-emulator  -T \"Python (v2.6)\" -e sh -c \"/usr/bin/python2.6\" &"
+  "Tclsh8.4"    f.exec  "x-terminal-emulator  -T \"Tclsh8.4\" -e sh -c \"/usr/bin/tclsh8.4\" &"
+}
+menu "/Debian/Applications/Science/Mathematics"
+{
+  "Bc"    f.exec  "x-terminal-emulator  -T \"Bc\" -e sh -c \"/usr/bin/bc\" &"
+  "Dc"    f.exec  "x-terminal-emulator  -T \"Dc\" -e sh -c \"/usr/bin/dc\" &"
+  "OpenOffice.org Math"    f.exec  "/usr/bin/oomath &"
+  "Xcalc"    f.exec  "xcalc &"
+}
+menu "/Debian/Applications/Science"
+{
+  "Mathematics" f.menu "/Debian/Applications/Science/Mathematics"
+}
+menu "/Debian/Applications/Shells"
+{
+  "Bash"    f.exec  "x-terminal-emulator  -T \"Bash\" -e sh -c \"/bin/bash --login\" &"
+  "Dash"    f.exec  "x-terminal-emulator  -T \"Dash\" -e sh -c \"/bin/dash -i\" &"
+  "Sh"    f.exec  "x-terminal-emulator  -T \"Sh\" -e sh -c \"/bin/sh --login\" &"
+}
+menu "/Debian/Applications/Sound"
+{
+  "gmix (Gnome 2.0 Mixer)"    f.exec  "/usr/bin/gnome-volume-control &"
+  "grecord (GNOME 2.0 Recorder)"    f.exec  "/usr/bin/gnome-sound-recorder &"
+}
+menu "/Debian/Applications/System/Administration"
+{
+  "Aptitude (terminal)"    f.exec  "x-terminal-emulator  -T \"Aptitude (terminal)\" -e sh -c \"/usr/bin/aptitude-curses\" &"
+  "Debian Task selector"    f.exec  "x-terminal-emulator  -T \"Debian Task selector\" -e sh -c \"su-to-root -c tasksel\" &"
+  "Editres"    f.exec  "editres &"
+  "GDM flexiserver"    f.exec  "gdmflexiserver &"
+  "Gnome Control Center"    f.exec  "/usr/bin/gnome-control-center &"
+  "Network Admin"    f.exec  "/usr/bin/network-admin &"
+  "Services Admin"    f.exec  "/usr/bin/services-admin &"
+  "Shares Admin"    f.exec  "/usr/bin/shares-admin &"
+  "Time Admin"    f.exec  "/usr/bin/time-admin &"
+  "User accounts Admin"    f.exec  "/usr/bin/users-admin &"
+  "Xclipboard"    f.exec  "xclipboard &"
+  "Xfontsel"    f.exec  "xfontsel &"
+  "Xkill"    f.exec  "xkill &"
+  "Xrefresh"    f.exec  "xrefresh &"
+}
+menu "/Debian/Applications/System/Hardware"
+{
+  "Xvidtune"    f.exec  "xvidtune &"
+}
+menu "/Debian/Applications/System/Language Environment"
+{
+  "Input Method Configuration"    f.exec  "x-terminal-emulator  -T \"Input Method Configuration\" -e sh -c \"/usr/bin/im-config\" &"
+}
+menu "/Debian/Applications/System/Monitoring"
+{
+  "GNOME system monitor"    f.exec  "/usr/bin/gnome-system-monitor &"
+  "Pstree"    f.exec  "x-terminal-emulator  -T \"Pstree\" -e sh -c \"/usr/bin/pstree.x11\" &"
+  "Top"    f.exec  "x-terminal-emulator  -T \"Top\" -e sh -c \"/usr/bin/top\" &"
+  "Xconsole"    f.exec  "xconsole -file /dev/xconsole &"
+  "Xev"    f.exec  "x-terminal-emulator -e xev &"
+  "Xload"    f.exec  "xload &"
+}
+menu "/Debian/Applications/System"
+{
+  "Administration" f.menu "/Debian/Applications/System/Administration"
+  "Hardware" f.menu "/Debian/Applications/System/Hardware"
+  "Language Environment" f.menu "/Debian/Applications/System/Language Environment"
+  "Monitoring" f.menu "/Debian/Applications/System/Monitoring"
+}
+menu "/Debian/Applications/Terminal Emulators"
+{
+  "Gnome Terminal"    f.exec  "/usr/bin/gnome-terminal &"
+  "XTerm"    f.exec  "xterm &"
+  "X-Terminal as root (GKsu)"    f.exec  "/usr/bin/gksu -u root /usr/bin/x-terminal-emulator &"
+  "XTerm (Unicode)"    f.exec  "uxterm &"
+}
+menu "/Debian/Applications/Video"
+{
+  "Totem"    f.exec  "/usr/bin/totem &"
+}
+menu "/Debian/Applications/Viewers"
+{
+  "Evince"    f.exec  "/usr/bin/evince &"
+  "Eye of GNOME"    f.exec  "/usr/bin/eog &"
+  "Xditview"    f.exec  "xditview &"
+}
+menu "/Debian/Applications"
+{
+  "Accessibility" f.menu "/Debian/Applications/Accessibility"
+  "Editors" f.menu "/Debian/Applications/Editors"
+  "File Management" f.menu "/Debian/Applications/File Management"
+  "Graphics" f.menu "/Debian/Applications/Graphics"
+  "Network" f.menu "/Debian/Applications/Network"
+  "Office" f.menu "/Debian/Applications/Office"
+  "Programming" f.menu "/Debian/Applications/Programming"
+  "Science" f.menu "/Debian/Applications/Science"
+  "Shells" f.menu "/Debian/Applications/Shells"
+  "Sound" f.menu "/Debian/Applications/Sound"
+  "System" f.menu "/Debian/Applications/System"
+  "Terminal Emulators" f.menu "/Debian/Applications/Terminal Emulators"
+  "Video" f.menu "/Debian/Applications/Video"
+  "Viewers" f.menu "/Debian/Applications/Viewers"
+}
+menu "/Debian/Games/Toys"
+{
+  "Oclock"    f.exec  "oclock &"
+  "Xclock (analog)"    f.exec  "xclock -analog &"
+  "Xclock (digital)"    f.exec  "xclock -digital -update 1 &"
+  "Xeyes"    f.exec  "xeyes &"
+  "Xlogo"    f.exec  "xlogo &"
+}
+menu "/Debian/Games"
+{
+  "Toys" f.menu "/Debian/Games/Toys"
+}
+menu "/Debian/Help"
+{
+  "Info"    f.exec  "x-terminal-emulator  -T \"Info\" -e sh -c \"info\" &"
+  "Xman"    f.exec  "xman &"
+  "yelp"    f.exec  "/usr/bin/yelp &"
+}
+menu "/Debian/Window Managers"
+{
+ "Twm" f.startwm "twm"
+}
+menu "/Debian"
+{
+  "Applications" f.menu "/Debian/Applications"
+  "Games" f.menu "/Debian/Games"
+  "Help" f.menu "/Debian/Help"
+  "Window Managers" f.menu "/Debian/Window Managers"
+}
